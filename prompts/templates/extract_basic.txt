@@ -1,3 +1,9 @@
+Here is the academic paper to analyze:
+
+{paper_text}
+
+Based on this paper, please analyze and provide the following information:
+
 You must follow these instructions with absolute precision:
 
 DO NOT make assumptions beyond what is explicitly stated in the prompts
