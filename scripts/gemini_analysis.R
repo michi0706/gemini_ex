@@ -35,8 +35,14 @@ perform_analysis = function() {
       template = paste0(readLines(template_file, warn = FALSE), collapse="\n")
       prompt = gsub("{paper_text}", paper_text, template, fixed=TRUE)
       
-      # 生成したプロンプトを渡して実行
-      res = analyse_prompt_file(template_file, config_df=config_df, api_key=API_KEY, generated_prompt=prompt)
+      # プロンプトを直接run_geminiに渡す
+      config = get_prompt_config(template_file, config_df)
+      res = run_gemini(prompt, api_key=API_KEY, 
+                      json_mode=config$json_mode, 
+                      model=config$model, 
+                      temperature=config$temperature)
+      
+      # 結果の保存
       out_file = paste0(outdir, "/", paper_name, "_", template_name, ".Rds")
       saveRDS(res, out_file)
 
@@ -54,31 +60,6 @@ perform_analysis = function() {
     }
   }
   cat("\n\nFINISHED\n\n")
-}
-
-analyse_prompt_file = function(file, config_df, api_key, verbose=TRUE, add_prompt=TRUE, generated_prompt=NULL){
-  if (verbose) {
-    cat(paste0("\n\nANALYSE ", file,"\n\n"))
-  }
-  # プロンプトが渡された場合はそれを使用、そうでない場合はファイルから読み込み
-  prompt = if(!is.null(generated_prompt)) {
-    generated_prompt
-  } else {
-    paste0(readLines(file, warn = FALSE), collapse="\n")
-  }
-  
-  config = get_prompt_config(file, config_df)
-  prompt_name = tools::file_path_sans_ext(basename(file))
-  if (isTRUE(config$embedding)) {
-    res = run_gemini_embedding(prompt, api_key, model=config$model)
-  } else {
-    res = run_gemini(prompt, api_key, json_mode=config$json_mode, model=config$model, temperature = config$temperature)
-  }
-  res$prompt_name = prompt_name
-  if (isTRUE(config$add_prompt)) {
-    res$prompt = prompt
-  }
-  res
 }
 
 get_prompt_config = function(file, config_df) {
