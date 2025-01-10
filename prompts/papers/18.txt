@@ -1,0 +1,2586 @@
+American Economic Review 2018, 108(12): 3855–3890 
+https://doi.org/10.1257/aer.20151507
+
+Commuting, Migration, and Local Employment Elasticities†
+
+By Ferdinando Monte, Stephen J. Redding, and Esteban Rossi-Hansberg*
+
+We provide theory and evidence that the elasticity of local employment 
+to  a  labor  demand  shock  is  heterogeneous  depending  on  the  com-
+muting openness of the local labor market. We develop a quantitative 
+general equilibrium model that incorporates spatial linkages in goods 
+
+markets (trade) and factor markets (commuting and migration). We
+
+quantify this model to match the observed gravity equation relation-
+ships  for  trade  and  commuting.  We  find  that   empirically-observed 
+reductions in commuting costs generate welfare gains of around 3.3 
+percent. We provide separate  quasi-experimental evidence in support 
+of the model’s predictions using the location decisions of million dol-
+
+lar plants. (JEL J23, J61, R23, R32, R41)
+
+Agents spend about 8 percent of their workday commuting to and from work.1 
+They make this significant daily investment, to live and work in different locations, 
+so as to balance their living costs and residential amenities with the wage they can 
+obtain  at  their  place  of  employment.  The  ability  of  firms  in  a  location  to  attract 
+workers depends, therefore, not only on the ability to attract local residents through 
+migration, but also on the ability to attract commuters from other, nearby, locations. 
+Together, migration and commuting determine the response of local employment to 
+a local labor demand shock, which we term the local employment elasticity. This 
+elasticity is of great policy interest since it determines the impact of local policies, 
+such as transport infrastructure investments, local taxation, and regional develop-
+ment programs. Estimating its magnitude has been the subject of a large empiri-
+cal literature on local labor markets, which has considered a variety of sources of 
+local  labor  demand  shocks,  including  sectoral  composition (Bartik  shocks),  pro-
+ductivity, international trade, natural resource abundance, and business cycle fluc-
+tuations,  as  discussed  further  below.2  In  this  paper,  we  explore  the  determinants 
+
+* Monte: McDonough School of Business, 37th and O Streets NW, Washington, DC 20057 (email: ferdinando.
+monte@georgetown.edu);  Redding:  Department  of  Economics  and  WWS,  Princeton  University,  Princeton,
+NJ  08544 (email:  reddings@princeton.edu);  Rossi-Hansberg:  Department  of  Economics  and  WWS,  Princeton
+University,  Princeton,  NJ  08544 (email:  erossi@princeton.edu). This  paper  was  accepted  to  the  AER  under  the
+guidance of Luigi Pistaferri, Coeditor. Much of this research was undertaken while Ferdinando Monte was visiting 
+the International Economics Section (IES) at Princeton. We are grateful to the IES and Princeton more generally
+for research support. We are also grateful to the editor, four anonymous referees, and conference and seminar par-
+ticipants for helpful comments and suggestions. The authors declare that they have no relevant or material financial 
+interests that relate to the research described in this paper.
+disclosure statement(s).
+
+† Go  to  https://doi.org/10.1257/aer.20151507  to  visit  the  article  page  for  additional  materials  and  author  
+1 See, for example, Redding and Turner (2015).
+2 For a survey of this empirical literature, see Moretti (2011).
+
+3855
+
+3856
+
+and  characteristics of the local employment elasticity (and the corresponding local 
+resident elasticity).
+We begin by developing a quantitative general equilibrium model that incorpo-
+rates  spatial  linkages  between  locations  in  both  goods  markets (trade)  and  factor 
+markets (commuting and migration). We show that there is no single local employ-
+ment elasticity. Instead, the local employment elasticity is an endogenous variable 
+that differs across locations depending on their linkages to one another in goods and 
+factor markets. Quantifying our model to county-level data for the United States, we 
+find that the elasticity of local employment with respect to local productivity shocks 
+varies  from  around  0.5  to  2.5.  Therefore,  an  average  local  employment  elasticity 
+estimated from cross-section data can be quite misleading when used to predict the 
+impact of a local shock or policy on any individual county. We use our quantitative 
+model to understand the systematic determinants of the local employment elasticity 
+and show that a large part of the variation results from differences in commuting links 
+between a location and its neighbors. We then propose variables that can be included 
+in reduced-form regressions to improve their ability to account for the heterogeneity 
+in local employment responses without imposing the full structure of our model.
+
+Our theoretical framework allows for an arbitrary number of locations that can 
+differ in productivity, amenities, and geographical relationship to one another. The 
+spatial distribution of economic activity is driven by a tension between productiv-
+ity differences and home market effects (forces for the concentration of economic 
+activity) and an inelastic supply of land and commuting costs (dispersion forces). 
+Commuting allows workers to access high productivity employment locations with-
+out having to live there and hence alleviates the congestion effect in such high pro-
+ductivity locations. We show that the resulting commuting flows between locations 
+exhibit a gravity equation relationship with a much higher distance elasticity than 
+for goods flows, suggesting that moving people is more costly than moving goods 
+across geographic space. We discipline our quantitative spatial model to match the 
+observed gravity equation relationships for trade in goods and commuting flows as 
+well as the observed cross-section distributions of employment, residents, and wages 
+across US counties. Given the observed data on wages, employment by workplace, 
+commuting  flows  and  land  area,  and  a  parameterization  of  trade  and  commuting 
+costs, we show that our model can be used to recover unique values of the unob-
+served location fundamentals (productivity and amenities) that exactly rationalize 
+the observed data as an equilibrium of the model. We show how the values of these 
+observed variables in an initial equilibrium can be used to undertake counterfactuals 
+for the impact of local labor demand shocks (captured by productivity shocks in our 
+model) and for the impact of changes in trade or commuting costs.
+An advantage of our explicitly modeling the spatial linkages between locations is 
+that our framework can be taken to data on local economic activity at different levels 
+of spatial aggregation. In contrast, existing research that does not explicitly model 
+these spatial linkages is faced with a trade-off when studying local labor markets. 
+On the one hand, larger spatial units have the advantage of reducing the unmodeled 
+spatial linkages between locations. On the other hand, larger spatial units reduce the 
+ability to make inferences about local labor markets. Existing research has typically 
+resolved  this  trade-off  by  defining  commuting  zones (CZs)  that  are  aggregations 
+of counties chosen to minimize commuting flows. However, there exists no choice 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183857
+
+1960
+1970
+1980
+1990
+2000
+
+0.2
+
+0.4
+
+0.6
+
+0.8
+
+1
+
+Share of residents who work in the county where they live
+
+0.1
+
+y
+t
+i
+s
+n
+e
+D
+
+0.05
+
+0
+
+0
+
+Figure 1. Kernel Densities of the Share of Residents Who Work in the County Where They Live
+
+of boundaries for local labor markets that completely eliminates commuting. For 
+example, should Princeton, NJ be considered part of New York’s or Philadelphia’s 
+local labor market? Some of its residents commute to New York, but others com-
+mute  to  Philadelphia.  Furthermore,  often  researchers  are  interested  in  the  effects 
+of policy interventions at spatial scales smaller than CZs. For example, transport 
+infrastructure  improvements  can  disproportionately  affect  commuting  between 
+counties within CZs. As a preliminary illustration of the size and heterogeneity of 
+these commuting interactions between counties, Figure 1 displays kernel densities 
+of the share of residents who work in the same county where they live (the “resi-
+dence own commuting share”). In 1960, when the interstate highway system had 
+only recently begun to be constructed, US counties were relatively closed, as shown 
+by  the  concentration  of  density  at  high  values,  with  the  median  own  commuting 
+share equal to 91 percent. Forty years later, the picture is rather different, as shown 
+by the marked shift in density toward lower values, with a median own commuting 
+share  equal  to  69  percent.3  More  generally,  the  substantial  heterogeneity  in  own 
+commuting shares, evident in Figure 1, already suggests that counties are likely to 
+differ substantially in the extent to which labor market shocks and policies spill over 
+across their boundaries.
+
+We show that our results are robust both theoretically and empirically. From a the-
+oretical perspective, we show that heterogeneous local employment elasticities are 
+not specific to our theoretical model, but rather are a more generic prediction of an 
+entire class of theoretical models consistent with a gravity equation for  commuting 
+
+3 In Figure 1, we measure commuting using the share of residents who work in the same county where they live. 
+We show below that this measure is model consistent and it is the only measure available at the county level over the 
+entire 1960–2000 period. The distributions for each decade shown in Figure 1 are statistically significantly different 
+from those in the decade immediately before using a Kolmogorov-Smirnov test. These shifts in the distribution 
+over time are also apparent if we weight counties by residents or use CZs instead of counties (as shown in online 
+Appendix Section B.6). 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123858
+
+flows. From an empirical perspective, we show that we continue to find substan-
+tial heterogeneity in these local employment elasticities when we  incorporate the 
+variable land supply elasticities from Saiz (2010). Introducing this second source 
+of heterogeneity generates more variation in local resident elasticities but does not 
+reduce the variation in local employment elasticities. This pattern of results is intu-
+itive. The housing supply elasticity matters less for employment than for residents, 
+because  commuting  allows  individuals  to  work  in  locations  with  inelastic  hous-
+ing supplies without actually having to live there and pay the resulting high land 
+prices. Therefore, a high productivity location with an inelastic housing supply can 
+increase employment through commuting without requiring substantial changes in 
+the number of residents. An important policy implication is that improvements in 
+commuting technologies provide an alternative to the relaxation of housing supply 
+elasticities in facilitating the allocation of workers to productive locations. While 
+this possibility has been informally discussed in the existing literature on housing 
+supply elasticities (as for example in Hsieh and Moretti 2017), we are the first, as 
+far as we are aware, to provide quantitative empirical evidence on the relevance of 
+commuting for the response of employment to local labor demand shocks.
+
+We provide separate empirical evidence independent of our model for the impor-
+tance  of  commuting  for  employment  changes  using  quasi-experimental  variation 
+from comparisons of winner and runner-up counties in competitions for million dol-
+lar plants (MDPs, following Greenstone, Hornbeck, and Moretti 2010—henceforth 
+GHM). As runner-up counties are those that have survived a long selection process 
+but narrowly lost the competition, they are likely to provide a better counterfactual 
+for a winner county than other comparison counties. We find no evidence of statis-
+tically significant differences in employment growth in winner and runner-up coun-
+ties prior to the announcement of MDPs, but substantial differences emerge after 
+these announcements. Consistent with the predictions of our model, we find greater 
+increases in employment from the positive labor demand shock from the opening of 
+a MDP in counties with more open commuting markets.4
+
+Having provided this independent evidence in support of commuting as a source of 
+heterogeneity in employment responses to local labor demand shocks, we show that 
+our model provides a platform for evaluating the counterfactual effects of changes in 
+trade and commuting costs. Building on approaches in the international trade liter-
+ature (e.g., Head and Ries 2001), we show how observed data on commuting flows 
+over time can be used to back out the empirical distribution of implied changes in 
+commuting costs. We use this empirical distribution to undertake counterfactuals for 
+empirically-plausible changes in commuting costs. For example, reducing commut-
+ing costs by the median reduction from 1990–2010 (a reduction of 12 percent), we 
+find an increase in welfare of 3.3 percent. The commuting technology facilitates a 
+separation of workplace and residence, enabling people to work in high productivity 
+locations and live in high amenity locations. Therefore reducing commuting costs 
+increases the concentration of employment in locations that were net importers of 
+
+4 These results are consistent with the empirical findings, in another context, of Manning and Petrongolo (2017), 
+which shows that local development policies are fairly ineffective in raising local unemployment outflows, because 
+labor markets overlap, and the associated ripple effects in applications largely dilute the impact of local stimulus 
+across space. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183859
+
+commuters in the initial equilibrium (e.g., Manhattan) and enhances the clustering 
+of residents in locations that initially were net exporters of commuters (e.g., parts of 
+New Jersey). This logic seems to suggest that commuting might be important only 
+for larger cities in the United States, but this is in fact not the case. Although the 
+changes in employment as a result of eliminating commuting are well explained by 
+initial commuting intensity, this intensity cannot be easily proxied for using empiri-
+cal controls such as land area, size, or housing supply elasticities.
+
+Our paper is related to several existing literatures. In international trade, our work 
+relates to quantitative models of costly trade in goods following Eaton and Kortum 
+(2002)  and  extensions.  Our  research  also  contributes  to  the  economic  geography 
+literature on costly trade in goods and factor mobility, which typically uses vari-
+ation across regions or systems of cities.5 Our work also contributes to the urban 
+economics literature on the costly movement of people (commuting), which typi-
+cally uses variation within cities.6 In contrast, we develop a framework in which an 
+arbitrary set of regions are connected in both goods markets (through costly trade) 
+and  labor  markets (through  migration  and  commuting),  and  which  encompasses 
+both within- and across-city interactions. Although incorporating costly goods trade 
+and commuting is a natural idea, our first main contribution is to develop a tractable 
+framework that captures these forces and is amenable to both analytic and quanti-
+tative analysis. Our second main contribution is to quantify this framework using 
+disaggregated data on trade and commuting for the United States and to show how 
+it provides a platform for evaluating a range of counterfactual interventions. Our 
+third main contribution is to establish theoretically and empirically the importance 
+of spatial interactions between locations (in particular through commuting) in deter-
+mining the local economic effects of local labor demand shocks.
+Our paper is also related to the large empirical literature on local labor markets, 
+which has estimated the effects of local labor demand shocks.7 Each of the papers 
+in this literature is concerned with evaluating the local impact of economic shocks 
+using data on finely-detailed spatial units. However, these spatial units are typically 
+treated as independent observations in reduced-form regressions, with little atten-
+tion paid to the linkages between these spatial units in goods and labor markets, and 
+hence with little consideration of the distinction between employment and residents 
+introduced by endogenous commuting decisions. A key contribution of our paper is 
+to show that understanding these spatial linkages is central to evaluating the local 
+impact of these and other economic shocks.
+
+5 See Krugman (1991); Hanson (1996, 2005); Helpman (1998); Fujita, Krugman, and Venables (1999); Rossi-
+Hansberg (2005); Redding and Sturm (2008); Kline and Moretti (2014); Allen and Arkolakis (2014); Caliendo 
+et al. (2018); Desmet and Rossi-Hansberg (2014); and Redding (2016). 
+6 See  Alonso (1964);  Mills (1967);  Muth (1969);  Lucas  and  Rossi-Hansberg (2002);  Desmet  and  Rossi-
+Hansberg (2013); Behrens et al. (2017); Ahlfeldt et al. (2015); Allen, Arkolakis, and Li (2015); and Monte (2016). 
+7 Examples include: (i) GHM’s (2010) analysis of million dollar plants; (ii) Autor, Dorn, and Hanson (2013), 
+which  examines  the  local  economic  effects  from  the  international  trade  shock  provided  by  China’s  emergence 
+into global markets; (iii) the many empirical studies that use the Bartik (1991) instrument, which interacts aggre-
+gate  industry  shocks  with  locations’  industry  employment  shares,  including  Diamond (2016)  and  Notowidigdo 
+(2013); (iv) research on the geographic incidence of macroeconomic shocks, such as the 2008 Financial Crisis and 
+Great Recession, including Mian and Sufi (2014) and Yagan (forthcoming); and (v) work on the impact of natural 
+resource discoveries on the spatial distribution of economic activity, as in Michaels (2011) and Feyrer, Mansur, and 
+Sacerdote (2017). Other related research on local labor demand shocks includes Blanchard and Katz (1992), Bound 
+and Holzer (2000), and Busso, Gregory, and Kline (2013). 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123860
+
+The remainder of the paper is structured as follows. Section I develops our the-
+oretical framework. Section II discusses the quantification of the model using US 
+data  and  reports  summary  statistics  on  commuting  between  counties.  Section  III 
+uses the model to quantify the heterogeneity in local employment elasticities across 
+US  counties.  Section  IV  presents  independent  evidence  in  support  of  the  impor-
+tance of commuting for employment changes using million dollar plants (MDPs). 
+Section V undertakes counterfactuals for changes in commuting costs and Section 
+VI summarizes our conclusions. An online Appendix contains the derivations of the-
+oretical results, the proofs of propositions, additional robustness tests, and a descrip-
+tion of the data sources and manipulations.
+
+I.  The Model
+
+We  develop  a  spatial  general  equilibrium  model  in  which  locations  are  linked 
+in goods markets through trade and in factor markets through migration and com-
+muting. The  economy  consists  of  a  set  of  locations   n, i ∈  N .  Each  location   n   is 
+endowed with a supply of land (  H n   ). Following the new economic geography liter-
+ature, we begin by interpreting land as geographical land area, which is necessarily 
+in perfectly inelastic supply. We later extend our analysis to interpret land as devel-
+oped land area, which has a positive supply elasticity that we allow to differ across 
+–
+    of workers, each of 
+locations. The economy as a whole is populated by a measure   L 
+whom is endowed with one unit of labor that is supplied inelastically.
+
+A. Preferences and Endowments
+
+Workers are geographically mobile and have heterogeneous preferences for loca-
+tions. Each worker chooses a pair of residence and workplace locations to maximize 
+her utility taking as given the choices of other firms and workers.8 The preferences 
+of a worker  ω  who lives and consumes in location  n  and works in location  i  are 
+defined over final goods consumption (  C nω   ), residential land use (  H nω   ), an idiosyn-
+cratic amenities shock (  b niω   ), and commuting costs (  κ ni   ), according to the Cobb-
+Douglas form,9
+
+α
+
+   (    H nω   _ 1 − α  )    1−α , 
+
+  U niω   =    b niω   _  κ ni       (   C nω   _ α  )    
+
+(1) 
+where   κ ni   ∈ [1, ∞)  is an iceberg commuting cost in terms of utility.10 The idio-
+syncratic amenities shock (  b niω   ) captures the idea that individual workers can have 
+idiosyncratic reasons for living and working in different locations. We model this 
+heterogeneity  in  amenities  following  McFadden (1974)  and  Eaton  and  Kortum 
+
+8 Throughout the following, we use  n  to denote a worker’s location of residence and consumption and  i  to denote 
+
+9 For empirical evidence using US data in support of the constant housing expenditure share implied by the 
+
+a worker’s location of employment and production, unless otherwise indicated. 
+Cobb-Douglas functional form, see Davis and Ortalo-Magne (2011). 
+10 Although we model commuting costs in terms of utility, they enter the indirect utility function multiplica-
+tively with the wage, which implies that they are proportional to the opportunity cost of time. Therefore, similar 
+results hold if commuting costs are instead modeled as a reduction in effective units of labor, as discussed in online 
+Appendix Section B.16. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183861
+
+ B ni   >  0, ϵ >  1,  
+
+  G ni   (b) =  e   − B ni   b   −ϵ  ,  
+
+(2002).11 For each worker  ω  living in location  n  and working in location  i  , idiosyn-
+cratic amenities (  b niω   ) are drawn from an independent Fréchet distribution,
+(2) 
+where the scale parameter   B ni    determines the average amenities from living in loca-
+tion  n  and working in location  i  , and the shape parameter  ϵ >  1  controls the dis-
+persion of amenities. The idiosyncratic amenities shock (  b niω   ) implies that different 
+workers make different choices about their workplace and residence locations when 
+faced  with  the  same  prices  and  wages. All  workers   ω   residing  in  location   n   and 
+working in location  i  receive the same wage and make the same consumption and 
+residential land choices. Hence, we suppress the implicit dependence on  ω  except 
+where important.12
+To isolate the effects of introducing commuting, we model goods consumption as 
+in the new economic geography literature. The goods consumption index in location  
+n  is a constant elasticity of substitution (CES) function of consumption of a contin-
+uum of tradable varieties sourced from each location  i  ,
+
+(3) 
+
+  C n   =   [  ∑ i∈N     ∫ 0   M i     c ni    (  j)   ρ  dj]      1 _ ρ   ,   σ =    1 _ 1 − ρ   >  1. 
+
+Utility  maximization  implies  that  equilibrium  consumption  in  location   n   of  each 
+
+variety sourced from location  i  is given by   c ni   (  j ) = α X n    P  n  σ−1   p ni     (  j)    −σ  , where   X n    is 
+aggregate expenditure in location  n ;   P n    is the price index dual to (3), and   p ni   (  j)   is the 
+“cost inclusive of freight” price of a variety  j  produced in location  i  and consumed 
+in location  n .13
+Utility  maximization  also  implies  that  a  fraction ( 1 − α )  of  worker  income  is 
+spent on residential land. We assume that this land is owned by immobile landlords, 
+who receive worker expenditure on residential land as income, and consume only 
+goods where they live. This assumption allows us to incorporate general equilibrium 
+effects from changes in the value of land, without introducing a mechanical exter-
+nality into workers’ location decisions from the local redistribution of land rents.14 
+Using this assumption, total expenditure on consumption goods equals the fraction  
+
+11 A long line of research models location decisions using preference heterogeneity, as in Artuç, Chaudhuri, and 
+McClaren (2010); Kennan and Walker (2011); Grogger and Hanson (2011); Moretti (2011); and Busso, Gregory, 
+and Kline (2013). Modeling individual heterogeneity in terms of productivity rather than preferences results in a 
+similar specification, as discussed in online Appendix Section B.15. 
+12 Our baseline specification focuses on a single worker type with a Fréchet distribution of idiosyncratic pref-
+erences for tractability, which results in similar choice probabilities to the logit model. In online Appendix Section 
+B.10, we generalize our analysis to multiple worker types  z  with different Fréchet scale and shape parameters, 
+which results in similar choice probabilities to the mixed logit model of McFadden and Train (2000). 
+introduce non-traded consumption goods. 
+
+13 In  online Appendix  Section  B.12,  we  show  how  this  standard  specification  can  be  further  generalized  to 
+
+14 In online Appendix Section B.13, we show that the model has similar properties if landlords consume both 
+consumption goods and residential land, although expressions are less elegant. In the online Appendix, we also 
+report the results of a robustness test, in which we instead assume that land is partially owned locally and partially 
+owned by a national portfolio that redistributes land rents to workers throughout the economy (as in Caliendo et 
+al. 2018). 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123862
+
+  P n   C n   = α   v –   n    R n   +  (1 − α)    v –   n    R n   =   v –   n    R n   ,
+
+α  of the total income of residents plus the entire income of landlords (which equals 
+the fraction   (1 − α)   of the total income of residents):
+(4) 
+where    v –   n    is the average labor income of residents across employment locations; and   
+R n    is the measure of residents. Land market clearing determines the land price (  Q n   ) 
+as a function of the supply of land (  H n   ):
+(5) 
+
+  Q n   =  (1 − α)      v –   n    R n   ____  H n     . 
+
+B. Production
+
+Again to isolate the effects of introducing commuting, we model production as in 
+the new economic geography literature. Tradable varieties are produced using labor 
+under monopolistic competition and increasing returns to scale. To produce a vari-
+ety, a firm must incur a fixed cost of  F  and a constant variable cost that depends on 
+a location’s productivity   A i   .15 Therefore, the total amount of labor (  l i   (  j) ) required to 
+produce   x i   (  j)  units of a variety  j  in location  i  is   l i   (  j) =  F +  x i   (  j)/ A i   .16
+Profit  maximization  implies  that  equilibrium  prices  are  a  constant  mark-up 
+over  marginal  cost:    p ni   (  j) =  (   σ ____ σ − 1  )     d ni    w i   ___  A i      ,  where    w i     is  the  wage  in  location   i .  
+is equal to a constant:   x i   (  j) =  A i  F (σ − 1)  . This constant equilibrium output of each 
+variety and labor market clearing together imply that the total measure of produced 
+varieties (  M i   ) is proportional to the measure of employed workers (  L i   ),   M i   =  L i  /(σF).  
+
+Combining profit maximization and zero profits, equilibrium output of each variety 
+
+C. Goods Trade
+
+The model implies a gravity equation for bilateral trade between locations. Using 
+the  CES  expenditure  function,  the  equilibrium  pricing  rule,  and  the  measure  of 
+firms, the share of location  n ’s expenditure on goods produced in location  i  is
+
+  π ni   =   
+
+ M i    p  ni  1−σ  __________   ∑ k∈N    
+    M k    p  nk  1−σ    =   
+
+(6) 
+Therefore,  trade  between  locations   n   and   i   depends  on  bilateral  trade  costs (  d ni   ) 
+in the numerator (“bilateral resistance”) and on trade costs to all possible sources 
+of  supply   k   in  the  denominator (“multilateral  resistance”).  Equating  revenue  and 
+
+ L i    ( d ni   w i  / A i  )    1−σ   ________________   ∑ k∈N    
+    L k    ( d nk   w k  / A k  )    1−σ    . 
+
+15 We assume a representative firm within each location. However, it is straightforward to generalize the anal-
+ysis to introduce firm heterogeneity with an untruncated Pareto productivity distribution following Melitz (2003). 
+16 In online Appendix Section B.14, we generalize the production technology to include intermediate inputs 
+(as in Krugman and Venables 1995 and Eaton and Kortum 2002), commercial land use, and physical capital. As 
+heterogeneous local employment elasticities are a generic prediction of gravity in commuting, they also hold under 
+this production structure. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183863
+
+expenditure, and using zero profits, workplace income in each location equals total 
+expenditure on goods produced in that location, namely,17
+(7) 
+Using the equilibrium pricing rule and labor market clearing, the price index dual to 
+the consumption index (3) can be expressed as
+(8) 
+
+  w i    L i   =   ∑ n∈N     π ni     v –   n    R n  . 
+
+  )       1 _ 1−σ      [  ∑ i∈N     L i     ( d ni    w i  / A i  )    1−σ ]       1 _ 1−σ   
+
+  P n   =    σ _ σ − 1
+     (  1 _ σF
+     (    L n   _ σF  π nn    )       1 _ 1−σ       d nn    w n   _  A n      , 
+=    σ _ σ − 1
+
+ 
+where the second equality uses (6) to write the price index (8).
+
+D. Labor Mobility and Commuting
+
+  U niω   =   
+
+Workers are geographically mobile and choose their pair of residence and work-
+place locations to maximize their utility. Given our specification of preferences (1), 
+the indirect utility function for a worker  ω  residing in location  n  and working in 
+location  i  is
+(9) 
+Indirect utility is a monotonic function of idiosyncratic amenities (  b niω   ) and these 
+amenities  have  a  Fréchet  distribution. Therefore,  the  indirect  utility  for  a  worker 
+living  in  location   n   and  working  in  location   i   also  has  a  Fréchet  distribution:  
+  G ni   (U) =  e   − Ψ ni   U   −ϵ  ,   where    Ψ ni   =  B ni     ( κ ni    P  n  α   Q  n  1−α )    −ϵ   w  i  ϵ .   Each  worker  selects  the 
+
+bilateral  commute  that  offers  her  the  maximum  utility,  where  the  maximum  of 
+Fréchet distributed random variables is itself Fréchet distributed. Using these dis-
+tributions of utility, the probability that a worker chooses to live in location  n  and 
+work in location  i  is
+
+ b niω    w i   _  κ ni    P  n  α   Q  n  1−α    . 
+
+    ∑ s∈N    
+
+  λ ni   =   
+
+ B ni     ( κ ni    P  n  α   Q  n  1−α )    −ϵ   w  i  ϵ    _______________________    ∑ r∈N    
+    B rs     ( κ rs    P  r  α   Q  r  1−α )    −ϵ   w  s  ϵ    ≡    Φ ni   _ Φ   . 
+
+(10) 
+Therefore,  the  idiosyncratic  shock  to  preferences    b niω     implies  that  individual 
+workers  choose  different  bilateral  commutes  when  faced  with  the  same  prices  
+(  P n    ,   Q n    ,   w i   ), commuting costs (  κ ni   ), and location characteristics (  B ni   ). Other things 
+equal, workers are more likely to live in location  n  and work in location  i  , the lower 
+the consumption goods price index (  P n   ) and land prices (  Q n   ) in  n  , the higher the 
+
+17 Although a location’s total workplace income equals total expenditure on the goods that it produces, total res-
+idential income can differ from total workplace income (because of commuting). Therefore, total workplace income 
+need not equal total residential expenditure, which implies that total exports need not equal total imports. When we 
+take the model to the data, we also allow total residential expenditure to differ from total residential income, which 
+provides another reason for trade deficits. Within the model, these two variables can diverge if landlords own land 
+in different locations from where they consume. This is how we interpret trade deficits in the empirical section. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123864
+
+wages (  w i   ) in  i  , the more attractive average amenities (  B ni   ), and the lower the com-
+muting costs (  κ ni   ).
+Summing  these  probabilities  across  workplaces   i   for  a  given  residence   n  ,  we 
+obtain  the  overall  probability  that  a  worker  resides  in  location   n  (  λ  n  R   ).  Similarly, 
+summing across residences  n  for a given workplace  i  , we obtain the overall proba-
+bility that a worker works in location  i  (  λ  i  L  ). So,
+   =   ∑ n∈N     λ ni   =   ∑ n∈N       Φ ni   _ Φ   ,  
+(11) 
+where national labor market clearing corresponds to   ∑ n        λ  n  R  =  ∑ i        λ  i  L  =  1 .
+The average income of a worker living in  n  depends on the wages in all the nearby 
+employment locations. To construct this average income of residents, note first that 
+the probability that a worker commutes to location  i  conditional on living in location  
+n  is
+
+   =   ∑ i∈N     λ ni   =   ∑ i∈N       Φ ni   _ Φ   ,  
+
+  λ  n  R  =    R n   __  L 
+
+ λ  i  L  =    L n   __  L 
+
+  
+
+  
+
+–
+
+–
+
+  λ  ni|n  R    ≡    λ ni   _  λ  n  R    =   
+
+ B ni     ( w i  / κ ni  )    ϵ   _____________   ∑ s∈N    
+    B ns     ( w s  / κ ns  )    ϵ    . 
+
+(12) 
+Equation (12) implies a commuting gravity equation, with an elasticity of commut-
+ing flows with respect to commuting costs (  κ ni   ) of  − ϵ . Therefore, the probability 
+of commuting to location  i  conditional on living in location  n  depends on the wage 
+(  w i   ), amenities (  B ni   ), and commuting costs (  κ ni   ) for workplace  i  in the numerator 
+(“bilateral resistance”), as well as the wage (  w s   ), amenities (  B ns   ), and commuting 
+costs (  κ ns   )  for  all  other  possible  workplaces   s   in  the  denominator (“multilateral 
+resistance”). This gravity equation prediction is consistent with the existing empir-
+ical literature on commuting and migration, including McFadden (1974), Grogger 
+and Hanson (2011), and Kennan and Walker (2011). In online Appendix Section 
+B.9, we show that heterogeneous local employment elasticities are a generic predic-
+tion of the whole class of models consistent with a gravity equation for commuting 
+flows.
+
+  L i   =   ∑ n∈N     λ  ni|n  R     R n   .
+
+Using these conditional commuting probabilities, we obtain the following labor 
+market clearing condition that equates the measure of workers employed in location  
+i  (  L i   ) with the measure of workers choosing to commute to that location, namely,
+(13) 
+Expected  worker  income  conditional  on  living  in  location   n   is  then  equal  to  the 
+wages  in  all  possible  workplaces  weighted  by  the  probabilities  of  commuting  to 
+those workplaces conditional on living in  n  , or
+   v –   n   =   ∑ i∈N     λ  ni|n  R     w i  . 
+(14) 
+Hence, expected worker income (   v –   n   ) is high in locations that have low commuting 
+costs (low   κ ni   ) to high-wage employment locations.18
+
+18 We treat agents and workers as synonymous, which abstracts from a labor force participation decision, and 
+enables us to isolate the implications of introducing commuting into the standard new economic geography model. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183865
+
+–
+  U 
+
+Finally, population mobility implies that expected utility is the same for all pairs 
+of residence and workplace and equal to expected utility for the economy as a whole. 
+That is,
+   =  E [ U niω  ]  = Γ (  ϵ − 1 _ ϵ   )   [  ∑ r∈N      ∑ s∈N     B rs     ( κ rs    P  r  α   Q  r  1−α )    −ϵ  w  s  ϵ ]      1 _ ϵ     all n, i ∈  N,  
+(15) 
+where E is the expectations operator and the expectation is taken over the distribu-
+tion for the idiosyncratic component of utility and  Γ( · )  is the Gamma function.
+Although expected utility is equalized across all pairs of residence and workplace, 
+real wages differ as a result of preference heterogeneity. Workplaces and residences 
+face upward-sloping supply functions for workers and residents respectively (the 
+choice probabilities (11)). Each workplace must pay higher wages to increase com-
+muters’ real income and attract additional workers with lower idiosyncratic ameni-
+ties for that workplace. Similarly, each residential location must offer a lower cost 
+of living to increase commuters’ real income and attract additional residents with 
+lower idiosyncratic amenities for that residence. Bilateral commutes with attractive 
+characteristics (high workplace wages and low residence cost of living) attract addi-
+tional commuters with lower idiosyncratic amenities, until expected utility (taking 
+into account idiosyncratic amenities) is the same across all bilateral commutes.
+
+E. General Equilibrium
+
+–
+
+–
+
+   =  ∑ n∈N    
+
+    R n   =  ∑ n∈N    
+    L n  . 
+
+The general equilibrium of the model can be referenced by the following vector 
+of six variables  { w n  ,     v –  n  ,    Q n  ,    L n  ,    R n  ,    P n   }  n=1  N     and a scalar   U 
+   . Given this equilibrium 
+vector and scalar, all other endogenous variables of the model can be determined. 
+This  equilibrium  vector  solves  the  following  6  sets  of  equations:  income  equals 
+expenditure (7), average residential income (14), land market clearing (5), work-
+place choice probabilities (11 for   L n   ), residence choice probabilities (11 for   R n   ), and 
+price indices (8). The last condition needed to determine the scalar   U 
+    is the labor 
+–
+market clearing condition,   L 
+In  online Appendix  Section  B.3,  we  provide  conditions  for  the  existence  and 
+uniqueness of the general equilibrium. We show that the system of equations for 
+general equilibrium in our model can be written in the form required to apply the 
+existence and uniqueness results for gravity equation models from Allen, Arkolakis, 
+and Li (2016). In developing our model above, we have followed the new economic 
+geography literature in modeling agglomeration forces through love of variety and 
+increasing returns to scale. In online Appendix Section B.4, we show that our new 
+economic geography model is isomorphic to a version of Eaton and Kortum (2002) 
+and Redding (2016) with commuting and external economies of scale or a version 
+of Armington (1969) with commuting and external economies of scale (as in Allen 
+and Arkolakis 2014 and Allen, Arkolakis, and Li 2015).
+F. Computing Counterfactuals
+
+We  use  our  quantitative  framework  to  solve  for  the  counterfactual  effects  of 
+changes in the exogenous variables of the model (productivity   A n   , amenities   B ni   , 
+commuting costs   κ ni   , and trade costs   d ni   ) without having to necessarily determine the 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123866
+
+unobserved values of these exogenous variables. Instead, in the online Appendix, we 
+show that the system of equations for the counterfactual changes in the endogenous 
+variables of the model can be written solely in terms of the observed values of vari-
+ables in an initial equilibrium (employment   L i   , residents   R i    , workplace wages   w n   ,  
+average residential income    v –   n    , trade shares   π ni    , and commuting probabilities   λ ni   ).  
+This  approach  uses  observed  bilateral  commuting  probabilities  to  capture  unob-
+served bilateral commuting costs and amenities. Similarly, if bilateral trade shares 
+between locations are available, they can be used to capture unobserved bilateral 
+trade frictions (as in Dekle, Eaton, and Kortum 2007). However, since bilateral trade 
+data are only available at a higher level of aggregation than the counties we consider 
+in our data, we make some additional parametric assumptions to solve for implied 
+bilateral trade shares between counties, as discussed below. Throughout this theo-
+retical section, we assume for simplicity that residential income equals expenditure. 
+However, when taking the model to the data, we allow for intertemporal trade defi-
+cits that are treated as exogenous in our counterfactuals, as in Dekle, Eaton, and 
+Kortum (2007) and Caliendo and Parro (2015), as discussed further below. In online 
+Appendix  Section  B.17,  we  also  consider  a  world  where  land  is  partially  owned 
+locally and partially owned by a national portfolio.
+
+II.  Data and Measurement
+
+Our empirical analysis combines data from a number of different sources for the 
+United States.19 From the Commodity Flow Survey (CFS), we use data on bilat-
+eral trade and distances shipped for 123 CFS regions. Data on bilateral commuting 
+between counties come from the American Community Survey (ACS) 2006–2010 
+(for  our  main  calibration)  and  US  Census  1960–2000 (for  various  other  statis-
+tics). From the Bureau of Economic Analysis (BEA), we use data on employment 
+and wages by workplace. We combine these data sources with a variety of other 
+Geographical Information Systems (GIS) data. We use our data on employment and 
+commuting to calculate the implied number of residents and their average income 
+by  county.  First,  from  commuter  market  clearing (13),  we  obtain  the  number  of 
+residents (  R n   ) using data on the number of workers (  L n   ) and commuting probabili-
+ties conditional on living in each location (  λ  ni|n  R    ). Second, we use these conditional 
+commuting probabilities, together with county wages, to obtain average residential 
+income (   v –   n   ) as defined in equation (14).
+
+A. Goods Trade
+
+In the Commodity Flow Survey (CFS) data, we observe bilateral trade flows and 
+distances shipped between 123 CFS regions and trade deficits for each these CFS 
+regions.20 To quantify the model at the county level, we allocate the deficit for each 
+
+19 See online Appendix Section D for further discussion of the data sources and definitions. 
+20 Other  recent  studies  using  the  CFS  data  include  Caliendo  et  al. (2018);  Duranton,  Morrow,  and  Turner 
+(2014);  and  Dingel (2017). The  CFS  is  a  random  sample  of  plant  shipments  within  the  United  States (foreign 
+trade shipments are not included). CFS regions are the smallest geographical units for which this random sample 
+is representative, which precludes constructing bilateral trade flows between smaller geographical units using the 
+sampled shipments. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183867
+
+  w i    L i   −   ∑ n∈N      
+
+CFS region across the counties within that region according to their shares of CFS 
+residential income (as measured by    v –   i    R i   ). Using the resulting trade deficits for each 
+county (  D i   ), we solve the equality between income and expenditure (7) for unob-
+served county productivities (  A i   ):
+ L i     ( d ni    w i  / A i  )    1−σ   ________________   ∑ k∈N    
+(16) 
+where we observe (or have solved for) wages (  w i   ), employment (  L i   ), average resi-
+dential income (   v –   i   ), residents (  R i   ), and trade deficits (  D i   ).
+Given the elasticity of substitution ( σ ), our measures for (  w i   ,   L i   ,    v –   i   ,   R i   ,   D i   ), and a 
+parameterization of trade costs (  d  ni  1−σ  ), equation (16) provides a system of  N  equa-
+tions that can be solved for a unique vector of  N  unobserved productivities (  A i   ), as 
+shown formally in Proposition B.1 of the online Appendix. We parameterize bilat-
+eral trade costs as a constant elasticity function of distance and a stochastic error  
+
+    L k     ( d nk    w k  / A k  )    1−σ    [  v –   n    R n   +  D n  ]  =  0,  
+
+(  d  ni  1−σ  =  dis t  ni  −ψ(σ−1)    e ̃   ni   ) for all pairs with positive trade, while the model implies 
+
+prohibitive trade costs for pairs with zero trade. We use the model’s gravity equa-
+tion and observed bilateral trade between CFS regions to estimate the composite 
+parameter  − ψ(σ − 1) = −1.29  , as discussed further in online Appendix Section 
+B.5. We assume a central value for the elasticity of substitution between varieties 
+from the existing empirical literature of  σ =  4  , which is in line with the estimates 
+of this parameter using price and expenditure data in Broda and Weinstein (2006), 
+and  implies   ψ =  0.43 . We  use  these  estimated  parameters  and  equation (16)  to 
+solve for the unique unobserved productivities (  A i   ) and generate the model’s pre-
+dictions for bilateral trade flows between counties (  X ni   ) from equation (6).21 As a 
+check on this specification, we aggregate the model’s predictions for trade between 
+counties within pairs of CFS regions, and compare these predictions to the data on 
+CFS bilateral trade. As shown in online Appendix Section B.5, we find a strong and 
+approximately log-linear relationship between the model’s predictions and the data, 
+which is tighter for the larger trade values that account for most of aggregate trade.
+
+B. Commuting Flows
+
+We start by providing evidence on the quantitative relevance of commuting as a 
+source of spatial linkages between counties and CZs. Our main data source is the 
+American Community Survey (ACS), which reports county-to-county worker flows 
+for 2006–2010. To abstract from business trips that are not between a worker’s usual 
+place of residence and workplace, we define commuting flows as those of less than 
+120 kilometers in each direction (a round trip of 240 km).22 We  supplement these 
+21 We find that measured productivity (  A i   ) is correlated with observable proxies for productivity, such as access 
+to natural water. Regressing  log  A i    on a dummy indicating if a county is in the 10 percent of counties closest to the 
+ocean or a navigable river we find positive and statistically significant estimated coefficients (standard errors) of 
+0.21 (0.02) for the ocean and 0.03 (0.02) for a navigable river. The data on distances are from Rappaport and Sachs 
+(2003). 
+22 The majority of commutes are less than 45 minutes in each direction (Duranton and Turner 2011). In our 
+analysis, we measure distance between counties’ centroids. We choose the 120 kilometers threshold based on a 
+change in slope of the relationship between log commuters and log distance at this distance threshold. See online 
+Appendix D.1.2 for further discussion. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123868
+
+p50
+(5)
+0.27
+0.20
+0.92
+
+p25 
+(4)
+0.14
+0.14
+0.79
+
+p10 
+(3)
+0.06
+0.07
+0.67
+
+p5  
+(2)
+0.03
+0.03
+0.60
+
+Min. 
+(1)
+0.00
+0.00
+0.26
+
+Table 1—Commuting across Counties and Commuting Zones (Unweighted ) 
+p95
+(8)
+0.59
+0.43
+1.18
+
+Commuters from residence county
+Commuters to workplace county
+County employment/residents
+Commuters from residence CZ
+Commuters to workplace CZ
+CZ employment/residents
+Notes: Tabulations on 3,111 counties and 709 commuting zones. The first row shows the fraction of residents who 
+work outside the county. The second row shows the fraction of workers who live outside the county. The third row 
+shows the ratio of county employment to county residents. The fourth row shows the fraction of a CZ’s residents 
+who work outside the CZ. The  fifth row shows the fraction of a CZ’s workers who live outside the CZ. The sixth 
+row shows the ratio of CZ employment to CZ residents across all 709 CZs. p5, p10, etc. refer to the fifth, tenth, etc. 
+percentiles of the distribution.
+
+Mean
+(10)
+0.29
+0.22
+0.91
+
+Max.
+(9)
+0.82
+0.81
+3.88
+
+p75
+(6)
+0.42
+0.28
+1.02
+
+p90
+(7)
+0.53
+0.37
+1.11
+
+0.00
+0.00
+0.63
+
+0.00
+0.00
+0.87
+
+0.01
+0.01
+0.91
+
+0.03
+0.03
+0.97
+
+0.07
+0.07
+1.00
+
+0.12
+0.10
+1.01
+
+0.18
+0.13
+1.03
+
+0.22
+0.15
+1.04
+
+0.49
+0.25
+1.12
+
+0.08
+0.07
+0.98
+
+data  with  information  on  bilateral  commuting  between  counties  from  the  1990–
+2000 population censuses and data on the share of the residents of each county that 
+work where they live from the 1960–1980 population censuses.
+
+In Table 1, we report some descriptive statistics on commuting flows from 2006–
+2010. We find that commuting beyond county boundaries is substantial and varies 
+in importance across locations. For the median county, around 27 percent of its res-
+idents work outside the county and around 20 percent of its workers live outside the 
+county. For the county at the ninety-fifth percentile, these two figures rise to 59 and 
+43 percent respectively. In Table 1, we report unweighted statistics to capture the 
+heterogeneity in commuting patterns across geographical locations (counties). As 
+we show in online Appendix Section B.6, commuting linkages remain substantial 
+and heterogeneous if we instead weight counties by residents to capture heteroge-
+neity across residents.
+The share of residents who work where they live (the “residence own commut-
+ing share,”   λ  ii|i  R   ) and the share of workers who live where they work (the “work-
+place own commuting share,”   λ  ii|i  L   ) can be related to one another and the ratio of 
+employment to residents (  L i  / R i   ) using the commuter market clearing condition (see 
+online Appendix Section B.7). Both commuting measures are intuitive and they are 
+inversely related to the flow of either residents or workers from other locations. We 
+find that these two measures are positively correlated with one another, as reflected 
+in a statistically significant correlation of 0.60 from 2006 to 2010.23 We choose the 
+residence own commuting share (  λ  ii|i  R   ) as our baseline measure since it is both model 
+consistent and available in the population census back to 1960. But we show that our 
+results are robust to using either measure, or the average or minimum of these two 
+measures, for the years for which both measures are available.
+These differences in openness to commuting imply substantial variation across 
+counties in the ratio of employment to residents (  L i  / R i   ), which is greater than 1 for 
+
+23 Although  Figure  1  shows  that  counties  have  become  increasingly  open  to  commuting  over  time,  we  also 
+find that relative openness to commuting is strongly persistent across counties over time. Correlating the share of 
+residents that work outside the county where they live (  λ   R  ) in 2000 with the corresponding values for each previous 
+decade back to 1960, we find correlations of 0.96, 0.91, 0.84, and 0.73 respectively. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183869
+
+counties that import commuters and less than 1 for those that export commuters. 
+This ratio ranges from 0.60 at the fifth percentile to 1.18 at the ninety-fifth percentile 
+(third row, columns 2 and 8 respectively).24
+One  might  think  that  using  commuting  zones (CZs)  circumvents  the  need  to 
+incorporate  commuting  into  the  analysis,  since  the  boundaries  of  these  areas  are 
+drawn to minimize commuting flows. Nevertheless, we find that CZs provide only 
+an imperfect measure of local labor markets, with substantial commuting beyond 
+CZ boundaries that again varies in importance across locations. For the median CZ, 
+around 7 percent of its residents work outside the CZ and around 7 percent of its 
+workers  live  outside  the  CZ.  For  the  CZ  at  the  ninety-fifth  percentile,  these  two 
+figures rise to 22 percent and 15 percent, respectively. Although the ratio of employ-
+ment to residents ( L/R ) by construction varies less across CZs than across counties, 
+we still find substantial variation from a minimum of 0.63 to a maximum of 1.12 
+(final row), which we show below is sufficient to generate substantial heterogene-
+ity in local employment elasticities. To provide a point of comparison to Figure 1 
+for  counties,  online Appendix  Figure  B.4  shows  kernel  densities  of  the  share  of 
+residents that work in the same CZ where they live for 1990 and 2000. We find the 
+same pattern of an increase in commuting openness over time. In online Appendix 
+Section B.6, we also show that we continue to find substantial variation in commut-
+ing linkages across CZs if we weight them by residents to capture heterogeneity 
+across residents.
+We now use our model’s prediction of a gravity equation for bilateral commuting 
+probabilities, which using land market clearing (5) and the price index (8) can be 
+written as
+
+(17) 
+
+  λ ni   =   
+
+   A  n  αϵ   w  n  −αϵ    v –   n  −ϵ (1−α)     (   R n   _  H n    )    −ϵ (1−α)   w  i  ϵ 
+−  αϵ _ σ−1
+  
+
+     _________________________________________      
+   ,  
+   A  r  αϵ   w  r  −αϵ    v –   r  −ϵ (1−α)     (   R r   _  H r    )    −ϵ (1−α)   w  s  ϵ 
+ ∑ r∈N    
+
+  ni     (   L n   _  π nn    )    
+    ∑ s∈N    
+
+−  αϵ _ σ−1
+  
+     rs     (   L r   _  π rr    )    
+
+where    ni   ≡  B ni    κ  ni  −ϵ   is a composite parameter that captures the ease of commuting.
+Given  the  preference  heterogeneity  parameter (ϵ)  and  our  measures  for (  L n    ,   
+π nn    ,   w n    ,   v n    ,   R n    ,   H n   ), equation (17) provides a  N × N  system of equations that can 
+be  solved  for  a  unique  matrix  of   N × N   values  of  the  ease  of  commuting (   ni),    
+as shown in online Appendix Proposition B.2. We model the ease of commuting  
+(   ni   ) for all pairs with positive commuting flows as depending on (i) a residence 
+component (   n   ), (ii) a workplace component (   i   ), (iii) a component that is related 
+to distance (  dist  ni  −ϕ  ), and (iv) an orthogonal component (   ni   ), such that    ni   =   n    
+ i    dist  ni  −ϕ    ni    , where the model implies prohibitive commuting costs for pairs with 
+zero commuting flows. We estimate the parameter  ϕ =  4.43  in a first step using the 
+model’s gravity equation predictions for bilateral commuting flows and including 
+workplace  and  residence  fixed  effects. We  estimate  the  heterogeneity  in  location 
+
+24 In online Appendix Section B.6, we show that the ratio of employment to residents is not only heterogeneous 
+across counties, but is also hard to explain with standard empirical controls, such as land area, size, or supply elas-
+ticities for developed land. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123870
+
+preferences ( ϵ =  3.30 )  in  a  second  step  by  using  the  structure  of  the  model  to 
+replace the workplace fixed effects with wages raised to this power. In this second 
+step, we instrument wages using productivity to address the fact that wages them-
+selves depend on commuting flows, as discussed further in online Appendix Section 
+B.6. We find that the gravity equation provides a good approximation to observed 
+bilateral commuting flows, and the higher estimated distance coefficient for com-
+muting than goods trade (−4.43 versus −1.29) is in line with the idea that transport-
+ing people is more costly than transporting goods.
+For  the  one  remaining  model  parameter,  the  share  of  housing  in  consumer 
+expenditure,  we  assume  a  central  value  from  Bureau  of  Economic  Analysis  of  
+1 − α =  0.40   percent.25  Using  our  assumption  of  Cobb-Douglas  utility  and  our 
+interpretation of land as geographical land area, in online Appendix Section C.1, we 
+show that the model’s predictions for land prices are strongly positively correlated 
+with observed county median housing values. In the next section, we also relax these 
+assumptions to introduce a positive supply elasticity for developed land.
+
+III.  Local Employment Elasticities
+
+To provide evidence on local employment elasticities, we compute 3,111 coun-
+terfactual exercises where we shock each county with a 5 percent productivity shock 
+(holding productivity in all other counties and holding all other exogenous variables 
+constant).26 Figure 2 shows the estimated kernel density for the distribution of the 
+general equilibrium elasticity of employment with respect to the productivity shock 
+across these treated counties (solid line). We also show the 95 percent confidence 
+intervals around this estimated kernel density (gray shading). The mean estimated 
+local employment elasticity of around 1.52 is greater than 1 because of home market 
+effects and commuting. Around this mean, we find substantial heterogeneity in the 
+predicted effects of the productivity shock, which vary from close to 0.5 to almost 
+2.5. This variation is surprisingly large. It implies that taking a local employment 
+elasticity estimated for one group of counties and applying that  elasticity to another 
+group of counties can lead to substantial discrepancies between the true and pre-
+dicted impacts of a productivity shock.
+
+To provide a point of comparison, Figure 2 also includes the general equilibrium 
+elasticity of residents in a county with respect to the same 5 percent productivity 
+shock in that county (again holding other parameters constant). Again we show the 
+estimated kernel density across the 3,111 treated counties (dashed line) and the 95 
+percent confidence intervals (gray shading). We find substantial differences between 
+the employment and residents elasticities, with the residents elasticity having less 
+dispersion  and  ranging  from  around  0.2  to  1.2.  Since  employment  and  residents 
+can  only  differ  through  commuting,  this  by  itself  suggests  that  the  heterogeneity 
+in the local employment elasticity is largely driven by commuting links between 
+
+25 Using these assumed parameter values, we correlate our measures of residential amenities with observable 
+proxies for this variable. We regress the solutions for the bilateral ease of commuting (   ni   ) from equation (17) on 
+residence and workplace fixed effects and bilateral distance. We use the residence fixed effect as our measure of 
+residential amenities. Regressing this measure on violent crimes per resident, we find a negative and statistically 
+significant coefficient (standard error) of −0.48 (0.10). Crime data are from the US Department of Justice (2007). 
+26 We have experimented with shocks of 1 percent and 10 percent as well, with essentially unchanged results. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183871
+
+Employment
+Residents
+
+y
+t
+i
+s
+n
+e
+D
+
+3
+
+2
+
+1
+
+0
+
+0
+
+0.5
+
+1
+
+1.5
+
+2
+
+2.5
+
+Elasticity of employment and residents to productivity
+
+Figure 2. Kernel Density for the Distribution of Employment and Residents Elasticities in Response to 
+
+a Productivity Shock across Counties
+
+counties. In online Appendix Section C.6, we provide further evidence that this is 
+indeed the case by simulating productivity shocks in a counterfactual world without 
+commuting between counties. Even in such a counterfactual world, we expect local 
+employment elasticities to be heterogeneous, because counties differ substantially 
+in terms of their initial shares of US employment. However, we find substantially 
+less heterogeneity in local employment elasticities in this counterfactual world than 
+in the actual world with commuting. In fact, the resulting distribution of employment 
+(and resident) elasticities is similar to the one for resident elasticities in Figure 2.
+This heterogeneity in local employment elasticities remains if we shock counties 
+with patterns of spatially correlated shocks reproducing the industrial composition 
+of the US economy (see online Appendix Section C.4). We also find a similar pat-
+tern of results if we replicate our entire quantitative analysis for CZs rather than 
+counties (see online Appendix Section C.11). Both sets of results are consistent with 
+the fact that heterogeneous local employment elasticities are a generic prediction of 
+a gravity equation for commuting (as shown in online Appendix Section B.9).
+
+A. Explaining the Heterogeneity in Local Employment Elasticities
+
+When we undertake our counterfactual exercises, we solve for the full general 
+equilibrium effect of the productivity shock to each county. To provide intuition for 
+the determinants of these local employment elasticities, in Table 2, we examine the 
+relationship between these general equilibrium elasticities and a range of observed 
+variables. In column 1, we regress our general equilibrium elasticities on a constant, 
+which captures the mean employment elasticity across the 3,111 treated counties. 
+In columns 2–4, we attempt to explain the heterogeneity in local employment elas-
+ticities using standard county controls. In column 2 we include log county employ-
+ment as a control for the size of economic activity in a county. In column 3 we also 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123872
+
+Table 2—Explaining the General Equilibrium Local Employment  
+
+Elasticities to a 5 Percent Productivity Shock 
+
+Elasticity of employment
+
+5
+
+6
+
+7
+
+8
+
+9
+
+1
+
+2
+
+−0.003
+(0.014)
+
+4
+
+3
+0.009 −0.054
+(0.012)
+(0.006)
+−0.201 −0.158
+(0.059)
+(0.039)
+−0.288 −0.172
+(0.015)
+(0.021)
+0.118
+(0.017)
+0.204
+(0.083)
+
+0.037
+0.033
+(0.004)
+(0.004)
+−0.257 −0.263
+(0.016)
+(0.016)
+0.003
+0.009
+(0.009)
+(0.009)
+−0.027 −0.027
+(0.009)
+(0.009)
+0.207
+0.163
+(0.038)
+(0.037)
+
+−2.047
+(0.042)
+
+2.784
+(0.192)
+0.915
+(0.210)
+−1.009
+(0.123)
+
+2.559
+(0.178)
+0.605
+(0.175)
+−0.825
+(0.150)
+
+ log  L i    
+ log  w i    
+ log  H i    
+ log  L −i    
+ log   w –   −i    
+  λ  ii|i  R    
+  ∑ n∈N    
+  ϑ ii   (   λ ii   __  λ Ri     −  λ Li  )  
+   ∂  w i   ___ ∂  A i        A i   __  w i      
+   ∂  w i   ___ ∂  A i        A i   __  w i     ·  ∑ r∈N    
+   ∂  w i   ___ ∂  A i        A i   __  w i     ·  ϑ ii   (   λ ii   __  λ Ri     −  λ Li  )   
+
+   (1 −  λ Rni  )  ϑ ni   
+
+   (1 −  λ rn | r  )  ϑ rn    
+
+Constant
+
+1.100
+(0.091)
+−0.849
+(0.092)
+1.515
+2.064
+(0.034)
+(0.352)
+R2
+0.00
+0.95
+3,111
+Observations
+3,081
+Notes:    L −i   ≡  ∑ n :  d ni  ≤120, n≠i    
+    L n     is  the  total  employment  in   i   neighbors  whose  centroid  is  no  more  than  120  km 
+      L n   ___  L −i      w n    is the weighted average of their workplace wage. Standard errors are clustered 
+away;    w –   −i   ≡  ∑ n: d ni  ≤120, n≠i    
+by state. 
+
+1.038
+(0.090)
+−0.818
+(0.098)
+1.553
+(0.087)
+0.93
+3,111
+
+1.545
+(0.158)
+0.00
+3,111
+
+5.683
+(0.632)
+0.40
+3,111
+
+1.245
+(0.797)
+0.51
+3,081
+
+2.976
+(0.022)
+0.89
+3,111
+
+0.840
+(0.201)
+0.93
+3,111
+
+1.861
+(0.404)
+0.95
+3,081
+
+include log county wages and log county land area. In column 4 we also include the 
+average wage and total employment in neighboring counties. Although these con-
+trols are all typically statistically significant, we find that they are not particularly 
+successful in explaining the variation in employment elasticities. Adding a constant 
+and all these controls yields an R2 of only about 0.5 in column 4. Clearly, there is 
+substantial variation not captured by these controls.
+
+In the remaining columns of the table we attempt to explain the heterogeneity 
+in local employment elasticities using our commuting measures derived from the 
+model. In column 5, we include the residence own commuting share (  λ  ii|i  R   ) as our 
+baseline measure of commuting linkages.27 The more open the local labor market to 
+commuting, the lower the value of   λ  ii|i  R    , and the higher the local employment elastic-
+ity. This is exactly what we find in column 5. Furthermore, this variable alone yields 
+a  R2  of  0.89,  substantially  higher  than  including  all  of  the  standard  econometric 
+
+27 See online Appendix Section B.8 for the derivation our baseline measure and the partial equilibrium elastic-
+
+ities we use below. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183873
+
+controls.28 We find a similar pattern of results using the workplace own commut-
+ing share (  λ  ii|i  L   ) and the average or minimum of the residence and workplace own 
+commuting  shares.  Therefore,  although  our  model  incorporates  several  forms  of 
+spatial linkages (including trade and migration), we find that the heterogeneity in 
+local employment elasticities is mainly explained by commuting linkages, which is 
+consistent with our gravity equation estimates, where commuting is substantially 
+more local than goods trade.
+
+Even more of the heterogeneity in local employment elasticities can be explained 
+using the partial equilibrium elasticities derived from the model in online Appendix 
+Section  B.8.  In  column  6  we  relate  the  variation  in  local  employment  elastic-
+ities  to  the  measure  of  commuting  linkages  implied  by  these  partial  equilibrium 
+   (1 −  λ  ni|n  R   )  ϑ ni    ,  where    ϑ ni   ≡  λ  ni|n  R     R n  / L i     is  the  share  of  commut-
+elasticities,    ∑ n∈N    
+ers  from  residence   n   in  workplace   i ’s  employment. We  also  add  the  correspond-
+ing  implied  measures  of  migration  and  trade  linkages,    ( λ ii  / λ Ri   −  λ Li  )    and     ∂  w i   ___ ∂  A i        A i   __  w i     .  
+Including these partial equilibrium measures further increases the R2 to around 93 
+percent of the variation in the general equilibrium elasticity. Counties that account 
+for a small share of commuters (small   λ  ni|n  R    ) from their main suppliers of commuters 
+(high    ϑ ni   )  have  higher  employment  elasticities.  In  column  7,  we  use  the  product 
+of    ∂  w i   ___ ∂  A i        A i   __  w i      and the first two terms rather than each term separately. This restriction 
+
+yields similar results and confirms the importance of commuting linkages and, to a 
+lesser extent, the interaction between migration and goods linkages. Finally, in the 
+last two columns we combine these partial equilibrium elasticities with the standard 
+controls we used in the first four columns. Clearly, although all variables are signif-
+icant, these standard controls add little once we control for the partial equilibrium 
+elasticities.29
+
+We now compare our general equilibrium elasticities of employment with respect 
+to the productivity shock in the model to reduced-form “difference-in-differences” 
+estimates of the local average treatment effects of the productivity shock. We con-
+struct a regression sample including both treated and untreated counties from our 
+3,111 counterfactuals in which we shock each county in turn with a 5 percent posi-
+tive productivity shock ( 3, 111   2  =  9,678,321  observations). For each of these sepa-
+rate exercises, we estimate a “difference-in-differences” specification given by
+(18) 
+where  i  denotes the 3,111 counties and  t  indexes the 3,111 counterfactuals;  Δ ln  Y it    
+is the change in log employment between the counterfactual and actual equilibria;   
+I it    is a (0, 1) indicator for whether a county is treated with a productivity shock; and   
+X it    are controls. We again consider two sets of controls (  X it   ): the model-suggested 
+
+ Δ ln Y it   =  a 0   +  a 1    I it   +  a 2    X it   +  a 3   ( I it   ×  X it  )  +  u it  , 
+
+28 To provide further evidence on the magnitude of these effects, online Appendix Table C.1 reports the same 
+regressions as in Table 2 but using standardized coefficients. We find that a one standard deviation change in the 
+own commuting share (  λ  ii|i  R   ) leads to around a one standard deviation change in the local employment elasticity. 
+29 In online Appendix Section B.9, we report kernel density estimates for the distribution of the partial equi-
+   (1 −  λ  ni|n  R   )   ϑ ni    that is a generic prediction of any commuting gravity 
+librium measure of commuting linkages   ∑ n∈N    
+equation. We show a similar distribution of heterogeneous local employment elasticities to that in Figure 2, again 
+confirming that this heterogeneity is driven by commuting linkages. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123874
+
+measures of linkages in goods and factor markets and more standard econometric 
+controls (log  employment,  log  wages,  and  land  area). We  include  both  the  main 
+effects of these controls (captured by   a 2   ) and their interactions with the treatment 
+indicator to capture heterogeneity in the treatment effects (captured by   a 3   ).
+In a specification without the controls (  a 2   =  a 3   =  0 ), the average effect of the 
+productivity shock on the untreated counties is captured in the regression constant 
+(  a 0   ),  and  the  local  average  treatment  effect (  a 1   )  corresponds  to  the  difference  in 
+means between the treated and untreated counties. In specifications with controls,   
+a 2    captures the main effect of these controls, and   a 3    allows the response of employ-
+ment to the productivity shock to depend on these controls. We compare estimating 
+this regression specification including (i) a random untreated county in the control 
+group, (ii) only the nearest untreated county in the control group, (iii) only neigh-
+boring counties within 120 km of the treated county in the control group, (iv) only 
+non-neighboring counties located from 120–240 km from the treated county, and 
+(v) all untreated counties in the control group.
+In online Appendix Section C.3, we show that the model-suggested controls are 
+more successful in explaining the heterogeneity in treatment effects than standard 
+empirical controls from the local labor markets literature. In general, we find similar 
+patterns of results across the different control groups. The one exception is the spec-
+ification using the nearest county as a control, because employment in the nearest 
+untreated county is typically negatively affected by the increase in productivity in 
+the treated county. While the use of contiguous locations to take differences is often 
+motivated based on similar unobservables (as in regression discontinuity designs), 
+this pattern of results highlights that contiguous locations are also likely to be the 
+most severely affected by spatial equilibrium linkages in goods and factor markets.
+In sum, Table 2 shows that the heterogeneity in partial equilibrium elasticities 
+is not well explained by standard county controls. In contrast, adding our baseline 
+measure of the openness of the labor market to commuting, or the partial equilib-
+rium elasticities derived from the model, can go a long way toward explaining this 
+heterogeneity. Therefore, while capturing the full general equilibrium effects of the 
+productivity shocks requires solving the model-based counterfactuals, we find that 
+augmenting  “difference-in-differences”  regressions  with  measures  of  commuting 
+linkages captures in a reduced-form way the heterogeneity in the estimated treat-
+ment effects.
+
+B. Robustness
+
+We now report the results of a number of robustness checks. In the baseline ver-
+sion of the model, we interpret the non-traded good as geographical land, which 
+is  necessarily  in  perfectly  inelastic  supply.  We  now  develop  an  extension  of  the 
+model, in which we interpret the non-traded good as “developed” land and allow for 
+a positive developed land supply elasticity that can differ across locations. In par-
+ticular, we introduce a positive developed land supply elasticity by following Saiz 
+(2010) in assuming that the supply of land (  H n   ) for each residence  n  depends on the 
+ endogenous price of land (  Q n   ) as well as on the exogenous characteristics of locations  
+   n   ), as discussed further in online Appendix Section C.5.
+(   H 
+
+–
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183875
+
+We use the empirical estimates of developed land supply elasticities from Saiz 
+(2010),  which  are  based  on  physical  and  regulatory  constraints  to  the  geograph-
+ical  expansion  of  developed  land  area.  Physical  constraints  are  measured  using 
+Geographical Information Systems (GIS) data on the location of bodies of water 
+(oceans and lakes) and wetlands and the elevation of terrain (the fraction of sur-
+rounding land that has a slope above 15 percent). Regulatory constraints are mea-
+sured using the Wharton Residential Urban Land Regulation Index, which captures 
+the stringency of residential growth controls. Using these data, Saiz (2010) estimates 
+developed land supply elasticities for 95 metropolitan statistical areas (MSAs) in 
+the United States. The population-weighted average of these land supply elasticities 
+is 1.75, and they range from 0.76 for the tenth ranked MSA (San Jose, CA) to 3.09 
+for the eighty-fifth ranked MSA (Charlotte-Gastonia-Rock Hill, NC-SC).
+To calibrate the model to the initial distribution of economic activity, we need to 
+assume a housing supply elasticity for each county. Therefore, we need to decide 
+what to assume about counties that are not part of MSAs and how to treat coun-
+ties within multi-county MSAs. The Saiz estimates are based on the expansion of 
+the  geographical  frontier  of  developed  land  around  the  boundaries  of  the  MSA. 
+Counties that are not part of MSAs can expand this geographical frontier, and hence 
+we assume the maximum housing supply elasticity across MSAs for these counties. 
+In MSAs that consist of multiple counties, central counties that are surrounded by 
+other already-developed counties cannot expand this geographical frontier. Hence, 
+we assume a housing supply elasticity of zero for these central counties. Single-
+county MSAs and outlying counties in multi-county MSAs have the estimated Saiz 
+elasticity.30
+
+When  we  undertake  counterfactuals  for  productivity  shocks,  we  focus  on  the 
+subsample of counties within MSAs for which Saiz housing supply elasticities are 
+available and no imputation is required. We shock each county in this subsample 
+with a 5 percent productivity shock (holding productivity in all other counties and 
+holding all other exogenous variables constant). Figure 3 displays the results across 
+this subsample of counties. The dark solid line shows the estimated kernel density 
+for  the  general  equilibrium  employment  elasticity  using  the  Saiz  housing  supply 
+elasticities. The light solid line shows the analogous kernel density for the employ-
+ment elasticity for this same subsample of counties assuming an inelastic housing 
+supply.  The  dark  dashed  line  shows  the  estimated  kernel  density  for  the  general 
+equilibrium resident elasticity using the Saiz housing supply elasticities. The light 
+dashed line shows the analogous kernel density for the resident elasticity for this 
+same subsample of counties assuming an inelastic housing supply. We also show 
+the 95 percent confidence intervals around these estimated kernel densities (gray 
+shading).
+Comparing these two sets of results, we find that introducing differences in hous-
+ing  supply  elasticities  across  locations  shifts  both  distributions  to  the  right.  The 
+reason is that the productivity shock now induces an increase in the supply of hous-
+ing, which implies a smaller increase in land prices and wages, and hence a larger 
+
+30 In robustness checks, we considered variations in these assumptions, such as assuming the minimum housing 
+supply elasticity across MSAs for central counties. Again, we find the same pattern of heterogeneous local employ-
+ment elasticities. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123876
+
+y
+t
+i
+s
+n
+e
+D
+
+4
+
+3
+
+2
+
+1
+
+0
+
+0
+
+Employment (Saiz land supply)
+Residents (Saiz land supply)
+Employment (inelastic land supply)
+Residents (inelastic land supply)
+
+0.5
+2.5
+Elasticity of employment and residents to productivity
+
+1.5
+
+1
+
+2
+
+3
+
+Figure 3. Kernel Density for the Distribution of Employment and Residents Elasticities in Response to 
+
+a Productivity Shock across Counties (Positive Housing Supply Elasticity)
+
+Note: Counterfactuals for the subsample of counties in the 95 MSAs for which Saiz (2010) reports a housing sup-
+ply elasticity.
+
+increase in both residents and employment in response to the productivity shock. 
+We  also  find  that  introducing  differences  in  housing  supply  elasticities  increases 
+the heterogeneity in the elasticity of residents with respect to labor demand shocks, 
+but has relatively little impact on the heterogeneity in the elasticity of employment. 
+This pattern of results is also intuitive. The housing supply elasticity matters less for 
+employment than for residents, because commuting allows individuals to work in 
+locations with inelastic housing supplies without actually having to live there and 
+pay the resulting high land prices. Therefore, a productivity shock in a location with 
+an inelastic housing supply can increase employment through commuting without 
+requiring substantial changes in the number of residents. An important implication 
+is that improvements in commuting technologies provide an alternative approach to 
+relaxing housing supply elasticities in enabling individuals to access high produc-
+tivity locations.
+
+In online Appendix Section C.5, we provide further evidence that our finding in 
+Table 2 that commuting linkages are important for explaining the variation in local 
+employment elasticities is robust to controlling for differences in housing supply 
+elasticities. We also undertake a range of other robustness checks. In Section C.4, 
+we show that we find a similar pattern of heterogeneous local employment elastici-
+ties if we use spatially correlated shocks reproducing the industrial composition of 
+the US economy. In Section C.11, we show that we obtain the same pattern of find-
+ings if we replicate our entire quantitative analysis using CZs rather than counties.
+
+IV.  Million Dollar Plants
+
+We  now  provide  separate  empirical  evidence  independent  of  our  model  for 
+the importance of commuting in shaping the employment response to local labor 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183877
+
+demand shocks. We follow GHM in using the location decisions of million dollar 
+plants (MDP) as a source of variation in local labor demand.31 A key challenge in 
+evaluating  the  effects  of  such  local  labor  demand  shocks  is  constructing  a  coun-
+terfactual for what would have happened in the absence of the shock. To address 
+this challenge, GHM use the revealed rankings of profit-maximizing firms. These 
+rankings come from the corporate real estate journal Site Selection, which includes 
+a regular feature titled the “Million Dollar Plants” that describes how a large plant 
+decided where to locate. The “Million Dollar Plants” articles report the county that 
+the plant ultimately chose (i.e., the winner), as well as the one or two runner-up 
+counties (i.e., the losers). The losers are counties that have survived a long selection 
+process, but narrowly lost the competition. Therefore, the identifying assumption 
+is  that  the  losers  form  a  valid  counterfactual  for  the  winners,  conditional  on  the 
+controls.
+In an initial study using county-level data, Greenstone and Moretti (2004) con-
+sidered a list of 82 MDPs from Site Selection. In a subsequent study of the impact 
+of  MDPs  on  other  plants,  GHM  focused  on  a  subset  of  47  plants  that  could  be 
+found in confidential Census microdata. In our analysis of the local employment 
+response  to  labor  demand  shocks,  we  follow  Greenstone  and  Moretti (2004)  in 
+using  county-level data and the full list of 82 MDPs. For each of these 82 groups of 
+winner and runner-up counties (referred to as cases), we construct county-level data 
+on employment and other characteristics from 10 years before the MDP announce-
+ment to 10 years afterward. The resulting sample includes 166 winner and runner-up 
+counties from 39 states from 1972 to 2003, where each case can have more than 2 
+counties (more than one runner up), and a single county can be associated with more 
+than 1 case. To the extent that some of these announced plants need not have actu-
+ally opened, this will attenuate the estimates, making the true effects even larger. 
+Although the size of the labor demand shock can differ across cases, because the 
+MDPs are not all exactly the same size, the very fact that these plants appeared in 
+Site Selection as MDPs necessarily implies that they are all large plants.
+
+In online Appendix Table C.3, we compare the observed characteristics of winner 
+and runner-up counties before a MDP announcement for the full set of 82 MDPs. 
+We find that winner counties have somewhat lower prior values of levels of employ-
+ment, wages, population, and population density than runner-up counties. We also 
+find  that  they  have  somewhat  more  open  local  labor  markets  in  terms  of  work-
+place and residence own commuting shares. Despite these differences in individual 
+observed characteristics, the fact that the firms selected these counties as winners 
+and runners-up suggests that they have similar implied profitability for plant loca-
+tion. As a check on this identifying assumption that the losers form a valid coun-
+terfactual for the winners, we now use an event-study specification following GHM 
+and Greenstone and Moretti (2004), which allows us to trace in a flexible way the 
+evolution of relative employment levels in winning counties relative to runner-up 
+counties in the years leading up to and following the MDP announcement.32 We 
+estimate
+
+31 See online Appendix Section D.2 for further discussion of the data sources for this section. 
+32 This event-study specification for county employment is analogous to that for incumbent plant productivity 
+
+reported in the lower panel of Figure 1 in GHM. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123878
+
+10
+
+ ln  L it   = κ I jτ   +   ∑ τ =−10  
+
+      θ τ   ( T τ   ×  W i  )  +  α i   +  η j   +  μ t   +  ε it  ,  
+
+(19) 
+where we use notation as close as possible to GHM;  i  indexes counties;  j  denotes 
+cases (groups of winner-runner-up counties);  t  corresponds to calendar year;  τ  is a 
+treatment year index, which is equal to the calendar year minus the MDP announce-
+ment year (the treatment year);   L it    is county employment;   I jτ    is an indicator variable 
+for the treatment, which equals 1 for a case  j  from the treatment year onward and 0 
+otherwise;   T τ    is an indicator variable for years relative to the treatment year, which 
+equals 1 for year  τ  and 0 otherwise;   W i    is an indicator variable for the winner county, 
+which equals 1 for a winner county and 0 otherwise;   α i    are county fixed effects;   η j    
+are case fixed effects;   μ t    are calendar year fixed effects; and   ε it    is the error term.33 
+We report standard errors clustered by state, which allows for serial correlation in 
+the error term within counties over time and spatial correlation in the error term 
+across counties within states.34
+
+In this event-study specification, the county fixed effects control for unobserved 
+heterogeneity across counties; the case fixed effects control for unobserved determi-
+nants of employment that affect both winning and runner-up counties during the ten-
+year period around each MDP announcement; and the calendar year fixed effects 
+control for secular trends in employment over time. The coefficient  κ  captures the 
+average change in employment in both winner and runner-up counties following the 
+announcement of a MDP. This coefficient is separately identified from the calen-
+dar year fixed effects, because the treatment year occurs in different calendar years 
+for different cases. The key coefficients of interest are   θ τ    , which capture a “differ-
+ence-in-differences”: the difference in log employment for a winner county between 
+the treatment year ( τ =  0 ) and another year compared to the same difference for a 
+runner-up county.
+In Figure 4, we display the estimates of   θ τ    from equation (19) and their 95 per-
+cent confidence intervals. Prior to the MDP announcement, we find no evidence of 
+ statistically significant differences in employment between winner and runner-up 
+counties. In the treatment year in which a MDP is announced ( τ =  0 ), we find an 
+increase  in  employment  in  treatment  counties  relative  to  control  counties,  which 
+becomes  statistically  significant  at  the  5  percent  level  by  the  first  year  after  the 
+announcement ( τ =  1 ), and continues to increase in magnitude from there onward. 
+By 10 years after the MDP announcement, employment in winner counties is on 
+average close to 4 percent larger than in runner-up counties. This pattern of results 
+is  consistent  with  the  MDP  announcement  gradually  leading  to  an  expansion  in 
+employment in winner counties relative to runner-up counties, through the direct 
+effects of the construction, operation, and expansion of the MDP, and through the 
+indirect effects of the construction, operation, and expansion of suppliers and ancil-
+lary services. Therefore, the timing of the positive estimated treatment effect in this 
+event study provides support for the MDP identifying assumptions.
+
+33 While GHM includes industry-year effects in its plant-level specifications, we include year fixed effects in 
+our baseline county-level specifications, because unlike plants counties do not have a straightforward allocation to 
+industries. We report robustness tests below using industry-year fixed effects based on assigning an industry for 
+each case, census-region-year fixed effects and state-year fixed effects. 
+
+34 While we prefer to cluster by state to allow for serial correlation across counties within states, we find a sim-
+
+ilar pattern of results if we instead cluster by county. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 2018t
+c
+e
+f
+f
+e
+ 
+t
+n
+e
+m
+t
+a
+e
+r
+T
+
+0.06
+
+0.04
+
+0.02
+
+0
+
+−0.02
+
+3879
+
+Treatment effect
+Confidence interval
+
+−10
+
+−5
+
+0
+
+5
+
+10
+
+Treatment year
+
+Figure 4. Treatment Effect for MDP Announcement
+
+Notes: Event-study for 82 MDP announcements. Specification from equation (19) includes county, case, and year 
+fixed effects, a post-MDP announcement dummy, and interaction terms between the dummy for winner county and 
+treatment year. Standard errors are clustered by state.
+
+ ln  L it   = κ  I jτ   + θ ( I jτ   ×  W i  )  + β ( I jτ   ×  λ  ii|i  R  ) 
+
+Having validated the MDP experiment, we now use it to provide evidence on the 
+key prediction of our model that the treatment effect of the MDP should be hetero-
+geneous across cases depending on openness to commuting. In particular, we gen-
+eralize the baseline “difference-in-differences” specification in GHM35 to include 
+an interaction term between the treatment effect for a MDP and the openness of the 
+local labor market to commuting:
+(20) 
+ 
+where   λ  ii|i  R    is the residence own commuting share in 1990; the other variables are 
+defined as in equation (19); the main effect of   λ  ii|i  R    is captured in the county fixed 
+effects (  α i   );  β  allows the average change in employment in both winner and run-
+ner-up counties following the announcement of a MDP to depend on the residence 
+own commuting share;  θ  captures the mean increase in employment in the  winner 
+county  relative  to  the  runner-up  counties  following  a  MDP  announcement  for  a 
+completely  open  local  labor  market (  λ  ii|i  R   =  0 );  and   γ   allows  the  mean  increase 
+in employment in the winner county relative to the runner-up counties following a 
+MDP announcement to depend on the residence own commuting share. If we impose  
+
++ γ ( I jτ   ×  W i   ×  λ  ii|i  R  )  +  α i   +  η j   +  μ t   +  ε it  ,  
+
+35 Equation (7) in GHM with  ψ = Ω = γ =  θ 2   =  0.  
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123880
+
+Coefficient
+
+0.012
+(0.135)
+
+−0.281
+(0.110)
+
+−0.241
+(0.088)
+
+−0.177
+(0.087)
+
+(5)
+0.260
+(0.078)
+
+(4)
+0.244
+(0.068)
+
+(3)
+0.191
+(0.065)
+
+(1)
+0.057
+(0.018)
+
+(7)
+0.177
+(0.066)
+(0.077)
+
+(2)
+0.250
+(0.078)
+−0.242
+(0.078)
+
+  θ  
+  γ  
+  γ  
+  γ  
+  γ  
+  β  
+  β  
+  β  
+  β  
+  κ  
+
+Table 3—Estimated MDP Treatment and Commuting Openness 
+(8)
+(6)
+0.182
+0.223
+(0.063)
+(0.078)
+−0.219 −0.190 −0.195
+(0.096)
+(0.073)
+
+Variable
+  I jτ   ×  W i   
+  I jτ   ×  W i   ×  λ  ii|i  R   
+  I jτ   ×  W i   ×  λ  ii|i  L   
+  I jτ   ×  W i   ×  λ  ii|i  ARL  
+  I jτ   ×  W i   ×  λ  ii|i  MRL  
+  I jτ   ×  λ  ii|i  R   
+  I jτ   ×  λ  ii|i  L   
+  I jτ   ×  λ  ii|i  ARL   
+  I jτ   ×  λ  ii|i  MRL  
+  I jτ   
+County fixed effects
+Case fixed effects
+Year fixed effects
+Industry-year fixed effects
+Census-region-year fixed effects
+State-year fixed effects
+Observations
+4,186
+R2
+0.996
+Notes: Estimation results for equation (20);   I jτ    is an indicator that equals 1 for a case j from the treatment year  
+(τ  =  0)  onwards  and  0  otherwise;    W i     is  an  indicator  that  equals  1  for  a  winner  county  i  and  0  otherwise; 
+  λ  ii|i  R
+    is the residence own commuting share;   λ  ii|i  L
+     is the workplace own commuting share;   λ  ii|i  ARL   is the average of the 
+residence and workplace own commuting shares;   λ  ii|i  MRL   is the minimum of the residence and workplace own com-
+muting shares. County observations are weighted by population at the beginning of the sample period. Standard 
+errors are clustered by state.
+
+0.133
+(0.145)
+−0.015 −0.024 −0.200 −0.113 −0.113
+(0.106)
+(0.008)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+−0.048 −0.203 −0.213
+(0.108)
+(0.082)
+
+(0.096)
+Yes
+Yes
+Yes
+
+(0.096)
+Yes
+Yes
+Yes
+
+(0.125)
+Yes
+Yes
+Yes
+
+0.021
+(0.086)
+Yes
+Yes
+
+0.160
+(0.060)
+Yes
+Yes
+
+0.159
+(0.066)
+Yes
+Yes
+
+0.243
+(0.129)
+
+0.124
+(0.160)
+
+(0.075)
+
+4,431
+0.991
+
+4,431
+0.991
+
+4,431
+0.991
+
+4,431
+0.991
+
+4,431
+0.991
+
+4,431
+0.992
+
+4,430
+0.994
+
+Yes
+
+Yes
+
+Yes
+
+β = γ =  0   in  equation (20),  we  obtain  the  baseline  “ difference-in-differences 
+specification” in GHM.
+Table 3 reports the estimation results, where we weight county observations by 
+population at the beginning of the sample. In column 1, we impose  β = γ =  0  , 
+and estimate that a MDP increases county employment by 5.7 percent, which is sta-
+tistically significant at the 1 percent level. The magnitude of this estimated  treatment 
+is broadly in line with the county-level results reported in Table 9 of GHM. Our 
+estimate  for  employment  is  somewhat  larger  than  their  estimates  for  wages (2.7 
+percent) but somewhat smaller that their estimates for the number of manufacturing 
+plants (12.6  percent)  and  manufacturing  output (14.5  percent).  Our  employment 
+data are for all sectors (including non-manufacturing), whereas most MDPs are in 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183881
+
+manufacturing, which plausibly explains why our employment estimate is smaller 
+than the estimates using manufacturing sector outcomes in GHM.36
+In column 2, we augment column 1 with our interaction terms for the residence 
+own  commuting  share (  λ  ii|i  R   ).  Consistent  with  the  predictions  of  our  theoretical 
+model, we find a negative estimated coefficient on the commuting interaction term  
+( γ <  0 ), implying greater increases in employment in response to the positive labor 
+demand shock in counties with more open local labor markets (lower   λ  ii|i  R   ). In con-
+trast, we find no effect of residence own commuting shares in runner-up counties 
+(we are unable to reject the null hypothesis that  β  is equal to 0), which is consistent 
+with runner-up counties not experiencing a labor demand shock from the opening of 
+a MDP. In columns 3–5, we show that this finding of a greater employment response 
+in more open commuting markets is robust across our different commuting measures, 
+including workplace (column 3), the average of workplace and residence (column 
+4), and the minimum of workplace and residence (column 5). These estimates are 
+not only statistically significant but also economically relevant. Using our baseline 
+estimates from column 2, the standardized coefficient for our interaction term ( γ ) 
+with the residence own commuting share is −0.050, which is close in absolute value 
+to the standardized coefficient for the main effect ( θ ) of 0.067.37 Comparing the esti-
+mated coefficients for the main effect ( θ ) and commuting interaction ( γ ) in columns 
+2–8, we find that the opening of a MDP has little effect on employment in counties 
+that are completely closed to commuting (those with an own commuting share equal 
+to one). This pattern of results is consistent with a relatively inelastic labor supply 
+in the absence of commuting. Furthermore, the negative estimated coefficient on the 
+commuting interaction term ( γ <  0 ) suggests that the increase in employment in 
+the treated counties comes at the expense of reduced employment in neighboring 
+counties, as more workers are induced to commute to the treated county from those 
+neighboring counties.38
+
+In columns 6–8, we demonstrate the robustness of our results across alternative 
+possible specifications. In column 6, we address potential concerns about hetero-
+geneous industry trends by replacing the year fixed effects with industry-year fixed 
+effects.39  In  columns  7  and  8,  we  examine  potential  concerns  of  heterogeneous 
+trends across different geographical regions by replacing the year fixed effects with 
+census-region-year  fixed  effects  and  state-year  fixed  effects  respectively.  Across 
+all 3 specifications, we continue to find larger employment responses to the labor 
+demand shock in more open commuting markets, with estimated coefficients around 
+the same magnitude as in our baseline specification in column 2.
+As  a  final  check  for  pre-trends,  we  generalize  the  event-study  specification  in 
+equation (19) to allow the coefficient on the interaction term with the own commut-
+ing share to vary over time. In particular, we estimate a separate main effect of the 
+treatment (  θ τ   ), a separate effect of commuting openness (  β τ   ) and a separate effect 
+
+compute 
+
+coefficient (standard error) of 0.050 (0.018). 
+standardized 
+std  ( I jτ   ×  W i  ) / std  (ln  L it  )  , respectively, where std denotes the standard deviation. 
+Valley Authority (TVA). 
+
+36 We find a smaller estimated treatment effect using population rather than employment, with an estimated 
+ θ ×  
+37 We 
+38 See Kline and Moretti (2014) for an analysis of such spillover effects on adjacent counties from the Tennessee 
+39 We use the reported industry for each case from Appendix Table 2 in Greenstone and Moretti (2004). 
+
+ γ ×  std  ( I jτ   ×  W i   ×  λ  ii|i  R  ) / std  (ln  L it  )   
+
+coefficients 
+
+these 
+
+and 
+
+as 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123882
+
+t
+c
+e
+f
+f
+e
+ 
+t
+n
+e
+m
+t
+a
+e
+r
+T
+
+0.1
+
+0
+
+−0.1
+
+−0.2
+
+Estimated coefficient
+Confidence interval
+
+−10
+
+−5
+
+0
+
+Treatment year
+
+5
+
+10
+
+Figure 5. Event Study for Commuting Openness Interaction
+
+Note: Estimated coefficients and standard errors for the three-way interaction terms with the residence own com-
+muting share (  γ τ   ) from equation (21) standard errors are clustered by state.
+
+10
+
+10
+
+10
+
++   ∑ τ =−10  
+
+      β τ   ( T τ   ×  λ  ii|i  R  )  
+
+ ln  L it   = κ I jt   +   ∑ τ =−10  
+
+      θ τ   ( T τ   ×  W i  )  +   ∑ τ =−10  
+
+      γ τ   ( T τ   ×  W i   ×  λ  ii|i  R  )  +  α i   +  η j   +  μ st   +  ε it  ,  
+
+of the interaction with the own commuting share (  γ τ   ) for each year  τ  using the fol-
+lowing specification,
+(21) 
+ 
+where recall that  τ  indexes years relative to the treatment year and   μ st    denote the 
+state-year fixed effects.
+In Figure 5, we display the estimated coefficients on the commuting openness 
+interaction (  γ τ   ) for each year  τ . Prior to the MDP announcement, we find that these 
+estimated coefficients are flat and not statistically significantly different from zero. 
+Following the MDP announcement, we find that these estimated coefficients turn 
+sharply negative, and although they are imprecisely estimated, they become statis-
+tically significantly different zero at conventional levels of significance. Therefore, 
+this time pattern of the estimated coefficients on the commuting interaction provides 
+evidence against pre-trends, and provides further support for our interpretation that 
+commuting openness shapes the employment response to the local labor demand 
+shock from the MDP.
+
+Although  our  model  points  to  commuting  linkages  as  the  source  of  heteroge-
+neity in the treatment effect of a MDP, another potential concern is that the treat-
+ment effect could vary with other location characteristics. To address this concern, 
+we now consider a nonparametric specification that estimates a separate treatment 
+effect for each case,
+(22) 
+
+     θ j   ( I jτ   ×  W i  )  +  α i   +  η j   +  μ t   +  ε it  ,  
+
+ ln  L it   = κ I jτ   +   ∑ j=1  
+
+J
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183883
+
+where all variables are defined in the same way as in equation (20); the key coef-
+ficient of interest is   θ j    , which captures the increase in employment in the winner 
+county in case  j  following the MDP announcement relative to the same increase for 
+the runners-up.40
+
+In  online Appendix  Figure  C.8,  we  display  the  estimated  treatment  effects  for 
+each case, which range from negative values to just below 1. Therefore, although the 
+average estimated treatment effect is positive, there is substantial variation around 
+this average. As a result, we reject the null hypothesis that these estimated treatment 
+effects are all equal to the same common value at conventional levels of significance 
+(  p-value 0.000). To provide further evidence on the determinants of this heterogene-
+ity, we regress these estimated treatment effects for each case on a range of observed 
+characteristics. We measure these observed characteristics for each case as the aver-
+age of the values for the winner and runner-up counties. We weight the observations 
+on the 82 cases in these regressions by the inverse of the standard errors with which 
+the treatment effects are estimated. We cluster the standard errors in these regres-
+sions on the states in which treatment and control counties are located for each case.
+In Table 4, we report the results from these regressions. Consistent with our ear-
+lier results in Table 3, we again find greater employment increases in response to 
+the positive labor demand shock in local labor markets that are more open to com-
+muting. Across columns 1–4, we find negative and statistically coefficients for our 
+4 (inverse) measures of openness to commuting. In columns 5–8, we show that we 
+find a similar pattern of results if we also control for log population and log land 
+area. Although in some cases, land area or population are statistically significant, 
+these correlations are not robust across specifications. Therefore, the heterogeneity 
+in estimated treatment effects indeed appears to be related to the openness of the 
+local labor market to commuting rather than size or population density.
+
+In online Appendix Section C.8, we provide further evidence on the contribu-
+tion of commuting to employment changes using shift-share decompositions. We 
+decompose  both  cross-section  and  time-series  variation  in  employment  into  the 
+contributions  of (i)  own  residents  holding  own  commuting  shares  constant; (ii) 
+own commuting holding own residents constant; (iii) other residents holding other 
+commuting  shares  constant;  and (iv)  other  commuting  shares  holding  other  resi-
+dents constant. In both the cross-section and time-series, we find that each of these 
+terms are quantitatively relevant for the observed variation in employment, and that 
+their contributions are heterogeneous across counties. As the observed variation in 
+employment  is  ultimately  driven  by  differences  in  productivity  and  other  county 
+characteristics, these findings are in line with the predictions of our model that the 
+response  of  employment  to  these  underlying  shocks  is  shaped  by  heterogeneous 
+patterns of commuting. They are also consistent with our other evidence on the rele-
+vance of commuting from the variation across counties in the share of residents who 
+work in the county where they live, as shown in Figure 1 and Table 1.
+
+40 The treatment effect for each case is estimated relative to an excluded category, which is the runner-up coun-
+
+ties for each case. We are therefore able to estimate a treatment effect for each case. 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 12(1)
+−0.666
+(0.183)
+
+3884
+
+Variable
+  λ  jj| j  R    
+  λ  jj| j  L    
+  λ  jj| j  ARL   
+  λ  jj| j  MRL   
+ ln  population     j    
+ ln  land area     j    
+
+Table 4—Heterogeneous Treatment Effects and Commuting Openness
+(7)
+
+(2)
+
+(3)
+
+(4)
+
+(6)
+
+(8)
+
+−0.456
+(0.239)
+
+−0.690
+(0.226)
+
+−0.625
+(0.222)
+
+(5)
+−0.875
+(0.198)
+
+−0.832
+(0.359)
+
+−1.078
+(0.279)
+
+0.045
+(0.022)
+0.078
+(0.038)
+82
+0.25
+
+0.014
+(0.028)
+0.092
+(0.061)
+82
+0.08
+
+0.028
+(0.023)
+0.115
+(0.047)
+82
+0.20
+
+−1.005
+(0.271)
+0.030
+(0.022)
+0.121
+(0.047)
+82
+0.21
+
+82
+0.13
+
+82
+0.13
+
+82
+0.05
+
+82
+0.18
+
+Observations
+R2
+Notes: Regressions of the estimated treatment effect (   θ ˆ   j    from equation (22)) for each of the 82 MDP cases on case 
+characteristics; case characteristics measured as the average of those for winner and runner-up counties for that 
+case;   λ  jj| j  R     is the residence own commuting share;   λ  jj| j  L     is the workplace own commuting share;   λ  jj| j  ARL   is the average 
+of the residence and workplace own commuting shares;   λ  jj| j  MRL   is the minimum of the residence and workplace own 
+commuting shares. Observations are weighted by the inverse of the standard error of the estimated treatment effect 
+(   θ ˆ   j   ) for each case. Standard errors are clustered on the states in which the treatment and control counties are located 
+for each case.
+
+V.  Changes in Commuting Costs
+
+Having provided independent empirical evidence that commuting linkages mat-
+ter for the local impact of labor demand shocks, we now use our quantitative model 
+to show that they also matter for the aggregate spatial distribution of economic activ-
+ity and welfare. Commuting enables workers to access high productivity locations 
+without having to pay the high cost of living in those locations. An increase in the 
+cost of commuting restricts the opportunity set available to firms and workers and 
+hence  reduces  welfare.  Locations  that  were  initially  net  exporters  of  commuters 
+become less attractive residences, while locations that were initially net importers 
+of  commuters  become  less  attractive  workplaces. As  agents  relocate  in  response 
+to the restricted opportunity set, counties become less specialized as residential or 
+business locations.
+We begin by using the observed commuting data to back out implied values of the 
+composite parameter capturing the ease of commuting (   ni   ≡  B ni    κ  ni  −ϵ  ). Following 
+Head and Ries (2001) in the international trade literature, we use the flows of com-
+muters between locations  n  and  i  in both directions relative to their own commuting 
+flows. Using the commuting gravity equation (10), and taking the geometric mean 
+of these relative flows in both directions, we obtain the following measure of the 
+average ease of commuting between locations  n  and  i  relative to the ease of com-
+muting to themselves:
+(23) 
+
+    ̃   ni   ≡   (    ni   _   nn         in   _   ii    )    
+
+  =   (   L ni   _  L nn        L in   _  L ii    )    
+
+1/2
+ . 
+
+1/2
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183885
+
+We compute this measure for both 1990 and 2010. Between these two years, both miles 
+of paved roads and vehicle kilometers traveled increased substantially.41 Consistent 
+with  this,  we  find  a  substantial  increase  in  the  relative  ease  of  commuting  from 
+
+4 percent (     ̃   ˆ   ni   =  0.96 ) at the twenty-fifth percentile, to 12 percent (     ̃   ˆ   ni   =  0.88 )  
+at the median, and 21 percent (     ̃   ˆ   ni   =  0.79 ) at the seventy-fifth percentile.
+
+1−α      L ˆ    i     α _ σ−1
+    ____   R ˆ    i  1−α    ,  
+
+   U ̅   ˆ   =   (  1 __   λ ˆ   ii    )      1 _ ϵ      (  1 __   π ˆ   ii    )       α _ σ−1
+
+We use this distribution of implied changes in the relative ease of commuting to 
+undertake counterfactuals for empirically-realistic changes in commuting costs. We 
+assume a common reduction or increase in the costs of commuting for all counties 
+equal to percentiles of this distribution (e.g., we assume that all counties experi-
+ence a reduction in commuting costs equal to the median value of      ̃   ˆ   ni   ). Given this 
+assumption, we use the system of equations for general equilibrium in the model 
+to solve for the new counterfactual equilibrium after the reduction in commuting 
+costs, as discussed in Section IF. Using the commuting probability (10), expected 
+utility (15), the price index (8) and land market clearing (5), the change in the com-
+mon level of welfare across all locations from the shock to commuting costs can be 
+decomposed as follows:
+(24) 
+where we have used the fact that {  κ ii    ,   B ii    ,   A i    ,   d ii   } are unchanged; the first term in    λ ˆ   ii    
+captures the impact through changes in openness to commuting; the second term 
+in    π ˆ   ii    captures the effect through adjustments in openness to goods trade; the remain-
+ing terms capture the influence of changes in the spatial distribution of wages (   w ˆ   i   ), 
+expected residential income (   v –   i   ), employment (   L ˆ   i   ), and residents (   R ˆ   i   ).
+As  shown  in  Table  5,  we  find  substantial  effects  of  these  empirically-relevant 
+reductions  in  commuting  costs  on  aggregate  welfare.  Reducing  commuting  costs 
+by  the  median  proportional  change  observed  over  our  time  period  from  1990  to 
+2010 is predicted to increase welfare by around 3.3 percent (second column). In 
+contrast, raising commuting costs by the same proportional amount decreases wel-
+fare by around 2.3 percent. As we scale up the reduction in commuting costs to the 
+ seventy-fifth percentile observed over our time period, we amplify the welfare gain 
+to 6.9 percent (first column). As we scale down the reduction in commuting costs to 
+the twenty-fifth percentile, we diminish the welfare gain to 0.89 percent (third col-
+umn). These proportional changes in welfare are large relative to standard empirical 
+estimates of the welfare gains from opening the closed economy to international 
+trade, which for example range from less than 1 percent for the United States to 
+just over 10 percent for Belgium in Eaton and Kortum (2002). One caveat is that 
+we abstract from non-tradables different from housing or land, which may lead us 
+to overestimate the welfare gain from reductions in commuting costs. Nonetheless, 
+
+      (    w ˆ   i   __    v –  ˆ   i    )    
+
+41 Between 1990 and 2010, kilometers of paved public roads in the United States increased by over 20 percent 
+(from 3.6 to 4.4 million), and vehicle kilometers traveled increased by more than 38 percent (from 3,451,016 to 
+4,775,352 million). For further discussion of this expansion in transport use, see for example Duranton and Turner 
+(2011). 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123886
+
+Table 5—Welfare Impacts for different Changes in Commuting Costs 
+
+Decrease by  
+
+Decrease by  
+
+Decrease by  
+
+p75
+
+p50
+
+p25
+
+0.88
+3.26
+
+0.79
+6.89
+
+Implied      ̃   ˆ   ni    
+Welfare change (%)
+Notes: This table shows the percentage change in welfare for different counterfactual changes 
+in commuting costs. Each column reports a different counterfactual exercise; p75, p50, and 
+p25, respectively, are the seventy-fifth, fiftieth, and twenty-fifth percentiles of the empirical 
+
+distribution of changes in the ease of commuting      ̃   ˆ   ni    from 1990–2010. The first row reports 
+the implied      ̃   ˆ   ni    for all counties. The second row reports the percentage change in welfare for 
+
+0.96
+0.89
+
+each counterfactual.
+
+Increase by  
+1/p50
+1.13
+−2.33
+
+these results clearly highlight that commuting not only shapes the local impact of 
+shocks but can be consequential for aggregate welfare.42
+
+These empirically-realistic changes in commuting costs also result in substantial 
+changes  in  the  spatial  distribution  of  employment  and  residents  across  locations. 
+In online Appendix Figure C.9, we show the counterfactual change in employment 
+in each county from reducing commuting costs by the median proportional change 
+observed  over  our  time  period  from  1990  to  2010. We  find  a  strong  relationship 
+between these counterfactual changes and the initial ratio of employment to resi-
+dents (  L i  / R i   ). As discussed in Section IIB and shown in online Appendix Section 
+B.6,  this  initial  employment  to  residents  ratio (  L i  / R i   )  is  itself  hard  to  explain  in 
+terms of standard empirical controls, such as land area, size, and housing supply 
+elasticities, and hence cannot easily be proxied by these variables.
+
+In online Appendix Section C.11, we provide further evidence that the importance 
+of commuting is by no means restricted to large cities. We undertake counterfactu-
+als for reductions in commuting costs for CZs rather than counties (replicating our 
+entire quantitative analysis for CZs). We show that the counterfactual changes in CZ 
+employment from reductions in commuting costs are well explained by measures of 
+the extent to which the CZ uses the commuting technology in the initial equilibrium. 
+In contrast, these counterfactual changes in CZ employment are not well explained 
+by initial CZ employment or residents size, confirming the importance of measures 
+of commuting linkages.
+
+Given  this  importance  of  commuting  links  in  shaping  the  distribution  of  eco-
+nomic activity across locations, it is natural to expect that these links also determine 
+the magnitude of the impact of reductions in trade costs. In online Appendix Section 
+C.10,  we  explore  this  interaction  between  trade  and  commuting  costs.  We  com-
+pare the counterfactual effects of a 20 percent reduction of trade costs in the actual 
+world with commuting to the effects in a hypothetical world without commuting. 
+In general, reductions in trade costs lead to a more dispersed spatial distribution of 
+economic activity in the model. But this dispersal is smaller with commuting than 
+
+42 Smaller (larger) values for the Fréchet shape parameter ( ϵ ) imply more (less) heterogeneity in preferences 
+for residence-workplace pairs, which magnifies (diminishes) the effects of changes in commuting costs on welfare. 
+For example, in a world with a 50 percent lower (higher) value of ϵ , reducing commuting costs by the median 
+proportional change increases welfare by 6.9 (2.1) percent, while increasing commuting costs by the same amount 
+reduces welfare by 4.8 (1.5) percent. 
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183887
+
+without commuting. As trade costs fall, commuting increases the ability of the most 
+productive locations to serve the national market by drawing workers from a subur-
+ban hinterland, without bidding up land prices as much as would otherwise occur. 
+These results further underscore the prominence of commuting linkages in shaping 
+the equilibrium spatial distribution of economic activity, and the necessity of incor-
+porating them in models of economic geography.
+
+VI.  Conclusions
+
+The economic effects of local labor demand shocks have been the subject of an 
+extensive empirical literature, which has considered a wide range of such shocks, 
+including industry composition, international trade, macro and financial crises, and 
+natural resource discoveries, among others. To understand the impact of these types 
+of shocks, we develop a quantitative spatial general equilibrium model that incor-
+porates spatial linkages between locations in both goods markets (trade) and fac-
+tor markets (commuting and migration). Although we allow for a large number of 
+locations and a rich geography in both goods and factor markets, our framework 
+remains amenable to both analytical and quantitative analysis. We show how the 
+model can be quantified using available data to match the observed gravity equation 
+ relationships for trade in goods and commuting, as well as the observed cross-sec-
+tion distributions of employment, residents and wages. Thus, our framework pro-
+vides a tractable platform for undertaking a range of counterfactuals for realistic 
+changes in trade and commuting costs.
+While  previous  research  has  often  worked  at  relatively  high  levels  of  spatial 
+aggregation (e.g., commuting zones) to reduce the effect of unmodeled commuting 
+links, we explicitly model the spatial interactions between locations in goods and 
+commuting markets, thereby providing a framework for examining the local impact 
+of labor demand shocks at finer spatial scales within commuting zones. Commuting 
+allows  workers  to  separate  their  workplace  and  residence,  thereby  introducing  a 
+quantitatively relevant distinction between the effects of local labor demand shocks 
+on employment and residents. We find substantial heterogeneity across both coun-
+ties and CZs in the elasticity of local employment to a productivity shock, which 
+ranges from around 0.5 to 2.5. Therefore an average local employment elasticity 
+estimated in one context can be quite misleading if applied in another context with-
+out  controlling  for  this  heterogeneity. We  show  that  this  heterogeneity  is  hard  to 
+explain with standard empirical controls, such as area and size, but is well explained 
+by measures of linkages in commuting networks. We use our model to highlight a 
+summary statistic of the share of residents that work locally that can be included in 
+reduced-form regressions to help to control for this heterogeneity.
+
+We provide separate empirical evidence independent of our model for the impor-
+tance  of  commuting  in  determining  the  employment  response  to  changes  in  the 
+local economic environment. Using quasi-experimental evidence from million dol-
+lar  plants (MDPs),  we  find  larger  increases  in  employment  in  response  to  labor 
+demand  shocks  in  counties  with  more  open  commuting  markets,  consistent  with 
+the predictions of our model. Finally, as well as shaping the effects of local labor 
+demand shocks, we show that commuting also matters in the aggregate for the  spatial 
+ distribution of economic activity and welfare. We use observed commuting flows 
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123888
+
+between pairs of counties over time to back out the empirical distribution of implied 
+reductions in commuting costs from 1990–2010. Reducing commuting costs for all 
+counties by the median of this empirical distribution, we find an increase in welfare 
+of 3.3 percent, and employment changes across counties that range from increases 
+of 28 percent to reductions of 19 percent. Taken together, our findings are consistent 
+with the view that the openness of labor markets to commuting is central to shaping 
+both the local response to shocks and the aggregate spatial distribution of economic 
+activity across locations.
+
+REFERENCES
+
+Ahlfeldt, Gabriel M., Stephen J. Redding, Daniel M. Sturm, and Nikolaus Wolf. 2015. “The Econom-
+
+Allen, Treb, and Costas Arkolakis. 2014. “Trade and the Topography of the Spatial Economy.” Quar-
+
+ics of Density: Evidence from the Berlin Wall.” Econometrica 83 (6): 2127–89.
+terly Journal of Economics 129 (3): 1085–1140.
+
+Allen, Treb, Costas Arkolakis, and Xiangliang Li. 2015. “Optimal City Structure.” Unpublished.
+Allen, Treb, Costas Arkolakis, and Xiangliang Li. 2016. “On the Existence and Uniqueness of Trade 
+
+Equilibria.” Unpublished.
+
+Alonso, William. 1964. Location and Land Use. Cambridge, MA: Harvard University Press.
+Armington, Paul S. 1969. “A Theory of Demand for Products Distinguished by Place of Production.” 
+
+Artuç, Erhan, Shubham Chaudhuri, and John McLaren. 2010. “Trade Shocks and Labor Adjustment: 
+
+IMF Staff Papers 16 (1): 159–78.
+A Structural Empirical Approach.” American Economic Review 100 (3): 1008–45.
+Autor  David  H.,  David  Dorn,  and  Gordon  H.  Hanson.  2013.  “The  China  Syndrome:  Local  Labor 
+Market Effects of Import Competition in the United States.” American Economic Review 103 (6): 
+2121–68.
+Bartik, Timothy J. 1991. Who Benefits from State and Local Economic Development Policies? Kalam-
+
+Broda, Christian, and David E. Weinstein. 2006. “Globalization and the Gains from Variety.” Quar-
+
+Caliendo,  Lorenzo,  and  Fernando  Parro.  2015.  “Estimates  of  the  Trade  and  Welfare  Effects  of 
+
+Busso, Matias, Jesse Gregory, and Patrick Kline. 2013. “Assessing the Incidence and Efficiency of a 
+
+Blanchard, Olivier Jean, and Lawrence F. Katz. 1992. “Regional Evolutions.” Brookings Papers on 
+
+Behrens, Kristian, Giordano Mion, Yasusada Murata, and Jens Südekum. 2017. “Spatial Frictions.” 
+
+Bound, John, and Harry J. Holzer. 2000. “Demand Shifts, Population Adjustments, and Labor Market 
+
+azoo, MI: Upjohn Press.
+Journal of Urban Economics 97 (C): 40–70.
+Economic Activity (1): 1–76.
+Outcomes during the 1980s.” Journal of Labor Economics 18 (1): 20–54.
+terly Journal of Economics 121 (2): 541–86.
+Prominent Place Based Policy.” American Economic Review 103 (2): 897–947.
+NAFTA.” Review of Economic Studies 82 (1): 1–44.
+Caliendo,  Lorenzo,  Fernando  Parro,  Esteban  Rossi-Hansberg,  and  Pierre-David  Sarte. 2018.  “The 
+Impact of Regional and Sectoral Productivity Changes on the U.S. Economy.” Review of Economic 
+Studies 85 (4): 2042–96.
+of Economic Dynamics 14 (2): 248–61.
+Review 97 (2): 351–55.
+nomic Review 103 (6): 2296–327.
+Review 104 (4): 1211–43.
+Location Choices by Skill: 1980–2000.” American Economic Review 106 (3): 479–524.
+84 (4): 1551–82.
+the US.” Review of Economic Studies 81 (2): 681–724.
+
+Dekle, Robert, Jonathan Eaton, and Samuel Kortum. 2007. “Unbalanced Trade.” American Economic 
+
+Diamond,  Rebecca.  2016.  “The  Determinants  and Welfare  Implications  of  US Workers?  Diverging 
+
+Duranton, Gilles, Peter M. Morrow, and Matthew A. Turner. 2014. “Roads and Trade: Evidence from 
+
+Desmet,  Klaus,  and  Esteban  Rossi-Hansberg.  2014.  “Spatial  Development.”  American  Economic 
+
+Davis, Morris A., and François Ortalo-Magné. 2011. “Household Expenditures, Wages, Rents.” Review 
+
+Dingel, Jonathan I. 2017. “The Determinants of Quality Specialization.” Review of Economic Studies 
+
+Desmet, Klaus, and Esteban Rossi-Hansberg. 2013. “Urban Accounting and Welfare.” American Eco-
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 20183889
+
+Duranton, Gilles, and Matthew A. Turner. 2011. “The Fundamental Law of Road Congestion: Evi-
+
+Eaton, Jonathan, and Samuel Kortum. 2002. “Technology, Geography, and Trade.” Econometrica 70 
+
+dence from US Cities.” American Economic Review 101 (6): 2616–52.
+(5): 1741–79.
+Feyrer,  James,  Erin T.  Mansur,  and  Bruce  Sacerdote.  2017.  “Geographic  Dispersion  of  Economic 
+Shocks: Evidence from the Fracking Revolution.” American Economic Review 107 (4): 1313–34.
+Fujita,  Masahisa,  Paul  Krugman,  and  Anthony  J.  Venables.  1999.  The  Spatial  Economy:  Cities, 
+Regions, and International Trade. Cambridge, MA: MIT Press.
+
+Hanson, Gordon H. 1996. “Localization Economies, Vertical Organization, and Trade.” American Eco-
+
+Greenstone, Michael, and Enrico Moretti. 2004. “Bidding for Industrial Plants: Does Winning a ‘Mil-
+
+Grogger, Jeffrey, and Gordon H. Hanson. 2011. “Income Maximization and the Selection and Sorting 
+
+Greenstone,  Michael,  Richard  Hornbeck,  and  Enrico  Moretti.  2010.  “Identifying  Agglomeration 
+Spillovers: Evidence from Winners and Losers of Large Plant Openings.” Journal of Political Econ-
+omy 118 (3): 536–98.
+lion Dollar Plant’ Increase Welfare?” NBER Working Paper 9844.
+of International Migrants.” Journal of Development Economics 95 (1): 42–57.
+nomic Review 86 (5): 1266–78.
+Journal of International Economics 67 (1): 1–24.
+Explanation for the Pattern of US–Canada Trade.” American Economic Review 91 (4): 858–76.
+Helpman,  Elhanan.  1998.  “The  Size  of  Regions.”  In  Topics  in  Public  Economics: Theoretical  and 
+Applied Analysis, edited by David Pines, Efraim Sadka, and Itzhak Zilcha, 33–56. Cambridge, UK: 
+Cambridge University Press.
+
+Hanson,  Gordon  H.  2005.  “Market  Potential,  Increasing  Returns,  and  Geographic  Concentration.” 
+
+Head, Keith, and John Ries. 2001. “Increasing Returns versus National Product Differentiation as an 
+
+Hsieh,  Chang-Tai,  and  Enrico  Moretti.  2017.  “Housing  Constraints  and  Spatial  Misallocation.” 
+
+Krugman, Paul, and Anthony J. Venables. 1995. “Globalization and the Inequality of Nations.” Quar-
+
+Lucas, Robert E., and Esteban Rossi-Hansberg. 2002. “On the Internal Structure of Cities.” Econo-
+
+Manning, Alan, and Barbara Petrongolo. 2017. “How Local Are Labor Markets? Evidence from a 
+
+Kennan, John, and James R. Walker. 2011. “The Effect of Expected Income on Individual Migration 
+
+Krugman, Paul. 1991. “Increasing Returns and Economic Geography.” Journal of Political Economy 
+
+Unpublished.
+Decisions.” Econometrica 79 (1): 211–51.
+Kline, Patrick, and Enrico Moretti. 2014. “Local Economic Development, Agglomeration Economies, 
+and the Big Push: 100 Years of Evidence from the Tennessee Valley Authority.” Quarterly Journal 
+of Economics 129 (1): 275–331.
+99 (3): 483–99.
+terly Journal of Economics 110 (4): 857–80.
+metrica 70 (4): 1445–76.
+Spatial Search Model.” American Economic Review 107 (10): 2877–907.
+ics 3 (4): 303–28.
+Applied Econometrics 15 (5): 447–70.
+Productivity.” Econometrica 71 (6): 1695–725.
+rica 82 (6): 2197–2223.
+Journal 121 (551): 31–57.
+ican Economic Review 57 (2): 197–210.
+
+Michaels, Guy. 2011. “The Long Term Consequences of Resource-Based Specialisation.” Economic 
+
+Melitz, Marc J. 2003. “The Impact of Trade on Intra-Industry Reallocations and Aggregate Industry 
+
+McFadden, Daniel, and Kenneth Train. 2000. “Mixed MNL Models of Discrete Response.” Journal of 
+
+Mian, Atif, and Amir Sufi. 2014. “What Explains the 2007–2009 Drop in Employment?” Economet-
+
+McFadden, Daniel. 1974. “The Measurement of Urban Travel Demand.” Journal of Public Econom-
+
+Mills, Edwin S. 1967. “An Aggregative Model of Resource Allocation in a Metropolitan Area.” Amer-
+
+Monte, Ferdinando. 2016. “The Local Incidence of Trade Shocks.” Unpublished.
+Monte, Ferdinando, Stephen J. Redding, and Esteban Rossi-Hansberg. 2018. “Commuting, Migration, 
+and Local Employment Elasticities: Dataset.” American Economic Review. https://doi.org/10.1257/
+aer.20151507.
+
+Moretti, Enrico. 2011. “Local Labor Markets.” In Handbook of Labor Economics, Vol. 4B, edited by 
+
+David Card and Orley Ashenfelter, 1237–1313. Amsterdam: Elsevier.
+
+Muth, Richard M. 1969. Cities and Housing. Chicago: University of Chicago Press.
+Notowidigdo, Matthew J. 2013. “The Incidence of Local Labor Demand Shocks.” Unpublished.
+Rappaport, Jordan, and Jeffrey D. Sachs. 2003. “The United States as a Coastal Nation.” Journal of 
+
+Economic Growth 8 (1): 5–46.
+
+MONTE ET AL.: COMMUTING, MIGRATION, AND EMPLOYMENTVOL. 108 NO. 123890
+
+Redding, Stephen J. 2016. “Goods Trade, Factor Mobility and Welfare.” Journal of International Eco-
+
+Redding, Stephen J., and Daniel M. Sturm. 2008. “The Costs of Remoteness: Evidence from German 
+
+nomics 101: 148–67.
+Division and Reunification.” American Economic Review 98 (5): 1766–97.
+Redding, Stephen J., and Matthew A. Turner. 2015.  “Transportation  Costs  and  the  Spatial  Organi-
+zation of Economic Activity.” In Handbook of Urban and Regional Economics, Vol. 5, edited by 
+Gilles Duranton, J. Vernon Henderson, and William C. Strange, 1339–98. Amsterdam: Elsevier.
+Rossi-Hansberg,  Esteban.  2005.  “A  Spatial  Theory  of  Trade.”  American  Economic  Review  95 (5): 
+Saiz, Albert. 2010. “The Geographic Determinants of Housing Supply.” Quarterly Journal of Econom-
+
+1464–91.
+ics 125 (3): 1253–96.
+States, 2007.” https://www2.fbi.gov/ucr/cius2007/ (accessed October 15, 2016).
+
+United  States  Department  of  Justice,  Federal  Bureau  of  Investigation.  2007.  “Crime  in  the  United 
+
+Yagan,  Danny.  Forthcoming.  “Employment  Hysteresis  from  the  Great  Recession.”  Journal  of  Political 
+
+Economy.
+
+THE AMERICAN ECONOMIC REVIEWDECEMBER 2018This article has been cited by:1.Yamaguchi Akira. 202⒋ The impact of news shock of the openings or expansions of large-scalesemiconductor plants on local labour market in Japan. Japan and the World Economy 72, 101281.[Crossref]2.Yuying Liu, Yongjin Wang, Xiaofan Li. 202⒋ Carbon market integration, productivity, and welfare:A quantitative analysis. Journal of Economic Surveys 38:5, 1819-184⒌ [Crossref]⒊Enrico Berkes, Ruben Gaetani, Martí Mestieri. 202⒋ Technological Waves, Knowledge Diffusion,and Local Growth. Journal of Political Economy Macroeconomics 86. . [Crossref]⒋Morris A Davis, Andra C Ghent, Jesse Gregory. 202⒋ The Work-From-Home Technology Boonand its Consequences. Review of Economic Studies 91:6, 3362-3401. [Crossref]⒌Peter H. Egger, Michael Pfaffermayr. 202⒋ Linearizing nonlinear gravity models: Biased BvOLSversus unbiased alternatives. Journal of Regional Science 64:5, 1545-157⒊ [Crossref]⒍Tianshi Sun, Zhicheng Xu, Mingyue Wang, Xiuyan Liu. 202⒋ Good intentions gone awry: Rail linesand inner‐city development. Journal of Regional Science 64:5, 1712-173⒌ [Crossref]⒎Rainald Borck, Peter Mulder. 202⒋ Energy policies and pollution in two developing country cities:A quantitative model. Journal of Development Economics 171, 10334⒏ [Crossref]⒏Chao He, Xiaodong Fan. 202⒋ The paradox of search intensity. Journal of Economic Theory 221,105891. [Crossref]⒐Aleksandr S. Shastin. 202⒋ The impact of internal labor migration on morbidity rates with temporarydisability in the Russian Federation. Russian Journal of Occupational Health and Industrial Ecology 64:8,518-52⒋ [Crossref]⒑Jeffrey Brinkman, Jeffrey Lin. 202⒋ Freeway Revolts! The Quality of Life Effects of Highways. Reviewof Economics and Statistics 106:5, 1268-128⒋ [Crossref]⒒Taehyun Kim, Yaeji Lim. 202⒋ Environmental spillovers and local agglomeration: Evidence fromlarge plant openings. Journal of Behavioral and Experimental Finance 43, 10096⒏ [Crossref]⒓Gabriel Loumeau. 202⒋ Accommodating the Rise in Urbanisation: Are New Towns a Good Solution?.The Economic Journal 134:662, 2530-255⒎ [Crossref]⒔Hans R.A. Koster, Jacques-François Thisse. 202⒋ Understanding Spatial Agglomeration: IncreasingReturns, Land, and Transportation Costs. Annual Review of Economics 16:1, 55-7⒏ [Crossref]⒕Klaus Desmet, Esteban Rossi-Hansberg. 202⒋ Climate Change Economics over Time and Space.Annual Review of Economics 16:1, 271-30⒋ [Crossref]⒖Steven Bond-Smith. 202⒋ Combining agglomeration economies and endogenous growth withoutscale effects. Spatial Economic Analysis 19:3, 287-30⒏ [Crossref]⒗Jiaxian Wu, Xiuyan Liu, Hao Li. 202⒋ The subway and the gender wage gap. International Reviewof Economics & Finance 94, 10342⒋ [Crossref]⒘Davin Chor, Bingjing Li. 202⒋ Illuminating the effects of the US-China tariff war on China’seconomy. Journal of International Economics 150, 10392⒍ [Crossref]⒙Kent Eliasson, Olle Westerlund. 202⒋ Housing markets and geographical labour mobility to high-productivity regions: The case of Stockholm. European Urban and Regional Studies 31:3, 259-280.[Crossref]⒚Jiwon Choi, Ilyana Kuziemko, Ebonya Washington, Gavin Wright. 202⒋ Local Economic andPolitical Effects of Trade Deals: Evidence from NAFTA. American Economic Review 114:6, 1540-157⒌[Abstract] [View PDF article] [PDF with links]⒛Hakan Yilmazkuday. 202⒋ Welfare costs of shopping trips. The Annals of Regional Science 73:1,241-26⒋ [Crossref]21.Doojin Ryu, Jengei Hong, Hyuǌae Jo. 202⒋ Capturing locational effects: application of the K-meansclustering algorithm. The Annals of Regional Science 73:1, 265-28⒐ [Crossref]22.Zhilu Che, Jialu Che, Sen Wang. 202⒋ The gains from changes in internal trade costs: A quantitativeanalysis of China. Journal of Regional Science 64:3, 896-930. [Crossref]2⒊Richard Hornbeck, Enrico Moretti. 202⒋ Estimating Who Benefits from Productivity Growth: Localand Distant Effects of City Productivity Growth on Wages, Rents, and Inequality. Review of Economicsand Statistics 106:3, 587-60⒎ [Crossref]2⒋Simon Franklin, Clément Imbert, Girum Abebe, Carolina Mejia-Mantilla. 202⒋ Urban Public Worksin Spatial Equilibrium: Experimental Evidence from Ethiopia. American Economic Review 114:5,1382-14⒕ [Abstract] [View PDF article] [PDF with links]2⒌Melanie Morten, Jaqueline Oliveira. 202⒋ The Effects of Roads on Trade and Migration: Evidencefrom a Planned Capital City. American Economic Journal: Applied Economics 16:2, 389-421. [Abstract][View PDF article] [PDF with links]2⒍Tom Kirchmaier, Monica Langella, Alan Manning. 202⒋ Commuting for Crime. The EconomicJournal 134:659, 1173-119⒏ [Crossref]2⒎Rowena Gray, Greg C. Wright. 202⒋ A rising tide? The local incidence of the second wave ofglobalization. Journal of International Economics 148, 1038⒚ [Crossref]2⒏Yao Lu, Xinzheng Shi, Jagadeesh Sivadasan, Zhufeng Xu. 202⒋ How Does Improvement inCommuting Affect Employees? Evidence from a Natural Experiment. Review of Economics and Statistics106:1, 53-6⒎ [Crossref]2⒐Julia Brewer, Ashley Larsen, Frederik Noack. 202⒋ The land use consequences of rural to urbanmigration*. American Journal of Agricultural Economics 106:1, 177-20⒌ [Crossref]30.Jipeng Liu. Inferring Spatial Wages Distribution from Bilateral Commuting Choices in France 83, .[Crossref]31.Kathryn Baragwanath Vogel, Gordon Hanson, Amit Khandelwal, Chen Liu, Hogeun Park. 202⒋Using Satellite Imagery to Detect the Impacts of New Highways: An Application to India. SSRNElectronic Journal 107. . [Crossref]32.Geraldo Cerqueiro, Isaac Hacamo, Pedro S. Raposo. 202⒋ Priced-Out: Rent Control, Wages, andInequality. SSRN Electronic Journal 122. . [Crossref]3⒊Andrew Garin, Jonathan Rothbaum. 202⒋ The Long-Run Impacts of Public Industrial Investmenton Local Development and Economic Mobility: Evidence from World War II. SSRN Electronic Journal4. . [Crossref]3⒋Andra C. Ghent, Morris Davis, Jesse Gregory. 202⒋ Winners and Losers from the Work-from-HomeTechnology Boon. SSRN Electronic Journal 65. . [Crossref]3⒌Zhang Peng, Xinzheng Shi, Junyan Yu. Echoes of Insecurity: The Detrimental Effect of Crime onCorporate Employment 35, . [Crossref]3⒍Andrew Garin, Jonathan Rothbaum. 202⒋ The Long-Run Impacts of Public Industrial Investmenton Local Development and Economic Mobility: Evidence from World War II. SSRN Electronic Journal4. . [Crossref]3⒎Yooseon Hwang. The Welfare Effects of Congestion Pricing: Evidence from High-Occupancy TollLanes 83, . [Crossref]3⒏Stephen J. Redding, Daniel M Sturm. 202⒋ Neighborhood Effects: Evidence from WartimeDestruction in London. SSRN Electronic Journal 110. . [Crossref]3⒐Naomi Hausman, Peleg Samuels, Maxime C. Cohen, Roy Sasson. Urban Pull: The Roles of Amenitiesand Employment 83, . [Crossref]40.Karim Bekhtiar. The Decline of Manufacturing Employment and the Rise of the Far-Right in Austria128, . [Crossref]41.Jaedo Choi. 202⒋ Internal Migration Adjustment in Large Crises. SSRN Electronic Journal 134. .[Crossref]42.Tsuyoshi Goto, Atsushi Yamagishi. 202⒋ Wage Spillovers across Sectors: Evidence from a LocalizedPublic-Sector Wage Cut. SSRN Electronic Journal 39. . [Crossref]4⒊Yao Wang. 202⒋ Linguistic Distance, Internal Migration and Welfare: Evidence from Indonesia *.SSRN Electronic Journal 125. . [Crossref]4⒋Rainald Borck, Peter Mulder. 202⒋ Energy Policies and Pollution in Two Developing Country Cities:A Quantitative Model. SSRN Electronic Journal 83. . [Crossref]4⒌Nathan Lachapelle, Francesco Pascucci. Regional Misallocation, Wage Rigidities, and Imperfect LaborMobility 83, . [Crossref]4⒍Quinn Maingi. Regional Banks, Aggregate Effects 113, . [Crossref]4⒎Malik Curuk, Rik Rozendaal, Tobias Wendler. Gender Differences in the Employment Effects ofClimate Policy 134, . [Crossref]4⒏Richard Mansfield. 202⒋ Contrasting the Local and National Demographic Incidence of Local LaborDemand Shocks. SSRN Electronic Journal 79. . [Crossref]4⒐Yue Yu. The Local and Aggregate Effects of Land-Use Regulation on Farmland Protection 83, .[Crossref]50.Jaedo Choi. Internal Migration Adjustment and Recovery from Large Crises 134, . [Crossref]51.Franklin Qian, Yichen Su. Remote Work and Consumer Cities 83, . [Crossref]52.Stephen J. Redding. 202⒋ Spatial Economics. SSRN Electronic Journal 4. . [Crossref]5⒊Stephen J. Redding. 202⒋ Quantitative Urban Economics. SSRN Electronic Journal 2. . [Crossref]5⒋Xavier Giroud, Simone Lenzu, Quinn Maingi, Holger Mueller. 202⒋ Propagation and Amplificationof Local Productivity Spillovers. Econometrica 92:5, 1589-16⒚ [Crossref]5⒌Anna Matysiak, Daniela Bellani, Honorata Bogusz. 202⒊ Industrial Robots and Regional Fertility inEuropean Countries. European Journal of Population 39:1. . [Crossref]5⒍Mark Huggett, Wenlan Luo. 202⒊ Optimal income taxation: An urban economics perspective. Reviewof Economic Dynamics 51, 847-86⒍ [Crossref]5⒎Dávid Krisztián Nagy. 202⒊ Hinterlands, City Formation and Growth: Evidence from the U.S.Westward Expansion. Review of Economic Studies 90:6, 3238-3281. [Crossref]5⒏Yashar Blouri, Simon Büchler, Olivier Schöni. 202⒊ The geography of mortgage interest deductions.Journal of Urban Economics 138, 10360⒋ [Crossref]5⒐Michael Irlacher, Dieter Pennerstorfer, Anna‐Theresa Renner, Florian Unger. 202⒊ MODELINGINTERREGIONAL PATIENT MOBILITY: THEORY AND EVIDENCE FROM SPATIALLYEXPLICIT DATA. International Economic Review 64:4, 1493-1532. [Crossref]60.Philipp Piribauer, Christian Glocker, Tamás Krisztin. 202⒊ Beyond distance: The spatial relationshipsof European regional economic growth. Journal of Economic Dynamics and Control 155, 10473⒌[Crossref]61.Greg Howard, Jack Liebersohn, Adam Ozimek. 202⒊ The short- and long-run effects of remotework on U.S. housing markets. Journal of Financial Economics 150:1, 166-18⒋ [Crossref]62.Christopher Severen. 202⒊ Commuting, Labor, and Housing Market Effects of Mass Transportation:Welfare and Identification. Review of Economics and Statistics 105:5, 1073-1091. [Crossref]6⒊Remi Jedwab, Federico Haslop, Roman D. Zarate, Carlos Rodriguez-Castelán. The Effects of ClimateChange in the Poorest Countries: Evidence from the Permanent Shrinking of Lake Chad 149, .[Crossref]6⒋Tobias Pfutze, Carlos Rodríguez-Castelán, Daniel Valderrama. 202⒊ Urban transport infrastructureand household welfare: evidence from Colombia. Empirical Economics 65:3, 1409-1432. [Crossref]6⒌Gabriel E. Kreindler, Yuhei Miyauchi. 202⒊ Measuring Commuting and Economic Activity insideCities with Cell Phone Records. Review of Economics and Statistics 105:4, 899-90⒐ [Crossref]6⒍María DelMar Gómez, Román D. Zárate, Daria Taglioni. The Economic Effects of Market Integrationin the Western Balkans . [Crossref]6⒎Francisco J. Buera, Joseph P. Kaboski, Robert M. Townsend. 202⒊ From Micro to MacroDevelopment. Journal of Economic Literature 61:2, 471-50⒊ [Abstract] [View PDF article] [PDFwith links]6⒏Yufei Wang, Mingzhuang Hua, Xuewu Chen, Wendong Chen. 202⒊ Sustainable response strategy forCOVID-19: Pandemic zoning with urban multimodal transport data. Journal of Transport Geography110, 10360⒌ [Crossref]6⒐Michael Landesmann, Sandra M. Leitner. 202⒊ Immigration and Offshoring: two forces ofglobalisation and their impact on employment and the bargaining power of occupational groups.Review of World Economics 159:2, 361-39⒎ [Crossref]70.Peter H. Egger, Gabriel Loumeau, Nicole Loumeau. 202⒊ China's dazzling transport-infrastructuregrowth: Measurement and effects. Journal of International Economics 142, 10373⒋ [Crossref]71.Carlos Garriga, Pedro Gete, Athena Tsouderou. 202⒊ The economic effects of real estate investors.Real Estate Economics 51:3, 655-68⒌ [Crossref]72.Pol Antràs, Stephen J. Redding, Esteban Rossi-Hansberg. 202⒊ Globalization and Pandemics.American Economic Review 113:4, 939-981. [Abstract] [View PDF article] [PDF with links]7⒊Tom Kornstad, Terje Skjerpen, Lasse Sigbjørn Stambøl. 202⒊ Empirical modeling of internalmigration and commuting flows for economic regions in Norway. The Annals of Regional Science 9. .[Crossref]7⒋Oliver Krebs, Michael Pflüger. 202⒊ On the road (again): Commuting and local employmentelasticities in Germany. Regional Science and Urban Economics 99, 10387⒋ [Crossref]7⒌Brian Cultice, Elena Irwin, Mackenzie Jones. 202⒊ Accounting for spatial economic interactionsat local and meso scales in integrated assessment model (IAM) frameworks: challenges and recentprogress. Environmental Research Letters 18:3, 03500⒐ [Crossref]7⒍Nelson Lind, Natalia Ramondo. 202⒊ Trade with Correlation. American Economic Review 113:2,317-35⒊ [Abstract] [View PDF article] [PDF with links]7⒎Lucia Rizzica, Giacomo Roma, Gabriele Rovigatti. 202⒊ The Effects of Deregulating Retail OperatingHours: Empirical Evidence from Italy. The Journal of Law and Economics 66:1, 21-52. [Crossref]7⒏Bernt Bratsberg, Andreas Moxnes, Oddbjørn Raaum, Karen Helene Ulltveit‐Moe. 202⒊ OPENINGTHE FLOODGATES: PARTIAL AND GENERAL EQUILIBRIUM ADJUSTMENTS TOLABOR IMMIGRATION. International Economic Review 64:1, 3-21. [Crossref]7⒐Euǌee Kwon. Migration, Labor Markets, and Housing 1-⒙ [Crossref]80.Gabriel M. Ahlfeldt, Stephan Heblich, Tobias Seidel. 202⒊ Micro-geographic property price and rentindices. Regional Science and Urban Economics 98, 10383⒍ [Crossref]81.Norhazliza Halim, Mohd Alif Mohd Puzi, Thinaraǌeney Thirumoorthi, Kasno Pamungkas, TharithSriv, Khamarrul Azahari Razak, Awangku Hassanal Bahar Pengiran Bagul, Kelvin Ling Chia Hiik,Khun Chanmony, Eddy Krismeidi Soemawilaga, Gilang Ahmad Fauzi, Noviendi Makalam, H. E.Try Chhiv, Jackie Lei Tin Ong, Supa Pengpid, Maria Arlene Tuazon Disimulacion, DuangmalaPhommavong, Pg Emeroylariﬃon Abas, Daw Khin Myo Su, Agustin Kusumayati, Brian SriPrahastuti, Eko Supriyanto. Tourism zoning guideline for ASEAN mobility mapping in COVID-19new norm 020002. [Crossref]82.Jonathan I. Dingel, Joshua D. Gottlieb, Maya Lozinski, Pauline Mourot. 202⒊ Market Size and Tradein Medical Services. SSRN Electronic Journal 95. . [Crossref]8⒊Chun-Che Chi, Cameron LaPoint, Ming-Jen Lin. 202⒊ Spatially Targeted LTV Policies andCollateral Values. SSRN Electronic Journal 29. . [Crossref]8⒋Xin Wei, Jia Xu, Qinghua Zhang. 202⒊ From Government to Governance: Evidence from BorderAdjustments in China. SSRN Electronic Journal 110. . [Crossref]8⒌Lucas Conwell. 202⒊ Subways or Minibuses? Privatized Provision of Public Transit. SSRN ElectronicJournal 83. . [Crossref]8⒍Jipeng Liu. Inferring Spatial Wages Distribution from Bilateral Commuting Choices in France 83, .[Crossref]8⒎Naomi Hausman, Peleg Samuels, Maxime C. Cohen, Roy Sasson. Urban Pull: The Roles of Amenitiesand Employment 83, . [Crossref]8⒏Abhishek Bhardwaj, Devaki Ghose, Saptarshi Mukherjee, Manpreet Singh. 202⒊ Large PlantOpenings and Retail Prices. SSRN Electronic Journal 40. . [Crossref]8⒐Gabriele Cardullo, Agnese Sechi. 202⒊ Local Labor Markets with Non-Homothetic Preferences.SSRN Electronic Journal 20. . [Crossref]90.Davin Chor, Bingjing Li. Illuminating the Effects of the Us-China Tariff War on China's Economy134, . [Crossref]91.Stephanie Kestelman. 202⒊ Environmental Externalities of Urban Growth: Evidence from theCalifornia Wildfires. SSRN Electronic Journal 113. . [Crossref]92.Radine Rafols. Economic Consequences of Climate Change: Evidence from the Philippines 5, .[Crossref]9⒊Takara SAKAI, Masanao WAKUI, Takashi AKAMATSU. 202⒊ A FAST ALGORITHM FORFUJITA-OGAWA MODEL IN DISCRETE TWO-DIMENSIONAL SPACE. Japanese Journal ofJSCE 79:4, n/a. [Crossref]9⒋Tatsuya SUGIMOTO, Satoshi SUGIURA, Yuki TAKAYAMA. 202⒊ DEVELOPMENT OFA QUANTITATIVE URBAN ECONOMIC MODEL BASED ON FUJITA AND OGAWA(1982) MODEL CONSIDERING TRAFFIC CONGESTION. Japanese Journal of JSCE 79:9, n/a. [Crossref]9⒌Libin Han, Chong Peng, Zhenyu Xu. 202⒊ The Effect of Commuting Time on Quality of Life:Evidence from China. International Journal of Environmental Research and Public Health 20:1, 57⒊[Crossref]9⒍Benny Kleinman, Ernest Liu, Stephen J. Redding. 202⒊ Dynamic Spatial General Equilibrium.Econometrica 91:2, 385-42⒋ [Crossref]9⒎Xi He, Edward J. Balistreri, Gyu Hyun Kim, Wendong Zhang. 2022. A general equilibrium assessmentof COVID-19's labor productivity impacts on china's regional economies. Journal of ProductivityAnalysis 58:2-3, 129-150. [Crossref]9⒏Xianhua Wu, Huai Deng, Yuxiang Huang, Ji Guo. 2022. Air pollution, migration costs, and urbanresidents’ welfare: A spatial general equilibrium analysis from China. Structural Change and EconomicDynamics 63, 396-40⒐ [Crossref]9⒐Treb Allen, Costas Arkolakis. 2022. The Welfare Effects of Transportation InfrastructureImprovements. The Review of Economic Studies 89:6, 2911-295⒎ [Crossref]100.Edward Balistreri, Felix Baquedano, John C. Beghin. 2022. The impact of COVID‐19 and associatedpolicy responses on global food security. Agricultural Economics 53:6, 855-86⒐ [Crossref]101.El-Mehdi Aboulkacem, Clément Nedoncelle. 2022. Wage variations and commuting distance. Journalof Economic Geography 22:5, 1097-112⒊ [Crossref]102.Gabriel Felbermayr, Jasmin Gröschl, Inga Heiland. 2022. Complex Europe: Quantifying the cost ofdisintegration. Journal of International Economics 138, 10364⒎ [Crossref]10⒊William Larson, Anthony Yezer, Weihua Zhao. 2022. Urban planning policies and the cost of livingin large cities. Regional Science and Urban Economics 96, 103802. [Crossref]10⒋Dávid Krisztián Nagy. 2022. Trade and Urbanization: Evidence from Hungary. American EconomicJournal: Microeconomics 14:3, 733-790. [Abstract] [View PDF article] [PDF with links]10⒌Craig Wesley Carpenter, Michael C. Lotspeich-Yadao, Charles M. Tolbert. 2022. When to usecommuting zones? An empirical description of spatial autocorrelation in U.S. counties versuscommuting zones. PLOS ONE 17:7, e027030⒊ [Crossref]10⒍Quentin David. 2022. Gratuité des transports en commun et congestion routière : revue de la littératureet implications pour Paris. Revue d'économie politique Vol. 132:3, 421-452. [Crossref]10⒎Clement Imbert, Marlon Seror, Yifan Zhang, Yanos Zylberberg. 2022. Migrants and Firms: Evidencefrom China. American Economic Review 112:6, 1885-19⒕ [Abstract] [View PDF article] [PDF withlinks]10⒏Houyin Long, Jianglong Li, Hongxun Liu. 2022. Internal migration and associated carbon emissionchanges: Evidence from cities in China. Energy Economics 110, 1060⒑ [Crossref]10⒐Stephen J. Redding. 2022. Suburbanization in the USA, 1970–20⒑ Economica 89:S1. . [Crossref]1⒑Bruno Conte, Elena Ianchovichina. Spatial Development and Mobility Frictions in Latin America:Theory-based Empirical Evidence 87, . [Crossref]1⒒Alejandro Cuñat, Robert Zymek. 2022. The (structural) gravity of epidemics. European EconomicReview 144, 104082. [Crossref]1⒓Heitor S. Pellegrina. 2022. Trade, productivity, and the spatial organization of agriculture: Evidencefrom Brazil. Journal of Development Economics 156, 1028⒗ [Crossref]1⒔Dávid Krisztián Nagy. 2022. Quantitative economic geography meets history: Questions, answers andchallenges. Regional Science and Urban Economics 94, 10367⒌ [Crossref]1⒕Treb Allen, Dave Donaldson. 2022. Persistence and path dependence: A primer. Regional Science andUrban Economics 94, 10372⒋ [Crossref]1⒖Stephan Fretz, Raphaël Parchet, Frédéric Robert-Nicoud. 2022. Highways, Market Access and SpatialSorting. The Economic Journal 132:643, 1011-103⒍ [Crossref]1⒗Román D. Zárate. Spatial Misallocation, Informality, and Transit Improvements: Evidence fromMexico City 86, . [Crossref]1⒘Carl Gaigné, Hans R.A. Koster, Fabien Moizeau, Jacques-François Thisse. 2022. Who lives wherein the city? Amenities, commuting and income sorting. Journal of Urban Economics 128, 10339⒋[Crossref]1⒙Daniel M. Sturm, Kohei Takeda, Anthony J. Venables. Exploring the Urban Model: Employment,Housing, and Infrastructure 4, . [Crossref]1⒚David Argente, Chang-Tai Hsieh, Munseob Lee. 2022. The Cost of Privacy: Welfare Effects of theDisclosure of COVID-19 Cases. The Review of Economics and Statistics 104:1, 176-18⒍ [Crossref]1⒛Stephen J. Redding. Trade and geography 147-2⒘ [Crossref]121.Bingjing Li, Lin Ma. 2022. JUE insight: Migration, transportation infrastructure, and the spatialtransmission of COVID-19 in China. Journal of Urban Economics 127, 103351. [Crossref]122.Clément de Chaisemartin, Xavier d'Haultfoeuille. 2022. Difference-in-Differences Estimators ofIntertemporal Treatment Effects. SSRN Electronic Journal 72. . [Crossref]12⒊Kirill Borusyak, Rafael Dix-Carneiro, Brian Kovak. 2022. Understanding Migration Responses toLocal Shocks. SSRN Electronic Journal 8. . [Crossref]12⒋Rowena Gray, Greg C Wright. 2022. A Rising Tide? The Local Incidence of the Second Wave ofGlobalization. SSRN Electronic Journal 34. . [Crossref]12⒌Xiao Chen, Hanwei Huang, Jiandong Ju, Ruoyan Sun, Jialiang Zhang. 2022. Endogenous Cross-Region Human Mobility and Pandemics. SSRN Electronic Journal 3. . [Crossref]12⒍David H. Autor, David Dorn, Gordon H. Hanson. 2022. On the Persistence of the China Shock.SSRN Electronic Journal 34. . [Crossref]12⒎David R. Agrawal, Jan K. Brueckner. 2022. Taxes and Telework: The Incidence of State Income Taxesin a Work-from-Home Economy. SSRN Electronic Journal 3. . [Crossref]12⒏Jasmina Chauvin, Carlos Inoue, Christopher Poliquin. 2022. Resource Redeployment as an EntryAdvantage in Resource-Poor Settings. SSRN Electronic Journal 78. . [Crossref]12⒐Jaedo Choi. 2022. Technology Adoption and Late Industrialization. SSRN Electronic Journal 111. .[Crossref]130.Michael Peters. 2022. Market Size and Spatial Growth—Evidence From Germany's Post‐WarPopulation Expulsions. Econometrica 90:5, 2357-239⒍ [Crossref]131.Pablo D. Fajgelbaum, Amit Khandelwal, Wookun Kim, Cristiano Mantovani, Edouard Schaal. 2021.Optimal Lockdown in a Commuting Network. American Economic Review: Insights 3:4, 503-522.[Abstract] [View PDF article] [PDF with links]132.David Loschiavo. 2021. Big-city life (dis)satisfaction? The effect of urban living on subjective well-being. Journal of Economic Behavior & Organization 192, 740-76⒋ [Crossref]13⒊Alberto Rivera-Padilla. 2021. Slums, allocation of talent, and barriers to urbanization. EuropeanEconomic Review 140, 10390⒏ [Crossref]13⒋Simon Büchler, Maximilian v. Ehrlich, Olivier Schöni. 2021. The amplifying effect of capitalizationrates on housing supply. Journal of Urban Economics 126, 103370. [Crossref]13⒌Wen-Tai Hsu, Lin Ma. 2021. Urbanization policy and economic development: A quantitative analysisof China's differential hukou reforms. Regional Science and Urban Economics 91, 10363⒐ [Crossref]13⒍Eran Yashiv. 2021. Moving from a poor economy to a rich one: A job tasks approach. Labour Economics72, 102032. [Crossref]13⒎Yang Liang. 2021. Job creation and job destruction: The effect of trade shocks on U.S. manufacturingemployment. The World Economy 44:10, 2909-294⒐ [Crossref]13⒏Jan Eeckhout, Christoph Hedtrich, Roberto B. Pinheiro. IT and Urban Polarization . [Crossref]13⒐Miquel Oliu-Barton, Bary S.R. Pradelski. 2021. Green zoning: An effective policy tool to tackle theCovid-19 pandemic. Health Policy 125:8, 981-98⒍ [Crossref]140.Carsten Ochsen. 2021. Age cohort effects on unemployment in the USA: Evidence from the regionallevel. Papers in Regional Science 100:4, 1025-105⒋ [Crossref]141.Hakan Yilmazkuday. 2021. Unequal welfare costs of staying at home across socioeconomic anddemographic groups. International Journal of Urban Sciences 25:3, 347-36⒌ [Crossref]142.Greg Howard, Jack Liebersohn. 2021. Why is the rent so darn high? The role of growing demand tolive in housing-supply-inelastic cities. Journal of Urban Economics 124, 10336⒐ [Crossref]14⒊Ronny Freier, Martin Simmler, Christian Wittrock. 2021. Public good provision and localemployment – Evidence from grammar school closures in East Germany. Regional Science and UrbanEconomics 88, 103672. [Crossref]14⒋Renaud Coulomb, Yanos Zylberberg. 2021. Environmental Risk and the Anchoring Role of MobilityRigidities. Journal of the Association of Environmental and Resource Economists 8:3, 509-542. [Crossref]14⒌Klaus Desmet, Robert E. Kopp, Scott A. Kulp, Dávid Krisztián Nagy, Michael Oppenheimer, EstebanRossi-Hansberg, Beǌamin H. Strauss. 2021. Evaluating the Economic Cost of Coastal Flooding.American Economic Journal: Macroeconomics 13:2, 444-48⒍ [Abstract] [View PDF article] [PDF withlinks]14⒍Andrew Foote, Mark J. Kutzbach, Lars Vilhuber. 2021. Recalculating … : How Uncertainty inLocal Labour Market Definitions Affects Empirical Findings. Applied Economics 53:14, 1598-16⒓[Crossref]14⒎Guillermo Alves. 2021. Slum growth in Brazilian cities. Journal of Urban Economics 122, 10332⒎[Crossref]14⒏Achim Ahrens, Sean Lyons. 2021. Do rising rents lead to longer commutes? A gravity model ofcommuting flows in Ireland. Urban Studies 58:2, 264-27⒐ [Crossref]14⒐Liping Di, Eugene G. Yu. Spatial Search 683-69⒐ [Crossref]150.Jan Rouwendal, Ismir Mulalic. Commuting, the Labor Market, and Wages 297-301. [Crossref]151.Hakan Yilmazkuday. 2021. Unequal Welfare Costs of Staying at Home across Socioeconomic andDemographic Groups. SSRN Electronic Journal 137. . [Crossref]152.Morris A. Davis, Andra C. Ghent, Jesse Gregory. 2021. The Work-at-Home Technology Boon andits Consequences. SSRN Electronic Journal 83. . [Crossref]15⒊Yan Ji, Songyuan Teng, Robert M. Townsend. 2021. Branch Expansion versus Digital Banking: TheDynamics of Growth and Inequality in a Spatial Equilibrium Model. SSRN Electronic Journal 105. .[Crossref]15⒋Zhimin Li, Leslie Sheng Shen, Calvin Zhang. 2021. Local Effects of Global Capital Flows: A ChinaShock in the U.S. Housing Market. SSRN Electronic Journal 34. . [Crossref]15⒌Hakan Yilmazkuday. 2021. Welfare Costs of Traditional Shopping. SSRN Electronic Journal 97. .[Crossref]15⒍Andrii Parkhomenko. 2021. Homeownership, Inequality, and Polarization. SSRN Electronic Journal5. . [Crossref]15⒎Jordan Rappaport, McKenzie Humann. 2021. The Size of U.S. Metropolitan Areas. SSRN ElectronicJournal 103. . [Crossref]15⒏Jacques-François Thisse, Matthew Turner, Philip Ushchev. 2021. A Unified Theory of Cities. SSRNElectronic Journal 83. . [Crossref]15⒐Xavier Giroud, Simone Lenzu, Ramain Quinn Maingi, Holger M. Mueller. 2021. Propagation andAmplification of Local Productivity Spillovers. SSRN Electronic Journal 80. . [Crossref]160.Jingting Fan, Ben Zou. 2021. The Dual Local Markets: Family, Jobs, and the Spatial Distributionof Skills. SSRN Electronic Journal 100. . [Crossref]161.Nancy Chau, Ariel Ortiz-Bobea, Filiz Garip. 2021. On the Triggers of Hazardous Border Crossings:Evidence from the US-Mexican Border. SSRN Electronic Journal 97. . [Crossref]162.Florin Cucu. 2021. Roads, Internal Migration and the Spatial Sorting of US High-Skilled Workers.SSRN Electronic Journal 12. . [Crossref]16⒊José Luis Cruz Álvarez, Esteban A. Rossi-Hansberg. 2021. The Economic Geography of GlobalWarming. SSRN Electronic Journal 102. . [Crossref]16⒋Jengei Hong, Doojin Ryu. 2021. Mass Appraisal for Urban Land in Korea: A Hybrid Hedonic PricingApproach. SSRN Electronic Journal 13. . [Crossref]16⒌Rebecca Diamond, Enrico Moretti. 2021. Where is Standard of Living the Highest? Local Prices andthe Geography of Consumption. SSRN Electronic Journal 105. . [Crossref]16⒍Gabriel Loumeau, Christian Stettler. 2021. Fiscal Autonomy and Self-Determination. SSRNElectronic Journal 83. . [Crossref]16⒎Rainald Borck, Niklas Gohl. 2021. Gentrification and Affordable Housing Policies. SSRN ElectronicJournal 83. . [Crossref]16⒏Franklin Qian, Rose Tan. 2021. The Effects of High-skilled Firm Entry on Incumbent Residents.SSRN Electronic Journal 83. . [Crossref]16⒐Luca De Benedictis, Silvia Leoni. 20⒛ Gender bias in the Erasmus network of universities. AppliedNetwork Science 5:1. . [Crossref]170.Yukun Hu, Taotao Deng, Jun Zhang. 20⒛ Can commuting facilitation relieve spatial misallocationof labor?. Habitat International 106, 10213⒍ [Crossref]171.Tobias Seidel, Jan Wickerath. 20⒛ Rush hours and urbanization. Regional Science and UrbanEconomics 85, 103580. [Crossref]172.Stephan Heblich, Stephen J Redding, Daniel M Sturm. 20⒛ The Making of the Modern Metropolis:Evidence from London*. The Quarterly Journal of Economics 135:4, 2059-213⒊ [Crossref]17⒊Somik V. Lall, Mathilde Lebrand. 20⒛ Who wins, who loses? Understanding the spatiallydifferentiated effects of the belt and road initiative. Journal of Development Economics 146, 10249⒍[Crossref]17⒋Yuki Takayama, Kiyohiro Ikeda, Jacques-François Thisse. 20⒛ Stability and sustainability of urbansystems under commuting and transportation costs. Regional Science and Urban Economics 84, 10355⒊[Crossref]17⒌Gharad Bryan, Edward Glaeser, Nick Tsivanidis. 20⒛ Cities in the Developing World. Annual Reviewof Economics 12:1, 273-29⒎ [Crossref]17⒍Paul Goldsmith-Pinkham, Isaac Sorkin, Henry Swift. 20⒛ Bartik Instruments: What, When, Why,and How. American Economic Review 110:8, 2586-262⒋ [Abstract] [View PDF article] [PDF withlinks]17⒎Yashar Blouri, Maximilian V. Ehrlich. 20⒛ On the optimal design of place-based policies: Astructural evaluation of EU regional transfers. Journal of International Economics 125, 1033⒚[Crossref]17⒏Pascal Mossay, Pierre M. Picard, Takatoshi Tabuchi. 20⒛ Urban structures with forward andbackward linkages. Regional Science and Urban Economics 83, 103522. [Crossref]17⒐Xi He. 20⒛ US agricultural exports and labor market adjustments. Agricultural Economics 51:4,609-621. [Crossref]180.Raymond OwensIII, Esteban Rossi-Hansberg, Pierre-Daniel Sarte. 20⒛ Rethinking Detroit.American Economic Journal: Economic Policy 12:2, 258-30⒌ [Abstract] [View PDF article] [PDF withlinks]181.Marta Auricchio, Emanuele Ciani, Alberto Dalmazzo, Guido de Blasio. 20⒛ Life after publicemployment retrenchment: evidence from Italian municipalities. Journal of Economic Geography 20:3,733-782. [Crossref]182.Pablo D Fajgelbaum, Cecile Gaubert. 20⒛ Optimal Spatial Policies, Geography, and Sorting*. TheQuarterly Journal of Economics 135:2, 959-103⒍ [Crossref]18⒊Honghu Sun, Feng Zhen, Yupei Jiang. 20⒛ Study on the Characteristics of Urban Residents’Commuting Behavior and Influencing Factors from the Perspective of Resilience Theory: TheoreticalConstruction and Empirical Analysis from Naǌing, China. International Journal of EnvironmentalResearch and Public Health 17:5, 147⒌ [Crossref]18⒋Carlos Garriga, Pedro Gete, Athena Tsouderou. 20⒛ Investors and Housing Affordability. SSRNElectronic Journal 56. . [Crossref]18⒌David Argente, Chang-Tai Hsieh, Munseob Lee. 20⒛ The Cost of Privacy: Welfare Effects of theDisclosure of Covid-19 Cases. SSRN Electronic Journal 83. . [Crossref]18⒍Naomi Hausman, Peleg Samuels, Maxime Cohen, Roy Sasson. 20⒛ Urban Pull: The Roles ofAmenities and Employment. SSRN Electronic Journal 83. . [Crossref]18⒎Clément de Chaisemartin, Xavier d'Haultfoeuille. 20⒛ Difference-in-Differences Estimators ofIntertemporal Treatment Effects. SSRN Electronic Journal 72. . [Crossref]18⒏César Ducruet, Réka Juhász, Dávid Krisztián Nagy, Claudia Steinwender. 20⒛ All Aboard: TheEffects of Port Development. SSRN Electronic Journal 85. . [Crossref]18⒐Morgan Ubeda. 20⒛ Local Amenities, Commuting Costs and Income Disparities Within Cities.SSRN Electronic Journal 111. . [Crossref]190.Rodrigo Adão, Michal Kolesár, Eduardo Morales. 20⒚ Shift-Share Designs: Theory and Inference*.The Quarterly Journal of Economics 134:4, 1949-20⒑ [Crossref]191.Ioannis Charalampidis, Panagiotis Karkatsoulis, Pantelis Capros. 20⒚ A Regional Economy-Energy-Transport Model of the EU for Assessing Decarbonization in Transport. Energies 12:16, 312⒏[Crossref]192.Beǌamin Faber, Cecile Gaubert. 20⒚ Tourism and Economic Development: Evidence from Mexico’sCoastline. American Economic Review 109:6, 2245-229⒊ [Abstract] [View PDF article] [PDF withlinks]19⒊Andrew Garin. 20⒚ Putting America to work, where? Evidence on the effectiveness of infrastructureconstruction as a locally targeted employment policy. Journal of Urban Economics 111, 108-131.[Crossref]19⒋Farid Farrokhi, David Jinkins. 20⒚ Wage inequality and the location of cities. Journal of UrbanEconomics 111, 76-92. [Crossref]19⒌Jipeng Zhang, Ru Wang, Chong Lu. 20⒚ A quantitative analysis of Hukou reform in Chinese cities:2000–20⒗ Growth and Change 50:1, 201-221. [Crossref]19⒍Yiming Zhou. 20⒚ Spatial inequality and urban costs: Revisiting the home market effect. Journalof Regional Science 59:2, 302-321. [Crossref]19⒎Marcel Henkel, Tobias Seidel. 20⒚ A SPATIAL PERSPECTIVE ON EUROPEANINTEGRATION: HETEROGENEOUS WELFARE AND MIGRATION EFFECTS FROMTHE SINGLE MARKET AND THE BREXIT. Economic Inquiry 57:1, 333-352. [Crossref]19⒏Victor Couture, Cecile Gaubert, Jessie Handbury, Erik Hurst. 20⒚ Income Growth and theDistributional Effects of Urban Spatial Sorting. SSRN Electronic Journal 105. . [Crossref]19⒐Xiaodong Fan, Chao He. 20⒙ Multi-Market Simultaneous Search: More Can Be Less. SSRNElectronic Journal 28. . [Crossref]200.Yiming Zhou. 20⒙ Spatial Inequality and Urban Costs: Revisiting the Home Market Effect. SSRNElectronic Journal 89. . [Crossref]201.Simon Galle, Andres Rodriguez-Clare, Moises Yi. 20⒘ Slicing the Pie: Quantifying the Aggregateand Distributional Effects of Trade. SSRN Electronic Journal 4. . [Crossref]

@@ -1,0 +1,9231 @@
+Cross-Subsidization in Institutional Asset
+Management Firms
+
+Ranadeb Chaudhuri
+Oakland University
+
+Zoran Ivkovi´c
+Michigan State University
+
+Charles Trzcinka
+Indiana University
+
+We study cross-subsidization among U.S. equity products managed by institutional asset
+management ﬁrms. We ﬁnd returns-based evidence consistent with both cross-subsidization
+receipt by strong recent performers that are relatively small in their ﬁrms and provision by
+products that are relatively large in their ﬁrms. Tax-exempt investors and taxable investors
+do not have a clear ranking by expertise, but tax-exempt investors’ agency issues are more
+complex.Accordingly, taxable clients have more ﬂow-performance nonlinearity and receive
+more (and provide less) cross-subsidization. Taxable investor ﬂows appear more discerning,
+but only under the circumstances conducive to cross-subsidization, suggesting that “more
+discerning” likely means “more cross-subsidized.” (JEL G23)
+
+Received May 11, 2015; editorial decision April 22, 2017 by Editor Andrew Karolyi.
+
+In this paper, we study patterns of investment managers’ product returns
+consistent with cross-subsidization of performance among multiple investment
+products from the same ﬁrm. We focus on institutional asset management ﬁrms,
+
+We thank Vikas Agarwal, John Y. Campbell, Stephen Dimmock, Mark Grinblatt, Umit Gurun, Charles Hadlock,
+Hao Jiang, Jung Hoon Lee, Spencer Martin, Joshua Pollet, Jeffrey Pontiff, Veronika Pool, Mark Seasholes, Merih
+Sevilir, Clemens Sialm, Andrei Simonov, Scott Weisbenner, and Scott Yonker for comments and suggestions.
+Our gratitude goes to the 2012 Finance from Down Under conference participants, especially Neal Galpin
+(the discussant), to the 2013 American Finance Association annual meeting conference participants, especially
+Richard Evans (the discussant), and to the 2014 SFS Cavalcade participants, especially Sun Zheng (the
+discussant). We also thank seminar participants at Hong Kong University, Indiana University, Massey University
+Albany Campus, Massey University Palmerston North Campus, Nanyang Technological University, National
+University of Singapore, Oakland University, SUNY at Buffalo, University of Arizona, University of Dayton,
+University of Illinois, University of Maryland, and Victoria University for their suggestions. Ranadeb Chaudhuri
+gratefully acknowledges partial support by the Summer Research Fellowship program fostered by Oakland
+University’s School of Business Administration, Zoran Ivkovi´c gratefully acknowledges support by the MSU
+Federal Credit Union Endowed Chair in Financial Institutions and Investments, and Charles Trzcinka gratefully
+acknowledges support by the James W. and Virginia E. Cozad Chair in Finance. Send correspondence to Zoran
+Ivkovi´c, Michigan State University, Eli Broad College of Business, Department of Finance, 645 N. Shaw Lane,
+East Lansing, MI 48824; telephone: (517) 353-4593. E-mail: ivkovich@broad.msu.edu.
+
+© The Author 2017. Published by Oxford University Press on behalf of The Society for Financial Studies.
+All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.
+doi:10.1093/rfs/hhx075
+
+Advance Access publication July 18, 2017
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 638 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+one of the two traditional means of delivering asset management services.1
+Institutional asset management ﬁrms are the primary investment managers
+for tax-exempt institutional clients such as government and corporate pension
+plans, endowments, and foundations, as well as for taxable clientele consisting
+largely of high net-worth individuals. Their prevalent investment product
+is a separately managed account. A client’s portfolio is managed according
+to a certain investment style, portfolios managed in a particular style—
+though managed separately—are grouped into a product, and the product’s
+performance is reported as the asset-weighted performance of the constituent
+portfolios.
+
+Recent literature has documented cross-subsidization within mutual-fund
+companies (Gaspar, Massa, and Matos 2006; Bhattacharya, Lee, and Pool
+2013; Casavecchia and Tiwari 2016).2 Both institutional asset management
+ﬁrms and mutual-fund companies have family organizational forms, assess
+fees based on assets under management, and have ﬂow-performance relations
+that reward recent strong performance with disproportionate ﬂows. These
+circumstances yield a mismatch between investors’ desire for maximization
+of product performance and ﬁrms’ desire for maximization of assets under
+management that creates incentives for cross-subsidization. However, evidence
+of cross-subsidization in mutual-fund companies does not necessarily imply its
+prevalence in institutional asset management ﬁrms because typical investors in
+the two investment channels possess different levels of ﬁnancial sophistication
+and deploy different processes to identify and monitor managers. Plan sponsors
+investing through institutional asset management ﬁrms seek investment options
+in elaborate, multistage search processes (Lakonishok, Shleifer, and Vishny
+1992; Goyal and Wahal 2008). Those involved in the process have, on average,
+higher levels of ﬁnancial expertise than retail investors do. Moreover, plan
+sponsors often hire consultants, presumably to enhance their level of expertise
+even further.3
+
+Aside from not being portable to the domain of institutional asset
+management ﬁrms, the results pertaining to cross-subsidization within mutual-
+fund families are not as rich. Indeed, as we outline below in more detail,
+simultaneous presence of two clienteles with comparable levels of ﬁnancial
+sophistication, yet with differential levels of agency issues leads to testable
+
+1 This paper focuses on traditional, long-only U.S. equity asset managers in institutional asset management
+ﬁrms, charging fees based on assets under management. Therefore, we do not consider alternative investments
+compensated primarily from management and performance fees, such as hedge funds, private equity, and venture
+capital ﬁrms.
+
+2 Mutual-fund companies are the registered investment companies regulated by the 1940 Investment Company
+Act. They are the primary investment channel for retail investors, offering well-diversiﬁed investment vehicles
+(open-end mutual funds, closed-end mutual funds, exchange-traded funds, and unit-investment trusts).
+
+3 Lakonishok, Shleifer, and Vishny (1992) argue that consultants are hired as much for enhancing the level of
+expertise as for creating an avenue for the plan sponsors to shift the blame in case of future underperformance.
+Goyal and Wahal (2008) report consultant involvement in around 60% of the hiring decisions by various pension
+plans, endowments, and foundations.
+
+639
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 639 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+predications that not only link incentives for cross-subsidization (captured by
+the ﬂow-performance relation) and the extent of cross-subsidization, but also
+provide highly suggestive evidence that what may appear as skill in identifying a
+talented manager could instead reﬂect a different skill, that is, skill in identifying
+a manager willing to provide cross-subsidization.
+
+Sialm, Starks, and Zhang (2015) ﬁnd that mutual-fund ﬂows by deﬁned-
+contribution plans (featuring elaborate search processes, often with both
+in-house and outside expertise) do not predict future fund performance, while
+mutual-fund ﬂows by other mutual-fund investors (featuring less elaborate
+search processes and, on average, lower levels of ﬁnancial expertise) predict
+future performance negatively. This gap characterizes deﬁned-contribution
+plans (henceforth DC plans) as more discerning than other mutual-fund
+investors and provides prima facie evidence of the relevance of ﬁnancial
+sophistication and elaborate investment selection processes for the investment
+outcome. Similar to DC plans investing through mutual funds, clients investing
+through institutional asset management ﬁrms bring high levels of ﬁnancial
+sophistication into the process.
+
+Moreover, compared to DC plans investing through mutual funds, let
+alone retail mutual-fund investors,
+institutional clients investing through
+separately managed accounts in institutional asset management ﬁrms have a
+far higher level of access to the information about their accounts. Because
+they own the securities in their accounts and are large investors, management
+is very responsive to requests for account information, including portfolio
+composition, trades made in their account (including the rationale for those
+trades), and prices at which those trades were made. Therefore, clients
+investing through institutional asset management ﬁrms are more likely than
+those investing through mutual-fund companies to detect potential cross-
+subsidization patterns in which their accounts might be the ones providing
+it (and thereby experiencing a performance decline). Presumably, the ease
+with which these investors could ﬁre the manager and transfer their account
+with minimum friction to another manager might deter, or at least mitigate,
+cross-subsidization practices. Accordingly, we focus our ﬁrst set of analyses
+on gauging the extent of cross-subsidization in institutional asset management
+ﬁrms.
+
+Given the access to information and the clients’ average level of
+ﬁnancial sophistication, provision of cross-subsidization in institutional asset
+management ﬁrms needs to be subtle and difﬁcult to detect. A plausible
+channel for such cross-subsidization is directed from a ﬁrm’s relatively large
+products to its relatively small products because substantially enhancing the
+performance of the latter requires a barely noticeable decline in the performance
+of the former. For example, allocating a $1 million position in an asset that
+experiences a 100% return to a $100 million portfolio instead of allocating
+it to a $1 billion portfolio would enhance the performance of the former by
+1%, while diminishing the performance of the latter by only 10 basis points
+
+640
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 640 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+(bps). Generally, cross-subsidization may be implemented through strategic
+cross-trading (Casavecchia and Tiwari 2016), preferential initial public offering
+(IPO) allocation (Gaspar, Massa, and Matos 2006), preferential allocation of
+investment ideas, and favoritism in trade allocation (Ben-Rephael and Israelsen
+2017).
+
+A unique database free of survivorship bias, backﬁlling bias, and revision
+bias enables us to focus on U.S. equity products managed by institutional asset
+management ﬁrms. Using difference-in-differences estimation, we ﬁnd that
+recent strong performers (high-value products in terms of attracting investment
+ﬂows both to themselves and to the other products in the same ﬁrm) whose
+assets under management are relatively small among their respective ﬁrms’
+domestic equity products exhibit a pattern of returns consistent with receiving
+a cross-subsidization of 1.70% per year. We also ﬁnd complementary evidence
+consistent with cross-subsidization provision by showing that the products
+with large assets under management relative to other domestic equity products
+managed by the same ﬁrm experience a performance decline of −0.64% per
+year if in the previous year there had been a strong domestic equity performer—
+a high-value product and, as such, a desirable recipient of cross-subsidization
+in the current year—elsewhere in the ﬁrm.
+
+We proceed by exploiting the importance of the 3-year performance horizon
+(commonly used by clients to evaluate products). We ﬁnd further evidence
+consistent with cross-subsidization by showing that a relatively small product
+is cross-subsidized in month t if the product’s return in month t– 36 had been
+very strong (but will drop out of the 3-year performance record by the end of
+month t), with a particularly strong effect if month t is December, associated
+with the highest, end-of-year investor attention. This evidence, compelling in
+its own right, also suggests very strongly that, because asset management ﬁrms
+simply do not allocate talent or resources for only a month, our main ﬁndings of
+cross-subsidization receipt and provision could not be generated only through
+some form of implicit outcome distortion such as reallocation of managerial
+talent or resources within the ﬁrm.
+
+The second part of the paper deepens the study of cross-subsidization in
+institutional asset-management ﬁrms by taking advantage of the rich setting
+that features clientele heterogeneity. The mutual-fund clientele landscape
+of ﬁnancial sophistication is clear-cut. DC plans investing in mutual funds
+are more ﬁnancially sophisticated than other, mostly retail mutual-fund
+investors. By contrast, it is unclear whether the expertise of plan sponsors
+and consultants selecting investment options for tax-exempt clients (pension
+plans, endowments, and foundations) exceeds the expertise of wealth managers
+selecting investment options for taxable clients (mostly high net-worth
+individuals).
+
+The key identifying wedge between the tax-exempt and taxable clients
+investing through institutional asset management ﬁrms is the differential
+presence of agency issues that permeate the processes of selecting, monitoring,
+
+641
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 641 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+and changing investment options. In contrast to taxable clients (predominantly
+high net-worth individuals), plans sponsors acting on behalf of various tax-
+exempt clients are not the ultimate beneﬁciaries (Lakonishok, Shleifer, and
+Vishny 1992; Goyal and Wahal 2008). Rather, the beneﬁciaries of pension
+plans are government or corporate employees and retirees, the beneﬁciaries
+of endowments are universities and other institutions, and so on. Therefore,
+on average, the process employed by taxable clients has fewer layers and is
+both simpler and less burdened by agency issues and frictions than the process
+employed by tax-exempt institutional clients.
+
+The differential search process complexity and the associated agency issues
+predict that taxable clients should be less encumbered and, therefore, positioned
+to chase winners and drop losers to a higher extent than tax-exempt clients.
+We conﬁrm this hypothesis by showing that the nonlinearity of the ﬂow-
+performance relation is more pronounced for taxable clients than for tax-exempt
+clients.4 The greater elasticity and convexity of taxable ﬂow suggest higher
+marginal beneﬁts to cross-subsidization and, therefore, predicts more cross-
+subsidization toward, and less cross-subsidization away from, taxable clients.
+We conﬁrm this prediction by showing that cross-subsidization toward taxable
+products is more than twice as intense as it is toward tax-exempt products
+(2.41% vs. 1.02% per year). Moreover, cross-subsidization away from tax-
+exempt products is −0.78% per year, whereas cross-subsidization away from
+taxable products is statistically indistinguishable from zero.
+
+These ﬁndings suggest that identifying an investment option likely to
+generate superior returns need not only mean identifying a talented manager, but
+may also mean identifying a setting in which the institutional asset management
+ﬁrm is willing to enhance product performance by cross-subsidizing it. Such
+a circumstance could lead the econometrician to conclude that taxable clients
+are more discerning than tax-exempt clients, despite the absence of a clear
+prediction of their differential average ﬁnancial sophistication. Relying on a test
+from Sialm, Starks, and Zhang (2015), we conﬁrm this prediction by showing
+that investment ﬂows by the tax-exempt clients are worse predictors of product
+investment performance than investment ﬂows by the taxable clients, making
+the latter more discerning in the parlance of Sialm, Starks, and Zhang (2015).
+Finally, we develop a careful matching between investment performance
+of taxable dollar ﬂows and investment performance of highly comparable
+tax-exempt ﬂows to explore whether the differential success the investment
+ﬂows generated by the two clienteles have in predicting product performance
+
+4 Sialm, Starks, and Zhang (2015) show that mutual-fund DC assets have a steeper ﬂow-performance relation
+than non-DC, directly-held assets do. This result may seem surprising because plan participants rarely review
+and alter their retirement investment choices in DC plans (e.g., Benartzi and Thaler 2001; Carroll et al. 2009).
+Sialm, Starks, and Zhang (2015) use of a detailed data set of plan participants’ allocations within their respective
+plan options, also used in Pool, Sialm, and Stefanescu (2016), to show that sensitivity of DC plan asset ﬂows to
+past performance comes from plan sponsors (who review retirement plan option choices and periodically revise
+them by adding or dropping some mutual funds from the plan’s investment options menu), rather than from plan
+participants (whose ﬂow-performance sensitivity indeed is practically ﬂat by comparison).
+
+642
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 642 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+stems from taxable investors’ superior acumen to pick investment managers or,
+alternatively, from a more pronounced cross-subsidization effort institutional
+asset management ﬁrms extend toward taxable clients. First, we group product-
+year observations into 20 bins, deﬁned by quartiles of products’ relative size
+and quintiles of products’ adjusted performance. Second, within each bin we
+calculate for each observation the difference between adjusted returns of a
+product featuring a certain taxable dollar ﬂow and its matched product pursuing
+the same investment objective from a different ﬁrm and featuring a comparable
+tax-exempt dollar ﬂow.
+
+If “more discerning” translates into superior investment acumen, the dollar
+commitments made by taxable clients would be rather uniformly “smarter”
+across the 20 bins than the comparable dollar commitments made by tax-
+exempt clients into investment opportunities matched along relevant observable
+dimensions. By contrast, we ﬁnd that by far the largest gap of 1.14% per year,
+signiﬁcant at the 5% level, is present in the bin of relatively small products
+with the past product performance in the top quintile, consistent with a very
+pronounced role of cross-subsidization. The two next highest performance
+gaps, around 0.8% per year and both statistically signiﬁcant at the 10% level,
+are positioned in the two bins adjacent to the “winning” relatively small,
+top past performance bin, whereas none of the remaining 17 bins yielded a
+performance gap that is nearly as large in magnitude, let alone statistically
+signiﬁcant. Therefore, in the domain of institutional asset management ﬁrms,
+“more discerning” very likely means “more intensely cross-subsidized.”
+
+1. Data Sources, Sample Overview, and Summary Statistics
+
+Our key data come from 59 quarterly releases of data concerning institutional
+asset management ﬁrms for the period from June 1993 to December 2007
+(obtained from the Mobius Group and, from September 2006 onward, from
+Informa Investment Solutions (IIS) PSN Data Select).5 Both data sources
+have been used by institutional clients to identify money managers, study
+their track records, and consider a range of other variables relevant for their
+investment decision-making processes.6 The 59 quarterly releases enabled
+us to construct a data set free of survivorship bias, backﬁlling bias, and
+revision bias. The data feature product returns (computed as asset-weighted
+averages across all portfolios managed within the product and reported net
+
+5 Upon subsuming the Mobius Group and the immediate subsequent expiration of rolling 1-year agreements with
+Mobius clients, Informa Investment Solutions (IIS) began applying its own pricing and distribution model based
+on continuous data feed (rather than quarterly database distribution through CD/DVD media) at competitive
+prices, making continued subscription to the data prohibitively costly. Ultimately, December 2007 was the last
+data installment IIS was willing to provide under the earlier pricing and distribution scheme.
+
+6 Literature on institutional asset management uses Informa Investment Solutions (Busse, Goyal, and Wahal 2010;
+Berzins, Liu, and Trzcinka 2013) or a comparable data source (Mercer’s Manager Performance Analytics; Goyal
+and Wahal 2008).
+
+643
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 643 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+of trading costs, but gross of investment management fees), products’ ﬁrm
+afﬁliation, investment objective, and assets under management (total assets
+and, for most observations, a breakdown into taxable and tax-exempt assets).7
+Because most variables are available with annual frequency, most of our
+analyses extend over annual performance horizons. For some analyses, we use
+investment style benchmarks from Russell. Our sample consists of all domestic-
+equity product-year observations that have the requisite variables for our
+analyses.
+
+Table 1 presents the basic summary statistics regarding the number of
+institutional asset management ﬁrms with domestic equity products, number of
+domestic equity products, ﬁrm domestic equity assets, domestic equity product
+assets, and average number of domestic equity products per ﬁrm. The table
+reports year-end summaries from 1992 to 2006 (the analyses explore 1-year
+returns following the snapshots displayed in this table, thus making 2006 the
+last year for which the data concerning product returns are available over the
+next year, till the end of 2007). As shown in Table 1, during the sample period
+about 300 to 400 institutional asset management ﬁrms managed domestic equity
+products each year, with about ﬁve to fourteen billion dollars in domestic equity
+assets per ﬁrm on average. There were about 1,300 to 2,600 domestic equity
+products each year, with average assets under management between one and
+two billion dollars. Throughout the sample period, on average, ﬁrms managed
+about 5 to 6 domestic equity products.
+
+Table 2 shows summary statistics for the key variables in our empirical
+analyses. Product i’s adjusted return during year t, ARi,t, is calculated by
+subtracting from Ri,t (product i’s return in year t, calculated net of transaction
+costs but gross of fees) the median annual return to a product pursuing the
+same investment style in the same year, in the same asset-size quartile (across
+all products other than those from product i’s ﬁrm). Measuring performance
+relative to other products that pursue the same investment objective and have
+similar assets under management addresses the potential concern that merely
+using the controls for product assets under management may not sufﬁce to
+control for size effects and, therefore, ensures that a mechanical, negative
+relation between product performance and product asset size (e.g., Chen et al.
+2004; Pollet and Wilson 2008) cannot drive any of our results.
+
+The table next features summary statistics regarding product assets Assetsi,t,
+both for overall products and for their taxable and tax-exempt clienteles,
+within-product breakdown of taxable and tax-exempt assets (captured by
+the variable %TaxableAssetsi,t), and product i’s ﬁrm’s domestic-equity assets
+
+7 The data set also contains some coverage of the products’ fee schedules. Fees need not be disclosed, and 46.5% of
+all the sample observations miss them. Also, fees are paid on a per client basis, and institutional asset management
+ﬁrms can charge different fees to different investors in the same product. Moreover, anecdotally, fees may be
+discounted from the schedule, especially for clients with bargaining power, none of which is observable in
+the data. These considerations preclude the analyses of cross-subsidization based on high fees as a measure of
+products’ high value to their ﬁrms.
+
+644
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 644 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table 1
+Institutional asset management ﬁrms’ domestic equity investments: Sample summary statistics
+
+Number
+of ﬁrms
+
+with
+
+domestic
+equity
+products
+
+Average
+
+ﬁrm
+
+domestic
+equity
+assets
+
+($ million)
+
+244
+281
+304
+327
+359
+382
+390
+395
+401
+398
+384
+366
+355
+333
+296
+
+4,762
+5,202
+5,230
+6,532
+7,526
+9,331
+11,032
+12,737
+11,292
+9,229
+7,741
+10,841
+11,178
+11,985
+14,084
+
+SD of ﬁrm
+domestic
+equity
+assets
+
+($ million)
+
+9,387
+10,514
+10,652
+14,608
+17,955
+24,240
+30,530
+37,198
+32,809
+26,377
+22,189
+31,806
+29,495
+31,193
+35,467
+
+Year
+
+1992
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+
+Number
+
+of
+
+domestic
+equity
+products
+
+1,257
+1,491
+1,691
+1,896
+2,148
+2,302
+2,423
+2,507
+2,575
+2,604
+2,511
+2,421
+2,280
+2,092
+1,801
+
+Average
+domestic
+equity
+product
+assets
+
+($ million)
+
+924
+980
+940
+1,127
+1,258
+1,548
+1,776
+2,007
+1,758
+1,411
+1,184
+1,639
+1,740
+1,908
+2,315
+
+SD of
+
+domestic
+equity
+product
+assets
+
+($ million)
+
+2,390
+2,600
+2,508
+3,478
+4,212
+5,549
+6,883
+8,230
+7,063
+5,332
+4,248
+5,677
+5,667
+5,903
+6,859
+
+Average
+number
+
+of
+
+domestic
+equity
+
+products/
+
+ﬁrm
+5.15
+5.31
+5.56
+5.80
+5.98
+6.03
+6.21
+6.35
+6.42
+6.54
+6.54
+6.61
+6.42
+6.28
+6.08
+
+This table provides basic sample summary statistics for institutional asset management ﬁrms’ domestic equity
+investments. The data set is compiled from 59 quarterly releases of data concerning institutional asset managers
+(obtained from the Mobius Group and, from September 2006 onward, Informa Investment Solutions (IIS) PSN
+Data Select) in the period from June 1993 to December 2007. The table reports year-end summaries from
+1992 to 2006 (the analyses explore 1-year returns following the snapshots displayed in this table, thus making
+2006 the last year for which the data concerning product returns are available over the next year, till the end
+of 2007).
+
+FirmDEAssetsi,t. Taxable assets have a signiﬁcant presence; they constitute
+38% of the overall investment through institutional asset management ﬁrms.
+Variability of product and ﬁrm assets is substantial, with the respective
+interquartile ranges from $64 million to $1.1 billion (product assets)
+and from $1.4 billion to $17 billion (ﬁrm domestic-equity assets). We
+measure product i’s ﬂow during year t, Flowi,t, in a standard way, as
+the change in assets from year t−1 to t divided by assets at the end of
+year t−1, (Assetsi,t−(1+ Ri,t)·Assetsi,t−1)/Assetsi,t−1. TaxableFlowi,t, and
+TaxExemptFlowi,t, are deﬁned analogously for the respective taxable and
+tax-exempt ﬂows.
+
+For each product-year observation, we deﬁne RelativeSizei,t as the ratio of
+the product’s assets Assetsi,t and the average of the assets of all domestic-
+equity products in the ﬁrm in year t (except for those of product i itself).
+We use RelativeSizei,t to deﬁne two indicator variables for each product-year
+observation. RelSmalli,t (indicating that assets under management by product
+i in year t, Assetsi,t, are small relative to the average domestic-equity product
+in the ﬁrm) is set to one if RelativeSizei,t is in the bottom quartile of the
+cross-sectional distribution of relative sizes of all sample products in year t.
+Analogously, RelBigi,t (indicating that assets under management by product i
+in year t, Assetsi,t, are big relative to the average domestic-equity product in the
+ﬁrm) is set to one if RelativeSizei,t is in the top quartile of the cross-sectional
+
+645
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 645 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 2
+Summary statistics for key regression variables
+
+ARi,t (%/year)
+Assetsi,t ($million)
+
+TaxableAssetsi,t ($million)
+TaxExemptAssetsi,t ($million)
+%TaxableAssetsi,t (%)
+
+Firm DE Assetsi,t ($million)
+Flowi,t (%/year)
+
+TaxableFlowi,t (%/year)
+TaxExemptFlowi,t (%/year)
+
+RelativeSizei,t
+RelSmalli,t
+
+RelBigi,t
+
+Assetsi,t (RelSmalli,t = 1) ($million)
+
+Assetsi,t (RelBigi,t = 1) ($million)
+
+Agei,t (years)
+Turnoveri,t (%/year)
+ExpenseRatioi,t (%/year)
+
+Mean
+
+SD percentile percentile Median percentile percentile observations
+
+5th
+
+25th
+
+75th
+
+95th
+
+No. of
+
+0.24
+1,538
+520
+967
+38.0
+
+10.39
+5,592
+2,158
+4,733
+40.1
+19,868 41,570
+13.91
+57.50
+56.87
+13.84
+64.40
+14.46
+1.296
+1.012
+0.43
+0.25
+210
+101
+0.25
+0.43
+4,319 10,357
+6.06
+8.05
+62.55
+74.78
+0.72
+0.68
+
+–14.00
+5
+0
+0
+0
+167
+–53.63
+–26.76
+–46.50
+0.013
+0
+1
+0
+93
+0
+14
+0.25
+
+–4.10
+64
+0
+10
+0
+1,374
+–13.52
+–1.70
+–8.00
+0.149
+0
+8
+0
+565
+4
+35
+0.55
+
+–0.10
+305
+22
+141
+21.5
+5,614
+0.98
+0
+0
+0.550
+0
+32
+0
+1,547
+7
+60
+0.69
+
+3.83
+1,105
+230
+643
+79.5
+17,063
+25.78
+6.66
+13.07
+1.450
+1
+100
+1
+4,001
+12
+100
+0.89
+
+15.10
+6,273
+2,265
+3,523
+100
+95,847
+131.75
+113.64
+140.09
+3.329
+1
+423
+1
+16,212
+20
+180
+1.00
+
+29,158
+29,158
+27,316
+27,316
+27,316
+29,158
+25,001
+23,555
+23,555
+29,158
+29,158
+7,286
+29,158
+7,286
+29,158
+16,144
+14,075
+
+This table provides summary statistics for the key variables used in regression analyses of product-year
+observations. Flows and returns are expressed in percentages per year. Assets are expressed in millions of dollars.
+
+distribution of relative sizes of all sample products in year t. Not surprisingly,
+the relatively small domestic-equity products (those with RelSmalli,t = 1) are
+much smaller than the relatively big domestic-equity products (those with
+RelBigi,t = 1); average assets under management for the two groups are 101
+million and 4.32 billion, respectively. Finally, we also document products’ age,
+turnover, and expense ratio, with the latter two variables reported by only
+50%–60% of all sample observations.
+
+One of our analyses requires information regarding ﬁrms’ cross-trading
+practices, obtained from the Security and Exchange Commission form ADV.
+Registered investment advisors who manage $100 million of client money
+or more must ﬁle the form with the SEC annually. A speciﬁc question from
+form ADV inquires about ﬁrm cross-subsidization practices.8 The earliest
+ADV forms we could obtain are for 2010, after the period covered in our
+study (1992–2007). However, cross-trading practices are highly persistent and
+their measurement in 2010 may introduce some noise, but no evident bias. An
+additional consequence of the timing of the ADV forms available for these
+analyses is that we lack observations associated with (the very few) ﬁrms that
+have been around during the sample period, but have ceased to exist since.
+
+2. Baseline Results
+
+As pointed out in the introductory section, both institutional asset management
+ﬁrms and mutual-fund companies are structured as families. They both
+
+8 Question 8B1 asks, “Do you or any related person ... as a broker-dealer or registered representative of a broker-
+dealer, execute securities trades for brokerage customers in which advisory client securities are sold to or bought
+from the brokerage customer (agency cross transactions)?”
+
+646
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 646 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+assess fees based on assets under management, and they both exhibit
+ﬂow-performance relations that reward recent strong performance with
+disproportionate ﬂows. These circumstances create incentives for cross-
+subsidization because there is a mismatch between investors’ desire for
+maximization of product performance and ﬁrms’ desire for maximization of
+assets under management.
+
+However, clients investing through mutual-fund companies and institutional
+asset management ﬁrms differ along three important dimensions. First, on
+average, the latter possess higher levels of ﬁnancial sophistication. Second,
+they also deploy, on average, more elaborate and thorough processes to identify
+and monitor managers. Third, compared to mutual-fund investors, institutional
+clients investing through separately managed accounts in institutional asset
+management ﬁrms have a far higher level of access to the information about
+their accounts. These differences suggest that evidence of cross-subsidization
+in mutual-fund companies (Gaspar, Massa, and Matos 2006; Bhattacharya, Lee,
+and Pool 2013; Casavecchia and Tiwari 2016) does not necessarily imply its
+prevalence in institutional asset management ﬁrms. Indeed, as discussed in the
+introductory section, clients investing through institutional asset management
+ﬁrms are better positioned than those investing through mutual-fund companies
+to detect potential cross-subsidization patterns in which their accounts are the
+ones providing it. The ease with which they could ﬁre the manager and transfer
+their account with minimum friction to another manager might deter, or at least
+mitigate, cross-subsidization practices. Accordingly, our baseline analyses seek
+to gauge the extent of cross-subsidization in institutional asset management
+ﬁrms.
+
+Client access to account
+
+information and average level of ﬁnancial
+sophistication pose a challenge for institutional asset management ﬁrms looking
+to arrange for provision of cross-subsidization. A plausible, subtle channel for
+such cross-subsidization is directed from a ﬁrm’s relatively large products
+to its relatively small products because, as discussed earlier, substantially
+enhancing the performance of the latter requires a barely noticeable decline
+in the performance of the former. The mutual-fund literature has argued
+that cross-subsidization may be implemented through strategic cross-trading
+(Casavecchia and Tiwari 2016), preferential IPO allocation (Gaspar, Massa, and
+Matos 2006), preferential allocation of investment ideas, and favoritism in trade
+allocation (Ben-Rephael and Israelsen 2017). Unfortunately, data limitations
+largely preclude a direct test of cross subsidization in investment products
+not subject to the disclosure requirements of the 1940 Investment Company
+Act. However, we provide returns-based evidence that aligns well with our
+predictions of differential incentives for, and costs of, cross-subsidization.
+Although this evidence does not establish cross-subsidization conclusively, we
+believe that the circumstantial evidence for cross-subsidization as the source
+of the return patterns we document is overwhelming.
+
+647
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 647 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+2.1 Performance analyses of relatively small and relatively
+
+large products
+
+We focus on U.S. equity products managed by the institutional asset
+management ﬁrms. Using difference-in-differences estimation, we develop two
+closely related tests that seek to identify patterns in returns consistent with
+receipt and provision of cross-subsidization. The ﬁrst test relates products’
+adjusted annual returns ARi,t+1 to indicator variables RelSmalli,t, Topi,t, and
+their interaction RelSmalli,t×Topi,t, as well as a number of controls and effects:
+
+ARi,t+1 = β0 RelSmalli,t + β1 Topi,t + β2 RelSmalli,t×Topi,t
+
++controls+effects+ εi,t+1.
+
+(1)
+
+The indicator variable Topi,t is set to one if return to product i in year t
+had been ranked in the top quintile among all products pursuing the same
+investment objective in year t as product i did, and is set to zero otherwise. The
+key regression coefﬁcient in this speciﬁcation is the difference-in-differences
+estimator β2, capturing the extent to which performance differential between
+relatively small products (products with more resources for receiving cross-
+subsidization) and other products (products with fewer resources for receiving
+cross-subsidization) is different for past top performers than it is for past non-
+top performers. A positive and statistically signiﬁcant coefﬁcient β2, therefore,
+would reﬂect performance enhancement among relatively small products tied
+to strong past performance, documenting a pattern consistent with cross-
+subsidization receipt. Controls are lagged adjusted product returns ARi,t (to
+ensure that, in the spirit of Busse, Goyal, and Wahal (2010), we control for
+performance persistence), product assets and ﬁrm domestic equity assets (both
+in logarithmic form), as well as their squares. Effects include year-by-style
+effects—to ensure that we are identifying effects among products with the
+same year and style (rather than across years and styles)—and ﬁrm effects—
+to also ensure that any variable varying only by ﬁrm is absorbed and cannot
+explain our ﬁndings. These controls and effects are used in the vast majority
+of our analyses. Finally, we calculate standard errors by clustering in a way
+that allows for heteroskedasticity as well as correlation across observations
+associated with the same ﬁrm.
+
+Two key features of the speciﬁcation from Equation (1) ensure that it does
+not merely reﬂect mechanically potential effects of performance persistence.
+First, we explicitly control for lagged performance, thereby including a
+standard approach toward controlling for persistence. Second, the difference-
+in-differences feature of the speciﬁcation helps us discern whether any effects
+we might uncover stem only from performance persistence, or whether cross-
+subsidization plays a role too. In particular, the extent of persistence among
+products that are not relatively small in their ﬁrms is reﬂected in the regression
+coefﬁcient β1 (associated with variable Topi,t), which, together with past
+
+648
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 648 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+product performance, captures the effects of performance persistence.9 If
+performance persistence—to whatever extent it is present—were the only
+thing going on in this setting, regression coefﬁcient β2 (associated with
+the interaction RelSmalli,t×Topi,t) should be completely ﬂat, indicating that
+
+the condition conducive to cross-subsidization of recent strong performers—
+being relatively small within the ﬁrm—is not related to returns beyond the
+extent already present through the regression coefﬁcient β1 (associated with
+variable Topi,t). On the other hand, because there does not appear to be a
+plausible reason why—aside from cross-subsidization—product returns should
+be still higher among recent strong performers just because they are relatively
+small in their ﬁrms (adjusted returns, our measure of product performance,
+are benchmarked by investment style and assets under management), a
+positive and statistically signiﬁcant regression coefﬁcient β2 (associated
+with the interaction RelSmalli,t×Topi,t) should indeed constitute compelling
+
+circumstantial evidence of cross-subsidization.
+
+is
+
+Closely tied to these tests
+
+the notion that cross-subsidization
+receipt by some of a ﬁrm’s products implies cross-subsidization provision
+from Equation
+by (an)other product(s)
+(2)
+to indicator vari-
+×
+ables RelBigi,t, TopElsewhereInFirmi,t, and their
+TopElsewhereInFirmi,t, as well as the same controls and effects as in
+Equation (1):
+
+relates product adjusted annual
+
+from the same ﬁrm. The test
+
+interaction RelBigi,t
+
+returns ARi,t+1
+
+ARi,t+1 = β0RelBigi,t + β1TopElsewhereInFirmi,t
+×TopElsewhereInFirmi,t
+
++ β2RelBigi,t
+
++controls+effects+ εi,t+1.
+
+(2)
+
+Its structure, controls, and effects correspond closely to those from Equation
+(1). The indicator variable TopElsewhereInFirmi,t is set to one if a domestic-
+equity product in the ﬁrm other than product i had been ranked in the top
+quintile among all product pursuing the same investment objective in year t as
+that product did, and is set to zero otherwise. The key regression coefﬁcient
+in this speciﬁcation is the difference-in-differences estimator β2, capturing
+the extent to which performance differential between relatively big products
+(products with more resources for providing cross-subsidization) and other
+products (products with fewer resources for providing cross-subsidization)
+is different for products in ﬁrms that have had a past top performer than it
+is for products in ﬁrms that have not had a past top performer. A positive
+
+9 Performance persistence, to whatever extent it may be present, could stem from momentum effects embedded
+in the returns of the underlying product portfolio securities, price pressures resulting from ﬂows of new money
+into products following their recent strong performance, and managerial talent. Because we do not have holdings
+data, we remain agnostic on the precise attribution of sources of potential performance persistence captured by
+the indicator variable Topi,t .
+
+649
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 649 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+and statistically signiﬁcant coefﬁcient β2, therefore, would reﬂect performance
+deterioration among relatively big products tied to strong past performance of
+(an)other product(s) in the ﬁrm, documenting a pattern in returns consistent
+with cross-subsidization provision.
+
+Table 3 presents baseline regression estimates concerning cross-
+subsidization receipt (Panel A) and cross-subsidization provision (Panel B),
+based on Equations (1) and (2), respectively. Each panel has two columns,
+with different product return adjustment benchmarks. The ﬁrst column
+features adjustment carried out by subtracting from product annual returns
+the contemporaneous return to the style benchmark deﬁned by the appropriate
+Russell index. Such return adjustment, reported for completeness, corresponds
+closely to the way the asset management industry and some of the academic
+literature (e.g., Goyal and Wahal 2008) often view and report performance—
+net of an investment benchmark characterizing the investment style. The
+second column features the adjustment described in the previous section—
+henceforth our primary approach—consisting of subtracting from product
+annual returns the contemporaneous median return among all the products
+(except for the products from product i’s ﬁrm) pursuing the same investment
+style and belonging to the same asset-size quartile.
+
+In Panel A, regression coefﬁcient estimates of β0 (labeled in the table as
+RelSmalli,t) show the absence of a performance differential between relatively
+small past non-top performers and other past non-top performers. Coefﬁcient
+estimates of βl (labeled in the table as Topi,t) show that, among products that
+are not relatively small, the performance differential between the products
+that had been top performers and had not been top performers is around
+1% per year (1.08% in the ﬁrst column and 0.98% in the second column),
+reﬂecting the role of persistence.10 Finally, as discussed earlier, β2 (labeled
+in the table as RelSmalli,t×Topi,t) reﬂects a pattern of returns consistent
+
+with cross-subsidization receipt. Once again, the estimates are very similar
+across the two columns of Panel A, ranging from 1.70% to 1.74% per year,
+and are both statistically signiﬁcant.11 This magnitude, about 1.7% per year,
+
+10 Lagged returns ARi,t , another control for performance persistence, do not play a discernible role. In unreported
+results, we verify that the magnitude of the key regression coefﬁcient associated with RelSmalli,t ×Topi,t in a
+speciﬁcation that omits ARi,t and is otherwise identical to the baseline speciﬁcation from the second column
+of Panel A in Table 3 is little changed (1.619, SE = 0.518; statistically signiﬁcant at the 1% level). Also, the
+economic effect of ARi,t in the baseline speciﬁcation from the second column of Panel A in Table 3 is humble.
+According to the summary statistics from Table 2, its interquartile range is 3.83−(−4.10)= 7.93%, implying from
+the baseline speciﬁcation the marginal effect of −0.013×7.93%= 10 bps/year. This magnitude corresponds to
+merely 0.1/1.695= 6% of the baseline effect (and only 17.9% of 0.559, the standard error of the estimate of the
+baseline effect).
+
+11 To alleviate the potential concern that this result spuriously arises from return persistence that might be limited
+to, or more pronounced among, small products, in unreported analyses we replicate the baseline analysis from
+the second column of Table 3, Panel A, on three subsamples, deﬁned by product size. All three coefﬁcients from
+these analyses are statistically signiﬁcant at conventional levels and are very similar to the baseline coefﬁcient
+of 1.695. They are 1.514 for the bottom tercile of product sizes (products with assets under management below
+$117 million), 1.726 for the middle tercile of product sizes, and 1.601 for the top tercile of product sizes (products
+with asset under management above $704 million).
+
+650
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 650 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+amounts to about one-half of the cross-subsidization effect in the domain
+of mutual funds: Gaspar, Massa, and Matos (2006) report their baseline
+result indicating cross-subsidization of up to 3.3% per year, prevailing for
+the speciﬁcations in which high (low) fund value is captured by recent high
+(low) fund performance. That the magnitude of cross-subsidization is smaller
+in institutional asset management ﬁrms than in mutual-fund ﬁrms is consistent
+with the aforementioned possibility that the institutional asset management
+clients investing in products positioned to provide cross-subsidization may
+have been somewhat successful in deterring it, but not quite eliminating it.
+×
+In Panel B, as discussed earlier, β2 (labeled in the table as RelBigi,t
+TopElsewhereInFirmi,t) reﬂects a pattern of returns consistent with cross-
+subsidization provision. Like in Panel A, the estimates are very similar across
+the two columns, ranging from –0.64% to –0.63% per year, and are both
+statistically signiﬁcant. These results are compelling because our principal
+benchmarking approach ensures that
+the documented pattern of returns
+consistent with cross-subsidization provision is not driven by a performance
+differential between large products and small products (e.g., Chen et al. 2004;
+Pollet and Wilson 2008). Moreover, any explanation of the documented relation
+between a product’s performance drop and the past high performance of other
+products in the ﬁrm that completely rules out cross-subsidization does not
+appear plausible because the observed pattern cannot be mechanically related
+to product return persistence, nor is there any known asset return anomaly or
+pattern that would account for this ﬁnding.
+
+2.2 Implicit or explicit performance allocation
+The results from the previous section (Table 3) provide compelling returns-
+based evidence consistent with cross-subsidization. An intriguing question
+is how such cross-subsidization is achieved. In the settings in which either
+portfolio composition or trade-level data are available, past research has
+suggested that cross-subsidization may be implemented through strategic cross-
+trading (Casavecchia and Tiwari 2016), preferential IPO allocation (Gaspar,
+Massa, and Matos 2006; Bhattacharya, Lee, and Pool 2013), preferential
+allocation of investment ideas, and favoritism in trade allocation (Ben-Rephael
+and Israelsen 2017). In the absence of holdings and trade data, and in the light
+of availability of extant results elsewhere in the literature, we do not engage
+in a deeper study of these mechanisms (in the next subsection we do offer
+suggestive evidence of the role of cross-trading, based on a broad, ﬁrm-level
+self-declaration of cross-trading practices from ADV forms). For our purposes,
+it will sufﬁce to lump all of these mechanisms under the rubric of explicit
+outcome distortions and pose a novel question—whether it is plausible that the
+results we document in the previous section stem from an implicit performance
+allocation.
+
+The speciﬁc implicit performance allocation we have in mind is that,
+because managerial talent and effort within the ﬁrm are fungible, they may
+
+651
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 651 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 3
+Baseline estimates of cross-subsidization receipt and provision
+
+A. Cross-subsidization receipt
+
+B. Cross-subsidization provision
+
+Investment benchmark
+
+Median
+
+Russell
+
+benchmark
+
+product return
+in investment
+
+Investment benchmark
+
+Median
+
+Russell
+
+benchmark
+
+product return
+in investment
+
+for
+
+investment
+
+style
+
+∗∗∗
+
+∗∗∗
+
+0.042
+(0.262)
+1.076
+(0.291)
+1.737***
+(0.518)
+−0.011
+(0.007)
+−0.841
+(0.181)
+−1.897
+(0.774)
+∗∗
+0.029
+(0.015)
+0.019
+(0.045)
+Yes
+0.18
+29,158
+
+∗∗∗
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t ×Topi,t
+ARi,t
+
+log(Assetsi,t )
+
+log(FirmDEAssetsi,t )
+
+[log(Assetsi,t )]2
+
+[log(FirmDEAssetsi,t )]2
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+style,
+
+same size
+quartile
+−0.002
+(0.275)
+0.977
+(0.259)
+
+∗∗∗
+
+RelBigi,t
+
+TopElsewhereInFirmi,t
+
+∗∗∗
+
+∗∗∗
+
+ARi,t
+
+log(Assetsi,t )
+
+log(FirmDEAssetsi,t )
+
+1.695*** RelBigi,t ×TopElsewhereInFirmi,t
+(0.559)
+−0.013
+∗∗
+(0.006)
+−0.715
+(0.178)
+−2.011
+(0.764)
+∗
+0.026
+(0.014)
+0.030
+(0.044)
+Yes
+0.10
+29,158
+
+[log(FirmDEAssetsi,t )]2
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+[log(Assetsi,t )]2
+
+for
+
+investment
+
+style
+
+∗∗∗
+
+0.848
+(0.239)
+−0.115
+(0.223)
+–0.629**
+(0.257)
+−0.006
+(0.005)
+−0.896
+(0.140)
+−1.679
+(0.691)
+0.021
+(0.014)
+0.019
+(0.043)
+
+∗∗∗
+
+∗∗∗
+
+Yes
+0.20
+29,158
+
+style,
+
+same size
+quartile
+
+∗∗∗
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+−0.009
+∗
+(0.005)
+−0.739
+(0.137)
+−1.812
+(0.675)
+0.017
+(0.014)
+0.030
+(0.042)
+Yes
+0.10
+29,158
+
+∗∗∗
+
+This table displays regression coefﬁcient estimates from Equations (1) and (2), presented in Panels A and
+B, respectively. In both regressions, the dependent variable is ARi,t+1, the style- and size-adjusted product
+performance in year t +1. Sections 1 and 2 describe key independent variables, including RelSmalli,t , RelBigi,t ,
+Topi,t , and TopElsewhereInFirmi,t . Controls include lagged adjusted product returns ARi,t , product assets, and
+ﬁrm domestic equity assets (both in logarithmic form), as well as their squares. Effects include year x style effects
+and ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and dependence of
+observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+be strategically allocated across different products at different times. The
+reluctance traditionally displayed by the institutional asset management ﬁrms
+to disclose precise manager allocation across products creates room for
+such a possibility.12 In principle, the cross-subsidization we document in the
+previous section could stem only (or predominantly) from implicit performance
+allocation. Although, other than providing suggestive evidence that cross-
+trading plays a role, we cannot trace how cross-subsidization is achieved,
+in this section we present a different test of cross-subsidization receipt. The
+contribution of these results is twofold. Not only do they constitute a different
+
+12 For example, Nelson’s Directory of Investment Research typically lists within each ﬁrm the asset classes and the
+key investment professionals (CIO, Director of Research, and several managers), without precise designation
+which manager is (primarily) responsible for which product. Our conversations with industry insiders revealed
+that there appear to be at least two reasons for such reluctance to commit speciﬁc managers to speciﬁc products.
+First, institutional asset management ﬁrms strive to make an impression with every investor that they all have
+access to the top, the most talented managers available, and that they are “well-taken care of.” This is much easier
+to achieve if the ﬁrm is not pinned down to commit speciﬁc managers to speciﬁc products. Second, ﬁrms try to
+minimize potentially adverse effects of manager departures. It is easier to claim that, despite the departure of a
+speciﬁc talented manager, there are still many great managers available to investors, and they are all available
+to every investor, then it is to deal with investor anxiety if their, speciﬁcally listed manager, is the one who had
+departed.
+
+652
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 652 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+and very compelling returns-based test of cross-subsidization, but they also cast
+serious doubt that the only mechanism deployed to achieve cross-subsidization
+is merely implicit in nature, that is, strategic allocation of managerial talent and
+effort.
+
+The empirical setup we utilize in this section exploits the importance of
+3-year performance as a pivotal metric clients use to evaluate products. It is
+important not only in its own right, as a frequently used performance metric
+and marketing tool, but also as an integral part of various ratings that take
+3-year performance as one of the factors in constructing composite performance
+measures.13 In this analysis, we relate product monthly adjusted returns in
+month t to past product monthly performance over the window of ﬁve months
+surrounding month t–36, the month about to drop out of the window constituting
+the product’s 3-year performance record:
+
+ARi,t = α0RelSmalli,t−1 +
+
+β−36+jTopi,t−36+j + β−36Topi,t−36
+
+(cid:2)
+
+j=−5,−4,...,−1
+
+β−36+jTopi,t−36+j
+
+(cid:2)
+
++
+
+j=1,2,...,5
+(cid:2)
+
++
+
+γ−36+j RelSmalli,t−1×Topi,t−36+j
+
+j=−5,−4,...,−1
++ γ−36 RelSmalli,t−1×Topi,t−36
++
+
+(cid:2)
+
+γ−36+j RelSmalli,t−1×Topi,t−36+j +controls+effects+ εi,t.
+
+j=1,2,...,5
+
+(3)
+
+The indicator variables Topi,t−36+j, j =−5,−4, ...4, 5 are set to one if return
+to product i in month t−36+ j, j =−5,−4, ...4, 5 had been ranked in the top
+quintile among all product pursuing the same investment objective that month
+as product i did, and is set to zero otherwise. The key coefﬁcients are those
+related to our measures of cross-subsidization, that is, those associated with
+interaction terms RelSmalli,t−1×Topi,t−36+j, j =−5,−4, ...4, 5. The importance
+if performance in month t−36
+of the 36-month horizon dictates that,
+(the month about to drop out of the 3-year performance window) had been
+
+13 A prominent example is the well-known Morningstar Rating, comprised of the rating over the most recent 3-year
+period, the most recent 5-year period (if applicable), and the most recent 10-year period (if applicable). For
+investment vehicles with track records of at least three, but not ﬁve years, all 100% of the rating is based on
+the 3-year horizon. For those with track records of at least ﬁve, but not 10 years, 40% of the rating is based
+on the 3-year horizon and 60% is based on the 5-year horizon (also encompassing the most recent three years).
+Finally, for those with track records of at least 10 years, 20% of the rating is based on the 3-year horizon, 30% is
+based on the 5-year horizon (also encompassing the most recent three years), and 50% is based on the 10-year
+horizon (also encompassing the most recent three years). Each of the ratings across various horizons is based on
+risk-adjusted return measures within investment objectives/categories.
+
+653
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 653 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 4
+Evidence of cross-subsidization concerning 3-year rankings, monthly regressions
+
+RelSmalli,t−1×Topi,t−31
+RelSmalli,t−1×Topi,t−32
+RelSmalli,t−1×Topi,t−33
+RelSmalli,t−1×Topi,t−34
+RelSmalli,t−1×Topi,t−35
+RelSmalli,t−1×Topi,t−36
+RelSmalli,t−1×Topi,t−37
+RelSmalli,t−1×Topi,t−38
+RelSmalli,t−1×Topi,t−39
+RelSmalli,t−1×Topi,t−40
+RelSmalli,t−1×Topi,t−41
+
+Controls
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+−2.6
+(3.2)
+0.8
+(3.2)
+−4.3
+(3.1)
+2.6
+(3.9)
+1.9
+(3.6)
+8.8***
+(3.2)
+−1.4
+(3.5)
+2.9
+(3.8)
+−2.4
+(3.8)
+1.6
+(3.9)
+2.2
+(3.9)
+Yes
+Yes
+0.01
+201,964
+
+Post-estimation test:
+
+RelSmalli,t−1×Topi,t−36−Average{RelSmalli,t−1×Topi,t−36+j , j ∈{−5,−4, ...,4,5}\{0})}
+The table displays regression coefﬁcient estimates of γ−36+j , associated with RelSmalli,t−1×Topi,t−36+j ,
+j =−5,−4, ...4, 5 in the speciﬁcation concerning the 36-month horizon, based on Equation (3). Section 2.3
+describes the variables Topi,t−36+j , j =−5,−4, ...4, 5. The coefﬁcients are expressed in basis points per month.
+
+Controls, effects, and standard error adjustments are described in the main text. ***, **, and * indicate signiﬁcance
+at the 1%, 5%, and 10% level, respectively.
+
+8.7***
+(3.4)
+
+strong, cross-subsidization during month t should be particularly pronounced
+because avoiding a drop in rankings will require that a strong performance in
+month t replace the outgoing strong performance in month t−36. This notion
+is not critical for the ﬁve months preceding month t−36 (they already had
+dropped out of the 3-year window). Also, it is not as critical for the ﬁve months
+following month t−36 because those months will not disappear from the 3-year
+window yet. Thus, the ﬁnding that the coefﬁcient γ−36 is substantially larger
+than any of the other cross-subsidization regression coefﬁcients γ−36+j , j =
+−5,−4,−3,−2,−1, 1, 2, 3, 4, 5 would be consistent with cross-subsidization
+for the purpose of preventing a deterioration of 3-year ranking.
+
+The results of this regression analysis are presented in Table 4 and Figure 1.
+In short, we ﬁnd evidence consistent with cross-subsidization only for month
+t−36. The point estimate of γ−36 is 8.8 bps per month (statistically signiﬁcant
+at the 1% level). None of the point estimates pertaining to the ﬁve months
+preceding it or following it are even remotely comparable in terms of magnitude,
+let alone statistical signiﬁcance. Moreover, the point estimate of γ−36 is larger
+
+654
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 654 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+Figure 1
+Key regression coefﬁcients from Table 4
+This ﬁgure displays key regression coefﬁcient estimates of γ−36 and γ−36+j, j =−5,−4,−3,−2,−1, 1, 2, 3, 4,
+5, associated with RelSmalli,t × Topi,t−36+j, j =−5,−4, ...4, 5 from Equation (3), as presented in Table 4. The
+only statistical signiﬁcant coefﬁcient (indicated with the black bar) is associated with γ−36.
+
+than the average point estimate of the remaining ten gamma coefﬁcients
+by practically the same margin of 8.7 bps per month (also statistically
+signiﬁcant at the 1% level). These results not only strengthen our evidence
+of cross-subsidization by means of a novel empirical strategy, but they also
+suggest that, given the associated frictions and transaction costs, within-ﬁrm
+reallocation of managerial talent, research resources, or effort across products
+(especially at such a high frequency) is not a plausible primary explanation for
+cross-subsidization in the institutional asset management ﬁrms.14
+As a brief robustness check, the relation between performance and imminent
+departure of a strong performance month t−36 from the 3-year performance
+record should strengthen in the month of December because investors tend
+to pay the most attention to year-end performance. In Table 5, we report an
+analysis of the 3-year horizon that considers separately December observations
+and all the remaining observations. Indeed, the regression coefﬁcient γ−36 is
+
+14 For robustness, we also estimate regression speciﬁcations analogous to Equation (3), with suitably replaced sets
+of covariates to reﬂect different horizons from one to six years (12 to 72 months). The results of these regression
+analyses are presented in Appendix Table A1. That table also serves to differentiate portfolio management effects
+from asset-pricing seasonality effects documented in Heston and Sadka (2008). Simply put, 12-, 36-, and 60-
+month horizons are commonly regarded as very important performance evaluation horizons, unlike 24-, 48-,
+and 72-month horizons. If asset-pricing seasonality effects from Heston and Sadka (2008) are at play, the results
+should obtain for all horizons from one to six years, but if portfolio management effects are at play, the results
+should obtain only for 12-, 36-, and 60-month horizons. Appendix Table A1 conﬁrms the portfolio management
+effects because only 12-, 36-, and 60-month horizons feature large and statistically signiﬁcant coefﬁcients.
+
+655
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 655 638–677
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 5
+Evidence of cross-subsidization concerning 3-year rankings: Monthly regressions for December and
+other months
+
+RelSmalli,t−1×Topi,t−36
+
+Observations
+in December
+31.6***
+(10.7)
+Yes
+Yes
+0.09
+16,538
+
+Observations
+in other months
+
+6.6**
+(3.3)
+Yes
+Yes
+0.01
+
+Difference
+25.0**
+(2.8)
+Yes
+Yes
+0.01
+
+Controls
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+Post-estimation test:
+RelSmalli,t−1×Topi,t−36
+23.6*
+Average{RelSmalli,t−1×Topi,t−36+j, j ∈{−5, ...,5}\{0})}
+(12.5)
+The table displays regression coefﬁcient estimates of γ−36, associated with RelSmalli,t−1×Topi,t−36, in the
+speciﬁcation concerning the 36-month horizon, based on Equation (3). Section 2.3 describes the variable
+Topi,t−36 . The two subsamples are December observations and observations in other months. The coefﬁcients
+are expressed in basis points per month. Controls, effects, and standard error adjustments are described in the
+main text. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+30.3***
+(11.5)
+
+6.7*
+(3.5)
+
+185,426
+
+201,964
+
+substantially larger for December observations (31.6 bps/month, statistically
+signiﬁcant at the 1% level) than for other observations (6.6 bps/month,
+statistically signiﬁcant at the 5% level; their difference is 25.0 bps/month,
+statistically signiﬁcant at the 5% level).15 Although these estimates are not
+directly comparable to the results from our baseline estimate in Table 3 because
+they reﬂect two distinct motivations for cross-subsidization, for purposes of
+broad comparison we calculate the implied monthly return gap consistent
+with the baseline annual gap of 1.695% from Table 3, around 14 bps/month,
+and conclude that the intensity of the return reaction in the “t−36 analyses”
+is around one-half (around 6.6 bps/month) of the implied 14 bps/month
+ﬁgure in non-December months, and is somewhat more than twice (around
+31.6 bps/month) of the implied 14 bps/month ﬁgure in December.16
+
+2.3 Robustness checks of the baseline results
+The domestic-equity product-year observations in our sample include both
+actively-managed products (constituting more than 90% of all observations)
+and index products. As our ﬁrst robustness check, we show that index product
+
+15 As elsewhere in the paper, we have provided suggestive evidence grounded in patterns of returns consistent with
+cross-subsidization, but data limitations preclude us from tracing the precise mechanisms that generate these
+return patterns. Instead, we point to the evidence, compiled by Carhart et al. (2002), of the propensity of mutual
+funds to create well-timed price pressures for the purpose of boosting short-term (daily) returns of their funds
+(“leaning for the tape”) at the very ends of typical reporting periods: end-of-quarter and, particularly, end-of-year
+dates. It is plausible that similar tools may be used by institutional asset management ﬁrms in pursuit of 1-, 3-,
+and 5 year performance records, particularly those ending in the month of December.
+
+16 From another perspective, although the return reactions in our “t−36 analyses” are small relative to the magnitude
+of the disappearing monthly t−36 return (the median top-quintile style and size-adjusted monthly return in month
+t−36 is 2.11% per month), in case of December, 31.6 /month constitutes around 0.316/2.11 = 15% of the median
+top-quintile disappearing return in month t−36.
+
+656
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 656 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table 6
+Estimates of cross-subsidization for active products and index products
+
+A. Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t ×Topi,t
+
+Controls
+Year x style effects, ﬁrm effects
+R-squared
+No. of observations
+
+B. Cross-subsidization provision
+
+RelBigi,t
+
+TopElsewhereInFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+Controls
+Year x style effects, ﬁrm effects
+R-squared
+No. of observations
+
+(1)
+
+Full sample
+(Table 3)
+
+∗∗∗
+
+−0.002
+(0.275)
+0.977
+(0.259)
+1.695***
+(0.559)
+
+Yes
+Yes
+0.10
+29,158
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+
+Yes
+Yes
+0.10
+29,158
+
+(2)
+
+Active
+products
+
+∗∗∗
+
+0.034
+(0.298)
+1.008
+(0.264)
+1.668***
+(0.576)
+
+Yes
+Yes
+0.10
+27,448
+
+∗∗∗
+
+0.893
+(0.242)
+0.139
+(0.219)
+–0.685**
+(0.256)
+
+Yes
+Yes
+0.10
+27,448
+
+(3)
+Index
+
+products
+
+(4)
+
+Difference
+(2) – (3)
+
+∗
+−0.623
+(0.334)
+0.417
+(0.645)
+0.404
+(0.689)
+Yes
+Yes
+0.45
+1,710
+
+∗
+−0.719
+(0.373)
+−0.060
+(0.304)
+0.147
+(0.415)
+
+Yes
+Yes
+0.45
+1,710
+
+0.657
+(0.427)
+0.591
+(0.755)
+1.264*
+(0.725)
+
+Yes
+Yes
+0.10
+29,158
+
+∗∗∗
+
+1.612
+(0.406)
+0.199
+(0.359)
+–0.832*
+(0.468)
+
+Yes
+Yes
+0.10
+29,158
+
+This table displays estimates of key regression coefﬁcients from Equations (1) and (2), estimated over subsamples
+of active products (Column 2) and index products (Column 3). The last column provides differences between
+the coefﬁcient estimates from Columns 2 and 3, estimated in a pooled regression. The ﬁrst column replicates the
+baseline results from Table 3. In all regressions, the dependent variable is ARi,t+1, style- and size-adjusted product
+performance in year t+1. Sections 1 and 2 describe key independent variables, including RelSmalli,t , RelBigi,t ,
+Topi,t , and TopElsewhereInFirmi,t . Controls include lagged adjusted annual returns, product assets and ﬁrm
+assets (both in logarithmic form), as well as their squares. All speciﬁcations include year x style effects, as well
+as ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and dependence of
+observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+return patterns suggest that index products, as one might suspect, do not
+take part in cross-subsidization receipt or cross-subsidization provision. As
+shown in Table 6, regression coefﬁcients associated with cross-subsidization
+are very small in magnitude and are statistically indistinguishable from zero
+for index products (Column 3). For actively-managed domestic-equity products
+(Column 3), on the other hand, regression coefﬁcients are very similar to those
+for the overall sample. The difference between active and index products,
+obtained by introducing a full set of interaction terms for every covariate in
+the baseline speciﬁcation (including effects), is large in magnitude and is itself
+statistically signiﬁcant (Column 4).
+
+Another robustness test is focused on the variation of intensity in cross-
+subsidization with broad market conditions.At times of higher market volatility,
+the standard deviation of product returns is higher than at times of lower
+market volatility, making it possible to get away with more cross-subsidization
+at times of higher market volatility than at times of lower market volatility.
+
+657
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 657 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 7
+Estimates of cross-subsidization and market volatility
+
+High
+
+Volatility
+
+Years
+
+Medium
+Volatility
+
+Years
+
+(N =11,483)
+
+(N =9,596)
+
+Low
+
+Volatility
+
+Years
+
+(N =8,079)
+
+Continuous
+
+Volatility
+Measure
+
+(N =29,158)
+
+A. Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t ×Topi,t
+MktVoli,t
+RelSmalli,t ×Topi,t ×MktVoli,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+B. Cross-subsidization provision
+
+RelBigi,t
+
+TopElsewhereInFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+MktVoli,t
+RelBigi,t ×TopElsewhereInFirmi,t ×MktVoli,t
+
+∗∗∗
+
+0.546
+(0.637)
+3.031
+(0.634)
+2.229***
+(0.833)
+
+−0.561
+(0.373)
+−0.550
+(0.422)
+1.467**
+(0.565)
+
+0.359
+(0.293)
+0.071
+(0.314)
+1.092**
+(0.523)
+
+Yes
+0.14
+
+Yes
+0.18
+
+Yes
+0.17
+
+0.866
+(0.544)
+0.854
+(0.594)
+–1.289**
+(0.540)
+
+∗∗∗
+
+0.211
+(0.321)
+−0.966
+(0.309)
+–0.513*
+(0.301)
+
+0.192
+(0.291)
+∗∗
+−0.677
+(0.265)
+–0.385
+(0.295)
+
+Controls; Year x style, ﬁrm effects
+R-squared
+
+Yes
+0.14
+
+Yes
+0.18
+
+Yes
+0.17
+
+∗∗∗
+
+0.200
+(0.274)
+0.988
+(0.211)
+1.116*
+(0.589)
+0.046
+(0.083)
+0.075*
+(0.041)
+Yes
+0.10
+
+∗
+0.864
+(0.448)
+0.205
+(0.230)
+–0.408
+(0.439)
+0.055
+(0.067)
+–0.042*
+(0.023)
+Yes
+0.10
+
+This table displays estimates of key regression coefﬁcients from Equations (1) and (2), estimated over subsamples
+deﬁned by market volatility in year t +1. Column 1 captures high-volatility years (1998, 1999, 2000, 2001, and
+2002); Column 2 captures medium-volatility years (1996, 1997, 2003, 2004, and 2007); and Column 3 captures
+low-volatility years (1993, 1994, 1995, 2005, and 2006). The last column provides a modiﬁed speciﬁcation
+that provides continuous variation in cross-subsidization intensity by interacting the key cross-subsidization
+coefﬁcients with market volatility. In all regressions, the dependent variable is ARi,t+1, the style- and size-adjusted
+product performance in year t+1. Sections 1 and 2 describe key independent variables, including RelSmalli,t ,
+RelBigi,t , Topi,t , and TopElsewhereInFirmi,t . Controls include lagged adjusted annual returns, product assets
+and ﬁrm assets (both in logarithmic form), as well as their squares. All speciﬁcations include year × style
+effects, as well as ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and
+dependence of observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10%
+level, respectively.
+
+We conﬁrm this pattern in Table 7, featuring three subsamples (covering ﬁve
+years each) deﬁned by high, medium, and low market volatility. In accordance
+with decreasing market volatility, there is decreasing intensity of cross-
+subsidization, ranging for cross-subsidization receipt (Panel A) from 2.23% per
+year at times of high market volatility, to 1.47% per year and 1.09% per year
+at times of medium and low volatility, respectively. There is a similar pattern
+in connection with cross-subsidization provision (Panel B). The speciﬁcations
+featured in the last column of Table 7 are deﬁned over the entire sample of
+product-year observations. There, variation of cross-subsidization intensity
+is captured with MktVoli,t, a continuous measure of annual market volatility
+
+658
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 658 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+expressed in percentage per year, with the key regression coefﬁcients associated
+with the triple interactions RelSmalli,t×Topi,t
+×
+×MktVoli,t and RelBigi,t
+×MktVoli,t, respectively. As shown in both panels of
+TopElsewhereInFirmi,t
+the last column, the triple interactions have the expected sign—positive
+for cross-subsidization receipt (indicating more receipt at times of higher
+market volatility) and negative for cross-subsidization receipt (indicating more
+provision at times of higher market volatility).
+
+The next set of robustness checks exploits variation in ﬁrm-level cross-
+trading practices and product age. Cross-subsidization practices involve within-
+ﬁrm coordination wherein a buy order of a particular security made by one
+product is matched with a sale order from another product managed by the same
+ﬁrm, resulting in a transfer of the security from the product looking to sell it to
+the product looking to buy it. Such cross-trades, though potentially beneﬁcial
+for both parties, also have room for conﬂicts of interest. Our prediction is
+that evidence consistent with cross-subsidization receipt will be stronger in the
+subsample of product-year observations associated with ﬁrms that self-reported
+the use of cross-trading practices in their ADV forms. However, evidence of
+stronger cross-subsidization receipt is also consistent with managerial skill
+related to cross-trading that does not resort to cross-subsidization, ostensibly
+by using cross-trading to execute trades more conveniently, efﬁciently, and at
+more favorable prices. On the other hand, the accompanying prediction that
+evidence consistent with cross-subsidization provision will be stronger in the
+subsample of product-year observations associated with ﬁrms that self-reported
+the use of cross-trading practices in theirADV forms is more discerning because
+it is not consistent with superior managerial skill.
+
+Panel A of Table 8 displays the results (the ﬁrst column of Table 8 replicates
+the results of the baseline speciﬁcation for the full sample). The results in
+the top half of Panel A show that cross-subsidization receipt is larger for
+the products in ﬁrms pursuing cross-trading practices than for the products
+in ﬁrms not pursuing cross-trading practices (3.14% per year versus 0.93%
+per year; both are statistically signiﬁcant, as is their difference of 2.21% per
+year). The bottom half offers evidence that these differences are mirrored on the
+supply side of cross-subsidization. Speciﬁcally, evidence of cross-subsidization
+provision among relatively big products is larger for the observations associated
+with ﬁrms pursuing cross-trading practices (−1.12% per year, statistically
+signiﬁcant) than for the products not pursuing them (−0.52% per year, not
+statistically signiﬁcant), although this evidence is only suggestive because
+the difference between the two coefﬁcients itself, −0.60% per year, is not
+statistically signiﬁcant.
+
+Panel B of Table 8 is devoted to the consideration of product age, another
+product characteristic plausibly related to cross-subsidization. The ﬁrst few
+years of the product’s existence are crucial because the ﬁrm’s ability to attract
+investors will be signiﬁcantly impeded if the initial track record, typically
+three years of performance, is not noteworthy. This creates particularly strong
+
+659
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 659 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 8
+Cross-subsidization receipt and provision by ﬁrm cross-trading practices and product age
+
+Full sample
+
+(Table 3)
+
+A. Subsamples by
+
+ﬁrm cross-trading practices
+
+B. Subsamples by
+
+product age
+
+Baseline
+
+Yes
+
+(N =29,158)
+
+(N =3,281)
+
+Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t ×Topi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+Cross-subsidization provision
+
+RelBigi,t
+
+TopElsewhereInFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+∗∗∗
+
+−0.002
+(0.275)
+0.977
+(0.259)
+1.695***
+(0.559)
+
+Yes
+0.10
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+
+Yes
+0.10
+
+0.199
+(0.657)
+0.231
+(0.583)
+3.138***
+(0.956)
+
+Yes
+0.14
+
+1.112
+(1.105)
+0.109
+(0.673)
+–1.115*
+(0.605)
+
+Yes
+0.10
+
+No
+
+>3 years Difference
+(N =17,288) (N =20,552) (N =6,014) (N =23,144) (N =29,158)
+
+Difference
+
+0-3 years
+
+−0.002
+∗∗∗ −0.562
+(0.789)
+
+0.201
+(0.427)
+0.793
+(0.243)
+0.929**
+(0.433)
+Yes
+0.12
+
+0.616∗
+(0.351)
+0.122
+(0.222)
+–0.518
+(0.398)
+Yes
+0.12
+
+(0.681)
+2.209**
+(1.030)
+Yes
+0.12
+
+0.496
+(1.150)
+−0.013
+(0.701)
+–0.597
+(0.698)
+Yes
+0.12
+
+0.109
+(0.681)
+−0.021
+(0.665)
+2.209**
+(0.872)
+Yes
+0.24
+
+−0.007
+(0.312)
+1.467
+(0.246)
+1.053**
+(0.468)
+
+0.116
+∗∗∗ −1.488
+∗
+(0.714)
+(0.785)
+1.156
+(1.059)
+
+Yes
+0.12
+
+Yes
+0.14
+
+0.384
+(0.618)
+0.069
+(0.466)
+–0.301
+(0.702)
+Yes
+0.24
+
+0.935
+(0.280)
+0.382
+(0.189)
+–0.853***
+(0.310)
+
+Yes
+0.12
+
+∗∗∗ −0.551
+∗∗ −0.313
+
+(0.814)
+
+(0.488)
+0.552
+(0.849)
+
+Yes
+0.14
+
+This table displays estimates of key regression coefﬁcients from Equations (1) and (2), estimated over subsamples
+deﬁned by ﬁrm cross-trading practices (Panel A) and product age (Panel B). The ﬁrst column replicates the
+baseline results from Table 3. In all regressions, the dependent variable is ARi,t+1, the style- and size-adjusted
+product performance in year t+1. Sections 1 and 2 describe key independent variables, including RelSmalli,t ,
+RelBigi,t , Topi,t , and TopElsewhereInFirmi,t . Controls include lagged adjusted annual returns, product assets,
+and ﬁrm assets (both in logarithmic form), as well as their squares. All speciﬁcations include year x style
+effects, as well as ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and
+dependence of observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10%
+level, respectively.
+
+incentives to cross-subsidize young products. Accordingly, the top section
+of Panel B, Table 8 suggests that cross-subsidization receipt declines with
+product age; it is particularly strong for very young products (0-3 years).
+As shown in the bottom section of Panel B, and also consistent with cross-
+subsidization, evidence of cross-subsidization provision is completely absent
+for very young products (in the initial stages of building their performance
+records and, therefore, unlikely to be called on to provide cross-subsidization),
+and is strong for older products.
+
+Our baseline tests and a number of reported robustness tests have been based
+on adjusted annual product returns. The reporting practices of institutional asset
+managers have been (and continue to be) such that about two-thirds of the
+managers have been reporting monthly returns and the remaining third have
+been reporting only quarterly returns. Therefore, reliance on monthly returns
+would have implied a loss of about one-third of the observations. Instead, we
+developed a deliberate benchmarking strategy and a difference-in-differences
+estimator that, taken together, address benchmarking issues as well as possible
+without employing estimation from monthly returns. Nonetheless, to provide
+reassurance that our results hold up in such alternative contexts, even with a
+
+660
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 660 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table 9
+Baseline estimates of cross-subsidization receipt and provision, various benchmarks
+
+Full sample,
+
+annual style- and
+
+size- adjusted
+
+returns
+
+(percentage/year)
+
+(Table 3)
+
+(N = 29,158)
+
+In-sample
+monthly
+4-factor
+alphas
+
+(bps/month)
+(N = 20,798)
+
+Out-of-
+sample
+monthly
+4-factor
+alphas
+
+(bps/month)
+(N = 16,600)
+
+A. Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t × Topi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+B. Cross-subsidization provision
+
+RelBigi,t
+
+TopElsewhereInFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+∗∗∗
+
+−0.002
+(0.275)
+0.977
+(0.259)
+1.695***
+(0.559)
+
+Yes
+0.10
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+
+Yes
+0.10
+
+−0.04
+(2.42)
+0.77
+(2.38)
+12.80***
+(4.19)
+Yes
+0.29
+
+−0.90
+(1.60)
+−0.40
+(0.64)
+–3.62**
+(1.59)
+Yes
+0.29
+
+0.84
+(2.84)
+3.68
+(2.51)
+8.83**
+(4.47)
+Yes
+0.26
+
+−0.55
+(2.25)
+−0.95
+(0.71)
+–3.04*
+(1.76)
+Yes
+0.26
+
+This table displays regression coefﬁcient estimates from Equations (1) and (2), presented in Panels A and B,
+respectively. In both regressions, the dependent variable is ARi,t+1. The ﬁrst column replicates the baseline results
+from Table 3, with ARi,t+1 deﬁned as style- and size-adjusted return net of the median product pursuing the same
+investment style in the same asset size quartile as product i in year t. The second column features adjusted
+returns ARi,t+1 deﬁned as 4-factor alphas from in-sample monthly regressions of the 12 monthly observations
+for product i returns in year t +1 on the four standard risk factors (RMRF, SMB, HML, and PR1Y; Carhart
+1997) in year t +1. Finally, the third column features out-of-sample adjusted returns ARi,t+1, deﬁned as the
+average of the differences between the twelve product i’s monthly returns in year t +1 and contemporaneous
+ﬁtted monthly returns based on factor realizations in year t+ 1 and 4-factor out-of-sample regression loadings
+from the regression of product i’s returns on the four standard risk factors (Carhart 1997) over the preceding 24
+months (years t−1 and t). Sections 1 and 2 describe key independent variables, including RelSmalli,t , RelBigi,t ,
+Topi,t , and TopElsewhereInFirmi,t . Controls include lagged adjusted product returns ARi,t , product assets and
+ﬁrm domestic equity assets (both in logarithmic form), as well as their squares. Effects include year x style effects
+and ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and dependence of
+observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+dramatic loss of observations, we perform two robustness checks and report
+them in Table 9.
+
+The ﬁrst column of Table 9 replicates the baseline results from Table 3 (based
+on annual returns). The second column features the ﬁrst robustness test based
+on monthly data, with a decline in the number of observations relative to the
+baseline speciﬁcation of nearly one-third (N = 20,798). It features adjusted
+returns ARi,t+1 deﬁned as 4-factor alphas from in-sample monthly regressions
+of the twelve monthly observations for product i returns in year t +1 on the
+four standard risk factors (RMRF, SMB, HML, and PR1Y; Carhart 1997) in
+year t +1. Finally, the third column features out-of-sample adjusted returns
+ARi,t+1, deﬁned as the average of the differences between the twelve product
+
+661
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 661 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+i’s monthly returns in year t +1 and contemporaneous ﬁtted monthly returns
+based on factor realizations in year t +1 and 4-factor out-of-sample regression
+coefﬁcient estimates from the regression of product i’s returns on the four
+standard risk factors (Carhart 1997) over the preceding 24 months (years t−1
+and t). Because this approach requires availability of product returns for a period
+of two years before the estimation period, the number of observations declines
+still further, to N = 16,600). All the other details of estimation concerning the
+second and third columns are as in previous tables. In short, results based on
+stringent controls for known priced risk factors are consistent with our baseline
+results.
+
+The institutional asset management ﬁrm clients may focus on performance
+records over horizons longer than one year. Our aim in estimating and reporting
+results based on a 1-year past performance as an indicator of high value
+to the ﬁrm was to maximize the number of observations (and, hence, the
+power of our tests), at the same time looking to minimize survivorship issues
+(considering longer product performance track records conditions on the
+survival of such products). To provide additional assurance that our results
+do not depend on choosing a 1-year performance-measurement horizon to
+assess past performance, we have also estimated the baseline analyses from
+both panels of Table 3 with longer horizons (two, three, and four years of past
+performance measurement) and have found that the results remain unchanged
+(Appendix Table A2).
+
+Finally, our speciﬁcations feature not only product size and ﬁrm size, but also
+relative size of a product relative to other products in the ﬁrm. To alleviate the
+concern that the results might be intimately linked to the complex nature of our
+speciﬁcations, inAppendix TableA3 we provide an alternative speciﬁcation that
+relies on one simple, intuitive variable, RelativeSize, without using it further to
+construct the more complex and deliberately built indicator variables capturing
+relative size. As shown in Appendix Table A3, all the results obtain as they
+did in the main speciﬁcations, reiterating that our results do not depend on the
+complex size speciﬁcations.
+
+3. Results Concerning Heterogeneity of Institutional Asset Management
+
+Firm Clients
+
+Sialm, Starks, and Zhang (2015) show that DC plans investing in mutual funds
+possess more ﬁnancial sophistication and expertise than other, mostly retail
+mutual-fund investors.17 In the domain of institutional asset management ﬁrms,
+
+17 Many retail mutual-fund investors pay brokers or ﬁnancial advisors for fund selection and advice. Bergstresser,
+Chalmers, and Tufano (2009) compare broker-sold and direct-sold fund performance and do not ﬁnd tangible
+beneﬁts of such advice in the domain of retail mutual-fund investors. If anything, risk-adjusted returns delivered
+by broker-sold funds were found to be lower than risk-adjusted returns delivered by direct-sold funds. Whether
+brokers provide substantial intangible beneﬁts to retail mutual-fund investors or there are material conﬂicts of
+interest between brokers and their mutual-fund clients, the overarching conclusion is that retail mutual-fund
+
+662
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 662 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+it is unclear whether the expertise of plan sponsors and consultants selecting
+investment options for tax-exempt clients (pension plans, endowments, and
+foundations) exceeds the expertise of wealth managers selecting investment
+options for taxable clients (mostly high net-worth individuals).
+
+However, tax-exempt and taxable clienteles investing through institutional
+asset management ﬁrms differ in regard to the agency issues that permeate the
+processes of selecting, monitoring, and changing investment options. As the
+literature (Lakonishok, Shleifer, and Vishny 1992; Goyal and Wahal 2008)
+points out, that corporate treasurers and investment committees, acting as
+plan sponsors on behalf of various tax-exempt clients, are not the ultimate
+beneﬁciaries18 adds layers of complexity to the agency issues. By contrast,
+in case of taxable clientele (mostly high net-worth individuals), plan sponsors
+typically are the beneﬁciaries. Inserting various consultants or wealth advisors
+as an additional layer between plan sponsors and money managers affects the
+complexity of the process equally for both clienteles. Therefore, on average,
+the process employed by taxable clients has fewer layers and is both simpler
+and less burdened by agency issues and frictions than the process employed by
+tax-exempt clients.
+
+3.1 Flow-performance relation: Differential incentives across
+
+taxable and tax-exempt clients
+
+Differential complexity of the search process and the associated agency issues
+suggest differential ﬂow-performance relations. Taxable clients should be less
+encumbered and, therefore, positioned to chase winners and drop losers to a
+higher extent than tax-exempt clients. Our ﬁrst analysis tests this hypothesis
+by using a canonical ﬂow-performance relation speciﬁcation to compare the
+ﬂow-performance sensitivities of the two clienteles:
+
+Flowi,t+1 = β0Past Performancei,t +controls+effects+ εi,t+1.
+
+(4)
+
+Consistent with Sirri and Tufano (1998) and Sialm, Starks, and Zhang
+(2015), we begin by calculating for each product-year observation
+PerformanceRanki,t,
+the product’s percentile rank within its investment
+objective in year t, scaled to the unit
+interval (0 represents the worst
+fund, and 1 represents the best fund). To capture nonlinearity in the
+ﬂow-performance relation, we represent past performance with three
+piecewise
+PerformanceLowi,t = min(PerformanceRanki,t,
+0.2),
+and
+PerformanceHighi,t = (PerformanceRanki,t
+are
+
+0.6),
+−Lowi,t−Midi,t). Controls
+
+PerformanceMidi,t = min(PerformanceRanki,t
+
+−Lowi,t,
+
+terms,
+
+linear
+
+investors as a whole are not characterized by particularly high, tangible levels of ﬁnancial sophistication and
+expertise (their own or their brokers’).
+
+18 Rather, the beneﬁciaries of pension plans are government or corporate employees and retirees, the beneﬁciaries
+
+of endowments are universities and other institutions, and so on.
+
+663
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 663 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+taxable assets
+
+(log(TaxableAssetsi,t)),
+
+the indicator variable TopElsewhereInFirmi,t, capturing the ﬂow-spillover
+effects of the so-called star phenomenon (Nanda, Wang, and Zheng 2004),
+the product’s
+tax-exempt assets
+(log(TaxExemptAssetsi,t)), ﬁrm domestic-equity assets (log(FirmDEAssetsi,t)),
+product age in years (log(1+Agei,t)), and, in some speciﬁcations, annual
+turnover Turnoveri,t and the product’s expense ratio ExpenseRatioi,t. Effects
+include year-by-style effects (ensuring identiﬁcation of effects among products
+with the same year and style, rather than across years and styles) and ﬁrm
+effects (ensuring that any variable varying only by ﬁrm is absorbed and cannot
+explain our ﬁndings). We calculate standard errors by clustering in a way
+that allows for heteroskedasticity as well as correlation across observations
+associated with the same ﬁrm.
+
+There is a pronounced nonlinearity in the ﬂow-performance relation among
+taxable accounts, particularly for the top quintile of product performance
+(the magnitude of the coefﬁcient is about 1.1 to 1.2, as displayed in the
+ﬁrst and fourth columns of Table 10).19 By contrast, the ﬂow-performance
+relation among tax-exempt accounts appears far less nonlinear.20 Figure 2
+further illustrates the regression results. The lines representing taxable
+ﬂows (black) and tax-exempt ﬂows (gray), respectively, are based on the
+coefﬁcient estimates associated with PerformanceHighi,t, PerformanceMidi,t,
+and PerformanceLowi,t from the ﬁrst two columns of Table 10. Both lines in
+the ﬁgure are deliberately offset so that the median performers (at the 50th
+percentile, or 0.5) have the reference, zero ﬂow. This enables the interpretation
+of any point on a line as a ﬂow relative to the ﬂow to the median performer.
+
+In sum, the greater elasticity and convexity of taxable ﬂow suggest higher
+marginal beneﬁts to cross-subsidization and, therefore, predicts more cross-
+subsidization toward, and less cross-subsidization away from, taxable clients.
+We conﬁrm this prediction by comparing cross-subsidization receipt and
+provision across subsamples of products dominated by taxable investment
+and products dominated by tax-exempt investment. In Panel A of Table 11,
+the dominance of taxable (tax-exempt) investment is deﬁned as at least
+50% of the product’s assets under management held in taxable (tax-exempt)
+accounts. In Panel B, the comparison is performed across products with
+exclusively taxable and exclusively tax-exempt accounts. In both panels, cross-
+subsidization toward taxable products is more than twice as intense as it is
+toward tax-exempt products. In Panel A, the difference between 2.41% and
+1.02% per year is 1.39% per year, statistically signiﬁcant at the 5% level.
+
+19 The evidence of nonlinearity in the ﬂow-performance relation among the taxable clientele is similar to the
+nonlinearity documented in the mutual fund literature (e.g., Chevalier and Ellison 1997; Ippolito 1992; Sirri and
+Tufano 1998).
+
+20 The absence of pronounced nonlinearity in the ﬂow-performance relation among the tax-exempt clientele is
+
+consistent with the results concerning pension-fund ﬂows reported by Del Guercio and Tkac (2002).
+
+664
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 664 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table 10
+Flow-performance relation for tax-exempt and taxable ﬂows
+
+Taxable
+
+ﬂow
+
+ﬂow
+
+Tax-exempt
+∗∗
+∗∗∗
+0.380
+(0.166)
+∗∗∗
+∗∗∗
+0.361
+(0.031)
+∗∗∗
+0.081
+(0.129)
+∗∗∗
+1.372
+(1.296)
+∗∗∗ −0.040
+(0.003)
+∗∗∗ −0.042
+(0.005)
+0.026
+(0.016)
+∗∗∗ −0.099
+(0.011)
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+
+1.219
+(0.171)
+0.186
+(0.029)
+0.359
+(0.122)
+3.980
+(1.053)
+−0.011
+(0.004)
+−0.058
+(0.005)
+0.025
+(0.018)
+−0.062
+(0.009)
+
+PerformanceHighi,t
+
+PerformanceMidi,t
+
+PerformanceLowi,t
+
+TopElsewhereInFirmi,t
+
+log(TaxableAssetsi,t )
+
+log(TaxExemptAssetsi,t )
+
+log(FirmDEAssetsi,t )
+
+log(1+Agei,t )
+
+Turnoveri,t
+
+ExpenseRatioi,t
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+Yes
+0.16
+23,555
+
+Post-estimation F-test p-values
+PerfHigh = PerfMid
+PerfMed = PerfLow
+PerfHigh = PerfLow
+
+0.0001
+0.1641
+0.0001
+
+Yes
+0.14
+23,555
+
+0.9006
+0.0485
+0.1414
+
+Taxable
+
+Tax-exempt
+
+ﬂow
+
+ﬂow
+
+Difference
+∗
+∗∗∗
+∗∗∗
+0.425
+0.839
+1.097
+(0.231)
+(0.229)
+(0.211)
+∗∗∗
+∗∗∗
+∗∗∗
+−0.175
+0.401
+0.166
+(0.038)
+(0.043)
+(0.033)
+∗
+∗∗∗
+0.076
+0.278
+0.442
+(0.135)
+(0.161)
+(0.126)
+∗
+∗
+∗∗
+2.913
+2.608
+3.069
+(1.556)
+(1.381)
+(1.209)
+∗∗
+∗∗∗ −0.008
+∗∗∗ −0.030
+0.029
+(0.004)
+(0.004)
+(0.005)
+∗∗∗
+∗∗∗ −0.073
+∗∗∗ −0.034
+−0.016
+(0.007)
+(0.006)
+(0.006)
+∗∗∗
+−0.001
+−0.018
+−0.047
+(0.018)
+(0.022)
+(0.017)
+∗∗∗
+∗∗∗ −0.096
+∗∗
+−0.047
+0.037
+(0.018)
+(0.014)
+(0.014)
+0.008
+0.003
+(0.019)
+(0.022)
+∗∗ −0.009
+−0.017
+(0.008)
+(0.009)
+Yes
+0.15
+13,282
+
+Yes
+0.09
+23,555
+
+Yes
+0.17
+13,282
+
+∗∗∗
+∗∗∗
+
+Difference
+∗∗
+0.672
+(0.292)
+∗∗∗
+−0.235
+(0.048)
+∗∗
+0.366
+(0.166)
+0.156
+(1.825)
+−0.022
+(0.005)
+0.039
+(0.008)
+0.029
+(0.020)
+0.049
+(0.019)
+−0.005
+(0.024)
+−0.008
+(0.009)
+Yes
+0.10
+13,282
+
+∗∗∗
+
+0.0001
+0.0154
+0.0280
+
+0.0001
+0.0543
+0.0045
+
+0.9234
+0.0393
+0.1693
+
+0.0050
+0.0020
+0.3347
+
+This table displays regression coefﬁcient estimates from Equation (4), estimated separately for taxable ﬂows
+and tax-exempt ﬂows. The table also features a comparison of the respective regression coefﬁcients, obtained by
+calculating their differences in a pooled speciﬁcation. The ﬁrst three columns seeks to maximize the number of
+observations participating in the regression (by not including the scarcely reported turnover and expense ratio),
+whereas the last three columns feature these two variables. In all regressions, the dependent variable is Flowi,t+1,
+ﬂow of investment to product i in year t+ 1. Section 3.1 describes key independent variables, PerformanceHighi,t ,
+PerformanceMidi,t , and PerformanceLowi,t , and Section 1 describes the other independent variables. Controls
+in both panels include product taxable and tax-exempt assets and ﬁrm assets (both in logarithmic form). Controls
+in Panel B also include product annual turnover Turnoveri,t and expense ratio ExpenseRatioi,t . All speciﬁcations
+include year x style effects, as well as ﬁrm effects. Standard errors are adjusted by clustering that accounts for
+heteroskedasticity and dependence of observations across the same ﬁrm. The bottom of the table features p-
+values from F-tests comparing performance sensitivities coefﬁcients. ***, **, and * indicate signiﬁcance at the
+1%, 5%, and 10% level, respectively.
+
+The corresponding estimates are very similar in Panel B, although the cross-
+subsidization receipt coefﬁcient of 0.91 is not statistically signiﬁcant. Provision
+of cross-subsidization by taxable products is statistically indistinguishable from
+zero in both panels. At the same time, it is more pronounced among tax-exempt
+products. The point estimates for tax-exempt products are very similar across
+the two panels, −0.78% per year in Panel A and −0.83% per year in Panel
+B; both are statistically signiﬁcant at the 5% level. Differences between point
+estimates of cross-subsidization provision for products dominated by taxable
+investors and those dominated by tax-exempt investors are large, −0.49% per
+year in Panel A and −0.72% per year in Panel B, where the latter is statistically
+signiﬁcant.
+
+665
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 665 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+Figure 2
+Flow-performance relation for taxable and tax-exempt ﬂows
+This ﬁgure displays the piecewise linear ﬂow-performance relation for taxable and tax-exempt ﬂows. The lines
+representing taxable ﬂows (black) and tax-exempt ﬂows (gray), respectively, are based on the coefﬁcient estimates
+associated with PerformanceHighi,t , PerformanceMidi,t , and PerformanceLowi,t from the ﬁrst two columns of
+Table 10. Both lines are deliberately offset so that the median performers (at the 50th percentile, or 0.5) have the
+reference, zero ﬂow.
+
+3.2 More discerning or more cross-subsidized?
+The results reported in the previous section raise the possibility that identifying
+an investment option likely to generate superior returns need not only mean
+identifying a talented manager, but may also mean identifying a setting in
+which the institutional asset management ﬁrm is willing to enhance product
+performance by cross-subsidizing it. In this section, we provide empirical
+evidence that such a set of circumstances may be at play in institutional asset
+management ﬁrms. We start by adapting a test proposed in Sialm, Starks, and
+Zhang (2015, 833; Equation (9)) to the present setting. Speciﬁcally, we compare
+the abilities of the investment ﬂows by taxable and tax-exempt clienteles to
+predict product investment performance:
+
+ARi,t+1 = β0 TaxableFlowi,t + β1TaxExemptFlowi,t +controls+effects+ εi,t+1.
+
+(5)
+
+Controls are the product’s lagged return, percentage of tax-exempt assets
+in total product assets, product assets (log(Assetsi,t)), ﬁrm domestic-equity
+assets (log(FirmDEAssetsi,t)), as well as their squares, product age in years
+(log(1+Agei,t)), and, in some speciﬁcations, annual turnover Turnoveri,t and
+the product’s expense ratio ExpenseRatioi,t. Like elsewhere in the paper, effects
+
+666
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 666 638–677
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table 11
+Cross-subsidization receipt and provision for taxable and tax-exempt clients
+
+Full sample
+
+(Table 3)
+
+A. Predominantly ((cid:2) 50%)
+
+B. Exclusively
+
+taxable and tax-exempt products
+
+taxable and tax-exempt products
+
+Baseline
+
+Taxable Tax-exempt Difference
+(N =29,158) (N =10,211) (N =17,105) (N =27,316)
+
+Taxable Tax-exempt Difference
+(N =4,481)
+(N =9,131) (N =13,612)
+
+Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t ×Topi,t
+
+Controls; Year x style, ﬁrm effects
+R-squared
+
+Cross-subsidization provision
+
+RelBigi,t
+
+Top ElsewhereinFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+∗∗∗
+
+−0.002
+(0.275)
+0.977
+(0.259)
+1.695***
+(0.559)
+Yes
+0.10
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+Yes
+0.10
+
+0.227
+(0.564)
+0.549
+(0.493)
+2.408***
+(0.635)
+Yes
+0.15
+
+0.341
+(0.572)
+0.347
+(0.341)
+–0.284
+(0.341)
+
+Yes
+0.15
+
+−0.149
+(0.344)
+1.102
+(0.327)
+1.020*
+(0.535)
+Yes
+0.11
+
+∗
+0.622
+(0.327)
+0.196
+(0.209)
+–0.777**
+(0.302)
+
+Yes
+0.10
+
+0.376
+(0.665)
+
+∗∗∗ −0.553
+
+(0.517)
+1.388**
+(0.702)
+
+Yes
+0.13
+
+0.281
+(0.618)
+−0.151
+(0.378)
+–0.493
+(0.399)
+
+Yes
+0.12
+
+−0.032
+(0.766)
+0.398
+(0.713)
+
+2.683***
+(0.809)
+
+Yes
+
+0.21
+
+0.671
+(0.643)
+0.464
+(0.588)
+–0.118
+(0.401)
+Yes
+
+0.21
+
+0.066
+(0.421)
+1.266
+(0.422)
+0.905
+(0.714)
+
+Yes
+0.16
+
+0.511
+(0.498)
+0.049
+(0.275)
+–0.833**
+(0.314)
+
+Yes
+0.14
+
+−0.098
+∗∗∗ −0.868
+(0.893)
+
+(0.811)
+1.788**
+(0.907)
+
+Yes
+0.19
+
+−0.160
+(0.745)
+−0.415
+(0.442)
+–0.715*
+(0.418)
+
+Yes
+0.18
+
+This table displays estimates of key regression coefﬁcients from Equations (1) and (2), estimated over subsamples
+deﬁned by client tax status. The ﬁrst column replicates the baseline results from Table 3. Panel A features
+a comparison of predominantly taxable products and predominantly tax-exempt products. Panel B features
+a comparison of exclusively taxable and exclusively tax-exempt products. In all regressions, the dependent
+variable is ARi,t+1, the style- and size-adjusted product performance in year t+1. Sections 1 and 2 display the
+key independent variables, including RelSmalli,t , RelBigi,t , Topi,t , and TopElsewhereInFirmi,t . Controls include
+lagged adjusted annual returns, product assets, and ﬁrm assets (both in logarithmic form), as well as their squares.
+All speciﬁcations include year x style effects, as well as ﬁrm effects. Standard errors are adjusted by clustering
+that accounts for heteroskedasticity and dependence of observations across the same ﬁrm. ***, **, and * indicate
+signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+include year-by-style effects and ﬁrm effects, and we calculate standard errors
+by clustering in a way that allows for heteroskedasticity as well as correlation
+across observations associated with the same ﬁrm. The results (Table 12)
+suggest that, across the three speciﬁcations, tax-exempt clientele ﬂows are
+worse predictors of product investment performance than taxable clientele
+ﬂows, making the latter more discerning in the parlance of Sialm, Starks,
+and Zhang (2015). In the mutual-fund setting, it is intuitive and plausible that
+“more discerning” could mean that the ﬁnancial sophistication of those making
+investment decisions concerning DC plans would be superior to the ﬁnancial
+sophistication of retail investors. In our setting, however, there does not appear
+to be a clear ordering along the lines of ﬁnancial sophistication between taxable
+and tax-exempt clienteles, but there are differential incentives for, and practices
+of, cross-subsidization across the two clienteles in favor of taxable clients.
+
+This observation leads to our ﬁnal test, focusing on teasing out the role of
+cross-subsidization in positioning taxable clients as more discerning than tax-
+exempt clients. To that end, we develop a careful matching between investment
+performance of taxable dollar ﬂows and investment performance of highly
+comparable tax-exempt ﬂows. First, we group product-year observations in
+
+667
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 667 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 12
+Investor ﬂow return predictability regression
+
+TaxableFlowi,t
+
+TaxExemptFlowi,t
+
+ARi,t
+
+%TaxExemptAssetsi,t
+
+log(Assetsi,t )
+
+log(FirmDEAssetsi,t )
+
+log(1 + Agei,t )
+
+[log(Assetsi,t )]2
+
+[log(FirmDEAssetsi,t )]2
+
+Turnoveri,t
+
+ExpenseRatioi,t
+Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+Post-estimation F-test p-value
+TaxableFlowi,t = TaxExemptFlowi,t
+
+∗∗∗
+
+∗∗∗
+
+(1)
+−0.017
+(0.201)
+−0.571
+(0.123)
+−0.012
+(0.011)
+−0.424
+(0.312)
+−0.499
+(0.166)
+−1.138
+(0.962)
+−0.152
+(0.145)
+0.003
+(0.015)
+0.081
+(0.058)
+
+Yes
+0.10
+23,767
+
+0.045
+
+∗∗∗
+
+(2)
+−0.030
+(0.226)
+−0.487
+(0.144)
+−0.023
+(0.016)
+0.157
+(0.411)
+∗
+−0.367
+(0.200)
+−1.823
+(1.151)
+0.141
+(0.201)
+−0.001
+(0.017)
+0.099
+(0.068)
+−0.001
+(0.003)
+
+Yes
+0.13
+15,105
+
+0.052
+
+(3)
+
+0.028
+(0.256)
+∗∗
+−0.451
+(0.183)
+∗∗
+−0.036
+(0.017)
+0.269
+(0.457)
+∗
+−0.427
+(0.223)
+−1.992
+(1.318)
+0.184
+(0.239)
+0.003
+(0.019)
+0.105
+(0.078)
+0.001
+(0.002)
+0.119
+(0.089)
+
+Yes
+0.14
+13,153
+
+0.082
+
+This table displays estimates of regression coefﬁcients from Equation (5). In all regressions, the dependent
+variable is ARi,t+1, style- and size-adjusted product performance in year t +1. Section 1 describes key independent
+variables, including TaxableFlowi,t and TaxExemptFlowi,t . Controls include lagged adjusted annual returns,
+percentage of tax-exempt assets in total product assets, product assets and ﬁrm assets (both in logarithmic form),
+as well as their squares, product age (in logarithmic form), annual turnover, and expense ratio. All speciﬁcations
+include year x style effects, as well as ﬁrm effects. Standard errors are adjusted by clustering that accounts for
+heteroskedasticity and dependence of observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at
+the 1%, 5%, and 10% level, respectively.
+
+year t+ 1 into 20 bins, deﬁned by quartiles of product relative size at the end
+of year t and quintiles of product adjusted performance at the end of year t.
+Second, within each bin we calculate for each product-year observation the
+difference between product adjusted returns in year t+ 1 of a product featuring
+a certain taxable dollar ﬂow in year t and its matched product from a different
+ﬁrm that pursues the same investment objective and features the tax-exempt
+dollar ﬂow in year t that is the closest to the original product’s taxable dollar
+ﬂow. Third, we estimate 20 regressions—one for each bin—of these return
+differentials on the constant (capturing the performance gap) and a range of
+controls:
+
+ARi,t+1−ARMATCHED(i),t+1 = α +controls+ εi,t+1.
+the
+
+product
+
+Controls
+respective
+(AssetsMATCHED(i),t )) and their
+
+are
+
+log
+respective ﬁrm domestic-equity assets
+
+(log(Assetsi,t),
+
+assets
+
+(6)
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+668
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 668 638–677
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+Figure 3
+Illustration of alignment of discerning performance and cross-subsidization
+This ﬁgure displays key regression coefﬁcients from Table 13. Statistical signiﬁcance is indicated with black color
+(5% level) and gray color (10% level). The remaining coefﬁcients are depicted in white and are not statistically
+signiﬁcant.
+
+(log(FirmDEAssetsi,t),
+log(FirmDEAssetsMATCHED(i),t )). Also, we calculate
+standard errors by clustering in a way that allows for heteroskedasticity as
+well as correlation across observations associated with the same ﬁrm.
+
+The logic behind this exercise is simple. If indeed the only thing going on
+is that “more discerning” translates into taxable clients’ superior investment
+acumen, the dollar commitments made by taxable clients should be rather
+uniformly “smarter” across the 20 bins than the comparable dollar commitments
+made by tax-exempt clients into very similar investment opportunities,
+matched along relevant observable dimensions. If, on the other hand, there
+is a pronounced role for cross-subsidization in explaining the ﬁnding that
+taxable clients appear more discerning, evidence of superior performance
+by the taxable clients should be concentrated in the pockets of the two-
+dimensional grid deﬁned by relative size and past performance that resonate
+very closely with the circumstances conducive to, and consistent with, receiving
+cross-subsidization.
+
+An inspection of the results from Table 13, also depicted in Figure 3,
+provides compelling evidence in favor of the latter. By far the largest gap
+of 1.14% per year, signiﬁcant at the 5% level, is present in the bin in which one
+would expect the most cross-subsidization receipt—relatively small products
+with the past product performance in the top quintile. The two next highest
+performance gaps of around 0.8% per year, both statistically signiﬁcant at the
+10% level, are positioned in the two bins adjacent to the “winning” relatively
+
+669
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 669 638–677
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table 13
+Alignment of discerning performance and cross-subsidization
+A. Bottom relative size quartile (relatively small products)
+Past performance quintile
+
+Q5 (Top)
+
+Q4
+
+Constant
+(Taxable – matched tax-exempt investment)
+Controls
+R-squared
+No. of observations
+
+B. Second relative size quartile
+
+Constant
+(Taxable – matched tax-exempt investment)
+Controls
+R-squared
+No. of observations
+
+C. Third relative size quartile
+
+Constant
+(Taxable – matched tax-exempt investment)
+Controls
+R-squared
+No. of observations
+
+1.144**
+(0.568)
+
+Yes
+0.003
+1,403
+
+0.812*
+(0.481)
+
+Yes
+0.006
+1,217
+
+0.308
+(0.574)
+
+Yes
+0.001
+1,099
+
+D. Top relative size quartile (relatively big products)
+
+Constant
+(Taxable – matched tax-exempt investment)
+Controls
+R-squared
+No. of observations
+
+0.166
+(0.543)
+
+Yes
+0.004
+983
+
+0.772*
+(0.417)
+
+Yes
+0.003
+1,255
+
+0.178
+(0.481)
+
+Yes
+0.001
+1,208
+
+−0.127
+(0.381)
+
+Yes
+0.003
+1,157
+
+0.035
+(0.384)
+
+Yes
+0.002
+1,117
+
+Q3
+
+0.448
+(0.422)
+
+Yes
+0.001
+1,186
+
+0.053
+(0.479)
+
+Yes
+0.004
+1,180
+
+−0.116
+(0.405)
+
+Yes
+0.021
+1,163
+
+0.289
+(0.316)
+
+Yes
+0.001
+1,298
+
+Q2
+−0.385
+(0.557)
+
+Yes
+0.004
+1,050
+
+0.238
+(0.527)
+
+Yes
+0.001
+1,194
+
+0.110
+(0.485)
+
+Yes
+0.001
+1,262
+
+0.039
+(0.349)
+
+Yes
+0.004
+1,236
+
+Q1 (Bottom)
+
+0.638
+(0.507)
+
+Yes
+0.011
+1,023
+
+−0.403
+(0.587)
+
+Yes
+0.006
+1,217
+
+0.073
+(0.475)
+
+Yes
+0.001
+1,171
+
+−0.458
+(0.529)
+
+Yes
+0.001
+1,227
+
+This table displays results of 20 estimations of the regression from Equation (6), one for each group of product-
+year observations. The groups are formed by a double sort into 20 bins, deﬁned by quartiles of product relative
+size at the end of year t and quintiles of product adjusted performance at the end of year t. Within each
+bin, the dependent variable is calculated as the difference between product adjusted returns in year t+ 1 of
+a product featuring a certain taxable dollar ﬂow in year t and its matched product from a different ﬁrm that
+pursues the same investment objective and features the tax-exempt dollar ﬂow in year t that is the closest to
+the original product’s taxable dollar ﬂow. As detailed in Section 3.2, controls are the respective product assets
+(log(Assetsi,t ), log(AssetsMATCHED(i),t)) and their respective ﬁrm domestic-equity assets (log(FirmDEAssetsi,t ),
+log(FirmDEAssetsMATCHED(i),t )). Standard errors are adjusted by clustering that accounts for heteroskedasticity
+and dependence of observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and
+10% level, respectively.
+
+small, top past performance bin. None of the other bins yielded a performance
+gap that is nearly as large in magnitude, let alone statistically signiﬁcant.
+The overall conclusion, then, is revealing—institutional asset management
+ﬁrms appear to respond to the incentives for cross-subsidization (as captured
+by the differential ﬂow-performance relations across the two clienteles) by
+arranging for more intense cross-subsidization receipt to taxable clients. These
+activities create an impression that the characterization of “more discerning”
+may derive from better skill, but our results suggest a more compelling
+alternative explanation—“more discerning” very likely means “more intensely
+cross-subsidized.”
+
+670
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 670 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+4. Conclusion
+
+We use a unique database free of survivorship bias, backﬁlling bias,
+and revision bias to study cross-subsidization among U.S. equity products
+managed by institutional asset management ﬁrms. Using difference-in-
+differences estimation, we ﬁnd returns-based circumstantial evidence of cross-
+subsidization receipt by the ﬁrm’s high value and easy-to-cross-subsidize
+products (strong recent performers that are relatively small in their respective
+ﬁrms). We also ﬁnd complementary evidence of cross-subsidization provision
+by products with large assets under management relative to other domestic
+equity products managed by the same ﬁrm. Our data do not enable a detailed
+study of the mechanisms likely deployed to achieve cross-subsidization (e.g.,
+cross-trading, hot IPO allocation, preferential idea allocation, favoritism in
+trade execution). Instead, we take advantage of the importance of the 3-year
+performance horizon (commonly used by clients to evaluate products) not
+only to show further evidence of cross-subsidization, but also to suggest that
+cross-subsidization realistically could not be generated only through implicit
+performance allocation such as managerial talent or other resource allocation
+within the ﬁrm.
+
+We further study cross-subsidization in institutional asset management
+ﬁrms by exploiting clientele heterogeneity, that is, the presence of both tax-
+exempt clients (pensions plans, endowments, foundations) and taxable clients
+(mostly high net-worth individuals). There is no clear ordering of the ﬁnancial
+sophistication between these two groups of investors. However, as argued in
+detail in the body of the paper, they feature differential complexity of their
+search processes, as well as differential presence of agency issues that permeate
+the processes of selecting, monitoring, and changing investment options. These
+differences imply that taxable clients should be less encumbered and, therefore,
+better positioned to chase winners and drop losers than tax-exempt clients are.
+Accordingly, we ﬁnd that the nonlinearity of the ﬂow-performance relation
+is more pronounced for taxable clients. Consistent with these differential
+incentives for cross-subsidization, we further ﬁnd that, compared to tax-exempt
+clients, there is more cross-subsidization toward, and less cross-subsidization
+away from, taxable clients.
+
+Identifying a superior investment option need not only mean identifying
+a talented manager, but may also mean identifying a setting in which the
+institutional asset management ﬁrm is willing to enhance product performance
+by cross-subsidizing it. We conﬁrm this intuition in two steps. First, we
+show that investment ﬂows by tax-exempt clients are worse predictors of
+product investment performance than investment ﬂows by taxable clients,
+making the latter more discerning in the parlance of Sialm, Starks, and Zhang
+(2015). Second, we show that the performance gap between investments
+pursued by taxable ﬂows and matched tax-exempt ﬂows exists only under the
+
+671
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 671 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+circumstances that, at the same time, are conducive to cross-subsidization—
+among recent strong performers that are relatively small in their ﬁrms. Put
+differently, we show that, in the domain of institutional asset management
+ﬁrms, “more discerning” very likely means “more intensely cross-subsidized.”
+From the perspective of the concern whether the returns-based evidence
+we present in this paper implies that the institutional asset management
+ﬁrms engaging in cross-subsidization are violating any regulation, contractual
+obligation, or duty, it is difﬁcult to reconcile the results of this study with any
+contract between the sponsor and the money manager that stipulates ﬁduciary
+duty or otherwise articulates clear expectations akin to it. In that regard, the
+Security and Exchange Commission (2000) was very explicit in its letter to
+investment advisers, labeling certain trade allocation practices as harmful,
+even fraudulent, especially if they are not adequately disclosed to all clients.
+Finally, another challenge associated with enabling cross-subsidization to affect
+portfolio performance is that the link between managerial skill and reported
+performance is obfuscated. Indeed, in the world in which cross-subsidization is
+a reality, the reported product returns no longer truly reﬂect only the managerial
+skill.
+
+672
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 672 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Appendix
+
+Table A1
+Evidence of cross-subsidization concerning rankings for 1- through 6-year horizons: Monthly regressions
+
+12 months 24 months 36 months 48 months 60 months
+
+72 months
+
+(A)
+
+(C)
+
+(B)
+
+A. Key regression coefﬁcients
+RelSmall × Top (t–12)
+RelSmall × Top (t–24)
+RelSmall × Top (t–36)
+RelSmall × Top (t–48)
+RelSmall × Top (t–60)
+RelSmall × Top (t–72)
+Controls; Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+(D)
+
+(F )
+
+(E)
+
+7.5***
+(2.7)
+
+5.5
+(3.5)
+
+8.8**
+(3.2)
+
+4.0
+(4.0)
+
+8.4**
+(3.8)
+
+Yes
+0.01
+
+Yes
+0.01
+
+Yes
+0.01
+
+Yes
+0.01
+
+Yes
+0.01
+
+3.1
+5.1
+Yes
+0.01
+
+251,261
+
+214,463
+
+201,964
+
+168,549
+
+155,702
+
+127,701
+
+5.5**
+(2.8)
+
+B. Comparison of key regression coefﬁcients and average coefﬁcients surrounding the critical month(s)
+(A) – (1/10) (±5)
+(B) – (1/10) (±5)
+(C) – (1/10) (±5)
+(D)– (1/10) (±5)
+(E) – (1/10) (±5)
+(F ) – (1/10) (±5)
+
+8.7***
+(3.4)
+
+7.7**
+(3.9)
+
+2.2
+(3.9)
+
+2.6
+(4.6)
+
+1.9
+(5.4)
+
+This table displays key regression coefﬁcient estimates from Equation (3), with adjustments for different horizons
+as needed. Panel A reports regression coefﬁcient estimates for the critical month associated with key investment
+performance measurement horizon featured in the given column. Panel B reports the difference between that
+critical regression coefﬁcient estimate and the average of the surrounding window of ﬁve months preceding
+and ﬁve months following the critical month. The six columns feature estimations for the 12-month, 24-month,
+36-moth, 48-month, 60-month, and 72-month horizons, respectively. Controls include lagged product monthly
+adjusted returns ARi,t−1 (to control for product return persistence), RelSmalli,t , product assets, and ﬁrm domestic
+equity assets (both in logarithmic form), as well as their squares. Effects include year x style effects and
+ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity and dependence of
+observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 673 638–677
+
+673
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+Table A2
+Cross-subsidization receipt and cross-subsidization provision for various past performance
+measurement horizons
+Past performance measurement horizon:
+
+1 year (Table 3)
+
+2 years
+
+3 years
+
+4 years
+
+A. Cross-subsidization receipt
+
+RelSmalli,t
+
+Topi,t
+RelSmalli,t × Topi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+
+B. Cross-subsidization provision
+
+RelBigi,t
+
+(N = 29,158)
+
+(N = 25,496)
+
+(N = 21,989)
+
+(N = 18,670)
+
+∗∗∗
+
+−0.002
+(0.275)
+0.977
+(0.259)
+1.695***
+(0.559)
+
+Yes
+0.10
+
+∗∗∗
+
+0.157
+(0.251)
+−0.719
+(0.251)
+1.898***
+(0.375)
+
+Yes
+0.14
+
+0.041
+(0.212)
+∗∗
+−0.653
+(0.254)
+1.493***
+(0.296)
+
+Yes
+0.16
+
+0.019
+(0.197)
+∗
+−0.423
+(0.230)
+1.247***
+(0.267)
+
+Yes
+0.19
+
+∗∗∗
+
+0.820
+(0.228)
+0.144
+(0.207)
+–0.637***
+(0.242)
+
+∗∗∗
+∗∗∗
+
+0.765
+(0.232)
+−0.495
+(0.175)
+–0.527**
+(0.209)
+
+∗∗
+0.464
+(0.215)
+∗∗∗
+−0.618
+(0.163)
+–0.483**
+(0.192)
+
+TopElsewhereInFirmi,t
+RelBigi,t ×TopElsewhereInFirmi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+This table displays regression coefﬁcient estimates of β2, the coefﬁcient associated with RelSmalli,t ×Topi,t and
+RelBigi,t ×TopElsewhereInFirmi,t in regressions from Equations (1) and (2), respectively, estimated over various
+horizons of performance measurement. The horizons, ranging from one to four years, are represented in four
+successive columns (the ﬁrst column replicates the baseline, 1-year past performance result from Table 3).
+Controls include lagged adjusted product returns, product assets and ﬁrm domestic equity assets (both in
+logarithmic form), as well as their squares. Effects include year x style effects and ﬁrm effects. Standard errors
+are adjusted by clustering that accounts for heteroskedasticity and dependence of observations across the same
+ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and 10% level, respectively.
+
+Yes
+0.10
+
+Yes
+0.15
+
+Yes
+0.18
+
+Yes
+0.19
+
+∗∗∗
+
+0.285
+(0.205)
+−0.571
+(0.137)
+–0.570***
+(0.189)
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+674
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 674 638–677
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Table A3
+Cross-subsidization receipt and cross-subsidization provision: Alternative speciﬁcation featuring
+RelativeSize
+(cid:4)
+
+(cid:4)
+
+(cid:4)
+
+RelativeSizei,t
+
+Topi,t
+RelativeSizei,t ×Topi,t
+TopElsewhereInFirmi,t
+RelativeSizei,t × TopElsewhereInFirmi,t
+Controls; Year × style, ﬁrm effects
+R-squared
+No. of observations
+
+∗∗∗
+
+(2
+
+)
+
+0.359
+(0.104)
+
+(1
+
+)
+
+∗∗∗
+∗∗∗
+
+0.216
+(0.075)
+1.832
+(0.303)
+–0.436**
+(0.177)
+
+0.293
+(0.241)
+–0.248***
+(0.086)
+Yes
+0.10
+29,158
+
+Yes
+0.10
+29,158
+
+(3
+
+)
+
+∗∗∗
+∗∗∗
+
+0.360
+(0.104)
+1.813
+(0.295)
+–0.393**
+(0.178)
+0.069
+(0.229)
+–0.199**
+(0.083)
+
+Yes
+0.10
+29,158
+
+This table displays regression coefﬁcient estimates for the following speciﬁcations:
+
+ARi,t+1 = β0 RelativeSizei,t + β1 Topi,t + β2RelativeSizei,t ×Topi,t +controls+effects+ εi,t+1
+ARi,t+1 = β0RelativeSizei,t + β1TopElsewhereInFirmi,t + β2 RelativeSizei,t ×TopElsewhereInFirmi,t
+
++controls+effects+ εi,t+1
+
+ARi,t+1 = β0 RelativeSizei,t + β1Topi,t + β2RelativeSizei,t ×Topi,t + β3TopElsewhereInFirmi,t
+
++ β4RelativeSizei,t ×TopElsewhereInFirmi,t +controls+effects+ εi,t+1
+
+(cid:4)
+
+)
+
+(1
+
+(cid:4)
+
+)
+
+(2
+
+(cid:4)
+
+)
+
+(3
+
+These speciﬁcations are close equivalents of Equations (1) and (2). They capture the notion of relative size by using
+the variable RelativeSizei,t , as deﬁned in Section 1. Controls include lagged adjusted product returns, product
+assets, and ﬁrm domestic equity assets (both in logarithmic form), as well as their squares. Effects include year
+× style effects, and ﬁrm effects. Standard errors are adjusted by clustering that accounts for heteroskedasticity
+and dependence of observations across the same ﬁrm. ***, **, and * indicate signiﬁcance at the 1%, 5%, and
+10% level, respectively.
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 675 638–677
+
+675
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 2 2018
+
+References
+
+Ben-Rephael, A., and R. D. Israelsen. 2017. Are some clients more equal than others? Evidence of price allocation
+by delegated portfolio managers. Working Paper, Indiana University.
+
+Benartzi, S., and R. Thaler. 2001. Naïve diversiﬁcation strategies in deﬁned contribution savings plans. American
+Economic Review 91:79–98.
+
+Bergstresser, D., J. M. R. Chalmers, and P. Tufano. 2009. Assessing the costs and beneﬁts of brokers in the mutual
+fund industry. Review of Financial Studies 22:4129–56.
+
+Berzins, J., C. Liu, and C. Trzcinka, 2013, Asset management and investment banking, Journal of Financial
+Economics 110:215–31.
+
+Bhattacharya, U., J. H. Lee, and V. K. Pool. 2013. Conﬂicting family values in mutual fund families. Journal of
+Finance 68:173–200.
+
+Busse, J., A. Goyal, and S. Wahal. 2010. Performance and persistence in institutional investment management.
+Journal of Finance 65:765–90.
+
+Carhart, M. M., 1997, On persistence in mutual fund performance, Journal of Finance 52:57–82.
+
+Carhart, M. M., R. Kaniel, D. K. Musto, and A. V. Reed. 2002. Leaning for the tape: Evidence of gaming behavior
+in equity mutual funds. Journal of Finance 57:661–93.
+
+Carroll, G. D., J. J. Choi, D. Laibson, B. C. Madrian, and A. Metrick, 2009. Optimal defaults and active decisions.
+Quarterly Journal of Economics 124:1639–74.
+
+Casavecchia, L., and A. Tiwari, 2016. Cross trading and the cost of conﬂicts of interest of mutual fund advisers.
+Journal of Financial Intermediation 25:99–130.
+
+Chen, J., H. Hong, M. Huang, and J. D. Kubik. 2004. Does fund size erode mutual fund performance? The role
+of liquidity and organization. American Economic Review 94:1276–302.
+
+Chevalier, J., and G. Ellison. 1997. Risk taking by mutual funds as a response to incentives. Journal of Political
+Economy 105:1167–200.
+
+Del Guercio, D., and P. A. Tkac. 2002. The determinants of the ﬂow of funds of managed portfolios: Mutual
+funds vs. pension funds. Journal of Financial and Quantitative Analysis 37:523–57.
+
+Evans, R. 2010. Mutual fund incubation. Journal of Finance 65:1581–611.
+
+Gaspar, J., M. Massa, and P. Matos. 2006. Favoritism in mutual fund families? Evidence on strategic cross-fund
+subsidization. Journal of Finance 61:73–104.
+
+Goyal, A. and S. Wahal. 2008. The selection and termination of investment management ﬁrms by plan sponsors.
+Journal of Finance 63:1805–47.
+
+Heston, S. L., and R. Sadka. 2008. Seasonality in the cross-section of stock returns. Journal of Financial
+Economics 87:418–45.
+
+Ippolito, R. 1992. Consumer reaction to measures of poor quality: Evidence from the mutual fund industry.
+Journal of Law and Economics 35:45–70.
+
+Lakonishok, J., A. Shleifer, and R. Vishny. 1992. The structure and performance of the money management
+industry. Brookings Papers: Microeconomics, 339–391.
+
+Nanda, V., Z. J. Wang, and L. Zheng. 2004. Family values and the star phenomenon: Strategies of mutual fund
+families. Review of Financial Studies 17:667–98.
+
+Pollet, J. M., and M. I. Wilson. 2008. How does size affect mutual fund behavior? Journal of Finance 63:
+2941–69.
+
+Pool, V. K., C. Sialm, and I. Stefanescu. 2016. It pays to set the menu: Mutual fund investment options in 401(k)
+plans. Journal of Finance 71:1779–812.
+
+676
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 676 638–677
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Cross-Subsidization in Institutional Asset Management Firms
+
+Securities and Exchange Commission. 2000. Letter from the ofﬁce of compliance inspections and examinations:
+To registered investment advisers, on areas reviewed and violations found during inspections. May 1. http://www.
+sec.gov/divisions/ocie/advltr.htm.
+
+Sialm, C., L. T. Starks, and H. Zhang. 2015. Deﬁned contribution pension plans: Sticky or discerning money?
+Journal of Finance 70:805–38.
+
+Sirri, E., and P. Tufano. 1998. Costly search and mutual fund ﬂows. Journal of Finance 53:1589–622.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+2
+6
+3
+8
+3
+9
+7
+8
+0
+9
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[17:06 22/12/2017 RFS-hhx075.tex]
+
+Page: 677 638–677
+
+677
+
+

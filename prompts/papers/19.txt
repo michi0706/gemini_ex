@@ -1,0 +1,4095 @@
+Journal of Financial Economics 118 (2015) 268–288
+
+Contents lists available at ScienceDirect
+
+Journal of Financial Economics
+
+journal homepage: www.elsevier.com/locate/jfec
+
+Competition of the informed: Does the presence of short
+sellers affect insider selling?$
+Massimo Massa a,n, Wenlan Qian b, Weibiao Xu c, Hong Zhang d
+a INSEAD, Boulevard de Constance, 1 Ayer Rajah Avenue, Singapore 138676, Singapore
+b National University of Singapore, 15 Kent Ridge Drive, Singapore 119245, Singapore
+c School of Finance, Nankai University, Wenke Chuangxin Building, 94# Weijin Road, Tianjin 300071, PR China
+d PBC School of Finance, Tsinghua University, and INSEAD, 43 Chengfu Road, Haidian District, Beijing 100083, PR China
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+We study how the presence of short sellers affects the incentives of the insiders to trade
+on negative information. We show it induces insiders to sell more (shares from their
+existing stakes) and trade faster to preempt the potential competition from short sellers.
+An experiment and instrumental variable analysis confirm this causal relationship. The
+effects are stronger for “opportunistic” (i.e., more informed) insider trades and when short
+sellers' attention is high. Return predictability of insider sales only occurs in stocks with
+high short-selling potential, suggesting that short sellers indirectly enhance the speed of
+information dissemination by accelerating trading by insiders.
+
+& 2015 Elsevier B.V. All rights reserved.
+
+Article history:
+Received 1 September 2014
+Received in revised form
+3 November 2014
+Accepted 24 November 2014
+Available online 20 August 2015
+
+JEL classification:
+G14
+M41
+
+Keywords:
+Short selling
+Insider trading
+Informed trader
+Market efficiency
+
+1.
+
+Introduction
+
+A large body of literature shows that insiders trade on
+private information (e.g., Jaffe, 1974; Seyhun, 1986, 1998;
+Lin and Howe, 1990; Rozeff and Zaman, 1998; Lakonishok
+and Lee, 2001; Marin and Olivier, 2008; Jagolinzer, 2009;
+Cohen, Malloy, and Pomorsky, 2012). Less attention, how-
+ever, has been devoted to how the trading activity of other
+types of “informed” investors affects insiders' trading
+
+☆ We benefit from helpful comments and suggestions from Douglas
+Breeden, Hui Chen, Dong Lou, Stavros Panageas, Lasse Pedersen, Philip
+Strahan, Nagpurnanand Prabhala, David Reeb, and seminar participants
+at National University of Singapore and INSEAD. We thank Russell
+Investments for generously providing data on the Russell
+index
+components.
+
+n Corresponding author. Tel.: þ65 6799 5344; fax: þ65 6799 5445.
+E-mail addresses: massimo.massa@insead.edu (M. Massa),
+
+bizqw@nus.edu.sg (W. Qian), weibiaoxu@hotmail.com (W. Xu),
+zhangh@pbcsf.tsinghua.edu.cn (H. Zhang).
+
+http://dx.doi.org/10.1016/j.jfineco.2015.08.004
+0304-405X/& 2015 Elsevier B.V. All rights reserved.
+
+activity. Such research is important, as any interaction
+with other players may accelerate the release of new
+information by insiders and significantly affect the way
+information propagates in the financial markets. In this
+paper, we study this issue by exploring how the presence
+of a particular type of informed investors—i.e., the short
+sellers—could alter insiders' incentives to trade on their
+private (negative) information.
+
+It is well-documented that short sellers are able to
+identify overvalued or “suspicious” stocks (e.g., Dechow,
+Hutton, Meulbroek, and Sloan, 2001; Christophe, Ferri, and
+Angel, 2004; Desai, Krishnamurthy, and Venkataraman,
+2006; Cohen, Diether, and Malloy, 2007; Christophe, Ferri,
+and Hsieh, 2010; Karpoff and Lou, 2010; Hirshleifer, Teoh,
+and Yu, 2011; Ljungqvist and Qian, 2014). In addition, short
+sellers intermediate a considerable amount of trade. Diether,
+Lee, and Werner (2009a) document that the daily shorting
+activity composes 24% of the NYSE and 31% of the Nasdaq
+share volume. Collectively, these characteristics make short
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+269
+
+sellers an important class of “informed” investors whose
+trading activity may directly and significantly affect insiders.
+We propose a channel through which short selling can
+affect insiders: trading competition. More specifically, we
+argue that the presence of short sellers changes the strategic
+behavior of insiders by introducing potential competition in
+private information trading. In the absence of short sellers,
+insiders with access to information about a value-destroying
+event not yet disclosed to the market will strategically sell
+their shares before the information is known to the public
+(e.g., Kyle, 1985). However, in the presence of short sellers,
+insiders will fear that short sellers may obtain access to the
+same information and therefore compete with them in
+trading on the information. The presence (fear) of such
+trading competition will accelerate the rate at which private
+information is revealed to the market (e.g., Kyle, 1984;
+Holden and Subrahmanyam, 1992; Foster and Viswanathan,
+1993), drive down the price at which insiders can sell their
+shares, and jeopardize the profitability of
+insider sales.
+Insiders, aware of such potential competition, will have
+incentives to accelerate their information processing and
+trading activities in order to preempt short sellers.1 To the
+extent that corporate insiders, such as senior managers and
+board directors, have access to superior corporate informa-
+tion before the outsiders, such a preemptive strategy is both
+feasible and optimal.
+
+Such a preemptive strategy requires insiders to sell
+more and faster, especially when potential short sellers
+can compete effectively in trading on the same informa-
+tion. As a result, the potential of effective short selling
+should ex ante increase the scope and speed of insider
+sales. By contrast, with no credible short-selling competi-
+tion, insiders should sell at low volumes and over a long
+period of time to reduce the price impact of their trades
+(e.g., Kyle, 1985).
+
+We apply this intuition to data focusing on US stocks over
+the 2006–2011 period and document the ex ante impact of
+short-selling potential on insider sales. We use lendable
+shares—the fraction of shares available for borrowing (by
+short sellers)—as a proxy for the potential severity of short
+selling (hereinafter, short-selling potential). Lendable shares
+reasonably capture the capacity of potential short-selling
+competition,2 because it determines how many shares are
+
+1 In general, insiders could observe corporate private information
+earlier than other market participants. Nonetheless, the recent scandal
+that SAC, a $14 billon hedge fund, had “engaged in insider trading on an
+unprecedented scale” (Financial Times, July 25, 2013) reveals that some
+short sellers may occasionally have access to private information compar-
+able with that of insiders. Indeed, Khan and Lu (2013) document that
+short sellers can even front-run insiders due to information leakage,
+which would even further enhance the preemptive incentives for truly
+informed insiders in our context. The same intuition applies to positive
+private information. Indeed, short sellers, such as hedge funds, may also
+compete with insiders in trading on positive private information. How-
+ever, empirically identifying their long trading capacity is difficult.
+
+2 If short sellers wish to trade on their negative views via options or
+other derivatives markets, the feasibility and cost of such trades may still
+be affected by the equity loan market via, for instance, market makers'
+hedging behavior in the options and derivatives markets. Thus, the
+impact of Lendable is not restricted to the equity market. A few recent
+studies suggest that the amount of lendable shares could be a binding
+short sale constraint (Beneish, Lee, and Nichols, 2013), which may give
+
+available for borrowing (by short sellers), which directly
+speaks to the feasibility of the shorting activity and thus the
+maximum degree of trading competition that short sellers
+can introduce. We define insiders as directors and officers (as
+per Cohen, Malloy, and Pomorsky, 2012) and focus on their
+trading decisions: how much to sell (as a percentage of their
+existing stakes) and how fast to sell (i.e., the time span of
+their trades).3
+
+We present our analysis in three steps. In the first step,
+we document that the occurrence (i.e., likelihood) of open
+market sales by insiders is strongly positively associated with
+the availability of lendable shares in the previous month. A
+one-standard-deviation increase in lendable shares raises the
+relative probability of insider sales by 10% when all insiders
+are included and 14% when only directors and officers are
+considered. When we differentiate, following Cohen, Malloy,
+and Pomorsky (2012), insider sales that are motivated by
+private information (i.e., opportunistic sales) from those that
+are uninformative (i.e., routine sales), we find that the above
+relationship is significant in the case of opportunistic insider
+sales and becomes insignificant in the case of uninformative,
+routine insider sales. These findings provide initial evidence
+that insiders tend to trade more aggressively in the presence
+of short sellers when their trading is motivated by private
+information.
+
+Next, in the second step, we focus on the modality of
+insider sales. More specifically, we examine the amount
+and time span of
+insider trades. We document that,
+conditional on their decision to participate in open market
+sales, the amount that insiders sell as a fraction of their
+existing stakes is significantly positively associated with
+short-selling potential: a one-standard-deviation increase
+in short-selling potential is associated with a 2.4% increase
+in the portion of shares insiders sell out of their existing
+stakes in general and a 3% increase in the case of
+opportunistic sales in particular.
+If we compare these
+short-selling induced sales to the average portion of their
+existing stakes that the insiders sell in a given transaction
+(25% and 24% in the two cases), the economic impact is
+sizable. By contrast, the time span of insider sales is
+significantly reduced by the potential presence of short
+selling. A one-standard-deviation increase in lendable
+shares is associated with a 4.7% decrease in the number
+of days of net sale transactions in a given month for all
+insider sales and 12% fewer days for opportunistic sales.
+
+(footnote continued)
+rise to the important externality of discouraging information acquisition
+(Nezafat and Wang, 2014).
+
+3 The first variable follows the literature (e.g., Scott and Xu, 2004;
+Jenter, 2005), while we construct the second variable as the maximum
+selling span in a given month to capture our unique prediction regarding
+the speed of trading. The literature also employs other variables to
+represent insider trades. For instance, Cohen, Malloy, and Pomorsky
+(2012) use the number of insider sale transactions in a month as the
+main proxy for insider trades. Here, we follow Scott and Xu (2004) and
+Jenter (2005) to scale the amount of insider sales using insiders' existing
+holdings, primarily to be consistent with classical portfolio theories, in
+which the main decision variable is the investment weight. Regarding the
+speed of trading, subsequent sections provide an alternative measure
+related to the duration of insider sales in a given month, and the main
+results remain unchanged.
+
+270
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+This suggests that insiders also speed up their trades to
+potentially preempt short sellers.
+
+In our third step, we provide a causal explanation of the
+above results by exploiting an experiment:
+the SHO
+experiment. The Regulation SHO Pilot Program, announced
+in 2004, randomly selected one-third of the stocks on the
+Russell 3000 Index to be exempt from uptick rules and
+other price restrictions. The relaxation of short-selling
+restrictions induced an exogenous change in short-selling
+cost
+(e.g., Diether, Lee, and Werner, 2009b; Grullon,
+Michenaud, and Weston, 2015). We thus exploit the
+program announcement upon which there is an exogenous
+shock to the perceived short-selling potential among pilot
+stocks and study whether it is associated with a change in
+insider sale activity. Using a difference-in-differences (diff-
+in-diff) approach, we show that,
+in line with our full
+sample results, the announcement that the short-selling
+restrictions were being lifted increased the propensity for
+insider selling among the pilot firms relative to the firms in
+the control group. Moreover, insiders in the pilot firms
+sold more of their existing stakes and reduced the time
+span of trading relative to the control group after the
+announcement. We also rule out (change in) liquidity as an
+alternative explanation for the observed change in insider
+selling activity.
+
+The SHO test establishes a causal relationship between
+short-selling potential and insider trading behavior. To
+provide additional evidence, we also exploit information
+on exchange traded fund (ETF) ownership. ETFs are among
+the main contributors to the equity lending market. Given
+that ETFs are largely passive, non-information-driven
+investors, ETF ownership represents an instrument for an
+exogenous, non-informationally motivated supply shock in
+the lending market, which is orthogonal to the informa-
+tionally motivated trades of the insiders.
+Instrumental
+variable analysis further confirms the causal link from
+short-selling potential to insider sale transactions.
+
+In addition to these three main steps, we also provide a
+list of additional tests to extend our economic intuition.
+We first examine the cross-sectional dimension in greater
+depth and investigate the situations in which the link
+between short-selling potential and insider-selling beha-
+vior is stronger—when short sellers' attention is higher.
+We use the number of negative public news events
+concerning the firm and the level of realized shorting
+activity among industry peers to proxy for short sellers'
+potential attention. We find that insiders sell more of their
+ownership stake and do so more rapidly when both
+lendable shares and short sellers' potential attention are
+high. This result complements our main analyses in the
+spirit of Cohen, Diether, and Malloy (2007) that a proper
+combination of supply-side (lendable) and demand-side
+information (attention) generates the maximum impact of
+potential short-selling competition.
+
+We then explore the market implications of short
+selling with respect to information dissemination. Specifi-
+cally, we examine how short-selling potential affects the
+return predictability of insider trading. We document that
+the predictability of (opportunistic) insider sales is con-
+centrated in stocks with high short-selling potential. In
+other words, in the presence of short sellers, insiders are
+
+more likely to sell when they have information of parti-
+cularly high quality. By urging insiders to release new
+negative information into the market, short selling indir-
+ectly accelerates information dissemination for firms. This
+finding confirms our initial intuition that the impact of
+other types of informed traders on insiders will signifi-
+cantly affect the general process of information dissemina-
+tion in the market. Finally, we demonstrate that our main
+results remain qualitatively unchanged when we conduct
+robustness checks using a matching sample analysis and
+alternative definitions of corporate insiders.
+
+These results are important as they document that
+“informed” professional investors (e.g., short sellers) improve
+market efficiency not only by directly trading, but also (and
+possibly more importantly) by speeding up the trades of the
+insiders. To our knowledge, this is the first paper that
+addresses such an important issue with a detailed empirical
+analysis that links short-selling and sales by insiders. This
+provides new insights for regulators and policy makers in
+terms of the interaction between insider trading rules and
+restrictions on short-selling activity.
+
+More specifically, we contribute to several strands of
+the literature. First, our paper is related to the literature on
+insider trading, which primarily focuses on assessing the
+informational content of insider trades and predicting
+cross-sectional returns (Lorie and Niederhoffer, 1968;
+Jaffe, 1974; Seyhun, 1986, 1998; Lin and Howe, 1990;
+Damodaran and Liu, 1993; Bettis, Vickery, and Vickery,
+1997; Rozeff and Zaman, 1998; Lakonishok and Lee, 2001;
+Piotroski, and Roulstone, 2005; Marin and Olivier, 2008;
+Jagolinzer, 2009). More recent studies also attempt to
+identify information-driven insider trading based on the
+characteristics of insider trades (Scott and Xu, 2004; Jenter,
+2005; Cohen, Malloy, and Pomorsky, 2012), events upon
+which insiders trade (e.g., Kahle, 2000; Ke, Huddart, and
+Petron, 2003; Cheng and Lo, 2006; Huddart, Hughes,
+Levine, Ke, and Shi, 2007), or counterparties involved in
+trading, such as institutional and individual investors (Sias
+and Whidbee, 2010). We contribute to this literature by
+studying the effect of short-selling potential on insider
+trading and its return predictability. The impact of short
+selling on insider trading also conforms to the general
+intuition advanced by Marin and Olivier (2008) that
+insider purchases and sales may be driven by different
+economic motivations.
+
+Second, this paper is related to the literature on short
+selling. A number of studies demonstrate that short sellers
+possess superior information: they are able to identify over-
+valued stocks (e.g., Desai, Ramesh, Thiagarajan, and Bala-
+chandran, 2002; Cohen, Diether, and Malloy, 2007; Boehmer,
+Jones, and Zhang, 2008; Diether, Lee, and Werner, 2009a;
+Boehmer, Huszar, and Jordan, 2010) or are particularly good
+at processing information (e.g., Engelberg, Reed, and
+Ringgenberg, 2012). We extend this literature by revealing a
+specific channel through which short sellers expedite informa-
+tion discovery—by incentivizing insiders who have private
+information to trade. In that respect, our results are also broadly
+related to the literature on strategic trading with multiple
+informed traders (e.g., Kyle, 1984; Holden and Subrahmanyam,
+1992; Foster and Viswanathan, 1993; Edmans and Manso,
+2011). We contribute to this literature by demonstrating that
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+271
+
+the presence of additional informed traders (i.e., short sellers)
+largely affects the ex ante strategy and behavior of other
+informed traders (i.e., corporate insiders).
+
+Finally, we also contribute to the literature on the
+informativeness of stock prices. Existing studies in this
+literature focus on the institutional environment faced by
+firms to explain the informativeness of stock prices (e.g.,
+Morck, Yeung, and Yu, 2000; Jin and Myers, 2006). More-
+over, although short selling is well recognized to increase
+the efficiency of the market (e.g., Bris, Goetzmann, and
+Zhu, 2007; Saffi and Sigurdsson, 2011), the channels
+through which it achieves such efficiency are less
+explored. One notable exception is Boehmer and Wu
+(2013), which illustrates how information gets incorpo-
+rated into stock price through short sellers'
+intraday
+trading. Our unique contribution is to propose and test
+an explicit economic channel through which short selling
+can (indirectly) improve the price efficiency of the econ-
+omy. This indirect channel complements the direct chan-
+nel of trading in affecting efficiency.
+
+Overall, our results have important normative and
+policy implications, illustrating that regulations aimed at
+reducing short selling will also affect the informativeness
+of the market by reducing insider selling. Therefore, the
+subjects of different policies may need to be considered
+jointly: policies that affect shorting are likely to also affect
+insider trading. Moreover, our findings suggest that the
+effect of short selling could have been largely under-
+estimated to date, because regulators and academic
+researchers have till now ignored its impact on prices
+through insider trades that precede the shorting trades.
+The remainder of the paper is organized as follows. In
+Section 2, we present our stylized model and two pre-
+liminary empirical patterns that are key motivations for
+the model. In Section 3, we describe the data and the
+construction of the main variables.
+In Section 4, we
+provide the main evidence.
+In Section 5, we address
+causality and endogeneity. Section 6 provides additional
+tests and robustness checks. A brief conclusion follows.
+
+2. Main hypotheses
+
+To illustrate our main intuition, we sketch a simple
+stylized model to lay out the relationship between insider
+trading and short selling. We report
+in
+Appendix IA (in the online appendix). Here, we lay out
+the main intuition.
+
+the model
+
+We consider a firm in which a manager may take a
+private “bad action”, e.g., investing in projects with nega-
+tive net present values, that could benefit him but damage
+the shareholders. The market is aware of this but can only
+guess whether the manager will take such an action. In
+contrast, the insider can observe the action when it is
+taken. This information asymmetry between the insider
+and the public motivates the former to trade in the market
+before the market is made aware of it.
+
+Let us now consider the role of the short sellers. These
+traders are also informed and can trade against managerial
+misconduct (e.g., Senchack and Starks, 1993; Asquith,
+Mikhail, and Au, 2005; Cohen, Diether, and Malloy, 2007;
+Boehmer, Jones, and Zhang, 2008), but are on average
+
+slower than the insiders. All informed traders are strategic
+in the sense of Kyle (1984, 1985).
+
+In this context, the presence of short-sellers acts as a
+stimulus for the insiders to trade sooner and faster. The
+intuition is similar to Holden and Subrahmanyam (1992)
+with multiple informed traders. Based on the these
+assumptions, the impacts of short selling on the incentives
+for insider trading in Period 1 can be summarized in the
+following proposition (Appendix IA in the online appendix
+provides the proof).
+
+Proposition 1. In the presence of short selling, the insider has
+an incentive to sell her shares before the short seller attacks
+the firm. The more shares that are available to short sellers,
+the more shares the insider wants to sell before the short
+sellers attack.
+
+Proposition 1 contains two main intuitions. First, com-
+petition from short sellers reduces the profitability of
+insider trading if they wait. Indeed, when the insider is
+the only (monopoly) informed trader in the second period,
+his trading reveals half of his private information to the
+market. If, however, one or more informed short sellers
+compete with the insider in trading on the same piece of
+private information, aggregate trading demand increases
+relative to the case in which the insider is the only one to
+have access to such information. In this situation, more
+private information is revealed to the market. Conse-
+quently, the market price becomes more informative—
+but informed trading becomes less profitable with addi-
+tional competitors trading in the market.
+
+Appendix IA (in the online appendix) shows that the
+total fraction of lendable shares imposes a natural capacity
+constraint on the feasible degree of trading competition.
+Specifically, the greater the number of shares available to
+short sellers is, the higher the level of trading competition
+is—i.e., a larger amount of lendable shares allows more
+informed short sellers to potentially trade on the same
+private information—and the greater the degree of price
+efficiency is. This finding is in line with the widely
+observed empirical evidence that lendable shares increase
+price efficiency (Saffi and Sigurdsson, 2011). It also sug-
+gests that for our empirical purposes, we can use the
+fraction of lendable shares to proxy for the capacity for
+potential trading competition that the short-selling market
+may introduce. We will refer to it as short-selling potential.
+Second, given that competition from short sellers
+adversely affects insider trading, the insider has an incen-
+tive to “preempt” short sellers by shifting his trades
+toward the first period, i.e., to sell more shares from his
+existing portfolio in the first period, before any short
+selling occurs. If short-selling competition is sufficiently
+severe, the insider should concentrate his trading in the
+first period. This intuition provides us with the first
+testable hypothesis regarding the impact of short-selling
+potential on an insider's trading behavior.
+
+If, instead, short-selling competition does not exist, the
+insider's optimal strategy is to spread the trades over the
+two periods. In this regard, short-selling potential also
+shortens the effective time span for insider sales. Overall,
+Proposition 1 predicts that the scale and time span of
+
+272
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+insider sales should be substantially affected by short-
+selling competition (i.e., short-selling potential), which can
+be formulated into the following two testable hypotheses:
+
+H1. Short-selling potential increases the fraction of their
+existing stakes that insiders want to sell.
+
+H2. Short-selling potential reduces the average time span
+of insider sales.
+
+Before proceeding to test these predictions, we provide
+
+some information on the data we use.
+
+3. Data, variable construction, and preliminary evidence
+
+We now describe the sources of our data, the construc-
+tion of our main variables, and some preliminary evidence.
+
+3.1. Data sample and sources
+
+The sample covers the period between July 2006 and
+November 2011. We begin with the publicly listed companies
+in the US. traded on the NYSE, Nasdaq, or Amex exchanges
+(we include only common shares and exclude non-US incor-
+porated firms, or American depositary receipts (ADRs), ETF,
+and Real estate investment trusts (REITs) from our main
+sample,
+i.e., when Center for Research in Security Prices
+(CRSP) share code¼10 or 11). This sample is then matched
+with short-selling information from Data Explorers, insider
+data from Thomson Reuters, and data on institutional inves-
+tors' stock holdings from Thomson 13F and analyst informa-
+tion from the Institutional Brokers' Estimate System (I/B/E/S).
+More specifically, we obtain equity lending data from
+Data Explorers, a research company that collects equity and
+bond lending data directly from the security lending desks
+at the world's leading financial institutions. Information
+detailed at the stock level is available from May 2002 to
+November 2011. In particular, the data set has the unique
+feature that it provides information on not only the value of
+shares that are on loan but also the value of shares that are
+available to be lent to short sellers, which is important for
+the purpose of this paper. A more detailed description of
+the data can be found in Saffi and Sigurdsson (2011) and
+Jain, Jain, McInish, and McKenzie (2013). In our study, we
+focus on the period beginning from July 2006, when Data
+Explorer has a more thorough coverage of the equity
+lending market in the US. Extension to earlier periods does
+not alter our main results. We focus on the US. sample and
+verify that short-selling information is available for approxi-
+mately 84% of the firms in our sample period, which is
+similar to the figure reported in Saffi and Sigurdsson (2011).
+The data on insider trades are from Thomson Reuters
+Insider Filings (Form 4). The data contain information on
+each insider sale transaction and each insider's relationship
+to the firm. We focus on insiders' open market sales, and we
+exclude open market purchases and private transactions. For
+the bulk of our analysis, we follow the literature (Ke,
+Huddart, and Petron, 2003; Cohen, Malloy, and Pomorsky,
+2012) and define insiders as directors and officers. As a
+robustness check, we also consider an alternative definition
+of insiders. Specifically, the insider database defines the chief
+executive officer, chairman of the board, chief operating
+
+officer, president, and general counsel as top level insiders
+(as recorded in the insider database), whom we consider to
+be the top five most powerful insiders in our analysis.
+
+We follow Cohen, Malloy, and Pomorsky (2012) and
+identify information-driven insider trades based on a “rou-
+tine” and “opportunistic” classification.4 In our sample per-
+iod, 42% of all insider sales are routine insider sales, and the
+rest are opportunistic insider sales. Unreported tests follow-
+ing their paper confirm that routine and opportunistic
+insider sales serve as valid proxies for non-information-
+and information-driven insider sales in our sample period.
+
+We use CUSIP to combine Compustat/CRSP data with
+the equity lending data and insider data. We also obtain
+institutional holdings from the Thomson 13F database as
+well as analyst and earnings announcement information
+from I/B/E/S. Finally, penny stocks (priceo$1) and zero
+turnover stocks are excluded from the sample. Book-to-
+market, leverage, and sale variables are winsorized at the
+99% and 1% levels. The final combined data have an
+average of 4,168 stocks per month. Our final sample is
+comparable to what has been reported in the literature.
+For instance, Boehmer, Huszar, and Jordan (2010) report an
+average of 4,400 stocks per month over the 1988–2005
+period based on the three major stock exchanges.5
+
+3.2. Main variables
+
+The variable of interest is the amount of shares avail-
+able for borrowing (Lendable) as a proportion of shares
+outstanding. It measures the capacity and potential inten-
+sity of short-selling activity. We focus on a series of
+important variables related to the insider trading decision.
+The first is InsiderSale_FracStake, the proxy for the fraction
+or amount of shares sold from existing stakes. This variable
+is defined as the number of open market sale shares of
+officers and directors divided by their initial shares owned
+in a given firm-month, where the initial shares owned is
+computed as the number of shares held by the insiders at
+the beginning of the month.6 The second variable is
+InsiderSale_TimeSpan, the proxy for the speed of insider
+sale transactions. This variable is defined as the number of
+days that an insider takes to complete sale transactions in
+a month—i.e., equal to n if the last net sale transaction
+within a month for a given firm is on the nth day since the
+first day with nonzero net sale transactions. We also study
+the robustness of our results using an alternative measure
+
+4 We require an insider to make at least one trade in each of the
+three preceding years to define her as either a routine or an opportunistic
+trader. Specifically, routine insiders are those who have traded in the
+same month for at least the past three consecutive years, and opportu-
+nistic insiders are everyone else. At the beginning of each year, the
+insiders are categorized as either routine or opportunistic based on their
+trading history for the past three years.
+
+5 If we further look into the details of our final sample, an average of
+1,361 stocks per month come from NYSE during the period of Jul 2006 to
+Nov 2011, which is consistent with Boehmer and Wu (2013). The rest of
+the stocks come from Nasdaq/Amex. Our main results are robust on the
+subsample of stocks coming from different exchanges.
+
+6 Following Scott and Xu (2004), we compute initial ownership using
+the number of shares traded and insiders' shareholdings at the end of the
+trades reported on the US. Securities and Exchange Commission (SEC)
+forms that insiders complete for their trades.
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+273
+
+to capture the speediness of insider sale transactions. We
+will discuss this alternative measure in detail in Section 6.
+The third variable is Insider sell dummy. This variable is a
+dummy equal to one if the officers and directors of a firm
+have open market sales in the current month and zero
+otherwise. Finally, we also construct a control variable to
+capture the size of the insider trades: Total open market
+shares sold/shares outstanding. This variable is defined as
+the number of shares sold by officers and directors in a
+given firm-month divided by the total number of shares
+outstanding at the beginning of the month. All of these
+variables are primarily defined to capture officers and
+directors as corporate insiders.
+
+The literature also suggests that certain firm character-
+istics may affect the incentives for insider trades. For
+instance, insiders trade more actively in large stocks, in
+low book-to-market firms, and following positive past
+returns (e.g., Lakonishok and Lee, 2001; Ke, Huddart, and
+Petron, 2003; Rozeff and Zaman, 1998). We confirm and
+control for these effects by explicitly employing a set of
+control variables: Market size, defined as the market
+capitalization of the firm; Book to market, defined as the
+book value of equity divided by market capitalization;
+Turnover, defined as the sum of monthly trading volumes
+divided by shares outstanding; Lagged 6m ret, defined as
+the cumulative stock return for the last six months; and
+Leverage, defined as long-term debt issues plus current
+liability divided by total assets. Sale is gross sales (in
+millions), i.e., the amount of actual billings to customers
+for regular sales completed during the period. Idiosyncratic
+volatility is calculated as the monthly average of the
+standard deviation of residuals from the adjusted Fama-
+French daily regressions (Jiang, Xu, and Yao, 2009). IO is
+institutional ownership, which is defined as institutional
+ownership shares divided by adjusted shares outstanding.
+ETF denotes the percentage of ETF ownership. Analyst
+coverage is the number of analysts following the firm.
+Price is the share price at the end of the month.7
+
+We report the descriptive statistics in Table 1. Panel A
+reports summary statistics of stock- and firm-level char-
+acteristics, and Panel B reports pair-wise correlation sta-
+tistics. The average firm in the sample has a market
+capitalization of 3.40 billion USD, a book-to-market ratio
+of 0.66, a monthly turnover rate of 0.14, and 47% institu-
+tional ownership. Moreover, an average firm has 18% of its
+total shares outstanding in the inventory available for
+borrowing (Lendable), suggestive of an active equity lend-
+ing market in the US. More importantly, the high standard
+deviation in the lendable shares (12%) indicates a signifi-
+cant amount of variation among firms across the years. In
+particular, the bottom 5% of the observations in our sample
+essentially have zero shares available for short sellers to
+
+7 Ownership structure, e.g., block ownership or family ownership,
+may be an important determinant of insider trading and simultaneously
+may be correlated with short-selling potential (i.e., the number of shares
+available for borrowing). We do not have such information for each firm
+in our sample to control for the ownership effect. However, we perform a
+robustness check by restricting the sample to the set of family-owned
+firms (Anderson, Duru, and Reeb, 2009; Anderson, Reeb, and Zhao, 2012).
+Our main analysis holds in the subsample of family-owned firms.
+
+borrow, while the top 5% of the sample have more than
+39% of their total shares outstanding available for borrow-
+ing. This rich variation in the short-selling potential facil-
+itates identification in our analysis.
+
+In a given month, 21% of the firms have an open market
+insider sale (by directors and officers), and 5% of the firms
+have an opportunistic open market insider sale (by officers
+and directors). If we condition on selling, we observe that
+insiders sell an amount equal to 24.85% of their portfolio.
+On average, an insider completes his sale transactions in
+7.79 days within a given month, conditional on observing
+an open market insider sale. Overall, the primary char-
+acteristics of firms and the distributions of insider trades
+are largely consistent with the insider trading literature
+(e.g., Cohen, Malloy, and Pomorsky, 2012).
+
+The pair-wise correlation statistics reveal a positive
+relationship between Lendable and Insider sale (and Oppor-
+tunistic insider sale). Insider sale is also positively correlated
+with Market size, Turnover, Past return, Idiosyncratic volati-
+lity, Institutional ownership, and Analyst coverage but nega-
+tively correlated with Book to market. Consistent with the
+statistics in Saffi and Sigurdsson (2011), Lendable is posi-
+tively correlated with Market size and Turnover and nega-
+tively correlated with Book to market.
+
+4. Effect of short-selling potential on insider sales
+
+We analyze insiders' trading incentives. We first ana-
+lyze how short-selling potential affects the incentive for
+insiders to participate in open market sales and then
+extend the analysis to analyze the two decision variables.
+
+4.1.
+
+Insider sales and short-selling potential
+
+We begin with a conditional
+
+logit analysis of how
+short-selling potential affects the incentive for insiders to
+participate. The dependent variable is the occurrence of
+insider sales (i.e., Insider sell dummy) for a firm in a given
+month. We consider two alternative definitions of insider
+sales: (1) only the sales by the officers and directors (our
+main measure of insiders), and (2) the sales conducted by
+all insiders as recorded in Form 4 of the Insider Filings (to
+study whether the result is generalizable). The main
+explanatory variable is the one-month lagged Lendable.
+All control variables are also lagged by one month. This
+time convention allows us to detect how short-selling
+potential affects corporate insiders' decisions to sell their
+existing shares in the near future. We include firm and
+year-month fixed effects and cluster the standard errors at
+the firm level.
+
+We report the results in Table 2. Columns 1 and 4 show
+that greater short-selling potential–i.e., the existence of a
+higher amount of lendable shares that short sellers can
+potentially use—strongly drives insiders to sell their shares
+in the near future. The regression coefficients of lendable
+shares are 0.84 when all insiders are included and 1.17
+when only directors and officers are considered. These
+numbers are not only statistically significant but also
+economically relevant: a one-standard-deviation increase
+in lendable shares (12%) increases the relative probability
+of insider sales by 10.1% and 14%, respectively, in these two
+
+Table 1
+Summary statistics.
+
+This table presents time-series summary statistics of the cross-sectional means of key variables from 2006:07 to 2011:11. Panel A reports summary statistics of stock- and firm- level characteristics, and Panel B
+reports the pair-wise correlation among major variables. Variable definitions are in Appendix A. Penny stocks (priceo$1) and zero turnover stocks are excluded from the sample. Book-to-market, leverage, and sale
+variables are winsorized at 99% and 1%.
+
+Panel A
+
+Full sample
+Lendable
+Market size (millions)
+Book to market
+Turnover
+Lagged 6m ret
+Leverage
+Sale (millions)
+Idiosyncratic volatility
+IO
+ETF
+Analyst coverage
+Price
+Insider sell dummy
+Opportunistic insider sell dummy
+Conditional on insider sale dummy
+
+InsiderSale_TimeSpan
+InsiderSale_FracStake (%)
+Total open market shares sold/shares outstanding (%)
+
+Conditional on opportunistic insider sale dummy
+
+Opportunistic InsiderSale_TimeSpan
+Opportunistic InsiderSale_FracStake (%)
+
+Average number of firms per month
+
+Average number of Nasdaq/Amex firms per month
+Average number of NYSE firms per month
+
+Panel B
+
+Lendable
+Market size
+Book to market
+Turnover
+Lagged 6m ret
+Leverage
+Sale
+Idiosyncratic volatility
+IO (%)
+ETF (%)
+Analyst coverage
+Price
+Insider sell dummy
+Opportunistic insider sell dummy
+InsiderSale_TimeSpan
+Opportunistic InsiderSale_TimeSpan
+InsiderSale_FracStake
+Opportunistic InsiderSale_FracStake
+
+1
+0.09
+ 0.06
+0.32
+0.00
+0.03
+0.14
+ 0.24
+0.51
+0.73
+0.45
+ 0.02
+0.21
+0.15
+0.15
+0.08
+0.14
+0.09
+
+1
+ 0.07
+0.05
+0.02
+0.01
+0.68
+ 0.12
+0.12
+0.01
+0.36
+0.12
+0.10
+0.08
+0.08
+0.06
+0.07
+0.06
+
+Std. dev.
+
+0.12
+15,391
+0.64
+0.21
+0.42
+0.21
+6,958
+0.02
+0.32
+0.03
+6.22
+
+1,779.27
+
+0.41
+0.23
+
+8.81
+24.12
+2.18
+
+7.21
+24.49
+
+5%
+
+0.00
+21
+0.06
+0.00
+ 0.59
+0.00
+
+7
+
+0.01
+0.00
+0.00
+0.00
+1.76
+0.00
+0.00
+
+1.00
+0.04
+0.00
+
+1.00
+0.25
+
+25%
+
+0.07
+98
+0.28
+0.03
+ 0.16
+0.00
+88
+0.01
+0.16
+0.01
+0.00
+5.92
+0.00
+0.00
+
+1.00
+5.50
+0.01
+
+1.00
+5.00
+
+50%
+
+0.18
+365
+0.51
+0.08
+0.03
+0.15
+410
+0.02
+0.50
+0.03
+3.00
+13.97
+0.00
+0.00
+
+3.00
+16.94
+0.04
+
+1.00
+15.39
+
+75%
+
+0.28
+1,505
+0.85
+0.18
+0.22
+0.32
+1,644
+0.03
+0.77
+0.05
+8.00
+28.14
+0.00
+0.00
+
+14.00
+37.96
+0.14
+
+7.00
+36.35
+
+95%
+
+0.39
+13,353
+1.79
+0.44
+0.66
+0.62
+12,124
+0.06
+0.93
+0.09
+18.00
+60.82
+1.00
+1.00
+
+27.00
+76.61
+0.75
+
+22.00
+78.88
+
+Mean
+
+0.18
+3,397
+0.66
+0.14
+0.04
+0.20
+2,571
+0.02
+0.47
+0.03
+5.27
+49.78
+0.21
+0.05
+
+7.79
+24.85
+0.29
+
+5.24
+24.18
+
+4,116
+2,755
+1,361
+
+1
+ 0.03
+0.09
+ 0.02
+ 0.03
+0.15
+ 0.06
+ 0.06
+ 0.18
+0.00
+ 0.13
+ 0.08
+ 0.10
+ 0.05
+ 0.10
+ 0.05
+
+1
+0.08
+0.12
+0.14
+0.15
+0.17
+0.28
+0.30
+ 0.01
+0.09
+0.05
+0.06
+0.03
+0.06
+0.03
+
+1
+0.02
+ 0.02
+ 0.04
+0.01
+0.03
+0.00
+0.00
+0.12
+0.06
+0.10
+0.04
+0.10
+0.05
+
+1
+0.08
+0.02
+0.02
+0.04
+0.03
+ 0.01
+ 0.03
+ 0.02
+ 0.04
+ 0.02
+ 0.03
+ 0.02
+
+1
+ 0.14
+0.17
+0.02
+0.40
+0.12
+0.09
+0.07
+0.05
+0.04
+0.05
+0.04
+
+1
+ 0.20
+ 0.20
+ 0.20
+ 0.01
+ 0.12
+ 0.08
+ 0.08
+ 0.05
+ 0.08
+ 0.05
+
+1
+0.46
+0.36
+ 0.01
+0.15
+0.10
+0.11
+0.06
+0.10
+0.06
+
+1
+0.36
+ 0.02
+0.16
+0.10
+0.10
+0.05
+0.10
+0.06
+
+1
+0.00
+0.23
+0.17
+0.19
+0.11
+0.18
+0.11
+
+1
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+1
+0.47
+0.62
+0.27
+0.61
+0.28
+
+1
+0.41
+0.58
+0.38
+0.60
+
+1
+0.44
+0.92
+0.43
+
+1
+0.40
+0.93
+
+1
+0.43
+
+1
+
+2
+7
+4
+
+M
+
+.
+
+M
+a
+s
+s
+a
+
+e
+t
+
+a
+l
+.
+
+/
+
+J
+o
+u
+r
+n
+a
+l
+
+o
+f
+
+F
+i
+n
+a
+n
+c
+i
+a
+l
+
+E
+c
+o
+n
+o
+m
+i
+c
+s
+
+1
+1
+8
+
+(
+2
+0
+1
+5
+)
+
+2
+6
+8
+–
+2
+8
+8
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+275
+
+Table 2
+Conditional logit regression of insider sales.
+
+This table presents the results of a conditional logit regression analysis for insider sales using monthly observations between 2006:07 and 2011:11. The
+dependent variables are dummy variables for various types of insider sales for a firm in a given month. Please refer to Appendix A for the variable
+definitions. All independent variables are lagged by one month. Firm and year-month fixed effects are included in all tests, and standard errors are
+clustered at the firm level. We report t-statistics in the parentheses below coefficient estimates, and statistical significance at the 1%, 5%, and 10% levels is
+indicated by nnn, nn and n, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Open market sell
+
+Routine open market
+
+dummy
+
+sell dummy
+
+Opportunistic open
+market sell dummy
+
+Insider sell
+
+Routine insider
+
+Opportunistic insider
+
+dummy
+
+sell dummy
+
+sell dummy
+
+All insiders (on Form 4)
+
+Officers and directors
+
+Lendable
+
+Log(market size)
+
+Book to market
+
+Lagged 6m ret
+
+Log(analyst
+
+coverageþ1)
+
+Turnover
+
+Idiosyncratic
+
+volatility
+
+IO
+
+Log(sales)
+
+Leverage
+
+D_EA month
+
+Observations
+
+0.843nnn
+
+(3.18)
+
+0.891nnn
+(20.37)
+ 0.058
+( 1.47)
+0.562nnn
+(12.55)
+ 0.136nnn
+( 3.34)
+ 0.437nnn
+( 4.35)
+0.381
+
+(0.74)
+ 0.051
+( 1.25)
+ 0.000nn
+( 1.97)
+0.299n
+(1.85)
+
+0.402nnn
+(21.46)
+
+167,710
+
+1.378
+(1.15)
+
+0.953nnn
+(4.17)
+ 0.555nn
+( 2.54)
+ 0.043
+( 0.26)
+0.108
+
+(0.51)
+ 0.669n
+( 1.72)
+ 4.458
+( 1.11)
+ 0.147
+( 0.88)
+0.000
+(0.68)
+0.121
+(0.19)
+
+0.443nnn
+(5.94)
+
+30,916
+
+1.232nnn
+(2.70)
+1.068nnn
+(12.05)
+ 0.157n
+( 1.96)
+0.415nnn
+
+(4.87)
+0.045
+
+(0.62)
+ 1.106nnn
+( 6.06)
+ 0.241
+( 0.20)
+ 0.052
+( 0.69)
+ 0.000
+( 0.60)
+0.011
+(0.03)
+0.333nnn
+(12.05)
+
+93,924
+
+1.173nnn
+(4.41)
+0.978nnn
+(21.45)
+ 0.086nn
+( 2.12)
+0.585nnn
+(12.38)
+ 0.120nnn
+( 2.83)
+ 0.359nnn
+( 3.37)
+ 0.559
+( 0.69)
+ 0.048
+( 1.16)
+ 0.000n
+( 1.68)
+0.322n
+(1.93)
+0.416nnn
+(21.41)
+
+163,385
+
+0.942
+(0.78)
+0.923nnn
+(3.99)
+ 0.599nnn
+( 2.77)
+ 0.029
+( 0.18)
+0.126
+
+(0.57)
+ 0.708n
+( 1.77)
+ 4.227
+( 1.02)
+ 0.204
+( 1.20)
+0.000
+(0.70)
+0.236
+(0.36)
+0.451nnn
+(6.01)
+
+30,069
+
+1.432nnn
+(3.05)
+1.090nnn
+(11.84)
+ 0.160n
+( 1.89)
+0.447nnn
+(4.95)
+0.053
+
+(0.71)
+ 1.072nnn
+( 5.76)
+ 1.787
+( 1.15)
+ 0.046
+( 0.59)
+ 0.000
+( 0.26)
+ 0.082
+( 0.24)
+0.339nnn
+(11.93)
+
+91,329
+
+cases.8 Moreover, both effects are statistically significant at
+the 1% level. The economic and the statistical significance
+are higher for sales from directors and officers. These
+results are in line with our information-driven argument,
+as these insiders presumably have access to better private
+information and more informationally motivated sales. In
+addition to our main variables, the regression coefficients
+on our control variables, such as Market size, Book to
+market, and Lagged 6m ret, are consistent with the litera-
+ture (e.g., Lakonishok and Lee, 2001; Ke, Huddart, and
+Petron, 2003; Rozeff and Zaman, 1998).
+
+If we further divide insider sales into routine and
+opportunistic sales, we observe that the impact of Lendable
+concentrates in opportunistic sales (columns 2, 3 and 5, 6).
+Specifically, a one-standard-deviation increase in lendable
+
+8 The probability that insider trading occurs is π xð Þ ¼ ð1=ð1þe  βx ÞÞ
+in the logit regression, where x is the independent variable and β is the
+regression parameter. Since high order terms of π can be omitted (the
+average unconditional insider trading probability is 0:21 in our whole
+sample, making the π2 term as small as 4%), an increase in the
+independent variable, Δx, affects π as follows: Δ ln πð Þ  ðΔπ=πÞ ¼ βΔx,
+where Δπ=π represents the relative increase in the probability. For
+instance, a one-standard-deviation increase in lendable shares increases
+the relative probability of insider trading by 10% (i.e., 12%  0:84) and
+14% (i.e., 12%  1:17) for all
+insiders and for directors and officers,
+respectively.
+
+shares increases the likelihood that opportunistic insider
+sales will occur by 14.8% when all insiders are included
+and 17.2% when only directors and officers are considered.
+Overall, these results support our first hypothesis that a
+greater amount of lendable shares increases the insiders'
+incentives to sell, particularly for the information-related
+insider sales.
+In other words, the more informed the
+insider is, the more they wish to preempt short sellers to
+exploit their informational advantage. Since the results are
+very similar across the two different definitions of insiders,
+we will follow the literature and focus on officers and
+directors as our insiders for the rest of the analysis.
+
+4.2. Amount and speed of insider sales and short-selling
+potential
+
+Next, we examine the impact of short selling on the two
+main decision variables for insider trading: the amount to
+be sold from her existing stakes (InsiderSale_FracStake) and
+the speed of transactions (InsiderSale_TimeSpan). We per-
+form a Heckman two-stage procedure. We model the
+decision to sell in the first stage and the choice of the
+quantity to sell and the speed of transactions in the second
+stage. Given the previous results, we focus on the open
+market sales made by officers and directors.
+
+276
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+Table 3
+Heckman regression of open market insider sales.
+
+This table presents the results of a regression analysis concerning the amount of open market sales by officers and directors using Heckman's two-stage
+procedure with monthly observations between 2006:07 and 2011:11. The dependent variable in Panel A is InsiderSale_FracStake, and the dependent
+variable in Panel B is the natural log of InsiderSale_TimeSpan, which is the maximum number of days that the insider takes to make his sales in a month. For
+each panel, we study all open market transactions in columns 1–2 and focus on open market transactions in columns 3–4 (the control variable Total open
+market shares sold/shares outstanding refers to all open market sales in columns 1–2 of Panel B and refers to opportunistic open market sales in columns 3–
+4 of Panel B). In each specification, the first-stage (selection) equation studies the determinants of insider sales and includes an additional variable, Routine
+sell dummy (equal to one if there is a routine open market sale by officers and directors in the same month), as the identifying restriction. The second-stage
+regression uses estimates of the inverse Mills' ratio from the first-stage regression to control for selection bias. Specifically, we estimate the following
+equations:
+
+1st Stage:
+
+Insider sell dummyi;t ¼ αþβ  Routine insider sell dummyi;t þγ  Xi;t   1 þϵi;t ;
+
+InsiderSale_FracStakei;t ¼ aþb  λi;t þc  Xi;t   1 þei;t   1;
+
+2nd Stage:
+LogðInsiderSale_TimeSpani;tÞ ¼ aþb  λi;t þc  Xi;t   1 þei;t   1;
+
+or
+
+where Xi;t   1 stacks the list of control variables and λi;t refers to the inverse Mills' ratio estimated from the first-stage regression. Refer to Appendix A for
+variable definitions. Year-month fixed effects are included in all tests. We report t-statistics in the parentheses below coefficient estimates, and 1%, 5%, and
+10% statistical significance are indicated with ***, ** and *, respectively.
+
+Panel A
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+InsiderSale_FracStake
+
+Opportunistic InsiderSale_FracStake
+
+Lendable
+
+Log(market size)
+
+Book to market
+
+Lagged 6m ret
+Log(analyst coverageþ1)
+
+Turnover
+
+Idiosyncratic volatility
+
+IO
+
+Log(sales)
+
+Leverage
+
+D_EA month
+
+Inverse Mills' ratio
+
+Routine insider sell dummy
+
+Constant
+
+Fixed effects
+Obs.
+
+Panel B
+
+Lendable
+
+Total open market shares
+sold /shares outstanding
+Log(market size)
+
+Book to market
+
+Lagged 6m ret
+Log(analyst coverageþ1)
+
+2nd stage
+
+0.202nnn
+(14.95)
+0.034nnn
+(25.41)
+ 0.020nnn
+( 6.87)
+0.056nnn
+(14.47)
+ 0.018nnn
+( 12.39)
+ 0.029nnn
+( 4.28)
+0.012
+(0.12)
+ 0.014nnn
+( 3.62)
+ 0.000nnn
+( 7.54)
+ 0.017nnn
+( 2.76)
+0.014nnn
+
+(5.10)
+
+0.045nnn
+
+(8.76)
+
+0.037nn
+(2.49)
+
+1st stage
+
+1.062nnn
+(28.30)
+0.183nnn
+(53.19)
+ 0.220nnn
+( 30.49)
+0.407nnn
+(41.97)
+0.027nnn
+(5.82)
+ 0.203nnn
+( 9.68)
+ 0.998nnn
+( 3.96)
+0.009
+(0.74)
+ 0.000nnn
+( 20.90)
+ 0.368nnn
+( 21.57)
+0.187nnn
+(22.47)
+
+2.705nnn
+(36.61)
+ 1.730nnn
+( 53.81)
+
+2nd stage
+
+0.246nnn
+
+(7.82)
+
+0.029nnn
+(8.62)
+ 0.038nnn
+( 5.04)
+0.046nnn
+(4.66)
+ 0.025nnn
+( 9.04)
+ 0.002
+( 0.11)
+0.360
+(1.27)
+ 0.009
+( 1.29)
+ 0.000nn
+( 1.98)
+0.001
+(0.06)
+ 0.003
+( 0.56)
+ 0.011
+( 0.72)
+
+0.106nn
+(2.02)
+
+1st stage
+
+1.311nnn
+(24.25)
+0.191nnn
+(38.50)
+ 0.273nnn
+( 21.72)
+0.282nnn
+(19.75)
+0.019nnn
+(2.93)
+ 0.339nnn
+( 9.61)
+ 2.523nnn
+( 4.89)
+0.044nnn
+(2.65)
+ 0.000nnn
+( 15.23)
+ 0.386nnn
+( 15.20)
+0.135nnn
+(11.58)
+
+0.796nnn
+(26.98)
+ 2.785nnn
+( 55.75)
+
+186,564
+
+186,564
+
+Year-month
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Log(InsiderSale_TimeSpan)
+
+Log(Opportunistic InsiderSale_TimeSpan)
+
+2nd stage
+ 0.394nnn
+( 5.31)
+3.542nnn
+(9.43)
+ 0.032nnn
+( 4.34)
+ 0.090nnn
+( 5.71)
+0.148nnn
+(6.96)
+0.020nn
+
+1st stage
+
+1.063nnn
+(28.30)
+
+0.183nnn
+(53.18)
+ 0.220nnn
+( 30.49)
+0.407nnn
+(41.96)
+0.027nnn
+
+2nd stage
+ 1.019nnn
+( 6.59)
+24.367nnn
+(11.44)
+ 0.083nnn
+( 4.96)
+ 0.022
+( 0.60)
+0.142nnn
+(2.92)
+0.017
+
+1st stage
+
+1.311nnn
+(24.25)
+
+0.191nnn
+(38.50)
+ 0.273nnn
+( 21.72)
+0.282nnn
+(19.75)
+0.019nnn
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+277
+
+Table 3 (continued )
+
+Panel B
+
+Turnover
+
+Idiosyncratic volatility
+
+IO
+
+Log(sales)
+
+Leverage
+
+D_EA month
+
+Inverse Mills' ratio
+
+Routine insider sell dummy
+
+Constant
+
+Fixed effects
+Obs.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Log(InsiderSale_TimeSpan)
+
+Log(Opportunistic InsiderSale_TimeSpan)
+
+2nd stage
+
+(2.40)
+ 0.141nnn
+( 3.76)
+1.999nnn
+(3.97)
+ 0.021
+( 1.02)
+0.000
+(0.22)
+ 0.170nnn
+( 5.09)
+0.037nn
+(2.49)
+ 0.628nnn
+( 21.70)
+
+2.387nnn
+(28.68)
+
+1st stage
+
+(5.82)
+ 0.203nnn
+( 9.66)
+ 1.008nnn
+( 4.00)
+0.009
+(0.76)
+ 0.000nnn
+( 20.90)
+ 0.368nnn
+( 21.57)
+0.187nnn
+(22.47)
+
+2.705nnn
+(36.61)
+ 1.730nnn
+( 53.80)
+
+2nd stage
+
+(1.27)
+ 0.062
+( 0.74)
+4.005nnn
+
+(2.92)
+0.042
+(1.19)
+0.000nn
+(2.37)
+ 0.014
+( 0.22)
+0.022
+(0.83)
+ 0.534nnn
+( 6.88)
+
+2.476nnn
+(9.47)
+
+186,560
+
+186,564
+
+Year-month
+
+1st stage
+
+(2.93)
+ 0.339nnn
+( 9.61)
+ 2.523nnn
+( 4.89)
+0.044nnn
+(2.65)
+ 0.000nnn
+( 15.23)
+ 0.386nnn
+( 15.20)
+0.135nnn
+(11.58)
+
+0.796nnn
+(26.98)
+ 2.785nnn
+( 55.75)
+
+In the first stage, as the identifying restriction, we
+employ a dummy variable equal to one if there is a routine
+open market sale by officers and directors in the same
+month and zero otherwise (Routine insider sell dummy).
+The intuition is that, as routine sales are unrelated to
+private information (Cohen, Malloy, and Pomorsky, 2012)
+and thus short selling (Table 2), they help to hide informed
+trading. Indeed, in the same spirit that informed traders
+only wish to trade when other noisy trading flows are
+present to hide their information (e.g., Kyle, 1985), we
+expect informed insiders to be more likely to participate in
+open market sales when there are concurrent liquidity-
+driven (or other non-informationally related) routine
+transactions. Consistent with our model, such transactions
+may help to camouflage information-driven trades. There-
+fore, the occurrence of routine insider sales will increase
+the incentives—and thus the observed probability—for
+informed insiders to participate in trading. It does not,
+however, directly affect the informed insiders' two deci-
+sion variables, as these decisions should be affected by the
+content of private information, which is not correlated
+with the occurrence dummy of routine insider sales. This
+result implies that the Routine insider sell dummy satisfies
+both the inclusion and the exclusion requirements of
+Heckman (1979).
+
+Then, in the second stage, we regress the informed
+insiders' two decision variables on Lendable, the previously
+defined set of control variables, and the inverse Mills' ratio
+from the first stage to correct for selection bias. Year-
+month fixed effects are included, and standard errors are
+clustered at the firm level. The overall regression model is
+summarized by the following equations:
+Insider sell dummyi;t ¼ αþβ
+
+1st Stage:
+
+Routine insider sell dummyi;t þγ  Xi;t   1þϵi;t;
+
+2nd Stage:
+
+InsiderSale_FracStakei;t ¼ aþb
+
+λi;t þc  Xi;t   1 þei;t   1;
+
+or
+
+LogðInsiderSale_TimeSpani;tÞ ¼ aþb  λi;t
+
+þc  Xi;t   1 þei;t   1;
+
+where Xi;t   1 indexes the list of independent and control
+variables (all lagged by one month) and λi;t refers to the
+inverse Mills' ratio estimated from the first-stage regression.
+We report the results in Table 3. Panel A focuses on
+InsiderSale_FracStake as the main dependent variable in the
+second stage (column 1 for InsiderSale_FracStake and col-
+umn 3 for Opportunistic InsiderSale_FracStake). The remain-
+ing two columns report the estimates of the first-stage
+selection equation (column 2 for Insider sell dummy; and
+column 4 for Opportunistic insider sell dummy).
+
+We first note that the occurrence of routine insider
+sales significantly incentivizes overall and opportunistic
+insider sales, which supports our choice of the Routine
+insider sell dummy as the identifying instrument. More-
+over, the second-stage regressions confirm that short-
+selling potential can substantially increase the amount of
+shares that are sold from insiders' existing holdings.
+The effect is statistically significant and economically
+relevant. Column 1 reports that a one-standard-deviation
+increase in Lendable leads insiders to sell an additional
+2.4% of their existing stakes,9 which amounts to nearly 10%
+of the average insider sale size of 24.85% in our sample.
+The economic effect is more substantial if we focus on
+opportunistic open market sales (column 3), with a one-
+standard-deviation increase in Lendable leading insiders to
+sell an additional 3% of their existing stakes. This effect,
+
+9 The impact of the linear regression model, y ¼ β  x, is estimated as
+Δy ¼ β  Δx, where Δx denotes the one-standard-deviation change of
+the independent variable, which amounts to 0:202  12% ¼ 2:4%.
+
+278
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+again, is sizable compared with the average opportunistic
+insider sale size of 24.18%. Taken together, these results are
+consistent with our second hypothesis that the presence of
+short sellers induces insiders to sell more.
+
+The next question concerns how rapidly insiders exe-
+cute their transactions. We therefore replace the decision
+variable of
+InsiderSale_FracStake in the second-stage
+regression with the log of InsiderSale_TimeSpan, our proxy
+for transaction speed. The econometric specifications and
+the set of control variables are the same as before.
+
+The results are reported in Panel B with a layout similar
+to that of Panel A. Unlike the previous case, here, short-
+selling potential greatly reduces the time span of the
+transactions in the second stage. A one-standard-deviation
+increase in Lendable is associated with a 4.7% (or 12.2%)
+decrease in the average time span of insider (or opportunistic
+insider) transactions.10 This result is consistent with our third
+hypothesis that insiders expedite their transactions in the
+presence of short sellers, resulting in a smaller time span to
+complete their transaction sequences.
+
+5. Endogeneity checks
+
+The previous results, while supportive of our hypotheses,
+may still be subject to endogeneity concerns. In this section,
+we address this issue using a multipronged approach. First, we
+consider an experiment—the Reg SHO Pilot Program—to
+identify the causal impact of short-selling potential on insider
+sales. As an additional test, we perform an instrumental
+variable analysis.
+
+5.1. A quasi-experiment: the SHO Pilot Program
+
+We now consider an exogenous change in short-selling
+cost using the announcement of the change in short-sale
+restrictions under Regulation SHO in 2004 as a natural
+experiment. In the US. experiment, the SEC drafted and
+established a pilot program exempting a third of the stocks
+in the Russell 3000 Index from uptick rules and other price
+restrictions (Diether, Lee, and Werner, 2009b; Grullon,
+Michenaud, and Weston, 2015). The selection of stocks was
+purely random. As described in SEC Release No. 50104, the
+regulator “sorted the securities into three groups—Amex,
+Nasdaq-NM, and NYSE—and ranked the securities in each
+group by average daily dollar volume over the one year prior
+to the issuance of this order from highest to lowest for the
+period. In each group, we then selected every third stock from
+the remaining stocks.”11 In doing so, the SEC effectively
+generated a randomized experiment that exogenously reduces
+short-selling restrictions for a subset of stocks.
+
+For our purposes, the relaxation of the short-selling
+restrictions also causes an exogenous change in the short-
+selling potential perceived by insiders, which will, in turn,
+change insiders'
+incentive to sell, which leads to our
+
+identification strategy. We use a diff-in-diff methodology,
+using the Reg SHO Pilot Program as the natural experiment
+to identify the causal effect of an exogenous change in the
+short-selling potential on insider sales. Treatment firms are
+the Pilot sample firms, and control firms are the remaining
+Russell 3000 firms. The program was announced in Septem-
+ber 2004 and implemented in January 2005. We study the
+three months pre (2004.04–2004.06) and post (2004.09–
+2004.11) the announcement of the Reg SHO Pilot sample.12
+We consider the announcement window, instead of the
+implementation window, to capture the effect of (ex ante)
+short-selling potential as opposed to that of realized shorting
+activity. The reasons are two-fold. First, the selection of the
+testing period is motivated by our general intuition that
+insiders with superior information will not wait until the
+period in which short-selling competition increases (i.e., the
+implementation window for Pilot firms). Rather, they will act
+before the enforcement period and strategically sell more
+and faster in the announcement period. By contrast, for
+stocks that are not included in the Pilot pool, the incentives
+for insiders to sell more and faster in the announcement
+period are significantly weakened. In this regard, the identi-
+fication power on the ex ante impact of enhanced short
+selling is greatest during the announcement period. Second,
+unlike the case in which market quality and liquidity change
+once the program is implemented (Diether, Lee, and Werner,
+2009b), we will demonstrate that liquidity does not change
+during our testing period. Hence, focusing on the announce-
+ment period allows us to isolate the short-selling effect from
+other confounding effects, for example, due to liquidity.13
+
+We perform the standard difference-in-differences regres-
+sions in this analysis. Since we include both the firm and time
+fixed effects, the coefficient on Pilot Post captures the treat-
+ment group's (Pilot firms') post-program change relative to
+that in the control group (i.e., diff-in-diff estimate). We present
+the results in Table 4.
+
+We find that lifting the short-selling restrictions increased
+the likelihood of insider trading among treatment firms. On
+average, Pilot stocks experience 2.9% greater likelihood of
+insider sales for the Pilot firms relative to the control firms,
+and the diff-in-diff coefficient is statistically significant at 5%
+(Model 1). In addition, insiders in Pilot firms on average sell a
+larger fraction of their stakes and reduce the time span of
+their transactions (Model 2). Interestingly, insiders in Pilot
+firms do not speed up their trades immediately after the
+announcement of the regulation, presumably because there
+is still plenty of time for them to sell stocks before short-
+selling potential is really enhanced—hence, the necessity of
+selling fast is greatly reduced. Overall, the results suggest
+that the Reg SHO program has a causal effect on insiders'
+incentives especially to trade more.
+
+Next, we perform the following placebo test. Liquidity
+may change in the treatment firms following the announce-
+ment of the SHO Pilot Program, partly because of firms'
+
+10 The relative impact for the time-span regression, lnðTÞ ¼ β  x, is
+estimated as Δ ln Tð Þ ¼ ΔT=T ¼ β  Δx. Hence, the effects of a one-
+standard-deviation increase are 0:394  12% ¼ 4:7% and 1:019 
+12% ¼ 12:2% for the two cases.
+
+11 The details are available at http://www.sec.gov/rules/other/34-50104.
+
+htm.
+
+12 We exclude 2004.07 and 2004.08, when the final Pilot sample was
+being discussed but was not finalized (i.e., a period with uncertainty
+about the program).
+
+13 As a further robustness check, we extend the post-announcement
+window to nine months after announcement (i.e., until 2005.05). The
+results are qualitatively the same.
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+279
+
+Table 4
+Evidence from the Reg SHO experiment.
+
+This table presents evidence from the REG SHO Pilot Program that changes the short-selling constraint for a randomly selected subset of Russell 3000
+firms. The first three columns present diff-in-diff regression analysis of insider sales using observations from the three months Pre (2004.04–2004.06) and
+Post (2004.09–2004.11) the announcement of the Reg SHO Pilot sample (we exclude 2004.07 and 2004.08, when the final Pilot sample was being discussed
+but had not been finalized). Treatment firms are the Pilot sample firms, and control firms are the remaining Russell 3000 firms. The last column reports, as
+a falsification test, the diff-in-diff regression result on trading turnover. Please refer to Appendix A for the variable definitions. We allow the standard errors
+to be correlated among all the Pilot (or control) firms for each month. We report t-statistics in the parentheses below the coefficient estimates, and
+statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+Insider sell dummy
+
+InsiderSale_FracStake (%)
+
+InsiderSale_TimeSpan (# days)
+
+Pilot Post
+
+Constant
+
+Firm FE
+Year-month FE
+
+Obs
+R2
+
+0.029nn
+(3.00)
+0.438nnn
+(135.32)
+
+16,646
+0.435
+
+0.006nnn
+
+(3.32)
+0.153nnn
+(170.17)
+
+16,646
+0.370
+
+Yes
+Yes
+
+ 0.021
+( 0.15)
+5.562nnn
+(56.47)
+
+16,646
+0.473
+
+(4)
+
+Turnover
+ 0.001
+( 0.29)
+0.127nnn
+(170.32)
+
+16,646
+0.765
+
+anticipation of reduced shorting costs and higher shorting
+potential afterward. To address the concern that the change
+in insiders' trading during the announcement period is
+affected by the change in the general liquidity conditions of
+the treatment firms, we study the difference in the monthly
+turnover in the treatment group in the announcement
+period relative to the difference in turnover among the
+control firms (column 4 of Table 4). We find little change
+in monthly turnover during the announcement period for
+treatment firms. More importantly, the difference in the
+change in turnover between the treatment and the control
+groups is essentially zero both economically and statistically.
+Finally, although the SHO experiment does not explicitly
+rely on lendable shares,
+it is nonetheless interesting to
+investigate whether the regulation has also increased the
+number of lendable shares on Pilot firms. If Regulation SHO
+is expected to make short selling easier and thus more
+important among all trades (e.g., Diether, Lee, and Werner,
+2009b), more lendable shares could be supplied to the
+market to meet such changes. We find evidence to support
+this conjecture. More specifically, we conduct a diff-in-diff
+analysis using 2005:05–2007:07 as the post-period and
+2004:01–2005:04 as the pre-regulation period, and find a
+modest yet statistically significant increase (0.4%) in the
+lendable shares among Pilot firms relative to the change in
+lendable shares among the control firms after the imple-
+mentation of the REG SHO Pilot Program.14 Taken together,
+the findings of our analysis and the previous literature
+collectively support the identifying strategy of using the
+REG SHO Pilot Program as an exogenous shock that rein-
+forces short-selling potential.
+
+Overall, our results confirm the identifying assumption
+that the treatment and control firms are comparable both
+
+14 The two periods are selected because Regulation SHO was imple-
+mented in May 2005, and ended in August 2007. Note that we do not go
+before 2004 because of the poorer coverage of Data Explorer in the
+earlier period. Furthermore, the post-period here differs from that of our
+insider trading test because, different from the incentives of insiders to
+preempt short sellers, lenders benefit from enhanced short selling.
+
+before and after the announcement of the Pilot Program.
+Therefore, the significant increase in insider selling after
+the announcement of the Pilot Program observed for the
+treatment firms is due to the expected increase in short-
+selling potential.
+
+5.2. An instrumental variable approach
+
+We complement the previous approach with an instru-
+mental variable analysis. We re-estimate the previous
+specifications (as estimated in Table 3) using ETF owner-
+ship as the instrument for the variable Lendable. The use of
+ETF ownership as an instrument provides an additional
+identification to allay concerns that
+the relationship
+between lendable shares and insider trading is driven by
+omitted variables rather than by the effect of short selling.
+On the one hand, ETFs are among the main participants
+in the short-selling market, making shares available that
+can then be used by short sellers. On the other hand, ETFs,
+being passive investors, do not typically engage in the
+active control or informed trading of firms. Thus, the
+fraction of shares held by ETFs is a good instrument, as it
+meets both the exclusion restriction (i.e., there is no reason
+it should be related to insider trading through any channel
+other than the availability of shares to be lent in the short-
+selling market) and the inclusion restriction (i.e., ETFs
+make shares available to short sellers).
+
+Moreover, the exogenous and high growth rate of the
+ETF industry over the past decade suggests that the
+instrument is likely to be very powerful. Indeed, unre-
+ported results show that Lendable is strongly positively
+related to the fraction of ETF ownership when we regress it
+on ETF ownership, firm-level control variables, and firm
+and year-month fixed effects. The effect of ETF ownership
+not only is statistically significant at the 1% level but also
+can explain approximately 50% of the variation in lendable
+shares in our sample, providing strong evidence against a
+weak instrument critique (Staiger and Stock, 1997). Over-
+all, these results suggest that ETF ownership is a good
+instrument for short-selling potential.
+
+280
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+We repeat the analysis in Table 3 using the instrumen-
+ted Lendable. The results are reported in Table 5. Columns
+1 and 2 report the impact of the instrumented Lendable on
+the two-stage Heckman regressions related to the first
+major decision variable for insider sales (InsiderSale_Frac-
+Stake), while columns 3 and 4 conduct similar analyses for
+the second major decision variable (Log(InsiderSale_Time-
+Span)). The results confirm the previous findings in
+Table 3; short-selling potential significantly incentivizes
+insiders to sell more of their existing holdings and expe-
+dite their sale transactions. Every 1% increase in (instru-
+mented) Lendable is associated with a 0.46% increase in
+shares sold as a proportion of insiders' existing portfolio
+holdings and a 2.59% decrease in the time span of
+transactions. Unreported results confirm that these effects
+are primarily observed (and become stronger) in the
+opportunistic sales sample.
+
+Of course, ETF ownership may be related to uncontrolled-
+for firm-specific characteristics, such as investor attention
+and liquidity. The economic concern is that high investor
+attention and liquidity may directly increase the price
+efficiency of firms, which effectively disciplines managers
+following the spirit of the previous model. Therefore, in a
+robustness check, we orthogonalize ETF ownership on insti-
+tutional ownership, the number of analysts following the
+firm, and turnover. Unreported results using this orthogona-
+lized variable provide similar results.
+
+It may be argued that ETF affects insider trading
+through not only the short-selling channel—such that the
+instrumental test captures only a spurious correlation due
+to omitted variables or the direct impact of the ETF itself—
+but also another channel that we cannot explicitly control
+for; then, such an impact should be observed independent
+of the level of short-selling potential. By contrast, a lack of
+direct explanatory power of ETF on insider trading in the
+case of low short-selling potential would help to eliminate
+the omitted variable problem. To address this issue, we
+examine the impact of ETF ownership (ETF) on insider
+trading when short selling is constrained. Unreported
+results show that for these stocks (that have no short
+interest in our sample period), ETF is clearly uncorrelated
+with insider selling. Finally, we also find that Lendable
+affects insider trading to an even greater extent when ETF
+ownership is zero. Overall, these findings confirm the
+quality of our instrument, making the instrumental vari-
+able analysis a good complement to the test based on the
+SHO experiment.
+
+6. Extensions
+
+On average, the previous results establish that an
+insider is more likely to sell a higher proportion of her
+ownership stake and do so more rapidly when the firm's
+short-selling potential is higher. This section provides a list
+of additional tests to extend our economic intuition and
+assess the robustness of our main results. We first test
+whether a firm's short-selling potential has a greater effect
+on insiders'
+incentives when short sellers' attention is
+higher. We then explore the implications of our hypothesis
+in terms of information dissemination. Finally, we provide
+
+robustness checks using a matching sample analysis and
+alternative definitions of insiders.
+
+6.1. Short sellers' attention
+
+While, as hypothesized, short-selling potential in gen-
+eral affects insider sales, its impact could be more promi-
+nent when competition over trading on private information
+is more imminent, for instance, when the attention level of
+short sellers is high. In this section, we exploit firm-specific
+negative news events to test this additional implication. The
+benefit of using news events is that we can use media
+reports, or public attention, to proxy for the attention of
+short sellers. For instance, news reports may cause short
+sellers to pay particular attention to certain firms. Alterna-
+tively, both short sellers and the public media pay attention
+to the same firm when it has negative news (but short
+sellers' private information is more accurate than the public
+information available in the media). In either case, media
+coverage correlates with short sellers' attention, and we
+expect insiders to sell more and sell more rapidly shortly
+before unfavorable media coverage.15
+
+Specifically, we focus on how (the expected) short sellers'
+attention affects insider selling through lendable shares by
+relating insider trading to the interaction between attention
+and Lendable. If high short-selling attention intensifies the
+competitiveness of private information trading through the
+improved use of existing lendable shares, we expect the
+interaction to induce insiders to sell more and do so more
+rapidly right before the attention events. We therefore collect
+information on news events from RavenPack News Analytics,
+which is a data provider (generally to hedge funds) with
+explanatory and predictive input derived from (public) news.
+For the purposes of our analysis, we focus on negative news.16
+We compute the number of negative news articles for a firm
+in one month, from which we subtract the average number of
+negative news for the same firm in the preceding three
+months. We define D_neg news as a dummy variable equal
+to one if the number of negative news events (in excess of the
+level in the previous three months) of the firm in a month is
+above the cross-section median for that given month. We use
+“D_neg news” in month tþ1 to proxy for the expected
+abnormal short seller attention in month t. Then, we interact
+D_neg news in month tþ1 with lagged Lendable and deter-
+mine whether insiders sell in a different manner in month t
+conditioning on attention. The dependent variables are Insi-
+derSale_FracStake and InsiderSale_TimeSpan. We use the
+
+15 Short-selling activity is known to concentrate around news events
+Jones, and
+
+(e.g., Engelberg, Reed, and Ringgenberg, 2012; Boehmer,
+Zhang, 2012).
+
+16 RavenPack extracts information from public news sources for tens
+of thousands of firms, decodes the tone of reports based on linguistic
+analyses, and assigns positive or negative values to the tone of news
+reports on a 100-point scale (the lower the score is, the more negative
+the coverage of the firm is), which the database calls the “sentiment
+score” of news. We compute the monthly “sentiment score” of a firm by
+averaging the scores over all news reported for the firm in a given month.
+We then define the abnormal sentiment score as the difference between
+the sentiment score in the current month and the average monthly
+sentiment score over the previous three months for each firm. Our
+negative news variable reflects news reports with negative abnormal
+sentiment scores.
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+281
+
+Table 5
+IV analysis.
+This table reports the results of the instrumental variable (IV) regression analysis, by repeating the analysis in Table 3 using ETF ownership as the
+instrument for the variable Lendable. Specifically, we predict dLendablei;t   1 from the following regression, using ETF as the instrument, with which we then
+estimate the Heckman regressions employing the same specification and explanatory variables as in Table 4. Lendablei;t   1 ¼ αþβETFi;t   1 þP
+γjXi;j;t   1 þϵi;t   1:
+Please refer to Appendix A for the variable definitions. We also include year-month fixed effects, and standard errors are clustered at the firm level. We report
+t-statistics in the parentheses below the coefficient estimates and statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+InsiderSale_FracStake
+
+Log(InsiderSale_TimeSpan)
+
+Lendable (instrumented)
+
+Total open market shares
+sold/shares outstanding
+Log( market size)
+
+Book to market
+
+Lagged 6m ret
+Log(analyst coverageþ1)
+
+Turnover
+
+Idiosyncratic volatility
+
+IO
+
+Log(sales)
+
+Leverage
+
+D_EA month
+
+Inverse Mills' ratio
+
+Routine insider sell dummy
+
+Constant
+
+Fixed effects
+Obs.
+
+2nd stage
+
+0.464nnn
+
+(7.84)
+1.024nnn
+(14.47)
+0.027nnn
+(15.87)
+ 0.015nnn
+( 5.23)
+0.055nnn
+(14.06)
+ 0.021nnn
+( 12.72)
+ 0.025nnn
+( 3.58)
+ 0.118
+( 1.30)
+ 0.004
+( 1.15)
+ 0.000nnn
+( 8.61)
+ 0.018nnn
+( 2.90)
+0.015nnn
+(5.38)
+0.041nnn
+
+(8.18)
+
+0.042nnn
+(2.82)
+
+1st stage
+
+1.786nnn
+(10.62)
+
+0.163nnn
+(32.91)
+ 0.192nnn
+( 27.30)
+0.410nnn
+(41.28)
+0.027nnn
+(5.33)
+ 0.158nnn
+( 7.45)
+ 1.642nnn
+( 6.54)
+0.068nnn
+(5.73)
+ 0.000nnn
+( 24.02)
+ 0.374nnn
+( 22.16)
+0.189nnn
+(22.90)
+
+2.703nnn
+(37.56)
+ 1.758nnn
+( 55.58)
+
+2nd stage
+ 2.588nnn
+( 8.00)
+3.410nnn
+(9.07)
+0.015
+(1.56)
+ 0.096nnn
+( 6.22)
+0.119nnn
+(5.51)
+
+0.044nnn
+(4.89)
+ 0.101nnn
+( 2.64)
+1.769nnn
+(3.57)
+ 0.058nnn
+( 2.78)
+ 0.000
+( 0.18)
+ 0.162nnn
+( 4.87)
+0.039nn
+(2.57)
+ 0.632nnn
+( 22.11)
+
+2.418nnn
+(29.27)
+
+189,961
+
+189,961
+
+Year-month
+
+1st stage
+
+1.786nnn
+(10.62)
+
+0.163nnn
+(32.91)
+ 0.192nnn
+( 27.30)
+0.410nnn
+(41.28)
+0.027nnn
+(5.33)
+ 0.158nnn
+( 7.45)
+ 1.642nnn
+( 6.54)
+0.068nnn
+(5.73)
+ 0.000nnn
+( 24.02)
+ 0.374nnn
+( 22.16)
+0.189nnn
+(22.90)
+
+2.703nnn
+(37.56)
+ 1.758nnn
+( 55.58)
+
+Heckman two-step procedure estimation method and include
+the same set of control variables as in Table 3.
+
+We report the results in Table 6. First, the amount of
+lendable shares still significantly affects insider selling, as
+before. The regression coefficients, 0.186 for InsiderSale_Frac-
+Stake (column 1) and  0.282 for InsiderSale_TimeSpan (col-
+umn 3), are also comparable with those reported in Table 3.
+These results indicate that, irrespective of whether attention is
+taken into consideration, the first-order impact of short-selling
+potential is to incentivize insiders to sell more and faster.
+
+More interestingly, we observe that high levels of attention
+largely reinforce the general impact of short selling through
+the interaction term—the regression parameters are 0.06 and
+ 0.266 for the size and time span of insider sales, respectively,
+which are in the same direction as the regression coefficients
+for Lendable. Conditional on the same level of lendable shares,
+firms that would have more negative news in the subsequent
+month are associated with more (by 6%, column 1) and faster
+insider selling (by 26.6%, column 3). The magnitudes are highly
+statistically and economically significant.
+
+Overall, the analyses of short sellers' attention comple-
+ment our main analyses in the spirit of Cohen, Diether, and
+Malloy (2007): while Lendable measures the maximum
+threat of short-selling competition from the supply side of
+the short-selling market, attention describes its effective-
+ness from the demand side of the market. The combina-
+tion of the two produces the maximum impact of the
+short-selling market on insider sales.
+
+6.2.
+
+Implications for information dissemination
+
+We now explore the implications of short selling by
+the return predictability of
+
+examining how it affects
+insider sales.
+
+We partition our sample according to a firm's average level
+of lendable shares during the sample period. Firms with
+average values of Lendable greater than the median are placed
+in the High lendable (or high short-selling potential) sub-
+sample, and the rest of the firms are placed in the Low
+lendable subsample. The dependent variable is the monthly
+
+282
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+Table 6
+Insider selling before negative news events.
+
+This table reports results regarding the effect of short seller potential on insider-selling behavior one month before negative news events using Heckman two-step
+procedures (with the same specification and explanatory variables as in Table 3). We collect information on news events from RavenPack News Analytics, which is a
+data provider (primarily to hedge funds) with sources of explanatory and predictive inputs derived from (public) news. RavenPack extracts information from public
+news sources on tens of thousands of firms and codes its content as positive or negative on a 100-point scale (the lower the score is, the more negative the
+information regarding the firm is). For the purposes of our analysis, we focus on the negative news events (in the form of news events with negative abnormal
+sentiment scores). We then compute the number of the negative news events on a firm in a given month, defined as (the logarithm of) the number of negative news
+events minus (the logarithm of) the number of the negative news events over the previous three months). D_neg news is equal to one if the number of negative news
+for a firm in a month is above median in the cross-section of firms at that given month. Please refer to Appendix A for the variable definitions. We report results
+regarding insider-selling behavior one month before the negative news event using the Heckman two-step procedures in the 2006:07–2011:11 period. In addition to
+the reported variables, we include the same set of control variables as in Table 3. We report t-statistics in the parentheses below the coefficient estimates, and
+statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+InsiderSale_FracStake
+
+Log(InsiderSale_TimeSpan)
+
+2nd stage
+
+0.186nnn
+(11.07)
+ 0.013nn
+( 2.23)
+0.060nnn
+(2.66)
+0.044nnn
+
+(8.61)
+
+0.034nn
+(2.27)
+
+1st stage
+
+1.088nnn
+(23.36)
+0.009
+(0.54)
+ 0.095
+( 1.54)
+
+2.701nnn
+(36.49)
+
+ 1.719nnn
+( 52.27)
+
+2nd stage
+ 0.282nnn
+( 3.07)
+0.094nnn
+(2.87)
+ 0.266nn
+( 2.19)
+ 0.630nnn
+( 21.61)
+
+2.356nnn
+(27.85)
+
+Year-month
+
+Yes
+
+182,642
+
+182,642
+
+1st stage
+
+1.088nnn
+(23.36)
+0.009
+(0.54)
+ 0.095
+( 1.54)
+
+2.701nnn
+(36.49)
+
+ 1.719nnn
+( 52.27)
+
+Lendable
+
+D_neg news
+Lendable  D_neg news
+
+Inverse Mills' ratio
+
+Routine insider sell dummy
+
+Fixed effects
+Other controls
+Constant
+
+Observations
+
+return (in percentage terms) over t, and the key independent
+variables are the dummy variables for Insider sell, Opportunistic
+insider sell, and Routine insider sell in month t 1. Following
+Cohen, Malloy, and Pomorsky (2012), we include Market size
+and Book to market in month t 1, the past one month's
+returns (t 1), and past 12 months' returns (t 2,t 12), as
+well as month fixed effects in the regression. Similarly,
+standard errors are clustered at the firm level.
+
+We report the results in Table 7. The first two columns
+confirm that insider sales predict negative stock returns and
+that this predictive power concentrates in opportunistic sales.
+This result is generally consistent with Cohen, Malloy, and
+Pomorsky (2012). The next two columns indicate that the
+predictive power is greatest among stocks with high lendable
+shares. These results identify an explicit channel through which
+short sellers indirectly enhance the speed of
+information
+dissemination through their impact on insiders. That is, short-
+selling potential incentivizes insiders to release more private
+information into the market. Negative information is subse-
+quently incorporated into stock prices. The literature (e.g., Bris,
+Goetzmann, and Zhu, 2007; Boehmer, Jones, and Zhang, 2008;
+Boehmer and Wu 2013; Saffi and Sigurdsson, 2011) argues that
+short selling contributes to the market's informational efficiency
+—and our analyses confirm the existence of an explicit economic
+channel through which this contribution can be achieved.
+
+6.3. Alternative interpretations
+
+It is worth mentioning that the analysis till now has been
+based on lendable shares and insider shares standardized by
+
+shares outstanding. While the standardization follows the
+literature convention (e.g., Saffi and Sigurdsson, 2011), we
+consider an alternative way of standardizing our main vari-
+ables based on trading volume. Our goal is twofold. The first is
+purely methodological, as the alternative standardization
+helps us to assess the robustness of our results. The second
+is more conceptual, as it helps to differentiate our hypothesis
+from an alternative information interpretation. Indeed, if both
+insiders and short sellers scale their orders proportionally to
+expected trading volume to minimize costs, which can
+happen in Kyle (1984) types of models (including Holden
+and Subrahmanyam (1992) as well as the model we presented
+in the Internet Appendix) especially when uninformed trading
+volume is time varying, stock lenders may also scale up their
+lending volume accordingly. In this case, the positive relation-
+ship between insider sales and lendable shares may reflect
+“comovement” induced by the impact of trading volume on
+informed trading, rather than insiders' preemptive trading
+due to the fear of trading competition. The standardization
+based on trading volume removes the potential impact of
+trading volume on informed trading strategies. If standardized
+lendable shares can still speed up similarly standardized
+insider selling, the former proxy clearly captures the impor-
+tance of short-selling potential with respect to all trading
+volume rather than a comovement effect.
+
+We therefore repeat the main analysis of Tables 2 and 3
+based on trading volume-standardized insider sales and lend-
+able shares. More specifically, we scale both variables by the
+contemporaneous monthly trading volume of the stock—the
+time convention here captures the idea that informed traders
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+283
+
+Table 7
+Return predictability of insider sales by short-selling potential.
+
+This table reports results regarding the return predictability of insider sales between firms with high short-selling potential and firms with low short-
+selling potential. We partition our sample according to the average level of lendable shares for a firm over the sample period. Firms with an average value
+of Lendable greater than the median are placed in the High lendable (or high short-selling potential) subsample, and the rest of the firms are placed in the
+Low lendable subsample. The dependent variable is the monthly return (in percentage terms) in t, and the key independent variables are dummy variables
+for Insider sell, Opportunistic insider sell, and Routine insider sell in month t 1. Following Cohen, Malloy, and Pomorsky (2012), we include Market size and
+Book to market in month t 1, past one month's returns (t 1), and past 12 months' returns (t 2, t 12) as well as month fixed effects in the regression.
+Please refer to Appendix A for the variable definitions. Similarly, standard errors are clustered at the firm level. We report t-statistics in the parentheses
+below the coefficient estimates, and statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+Variables
+
+Insider sell dummy
+
+Opportunistic insider sell dummy
+
+Routine insider sell dummy
+
+Market size
+
+Book to market
+
+Past month returns
+
+Past year returns
+
+Constant
+
+Observations
+R2
+
+(1)
+
+Return
+
+Full sample
+ 0.501nnn
+( 6.13)
+
+ 0.004nnn
+( 2.59)
+1.750nnn
+(15.56)
+0.035nnn
+(6.66)
+ 0.009nnn
+( 10.23)
+0.188nn
+(2.21)
+
+188,530
+0.031
+
+(2)
+
+Return
+
+Full sample
+
+(3)
+
+Return
+
+High lendable
+
+(4)
+
+Return
+
+Low lendable
+
+ 0.255nn
+( 2.15)
+ 0.116
+( 0.47)
+ 0.005nnn
+( 2.97)
+1.782nnn
+(15.87)
+0.035nnn
+(6.64)
+ 0.009nnn
+( 10.79)
+0.078
+(0.96)
+
+188,530
+0.030
+
+ 0.314nnn
+( 2.62)
+ 0.062
+( 0.24)
+ 0.004nn
+( 2.55)
+1.908nnn
+(12.23)
+0.050nnn
+(8.35)
+ 0.010nnn
+( 8.91)
+ 0.032
+( 0.32)
+128,515
+0.046
+
+0.252
+(0.51)
+ 0.938
+( 0.84)
+ 0.010nn
+( 2.44)
+1.616nnn
+(9.99)
+0.019n
+(1.96)
+ 0.009nnn
+( 6.53)
+0.252n
+(1.75)
+
+60,015
+0.015
+
+may increase their trading when they expect a high unin-
+formed trading volume to occur. Next, we also take the natural
+logarithm of these standardized variables to alleviate the
+outlier effect. We then apply the tests documented in
+Tables 2 and 3 to these variables. In the interest of brevity,
+we only describe the general patterns here while tabulating
+the table in the Internet Appendix (Table IA.1)—all results are
+very similar to what we have seen in Tables 2 and 3. More
+explicitly, standardized lendable shares significantly increase
+the likelihood for insider sales in general and opportunistic
+open market sales in particular to occur. Furthermore, trading
+volume-standardized lendable shares are positively associated
+with insider sales and negatively associated with the time span
+of insider sales, where insider sales are also standardized by
+trading volume. All these effects are statistically significant,
+suggesting that lendable shares in this case nonetheless
+capture short-selling potential with respect to all trading
+volume rather than comovements induced by time-varying
+uninformed trading. These additional results, therefore, further
+support our main interpretation based on trading competition.
+
+6.4. Robustness checks
+
+We first provide additional evidence that high values in
+lendable shares introduce more trading competition to insiders
+using an alternative specification of the short-selling potential
+variable. Specifically, we construct two dummy variables D_low
+lendable and D_high lendable, instead of using the continuous
+variable of lendable shares. D_low lendable is a dummy equal to
+one if the firm's lendable shares in a month is below the
+bottom quartile of the cross-sectional distribution for that given
+
+month. Likewise, D_high lendable is a dummy equal to one if
+the firm's amount of lendable shares in a month is above the
+top quartile of the monthly cross-sectional distribution. D_low
+lendable identifies firms in months where (effective) short
+selling is close to infeasible as the amount of lendable shares
+in the inventory accounts for less than 7% of the total shares
+outstanding (Table 1). These are the firms where we expect the
+minimum impact on insiders' trading incentive from potential
+short sellers. On the other hand, D_high lendable identifies firms
+in months with abundant lendable shares and hence, insiders
+face more credible threat by short sellers. We repeat the
+analysis in Tables 2 and 3 and report the results in Table 8.
+
+Panel A of Table 8 tabulates the results when we regress the
+likelihood of insider selling on the two dummy variables
+described above. The test is similar to that reported in
+Table 2, except that we use the two dummy variables concern-
+ing the extreme values of lendable shares rather than the
+variable of lendable shares itself. Panel B further explores the
+impact of the two dummy variables in the Heckman specifica-
+tion following Table 3. From Panel A, we see that firms in the
+top quartile of the distribution of lendable shares experience a
+greater likelihood of their insiders selling and the effects are
+statistically and economically significant. Panel B further
+demonstrates that, conditional on the participation of sales,
+insiders sell more and faster in the case of firms with extremely
+high values of lendable shares (D_high lendable¼1) as com-
+pared to firms with mid-range lendable shares. Likewise,
+insiders sell less and slower in the case of firms with the low
+levels of lendable shares (D_low lendable¼1) compared to
+firms with mid-range lendable shares. F-tests also confirm that
+the difference between the two coefficients (D_high lendable
+
+284
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+Table 8
+Alternative specifications on short-selling potential.
+
+This table reports results from using a different specification of short-selling potential and repeating the analysis of Tables 2 and 3 in the full sample as a robustness
+check. D_low lendable is equal to one if the variable Lendable is below the bottom quartile of the monthly cross-sectional distribution. D_high lendable is equal to one if
+the variable Lendable is above the top quartile of the monthly cross-sectional distribution. Panel A repeats Table 2's conditional logit regression analysis. Panel B
+repeats Table 3's Heckman regression analysis of open market insider sales by the top five insiders. We include the same set of control variables in the regressions;
+please refer to Tables 2 and 3 for the model specification and Appendix A for the variable definitions. We report t-statistics in the parentheses below the coefficient
+estimates, and statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+Panel A: Conditional logit regressions of insider sale
+
+D_low lendable
+
+D_high lendable
+
+Controls
+Fixed effects
+Observations
+
+Panel B: Heckman analysis
+
+D_low lendable
+
+D_high lendable
+
+Controls
+Fixed effects
+Obs.
+
+(1)
+
+Insider sell dummy
+
+(2)
+
+Opportunistic insider sell dummy
+
+ 0.004
+( 0.03)
+0.131nnn
+(2.85)
+
+129,922
+
+Yes
+
+Firm, year-month
+
+0.012
+(0.03)
+0.228nnn
+(2.66)
+
+49,211
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+InsiderSale_FracStake
+
+Log (InsiderSale_TimeSpan)
+
+2nd stage
+ 0.019nnn
+( 3.32)
+0.034nnn
+(13.51)
+
+1st stage
+ 0.212nnn
+( 15.81)
+0.147nnn
+(19.18)
+
+2nd stage
+
+0.082nnn
+(2.72)
+ 0.043nnn
+( 3.14)
+
+Yes
+
+Year-month
+
+189,970
+
+189,966
+
+1st stage
+ 0.212nnn
+( 15.82)
+0.147nnn
+(19.19)
+
+and D_low lendable) is statistically significant. Unreported tests
+using different thresholds (e.g., to define the two dummy
+variables to represent top/bottom 10% of values of lendable
+shares) lead to very similar results. These observations suggest
+that high values of lendable shares indeed proxy for high short-
+selling potential, which induces more insider sales in our
+empirical framework.17
+
+Second, we consider an alternative measure of insider
+trading and focus on the five most powerful insiders in the
+company, whom the Thomson Insider Database classifies as
+“level 1 insiders”. These are: the chief executive officer, the
+chairman of the board, the chief operating officer, the president,
+and the general counsel. We therefore re-estimate the previous
+specifications using this new definition of insiders, and report
+the results in Table 9. Panel A repeats Table 2's conditional logit
+regression analysis. Panel B repeats Table 3's Heckman regres-
+sion analysis. The results confirm those presented above, both
+
+17 This test also addresses the potential concern that high lendable
+shares may not be powerful enough to capture the potential impact of
+short sellers because not all lendable shares are utilized in normal days.
+Table 8 illustrates that high values of lendable shares, regardless of their
+potential utilization rate, have significant power. This observation is
+reasonable because insiders' ex ante concern about trading competition
+should be more affected by the maximum amount of shares lendable to
+short sellers (i.e., a measure of the potential capacity to short). We also
+consider another short-selling potential variable that takes into account
+the utilization rate of the lendable shares. We exclude the utilized shares
+from the lendable shares, which measures the portion of the shares
+outstanding that are currently not on loan and thus are available for
+borrowing. Then we repeat the analysis in Tables 2 and 3. The results are
+qualitatively the same and for brevity we do not report them here.
+
+in terms of statistical significance and economic relevance, as
+the coefficients remain statistically significant and their magni-
+tudes are in general larger than those in Table 2. We also
+experiment with the top three insiders, as in Cohen, Malloy,
+and Pomorsky (2012), and obtain a similar result.
+
+Third, given that the measure for the speed of trading
+we use is novel, we provide an alternative measure in this
+section to check the robustness of the related results.
+Specifically, we define InsiderSale_Duration as the weighted
+average of days that insiders take to complete sales in a
+given month, with the weights determined by the total
+dollar value of each day's net sales. Compared with the
+previous measure InsiderSale_TimeSpan, this measure effec-
+tively assigns a greater weight to days that have a larger
+volume of net insider sales. We then examine the impact of
+short selling on this alternative measure of trading speed.
+The results are presented in Table 10, with a layout similar
+to that of Table 3, Panel B. The evidence confirms a negative
+impact of short-selling potential on the pace of insider trading.
+A higher level of lendable shares is associated with a decrease
+in the duration of insider sale transactions (as captured by
+InsiderSale_Duration), and the decrease in duration is particu-
+larly substantial for opportunistic insider sale transactions.
+
+Finally, we address the potential concern that the
+occurrence of insider sales is not randomly distributed
+among firms. For example, the determinants of an insider
+sale may be correlated with other firm characteristics,
+differentiating the sample of firms with insider sales from
+that without insider sales. Such differences may bias our
+inference of the impact of short selling on insider sales. To
+address this issue, we consider a matching sample
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+285
+
+Table 9
+Alternative insider measure.
+
+This table reports results from using a different measure for insider and repeating the analysis of Tables 2 and 3 in the full sample as a robustness check.
+The insiders are constrained to the five most powerful insiders in the company: the chief executive officer, the chairman of the board, the chief operating
+officer, the president, and the general counsel. Panel A repeats Table 2's conditional logit regression analysis. Panel B repeats Table 3's Heckman regression
+analysis of open market insider sales by the top five insiders. We include the same set of control variables in the regressions; please refer to Tables 2 and 3
+for the model specification and Appendix A for the variable definitions. We report t-statistics in the parentheses below the coefficient estimates, and
+statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+Panel A: Conditional logit regressions of top 5 insider sale
+
+(1)
+
+Top5 insider sell dummy
+
+Opportunistic top5 insider sell dummy
+
+(2)
+
+Lendable
+
+Controls
+Fixed effects
+
+Observations
+
+Panel B: Heckman analysis for top 5 insiders
+
+1.528nnn
+(3.99)
+
+128,248
+
+Yes
+
+Firm, year-month
+
+2.663nnn
+(3.62)
+
+48,869
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Top5 InsiderSale_FracStake
+
+Top5 log (InsiderSale_TimeSpan)
+
+2nd stage
+
+0.194nnn
+(9.55)
+
+1st stage
+
+1.132nnn
+(24.57)
+
+2nd stage
+ 0.695nnn
+( 6.50)
+
+Yes
+
+Year-month
+
+186,571
+
+186,569
+
+1st stage
+
+1.133nnn
+(24.58)
+
+Lendable
+
+Controls
+Fixed effects
+
+Obs.
+
+Table 10
+Alternative measure of trading speed.
+
+This table reports results from using a different measure of trading speed and repeating the analysis in Table 3. We replace our current measure
+InsiderSale_TimeSpan with InsiderSale_Duration in this analysis. InsiderSale_Duration is defined as the weighted average of the number of days that insiders
+take to complete their sales in a given month, where the weights are determined by the total dollar value of each day's net sales. We include the same set of
+control variables in the regressions; please refer to Table 3 for the model specification and Appendix A for the variable definitions. We report t-statistics in
+the parentheses below the coefficient estimates, and statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Log(InsiderSale_Duration)
+
+Log(Opportunistic InsiderSale_Duration)
+
+2nd stage
+ 0.363nnn
+( 6.27)
+ 0.473nnn
+( 21.01)
+
+1.806nnn
+(27.84)
+
+1st stage
+
+1.063nnn
+(28.30)
+
+2.705nnn
+(36.61)
+ 1.730nnn
+( 53.80)
+
+2nd stage
+ 0.756nnn
+( 6.38)
+ 0.400nnn
+( 6.72)
+
+1.791nnn
+(8.94)
+
+Yes
+
+Year-month
+
+186,560
+
+186,564
+
+1st stage
+
+1.311nnn
+(24.25)
+
+0.796nnn
+(26.98)
+ 2.785nnn
+( 55.75)
+
+Lendable
+
+Inverse Mills' ratio
+
+Routine insider sell dummy
+
+Constant
+
+Controls
+Fixed effects
+
+Obs.
+
+procedure. We use a “P-score nearest neighbor matching”
+procedure based on firm size, book-to-market, lagged six-
+month return, turnover, sales, leverage, institutional own-
+ership, and idiosyncratic volatility.18 That is, for each firm-
+
+18 The results reported in the paper use the one-to-five matching
+methodology, and our findings are also robust to a one-to-one matching
+methodology.
+
+month in which we observe insider sales, we find a
+matching firm with similar characteristics that does not
+have an insider sale. The resulting sample thus contains a
+more homogeneous group of firms with comparable firm
+characteristics. We report the results in Table 11. Panel A
+repeats Table 2's conditional logit analysis. Panel B repeats
+Table 3's Heckman regression analysis.
+
+The new tests confirm the previous results. The eco-
+nomic and statistical impacts are comparable. For instance,
+
+286
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+Table 11
+Robustness check: propensity score matching.
+
+This table reports results of the P-score matching method as a robustness check for Tables 2 and 3. We match firms based on firm size, book-to-market,
+lagged six months' return, turnover, sales, leverage, institutional ownership, and idiosyncratic volatility. Panel A repeats Table 2's conditional logit
+regression analysis. Panel B repeats Table 3's Heckman regression analysis on insider sales by officers and directors. We include the same set of control
+variables in the regressions; please refer to Tables 2–5 for the model specification and Appendix A for the variable definitions. We report t-statistics in the
+parentheses below the coefficient estimates, and statistical significance at the 1%, 5%, and 10% levels is indicated by nnn, nn, and n, respectively.
+
+Panel A: Conditional logit regressions of insider sale
+
+(2)
+
+(3)
+
+Routine open market sell
+
+Opportunistic open market sell
+
+dummy
+
+dummy
+
+(4)
+
+Insider sell
+
+dummy
+
+(1)
+Open
+market
+
+sell
+
+dummy
+
+(6)
+
+Opportunistic insider sell
+
+dummy
+
+(5)
+
+Routine
+insider
+
+sell
+
+dummy
+
+All insiders (on Form 4)
+
+Officers and directors
+
+1.297nnn
+(4.23)
+
+1.217
+(1.03)
+
+1.236nn
+(2.54)
+
+1.378nnn
+(4.51)
+
+0.955
+(0.81)
+
+1.309nnn
+(2.64)
+
+Lendable
+
+Control
+
+variables
+
+Fixed effects
+
+Observations
+
+69,580
+
+19,881
+
+Panel B: Heckman analysis
+
+Lendable
+
+Control variables
+Fixed effects
+
+Obs.
+
+Yes
+
+Firm, year-month
+
+49,184
+
+(2)
+
+1st stage
+
+1.153nnn
+(21.98)
+
+69,386
+
+19,529
+
+48,666
+
+(3)
+
+(4)
+
+Log (InsiderSale_TimeSpan)
+
+2nd stage
+ 0.634nnn
+( 7.50)
+
+Yes
+
+Year-month
+
+1st stage
+
+1.153nnn
+(21.99)
+
+(1)
+
+InsiderSale_FracStake
+
+2nd stage
+
+0.211nnn
+(14.86)
+
+73,993
+
+73,989
+
+the regression coefficient of Lendable on InsiderSale_Frac-
+Stake in Panel B, column 1 is 0.211 (with a t-statistic of
+14.86). In the tests reported in Table 3, the corresponding
+coefficient is 0.202 (with a t-statistic of 14.95). Similarly,
+the coefficient of Lendable on Log(InsiderSale_TimeSpan) is
+ 0.634 (with a t-statistic of  7.50) in column 3 of Panel B
+of the current table, compared with the coefficient of
+ 0.394 (with a t-statistic of  5.31) reported in Panel B
+of Table 3. Therefore, the main findings remain very
+similar using a more homogeneous control group of firms
+with comparable characteristics.
+
+7. Conclusion
+
+We study how the presence of short sellers alters
+insiders' incentives to trade. Trading competition by short
+sellers incentivizes insiders to expedite their information
+processing and trading activities to preempt short sellers,
+enhancing both the scope and speed of insider sales.
+
+We test this hypothesis using monthly data on US.
+stocks over the period from 2006 to 2011. We document
+that short-selling potential strongly encourages insiders to
+participate in open market sales. If we decompose the
+open market sales into routine and opportunistic sales, the
+impact of lendable shares concentrates in opportunistic
+sales. Thus, short selling primarily affects informed
+
+insiders. If we condition on insider selling, we find that
+with high levels of lendable shares, insiders tend to sell a
+higher portion of their existing stakes and expedite their
+sale transactions, confirming that short selling incentivizes
+insiders to both sell more and sell faster. Our results
+remain qualitatively unchanged when we conduct robust-
+ness checks using an alternative sample of firms and an
+alternative definition of corporate insiders.
+
+A natural experiment based on the SHO Pilot Program
+that exogenously relaxes short-selling restrictions provides
+an opportunity to test the causal impact of short-selling
+potential on insider sales. Among otherwise comparable
+firms (both before and after announcement), we observe a
+significant increase in the open market insider sales of
+officers and directors among the Pilot stocks after the
+announcement, relative to the change in open market
+insider sales for the control firms. In addition, treatment
+firms' insiders sold more shares and sold them faster after
+the announcement of the SHO Pilot Program, relative to the
+control firms' insiders. The results from an instrumental
+variable analysis using ETF ownership as an exogenous
+determinant of lendable shares complement and confirm
+the findings in the quasi-experimental approach.
+
+We also find that the effect of short-selling potential on
+insider selling is amplified when short sellers' attention is
+higher. Moreover, the return predictability of insider sales
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+287
+
+InsiderSale_FracStake Number of shares sold on the open market
+by officers and directors as a proportion of
+their initial ownership in a given firm-month
+InsiderSale_TimeSpan The number of days that an insider takes to
+
+is only observed among stocks with high shorting poten-
+tial, suggesting that short sellers indirectly enhance the
+informativeness of firm's share prices via insider sales.
+
+Overall, our results suggest that insiders' trading motiva-
+tion and behavior could be substantially affected by the
+conditions of the shorting market. The availability of short
+selling introduces a competition scheme that accelerates the
+rate at which private information is revealed to the market via
+insider trading. In addition, the findings in the paper have
+implications concerning the unintended consequences of
+limiting short selling.
+
+Appendix A. Variable deﬁnitions
+
+Insider sell/
+
+outstanding
+
+Routine sell
+
+Definitions
+
+Opportunistic sell
+
+complete his sale transactions in a month
+(i.e., equal to n if the last net sale transaction
+within a month is on the nth day since the
+first day with nonzero net sale transactions)
+Total number of shares sold on the open
+market by officers and directors in a firm
+month divided by shares outstanding
+An insider is considered a routine trader if he
+has been trading in the same calendar
+months over the prior three years. A routine
+sale is one made by a routine insider in the
+same calendar month in which the insider
+traded over the past three years (Cohen,
+Malloy, and Pomorsky, 2012). All routine-
+related insider sale variables are defined
+using this definition.
+An opportunistic insider is one for whom
+there is no obvious discernible pattern in the
+past timing of their trades over the past
+three years. An opportunistic sale is one
+made by an opportunistic insider.
+Opportunistic-related insider sale variables
+use this definition.
+
+Variables
+
+Lendable
+
+Market size
+Book to market
+
+Turnover
+
+Lagged 6m ret
+
+Leverage
+
+Sale
+
+Idiosyncratic
+
+volatility
+
+IO
+
+ETF
+Analyst coverage
+Price
+D_EA month
+
+Stock shares in the inventory available for
+borrowing as a proportion of shares
+outstanding
+Market capitalization
+Book value of equity divided by market
+capitalization
+Sum of monthly trading volume (equal to
+two for Nasdaq stocks) divided by shares
+outstanding
+Cumulative stock return for the last six
+months
+Long-term debt issues plus current liability
+divided by total assets
+The gross sales (i.e., the amount of actual
+billings to customers for regular sales
+completed) during the period
+Monthly average of the standard deviation of
+residuals from the adjusted Fama-French
+daily regressions (Jiang, Xu, and Yao, 2009)
+Institutional ownership, defined as
+institutional ownership shares divided by
+adjusted shares outstanding
+Proportion of shares held by an ETF
+Number of analysts following the firm
+Share price at the end of the month
+Dummy variable equal to one if there is an
+earnings announcement in the month
+
+D_neg news
+
+Abnormal sentiment We compute the monthly “sentiment score”
+of a firm by averaging the scores assigned by
+RavenPack over all news events reported in
+the month. We define Abnormal sentiment as
+the difference between the sentiment score
+in the current month and the average
+monthly sentiment score over the previous
+three months.
+Dummy variable equal to one if the firm's
+number of negative news events is above the
+monthly median in the sample. The number
+of negative news is defined as (the logarithm
+of) the average number of news events that
+have a negative Abnormal sentiment score in
+a given month for each firm minus the (log
+of) the average number of news events that
+have a negative Abnormal sentiment score in
+the previous three months.
+Dummy variable equal to one if there is an
+open market sale by any insider (as recorded
+in Form 4 of the Insider Filings in the current
+month) and zero otherwise
+Dummy variable equal to one if directors and
+officers have open market sales in the
+current month and zero otherwise.
+
+Open market sell
+
+dummy
+
+Appendix IA. Supplementary material
+
+Supplementary data associated with this article can be
+found in the online version at http://dx.doi.org/10.1016/j.
+jfineco.2015.08.004.
+
+References
+
+Anderson, R., Duru, A., Reeb, D., 2009. Founders, heirs, and corporate
+opacity in the United States. Journal of Financial Economics 92,
+205–222.
+
+Anderson, R., Reeb, D., Zhao, W., 2012. Family-controlled firms and informed
+
+trading: evidence from short sales. Journal of Finance 67, 351–385.
+
+Asquith, P., Mikhail, M.B., Au, A.S., 2005. Information content of equity
+
+analyst reports. Journal of Financial Economics 75, 245–282.
+
+Beneish, M.D., Lee, C.M.C., Nichols, C., 2013. In short supply: equity
+overvaluation and short selling. Unpublished working paper. Indiana
+University, Stanford University, and Syracuse University.
+
+Bettis, C., Vickery, D., Vickery, D.W., 1997. Mimickers of corporate insiders
+who make large-volume trades. Financial Analysts Journal 53, 57–66.
+Boehmer, E., Jones, C., Zhang, X., 2008. Which shorts are informed?
+
+Journal of Finance 63, 491–527.
+
+Boehmer, E., Jones, C., Zhang, X., 2012. What do short sellers know?
+Unpublished working paper. Singapore Management University,
+Columbia Business School, and Purdue University.
+
+Boehmer, E., Huszar, Z., Jordan, B., 2010. The good news in short interest.
+
+Journal of Financial Economics 96, 80–97.
+
+Boehmer, E., Wu, J., 2013. Short selling and the price discovery process.
+
+Review of Financial Studies 26, 287–322.
+
+Bris, A., Goetzmann, W., Zhu, N., 2007. Efficiency and the bear: short sales
+
+and markets around the world. Journal of Finance 62, 1029–1079.
+
+Cheng, Q., Lo, K., 2006. Insider trading and voluntary disclosures. Journal
+
+of Accounting Research 44, 815–848.
+
+Christophe, S., Ferri, M., Angel, J., 2004. Short-selling prior to earnings
+
+announcement. Journal of Finance 59, 1845–1875.
+
+Christophe, S., Ferri, M., Hsieh, J., 2010. Informed trading before analyst
+downgrades: evidence from short sellers. Journal of Financial Eco-
+nomics 95, 85–106.
+
+Cohen, L., Diether, K., Malloy, C., 2007. Supply and demand shifts in the
+
+shorting market. Journal of Finance 62, 2061–2096.
+
+Cohen, L., Malloy, C., Pomorsky, L., 2012. Decoding inside information.
+
+Journal of Finance 67, 1009–1043.
+
+288
+
+M. Massa et al. / Journal of Financial Economics 118 (2015) 268–288
+
+Damodaran, A., Liu, C., 1993.
+
+Insider trading as a signal of private
+
+Karpoff, J., Lou, X., 2010. Short sellers and financial misconduct. Journal of
+
+information. Review of Financial Studies 6, 79–119.
+
+Dechow, P., Hutton, A., Meulbroek, L., Sloan, R., 2001. Short sellers,
+fundamental analysis and stock returns. Journal of Financial Econom-
+ics 61, 77–106.
+
+Desai, H., Ramesh, K., Thiagarajan, S., Balachandran, B., 2002. An inves-
+tigation of the informational role of short interest in the Nasdaq
+market. Journal of Finance 5, 2263–2287.
+
+Desai, H., Krishnamurthy, S., Venkataraman, K., 2006. Do short sellers
+target firms with poor earnings quality? Evidence from earnings
+restatements. Review of Accounting Studies 11, 71–90.
+
+Diether, K., Lee, K-H., Werner, I., 2009a. Short-sale strategies and return
+
+predictability. Review of Financial Studies 22, 575–607.
+
+Diether, K., Lee, K-H., Werner, I., 2009b. It's SHO time! Short-sale price
+
+tests and market quality. Journal of Finance 64, 37–73.
+
+Edmans, A., Manso, G., 2011. Governance through trading and interven-
+tion: a theory of multiple blockholders. Review of Financial Studies
+24, 2395–2428.
+
+Engelberg, J., Reed, A., Ringgenberg, M., 2012. How are shorts informed?
+Short sellers, news, and information processing. Journal of Financial
+Economics 105, 260–278.
+
+Foster, F., Viswanathan, S., 1993. The effect of public information and
+competition on trading volume and price volatility. Review of
+Financial Studies 6, 23–56.
+
+Grullon, G., Michenaud, S., Weston, J., 2015. The real effects of short-
+selling constraints. Review of Financial Studies, 1737–1767. in press.
+Heckman, J., 1979. Sample selection bias as a specification error. Econo-
+
+metrica 47, 153–161.
+
+Hirshleifer, D., Teoh, S., Yu, J., 2011. Short arbitrage, return asymmetry and
+
+the accrual anomaly. Review of Financial Studies 24, 2429–2461.
+
+Holden, C., Subrahmanyam, A., 1992. Long-lived private information and
+
+imperfect competition. Journal of Finance 47, 247–270.
+
+Huddart, S., Hughes, J.S., Levine, C.B., Ke, B., Shi, C., 2007. Jeopardy, non-
+public information, and insider trading around SEC 10-K and 10-Q
+filings. Journal of Accounting and Economics 43, 3–36.
+
+Jaffe, J., 1974. Special information and insider trading. Journal of Business
+
+47, 410–428.
+
+Jagolinzer, A., 2009. SEC Rule 10b5-1 and insiders' strategic trade.
+
+Management Science 55, 224–239.
+
+Jain, A., Jain, P., McInish, T., McKenzie, M., 2013. Worldwide reach of short
+
+selling regulations. Journal of Financial Economics 109, 177–197.
+
+Jenter, D., 2005. Market timing and managerial portfolio decisions.
+
+Journal of Finance 60, 1903–1949.
+
+Jiang, G., Xu, D., Yao, T., 2009. The information content of idiosyncratic
+
+volatility. Journal of Financial and Quantitative Analysis 44, 1–28.
+
+Jin, L., Myers, S., 2006. R-squared around the world: new theory and new
+
+tests. Journal of Financial Economics 79, 257–292.
+
+Kahle, K., 2000. Insider trading and the long-run performance of new
+
+security issues. Journal of Corporate Finance 6, 25–53.
+
+Finance 65, 1879–1913.
+
+Ke, B., Huddart, S., Petron, K., 2003. What insiders know about future
+earnings and how they use it: evidence from insider trades. Journal of
+Accounting and Economics 35, 315–346.
+
+Khan, M., Lu, H., 2013. Do short sellers front-run insider sales? Account-
+
+ing Review 88, 1743–1768.
+
+Kyle, A.S., 1984. Market structure, information, futures markets, and price
+formation. In: Storey, G.G., Schmitz, A., Sarris, A.H. (Eds.), , Westview
+Press, Boulder, CO, pp. 45–64.
+
+Kyle, A.S., 1985. Continuous auctions and insider trading. Econometrica
+
+53, 1315–1335.
+
+Lakonishok, J., Lee, I., 2001. Are insider trades informative? Review of
+
+Financial Studies 14, 79–111.
+
+Lin, J., Howe, J., 1990. Insider trading on the OTC market. Journal of
+
+Finance 45, 1273–1284.
+
+Ljungqvist, A., Qian, W., 2014. How constraining are limits to arbitrage?
+
+NBER working paper no. 19834.
+
+Lorie, J., Niederhoffer, V., 1968. Predictive and statistical properties of
+
+insider trading. Journal of Law and Economics 11, 35–53.
+
+Marin, J., Olivier, J., 2008. The dog that did not bark: insider trading and
+
+crashes. Journal of Finance 63, 2429–2476.
+
+Morck, R., Yeung, B., Yu, W., 2000. The information content of stock
+markets: why do emerging markets have synchronous stock price
+movements? Journal of Financial Economics 59, 215–260.
+
+Nezafat, M., Wang, Q., 2014. Short sale constraints, information acquisi-
+tion and asset prices. Unpublished working paper. Georgia Institute
+of Technology.
+
+Piotroski, J., Roulstone, D., 2005. Do insider trades reflect both contrarian
+beliefs and superior knowledge about future cash flow realizations?
+Journal of Accounting and Economics 39, 55–82.
+
+Rozeff, M., Zaman, M., 1998. Overreaction and insider trading: evidence
+
+from growth and value portfolios. Journal of Finance 53, 701–716.
+
+Saffi, P., Sigurdsson, K., 2011. Price efficiency and short selling. Review of
+
+Financial Studies 24, 821–852.
+
+Scott, J., Xu, P., 2004. Some insider sales are positive signals. Journal of
+
+Financial Analysts 60, 44–51.
+
+Senchack, A.J., Starks, L.T., 1993. Short-sale restrictions and market
+reaction to short interest announcements. Journal of Financial and
+Quantitative Analysis 28, 177–194.
+
+Seyhun, N.H., 1986. Insiders' profits, cost of trading, and market effi-
+
+ciency. Journal of Financial Economics 16, 189–212.
+
+Seyhun, N.H., 1998. Investment Intelligence from Insider Trading. MIT
+
+Press, Cambridge, MA.
+
+Sias, R., Whidbee, D., 2010. Insider trades and demand by institutional
+
+investors. Review of Financial Studies 23, 1544–1595.
+
+Staiger, D., Stock, J., 1997. Instrumental variables regression with weak
+
+instruments. Econometrica 65, 557–586.
+
+

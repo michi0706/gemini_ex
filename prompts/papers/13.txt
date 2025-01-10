@@ -1,0 +1,3154 @@
+American Economic Journal: Economic Policy 2018, 10(4): 177–210 
+https://doi.org/10.1257/pol.20150261
+
+Can Small Incentives Have Large Effects? The Impact of 
+
+Taxes versus Bonuses on Disposable Bag Use†
+
+By Tatiana A. Homonoff*
+
+This paper examines a simple element of financial incentive—design 
+whether the incentive takes the form of a fee for bad behavior or a 
+reward for good behavior—to determine if the framing of the incen-
+tive influences the policy’s effectiveness. I investigate the effect of two 
+similar policies aimed at reducing disposable bag use: a  $0.05 tax 
+on disposable bag use and a   $0.05 bonus for reusable bag use. While 
+the tax decreased disposable bag use by over 40 percentage points, 
+the bonus generated virtually no effect on behavior. These results are 
+consistent with a model of loss aversion. (JEL D12, D91, H23)
+
+When can small incentives have large effects on behavior? Standard economic 
+
+theory  suggests  that  financial  incentives  aimed  at  encouraging  desirable 
+behaviors  or  discouraging  harmful  behaviors  will  be  effective  only  if  the  magni-
+tude of the incentive exceeds the costs an individual associates with changing his 
+behavior. While in practice financial incentives can take the form of either a fee for 
+bad behavior or a reward for good behavior, the standard model suggests that indi-
+viduals should respond similarly to the two types of incentives provided that they 
+are of the same monetary amount. In contrast, evidence from the field of behavioral 
+economics suggests that individuals perceive losses more strongly than gains, i.e., 
+they are “ loss-averse,” implying that a fee would be more effective than a reward 
+of the same size (Kahneman and Tversky 1979). A growing body of research aims 
+to document this  gain-loss asymmetry using field data in a variety of contexts.1 For 
+example, Field (2009) finds that public interest tuition subsidies are significantly 
+more effective when framed as a loss than as a gain. Fryer et al. (2012) and Hossain 
+and  List (2012)  find  similar  patterns  for   pay-for-performance  bonuses.  However, 
+less is known about whether this  gain-loss asymmetry holds in the field for very 
+
+* Robert F. Wagner School of Public Service, New York University, 295 Lafayette Street, 2nd Floor, New York, 
+NY 10012 (email: tah297@nyu.edu). I would like to thank Henry Farber, Jacob Goldin, Nikolaj Harmon, Anna 
+Knoell, David Lee, Alex Mas, and Abigail Sussman for reading earlier drafts of this paper and providing helpful 
+feedback. I also thank seminar participants at Princeton University, Cornell University, The Wharton School of 
+the University of Pennsylvania, Harvard Business School, University of Toronto, Haverford College, and NBER 
+Summer Institute for conversations and suggestions that have greatly improved the quality of this project. Jason 
+Somerville provided excellent research assistance. All errors are my own. I gratefully acknowledge support from 
+Princeton University’s Industrial Relations Section.
+† Go  to  https://doi.org/10.1257/pol.20150261  to  visit  the  article  page  for  additional  materials  and  author  
+disclosure statement(s) or to comment in the online discussion forum.
+1 Recent  work  includes  research  in  labor  supply  (Camerer  et  al.  1997,  Oettinger  1999),  tax  compliance 
+(Engström et al. 2015,  Rees-Jones 2017), and sports (Allen et al. 2017, Pope and Schweitzer 2011). For an over-
+view of related literature, see DellaVigna (2009). 
+
+177
+
+178 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+small stakes incentives.2 In fact, evidence from a separate area of behavioral eco-
+nomics suggests that offering very small incentives for behavior change can actually 
+be demotivating by crowding out an individual’s intrinsic motivation (Gneezy and 
+Rustichini 2000a, b; Gneezy, Meier, and  Rey-Biel 2011). This paper contributes to 
+the literature on  loss-framed nudges in a new policy context where the incentives 
+considered are very small in magnitude. Specifically, I investigate whether the fram-
+ing of an incentive has an impact on the policy’s effectiveness through the evaluation 
+of two  real-world policies aimed at reducing the use of disposable shopping bags: a 
+ $0.05 tax on disposable bag use and a  $0.05 bonus for reusable bag use.
+
+Concern  over  the  environmental  impact  of  plastic  bags  has  prompted  several 
+governments  across  the  world  to  regulate  the  use  of  disposable  bags.  In  2010, 
+Washington, DC became the first city in the United States to pass legislation calling 
+for grocery stores to tax customers for the use of disposable bags. Two years later, 
+the neighboring County of Montgomery, Maryland also passed a law requiring a 
+ $0.05 tax per disposable bag. Since then, similar legislation has been passed in sev-
+eral counties and cities across the United States.
+
+While these laws  were the first policies in  the United  States  to tax  disposable 
+bags, they were not the first policies to offer financial incentives that discouraged 
+disposable bag use. Prior to the implementation of the tax, several stores in the area 
+offered their own incentive to reduce the use of disposable bags: a $0.05 bonus for 
+reusable bag use. If disposable and reusable bags are substitutes, standard models 
+predict that the tax policy and the bonus policy should have the same impact on bag 
+use  since  both  policies  provide  customers  a   $0.05  incentive  for  using  a  reusable 
+bag instead of a disposable bag. However, if customers are  loss-averse, in that they 
+adjust their behavior more in response to losses than to gains, a bonus is likely to be 
+less effective than a tax of the same magnitude.
+
+Despite  the  growing  popularity  of  policies  that  incentivize  reusable  bag  use, 
+rigorous  empirical  work  measuring  the  effectiveness  of  such  policies  has  been 
+lacking.3  To  assess  the  impact  of  these  policies,  I  collected  a  unique  dataset  on 
+ individual-level use of disposable and reusable bags by observing shopping behavior 
+of grocery store customers during the months before and after the implementation of 
+the Montgomery County tax in three counties in the Washington Metropolitan Area: 
+Washington, DC (which had a tax throughout the study period), Arlington County, 
+Virginia (which had proposed a tax, but never passed one), and Montgomery County, 
+Maryland (which changed its policy during the study period). The final dataset con-
+tains information on bag use for over 16,000 customers. Using variation in incentive 
+
+2 One exception considers the framing of  pay-for-performance bonuses for standardized test performance for 
+Chicago public school children in the range of $10 to $20 and finds similar evidence of loss aversion (Levitt et al. 
+2016). However, one could argue that these incentives are actually rather large for the population of interest. 
+3 Two  exceptions  are  recent  studies  conducted  in  California  by Taylor  and  Villas-Boas (2016)  and  Chicago 
+(http://www.ideas42.org/ wp-content/uploads/2017/04/ Chicagoans-Reduce-Disposable-Bag-Use-by-Over-Forty-
+Percent-Since-Implementation-of-Checkout-Bag-Tax.pdf),  both  of  which  follow  the  same  research  design  used 
+in this paper. While the tax policies considered are slightly different than those in the Washington metropolitan 
+area—the California law banned  single-use plastic bags and required stores to charge a minimum fee of $0.05 for all 
+other bags (paper or reusable plastic bags) and the Chicago law required stores to levy a  $0.07 tax for all disposable 
+bags—the two studies found very similar effects on disposable bag use as those reported in this paper. Neither of 
+these studies compared the effect of the tax to the effect of a comparably sized reusable bag bonus. 
+
+VOL. 10 NO. 4 
+
+179
+
+policies across time and location, I investigate whether the framing of the incentive 
+influences the policy’s effectiveness.
+
+Using a  difference-in-differences analysis, I find that, while 82 percent of custom-
+ers in Montgomery County used at least one disposable bag per shopping trip prior 
+to the tax, this fraction declined by 42 percentage points after the tax was imple-
+mented. Additionally, customers who continued to use disposable bags after the tax 
+used fewer bags per trip, leading to an overall reduction in demand of just over one 
+disposable bag per shopping trip. If each household in Montgomery County were to 
+shop once per week, these effects would imply a reduction of over 18 million dis-
+posable bags per year. These results are particularly surprising given the small size 
+of the financial incentive—$0.05 per bag.
+
+In  contrast  to  the  overwhelming  impact  of  the   $0.05  tax,  I  find  that  a   $0.05 
+bonus  for  reusable  bag  use  had  almost  no  impact  on  disposable  bag  use.  Using 
+ cross-sectional  variation  in  policies  across  stores,  as  there  was  no  change  in  the 
+bonus policy during the study period, I find that customers shopping in stores that 
+offered a bonus were almost as likely to use a disposable bag as in stores that offered 
+no  financial  incentive—82  versus  84  percent,  respectively. An  important  concern 
+with   cross-sectional  analyses  of  this  type  is  that  differences  in  reusable  bag  use 
+between stores may reflect unobserved differences in the stores rather than the bonus 
+policy. However, even if one assumes that every customer shopping in a bonus store 
+would have used a disposable bag were it not for the policy (and that no customer 
+uses a disposable bag if and only if the store offers a bonus), this would suggest that 
+the effect of the bonus was still less than half of the effect of the tax.4 Taken together, 
+these results are consistent with a model of loss aversion.
+
+While these results are consistent with a model in which customers are  loss-averse, 
+there are a number of other reasons why the tax could have been more effective than 
+the bonus. I address several competing explanations using survey data from over 
+1,600 shoppers collected before and after the implementation of the Montgomery 
+County tax. First, I measure whether there are differences in awareness of the two 
+policies that could cause the asymmetric response to the incentives. I find that cus-
+tomers are much less aware of the bonus than the tax—52 percent of customers are 
+aware of the bonus while 98 percent of customers are aware of the tax—likely caus-
+ing a substantial portion of the differential response to the two policies. However, 
+the differences in awareness cannot fully account for the difference in response to 
+the  two  policies:  even  after  adjusting  for   under-awareness  of  the  bonus  policy,  I 
+estimate a coefficient of loss aversion that is on the high end of those previously 
+found in the literature. Another possibility is that the imposition of the tax shifted 
+consumer  attitudes  toward  disposable  bag  use,  whereas  the  bonus  did  not  affect 
+consumer attitudes in this way. However, the survey also provides suggestive evi-
+dence that customer attitudes toward disposable bag use and pollution regulation 
+did not change after the tax was implemented, suggesting that it is unlikely that the 
+results are fully explained by a shift in social norms. That being said, I cannot rule 
+
+4 Another concern with the  cross-sectional analysis is that the assignment of customers to stores is  nonrandom. 
+As described in more detail below, the most plausible selection stories along these lines would bias my results 
+toward finding a larger effect of the bonus. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?180 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+out that social norms played a contributing role in the relative effectiveness of the 
+tax; indeed, the magnitude of the estimated coefficient of loss aversion suggests that 
+some other phenomena may also have contributed to the discrepancy between the 
+effect of the tax and the effect of the bonus.
+
+This paper is organized as follows. Section I reviews the history of disposable 
+bag regulations. Section II presents two models of the customer’s choice to bring a 
+reusable bag. Section III describes the data sources used in the empirical analysis. 
+Section  IV  presents  estimates  of  the  impact  of  the  tax  and  bonus  policies  in  the 
+Washington Metropolitan Area. Section V discusses possible explanations for the 
+difference in responses to the two policies. Section VI considers alternative models 
+of reference dependence and measures the coefficient of loss aversion. Section VII 
+concludes.
+
+I.  Background on Disposable Bag Regulations
+
+Americans consume 100 billion plastic bags each year, with worldwide estimates 
+reaching as high as 1.5 trillion (Clapp and Swanston 2009). While these plastic bags 
+are  often  recyclable,  the  Environmental  Protection Agency (EPA)  estimated  that 
+only 5.2 percent of plastic bags in the United States in 2005 were actually recycled 
+(USEPA 2007).
+In an effort to reduce pollution, policymakers have passed a variety of policies 
+to curb disposable bag consumption. Starting in the early 2000s, several countries 
+in Europe, Asia, and Africa implemented policies that required retailers to charge 
+customers  for  their  plastic  bag  use.5  In  response  to  the  District  Department  of 
+the  Environment  report  on  water  pollution  levels  in Washington,  DC (Anacostia 
+Watershed  Society    2008),  the Anacostia  River  Cleanup  and  Protection Act  cre-
+ated a law that made Washington, DC the first city in the United States to charge a 
+fee for the use of disposable bags. As of January 1, 2010, all food retailers in the 
+district  were  required  to  charge  $0.05  per   single-use  plastic  or  paper  bag  at  the 
+point of purchase.6 Exactly two years later (January 1, 2012), Montgomery County, 
+Maryland, which borders Washington, DC to the northwest, enacted a similar  $0.05 
+tax on all disposable bags.7 Similar bills have been suggested in other jurisdictions 
+in the Washington Metropolitan Area, but none have passed as of the date of this  
+study.8
+
+While these policies were two of the first laws in the United States that required 
+customers  to  pay  a  tax  for  disposable  bag  use,  they  were  not  the  first  financial 
+
+5 Researchers have evaluated the effects of plastic bag regulations in South Africa (Hasson, Leiman, and Visser 
+2007; Dikgang, Leiman, and Visser 2012), Ireland (Convery, McDonnell, and Ferreira 2007), and China (He 2010) 
+and find large effects of the policies. However, these policies were implemented countrywide causing these evalua-
+tions to suffer from a lack of a counterfactual. 
+
+6 One to two cents of the tax went to the retailer to cover costs associated with the tax’s implementation while 
+
+the remainder entered a fund dedicated to cleaning up the Anacostia River. 
+
+7 Unlike in Washington, DC, the Montgomery County tax applies to all retailers, not just those selling food or 
+
+alcohol. Proceeds from the tax enter the county’s Water Quality Protection Charge. 
+
+8 More recently, jurisdictions in many other parts of the country have passed similar legislation. For example, 
+several counties in California charge $0.05 or $0.10 cents for paper bags and ban  single-use plastic bags altogether 
+(see Taylor and  Villas-Boas 2016 for a thorough history of the California disposable bag laws). 
+
+VOL. 10 NO. 4 
+
+181
+
+Panel A. Disposable bag tax
+
+Panel B. Reusable bag bonus
+
+Figure 1. Sample Receipts
+
+ incentive policies aimed at discouraging disposable bag use. Prior to the implemen-
+tation of either tax, half of the grocery stores in the Washington Metropolitan Area 
+with the largest market share offered customers a  $0.05 bonus for each reusable bag 
+a customer used in lieu of a new disposable bag. The bonus operated much like the 
+tax, but rather than paying $0.05 for each disposable bag, the customers final bill 
+was credited $0.05 for each reusable bag the customer used (see Figure 1 for sample 
+receipts).
+
+II.  Modeling Responses to Financial Incentives
+
+Consider a customer who is choosing whether to use a disposable or reusable 
+bag. Customers have idiosyncratic preferences for bag use and incur a utility cost 
+from bringing a reusable bag,   c i    , which can be positive (for example, a psycholog-
+ical cost for remembering to bring a bag) or negative (for example, a warm glow 
+from helping the environment). For simplicity, customers must use one of the two 
+types  of  bags  and  require  only  one  bag.  Let    w i     denote  consumer   i ’s  wealth  and 
+let   b i    indicate whether the consumer brings a reusable bag. Assume that utility is 
+additively separable between  c  and  w  so that when there is no external incentive, 
+utility for consumer  i  can be defined as   U N, i   ( w i  ,  b i   )  =  u( w i   ) −  b i    c i   . Now suppose 
+that customers are subject to a tax of magnitude  x  for using a disposable bag. The 
+individual’s utility function then becomes   U T, i   ( w i  ,  b i   )  =  u( w i   − (1 −  b i   ) x)  −  b i    c i   .  
+Similarly, if we consider a policy where customers receive a bonus of  x  for using a 
+reusable bag, the utility function becomes   U B, i   ( w i  ,  b i   )  =  u( w i   +  b i   x) −  b i    c i   .
+Consumers will bring a reusable bag when the benefit of doing so exceeds the 
+costs:   b i    =  1  ⇔   U i   ( w i  , 1)  ≥   U i   ( w i  , 0) . The table below outlines this condition 
+under different policies. If no financial incentives are provided, customers will bring 
+a bag if  0  >   c i   , i.e., if they derive a personal benefit from bringing a reusable bag. 
+If customers are charged a tax for disposable bag use, they will bring a reusable bag 
+if the decrease in utility they suffer from having to pay the tax is larger than the cost 
+of bringing a reusable bag. Similarly, if customers are awarded a bonus for reusable 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?182 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+bag use, they will bring a reusable bag if the utility gain from receiving the bonus is 
+larger than the cost of bringing a reusable bag.
+
+No incentive    
+
+Tax
+
+Bonus
+
+   
+
+   
+
+U N, i   ( w i  ,  b i  )    =     { 
+U T, i   ( w i  ,  b i  )    =     { 
+U B, i   ( w i  ,  b i  )    =     { 
+
+Utility function
+u( w i  )  −  c i  
+  
+u( w i  )  
+u( w i  )  −  c i     
+u( w i   − x)  
+u( w i   + x)  −  c i     
+u( w i  )  
+
+if  b i    =  1
+   
+    
+if  b i    =  0
+if  b i    =  1
+   
+if  b i    =  0
+if  b i    =  1
+  
+ 
+    
+if  b i    =  0
+
+ 
+
+    
+
+Condition to bring a bag
+
+  0  >   c i    
+
+  u( w i  )  − u( w i   − x)  >   c i    
+  u( w i   + x)  − u( w i  )  >   c i    
+
+Should we expect that customers will have the same response to a bonus and a tax 
+of the same size? The following section presents two models with different predic-
+tions for the relative effectiveness of the tax and bonus policies.
+
+A. Neoclassical Model
+
+In this paper, I consider the effect of tax and bonus policies with a very small  x  , 
+i.e., $0.05. Standard economic theory predicts that if   c i    is also very small, a small 
+financial incentive could still have a large effect on behavior, i.e., small incentives 
+will be effective as long as demand for disposable bags is elastic.
+Suppose that customers maximize utility over wealth and that utility is strictly increas-
+ing and weakly concave in wealth (  u ′  ( w i  )  >  0  and  u′′( w i  )  ≤  0 ). Then customers will 
+derive less utility from a gain in wealth than from a loss of the same magnitude due to the 
+curvature of the utility function and the proportion of customers bringing a reusable bag 
+will be larger under the tax policy than under the bonus policy. However, Rabin (2000) 
+demonstrates that individuals must be approximately risk-neutral over small stakes in 
+order for expected-utility models to imply reasonable levels of risk aversion over large 
+stakes. His calibrations suggest that the consumption value of a dollar should not change 
+significantly over changes in wealth up to $1,000. Given that the incentives considered 
+in this study are only $0.05 per bag, it is reasonable to assume that utility is linear, i.e.,  
+ u( w i  )  =  γ  w i   , over the change in wealth caused by these incentive policies. With this 
+assumption, the conditions under which customers would bring a reusable bag under 
+the tax policy and under the bonus policy are exactly the same (see table below).
+
+Utility function
+
+Condition to bring a bag
+
+No incentive    
+
+Tax
+
+Bonus
+
+   
+
+   
+
+    
+
+if  b i    =  1
+   
+if  b i    =  0
+if  b i    =  1
+    
+   
+if  b i    =  0
+
+  
+
+U N, i   ( w i  ,  b i  )    =     { γ  w i   −  c i  
+γ  w i     
+U T, i   ( w i  ,  b i  )    =     { γ  w i   −  c i     
+γ( w i   − x)  
+U B, i   ( w i  ,  b i  )    =     { γ( w i   + x)  −  c i  
+γ  w i     
+
+ 
+
+  
+
+if  b i    =  1
+    
+  
+ 
+if  b i    =  0
+
+ 0  >   c i    
+
+ γx  >   c i    
+
+ γx  >   c i    
+
+VOL. 10 NO. 4 
+
+183
+
+B.  Reference-Dependent Model
+
+Prospect  theory,  developed  by  Kahneman  and  Tversky (1979),  proposes  that, 
+while utility is defined in terms of net wealth, value is defined in terms of deviations 
+from a reference point (i.e., gains and losses). This model suggest that individuals 
+perceive losses more strongly than gains of the same size, a phenomenon referred 
+to as loss aversion. Consider a simple  reference-dependent utility function where 
+utility is linear in wealth but with a kink at a reference point,   w   ∗  :
+
+ 
+
+ u( w i  )  =   { γ( w i   −  w   ∗ )  
+αγ( w i   −  w   ∗ )  
+
+ 
+
+if   w i    >   w   ∗ 
+   ,  where α > 1. 
+  
+if  w i    ≤   w   ∗ 
+
+ 
+
+If an individual’s reference point is his wealth level in the absence of any incen-
+tive policy, then the conditions for using a reusable bag simplify to the equations in 
+the following table.
+
+Utility function
+
+Condition to bring a bag
+
+No incentive
+
+Tax policy
+
+Bonus policy
+
+ 
+
+   
+
+   
+
+    
+
+  
+
+  U N, i   ( w   ∗ ,  b i  )    =     { −  c i  
+U T, i   ( w   ∗ ,  b i  )    =     { −  c i  
+− γαx  
+U B, i   ( w   ∗ ,  b i  )    =     { γx −  c i  
+0  
+
+if  b i    =  1   0  
+if  b i    =  0
+if   b i    =  1
+  
+ 
+     
+if  b i    =  0
+if  b i    =  1
+  
+    
+ 
+if  b i    =  0
+
+  
+
+  
+
+ 0  >   c i    
+
+ γαx  >   c i    
+
+ γx  >   c i    
+
+Since  α  >  1  , this model predicts that customers are more likely to bring a reus-
+able bag when the financial incentive takes the form of a tax rather than a bonus. 
+The following sections empirically test whether customers respond similarly to the 
+two policies, as predicted by neoclassical theory, or if customers exhibit behavior 
+consistent with a model of loss aversion.
+
+III.  Data
+
+To assesses the relative effectiveness of the tax and bonus policies, I use a unique 
+dataset on bag use in the Washington Metropolitan Area around the implementation 
+of  the  Montgomery  County,  Maryland  tax. To  collect  the  data,  researchers  stood 
+by the exit of a grocery store and recorded  individual-level data on the number and 
+type of bags each customer used,9 as well as  visually-assessable demographic char-
+acteristics, such as sex and race, of all customers exiting the store during the sample 
+
+9 A disposable bag refers to either paper or plastic  single-use bags. I do not consider the two types of bags 
+ separately because almost all customers chose to use plastic bags when they were offered. A reusable bag refers 
+to any  multiple-use bag. While most customers used standard reusable bags sold by the store, this category also 
+includes shopping carts, backpacks, tote bags, or disposable bags brought from home. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?184 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+period. Researchers visited a given store in 30 minute shifts, randomizing the time 
+and location of the visit. The visits took place between eleven in the morning and 
+eight at night during weekdays only. Each store received an average of nine visits 
+for a final sample of 16,251 individual customers.
+
+The  sample  period  began  approximately  three  months  before  and  ended  three 
+months after the implementation of the tax on January 1, 2012.10 The sample includes 
+data on bag use from 16 stores, spanning 3 different counties, each with a different tax 
+policy regime. Eight stores were located in Montgomery County, Maryland (where 
+there was a tax policy change during the sample period), four stores in Washington, 
+DC (which  implemented  a  tax  two  years  before  data  collection  began),  and  four 
+stores in Arlington County, Virginia (which had proposed a bag tax, but never passed 
+one). See Figure 2, panel A for a map of sample stores by county.
+The sample stores in this dataset vary not only in whether they charge customers a 
+tax for disposable bag use, but also whether they reward customers for reusable bag 
+use. The 16 stores belong to 4 of the largest chains in the Washington Metropolitan 
+Area, 2 of which offer $0.05 bonuses for reusable bag use both before and after the 
+implementation of the Montgomery County tax. These stores were chosen to be com-
+parable on all aspects other than bag policy. Comparability is particularly important 
+when estimating the effect of the bonus since, unlike with the tax policy, the bonus 
+policy had been implemented prior to any data collection, so analyses estimating 
+the effect of the bonus rely on  cross-sectional variation in store policy. First, all four 
+chains had locations in the three counties considered in this sample. Second, sample 
+stores were drawn from neighborhoods with similar demographic characteristics.11 
+In fact, most sample stores that offered a bonus were located within a  ten-minute 
+walk from a sample store that did not offer a bonus (see Figure 2, panel B for a map 
+of stores by bonus policy). Third, since customers who drive to the grocery store 
+may differ from customers who use public transportation, all sample stores had a 
+parking lot and were also accessible by the Washington Metropolitan Area Transit 
+Authority’s  Metrorail.  Fourth,  the  stores  were  roughly  the  same  size  containing 
+between 15 and 25 lanes. Fifth, all stores sold reusable bags by the checkout counter 
+as well as in other locations throughout the store. Lastly, one of the sample chains 
+that offers a bonus is an organic food chain. Since customers shopping at organic 
+food chains may differ in their reusable bag use, the four sample stores belonging to 
+this chain are dropped from certain analyses. Of the 12 stores remaining stores, half 
+offer a  $0.05 bonus per reusable bag and half do not. See Table 1 for a list of store 
+and customer characteristics by store.
+
+10 Data  in  the   pre-period  was  collected  from  late  September  to  early  November  of  2011,  while  data  in  the 
+
+ post-period was collected from late February to early March of 2012. 
+
+11 Since the main policy change considered in this paper took place in Montgomery County, an affluent county 
+with a low proportion of racial minorities, stores were selected to match these demographic characteristics. The 
+Montgomery County sample stores are located in the cities of Chevy Chase, Bethesda, and Silver Spring, while the 
+Arlington County stores are located in the city of Arlington. These cities border Washington, DC and are popular 
+communities for those employed in the district. While the city of Washington, DC is more racially and economi-
+cally diverse than these suburban commuter cities, the Washington, DC stores selected for this study are located in 
+the northwest quadrant of Washington, DC, an affluent area of the city, in order to maintain comparability to the 
+samples from Maryland and Virginia. 
+
+VOL. 10 NO. 4 
+
+185
+
+Panel A. By county
+
+Panel B. By bonus policy
+
+Figure 2. Map of Sample Stores
+
+Table 1—Summary Statistics by Sample Store
+
+Store
+
+Observations
+
+Location
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+
+432
+779
+800
+845
+888
+851
+613
+1,528
+805
+1,264
+1,353
+1,012
+1,331
+878
+1,509
+1,363
+
+DC
+DC
+DC
+DC
+MD
+MD
+MD
+MD
+MD
+MD
+MD
+MD
+VA
+VA
+VA
+VA
+
+Tax
+x (2010)
+x (2010)
+x (2010)
+x (2010)
+x (2012)
+x (2012)
+x (2012)
+x (2012)
+x (2012)
+x (2012)
+x (2012)
+x (2012)
+
+Bonus
+
+Organic
+
+% female
+
+% white
+
+x
+x
+
+x
+x
+x
+x
+x
+
+x
+x
+x
+
+x
+
+x
+x
+
+x
+
+60.0
+62.0
+49.6
+65.3
+53.9
+53.1
+64.1
+51.7
+66.1
+66.0
+63.5
+68.8
+51.1
+57.5
+54.1
+59.5
+
+75.5
+71.6
+33.6
+78.1
+34.3
+64.0
+76.7
+42.8
+63.5
+77.9
+53.5
+74.6
+76.0
+76.8
+76.7
+78.7
+
+16,251
+
+Observations
+Note:  The  table  reports  the  number  of  observations  per  store,  store  location (Washington,  DC,  Maryland,  or 
+Virginia), the date the store implemented a $0.05 tax per disposable bag, whether the store offered a $0.05 bonus 
+per reusable bag, whether the store belonged to an organic market chain, and the fraction of sample members who 
+were female and white, respectively.
+
+I use two survey datasets to investigate various mechanisms that may have led 
+to differential responses to the two policies. First, I collected  in-person surveys of 
+ customers as they exited the store after their shopping trip.12 These surveys were 
+conducted at 12 different locations at two grocery store chains in Maryland, Virginia, 
+
+12 Researchers approached customers as they exited the store between the hours of noon and six and asked if 
+they would be willing to participate in a short survey for a research project on shopping behavior. If a customer 
+chose not to participate in the survey, the researcher recorded her as a  nonrespondent and moved on to the next 
+customer who exited the store. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?186 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+and Washington, DC shortly before and after the implementation of the Montgomery 
+County tax.13 Data collection took place during September and October of 2011 and 
+March of 2012. The survey yielded a response rate of 56 percent for a total of 1,496 
+respondents. Respondents completed a  two-minute survey that contained questions 
+on how many disposable and reusable bags they used during their shopping trip, 
+awareness of the bonus and tax policies, measures of how much they believed each 
+of these policies did or would encourage them to use a reusable bag, attitudes toward 
+plastic  bag  use,  environmentalism,  and  government  regulation  of  pollution,  and 
+personal demographic characteristics. In order to test customers’ response to other 
+hypothetical disposable bag regulations, I use data from an online survey adminis-
+tered through Amazons Mechanical Turk (Mturk), a  crowd-sourcing web service.14
+Lastly, I use  transaction-level scanner data from a large retail chain of grocery 
+stores to measure the  long-term impact of the tax policy on disposable bag use. The 
+dataset includes a 10 percent sample of all transactions from 11 stores in Washington, 
+DC and 16 stores in Montgomery County in the time period following the imple-
+mentation of the disposable bag tax in each area. The dataset includes transactions 
+from January 1, 2010 (the first day of the Washington, DC tax) to June 30, 2012. 
+The total sample includes an average between 2,000 and 2,500 transactions per day 
+for each of the two counties. Each transaction includes information on the products 
+purchased, date, and store location. In addition, the data includes a line item indicat-
+ing if a customer was charged a tax for using a disposable bag.
+
+IV.  The Relative Effectiveness of the Tax and Bonus Policies
+
+A. Tax Policy
+
+As mentioned in the previous section, the primary dataset contains  individual-level 
+data on bag use before and after the Montgomery County tax was implemented in 
+sixteen stores across Montgomery County and two control counties: Washington, 
+DC, which implemented a similar tax two years prior to the Montgomery County 
+tax, and Arlington County, which proposed a similar tax, but had not passed the tax. 
+Table 1 contains the mean values of the demographic characteristics of customers 
+in the sample by store. While the three counties vary slightly in their racial com-
+position, all three areas are predominantly white, with a similar fraction of female 
+customers. In addition, the demographic composition of shoppers is similar across 
+the two time periods.15
+
+Figure 3 presents data on bag use in each of the three counties before and after 
+the Montgomery County tax was implemented. While reusable bags are the most 
+
+13 The retail chains are a subset of the chains visited in the main analysis due to store manager cooperation. Many 
+of the same stores visited when collecting the observational data were also used in the survey sample. Researchers 
+collected data at 10 of the 12 stores in both the pre- and  post-period; however, two stores were only visited during 
+one of the two time periods. Exclusion of these two stores does not change the results shown in Section V. 
+14 While  Mturk  participants  tend  to  be  younger  and  more  educated  than  the  general  population,  Paolacci, 
+Chandler, and Ipeirotis (2010) shows that the sample population is generally representative of the US population 
+and  they  are  able  to  replicate  the  findings  of  several   well-known  behavioral  economics  experiments  using  this 
+subject pool. 
+
+15 See the Appendix for the mean values of the demographic characteristics by state and time period. 
+
+VOL. 10 NO. 4 
+
+187
+
+Panel A. Proportion of customers using a disposable bag
+
+Tax never
+
+Tax in post-period
+
+Tax always
+
+Pre-period
+Post-period
+
+1
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+Arlington County, VA Montgomery County, MD Washington, DC
+
+Panel B. Proportion of customers using a reusable bag
+
+Pre-period
+Post-period
+
+Tax never
+
+Tax in post period
+
+Tax always
+
+1
+
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+Arlington County, VA Montgomery County, MD Washington, DC
+
+Figure 3. Extensive Margin Bag Use by Location, Time Period, and Bag Type
+
+ common substitute for disposable bags, customers may opt to not use any bags at 
+all; therefore, the majority of the analyses presented in this paper will include mea-
+sures of demand for both disposable and reusable bags to create a complete picture 
+of the changes in behavior as a result of the bag regulations.
+
+Figure 3, panels A and B show the percent of customers using any disposable 
+and any reusable bags, respectively. In the  pre-period, customers in the Arlington 
+County sample used at least one disposable bag 82 percent of the time while custom-
+ers in Washington, DC used a disposable bag only 45 percent of the time. Similarly, 
+Arlington County customers rarely brought a reusable bag when shopping, only 16 
+percent of the time, compared to 46 percent in Washington, DC. Bag use was very 
+stable across the two periods in each of these control counties. In contrast, bag use 
+in Montgomery County changed dramatically after the implementation of the tax. 
+Behavior  in  Montgomery  County  during  the   pre-period  resembled  that  observed 
+in Arlington  County,  which  had  no  tax  policy—82  percent  of  customers  used  at 
+least one disposable bag, while only 16 percent brought a reusable bag. However, 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?188 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Table 2—Bag Use before and after the Montgomery County Bag Tax
+
+DC
+
+Maryland
+
+Virginia
+
+Extensive margin
+Disposable
+
+Reusable
+
+No bags
+
+Intensive margin
+Disposable
+
+Reusable
+
+Pre
+(1)
+
+44.5
+(49.7)
+46.0
+(49.9)
+14.9
+(35.6)
+
+2.23
+(2.17)
+1.63
+(1.07)
+
+Post
+(2)
+
+45.7
+(49.8)
+46.6
+(49.9)
+11.3
+(31.7)
+
+1.76
+(1.43)
+1.52
+(0.95)
+
+Pre
+(3)
+
+81.7
+(38.6)
+15.9
+(36.5)
+5.7
+(23.2)
+
+2.32
+(2.05)
+1.67
+(1.14)
+
+Post
+(4)
+
+39.6
+(48.9)
+49.2
+(50.0)
+15.4
+(36.1)
+
+1.76
+(1.43)
+1.66
+(1.09)
+
+Pre
+(5)
+
+82.2
+(38.3)
+16.3
+(36.9)
+4.7
+(21.1)
+
+2.37
+(2.02)
+1.79
+(1.27)
+
+Post
+(6)
+
+80.8
+(39.4)
+17.2
+(37.7)
+4.8
+(21.5)
+
+2.14
+(1.82)
+1.65
+(1.15)
+
+Overall demand
+Disposable
+
+Reusable
+
+1.00
+(1.82)
+0.75
+(1.09)
+1,207
+
+1.73
+(1.84)
+0.28
+(0.78)
+Observations
+3,075
+Notes: This table reports the fraction using a bag (extensive), average number of bags used among users (intensive), 
+and unconditional average number of bags used (overall) for each type of bag. Standard deviations are in parenthe-
+ses. Customers using both types of bags are counted in both categories. “Pre” and “Post” refer to the sample periods 
+before and after the implementation of the Montgomery County tax.
+
+0.81
+(1.31)
+0.71
+(1.00)
+1,649
+
+1.90
+(2.06)
+0.26
+(0.76)
+3,799
+
+0.70
+(1.25)
+0.82
+(1.13)
+4,515
+
+1.95
+(2.04)
+0.29
+(0.84)
+2,006
+
+behavior in Montgomery County in the  post-period mirrored the behavior observed 
+in Washington, DC, which did have a tax  policy—40 percent of customers used a 
+disposable bag while 49 percent brought a reusable bag.
+
+Table 2 contains the statistics corresponding to those displayed in the figures as 
+well as means for additional measures of bag use: demand for the two types of bags 
+on the extensive margin (the percent of customers using each type of bag or no bags 
+at all), the intensive margin (how many bags each customer uses given that she uses 
+that particular type of bag), and overall demand (the unconditional number of bags 
+of each type the customer uses). While the effect of the tax seems to be operating 
+primarily through changes in bag use on the extensive margin, customers who con-
+tinue to use disposable bags after the tax use fewer bags per trip. The data also show 
+an increase in the proportion of customers choosing not to use any bags at all.
+
+The  following  model  uses  a   difference-in-differences  strategy  to  evaluate  the 
+effect of the Montgomery County tax on bag use controlling for various individual 
+characteristics and  location-level controls:
+
+ 
+
+  Y isdt    =  α + βMD×Pos t st   + γPos t t   + η  Z s   + λ  X i   + δ Q d   +  ε isdt   ;
+
+ Y  is a measure of bag use,  Post  is an indicator for individuals observed after the 
+implementation of the Montgomery County tax,  MD×Post  is an indicator for cus-
+tomers shopping in Montgomery County in the post period,  Z  is a set of  store-level 
+
+VOL. 10 NO. 4 
+
+189
+
+Table 3—Effect of Tax Policy on Disposable Bag Use
+
+(1)
+−0.417
+(0.024)
+−0.005
+(0.009)
+0.001
+(0.022)
+−0.362
+(0.024)
+
+(2)
+−0.417
+(0.024)
+−0.003
+(0.009)
+−0.013
+(0.019)
+−0.372
+(0.025)
+0.100
+(0.012)
+0.025
+(0.012)
+−0.068
+(0.008)
+
+MD×Post
+
+Post
+
+MD
+
+DC
+
+Black
+
+Other nonwhite
+
+Female
+
+Afternoon
+
+Evening
+
+Store fixed effects
+Observations
+
+No
+
+16,251
+
+No
+
+16,251
+
+(3)
+−0.419
+(0.023)
+−0.002
+(0.008)
+−0.009
+(0.018)
+−0.372
+(0.025)
+0.100
+(0.012)
+0.025
+(0.012)
+−0.067
+(0.008)
+0.005
+(0.010)
+0.027
+(0.010)
+No
+
+16,251
+
+(4)
+−0.420
+(0.023)
+−0.002
+(0.007)
+
+0.099
+(0.016)
+0.025
+(0.012)
+−0.066
+(0.009)
+0.003
+(0.009)
+0.026
+(0.010)
+Yes
+
+16,251
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variable: indicator 
+for using at least one disposable bag. Column 1 controls for store county. Column 2 adds indi-
+vidual demographics (race and sex). Column 3 adds fixed effects for shopping trip time-of-day. 
+Column 4 adds store fixed effects.
+
+controls, and  X  is a set of  individual-level demographic characteristics for individual  
+i  shopping in location  s  during time of day  d  at time period  t .16 The coefficient of 
+interest is  β  , which measures the effect of the tax on bag use in Montgomery County 
+relative to changes in use in the control stores. Standard errors are clustered at the 
+store level to allow for correlation within store across time.17
+
+Table 3 presents results for the effect of the tax on demand for disposable bags on 
+the extensive margin using different control variables in each specification.18 The 
+model in column 1 controls only for time period, state, and an indicator for shopping 
+in Montgomery County in the  post-period. The results show that the tax caused a 
+decrease in the proportion of customers using at least one disposable bag by 41.7 
+percentage points. Column 2 adds controls for the available  individual-level demo-
+graphic characteristics, race and sex. If certain demographic groups are more likely 
+to use reusable bags instead of disposable bags, differences in demographics across 
+locations and time periods could bias these results. While  nonwhite and male cus-
+tomers are more likely to use a disposable bag in general, the estimate of the effect 
+
+16 Time of day is separated into three categories: 11 am to 1:30 pm (“Morning”), 2 pm to 4:30 pm (“Afternoon”), 
+and 5 am to 8 pm (“Evening”). 
+17 Because the dataset contains data on only 16 stores, clustering at the store level could yield poor approxima-
+tions of the true standard errors. As a robustness check, I also calculate  wild-bootstrap  p-values following Cameron, 
+Gelbach, and Miller (2008). Accounting for the  small-cluster problem does not change any of the qualitative results 
+in the paper. 
+18 Regressions presented in this table use a linear probability model to estimate the change in demand. A Probit 
+
+model yields similar results. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?190 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Table 4—Effect of Tax Policy on Bag Use: Extensive and Intensive Margins
+
+Extensive margin
+
+Intensive margin
+
+MD×Post
+
+Post
+
+Black
+
+Other race
+
+Female
+
+Afternoon
+
+Evening
+
+Observations
+
+Disposable
+
+(1)
+−0.420
+(0.023)
+−0.002
+(0.007)
+0.099
+(0.016)
+0.025
+(0.012)
+−0.066
+(0.009)
+0.003
+(0.009)
+0.026
+(0.010)
+16,251
+
+Reusable
+
+(2)
+0.327
+(0.017)
+−0.002
+(0.012)
+−0.102
+(0.009)
+−0.057
+(0.012)
+0.153
+(0.011)
+0.031
+(0.009)
+0.009
+(0.009)
+16,251
+
+No bags
+(3)
+0.111
+(0.017)
+−0.006
+(0.008)
+−0.001
+(0.012)
+0.022
+(0.011)
+−0.061
+(0.009)
+−0.024
+(0.009)
+−0.032
+(0.008)
+16,251
+
+Disposable
+
+(4)
+−0.215
+(0.070)
+−0.227
+(0.051)
+−0.153
+(0.046)
+−0.133
+(0.051)
+0.381
+(0.035)
+0.265
+(0.043)
+0.270
+(0.043)
+10,314
+
+Reusable
+
+(5)
+0.150
+(0.069)
+−0.116
+(0.047)
+−0.185
+(0.039)
+−0.217
+(0.043)
+0.203
+(0.031)
+0.026
+(0.038)
+−0.062
+(0.037)
+5,003
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variables: indicator for using at least 
+one bag or no bags (extensive) and number of bags used among users (intensive) for disposable and reusable bags, 
+respectively. All regressions control for individual demographics (race and sex), time-of-day fixed effects, and store 
+fixed effects.
+
+of the tax is unchanged by the inclusion of these controls. Column 3 adds controls 
+for time of day, since the behavior or composition of customers may vary through-
+out the day. Again, the estimates are largely unchanged. Finally, column 4 includes 
+store fixed effects. As with the other controls, the addition of  store-level fixed effects 
+has little impact on the estimated effect of the tax.
+
+Table 4 repeats the analysis for the other measures of bag use using the specifica-
+tion from column 4 in Table 3. The outcomes in the first three columns are measures 
+of disposable and reusable bag use on the extensive margin, respectively, as well as 
+a binary measure for using no bags of either type. These results show that the tax 
+led to a decrease in disposable bag use of 42.0 percentage points and an increase 
+in reusable bag use of 32.7 percentage points. In addition, the percent of customers 
+who used no bags at all increased by 11.1 percentage points.19,20 On the intensive 
+margin, I observe smaller, but still statistically significant, effects on bag consump-
+tion—the number of bags used by disposable bag users decreased by 0.22 bags and 
+the number of bags used by reusable bag users increased by 0.15 bags, a change of 
+approximately 8 and 9 percent, respectively.21
+
+19 A small fraction of customers used both reusable and disposable bags, which explains why the increase in 
+reusable bag use and customers choosing not to use any bags is not completely offset by the decrease in plastic bag 
+use on the extensive margin. 
+20 These  results  are  very  similar  to  results  found  in  Taylor  and  Villas-Boas (2016)  who  examine  a  policy  in 
+Richmond, California that bans  single-use plastic bags and charges $0.05 for paper bags, as well as a study conducted 
+by the Chicago Mayor’s office that evaluates a 2017 tax of $0.07 on all disposable bags. These studies find that dis-
+posable bag use decreases by 35 and 33 percentage points, respectively, shortly after the implementation of the policy. 
+21 It is important to note that 10 of the 16 stores included in this analysis had a bonus policy in place during the 
+time of the implementation of the tax. Stores that offered a bonus did so in the pre- and  post-period and are located 
+
+VOL. 10 NO. 4 
+
+191
+
+Table 5—Effect of Tax Policy on Number of Disposable and Reusable Bags Used
+
+Linear demand model
+
+Double-hurdle model
+
+MD×Post
+
+Post
+
+Black
+
+Other nonwhite
+
+Female
+
+Afternoon
+
+Evening
+
+Observations
+
+Disposable
+
+(1)
+−1.009
+(0.171)
+−0.169
+(0.036)
+0.103
+(0.072)
+−0.019
+(0.035)
+0.116
+(0.040)
+0.176
+(0.044)
+0.236
+(0.053)
+16,251
+
+Reusable
+
+(2)
+0.579
+(0.061)
+−0.031
+(0.016)
+−0.219
+(0.017)
+−0.163
+(0.020)
+0.305
+(0.026)
+0.058
+(0.023)
+−0.014
+(0.021)
+16,251
+
+Disposable
+
+(3)
+−1.260
+(0.212)
+−0.143
+(0.036)
+0.077
+(0.081)
+−0.081
+(0.058)
+−0.025
+(0.100)
+0.059
+(0.075)
+0.129
+(0.059)
+16,251
+
+Reusable
+
+(4)
+0.622
+(0.048)
+−0.037
+(0.017)
+−0.253
+(0.024)
+−0.191
+(0.028)
+0.307
+(0.013)
+0.032
+(0.033)
+−0.032
+(0.032)
+16,251
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variable: number 
+of disposable or reusable bags used. Columns 1 and 2 consider a linear demand model, while 
+columns 3 and 4 use a double-hurdle model following McDonald and Moffitt (1980). All regres-
+sions control for individual demographics (race and sex), time-of-day fixed effects, and store 
+fixed effects.
+
+Table 5 considers two different models that estimate the overall effect of the tax 
+on demand. Columns 1 and 2 present results from a simple linear demand model 
+where the outcome of interest is the total number of bags used. The results show 
+that the tax reduced the number of disposable bags used by just over one bag per 
+shopping trip, cutting the average number of disposable bags used roughly in half. 
+Columns 3 and 4 use an alternative demand model, a “ double-hurdle” model, that 
+combines demand on the extensive and intensive margins to estimate the impact on 
+overall demand (McDonald and Moffitt 1980). I decompose the conditional expec-
+tation of demand into its extensive and intensive components:
+ E [ y | x ]   =  E [ y | x, y  >  0 ]  × Pr(y  >  0 | x), 
+
+ 
+
+where  y  represents  demand  and  x  represents  the  covariates. The  total  effect  of  a 
+change in one of the covariates on demand is given by
+
+   ∂ E [ y | x] _ 
+
+ 
+
+   =    ∂ E [ y | x, y  >  0] 
+
+_____________ 
+
+  Pr(y  >  0 | x )  +   ∂ Pr(y  >  0 | x)  
+
+___________ 
+
+ 
+
+  E [ y | x, y  >  0 ] . 
+
+ 
+
+∂ x
+
+ 
+ 
+∂ x
+
+∂ x
+
+in all three counties (see Table 1). To study whether the effect of the tax is different in stores that offer a bonus and 
+those that do not, the Appendix repeats the analysis in Table 4 including an interaction term for whether a store 
+offers a bonus or not. Results show that the tax had a similar impact on disposable bag use in both types of stores, 
+but that customers in bonus stores were more likely to switch to reusable bag use than to opt to use no bags at all. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?192 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Estimates of  Pr(y  >  0 | x)  and  E [ y | x, y  >  0]  come from the data with each eval-
+uated at the sample mean the covariates and are combined with the extensive and 
+intensive  margin  regression  coefficients  in  Table  4  to  generate  a  rough  estimate 
+of the overall effect of the taxes on demand.22 The estimates suggest that the tax 
+decreased the number of disposable bags used by 1.26 bags and increased the num-
+ber of reusable bags used by 0.62 bags per customer per shopping trip. These results 
+are qualitatively similar to the results from the linear demand model presented in 
+columns 1 and 2.
+
+One concern with the analyses presented in this section is that the composition 
+of customers shopping at a given store may have changed as a result of the tax. For 
+example, shoppers in Montgomery County may try to avoid paying the tax by shop-
+ping in a different county after the policy was implemented. Scanner data from one 
+large retail chain suggests that this is not the case: the number of daily transactions 
+in a given store (as well as several measures of purchasing behavior, such as basket 
+size) did not change after the tax was implemented. See the Appendix for a detailed 
+analysis.
+
+B. Bonus Policy
+
+This section compares the behavior of customers at stores with different incentive 
+policies. Each sample store falls into one of four policy types. The first type of store 
+provides no incentives for reducing the use of disposable bags. These are grocery 
+store chains that do not offer a bonus and were not required to charge a tax. The sec-
+ond type of store offers a bonus for reusable bag use, but does not charge a tax for 
+disposable bag use. The third type of store does not offer a bonus, but does charge 
+a tax. Finally, the last group of stores both offers a bonus for reusable bag use and 
+charges a tax for disposable bag use, since all of the stores in the sample that pro-
+vided a bonus prior to the tax continued to provide a bonus after the tax was imple-
+mented. Again, if disposable bags and reusable bags are substitutes,  bonus-only and 
+ tax-only  stores  offer  customers  a   $0.05  incentive  for  using  a  reusable  bag  while 
+ bonus-plus-tax stores offer customers a $0.10 incentive for the same behavior.
+
+As  mentioned  in  Section  III,  the  bonus  policy  was  implemented  prior  to  data 
+collection,  so  the  estimation  of  the  impact  of  the  bonus  on  bag  use  relies  on 
+ cross-sectional variation in whether a store chose to offer a bonus for reusable bag 
+use. While the differences in bag use across stores with different incentives may 
+reflect omitted  store-level characteristics, these comparisons can still be informative 
+if the customers shopping at bonus and  non-bonus stores are similar in terms of their 
+shopping behavior.
+
+A few pieces of evidence suggest comparability of customers across the various 
+store types. As mentioned in Section III, the sample stores were drawn from the larg-
+est four chains in the Washington Metropolitan Area, each of which had locations 
+in all three counties considered in this study. Additionally, all sample stores had a 
+parking lot, were accessible by public transportation, and had a similar number of 
+
+22 When  calculating  standard  errors  for  the  aggregate  effect,  I  ignore  uncertainty  in  the  sample  averages  of  
+
+Pr(y  >  0 | x)  and  E [ y | x, y  >  0] . 
+
+VOL. 10 NO. 4 
+
+193
+
+Table 6—Demographic Characteristics by Bonus Policy
+
+Female
+
+White
+
+Black
+
+Observations
+
+Bonus stores
+
+(1)
+57.1
+(49.6)
+62.6
+(48.4)
+22.6
+(41.8)
+6,784
+
+Non-bonus stores
+
+(2)
+56.1
+(49.6)
+65.7
+(47.5)
+20.6
+(40.5)
+4,894
+
+Notes: Standard deviations are in parentheses. This table reports mean values of each demo-
+graphic characteristic for stores that provide a bonus (column 1) and stores that do not (column 
+2). Organic stores are excluded from the analysis.
+
+checkout lanes (between 15 and 25 lanes). Bonus and  non-bonus stores were located 
+within the same neighborhoods, with most bonus stores located within walking dis-
+tance of a  non-bonus store in the sample (see Figure 2, panel B). As a result, cus-
+tomers in the two types of stores had very similar demographic characteristics (see 
+Table 6). Lastly, this analysis excludes observations from the one organic chain that 
+provided a bonus, since reusable bag use among these customers may not be compa-
+rable due to the  environmentally-conscious reputation of the company.23
+
+Figure 4, panels A and B show the fraction of customers using at least one dispos-
+able bag or at least one reusable bag, respectively, by policy type with each bar repre-
+senting a  policy-location-period. For example, bonus stores in Montgomery County 
+are included in the  bonus-only category in the  pre-period and in the  bonus-plus-tax 
+category  in  the   post-period.  In  Figure  4,  panel A,  an  average  of  84.3  percent  of 
+customers use at least one disposable bag in stores with no incentive policy. This 
+estimate is much higher than that in stores with both a tax and a bonus—only 40.4 
+percent of customers used a disposable bag in these stores.
+
+What is most striking, however, is the comparison of stores that offer only a  $0.05 
+incentive but that differ in whether the incentive takes the form of a tax or a bonus. 
+Customers in stores with only a tax used a disposable bag 40.8 percent of the time, 
+similar to customers in stores offering both a tax and a bonus. However, customers 
+in stores that offered only a bonus used a disposable bag 81.9 percent of the time. 
+This estimate is much closer to the percent of customers using a disposable bag in 
+stores that provided no incentive than it is to stores offering an incentive of the same 
+amount, but in the form of a tax instead of a bonus.
+
+Figure 4, panel B tells a similar story for the proportion of customers using a 
+reusable  bag.  Customers  shopping  in  stores  with  both  a  bonus  and  a  tax  used  a 
+reusable bag 47.8 percent of the time, which is similar to, though statistically sig-
+nificantly  larger  than,  the  44.2  percent  of  customers  who  used  a  reusable  bag  in 
+stores that charge a tax but do not provide a bonus. However, only 15.4 percent of 
+ customers brought a reusable bag in stores that offer a bonus only. This estimate is 
+
+23 Reusable bag use in these stores is slightly higher than in the  nonorganic stores; however, inclusion of these 
+
+stores leaves the results in this section qualitatively unchanged. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?194 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Panel A. Proportion of customers using a disposable bag
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+No incentive
+
+Bonus only
+
+Tax only
+
+Bonus and tax
+
+MD 
+pre
+
+VA 
+pre
+
+VA 
+post
+
+MD 
+pre
+
+VA 
+post
+
+VA 
+pre
+
+DC 
+post
+
+DC 
+pre
+
+MD 
+post
+
+DC 
+pre
+
+DC 
+post
+
+MD 
+post
+
+Panel B. Proportion of customers using a reusable bag
+
+1
+
+0.8
+
+0.6
+
+0.4
+
+0.2
+
+0
+
+No incentive
+
+Bonus only
+
+Tax only
+
+Bonus and tax
+
+MD 
+pre
+
+VA 
+pre
+
+VA 
+post
+
+MD 
+pre
+
+VA 
+post
+
+VA 
+pre
+
+DC 
+post
+
+DC 
+pre
+
+MD 
+post
+
+DC 
+pre
+
+DC 
+post
+
+MD 
+post
+
+Figure 4. Extensive Margin Bag Use by Store Policy and Bag Type
+
+much smaller than that in stores that charge a tax, though only slightly larger than 
+the 13.1 percent of customers who shop at stores with no incentive policies.
+
+While effort was taken to choose stores that had similar characteristics, unob-
+served differences between bonus and  non-bonus stores may bias these results. To 
+investigate  the  potential  magnitude  of  this  bias,  suppose  that,  were  it  not  for  the 
+bonus,  none  of  the  customers  shopping  in   bonus-only  stores  would  have  used  a 
+reusable bag. Note that this assumption provides an  upper-bound for the effect of 
+the bonus: at most, the bonus increased reusable bag use from 0 to 15.4 percent.24 
+If I compare this  upper-bound estimate to the estimate of the effect of the tax policy 
+
+24 This statement also requires the plausible assumption that no customer uses a disposable bag if and only if the 
+
+store offers a bonus for reusable bag use. 
+
+VOL. 10 NO. 4 
+
+195
+
+found in Section IVA, the impact of the tax (32.7 percentage points) was still more 
+than twice as large as the impact of the bonus. Therefore, while the comparison of 
+bag use in Figure 4, panels A and B, is purely  cross-sectional, this example shows 
+that even with extreme selection of customers across stores, it is reasonable to con-
+clude that a  $0.05 tax is considerably more effective at increasing reusable bag use 
+than a bonus of the same amount.25
+
+The comparison of bag use by store policy can be repeated using the following 
+econometric model that controls for factors that might confound the simple compar-
+ison of means:
+
+ 
+
+  Y isdt    =  α + βTa x st   + γBonu s s   + η  Z s   + λ  X i   + δ  Q d   +  ε isdt    ;
+
+ Y  is a measure of bag demand,  Tax  is an indicator for whether a store charges a  $0.05 
+tax,  Bonus  is an indicator for whether the store offers a  $0.05  bonus for reusable bag 
+use,  Z  is a set of  state-level controls, and  X  is a set of  individual-level demographic 
+characteristics for individual  i  shopping in state  s  during time of day  d  at time period  
+t . If I assume that, conditional on these controls, there are no unobservable differ-
+ences between the customers of bonus and  non-bonus stores that would affect their 
+response to the two types of incentives, or to their demand in the absence of a bag 
+regulation, then  β  is the effect of the tax policy and  γ  is the effect of the bonus policy.
+Table 7 presents the results for disposable and reusable bag use on the extensive 
+margin. Columns 2 and 4 control for demographic characteristics and time of day 
+while columns 1 and 3 do not. As with the evaluation of the tax policy in Table 3, 
+the inclusion of these controls does not change the estimates of the effect of the 
+tax  or  bonus  policies.  Customers  are  significantly  less  likely  to  use  a  disposable 
+bag in stores that charge a tax—44.5 percentage points lower—whereas customers 
+shopping at stores that offer a bonus program do not differ significantly from those 
+shopping  at  stores  without  the  program.  While  customers  are  significantly  more 
+likely to use a reusable bag in both tax and bonus stores than in stores that offered 
+no incentive, the magnitude of difference is much larger in tax stores than in bonus 
+stores—32.7 versus 2.9 percentage points.26,27 While, to my knowledge, no other 
+studies rigorously test the effect of a reusable bag bonus, these null results are in line 
+with anecdotal evidence on the ineffectiveness of reusable bag bonuses. For exam-
+ple, Kroger, the largest grocery chain in the United States, discontinued policies that 
+offered bonuses for reusable bag use in 2011 citing that “the company has found no 
+
+25 In fact, one of the more plausible scenarios for selection of customers across stores with different policies is 
+that customers who would choose to bring a reusable bag in the absence of any incentive policy might choose to 
+shop at stores that reward them for doing so. However, this pattern would suggest I am overestimating the causal 
+impact of the bonus policy due to selection. 
+
+26 In order to test for possible  nonlinearities in the effect of the incentives, I include a term for the interaction of 
+the two policies. This term is positive and significant, though small in magnitude, for reusable bag use and insignif-
+icant for disposable bag use. This suggests that increasing the total economic incentive to $0.10 has little effect on 
+behavior, at least when the additional incentive is framed as a bonus. 
+
+27 In an effort to avoid issues of comparability across stores with different policies, the Appendix includes an 
+additional analysis on how participants of the survey mentioned in Section III reported that they would respond to a 
+hypothetical  $0.05 tax or bonus policy. Nineteen percent of respondents said that a bonus would definitely influence 
+their decision to use a reusable bag. This estimate increased by 29 percentage points when the hypothetical policy 
+was a tax instead of a bonus. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?196 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Table 7—Effect of Tax versus Bonus Policy on Bag Use
+
+Disposable
+
+Reusable
+
+Tax
+
+Bonus
+
+MD
+
+DC
+
+Black
+
+Other nonwhite
+
+Female
+
+Afternoon
+
+Evening
+
+F-stat
+Prob > F
+Observations
+
+(1)
+−0.445
+(0.023)
+−0.009
+(0.019)
+−0.003
+(0.017)
+0.057
+(0.033)
+
+234.05
+0.00
+11,678
+
+(2)
+−0.445
+(0.023)
+−0.013
+(0.011)
+−0.015
+(0.012)
+0.041
+(0.030)
+0.102
+(0.017)
+0.027
+(0.014)
+−0.055
+(0.007)
+0.013
+(0.010)
+0.032
+(0.010)
+287.12
+0.00
+11,678
+
+(3)
+0.329
+(0.017)
+0.026
+(0.021)
+0.001
+(0.014)
+−0.027
+(0.023)
+
+130.28
+0.00
+11,678
+
+(4)
+0.327
+(0.016)
+0.029
+(0.013)
+0.014
+(0.011)
+−0.008
+(0.021)
+−0.102
+(0.012)
+−0.064
+(0.015)
+0.150
+(0.014)
+0.033
+(0.012)
+0.011
+(0.012)
+207.27
+0.00
+11,678
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variable: indicator for using at least 
+one disposable bag (columns 1 and 2) or at least one reusable bag (columns 3 and 4).  Tax  is an indicator for whether 
+a store charges a $0.05 tax per disposable bag.  Bonus  is an indicator for whether a store offers a $0.05 bonus per 
+reusable bag. All regressions control for store county, individual demographics (race and sex), and shopping trip 
+time-of-day fixed effects. The F-stat is associated with the test of equality between the tax and bonus coefficients.
+
+significant difference between reusable bag frequency in markets with rebates and 
+those without them” (Sewell 2011).
+
+V.  Reasons for Asymmetric Responses to Taxes and Bonuses
+
+A. Loss Aversion
+
+As mentioned in Section II, standard economic models suggest that the tax and 
+bonus policies should have the same effect on behavior; however, Kahneman and 
+Tversky (1979) suggest that if individuals are  loss-averse, they will respond more 
+to a policy in which the incentive is framed as a loss than a gain, even when the 
+incentives are the same financial amount. In the context of this paper, if a customer 
+is accustomed to receiving a disposable bag for free (i.e., her reference point is a 
+price of zero), then a policy that charges customers $0.05  per disposable bag causes 
+her to experience a loss, while a policy that offers a $0.05 bonus per reusable bag is 
+considered to be a gain.
+Recent evidence from the field supports this theory in a wide variety of contexts 
+including decisions involving labor supply (Camerer et al. 1997; Oettinger 1999), 
+
+VOL. 10 NO. 4 
+
+197
+
+tax compliance ( Rees-Jones 2018; Engström et al. 2015), sports performance (Allen 
+et al. 2017; Pope and Schweitzer 2011), and trading (Odean 1998; Genesove and 
+Mayer 2001), to name a few. A second set of papers most related to this study uses 
+ gain-loss framing as a policy tool to nudge people toward a desirable behavior. For 
+example,  Fryer  et  al. (2012)  finds  that  framing   pay-for-performance  bonuses  for 
+public school teachers as a loss (providing all teachers with a bonus upfront, but 
+rescinding it if their students  under-performed) is more effective at increasing test 
+scores than a traditional bonus framed as a gain. Hossain and List (2012) and Field 
+(2009) use a similar experimental design and find evidence of loss aversion in the 
+context of productivity bonuses for factory workers and tuition subsidies for law 
+students entering public interest careers, respectively.
+
+It  is  important  to  note  that  the  incentives  considered  in  the  studies  above  that 
+use loss aversion in a more prescriptive way are quite large—several thousands of 
+dollars per year. While the theoretical literature on loss aversion does not suggest 
+that the  gain-loss asymmetry should fade as the size of the incentive decreases, a 
+second  line  of  literature  from  behavioral  economics  suggests  that  small  financial 
+incentives for pro-social behavior can actually be demotivating since the extrinsic 
+motivation (i.e., the financial incentive) crowds out an individual’s intrinsic moti-
+vation for pro-social behavior. Several studies show that providing small financial 
+incentives for pro-social behavior actually decrease the desired behavior (Gneezy 
+and Rustichini 2000a, b; Gneezy, Meier, and  Rey-Biel 2011).
+To my knowledge, this is the first study to test the effectiveness of nudges that use 
+loss aversion as a policy tool when the incentives are very small. One exception is 
+Levitt et al. (2016), which provides small  pay-for-performance incentives (between 
+$10 and $20) to students for standardized test performance, varying the  gain-loss 
+framing of the incentive as in the studies above and finds that incentives framed as 
+a loss are more effective; however, while small in magnitude, these incentives may 
+actually be quite large for the relevant population. The results presented in this paper 
+are also consistent with a model in which customers are loss averse even when the 
+incentives are very small—the tax policy is more effective at reducing disposable 
+bag  use  than  the  bonus  policy—and  show  no  evidence  of  crowd  out  of  intrinsic 
+motivation.
+
+B. Marketing and Awareness
+
+One crucial concern with interpreting the results from Section IV as evidence of 
+loss aversion is that awareness of the two policies may differ. For example, the tax 
+was covered widely in the press in the weeks leading up to its implementation. In 
+spite of the fact that all sample stores marketed the two types of incentives in similar 
+ways (e.g., both bonus and tax policies were advertised in announcements posted at 
+the register and other locations throughout the store), it is likely that the additional 
+marketing involved with the implementation of the tax may have generated a differ-
+ence in awareness of the two policies.
+
+To  estimate  these  discrepancies  in  awareness,  I  surveyed  customers  at  sample 
+stores  about  their  knowledge  of  the  store’s  tax  and  bonus  policies. While  almost 
+all  customers (98  percent)  were  aware  of  the  tax,  only  about  half (52  percent) 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?198 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+of   customers  in  stores  that  offered  a  bonus  were  aware  of  that  program.  This 
+ under-awareness of the bonus policy could mute the estimate of the effect of the 
+incentive  relative  to  the  tax.  In  order  to  account  for  the  relative  unawareness  of 
+the bonus, I rescale the estimate of the effect of the bonus policy from Table 7 by 
+dividing the estimate by the fraction of customers who were aware of the policy.28 
+However, even after rescaling, the effect of the tax on the proportion of customers 
+using a reusable bag was still much larger than the effect of the bonus—33.4 ver-
+sus 5.6 percentage points.29 In fact, in order for differences in awareness to fully 
+account for the relative effectiveness of the two policies, no more than 9 percent 
+of customers who would have switched from disposable to reusable bags had they 
+known about the bonus could have actually been aware of the policy. So while it is 
+clear that substantial differences in awareness contributed to the relative effective-
+ness of the tax policy, this cannot completely account for the observed asymmetry 
+in responses to the two policies.
+
+C. Social Norms
+
+Another  possibility  is  that  the  two  policies  led  to  differential  shifts  in  social 
+norms. For example, since the tax was a law while the bonus was simply a store 
+policy, shoppers may interpret the tax policy as a statement about what behavior 
+warrants punishment, a legal theory known as the “expressive function of law.”30
+
+It is difficult to rule out the hypothesis that the tax caused a shift in social norms, 
+largely because social norms are difficult to measure. Nonetheless, I collected  survey 
+measures of attitudes toward disposable bag use at seven grocery stores before and 
+after the implementation of the Montgomery County bag tax. This allows me to use 
+the same  difference-in-differences strategy as described in Section IVA to evaluate 
+the effect of the implementation of the tax on these  self-reported social norms mea-
+sures.31 Table 8 presents the results of this analysis. While the standard errors are 
+rather large, none of the measures show a significant change after the tax was imple-
+mented; in fact, the signs of the different measures are not even in the same direc-
+tion—for  example,  the  percent  of  customers  reporting  that  they  felt  guilty  when 
+using a plastic bag increased after the implementation of the tax, while the percent 
+reporting that they felt social pressure to use fewer plastic bags decreased. While 
+these results are by no means conclusive, they provide suggestive evidence that the 
+implementation of the law did not cause a detectable shift in  self-reported social 
+norms regarding the use of disposable bags.
+
+28 Note that this method assumes that customers who were unaware of the bonus policy would have responded 
+
+to the policy in the same way as those who were aware of the policy had they known about the bonus. 
+
+29 A  slightly  more  conservative  estimate  assumes  that  customers  who  would  respond  to  the  bonus  policy  if 
+they were aware of it have an awareness rate equal to that of survey participants who did not use a reusable bag on 
+the day of the survey—38.0 percent. This would imply that the bonus led to an increase in reusable bag use of 7.6 
+percentage points, still dramatically lower than the effect of the tax. 
+30 For example, Funk (2007) shows that voter turnout in Switzerland decreased significantly after a mandatory 
+voting law with negligible penalties (less than one dollar) was repealed. 
+31 Customers  were  asked  if  they  felt  guilty  when  they  used  a  disposable  bag (“Guilt”),  felt  social  pressure 
+to  use  fewer  disposable  bags (“Pressure”),  got  upset  when  they  saw  other  customers  use  too  many  disposable 
+bags (“Upset”), thought the number of disposable bags they used was wasteful (“Wasteful”), and whether they  
+would support a law that required stores to tax customers $0.05 for each disposable bag (“Support”). 
+
+Table 8—Change in Social Norms after Implementation of Tax Policy
+
+VOL. 10 NO. 4 
+
+MD×Post
+
+Post
+
+MD
+
+DC
+
+Female
+
+White
+
+Age
+
+Age squared
+≥ High school
+Income < $50k
+
+Dependent variable mean
+Observations
+
+Guilt
+(1)
+0.072
+(0.054)
+−0.036
+(0.043)
+−0.074
+(0.042)
+0.087
+(0.032)
+0.220
+(0.032)
+0.068
+(0.040)
+0.008
+(0.007)
+−0.000
+(0.000)
+−0.086
+(0.026)
+−0.040
+(0.029)
+0.398
+743
+
+Pressure
+(2)
+−0.059
+(0.123)
+0.044
+(0.119)
+0.087
+(0.094)
+0.113
+(0.024)
+0.102
+(0.027)
+0.064
+(0.043)
+0.007
+(0.006)
+−0.000
+(0.000)
+0.004
+(0.076)
+−0.008
+(0.033)
+0.329
+742
+
+Upset
+(3)
+0.027
+(0.092)
+0.052
+(0.086)
+0.006
+(0.059)
+0.023
+(0.043)
+0.108
+(0.018)
+−0.033
+(0.034)
+−0.007
+(0.007)
+0.000
+(0.000)
+0.007
+(0.039)
+0.023
+(0.039)
+0.244
+742
+
+Wasteful
+
+(4)
+−0.103
+(0.125)
+−0.133
+(0.049)
+0.003
+(0.076)
+−0.088
+(0.006)
+0.032
+(0.022)
+−0.008
+(0.029)
+0.002
+(0.003)
+−0.000
+(0.000)
+−0.046
+(0.056)
+−0.090
+(0.039)
+0.394
+742
+
+199
+
+Support
+(5)
+0.031
+(0.114)
+0.002
+(0.047)
+0.018
+(0.052)
+0.138
+(0.024)
+0.138
+(0.022)
+−0.090
+(0.048)
+−0.004
+(0.006)
+0.000
+(0.000)
+−0.050
+(0.034)
+−0.050
+(0.033)
+0.679
+739
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variable: indicator for responding 
+affirmatively to the given social norms survey question. Respondents were asked if they felt guilty when they used 
+a disposable bag (“Guilt”), felt social pressure to use fewer disposable bags (“Pressure”), got upset when they saw 
+other customers use too many disposable bags (“Upset”), thought the number of disposable bags they used was 
+wasteful (“Wasteful”), and whether they would support a law that required stores to tax customers $0.05 for each 
+disposable bag (“Support”). All regressions control for store county and respondent characteristics including sex, 
+race, age, education, and income.
+
+One additional point to note is that the Montgomery County tax was implemented 
+on January 1, 2012, but was passed in May of 2011. The change in behavior esti-
+mated in this paper is measured at the law’s implementation. Survey data from the 
+ pretax  period  suggests  that  just  over  half  of  survey  respondents  in  Montgomery 
+County were aware that the law had been approved and that they would soon be 
+charged $0.05 per disposable bag. Additionally, the Montgomery County tax was 
+not the first tax of its kind in the Washington Metropolitan Area: DC passed a similar 
+tax two years prior. Given that the sample draws from stores in areas that are close to 
+DC, it is likely that many of the customers in the sample had been exposed to the DC 
+bag tax prior to the implementation of the Montgomery County tax. The survey data 
+shows that 73.7 percent of respondents in Virginia and 83.7 percent of Montgomery 
+County respondents were aware of the DC tax.32 This suggests that any change in 
+social norms among customers shopping at a given store would have needed to take 
+
+32 This question was only asked in the  post-period. While this should not affect the validity of the responses 
+from Virginia, the Montgomery County results may be biased upward since they may have learned about the DC 
+tax only after the implementation of the Montgomery County tax. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?200 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+place only when the tax was implemented in that store’s county rather than at the 
+passage of the law or the implementation of similar laws in neighboring counties.
+
+D. Utility from Free Goods
+
+Shampanier,  Mazar,  and  Ariely  (2007)  present  an  alternative  model  of 
+ reference-dependent preferences in which the benefits derived from receiving a free 
+product are larger than the simple reduction in price. For example, individuals may 
+receive higher intrinsic benefit from receiving free goods or, conversely, may expe-
+rience lower utility costs from not having to pay for a  non-free good. Note that this 
+model is a specific case of  reference-dependent preferences in which customers only 
+exhibit reference dependence when the reference point in question is a customer’s 
+wealth when a good is free. Additionally, their model suggests that there is a dis-
+continuous jump in utility at this  zero-price reference point rather than a kink. This 
+would imply that a customer’s utility should decrease discretely when a store policy 
+shifts from offering no incentive to charging a tax (i.e., when the good is no longer 
+free) by some amount  δ :
+ 
+
+  
+
+ u( w i   )  =   { γ  w i  
+
+γ  w i   − δ  
+
+if  w i    ≥   w   ∗ 
+   
+if   w i    <   w   ∗ 
+
+  ,  where δ > 0. 
+
+Since the reference point considered in this paper is a customer’s wealth when dis-
+posable bags are free, this  model could also explain  the results from Section  IV. 
+While my data cannot distinguish between this specific case of  reference-dependent 
+preferences or the more general model described in Section IIB, nor can it determine 
+whether the change in utility is a kink versus a discontinuous jump, it rejects any 
+model that does not predict asymmetry around this particular reference point.
+
+E. Additional Explanations
+
+There are several other possible explanations that may contribute to the difference 
+in responses to the two incentive policies. For example, while both policies offer a 
+ $0.05 incentive per bag for those who use a reusable bag instead of a disposable bag, 
+the incentives are not symmetric for individuals who choose to use no bag—cus-
+tomers who change their behavior from using a disposable bag to using no bags are 
+$0.05 richer under the tax policy, but are financially unchanged under the bonus pol-
+icy. However, the large majority of customers in the sample use one of the two types 
+of bags rather than carrying their groceries in their arms. Similarly, if reusable bags 
+are larger than disposable bags, the tax policy provides a larger incentive than the 
+bonus policy. As with the asymmetries in awareness in Section VB, the difference in 
+the size of the two types of bags would need to be substantial—reusable bags would 
+need to be roughly ten times as large as a disposable bag—to generate the results 
+found in Section IV. Another concern is that the behavior of the cashiers may have 
+changed after the tax was implemented, either in how they bagged the groceries or 
+how they reminded customers of the tax policy. While I cannot rule out this mech-
+anism, I did not observe this type of behavior while collecting data at the sample 
+
+VOL. 10 NO. 4 
+
+201
+
+stores. Lastly, recent work by Li, Linn, and Muehlegger (2014) and Sussman and 
+Olivola (2011) present evidence that consumers are “ tax-averse,” which suggests 
+that customers may respond more strongly to the tax simply because it is labeled 
+as a tax and not a fee. While there were no existing policies that charged a fee for 
+disposable bag use that is not framed as a tax in the sample stores, the Appendix 
+presents  evidence  from  an  online  experiment  that  elicited  participants’  responses 
+to a hypothetical  store-imposed fee versus a  government-imposed tax and finds no 
+differences in responses to the two policies.
+
+VI.  Estimating Loss Aversion
+
+A. The Coefficient of Loss Aversion
+
+As  mentioned  in  the  previous  section,  there  are  several  explanations  for  the 
+asymmetric response to the two incentive policies observed in the data. This section 
+accounts for the differences in policy awareness from Section VB then uses esti-
+mates from Section IV to measure the degree of loss aversion in the population if 
+the remaining asymmetry in responses to the tax and bonus policies were attributed 
+to  loss  aversion.  In  the   reference-dependent  utility  function  described  in  Section 
+IIB,  α  is the slope of the utility function for wealth levels above the reference point 
+(  w   ∗  ) relative to the slope below the reference point, i.e., the sharpness of the kink 
+in the utility function at   w   ∗  . This parameter is often referred to as the “coefficient of 
+loss aversion” (Tversky and Kahneman 1991).
+The table below repeats the conditions required for a customer to choose to bring 
+a reusable bag under the three policies assuming reference-dependent preferences 
+from Section IIB. To connect the model with the data, I divide through by  γ  so that 
+all variables are in money-metric units. If  F  is the distribution of   c i   , the proportion 
+of customers bringing a reusable bag when there is no incentive, when there is a 
+bonus, and when there is a tax are  F(0) ,  F(x) , and  F(αx) , respectively. Recall that 
+we observe these proportions in the data in the previous section.
+
+No incentive
+
+   
+
+Bonus policy    
+
+Tax policy
+
+   
+
+Utility function
+
+  
+
+U N, i   ( w   ∗ ,  b i  )    =     { −  c i  
+0  
+x −  c i  
+U B, i   ( w   ∗ ,  b i  )    =     { 
+0  
+  
+U T, i   ( w   ∗ ,  b i  )    =     { −  c i  
+− αx  
+
+  
+
+  
+    
+
+if  b i    =  1
+ 
+if  b i    =  0
+if  b i    =  1
+   
+if  b i    =  0
+if  b i    =  1
+  
+ 
+    
+if  b i    =  0
+
+    
+
+Condition to 
+bring a bag
+ 0  >   c i    
+
+ x  >   c i    
+
+ αx  >   c i    
+
+% Bringing
+
+a bag
+  F(0)  
+
+  F(x)  
+
+  F(αx)  
+
+% Bringing a bag 
+
+(from data)
+
+13.1
+
+15.4
+
+44.2
+
+To provide a  back-of-the-envelope estimate of the coefficient of loss aversion, 
+suppose  that   F   is  a  normal  distribution  with  mean μ  and  variance    σ   2  .  Using  the 
+first two moments in the above table, μ and   σ   2   are  just-identified, with  μ  =  $0.56  
+and   σ  =  $0.50 .  Using  these  parameters,  the  coefficient  of  loss  aversion  can  be 
+estimated by choosing  α  to fit the third moment,  F(αx)  =  0.442 . After adjusting 
+for   under-awareness  of  the  bonus,  this  approach  yields  an  estimate  of   α  =  5.3 . 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?202 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+In words, this estimated coefficient of loss aversion suggests that a bonus would 
+have  to  be  $0.25  in  order  to  have  the  same  behavioral  impact  as  the   $0.05  tax. 
+Bootstrapping this approach yields a 95 percent confidence interval of  [3.3, 14.8] .33 
+Previous papers that estimate the coefficient of loss aversion using lab experiments, 
+such as Tversky and Kahneman (1991), typically estimate values of  α  of just over 2, 
+which are exceeded by even the lower end of this range of estimates. The large esti-
+mated value of  α  is consistent with loss aversion being stronger in this setting than 
+in other contexts in which it has been observed or, alternatively, may suggest that 
+one or more of the other explanations discussed in Section V could be contributing 
+to the large effect of the tax.
+
+B.  Expectations-Based Reference Points
+
+Up to this point, analyses in this paper involving  reference-dependent preferences 
+assume that a customer’s wealth in the absence of an incentive policy serves as her 
+reference point, i.e., her reference point is her wealth when disposable bags are free. 
+However,  work  by  Ko˝szegi  and  Rabin (2006)  suggests  that  reference  points  are 
+generated by an individual’s expectations about their wealth. If a customer believes 
+that disposable bags are free, then a $0.05 tax will feel like a loss. Alternatively, if 
+a customer expects to pay a  $0.05 tax per bag, this theory of reference point forma-
+tion suggests that she will not experience a loss when paying the tax because she 
+expected to pay the tax. If reference points are indeed based on expectations, this 
+suggests that customers may decrease their disposable bag use before their expecta-
+tions have adjusted to the new policy (e.g., in the early days of implementation), but 
+that this effect should rebound once customers adjust their expectations.
+This section analyzes a  transaction-level scanner dataset from a large retail chain 
+in Washington, DC and Montgomery County to estimate the  long-term impact of the 
+tax on disposable bag use. This data includes a line item that indicates if a customer 
+was charged a tax during a given transaction that can be used to calculate daily esti-
+mates of the fraction of customers using at least one disposable bag following the 
+implementation of the tax.34 The data includes transactions from January 1, 2010 to 
+June 30, 2012, which allows me to track disposable bag use for two and a half years 
+in Washington, DC and six months in Montgomery County.
+
+Figure 5, panel A plots the percent of customers using a disposable bag in stores 
+located in Washington, DC starting on the first day of the tax policy on January 1, 
+2010.35 The  figure shows that 58.1 percent of customers used at least one  disposable 
+
+33 Specifically, I resample from the data without replacement to generate new means for the fraction of con-
+sumers bringing a reusable bag, and use the new means to estimate a new value of  α . I repeat this procedure 1,000 
+times. The 95 percent confidence interval for  α  is obtained by selecting the values of  α  that correspond to the fifth 
+and ninety-fifth percentile of the  αs  generated by this approach. 
+34 This data includes information on whether a customer was charged for using a disposable bag during a given 
+transaction, which allows me to compute aggregate daily averages of the percent of customers using disposable 
+bags, but are not informative as to the number of bags used by a particular consumer. Additionally, since I only have 
+a measure of bag use when a customer is charged a tax, I do not have data on disposable bag use in periods prior 
+to the implementation of the tax or in locations that did not pass a tax policy. Lastly, this particular chain did not 
+offer customers a bonus, so I cannot use this data to analyze the relative effectiveness of a tax versus a bonus policy. 
+35 I drop two days in February 2010 where I observe an unusually low number of transactions due to a blizzard 
+
+in the area. 
+
+VOL. 10 NO. 4 
+
+203
+
+Panel A. Washington DC
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+M ay 12
+Oct. 11
+Nov. 10
+Aug. 10
+Apr. 12
+M ar. 12
+Nov. 11
+Sep. 11
+Aug 11
+M ar. 11
+Jul. 11
+M ay 11
+Apr. 11
+Oct. 10
+Sep. 10
+Jul. 10
+Apr. 10
+M ar. 10
+M ay 10
+Dec. 11
+Dec. 10
+Feb. 10
+Jan. 10
+Feb. 12
+Feb. 11
+Jan. 12
+Jan. 11
+Jun. 12
+Jun. 11
+Jun. 10
+
+Panel B. Montgomery County, MD
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+Jan. 12
+
+Feb. 12
+
+M ar. 12
+
+Apr. 12
+
+M ay 12
+
+Jun. 12
+
+Figure 5. Proportion of Customers Using a Disposable Bag after Implementation of the Tax
+
+bag on the first day the tax was implemented, but that this estimate decreased to 
+41.5 percent by the last week of the month. The figure does not show a decrease 
+in  disposable  bag  use  during  the  month  of  January  in  the  two  subsequent  years, 
+suggesting that the decrease in bag use is likely associated with the implementation 
+of the tax and not simply due to seasonal fluctuations in bag use. Figure 5, panel B 
+shows a similar pattern in Montgomery County after the implementation of its tax 
+on January 1, 2012. On the first day of the Montgomery County tax, 39.8 percent 
+of customers used at least one disposable bag, but by the last week in January, this 
+estimate decreased to 26.3 percent.
+
+What is particularly remarkable about this change in behavior is its persistence. 
+While  disposable  bag  use  in  both  Washington,  DC  and  Montgomery  County 
+decreased by roughly 15 percentage points over the first month of the tax, this esti-
+mate remained at the new lower level for the rest of the sample period. In  contrast, 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?204 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+a  model  of   expectations-based  reference  dependence  would  predict  that  bag  use 
+would  rebound  to  its   pre-tax  level  once  customers  grew  accustomed  to  the  tax. 
+While these results do not rule out the possibility of such a model—for example, 
+the absence of a rebound effect could be explained by habit formation of using a 
+reusable bag—the data is more consistent with a model of reference dependence in 
+which a customer’s reference point is fixed at her wealth level when disposable bags 
+have a price of zero.
+
+VII.  Conclusion
+
+This paper investigates the relative impact of two incentives aimed at reducing 
+the use of disposable shopping bags: a $0.05 tax on disposable bag use and a  $0.05 
+bonus for reusable bag use. I find that the tax policy reduced the overall demand for 
+disposable bags by over half and prompted consumers to substitute to reusable alter-
+natives; this is particularly notable given the relatively small size of the tax itself. 
+The large effect of the tax is also striking given that the bonus had almost no impact 
+on bag use, a result that is consistent with a model of loss aversion. I present evi-
+dence that differences in awareness of the two policies and changes in social norms 
+cannot fully account for my results.
+
+It  is  interesting  to  note  that  the  effect  of  this  tax  is  not  only  large  in  absolute 
+terms,  but  also  in  comparison  to  previous  estimates  of  the  impact  of  other  types 
+of sin taxes. There are several possible explanations for this discrepancy. First, the 
+elasticity of demand for disposable bags may be substantially greater than the elas-
+ticity of demand for other goods—the average consumer may be willing to forgo 
+the convenience of using a disposable bag, but not willing to cut back on her con-
+sumption soda or other taxed goods. Second, the visibility of the bag tax, which is 
+prominently displayed at grocery store registers, may help explain why it has had 
+a larger effect than other taxes, which tend to be less salient (Chetty, Looney, and 
+Kroft 2009; Goldin 2015). Third, the large change in demand for disposable bags 
+following the tax may stem from levying a price on a good that had previously been 
+free (Shampanier, Mazar, and Ariely 2007). Finally, even a small initial impact of 
+the tax can generate large effects if the reputation costs of using disposable bags 
+increases by way of a social multiplier (Benabou and Tirole 2011).
+The results from this study have implications for several existing policies that use 
+small financial incentives to nudge individuals toward a desirable behavior. Policies 
+that  provide  discounts  to  coffee  drinkers  who  use  their  own  mug  may  not  be  as 
+effective as those that charge for the use of a paper cup. Similarly, government pro-
+grams that award tax credits to customers who purchase  environmentally friendly 
+Energy Star products may be less effective than policies that tax  energy-inefficient 
+products. Outside of environmental policies,  Rees-Jones (2017) suggests that alter-
+ing income tax withholding policies (resulting in fewer taxpayers having a tax lia-
+bility versus a refund) could have significant effects on tax evasion. Most recently, 
+a Supreme Court case36 challenged state laws that prohibit retailers from imposing 
+
+36 Expressions Hair Design v. Schneiderman, No.  15-1391. 
+
+VOL. 10 NO. 4 
+
+205
+
+surcharges on credit card purchases to cover “swipe fees,” but allow for discounts on 
+ non-credit card purchases. This paper suggests that the framing of the policy—the 
+First Amendment issue in question—could have a significant impact on credit card 
+use, even when the incentives are very small (credit card companies charge mer-
+chants swipe fees of 2 to 3 percent of the sales price). As Justice Breyer pointed out 
+during the case, “a discount and a surcharge are the same thing economically. But 
+we live in a world in which not everyone is an economist” (Liptak 2017).
+
+Appendix
+
+A. Demographic Characteristics by Location and Time Period
+
+Table A1—Demographic Characteristics
+
+Washington, DC
+
+Maryland
+
+Virginia
+
+Pre
+(1)
+58.5
+(49.3)
+63.8
+(48.1)
+23.3
+(42.3)
+1,207
+
+Post
+(2)
+59.7
+(49.1)
+63.3
+(48.2)
+22.0
+(41.4)
+1,649
+
+Pre
+(3)
+59.8
+(49.0)
+59.3
+(49.1)
+27.9
+(44.9)
+3,799
+
+Post
+(4)
+61.2
+(48.7)
+59.7
+(49.1)
+26.3
+(44.0)
+4,515
+
+Pre
+(5)
+53.1
+(49.9)
+77.8
+(41.6)
+10.1
+(30.2)
+2,006
+
+Post
+(6)
+56.9
+(49.5)
+76.6
+(42.4)
+9.7
+(29.6)
+3,075
+
+Female
+
+White
+
+Black
+
+Observations
+
+Notes: This table reports mean values of each variable. Standard deviations are in parentheses. 
+Pre-  and  post-periods  refers  to  the  sample  period  before  and  after  the  implementation  of  the 
+Montgomery County tax.
+
+B. The Effect of the Tax in Bonus versus  Non-bonus Stores
+
+The main analysis of the effect of the tax in Section IVA includes stores that 
+also offered customers a  $0.05 bonus for reusable bag use. This section estimates 
+whether the tax had a differential impact in stores that offered a bonus and stores 
+that did not by including interactions for whether the store provided a bonus. The 
+results  in Table A2  show  that  the  effect  of  the  tax  on  the  likelihood  of  using  a 
+disposable bag is slightly smaller (2.2 percentage points) in bonus stores, but this 
+difference is not statistically significant. The table also shows that the effect of the 
+tax on any reusable bag use is slightly higher in bonus stores while the effect on 
+using no bags is significantly lower, though neither effect is statistically signifi-
+cant. Taken together, this suggests that the tax has a similar impact on disposable 
+bag use in both types of stores, but that customers in bonus stores were somewhat 
+more likely to switch to reusable bag use than to opt to use no bags at all.
+
+C. The Effect of the Tax on Store Volume and Purchase Behavior
+
+This  section  investigates  whether  the  tax  policy  had  an  impact  on  store  vol-
+ume (total  expenditure  and  the  number  of  transactions)  as  well  as  on  shopping 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?206 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Table A2—Effect of Tax Policy in Bonus versus Non-bonus Stores
+
+MD×Post
+MD×Post × Bonus
+
+Observations
+
+Extensive margin
+
+Intensive margin
+
+Disposable
+
+(1)
+−0.435
+(0.047)
+0.022
+(0.054)
+16,251
+
+Reusable
+
+(2)
+0.299
+(0.029)
+0.041
+(0.036)
+16,251
+
+No bags
+(3)
+0.156
+(0.033)
+−0.064
+(0.037)
+16,251
+
+Disposable
+
+(4)
+−0.301
+(0.189)
+0.112
+(0.231)
+10,314
+
+Reusable
+
+(5)
+0.131
+(0.143)
+0.020
+(0.167)
+5,003
+
+Notes: Standard errors clustered at the store level are in parentheses. Outcome variables: indicator for using at least 
+one bag or no bags (extensive) and number of bags used among users (intensive) for disposable and reusable bags, 
+respectively.
+
+Table A3—Effect of Tax Policy on Store Volume and Basket Size
+
+Post DC tax × DC
+Post MD tax × MD
+
+Observations
+
+Transactions
+
+(1)
+−0.049
+(0.031)
+0.003
+(0.020)
+62,123
+
+Expenditure
+
+(2)
+−0.023
+(0.034)
+−0.019
+(0.024)
+62,123
+
+Basket size
+
+(3)
+0.012
+(0.011)
+−0.016
+(0.010)
+62,123
+
+Notes: Standard errors clustered at the store level are in parentheses. Scanner data from 31 stores 
+from Washington, DC, Montgomery County, and Arlington County from January 2007 to June 
+2012. Outcome variables: number of transactions (column 1), total expenditure (column 2), and 
+average number of items per transaction (column 3). All outcomes are measured at the store-day 
+level in logs. Includes store and calendar month and year fixed effects.
+
+behavior (average  basket  size  per  transaction).  Table A3  presents  results  from  a 
+ difference-in-differences  analysis  using  scanner  data  from  31  stores  across  the  3 
+sample counties belonging to one large retail chain from January 2007 to June 2012. 
+This store did not offer a bonus at any point during the sample period. Since the data 
+spans the implementation of both the Washington, DC and Montgomery County tax, 
+I use the following specification:
+
+ 
+
+  Y isdmy    =  α +  β DC   D D DC, sy   +  β MD   D D MD, sy   +  γ m   +  δ y   +  μ s   +  ε isdmy    ,
+
+where  Y  is a measure of shopping behavior in individual store  i  in state  s  on day  d  of 
+month  m  in year  y  ,  D D DC    is an indicator for stores in Washington, DC after the tax 
+was passed (Post DC tax × DC),  D D MD    is an indicator for stores in Montgomery 
+County after the tax was passed (Post MD tax × MD), and μ,  γ , and  δ  are a set 
+of store, month, and year fixed effects. The coefficients of interest,   β DC    and   β MD    , 
+are the  difference-in-difference estimates of the effect of the Washington, DC and 
+Montgomery County taxes on shopping behavior, respectively.
+
+Results show that neither the Washington, DC nor the Montgomery County tax 
+led to a significant change in the daily store volume measured as either the number 
+of transactions (column 1) or the total expenditure (column 2). The taxes also did not 
+change the average basket size, i.e., the number of items per transaction (column 3).
+
+VOL. 10 NO. 4 
+
+207
+
+Table A4—Effect of Hypothetical Tax versus Bonus Policy on 
+
+Likelihood of Using Reusable Bags
+
+Tax (versus bonus)
+White
+
+Female
+
+Age
+
+Age squared
+≥ High school
+Income < $50k
+
+Dependent variable mean
+Observations
+
+(1)
+0.286
+(0.025)
+−0.110
+(0.028)
+0.050
+(0.025)
+−0.003
+(0.004)
+0.000
+(0.000)
+0.045
+(0.034)
+0.026
+(0.032)
+0.194
+1,294
+
+Notes: Robust standard errors are in parentheses. Outcome variable: indica-
+tor for if respondent answered “definitely” when asked if the $0.05 incen-
+tive influenced his decision to bring a reusable bag.  Tax  is a binary variable 
+equal to one if the incentive was framed as a tax and zero if it was framed as 
+a bonus. Dependent variable mean for bonus-framing. All regressions con-
+trol for store county and respondent characteristics including sex, race, age, 
+education, and income.
+
+D. Survey Measure of Policy Effectiveness
+
+To  investigate  the  relative  effectiveness  of  the  tax  and  bonus  policies  without 
+assuming comparability between customers at bonus and  non-bonus stores, I sur-
+veyed grocery store customers about how they would respond to a hypothetical tax 
+or bonus policy. I asked respondents if a  $0.05 incentive influenced their decision to 
+bring a reusable bag when shopping at that store, randomizing whether the incentive 
+was framed as a tax or a bonus.37 Participants were instructed to give one of the 
+following five responses: definitely, quite a bit, somewhat, very little, or not at all. 
+Table A4 presents results of the following linear probability model:
+
+ 
+
+  Y i    =   θ 0   +  θ 1    Tax i   + λ X i   +  ε i  , 
+
+where  Y  is the probability that survey participant i gave a response of “definitely;”  
+Tax  is an indicator variable that takes the value of one if the participant was asked 
+about a tax policy and zero for a bonus policy; and  X  is a vector of individual demo-
+graphic characteristics including sex, race, age, education, and income. Of the cus-
+tomers  who  were  asked  about  the  influence  of  the  bonus  program,  19.4  percent 
+responded that the policy would definitely influence their decision. This average is 
+
+37 This question was phrased as a hypothetical for customers in stores that did not already have the policy or for 
+
+customers who were previously unaware of the existence of the policy. 
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?208 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Table A5—Effect of Hypothetical Tax versus Fee on Likelihood 
+
+of Using Reusable Bags
+
+Tax (versus fee)
+White
+
+Female
+
+Age
+
+Age squared
+≥ High school
+Income < $50k
+
+Dependent variable mean
+Observations
+
+(1)
+0.025
+(0.081)
+0.080
+(0.095)
+0.183
+(0.086)
+−0.029
+(0.026)
+0.000
+(0.000)
+0.032
+(0.093)
+0.034
+(0.085)
+0.356
+147
+
+Notes: Robust standard errors are in parentheses. Outcome variable: indica-
+tor for if respondent answered “definitely” when asked if the $0.05 incen-
+tive influenced his decision to bring a reusable bag.  Tax  is a binary variable 
+equal to one if the incentive was framed as a tax and zero if it was framed as 
+a fee. Dependent variable mean for fee-framing. All regressions control for 
+store county and respondent characteristics including sex, race, age, educa-
+tion, and income.
+
+significantly lower—28.6 percentage points lower—than the proportion of custom-
+ers who responded similarly when asked about the tax policy.38
+
+E. Tax Aversion
+
+Recent evidence from the lab and field suggests that individuals are more likely to 
+avoid taxes than other costs of the same amount, i.e., they are  tax-averse (Li, Linn, and 
+Muehlegger 2014; Sussman and Olivola 2011). If customers treat taxes differently 
+than other types of incentives, this could generate the differential responses to the tax 
+and bonus policies. Since there were no policies that charged a fee for a disposable 
+bag (rather than a tax), I rely on data from a randomized experiment using an online 
+platform, Amazon Mechanical Turk, to test for tax aversion in this context. The sur-
+vey questions mirror the questions asked in the  in-store survey described in Appendix 
+Section  D,  in  which  participants  were  asked  about  their  perceived  responses  to  a 
+bonus versus a tax. In this survey, participants were randomly assigned to answer how 
+they believed they would respond to a  store-imposed fee or a  government-imposed 
+tax. Table A5  presents  these  results  using  the  same  specifications  and  controls  as 
+in Table A4. While this analysis should be viewed as merely suggestive due to the 
+
+38 The results are qualitatively similar when the dependent variable is the probability that the survey participant 
+responded that the incentive would influence his decision to bring a reusable bag “quite a bit” or when using an 
+ordered probit. 
+
+VOL. 10 NO. 4 
+
+209
+
+hypothetical nature of the questions, the results show no differences in the responses 
+of participants in the “tax” group compared to the “fee” group.
+
+REFERENCES
+
+Allen, Eric J., Patricia M. Dechow, Devin G. Pope, and George Wu. 2017. “Reference-Dependent Pref-
+
+Anacostia Watershed Society. 2008. Anacostia Watershed Trash Reduction Plan. District of Columbia 
+
+Dikgang, Johane, Anthony Leiman, and Martine Visser. 2012. “Elasticity of demand, price and time: 
+
+Chetty, Raj, Adam Looney, and Kory Kroft. 2009. “Salience and Taxation: Theory and Evidence.” 
+
+Benabou, Roland, and Jean Tirole. 2011. “Laws and Norms.” National Bureau of Economic Research 
+
+Engström, Per, Katarina Nordblom, Henry Ohlsson, and Annika Persson. 2015. “Tax Compliance and 
+
+erences: Evidence from Marathon Runners.” Management Science 63 (6): 1657–72.
+Department of the Environment. Washington, DC, December. 
+(NBER) Working Paper 17579.
+Camerer, Colin, Linda Babcock, George Loewenstein, and Richard Thaler. 1997. “Labor Supply of 
+New York City Cabdrivers: One Day at a Time.” Quarterly Journal of Economics 112 (2): 407–41.
+Cameron, A. Colin, Jonah B. Gelbach, and Douglas L. Miller. 2008. “Bootstrap-Based Improvements 
+for Inference with Clustered Errors.” Review of Economics and Statistics 90 (3): 414–27.
+American Economic Review 99 (4): 1145–77.
+Clapp, Jennifer, and Linda Swanston. 2009. “Doing away with plastic shopping bags: International 
+patterns of norm emergence and policy implementation.” Environmental Politics 18 (3): 315–32.
+Convery, Frank, Simon McDonnell, and Susana Ferreira. 2007. “The most popular tax in Europe? 
+Lessons from the Irish plastic bags levy.” Environmental and Resource Economics 38 (1): 1–11.
+DellaVigna, Stefano. 2009. “Psychology and Economics: Evidence from the Field.” Journal of Eco-
+nomic Literature 47 (2): 315–72.
+lessons from South Africa’s plastic-bag levy.” Applied Economics 44 (26): 3339–42.
+Loss Aversion.” American Economic Journal: Economic Policy 7 (4): 132–64.
+Field,  Erica.  2009.  “Educational  Debt  Burden  and  Career  Choice:  Evidence  from  a  Financial Aid 
+Experiment at NYU Law School.” American Economic Journal: Applied Economics 1 (1): 1–21.
+Fryer, Roland G. Jr., Steven D. Levitt, John List, and Sally Sadoff. 2012. “Enhancing the Efficacy of 
+Teacher  Incentives  through  Loss Aversion: A  Field  Experiment.”  National  Bureau  of  Economic 
+Research (NBER) Working Paper 18237.
+Laws with Symbolic Fines.” American Law and Economics Review 9 (1): 135–59.
+the Housing Market.” Quarterly Journal of Economics 116 (4): 1233–60.
+Modify Behavior.” Journal of Economic Perspectives 25 (4): 191–210.
+nomics 115 (3): 791–810.
+tion in South Africa.” South African Journal of Economics 75 (1): 66–83.
+He, Haoran. 2010. “The Effects of an Environmental Policy on Consumers: Lessons from the Chinese 
+Plastic Bag Regulation.” University of Gothenburg Working Papers in Economics Working Paper 453.
+Homonoff, Tatiana A. 2018. “Can Small Incentives Have Large Effects? The Impact of Taxes versus 
+Bonuses on Disposable Bag Use: Dataset.” American Economic Journal: Economic Policy. https://
+doi.org/10.1257/pol.20150261. 
+ity Using Simple Framing Manipulations.” Management Science 58 (12): 2151–67.
+Econometrica 47 (2): 263–92.
+terly Journal of Economics 121 (4): 1133–65.
+Levitt,  Steven  D.,  John A.  List,  Susanne  Neckermann,  and  Sally  Sadoff.  2016.  “The  Behavioralist 
+Goes to School: Leveraging Behavioral Economics to Improve Educational Performance.” Ameri-
+can Economic Journal: Economic Policy 8 (4): 183–219.
+
+Genesove, David, and Christopher Mayer. 2001. “Loss Aversion and Seller Behavior: Evidence from 
+Gneezy, Uri, Stephan Meier, and Pedro Rey-Biel. 2011. “When and Why Incentives (Don’t) Work to 
+Gneezy, Uri, and Aldo Rustichini. 2000a. “A Fine Is a Price.” Journal of Legal Studies 29 (1): 1–17.
+Gneezy, Uri, and Aldo Rustichini. 2000b. “Pay Enough or Don’t Pay at All.” Quarterly Journal of Eco-
+
+Goldin, Jacob. 2015. “Optimal tax salience.” Journal of Public Economics 131: 115–23.
+Hasson, Reviva, Anthony Leiman, and Martine Visser. 2007. “The Economics of Plastic Bag Legisla-
+
+Kahneman, Daniel, and Amos Tversky. 1979. “Prospect Theory: An Analysis of Decision under Risk.” 
+
+Funk, Patricia. 2007.  “Is There An  Expressive  Function  of  Law? An  Empirical Analysis  of Voting 
+
+Hossain, Tanjim, and John A. List. 2012. “The Behavioralist Visits the Factory: Increasing Productiv-
+
+K˝oszegi, Botond, and Matthew Rabin. 2006. “A Model of Reference-Dependent Preferences.” Quar-
+
+HOMONOFF: CAN SMALL INCENTIVES HAVE LARGE EFFECTS?210 
+
+AMERICAN ECONOMIC JOURNAL: ECONOMIC POLICY 
+
+NOVEMBER 2018
+
+Li, Shanjun, Joshua Linn, and Erich Muehlegger. 2014. “Gasoline Taxes and Consumer Behavior.” 
+
+Paolacci, Gabriele, Jesse Chandler, and Panagiotis G. Ipeirotis. 2010. “Running experiments on Ama-
+
+McDonald, John F., and Robert A. Moffitt. 1980. “The Uses of Tobit Analysis.” Review of Economics 
+Odean, Terrance. 1998. “Are Investors Reluctant to Realize Their Losses?” Journal of Finance 53 (5): 
+Oettinger, Gerald S. 1999. “An Empirical Analysis of the Daily Labor Supply of Stadium Vendors.” 
+
+American Economic Journal: Economic Policy 6 (4): 302–42.
+Liptak, Adam. 2017. “Supreme Court Considers Role of Free Speech in Explaining Credit Card Fees.” 
+New York Times, January 10. https://www.nytimes.com/2017/01/10/business/supreme-court-credit-
+card-fees-free-speech.html. 
+and Statistics 62 (2): 318–21.
+1775–98.
+Journal of Political Economy 107 (2): 360–92.
+zon Mechanical Turk.” Judgment and Decision Making 5 (5): 411–19.
+Pope, Devin G., and Maurice E. Schweitzer. 2011. “Is Tiger Woods Loss Averse? Persistent Bias in the 
+Face of Experience, Competition, and High Stakes.” American Economic Review 101 (1): 129–57.
+Rabin, Matthew. 2000. “Risk Aversion and Expected-Utility Theory: A Calibration Theorem.” Econo-
+metrica 68 (5): 1281–92.
+85 (2): 1251–78.
+Sewell, Dan. 2011. “Some grocers abandon rebates for reusable bags.” Boston.com, March 16. http://
+archive.boston.com/business/articles/2011/03/16/some_grocers_abandon_rebates_for_reusable_
+bags/. 
+Free Products.” Marketing Science 26 (6): 742–57.
+Equivalent Costs.” Journal of Marketing Research 48 (SPL): S91–101.
+and Bag Usage.” Applied Economic Perspectives and Policy 38 (2): 351–72.
+dent Model.” Quarterly Journal of Economics 106 (4): 1039–61.
+United  States  Environmental  Protection Agency (EPA).  2007.  Municipal  Solid  Waste  Generation, 
+Recycling, and Disposal in the United States: Facts and Figures for 2006. United States Environ-
+mental Protection Agency. Washington, DC, November.  
+
+Sussman, Abigail B., and Christopher Y. Olivola. 2011. “Axe the Tax: Taxes Are Disliked More than 
+
+Rees-Jones, Alex. 2018. “Quantifying Loss-Averse Tax Manipulation.” Review of Economic Studies 
+
+Shampanier, Kristina, Nina Mazar, and Dan Ariely. 2007. “Zero as a Special Price: The True Value of 
+
+Taylor, Rebecca L., and Sofia B. Villas-Boas. 2016. “Bans vs. Fees: Disposable Carryout Bag Policies 
+
+Tversky, Amos, and Daniel Kahneman. 1991. “Loss Aversion in Riskless Choice: A Reference-Depen-
+
+This article has been cited by:1.Armenak Antinyan, Luca Corazzini. 202⒌ Breaking the bag habit: Testing interventions toreduce plastic bag demand. Ecological Economics 228, 10845⒋ [Crossref]2.Brandon Lehr. 202⒌ Optimal Social Security with Loss Aversion. Public Finance Review 53:1,62-9⒊ [Crossref]⒊Sungeun Yoon, Lisa House, Zhifeng Gao. 202⒋ Environmental policy behavioral spillovers: Theimpact of California's single‐use carryout bag ban on the use of unregulated single‐use plastics.Applied Economic Perspectives and Policy . [Crossref]⒋Hong Thi Thu Nguyen. 202⒋ Antecedents of young consumers’ behavioral intention towardplastic waste minimization in Vietnam. Journal of Material Cycles and Waste Management 26:5,3089-3101. [Crossref]⒌Chunzhou Mu, Shiko Maruyama. 202⒋ An Incentive Program with Almost no Incentive:Overlooked Benefits of Pay for Performance*. Economic Record 43. . [Crossref]⒍Tenaw G. Abate, Katarina Elofsson. 202⒋ Environmental taxation of plastic bags and substitutes:Balancing marine pollution and climate change. Journal of Environmental Management 359,12086⒏ [Crossref]⒎Edika Quispe-Torreblanca, John Gathergood, George Loewenstein, Neil Stewart. 202⒋ InvestorLogins and the Disposition Effect. Management Science 2. . [Crossref]⒏Yan He, Yilin Sun, Zhĳian Zhao, Mengwei Chen, E. Owen D. Waygood, Yang Shu. 202⒋Impact of social-psychological factors on low-carbon travel intention: Merging theory of plannedbehavior and value-belief-norm theory. Heliyon 10:6, e28161. [Crossref]⒐Ali Kazemian, Melika Hoseinzadeh, Seyed Ahmad Banihashem Rad, Anahid Jouya, BaharehTahani. 202⒊ Nudging oral habits; application of behavioral economics in oral health promotion:a critical review. Frontiers in Public Health 11. . [Crossref]⒑Davide Cerruti, Claudio Daminato, Massimo Filippini. 202⒊ The impact of policy awareness:Evidence from vehicle choices response to fiscal incentives. Journal of Public Economics 226,10497⒊ [Crossref]⒒Mutlu Yalvaç, Mohammed Saleh, Melis Gün, Hüdaverdi Arslan. 202⒊ The effect of bags lawon environmental behavior and habits-Mersin example. Environmental Research and Technology6:3, 196-20⒌ [Crossref]⒓Alycia Chin, David Hagmann, George Loewenstein. 202⒊ Fear and promise of the unknown:How losses discourage and promote exploration. Journal of Behavioral Decision Making 36:⒊ .[Crossref]⒔Roy Malon Shamhuyenhanzva, Asphat Muposhi, Delight Rufaro Hungwe. 202⒊ A downstreamsocial norms approach for curtailing e-cigarette waste: Promising social marketing interventionsfrom consumer interactions. Waste Management & Research: The Journal for a SustainableCircular Economy 41:7, 1238-124⒌ [Crossref]⒕Avital Simanian, Beihan Guo, Yiyue Lin, Jarryd Willis. 202⒊ Social Utilitarianism in DigitalInteractions and Distant Worlds. Current Research Journal of Social Sciences and Humanities 6:1,66-8⒍ [Crossref]⒖Yu Luo, Jiaying Zhao. 202⒊ Using behavioral interventions to reduce single-use produce bags.Resources, Conservation and Recycling 193, 106942. [Crossref]⒗Bryan Pratt. 202⒊ A fine is more than a price: Evidence from drought restrictions. Journal ofEnvironmental Economics and Management 119, 10280⒐ [Crossref]⒘Gabriel Englander, Andrew W. Stevens, Rebecca L. C. Taylor, Sofia B. Villas-Boas. The Impactof Ecolabels and Green Taxes on Market Outcomes 159-171. [Crossref]⒙Johane Dikgang, Zafeer Ravat, Jugal Mahabir. 2022. Influences of various pricing points: anexperimental study of plastic bags in Johannesburg, South Africa. Journal of Applied Economics25:1, 1200-12⒙ [Crossref]⒚Paul J. Ferraro, J. Dustin Tracy. 2022. A reassessment of the potential for loss-framed incentivecontracts to increase productivity: a meta-analysis and a real-effort experiment. ExperimentalEconomics 25:5, 1441-146⒍ [Crossref]⒛Yuichi Ishimura. 2022. The effects of the containers and packaging recycling law on the domesticrecycling of plastic waste: Evidence from Japan. Ecological Economics 201, 10753⒌ [Crossref]21.K.C. Payne Hirsch, Gabrielle Wong-Parodi, Ada Statler. 2022. Integrating norms into the logic ofenergy and environmental policymaking. Energy Research & Social Science 93, 10282⒏ [Crossref]22.Claire Fuschi, Haihui Pu, Margaret MacDonell, Kurt Picel, Maria Negri, Junhong Chen. 2022.Microplastics in the Great Lakes: Environmental, Health, and Socioeconomic Implications andFuture Directions. ACS Sustainable Chemistry & Engineering 10:43, 14074-14091. [Crossref]2⒊Fatima Hafsa, Kevin J. Dooley, George Basile, Rajesh Buch. 2022. A typology and assessment ofinnovations for circular plastic packaging. Journal of Cleaner Production 369, 1333⒔ [Crossref]2⒋Rebecca L. C. Taylor. 2022. It's in the bag? The effect of plastic carryout bag bans on whereand what people purchase to eat. American Journal of Agricultural Economics 104:5, 1563-158⒋[Crossref]2⒌Nancy E. Lauer, Michelle B. Nowlin. 2022. A framework for inland cities to prevent marinedebris: A case study from Durham, North Carolina. Frontiers in Marine Science 9. . [Crossref]2⒍Gulsah Senturk, Devrim Dumludag. 2022. The relationship between consumption of single-useplastic bags, environmental awareness, and socio-demographic factors. Journal of Material Cyclesand Waste Management 24:4, 1494-150⒎ [Crossref]2⒎Thong Quoc Ho, Zihan Nie, Francisco Alpizar, Fredrik Carlsson, Pham Khanh Nam. 2022.Celebrity endorsement in promoting pro-environmental behavior. Journal of Economic Behavior& Organization 198, 68-8⒍ [Crossref]2⒏Yu-Kai Huang, Richard T. Woodward. 2022. Spillover Effects of Grocery Bag Legislation:Evidence of Bag Bans and Bag Fees. Environmental and Resource Economics 81:4, 711-741.[Crossref]2⒐Auyon Siddiq, Christopher S. Tang, Jingwei Zhang. 2022. Partnerships in Urban Mobility:Incentive Mechanisms for Improving Public Transit Adoption. Manufacturing & ServiceOperations Management 24:2, 956-971. [Crossref]30.Luca Congiu, Ivan Moscati. 2022. A review of nudges: Definitions, justifications, effectiveness.Journal of Economic Surveys 36:1, 188-2⒔ [Crossref]31.Stephanie Mertens, Mario Herberz, Ulf J. J. Hahnel, Tobias Brosch. 2022. The effectivenessof nudging: A meta-analysis of choice architecture interventions across behavioral domains.Proceedings of the National Academy of Sciences 119:1. . [Crossref]32.Tatiana Homonoff, Lee‐Sien Kao, Javiera Selman, Christina Seybolt. 2022. Skipping the Bag:The Intended and Unintended Consequences of Disposable Bag Regulation. Journal of PolicyAnalysis and Management 41:1, 226-251. [Crossref]3⒊Yu Luo, Jiaying Zhao. 2022. Using Behavioral Interventions to Reduce Single-Use Produce Bags.SSRN Electronic Journal 13. . [Crossref]3⒋Katherine L. Milkman, Dena Gromet, Hung Ho, Joseph S. Kay, Timothy W. Lee, PepiPandiloski, Yeji Park, Aneesh Rai, Max Bazerman, John Beshears, Lauri Bonacorsi, ColinCamerer, Edward Chang, Gretchen Chapman, Robert Cialdini, Hengchen Dai, Lauren Eskreis-Winkler, Ayelet Fishbach, James J. Gross, Samantha Horn, Alexa Hubbard, Steven J. Jones,Dean Karlan, Tim Kautz, Erika Kirgios, Joowon Klusowski, Ariella Kristal, Rahul Ladhania,George Loewenstein, Jens Ludwig, Barbara Mellers, Sendhil Mullainathan, Silvia Saccardo, JannSpiess, Gaurav Suri, Joachim H. Talloen, Jamie Taxer, Yaacov Trope, Lyle Ungar, Kevin G.Volpp, Ashley Whillans, Jonathan Zinman, Angela L. Duckworth. 2021. Megastudies improvethe impact of applied behavioural science. Nature 600:7889, 478-48⒊ [Crossref]3⒌Netta Barak‐Corren, Yael Kariv‐Teitelbaum. 2021. Behavioral responsive regulation: Bringingtogether responsive regulation and behavioral public policy. Regulation & Governance 15:S1. .[Crossref]3⒍José María Cabrera, Marcelo Caffera, Alejandro Cid. 2021. Modest and incomplete incentivesmay work: Pricing plastic bags in Uruguay. Journal of Environmental Economics and Management110, 10252⒌ [Crossref]3⒎Tatiana Homonoff, Rebecca L. C. Taylor, Lee-Sien Kao, Doug Palmer. 2021. HarnessingBehavioral Science to Design Disposable Shopping Bag Regulations. Behavioral Science & Policy7:2, 51-61. [Crossref]3⒏Ben R. Newell, Jeremy Moss. 2021. Making it Easier to Take Environmental Actions is notEnough: Policymakers Must Also Emphasize Why action is Necessary. Behavioral Science &Policy 7:2, 91-9⒐ [Crossref]3⒐Bairong Wang, Yuhua Zhao, Yong Li. 2021. How Do Tougher Plastics Ban Policies ModifyPeople’s Usage of Plastic Bags? A Case Study in China. International Journal of EnvironmentalResearch and Public Health 18:20, 107⒙ [Crossref]40.Hye Won Lee, Oh-Sang Kwon. 2021. Estimating the Substitution Effects of the Reusable TrashBags for the Standard Trash Bags. Journal of Environmental Policy and Administration 29:3, 49-7⒌[Crossref]41.Poritosh Roy, Lisa Ashton, Tao Wang, Maria G. Corradini, Evan D.G. Fraser, MahendraThimmanagari, Mike Tiessan, Atul Bali, Khurshid M. Saharan, Amar K. Mohanty, MaǌusriMisra. 2021. Evolution of drinking straws and their environmental, economic and societalimplications. Journal of Cleaner Production 316, 12823⒋ [Crossref]42.Michael Thom. Taxing Twenty-First Century Sins 153-17⒍ [Crossref]4⒊Cass R. Sunstein. Behavioral Science and Public Policy 10, . [Crossref]4⒋Laura Cornelsen, Matthew Quaife, Mylene Lagarde, Richard D. Smith. 20⒛ Framing andsignalling effects of taxes on sugary drinks: A discrete choice experiment among households inGreat Britain. Health Economics 29:10, 1132-114⒎ [Crossref]4⒌Natalie Rudolph, Raphael Kiesel, Chuanchom Aumnate. Plastics—Increasing Value, DecreasingLifetime 9-⒔ [Crossref]4⒍Rebecca L. C. Taylor. 20⒛ A Mixed Bag: The Hidden Time Costs of Regulating ConsumerBehavior. Journal of the Association of Environmental and Resource Economists 7:2, 345-37⒏[Crossref]4⒎Ariella S. Kristal, Ashley V. Whillans. 20⒛ What we can learn from five naturalistic fieldexperiments that failed to shift commuter behaviour. Nature Human Behaviour 4:2, 169-17⒍[Crossref]4⒏Luca Congiu, Ivan Moscati. 20⒛ A Review of Nudges: Definitions, Justifications, Effectiveness.SSRN Electronic Journal 21. . [Crossref]4⒐Marine Natsvalaǳe. 20⒚ THEORETICAL BASICS AND PRACTICAL ASPECTS OFBEHAVIORAL ECONOMICS. Globalization and Business 4:8, 68-7⒊ [Crossref]50.Rebecca L.C. Taylor. 20⒚ Bag leakage: The effect of disposable carryout bag regulations onunregulated bags. Journal of Environmental Economics and Management 93, 254-271. [Crossref]51.Brian D. Galle, Murat C. Mungan. 20⒚ Predictable Punishments. SSRN Electronic Journal277. . [Crossref]52.Peter Jones. 20⒚ Loss Aversion and Property Tax Avoidance. SSRN Electronic Journal 101. .[Crossref]5⒊Rebecca Taylor. 20⒙ A Mixed Bag: The Hidden Time Costs of Regulating Consumer Behavior.SSRN Electronic Journal 60. . [Crossref]5⒋Alicea Lieberman, Kristen Duke, On Amir. 20⒙ How Incentive Framing Can Harness the Powerof Social Norms. SSRN Electronic Journal 49. . [Crossref]5⒌Rebecca Taylor. 20⒘ Bag 'Leakage': The Effect of Disposable Carryout Bag Regulations onUnregulated Bags. SSRN Electronic Journal 2. . [Crossref]5⒍Cass R. Sunstein. 20⒘ Misconceptions About Nudges. SSRN Electronic Journal 50. . [Crossref]5⒎Hua Cheng, Kishore Gawande, Yuanyuan Ma. 20⒘ Asymmetric Corporate Tax Compliance:Evidence from a Tax Reform in China. SSRN Electronic Journal 19. . [Crossref]5⒏Rustam Romaniuc. 20⒗ What Makes Law to Change Behavior? An Experimental Study. SSRNElectronic Journal 37. . [Crossref]5⒐Christian Schubert. 20⒗ Green Nudges: Do They Work? Are They Ethical?. SSRN ElectronicJournal 25. . [Crossref]60.Cass R. Sunstein, Lucia A. Reisch. 20⒗ Climate-Friendly Default Rules. SSRN ElectronicJournal 62. . [Crossref]61.Daniel H. Reck. 20⒔ Taxes and Mistakes: What's in a Suﬃcient Statistic?. SSRN ElectronicJournal 36. . [Crossref]62.Alex Rees-Jones. 20⒔ Loss Aversion Motivates Tax Sheltering: Evidence from U.S. TaxReturns. SSRN Electronic Journal 101. . [Crossref]

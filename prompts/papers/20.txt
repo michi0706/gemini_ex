@@ -1,0 +1,2071 @@
+Journal of Public Economics 158 (2018) 1–11
+
+Contents lists available at ScienceDirect
+
+Journal of Public Economics
+
+journal homepage: www.elsevier.com/locate/jpube
+
+Congressional committees, legislative inﬂuence, and the hegemony of
+chairs☆
+Christopher R. Berry1, Anthony Fowler⁎,1
+
+T
+
+Harris School of Public Policy Studies, University of Chicago, United States
+
+A R T I C L E I N F O
+
+A B S T R A C T
+
+Keywords:
+Congressional committees
+Agenda setting
+Legislative inﬂuence
+Money in politics
+Political processes
+
+Congressional committees play a central role in policymaking, and the members of the most important com-
+mittees are thought to be particularly powerful, but committee chairs have received less scholarly attention. We
+study the eﬀects of congressional committee positions on legislative inﬂuence—analyzing legislative eﬀective-
+ness, campaign contributions, and the implied value of being lobbied—and utilizing a within-member design
+that allows us to distinguish the eﬀects of committee positions from selection into committee positions. We ﬁnd
+little evidence that a seat on an important committee makes a member of Congress more powerful, but members
+do experience a signiﬁcant increase in power when they become chair of a committee. Our results suggest that
+much of the power associated with committee positions in Congress is concentrated among a small set of chairs
+that play a disproportionate role in policymaking.
+
+Because of their importance for policymaking, legislative commit-
+tees are a central topic of study in political economy. For the U.S.
+Congress, the consensus is that committee membership is a key driver of
+legislative inﬂuence—particularly membership on historically im-
+portant committees like Appropriations, Rules, and Ways and Means in
+the House. Surprisingly, committee chairs have received relatively little
+attention in the literature. In this paper, we attempt to provide the most
+comprehensive study of committee positions, including chairs, on a
+member's power and inﬂuence in Congress. Our results suggest that
+much of the power of committees is concentrated among chairs.
+
+Committees and committee chairs received signiﬁcant attention in
+sociological, ethnographic, and qualitative studies of committees ex-
+empliﬁed by Fenno (1966, 1973), Manley (1970). This scholarship fo-
+cused on the internal workings of speciﬁc committees and the re-
+lationships between committees and the full chamber. A general theme
+is that committees matter but they diﬀer in their inﬂuence and their
+internal operations. The role and inﬂuence of chairs varies across
+committees, but chairs always play a prominent role as leaders who use
+their formal and informal powers guide the committee's operation and
+decisions. Among other things, chairs are thought to have their own
+unique leadership styles (Evans, 1991), inﬂuence the roll-call votes of
+other members (Matthews and Stimson, 1975), creatively expand the
+
+jurisdiction of their committee (Talbert et al., 1995), and participate
+more in committee deliberations (Hall, 1987, 1996), and all of these
+factors are thought to inﬂuence a committee's legislative success.
+
+Chairs have received less attention with the emergence of formal
+models of Congress (e.g., Cox and McCubbins, 1993; Shepsle and
+Weingast, 1981). In these accounts, the focus is often on committee
+members or party leaders, and chairs are sometimes described as agents
+of the majority party. To the extent that the recent quantitative lit-
+erature has devoted attention to chairs, the main topic has been the
+process by which chairs are selected. Although committee assignments,
+including chair positions, are formally chosen by majority vote in the
+chamber, chairs have historically been allocated by seniority. Violations
+of the seniority rule were rare through most of the 20th century, but the
+seniority norm weakened with a series of reforms initiated in the 1970s
+and further eroded following the election of a new Republican majority
+in 1994 (Aldrich et al., 2013; Jenkins and Stewart III, 2016). The in-
+dependent inﬂuence of chairs is thought to have decreased in recent
+decades due to their increased reliance on the support of their party.
+While the idea that committee chairs are important is not new, prior
+empirical studies have typically focused on only one committee or one
+outcome, and often do not account for selection bias. Committee chair
+positions are clearly desirable, as evidenced by low retirement rates
+
+☆ We thank Francisco Simian for research assistance; Adam Bonica, Jordi Blanes I Vidal, Mirko Draca, Christian Fons-Rosen, Charles Stewart, Craig Volden, and Alan Wiseman for
+making data publicly available; and Gary Cox, Alex Fouirnaies, Sandy Gordon, Justin Grimmer, Andy Hall, Tyler Hughes, Bruce Oppenheimer, Alan Wiseman, and seminar participants at
+Chicago, Emory, MPSA, Princeton, Priorat, SPSA, Stanford, UCLA, and Vanderbilt for helpful comments.
+
+⁎ Corresponding author.
+E-mail addresses: crberry@uchicago.edu (C.R. Berry), anthony.fowler@uchicago.edu (A. Fowler).
+
+1 Authors contributed equally.
+
+https://doi.org/10.1016/j.jpubeco.2017.12.002
+Received 28 April 2017; Received in revised form 3 October 2017; Accepted 15 December 2017
+Available online 19 December 2017
+0047-2727/ © 2017 Elsevier B.V. All rights reserved.
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+(Hall and Van Houweling, 1995). Chairs have higher legislative eﬀec-
+tiveness scores (Volden and Wiseman, 2014, 2016) and are lobbied
+more often (Hojnacki and Kimball, 1999). Some studies have docu-
+mented increases in campaign contributions for committee chairs
+(Ansolabehere and Snyder, 1998–1999; Ansolabehere et al., 2002;
+Romer et al., 1994), although these analyses are often not the primary
+focus of these studies. Cohen et al. (2011) ﬁnd that chairs of important
+committees generate more federal spending in their states, but Snyder
+and Welch (2015) call that study into question. Gropper et al. (2013)
+ﬁnd that banks achieve higher returns when the chair of a congressional
+banking committee is from the state of their headquarters. Roberts
+(1990) examines the death of the ranking minority member of the
+Senate Armed Services committee and concludes that it harmed ﬁrms
+connected to the former senator but beneﬁted ﬁrms connected to his
+successor on the committee. Berry and Fowler (2016) ﬁnd that the
+chairs of Appropriations subcommittees but not the chairs of author-
+izing committees generate more federal spending for their constituents
+within the domain of their subcommittee. Examining state legislatures,
+Fouirnaies (2017) ﬁnds that committee chairs garner more campaign
+contributions, and this eﬀect is greater when the chair has more formal
+power.
+
+To further understand the role of committees and chairs in the
+policymaking process, we attempt to provide the most comprehensive
+study of committee positions, including chairs, on a member's power
+and inﬂuence in Congress. We utilize a within-member diﬀerences-in-
+diﬀerences design that allows us to disentangle the eﬀects of committee
+positions from selection into committee positions, and we utilize sev-
+eral diﬀerent outcome measures—legislative eﬀectiveness
+scores,
+campaign contributions, and the implied value of being lobbies—that
+capture various aspects of a member's inﬂuence. In general, gaining a
+seat on an important committee only modestly increases a member's
+inﬂuence, but becoming chair of a committee signiﬁcantly increases a
+member's inﬂuence. When possible, we test whether the eﬀect of
+committee positions changed after the 1994 election, as predicted in the
+literature, and although we do detect some changes, we still detect
+meaningful eﬀects of chairs in the modern era. In the case of campaign
+contributions, we conduct additional tests within industries and show
+that committee membership can increase campaign contributions from
+related industries, although becoming chair dramatically increases
+campaigning contributions from both related and unrelated industries.
+Lending further credibility to our results, we rule out the possibility that
+our estimates are plagued by committee seniority, and we obtain nearly
+identical results using an instrumental variables strategy that is not
+plagued by the potentially non-random violations of the seniority norm.
+Lastly, we ﬁnd evidence of anticipatory eﬀects in the case of campaign
+contributions but not legislative eﬀectiveness, meaning that some so-
+phisticated contributors appear to predict who will become chair and
+begin contributing to those members beforehand.
+
+Our results will probably be most interesting to political economists
+who want to understand how political institutions shape the policy-
+making process. Furthermore, because we utilize campaign contribu-
+tions as one measure of power and inﬂuence, our results also contribute
+to the literature on money in politics. The fact that chairs—senior
+legislators who are typically electorally safe—receive a large bump in
+campaign contributions may tell us something about the motivations of
+contributors. Some contributors appear less interested in inﬂuencing
+election results and more interested in supporting incumbents who are
+expected to win and be powerful in the next session, suggesting that
+these contributors hope that their donation will buy some kind of policy
+favor (e.g., Baron, 1989). And we ﬁnd evidence that some contributors,
+particular institutional contributors, are quite sophisticated, giving not
+to those who are chair now but those who will be chair in the near
+future. Of course, we cannot rule out the possibility that these con-
+tributions are made for consumption (Ansolabehere et al., 2003), and
+perhaps contributors get more consumption when they give to im-
+portant members who are frequently covered in the news. In any case,
+
+our evidence suggests that the current structure of institutions in Con-
+gress allows a small number of committee chairs to disproportionately
+inﬂuence the policymaking process.
+
+1. Theoretical motivation
+
+Although there is little empirical evidence on the importance of
+committee chairs, we believe there are good substantive and theoretical
+reasons to suspect that these institutional positions are rather im-
+portant. The chair is essentially the committee's agenda setter (Oleszek
+et al., 2016, pp. 116–133). In the contemporary Congress, her authority
+includes the ability to hire, ﬁre, and direct most committee staﬀ, refer
+bills to subcommittees, schedule or block hearings and markup, and run
+committee meetings. The chair wields both positive and negative
+agenda control. When she opposes a bill, she may delay or refuse to
+schedule hearings, withhold staﬀ resources, or invite opponents of the
+bill to testify. When she favors a bill, she may refer it to a friendly
+subcommittee, schedule expeditious hearings, devise parliamentary
+strategy, represent it favorably to the media, devote staﬀ attention to it,
+and see that it gets ﬂoor action. After a bill is passed, the relevant
+committee chair typically proposes a slate of members to serve on the
+conference committee and serves on the committee herself, and after a
+law is enacted, the chair can schedule more hearings to inﬂuence the
+way bureaucrats implement the law.
+
+Among the chair's greatest agenda-setting powers is the ability to
+craft the document that will be used by the committee for markup
+purposes. The chair may elect to use a bill as introduced by another
+member or direct staﬀ to make changes to the document that reﬂect the
+chair's own policy preferences (Schneider, 2014). Importantly, the
+committee starts with the text as delivered to them by the chair. This
+draft is commonly referred to as “the chair's mark,” and forms the
+starting point for committee negotiations. Moreover, any changes to the
+chair's mark must be approved by a majority vote of the committee.
+
+The chair's role with respect to the committee closely resembles that
+of the agenda setter in canonical models of spatial policymaking
+(McKelvey, 1976; Romer and Rosenthal, 1978, 1979) or distributive
+politics (Baron and Ferejohn, 1989). In these models, the proposer can
+often achieve favorable policy outcomes or extract a signiﬁcant portion
+of resources for herself because voting against her proposal is costly,
+either because extra rounds of voting are costly or because the policy
+will revert to an undesirable outcome.2 More recent distributive models
+suggest that the ﬁrst proposer can extract virtually all of the available
+resources when passage of a proposal does not require unanimity and
+when some committee members have no chance of being the proposer
+in the next period (Ali et al., 2014), and both of these conditions appear
+to be met in congressional committees. In other words, combining
+substantive knowledge about chairs with existing models produces a
+clear prediction that becoming committee chair should signiﬁcantly
+increase a member's ability to pursue her legislative agenda, garner a
+greater share of distributive resources, and generally inﬂuence policy.
+We test this prediction empirically utilizing several measures of legis-
+lative inﬂuence.
+
+2. Methodology
+
+Some aspects of legislative power may derive from the individual
+characteristics of legislators themselves, such as their charisma, bar-
+gaining ability, fund-raising acumen, or parliamentary skill. We are
+
+2 There are qualiﬁcations to the power of agenda setters in these kinds of models. For
+example, when policy is multidimensional, sophisticated committee members can
+sometimes limit the power of the agenda setter by voting against their sincere interests
+(Shepsle and Weingast, 1984), and there can even be situations where proposal power
+makes a committee member worse oﬀ (Anesi and Seidmann, 2014). Our empirical results
+cannot resolve theoretical debates within the agenda-setting literature, but we show that
+as predicted by most models, agenda setters are indeed powerful in the U.S. Congress.
+
+2
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+interested, however, in the extent to which a member's legislative in-
+ﬂuence is determined by the committee positions she holds. In order to
+separate the eﬀect of committee positions from eﬀects of the innate
+attributes of the legislator, our primary research design is a within-
+member diﬀerences-in-diﬀerences design. For each measure of power
+and inﬂuence, we estimate the following equation using OLS:
+Outcome
+it
+
+β CommitteePosition
+
+Θ MajorityParty
+it
+
++ + +
+
+ε ,
+it
+
+δ
+t
+
+γ
+i
+
+=
+
++
+
+it
+
+(1)
+where γi represents legislator ﬁxed eﬀects, accounting for observable
+and unobservable diﬀerences across members, and δt represents time
+ﬁxed eﬀects, accounting for natural variation of the outcome over time.
+CommitteePositionit is typically a binary variable indicating whether a
+legislator holds a particular committee position in that particular year,
+and we often include multiple committee indicators in the same re-
+gression. We also include an indicator for membership in the majority
+party to account for the fact that changes in committee positions often
+coincide with changes in the majority party, which itself may inﬂuence
+the power and inﬂuence of a member. This also allows us to compare
+the eﬀect of committee positions to that of being in the majority party, a
+comparison of substantive relevance in the literature.3 This design
+implicitly accounts for the possibility that legislative inﬂuence increases
+linearly with chamber seniority because every member gains seniority
+at the same rate.4 We later show that controlling for committee se-
+niority has no impact on our subsequent results. For simplicity and ease
+of interpretation, we drop cases where a member changes parties in the
+middle of the term, and we drop cases where a member is a party leader
+and has no committee positions. When we deviate from this basic
+structure in a particular analysis, we explain the diﬀerences.
+
+Assuming that members joining or leaving a particular committee
+position follow parallel trends, on average, compared to those from the
+same party who do not join or leave that position, β represents the
+average eﬀect of the committee position for those members who ac-
+quire or lose that position within our period of analysis.5 We prefer a
+within-member design because selection onto committees will plague
+any cross-sectional comparison of those with and without a particular
+position. For example, if a seat on Appropriations is desirable, we might
+expect the most competent, ambitious legislators to join that com-
+mittee. So if we ﬁnd that members on Appropriations are more inﬂu-
+ential than those oﬀ the committee, we will have no way of knowing
+whether that diﬀerence is attributable to the committee position or to
+the natural diﬀerences between those who are able or unable to join the
+committee. See Berry and Fowler (2016) for more discussion and evi-
+dence of selection onto committees. Our design accounts for diﬀerences
+between legislators and estimates the eﬀect of committee positions by
+leveraging within-member changes.
+
+3. Data and measures
+
+The exercise of power within Congress is diﬃcult to observe di-
+rectly. Legislative power involves, at a minimum, a member's ability to
+write and pass legislation advancing her own policy agenda, to shape
+
+3 Alternatively, we can more ﬂexibly account for majority-party eﬀects and other
+idiosyncratic trends within party by including time-party ﬁxed eﬀects rather than time
+ﬁxed eﬀects. This approach, which we utilize whenever we are not interested in esti-
+mating the eﬀect of majority party status, produces nearly identical estimates of com-
+mittee eﬀects.
+
+4 We have implemented speciﬁcations that control for higher order polynomials of
+chamber seniority, and this has no impact on our subsequent results. We have also im-
+plemented speciﬁcations with congress-cohort-party ﬁxed eﬀects, allowing for any kind
+of seniority eﬀect, and we obtain similar point estimates, although with this speciﬁcation,
+we lose statistical power as well as the ability to compute state-clustered standard errors.
+5 We will discuss the parallel trends assumption in more detail later. Also, in the
+Appendix, we show that we obtain nearly identical results for chairs using an instru-
+mental variables design which makes diﬀerent and arguably weaker identifying as-
+sumptions.
+
+the content of legislation proposed by others, and the ability to inﬂu-
+ence the votes of her colleagues. To these, one might add the ability to
+inﬂuence the behavior of external actors, such as bureaucratic agencies
+or the other chamber of Congress. Recognizing that we cannot directly
+observe all of the activities just described, we utilize several proxies for
+the extent to which members of Congress are able to inﬂuence the
+legislative process. We believe that a member's legislative inﬂuence,
+however deﬁned, should be reﬂected in at least one of the measures we
+study.
+
+First, we utilize Volden and Wiseman's (2014) legislative eﬀective-
+ness scores, which capture the extent to which bills sponsored by a
+member move through the legislative process. Legislative eﬀectiveness
+scores are designed to measure the extent to which a member moves
+their policy proposals through the legislative process. To be overly
+simplistic, legislators receive higher scores when they sponsor more
+bills, when those bills move further through the legislative process, and
+when those bills are classiﬁed as substantive and/or signiﬁcant; see
+Volden and Wiseman (2014) for more details.
+
+While legislative eﬀectiveness is a straightforward measure of
+power and inﬂuence over the legislative process, we explore additional
+measures for several reasons. First, certain aspects of power and in-
+ﬂuence may not be reﬂected in the sponsoring and outcomes of bills.
+Second, members of Congress can appear to be eﬀective according to
+this measure without actually exerting much independent inﬂuence.
+For example, a chair might appear to be eﬀective because they in-
+troduce a lot of bills, but if they are simply doing the bidding of the
+majority party, they may not be particularly powerful or inﬂuential
+themselves (Adler and Wilkerson, 2013). This would happen when the
+chair is listed by custom as the sponsor of the committee's must-pass
+legislation, for example. In such situations, the legislative eﬀectiveness
+scores may be misleading.6 Therefore, our next set of analyses focuses
+on campaign contributions.
+
+Presumably, if committee positions make legislators more inﬂuen-
+tial in the policymaking process, this should increase their ability to
+raise money for their campaigns. One reason is that more powerful
+members of Congress are more publicly visible and more able to raise
+money from organizations and individuals who derive consumption
+value from contributing (e.g., Ansolabehere et al., 2003). Another po-
+tential reason is that access-oriented contributors try to target the most
+inﬂuential members in order to obtain more information or exert
+greater inﬂuence in the policymaking process. Empirical evidence
+suggests that incumbents receive a signiﬁcant bump in campaign con-
+tributions (Fouirnaies and Hall, 2014) and this bump is particularly
+large for contributors who are more exposed to government regulation
+(Fouirnaies and Hall, 2016). Therefore, increased campaign contribu-
+tions could be a sign that contributors believe a member of Congress has
+become more powerful. If on the other hand, committee chairs are
+merely doing the bidding of others, those seeking to inﬂuence policy
+should not bother courting chairs.
+
+Much of the logic of this measure is that access-seeking contributors
+can reasonably infer which members are inﬂuential and target their
+spending accordingly. In that sense, campaign contributions measure
+perceptions of power rather than actual power, and perceptions may
+not necessarily match reality. However, because access-seeking con-
+tributors closely observe policymaking within their domains and be-
+cause they have strong incentives to ﬁgure out who is powerful, their
+perceptions are likely to be reliable. Furthermore, even if we don't trust
+the perceptions of contributors, campaign donations themselves pro-
+vide a signiﬁcant beneﬁt to members that can be translated into policy
+inﬂuence. Additional campaign funds increase the chances that a
+
+6 However, Volden and Wiseman (2016) argue that few pieces of legislation in the
+modern Congress are actually “must pass,” and therefore, high legislative eﬀectiveness
+scores must reﬂect some degree of eﬀectiveness regardless of a member's committee
+positions.
+
+3
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+member is reelected and can also be used to garner the support of other
+members in order to pass their legislative priorities (Powell, 2017). In
+short, even if campaign contributions are uncompelling as an indirect
+measure of legislative inﬂuence, perhaps because contributors wrongly
+perceive power within the legislature, contributions directly increase a
+member's legislative power, which further justiﬁes their usefulness as a
+measure of inﬂuence. In implementing these tests, we extend the work
+of Romer et al. (1994), Ansolabehere and Snyder (1998–1999), and
+Grimmer and Powell (2016) who also examine the eﬀect of committee
+positions on campaign contributions, although Grimmer and Powell
+utilize a research design that does not allow them to estimate the eﬀect
+of chairs. All data on contributions come from Bonica (2013).
+
+Lobbying provides a third way to measure, indirectly at least, the
+power and inﬂuence of members of Congress. Presumably, if a member
+becomes more powerful and exerts greater inﬂuence over policy, pro-
+fessional lobbyists should work harder to lobby them—something we
+cannot observe, and lobbyists with connections to those members
+should be able to generate more revenue—something we can observe.
+We follow Vidal et al. (2012) in estimating the eﬀect of professional
+lobbyists' connections to members of Congress on their ability to gen-
+erate revenue for their ﬁrms. They analyze data from 1998 to 2008 and
+show that the revenue generated by professional lobbyists decreases
+when a member of Congress that they previously worked for leaves
+Congress. We utilize their data and basic research design while adding
+data on committee chairs to test whether the committee positions of a
+member inﬂuence the revenue generated by a lobbyist connected to
+that member. As a member gains or loses a particular committee po-
+sition, how does the revenue of a connected lobbyist change as a result?
+As with campaign contributions, lobbying revenue is an indirect
+measure of power that partly relies upon the ability of access-seeking
+organizations to infer which members are particularly inﬂuential.
+Again, as with contributions, we suspect that this indirect measure is
+somewhat reliable because these organizations closely observe the
+legislative process and have strong incentives to eﬃciently target their
+eﬀorts. Furthermore, as with contributions, lobbying also provides a
+direct beneﬁt to members of Congress. In one leading view, lobbyists
+subsidize members by increasing their resources and allowing them to
+achieve more of their legislative goals (Hall and Deardorﬀ, 2006). So
+lobbying is both an indirect measure of inﬂuence and also a resource
+that directly impacts a member's legislative power.
+
+Data on congressional committee membership come from Nelson
+(1993) and Stewart and Woon (2011), made available on Charles
+Stewart's website. Appropriations subcommittee membership data
+come from House Appropriations Committee (2010) and Senate
+Appropriations Committee (2008). Identiﬁcation comes from members
+who switch committee positions at some point in our data set. For ex-
+ample, when estimating the eﬀect of becoming chair of any committee
+on legislative eﬀectiveness, we have 149 members who were both chair
+and not chair at some point in our period of study.
+
+4. Results
+
+Our ﬁrst set of analyses, shown in Table 1, focuses on legislative
+eﬀectiveness in the U.S. House from 1973 to 2012. The legislative ef-
+fectiveness variable is scaled so that the mean is 1, so estimated eﬀect
+sizes can be easily interpreted relative to this average.7Volden and
+Wiseman (2014, 2016) show that chairs are more eﬀective than rank-
+and-ﬁle members, and we extend this analysis to investigate more
+speciﬁc relationships. In addition, our research design allows us to
+
+7 The distribution of legislative eﬀectiveness scores is highly skewed to the right. We
+have alternatively conducted all of our subsequent analysis using the natural logarithm of
+legislative eﬀectiveness scores as the dependent variable, and the substantive results are
+unchanged. However, we do not transform these scores for our main analyses in order to
+follow the convention of Volden and Wiseman and to enable comparisons with their
+estimates.
+
+Table 1
+Committee positions and legislative eﬀectiveness, 1973–2012.
+
+DV: Legislative eﬀectiveness score
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Member important committee
+
+Member important committee*Post-
+
+1994
+
+Chair important committee
+
+Chair any committee
+
+Chair any committee*Post-1994
+
+Chair any appropriations subcommittee
+
+Chair any appropriations subcommittee
+
+*Post-1994
+Majority party
+
+Member ﬁxed eﬀects
+Congress ﬁxed eﬀects
+Observations
+Members
+R-squared
+
+−.345
+(.090)
+
+−.336
+(.089)
+
+−.203
+(.071)
+
+2.991
+(.723)
+
+2.864
+(.289)
+
+.976
+(.118)
+
+.919
+(.072)
+X
+X
+8463
+1714
+.653
+
+1.281
+(.084)
+X
+X
+8463
+1714
+.573
+
+1.224
+(.081)
+X
+X
+8463
+1714
+.587
+
+−.215
+(.102)
+.056
+(.134)
+
+2.268
+(.381)
+1.147
+(.467)
+1.090
+(.187)
+−.141
+(.204)
+.874
+(.062)
+X
+X
+8463
+1714
+.656
+
+State-clustered standard errors in parentheses.
+
+better distinguish the eﬀects of committee positions from selection of
+high-ability members into committee positions.8 We focus on the House
+because legislative eﬀectiveness scores are not yet available for the
+Senate.
+
+Column 1 estimates the eﬀect of membership on an important
+committee. Following Shepsle (1989), we classify Appropriations,
+Rules, and Ways and Means as the important committees in the House,
+and in our later analyses, we classify Appropriations, Finance, Foreign
+Relations, and Armed Services as the important committees in the
+Senate. First, we conﬁrm Volden and Wiseman's ﬁnding that a member
+is more eﬀective when she is in the majority party—about 1.3 points
+more eﬀective. Also in Column 1, we ﬁnd that a rank-and-ﬁle seat on an
+important committee, if anything, actually decreases eﬀectiveness. We
+estimate that joining Appropriations, Rules, or Ways and Means in the
+House decreases eﬀectiveness by .3 points, and this estimate is statis-
+tically signiﬁcant. One potential explanation is that this committee
+work takes time away from members' own legislative proposals, and
+perhaps these committee positions allow members to exert inﬂuence in
+other ways that are less readily observable. In any case, we ﬁnd no
+evidence that a seat on an important committee beneﬁts a member's
+legislative inﬂuence.
+
+Column 2 adds an additional variable indicating whether a member
+is a chair of an important committee. Here, we estimate that becoming
+chair of an important committee increases a member's legislative ef-
+fectiveness by 3 points, an eﬀect that is substantively larger than the
+eﬀect of being in the majority and highly statistically signiﬁcant
+(p < .001). In Column 3, we estimate the eﬀect of becoming chair of
+any committee or any Appropriations subcommittee, and we ﬁnd large
+eﬀects. The average eﬀect of a chair position is 2.9 points, and the
+average eﬀect of becoming chair of an Appropriations subcommittee is
+1 point, and both eﬀects are highly statistically signiﬁcant (p < .001).
+Also in Column 3, we see that the estimated eﬀect of being in the
+majority party shrinks when we include indicators for chairs of com-
+mittees and Appropriations subcommittees, suggesting that some of the
+eﬀect of majority party status is explained by the fact that a member
+must be in the majority party in order to be a chair.
+
+8 Volden and Wiseman do not claim to estimate causal relationships, but rather asso-
+ciations between legislative eﬀectiveness and committee positions (see Volden and
+Wiseman, 2014, p. 43, fn. 61).
+
+4
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+In Column 4, we replicate the speciﬁcation from Column 3 but add
+interactions. Speciﬁcally, we test whether the eﬀect of committee po-
+sitions changed after the Republican revolution of 1994. As discussed
+previously, some scholars suggest that when the Republicans took
+control of the House, they took power away from committee chairs and
+spread it more evenly across the majority party. We ﬁnd little evidence
+that the eﬀect of committee or chair positions changed after the
+Republican revolution. Rank-and-ﬁle membership on important com-
+mittees has little eﬀect on legislative eﬀectiveness, but chair positions
+have a large eﬀect, and these estimated eﬀects are comparable before
+and after 1994. If anything, the eﬀect of being committee chair in-
+creased after 1994. The results of this table suggest that a signiﬁcant
+share of legislative inﬂuence in Congress is concentrated among the few
+important chairs of committees and Appropriations subcommittees.
+
+Interestingly, we also ﬁnd evidence of signiﬁcant selection into
+chair positions. If we remove the member ﬁxed eﬀects from the re-
+gression in Column 2, we see that chairs of important committees have
+legislative eﬀectiveness scores that are 4.5 points higher than other
+majority members of those committees, but our diﬀerences-in-diﬀer-
+ences design estimates an eﬀect of only 3.0 points. Similarly, if we re-
+move the member ﬁxed eﬀects from the regression in Column 3, the
+coeﬃcient for chairs is 3.8 as opposed to 2.9. This suggests that the
+kinds of members who become chairs were already more eﬀective
+legislators before they became chair, an interesting ﬁnding in and of
+itself that further suggests that cross-sectional comparisons of chairs
+and rank-and-ﬁle members like those of Volden and Wiseman (2014)
+will signiﬁcantly overstate the eﬀect of chair positions. Here, we ﬁnd
+evidence of both signiﬁcant selection into chair positions and sub-
+stantively meaningful eﬀects of chair positions.
+
+Table 2 presents our results for campaign contributions in the U.S.
+House which cover 1979–2012. Estimates for the Senate are similar but
+statistically less precise. The dependent variable is the natural loga-
+rithm of the total dollars raised by an incumbent member during an
+electoral cycle.9 Incumbents who chose not to seek reelection are ex-
+cluded,10 and we drop redistricting years where campaign contribu-
+tions could potentially change because of changes in district boundaries
+and where it can be diﬃcult to merge committee positions and cam-
+paign contributions. In all other respects, the speciﬁcations in Table 2
+are identical to those in Table 1.
+
+According to our estimate in Column 1, joining an important com-
+mittee increases campaign contributions by 4 percent, although this
+estimate is not statistically signiﬁcant and smaller than the 6 percent
+estimate associated with being a member of the majority party.
+Therefore, rank-and-ﬁle membership on an important committee has
+minor implications for a member's ability to raise money, and access-
+oriented contributors don't seem to believe that a member has become
+notably more inﬂuential as a result of joining one of these committees.
+In Column 2, the estimated eﬀect of becoming chair of an important
+committee is imprecisely measured, because there are only three im-
+portant committees according to our classiﬁcation, but the point esti-
+mate suggests that becoming chair of an important committee more
+
+Table 2
+Committee Positions and Campaign Contributions, 1979–2012.
+
+DV: log(contributions + 1)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Member important committee
+
+Member important committee*Post-1994
+
+.039
+(.114)
+
+.041
+(.113)
+
+.085
+(.117)
+
+.035
+(.204)
+.058
+(.145)
+
+Chair important committee
+
+Chair any committee
+
+Chair any committee*Post-1994
+
+Chair any appropriations subcommittee
+
+Chair any appropriations subcommittee
+
+*Post-1994
+Majority party
+
+Member ﬁxed eﬀects
+Election cycle ﬁxed eﬀects
+Observations
+Members
+R-squared
+
+1.045
+(.582)
+
+.058
+(.034)
+X
+X
+5387
+1362
+.546
+
+.038
+(.036)
+X
+X
+5387
+1362
+.547
+
+State-clustered standard errors in parentheses.
+
+.692
+(.232)
+
+.679
+(.151)
+
+.954
+(.333)
+−.431
+(.361)
+1.481
+(.642)
+−1.118
+(.646)
+−.053 −.032
+(.042)
+(.043)
+X
+X
+X
+X
+5387
+5387
+1362
+1362
+.549
+.549
+
+than doubles campaign contributions. In Column 3, we estimate the
+eﬀect of becoming chair of any committee or any Appropriations sub-
+committee. In both cases, the estimated eﬀect on campaign contribu-
+tions is substantively large—68 and 69 percent, respectively—and
+statistically signiﬁcant (p < .005) but not as large as the estimated
+eﬀect of becoming chair of an important committee.11
+
+Our results in Column 4 are consistent with the conjecture that
+committee chairs became less powerful after the Republican revolution.
+The estimated eﬀects of being chair of any committee or any
+Appropriations subcommittee are smaller after 1994, although neither
+diﬀerence is statistically signiﬁcant. The estimates suggest that the
+average eﬀect of any chair position was about 0.92 log points before
+and 0.52 afterward, and the average eﬀect of being chair of an
+Appropriations subcommittee was 1.48 log points before and 0.36
+afterward.12 Furthermore, these interactive eﬀects do not appear to
+simply result from secular trends. When we vary the speciﬁc cutoﬀ for
+the Republican revolution, the genuine cutoﬀ of 1994 yields the most
+negative interactive coeﬃcient for Appropriations subcommittee chairs
+and the second most negative interactive coeﬃcient for chairs, sug-
+gesting a sudden change in the concentration of power after 1994.
+Nonetheless, we do not have enough statistical precision to draw strong
+conclusions from this analysis.
+
+To summarize the results in Table 2, a seat on an important com-
+mittee has little eﬀect on the campaign contributions of a member, but
+becoming a committee chair has large eﬀects, suggesting that access-
+oriented contributors assign little weight to committee membership but
+
+9 We use the logarithm of contributions because contributions are highly skewed and
+because this allows our coeﬃcients to be interpreted as proportionate changes. From the
+deﬁnition of the natural log, the predicted proportionate change associated with joining a
+committee is exp( ̂β) − 1, and the predicted proportionate change associated with leaving
+a committee is exp(− ̂β) − 1. However,
+̂β and − ̂β are close approximations to these
+̂β, the approximation
+̂β, and for large values of
+numbers, respectively, for small values of
+is bounded by the exact estimates—i.e., −[exp(− ̂β) − 1] ≤ ̂β ≤ [exp( ̂β) − 1] ∀ ̂β.
+10 When a member retires, they typically do not raise meaningful campaign funds, so
+we must drop a member's ﬁnal term. This form of attrition could potentially bias our
+subsequent estimates if members retire strategically (i.e., because they failed to raise a lot
+of money) and if the extent of strategic retirement depends upon whether a member is
+chair. This concern is one reason that our analysis of legislative eﬀectiveness is arguably
+cleaner and more straightforward, but in any case, we suspect strategic retirement is quite
+rare among members of Congress who eventually become committee chairs. Almost all of
+them serve long careers and appear to retire by choice at an old age.
+
+11 The estimated eﬀect of being chair of any committee is not exclusively driven by the
+estimated eﬀect of being chair of an important committee. When we explicitly estimate
+the eﬀect of being chair of a non-“important” committee, we obtain a coeﬃcient of
+.599—a 60 percent eﬀect, just below the average eﬀect across all committee reported in
+Column 3.
+
+12 To obtain the estimated eﬀect post 1994, we add the interactive and non-interactive
+coeﬃcients together. Note that the main eﬀect associated with “post-1994” is subsumed
+by the election cycle ﬁxed eﬀects. Also note that we cannot separately estimate the eﬀect
+of majority party before and after 1994 because the Democrats held the majority for the
+entire period before the Republican revolution. For large coeﬃcients, the interpretation
+of log points as proportionate changes is less straightforward. For example, the coeﬃcient
+of 1.48 suggests that as a member becomes chair of an Appropriations subcommittee,
+their campaign contributions, on average, increase by more than 300 percent (exp
+{1.48} − 1 ≈ 3.39), and as a member loses this chair position, their campaign con-
+tributions, on average, decrease by 77 percent (−exp{−1.48} + 1 ≈ .77).
+
+5
+
+C.R. Berry, A. Fowler
+
+Table 3
+Committees and contributions from related and unrelated industries.
+
+Journal of Public Economics 158 (2018) 1–11
+
+Agriculture
+
+Armed services
+
+Energy
+
+Financial services
+
+Natural resources
+
+Transp.
+
+Pooled
+
+Naive
+
+DV: log(contributions from related industries +1)
+Member
+
+Chair
+
+DV: log(contributions from unrelated industries +1)
+Member
+
+Chair
+
+Cycle-party ﬁxed eﬀects
+Member ﬁxed eﬀects
+Cycle-party-industry ﬁxed eﬀects
+Member-industry ﬁxed eﬀects
+Observations
+
+.083
+(.092)
+1.240
+(.121)
+
+.060
+(.230)
+.481
+(.420)
+X
+X
+
+1.117
+(.162)
+.417
+(.539)
+
+−.066
+(.178)
+.481
+(.298)
+X
+X
+
+1.679
+(.350)
+.249
+(.924)
+
+.069
+(.182)
+.220
+(.197)
+X
+X
+
+.473
+(.103)
+.966
+(.216)
+
+−.212
+(.143)
+.876
+(.226)
+X
+X
+
+5387
+
+5387
+
+5387
+
+5387
+
+.176
+(.200)
+1.256
+(.086)
+
+.122
+(.138)
+.617
+(.138)
+X
+X
+
+5387
+
+.371
+(.111)
+.561
+(.130)
+
+.037
+(.123)
+.498
+(.462)
+X
+X
+
+5387
+
+.622
+(.073)
+.730
+(.258)
+
+−.003
+(.058)
+.516
+(.142)
+
+X
+X
+32,322
+
+1.378
+(.047)
+1.281
+(.358)
+
+−.024
+(.028)
+.000
+(.259)
+
+X
+
+32,322
+
+State-clustered standard errors in parentheses.
+
+believe that committee chairs are particularly inﬂuential. We also ﬁnd
+that the distribution of power in Congress appears to have shifted after
+the Republican revolution, with committees and chairs becoming less
+important, although in both periods, the eﬀect of becoming a chair is
+notably higher than the eﬀect of being in the majority party or serving
+as a rank-and-ﬁle member on an important committee.
+
+Instead of examining all contributions, we can further narrow our
+focus to contributions from PACs related to the industries governed by a
+particular committee. If a committee position increases policy inﬂuence
+within the domain of the committee, we should see a particularly large
+increase in contributions from industries connected to the committee.
+The Center for Responsive Politics (CRP) maintains a data set indicating
+which industries are governed by 6 diﬀerent committees in the
+House—Agriculture, Armed Services, Energy, Financial Services,
+Natural Resources, and Transportation. CRP's classiﬁcations vary
+slightly over time, so we take the most expansive deﬁnition and classify
+an industry as related to a committee if it was ever connected to that
+committee in any term by CRP. Then, for each committee, we calculate
+the total contributions received by each member in each election cycle
+from industries related to that committee. This allows us to test whether
+joining or becoming chair of one of these 6 committees increases
+campaign contributions from industries related to the domain of the
+committee.
+
+Table 3 presents the results of this analysis. The top panel tests
+whether committee members or chairs get more contributions from
+related industries. Grimmer and Powell (2016) show that being exiled
+from the Energy Committee decreases energy contributions, and we
+replicate this result with our design. In fact, we obtain the largest eﬀect
+of committee membership for this particular committee. When we pool
+across all 6 committees in Column 7, including cycle-party-industry
+ﬁxed eﬀects and member-industry ﬁxed eﬀects, we estimate that
+joining a committee increases contributions from related industries by
+62 percent, and becoming chair increases related contributions by an
+additional 73 percent over and above the eﬀect of being a committee
+member. Therefore, within the domain of a committee, we detect large
+eﬀects of committee membership and chair eﬀects that are more than
+double the eﬀect of simply joining the committee. In Column 8, to il-
+lustrate the extent of selection onto committees and into the position of
+committee chair, we exclude member-industry ﬁxed eﬀects, leaving a
+naive cross-sectional comparison of members, chairs, and non-mem-
+bers. Here, the estimated eﬀect of committee membership and chairs
+are approximately double the within-member estimates, suggesting that
+committee members and chairs were already receiving signiﬁcantly
+more contributions from related industries before joining the com-
+mittee or becoming chair.
+
+In the bottom panel of Table 3, we repeat the same analyses using
+
+Table 4
+Committee positions and lobbying value, 1998–2008.
+
+DV: log(revenue per lobbyist)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Senate
+
+Member senate ﬁnance
+
+Chair senate ﬁnance
+
+House
+
+Member house ways and means
+
+Chair house ways and means
+
+Member important committee
+
+Chair important committee
+
+Chair any committee
+
+Chair any approp. sub.
+
+Lobbyist ﬁxed eﬀects
+Period-party ﬁxed eﬀects
+Observations
+Lobbyists
+R-squared
+
+.064
+(.118)
+
+.062
+(.117)
+
+.055
+(.118)
+
+.082
+(.117)
+.243
+(.126)
+
+.075
+(.117)
+.228
+(.124)
+.452
+(.134)
+
+(.063)
+.370
+(.164)
+.180
+(.378)
+
+−.056 −.058 −.027 −.029 −.031
+(.063)
+(.066)
+.392
+(.152)
+
+(.065)
+
+(.065)
+
+.147
+(.081)
+
+.141
+(.081)
+.142
+(.077)
+
+X
+X
+10,418
+1113
+.739
+
+X
+X
+10,418
+1113
+.739
+
+X
+X
+10,418
+1113
+.738
+
+X
+X
+10,418
+1113
+.738
+
+.147
+(.081)
+
+.067
+(.042)
+−.033
+(.060)
+X
+X
+10,418
+1113
+.738
+
+Lobbyist-clustered standard errors in parentheses.
+
+contributions from unrelated industries as the outcome instead. Here,
+we detect virtually no eﬀect of committee membership on unrelated
+contributions, but we continue to detect a large eﬀect for chairs. Be-
+coming chair of one of these committees increases contributions from
+unrelated committees by 52 percent. And because only 6 percent of a
+committee member's contributions come from within the domain of
+their committee, on average, the ﬁnancial implications of becoming
+chair signiﬁcantly swamp those of simply becoming a rank-and-ﬁle
+committee member.
+
+Table 4 presents our lobbying results. Because this analysis focuses
+on lobbyists rather than members of Congress, we deviate from the
+basic design outlined in Eq. (1). In this case, each observation re-
+presents a lobbyist-period, where periods represent 6-month intervals
+for which lobbyist revenue can be measured. All regressions include
+lobbyist ﬁxed eﬀects and period-party ﬁxed eﬀects, where the party of
+each lobbyist is deﬁned by the members of Congress that they pre-
+viously worked for. Our analysis only includes lobbyists who previously
+
+6
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+worked for a member of Congress, and in cases where a lobbyist worked
+for multiple members from diﬀerent parties or for a member that
+changed parties, we create a separate category of ambiguous parti-
+sanship. Period-party ﬁxed eﬀects capture the possibility of diﬀerential
+time trends for lobbyists from diﬀerent parties. We might expect De-
+mocratic lobbyists to perform better when the Democrats are in control,
+and vice versa. Following Vidal et al. (2012), the dependent variable is
+the natural logarithm of revenue per lobbyist, and all independent
+variables are counts, indicating the number of members of Congress in a
+particular category to which a lobbyist is connected. Because the vast
+majority of lobbyists are only connected to one member, in most cases
+these variables take values of 0 or 1, and the results are unchanged if we
+recode all of these variables as binary indicators.
+
+Blanes I Vidal, Draca, and Fons-Rosen ﬁnd that connections to
+members of the Senate Finance or House Ways and Means commit-
+tees—arguably the most desirable committees in each chamber—are
+particularly valuable, and we replicate this result in Column 1. We in-
+clude variables for connections to any member of the House, any
+member of the Senate, and members of Senate Finance and House Ways
+and Means. Identiﬁcation of committee eﬀects comes from connected
+members who join or leave these committees or from committee
+members who leave oﬃce. A connection to a member of the Senate
+Finance Committee appears to increase a lobbyist's revenue by 24
+percent (p = .054), and a connection to the House Ways and Means
+Committee has an even larger 39 percent eﬀect (p = .010).
+
+While these committee eﬀects are substantively large, the value of
+being connected to the chairs, a relationship not investigated by Blanes
+I Vidal, Draca, and Fons-Rosen, is even larger. In Column 2, we add
+variables indicating connections to the chairs of these committees. A
+connection to the Senate Finance chair increases revenue by 45 percent
+over and above a connection to a regular member of Senate Finance
+(p = .001), and a connection to the House Ways and Means chair in-
+creases revenue by 18 percent, although this diﬀerence is not statisti-
+cally signiﬁcant. Put another way, a connection to the Senate Finance
+chair increases revenue by 68 percent relative to a connection to a rank-
+and-ﬁle senator, and a connection to the House Ways and Means chair
+increases revenue by 55 percent relative to a rank-and-ﬁle member of
+the House.
+
+In Columns 3–5, we recode our committee variables to mirror our
+previous analyses. In Column 3, we ﬁnd that a connection to any
+member of an important committee in the House or Senate increases
+revenue by 15 percent. In Column 4, we ﬁnd that a connection to any
+chair of an important committee further increases revenue by an ad-
+ditional 14 percent. In Column 5, we detect a small, positive eﬀect for
+chairs of any committee, 7 percent, and a small, negative point estimate
+for chairs of any Appropriations subcommittee. To summarize, con-
+nections to a few important committees appear to be particularly va-
+luable for lobbyists, suggesting that those committees are particularly
+inﬂuential—or at least that the clients of lobbyists believe them to be
+inﬂuential. By this measure, the chairs of these important committees
+are signiﬁcantly more inﬂuential than the rank-and-ﬁle members of
+these committees, consistent with our previous results. While important
+committee seats appear to modestly increase the inﬂuence of a member
+of Congress, much of the power of committees appears to be con-
+centrated among chairs.
+
+The preceding analyses utilize a within-member diﬀerence-in-dif-
+ferences design to identify the eﬀect of committee positions on several
+outcomes meant to reﬂect a member's inﬂuence within the chamber.
+This design eﬀectively compares the average outcome in the years in
+which the member held the committee position (e.g., chair of any
+committee) to the average outcome in the years in which the member
+did not hold the position while accounting for time trends. This design
+implicitly assumes that the eﬀect of holding a committee position be-
+gins when the member has stepped into the position. In other words, a
+member does not gain the advantages associated with being a com-
+mittee chair until after she has become chair. Yet sophisticated
+
+observers might reasonably predict who will become chair of a parti-
+cular committee in the near future: with rare exceptions, the longest
+serving member of the majority party will become chair. Given the
+predictability of the identity of future chairs, we might expect next-in-
+line members to accumulate inﬂuence before becoming chair. Fellow
+legislators who want to curry favor with future chairs may support
+those legislators and thus increase their legislative eﬀectiveness scores.
+Access-oriented contributors may look ahead and target future chairs,
+increasing their campaign funds before they become chair. And simi-
+larly, ﬁrms and interest groups who lobby may speciﬁcally target future
+chairs, increasing the revenue of lobbyists connected to them before
+they become chair.
+
+To our knowledge, there is no formal, institutional power conferred
+to soon-to-be chairs. Therefore, the extent to which a soon-to-be chair
+will gain inﬂuence before actually becoming chair depends on the be-
+havior and expectations of other actors. As discussed above, an antici-
+patory eﬀect on legislative eﬀectiveness would require fellow legisla-
+tors to look ahead and support the legislation of future chairs. For
+campaign contributions, individuals and PACs would have to target
+spending toward members likely to become chairs in the future. And
+lobbyists would have to devote more attention to future chairs as well.
+All of these anticipatory eﬀects are theoretically plausible, perhaps
+particularly so for campaign contributions. Since most campaign con-
+tributions are made in the latter half of a congressional term when
+members are coming up for reelection, contributors might care less
+about which members are powerful in the current term, and they may
+care more about who will be powerful in subsequent terms.
+
+We ﬁrst address these questions with an event history analysis, the
+results of which are depicted in Fig. 1. The graph shows coeﬃcients
+from diﬀerence-in-diﬀerences analyses which closely mirror our pre-
+vious speciﬁcations. We regress legislative eﬀectiveness scores and
+logged campaign contributions on member ﬁxed eﬀects, congress-party
+ﬁxed eﬀects, and a series of binary variables indicating when a member
+became or will become chair. Unfortunately, we do not have a long
+enough time series of lobbying data to conduct this analysis for lob-
+bying. Rather than employing a single indicator for chairs as we do in
+our previous analyses, we code the number of terms before and after
+becoming chair using separate indicators. Speciﬁcally, −2 indicates a
+member who is not chair in the current term but will be in two terms,
+−1 indicates a member who is not chair in the current term but will be
+the next term, 0 indicates a member in her ﬁrst term as chair; 1 is a
+member in her second term as chair; and 2+ indicates a chair with two
+or more terms of experience as chair. Therefore, the omitted category
+comprises situations where a member is not chair and will not be chair
+within the next two terms.
+
+In the case of legislative eﬀectiveness (top panel), there is little
+evidence of a “pre-treatment” bump for those on the verge of becoming
+chair. Virtually all of the beneﬁts of being chair—approximately a 3
+point increase in legislative eﬀectiveness—are realized in the ﬁrst term
+as chair, and remain relatively constant thereafter. This result partly
+conﬂicts with those of Volden and Wiseman (2016) who report that the
+eﬀectiveness of chairs increases with experience as chair. One ex-
+planation for the discrepancy is that we utilize a within-member design
+while Volden and Wiseman compare across members, and there could
+be selection into experience as chair. The combination of these results
+suggests that the kinds of members who become chair for many terms
+are highly eﬀective, but more experience as chair does not necessarily
+cause eﬀectiveness to increase.
+
+With campaign contributions (bottom panel of Fig. 1), by contrast,
+beneﬁts accumulate before a member actually becomes chair. Even two
+and three terms out, would-be chairs are garnering about 40 percent
+more contributions, and this advantage grows as a member gets closer
+to being chair and as the number of terms as chair increases. The results
+of the event-study suggest that, for contributions but not for legislative
+eﬀectiveness, would-be chairs appear to realize the beneﬁts of their
+position before becoming chair. A plausible explanation for this result is
+
+7
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+Fig. 1. Event history analysis.
+The ﬁgure presents the results of diﬀerences-in-diﬀerences re-
+gressions where legislative eﬀectiveness of logged campaign
+contributions are regressed on member ﬁxed eﬀects, congress-
+party ﬁxed eﬀects, and a series of indicators for when a member
+became or will become chair. The estimated coeﬃcients asso-
+ciated with those indicators are shown the ﬁgure, and the
+omitted category includes members who used to be chair, will
+never become chair, or will not become chair for at least 4 more
+terms.
+
+that sophisticated contributors believe chairs are important,
+ahead, and anticipate who will become chair in the near future.
+
+look
+
+Of course, other interpretations may also be consistent with the
+results of our event history analysis. One possibility is that our results
+on campaign contributions are confounded by committee seniority. The
+members who are about to become chair are typically some of the most
+senior members of their committee, and seniority might have an in-
+dependent eﬀect over above being chair, which might explain why
+these members receive more campaign contributions. Suppose, for ex-
+ample, that legislative inﬂuence increases linearly with committee se-
+niority and chairs are only important insofar as they have a lot of
+committee seniority. In this case, our previous analyses that don't ex-
+plicitly account for committee seniority would overstate the importance
+of chairs, although previous evidence suggests that seniority in
+Congress may not be as important as traditionally thought (Fowler and
+Hall, 2015).
+
+To account for the independent eﬀects of committee seniority, we
+code a seniority variable based on the committee ranks reported by the
+parties at the beginning of each congressional session and assembled by
+Nelson (1993) and Stewart and Woon (2011). For each committee and
+party, we rescale these ranks so that the most senior member of each
+committee from each party takes a value of 1 and the most junior
+member takes a value of 0. Then, for each congress, we compute the
+maximum value of this variable for each member across all committees.
+The resulting variable ranges from 0 to 1 and indicates the maximum
+seniority of each member in each congress across all committees. In
+Table 5, we regress legislative eﬀectiveness scores and logged campaign
+contributions on an indicator for a chair of any committee, an indicator
+for a ranking minority member of any committee, seniority, seniority
+interacted with majority party status, member ﬁxed eﬀects, and
+
+Table 5
+Committee seniority.
+
+Legislative eﬀectiveness
+
+Campaign contributions
+
+Chair
+
+Ranking minority member
+
+Seniority
+
+Seniority*Majority
+
+Member ﬁxed eﬀects
+Congress-party ﬁxed eﬀects
+Observations
+R-squared
+
+2.491
+(.318)
+−.113
+(.121)
+−.168
+(.128)
+1.593
+(.198)
+X
+X
+8463
+.664
+
+State-clustered standard errors in parentheses.
+
+.684
+(.178)
+.530
+(.181)
+−.741
+(.236)
+.206
+(.261)
+X
+X
+5387
+.553
+
+congress-party ﬁxed eﬀects. The coeﬃcient associated with seniority
+gives the eﬀect of committee seniority for the minority party, and the
+sum of this coeﬃcient and the interactive coeﬃcient give the eﬀect for
+the majority party.
+
+Somewhat surprisingly given the results in Fig. 1, we detect a po-
+sitive eﬀect of committee seniority for legislative eﬀectiveness, parti-
+cularly for the majority party, and a negative eﬀect of committee se-
+niority for campaign contributions. We also detect a positive eﬀect of
+becoming ranking minority member for campaign contributions but not
+for legislative eﬀectiveness. Most importantly for our main conclusions,
+the estimated eﬀect of chairs remains substantively large, statistically
+signiﬁcant, and relatively unchanged, even after controlling for se-
+niority. Despite the possibility of substantively meaningful seniority
+
+8
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+eﬀects, there is a robust, substantively large chair eﬀect over and above
+committee seniority.
+
+Another potential concern is that parallel trends assumption is
+violated. Our identiﬁcation strategy requires that changes in our out-
+come variables for members who gain or lose a chair would have, on
+average, followed the same trend as other members had they never
+been chair.13 One particular concern is that members are more likely to
+attain the position of chair because they have become more powerful
+and inﬂuential, rather than the other way around. Perhaps the pattern
+in the bottom panel of Fig. 1 reﬂects the fact that members who are
+becoming more inﬂuential are also more able to secure chair positions.
+Fortunately for our purposes, there is only so much that an individual
+member can do to make herself more likely to become chair in a given
+term. The norm is that the member of the majority party that has served
+longest on the committee will typically be chair. However, this norm is
+sometimes violated, and it has been increasingly violated in more re-
+cent Congresses. We might be particularly worried about reverse cau-
+sation—i.e., increasing inﬂuence leading to a chair—in those cases in
+which the seniority norm is violated.
+
+In Table 6, we implement an instrumental variables strategy that
+removes the potentially endogenous variation in chairs arising from
+norm violations and focuses only on the plausibly exogenous variation
+in chairs arising from retirements and majority party switches. We in-
+strument for chairs using a binary variable indicating whether a
+member is the longest serving member of the majority party on a
+committee. The ﬁrst column presents diﬀerences-in-diﬀerences esti-
+mates of the eﬀect of any chair position, closely mirroring the previous
+speciﬁcations. On average, being chair of any committee appears to
+increase legislative eﬀectiveness by 2.5 points and campaign con-
+tributions by 68 percent. The ﬁnal three columns present our instru-
+mental variables results. The second column shows the ﬁrst stage esti-
+mates of the eﬀect of being the longest serving majority party member
+on being chair. Becoming the longest serving member of the majority
+party increases the chances of being chair by 46 percentage points in
+the legislative eﬀectiveness sample, and 51 percentage points in the
+campaign contributions sample. The diﬀerences between these two
+estimates are explained by the diﬀerent time periods of these analyses.
+In both cases, the ﬁrst stage eﬀect is statistically strong, with F-statistics
+of 172 and 145, respectively. The third column shows the reduced form
+eﬀects of being the longest serving majority member on legislative ef-
+fectiveness and campaign contributions. Most importantly, the last
+column shows the two-state least squares estimates of the eﬀect of any
+chair on legislative eﬀectiveness and campaign contributions. These
+estimates are very similar to the diﬀerences-in-diﬀerences estimates,
+suggesting that the possibility of high-ability or high-power members
+becoming chair does not meaningfully bias our results. Even if we just
+focus on the more exogenous variation in chairs that arises from
+changes in the identity of the longest serving majority member, our
+estimates are virtually unchanged.14
+
+13 The pattern we observe in the bottom panel of Fig. 1 does not necessarily mean that
+the parallel trends assumption is violated. This assumption has to do with the counter-
+factual world in which committee positions never change, so even though contributions
+to chairs increase before they become chair, we don't know if they would have increased
+had they not become chair. In other words, contributors who anticipate turnover and act
+accordingly do not create a violation of parallel trends, they lead the eﬀect of chairs to
+begin before a member actually becomes chair.
+
+14 The exclusion restriction would be violated if there were some reason that being the
+most senior member of the majority party inﬂuenced these outcomes for reasons un-
+related to becoming chair. For example, seniority norms might lead the most senior
+member to be more inﬂuential even if she is not chair. However, remember that our
+design implicitly accounts for any linear eﬀect of chamber seniority, and we also control
+for linear eﬀects of committee seniority in these speciﬁcations, although those controls do
+not meaningfully aﬀect our estimates. Furthermore, we do not necessarily contend that
+these instrumental variables estimates are unassailable or even superior to our diﬀer-
+ences-in-diﬀerences results. However, we present them to address concerns about the
+endogenous ascension of some members to chair, and we are reassured that both designs
+produce nearly identical results.
+
+9
+
+Table 6
+Instrumenting for chairs.
+
+Legislative eﬀectiveness
+
+DD
+
+First
+
+Reduced
+
+2SLS
+
+Chair any committee
+
+Longest serving majority member
+
+Member ﬁxed eﬀects
+Congress-party ﬁxed eﬀects
+Controls for committee seniority
+Observations
+R-squared
+F-statistic
+
+2.491
+(.318)
+
+X
+X
+X
+8463
+.664
+
+.456
+(.035)
+X
+X
+X
+8463
+.626
+172
+
+1.013
+(.169)
+X
+X
+X
+8463
+.619
+
+2.219
+(.360)
+
+X
+X
+X
+8463
+
+Campaign contributions
+
+DD
+
+First
+
+Reduced
+
+2SLS
+
+Chair any committee
+
+Longest serving majority member
+
+Member ﬁxed eﬀects
+Congress-party ﬁxed eﬀects
+Controls for committee seniority
+Observations
+R-squared
+F-statistic
+
+.684
+(.178)
+
+X
+X
+X
+5387
+.553
+
+State-clustered standard errors in parentheses.
+
+.729
+(.211)
+
+X
+X
+X
+5387
+
+.509
+(.042)
+X
+X
+X
+5387
+.691
+145
+
+.371
+(.128)
+X
+X
+X
+5387
+.551
+
+As in Table 5, all speciﬁcations include member ﬁxed eﬀects, con-
+gress-party ﬁxed eﬀects, and controls for ranking minority members,
+committee seniority, and committee seniority interacted with the ma-
+jority party.
+
+Although we acknowledge that other interpretations are possible,
+our preferred interpretation of Fig. 1 is that there are anticipatory ef-
+fects of becoming chair that are realized before a member actually
+becomes chair, and these eﬀects are large for campaign contributions
+but not for legislative eﬀectiveness. In Table 7, we test this hypothesis
+more explicitly. Speciﬁcally, we code four dummy variables indicating
+diﬀerent situations in which a member can ﬁnd herself: not chair but
+will be next term, chair now and next term, chair now but not next
+term, and used to be chair. The omitted category includes those who are
+not chair and will not be chair next term. We regress our outcomes of
+interest on each of these four binary variables plus member ﬁxed eﬀects
+and congress-party ﬁxed eﬀects.
+
+If the eﬀects of chair arise from the direct, institutional power of
+chairs in the present term, we would expect no eﬀect for those who are
+not chair but will be in the next term and positive eﬀects for those who
+are chair now, regardless of whether they will be chair in the future.
+This is exactly what we ﬁnd in the case of legislative eﬀectiveness.
+Alternatively, if there are anticipatory eﬀects from sophisticated actors
+hoping to curry favor with future chairs, we should see a positive eﬀect
+for those who are not chair but will be next term, and we should see
+that the eﬀect of being chair is smaller when the chair will not be chair
+in the next term. This is exactly what we ﬁnd in the case of campaign
+contributions. We estimate that the best case scenario for a member is
+when they are chair and will be chair in the next term. Second best is
+actually when a member is not chair but will be chair in the next term.
+And the estimated eﬀect of being chair but not chair in the next term is
+still positive, although not statistically signiﬁcant and notably smaller
+than the eﬀect of being chair now and in the next term. In this explicit
+test of forward-looking behavior, campaign contributors appear to care
+more about who will be chair next term than who is chair now.
+
+If
+
+sophisticated,
+
+forward-looking behavior by access-oriented
+
+C.R. Berry, A. Fowler
+
+Table 7
+Anticipatory eﬀects.
+
+Legislative
+eﬀectiveness
+
+Campaign
+contributions
+
+next term
+
+Not chair but will be
+
+Chair now but not next
+
+−.152
+(.120)
+Chair now and next term 2.741
+(.352)
+2.299
+(.323)
+−.763
+(.241)
+X
+X
+
+Member ﬁxed eﬀects
+Congress-party ﬁxed
+
+Used to be chair
+
+term
+
+eﬀects
+
+Observations
+R-squared
+
+8463
+.644
+
+State-clustered standard errors in parentheses.
+
+.670
+(.137)
+1.177
+(.303)
+.521
+(.273)
+.424
+(.302)
+X
+X
+
+5387
+.552
+
+PACs
+
+1.119
+(.178)
+1.747
+(.356)
+−.630
+(.531)
+−.190
+(.683)
+X
+X
+
+5387
+.494
+
+contributors explains these patterns, we would expect that this pattern
+is stronger among political action committees (PACs) as opposed to
+individual contributors. PACs are institutional contributors giving on
+behalf of ﬁrms and interest groups. We would expect them to be par-
+ticularly strategic in their giving behavior and care about access to
+politicians who will be powerful in the future. Many (but not all) in-
+dividuals, on the other hand, are thought to give to their preferred
+candidates in a non-strategic way. Column 3 of Table 7 replicates the
+analysis in Column 2 but only for contributions from PACs. As expected,
+the patterns detected previously are signiﬁcantly exacerbated for these
+institutional contributors. We estimate a 112 percent eﬀect of not being
+chair but being chair in the next term, and for those who are already
+chair, the diﬀerence between being chair or not in the next term is
+substantively large and highly statistically signiﬁcant (p = .001). To be
+sure, we also see this pattern if we focus only on individual con-
+tributors, some of which are likely strategic and access-seeking, but we
+see far more evidence of anticipatory behavior among PACs. These
+results also suggest that, if anything, our primary speciﬁcation under-
+states the total beneﬁts of being chair, at least for campaign contribu-
+tions, because a member starts to realize these beneﬁts before becoming
+chair.
+
+5. Conclusion
+
+important committees—is
+
+Across a number of diﬀerent measures, we ﬁnd that committee
+chairs are particularly inﬂuential, but rank-and-ﬁle membership on
+committees—even the most
+less con-
+sequential than previously thought. We readily acknowledge, of course,
+that we cannot easily measure all aspects of policy inﬂuence. However,
+we have attempted to observe inﬂuence indirectly through multiple
+measures, and we ﬁnd it hard to imagine examples of legislative power
+that would not be reﬂected in any of these outcomes to some extent. For
+example, suppose a particular committee position increased the ability
+of a member to inﬂuence her peers. This would be virtually impossible
+for researchers to observe and quantify, but to the extent that campaign
+contributors or lobbyists are aware of this eﬀect, it should be reﬂected
+in our estimates. Nevertheless, we believe there is plenty of room for
+future research to extend our research design to other outcomes and
+expand our understanding of how committee positions inﬂuence
+members' legislative fortunes.
+
+Previous work has shown that the distribution of federal spending is
+largely controlled by the leaders of the Appropriations subcommittees
+(Berry and Fowler, 2016). Synthesizing these results with those of the
+current study, chairs of Appropriations subcommittees, the so-call
+“cardinals” of Congress, appear to exert signiﬁcant control over federal
+spending, while the chairs of authorizing committees appear to exert
+signiﬁcant power and inﬂuence over other aspects of policymaking.
+
+Journal of Public Economics 158 (2018) 1–11
+
+These results provide a new understanding of the concentration of
+power within Congress; one small set of members wields dispropor-
+tionate inﬂuence over spending and another small set wields dis-
+proportionate inﬂuence over policy.
+
+We suspect that our ﬁndings would not come as a shock to early
+congressional scholars,
+like Fenno, or to journalistic observers of
+Congress, such as Munson (1993), who recognize committee chairs as
+powerful, independent forces in the legislature. And yet our results
+point to signiﬁcant gaps in current theoretical models of the U.S.
+Congress, where chairs are omitted or disregarded. The gains-from-
+trade model, for instance, emphasizes committee membership as the
+key to acquiring inﬂuence and beneﬁts (e.g., Shepsle and Weingast,
+1981), while partisan models portray chairs as errand boys for the
+majority party (e.g., Cox and McCubbins, 1993). Our results challenge
+both views, suggesting that power is more concentrated than the gains-
+from-trade view suggests yet less centralized than partisan models
+contend. Instead, our results suggest that we should spend more time
+studying the inner workings of committees to understand why chairs
+are so inﬂuential. A small number of committee chairs appear to exert
+disproportionate inﬂuence in the making of public policy in the U.S.
+Congress.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://
+
+doi.org/10.1016/j.jpubeco.2017.12.002.
+
+References
+
+Adler, E. Scott, Wilkerson, John D., 2013. Congress and the Politics of Problem Solving.
+
+Cambridge University Press, New York.
+
+Aldrich, John H., Brittany N. Perry, David W. Rohde. 2013. Richard Fenno's theory of
+
+congressional committees and the partisan polarization in the house. Congress
+Reconsidered, 10th Edition, Lawrence C. Dodd, Bruce I. Oppenheimer (Eds.) CQ Press.
+Ali, S., Nageeb, B., Bernheim, Douglas, Fan, Xiaochen, 2014. Predictability and Power in
+Legislative Bargaining. NBER Working Paper No. 20011. nber.org/papers/w20011.
+
+Anesi, Vincent, Seidmann, Daniel J., 2014. Bargaining over an endogenous agenda.
+
+Theor. Econ. 9 (2), 445–482.
+
+Ansolabehere, Stephen, Snyder Jr., James M., 1998–1999. Money and Institutional
+
+Power. 77. Texas Law Review, pp. 1673–1704.
+
+Ansolabehere, Stephen, Snyder Jr., James M., Tripathi, Micky, 2002. Are PAC contribu-
+
+tions and lobbying linked? New evidence from the 1995 lobby disclosure act.
+Business and Politics 4 (2), 131–155.
+
+Ansolabehere, Stephen, de Figueiredo, John M., Snyder, James M., Jr., 2003. Why is there
+
+so little money in U.S. politics. J. Econ. Perspect. 17 (1), 105–130.
+
+Baron, David P., 1989. Service-induced campaign contributions and the electoral equi-
+
+librium. Q. J. Econ. 104 (1), 45–72.
+
+Baron, David P., Ferejohn, John A., 1989. Bargaining in legislatures. Am. Polit. Sci. Rev.
+
+83 (4), 1181–1206.
+
+Berry, Christopher R., Fowler, Anthony, 2016. Cardinals or clerics? Congressional com-
+
+mittees and the distribution of pork. Am. J. Polit. Sci. 60 (3), 692–708.
+
+Bonica, Adam, 2013. Database on Ideology, Money in Politics, and Elections: Public
+
+version 1.0. Stanford University Libraries. data.stanford.edu/dime.
+
+Cohen, Lauren, Coval, Joshua, Malloy, Christopher, 2011. Do powerful politicians cause
+
+corporate downsizing? J. Polit. Econ. 119 (6), 1015–1060.
+
+Committee, Senate Appropriations, 2008. Committee on Appropriations, United States
+
+Senate, 1867–2008. U.S. Government Printing Oﬃce.
+
+Cox, Gary W., McCubbins, Mathew D., 1993. Legislative Leviathan: Party Government in
+
+the House. University of California Press.
+
+Evans, Lawrence, 1991. Leadership in Committee: A Comparative Analysis of Leadership
+
+Behavior in the U.S. Senate. University of Michigan Press.
+
+Fenno, Richard F., 1966. The Power of the Purse: Appropriations Politics in Congress.
+
+Little, Brown and Company.
+
+Fenno, Richard F., 1973. Congressmen in Committees. Little, Brown and Company.
+Fouirnaies, Alexander, 2017. When Are Agenda Setters Valuable? Am. J. Polit. Sci. http://
+
+dx.doi.org/10.1111/ajps.12316.
+
+Fouirnaies, Alexander, Hall, Andrew B., 2014. The ﬁnancial incumbency advantage:
+
+causes and consequences. J. Polit. 76 (3), 711–724.
+
+Fouirnaies, Alexander, Hall, Andrew B., 2016. The Exposure Theory of Access: Why Some
+Firms Seek More Access to Incumbents than Others. Working paper. bit.ly/2kl1IO7.
+
+Fowler, Anthony, Hall, Andrew B., 2015. Congressional seniority and pork: a pig fat
+
+myth? Eur. J. Polit. Econ. 40, 42–56.
+
+Grimmer, Justin, Powell, Eleanor Neﬀ, 2016. Money in exile: campaign contributions and
+
+committee access. J. Polit. 78 (4), 974–988.
+
+Gropper, Daniel M., Jahera Jr., John S., Park, Jung Chul, 2013. Does it help to have
+
+friends in high places? Bank stock performance and congressional committee chair-
+manships. Journal of Banking and Finance 37, 1986–1999.
+
+10
+
+C.R. Berry, A. Fowler
+
+Journal of Public Economics 158 (2018) 1–11
+
+Hall, Richard L., 1987. Participation and purpose in committee decision making. Am.
+
+Polit. Sci. Rev. 81 (1), 105–128.
+
+Hall, Richard L., 1996. Participation in Congress. Yale University Press.
+Hall, Richard L., Deardorﬀ, Alan V., 2006. Lobbying as legislative subsidy. Am. Polit. Sci.
+
+Rev. 100 (1), 69–84.
+
+Hall, Richard L., Van Houweling, Robert P., 1995. Avarice and ambition in congress:
+
+representatives' decisions to run or retire from the U.S. house. Am. Polit. Sci. Rev. 89
+(1), 121–136. http://dx.doi.org/10.2307/2083079.
+
+Hojnacki, Marie, Kimball, David C., 1999. The who and how of organizations' lobbying
+
+strategies in committee. J. Polit. 61 (4), 999–1024.
+
+House Appropriations Committee, 2010. A Concise History of the House of
+
+Representatives Committee on Appropriations. U.S. Government Printing Oﬃce.
+
+Jenkins, Jeﬀery, Stewart III, Charles, 2016. The Deinstitutionalization (?) of the House of
+Representatives: Reﬂections on Nelson Polsby's “Institutionalization of the House of
+Representatives” at Fifty. Presented at the Congress and History Conference.
+University of Oklahoma. bit.ly/2joe09r.
+
+Manley, John F., 1970. The Politics of Finance: The House Committee on Ways and
+
+Means. Little, Brown and Company.
+
+Matthews, Donald R., Stimson, James A., 1975. Yeas and Nays: Normal Decision-Making
+
+in the U.S. House of Representatives. Wiley.
+
+McKelvey, Richard D., 1976. Intransitives in multidimensional voting models and some
+
+implications for agenda control. J. Econ. Theory 12 (3), 472–482.
+
+Munson, Richard, 1993. The Cardinals of Capitol Hill: The Men and Women Who Control
+
+Government Spending. Grove Press.
+
+Nelson, Garrison, 1993. Committees in the U.S. Congress, 1947–1992. bit.ly/2kImd57.
+Oleszek, Walter J., Oleszek, Mark J., Rybicki, Elzabeth, Heniﬀ, Bill, Jr., 2016.
+Congressional Procedures and the Policy Process, 10th edition. CQ Press.
+
+Powell, Eleanor Neﬀ, 2017. Where Money Matters: A Window Into How Parties Evolve.
+
+Cambridge University Press under contract. bit.ly/2kIpXDV.
+
+Roberts, Brian E., 1990. A dead senator tells no lies: seniority and the distribution of
+
+federal beneﬁts. Am. J. Polit. Sci. 34 (1), 31–58. http://www.jstor.org/stable/
+2111510.
+
+Romer, Thomas, Rosenthal, Howard, 1978. Political resource allocation, controlled
+
+agendas, and the status quo. Public Choice 33 (4), 27–43.
+
+Romer, Thomas, Rosenthal, Howard, 1979. Bureaucrats versus voters: on the political
+economy of resource allocation by direct democracy. Q. J. Econ. 93 (4), 563–587.
+Romer, Thomas, Snyder, James M., Jr., 1994. An empirical investigation of the dynamics
+
+of PAC contributions. Am. J. Polit. Sci. 38 (3), 745–769.
+
+Schneider, Judy, 2014. The Committee Markup Process in the House of Representatives.
+
+Congressional Research Service Monograph.
+
+Shepsle, Kenneth A. 1989. The changing textbook congress. Can the Government Govern?
+
+John E. Chubb, Paul E. Peterson (Eds.). Brookings Institution Press.
+
+Shepsle, Kenneth A., Weingast, Barry R., 1981. Structure-induced equilibrium and leg-
+
+islative choice. Public Choice 37 (3), 503–519.
+
+Shepsle, Kenneth A., Weingast, Barry R., 1984. Uncovered sets and sophisticated voting
+outcomes with implications for agenda institutions. Am. J. Polit. Sci. 28 (1), 49–74.
+
+Snyder, Jason, Welch, Ivo, 2015. Do Powerful Politicians Really Cause Corporate
+
+Downsizing? bit.ly/2kLQ3Jl.
+
+Stewart, Charles I.I.I., Woon, Jonathan, 2011. Congressional Committee Assignments,
+
+103rd to 112th Congresses, 1993–2011. bit.ly/2kImd57.
+
+Talbert, Jeﬀrey C., Jones, Bryan D., Baumgartner, Frank R., 1995. Nonlegislative hearings
+
+and policy change in congress. Am. J. Polit. Sci. 39 (2), 383–405.
+
+Vidal, Blanes I., Jordi, Mirko Draca, Fons-Rosen, Christian, 2012. Revolving door lob-
+
+byists. Am. Econ. Rev. 102 (7), 3731–3748.
+
+Volden, Craig, Wiseman, Alan E., 2014. Legislative Eﬀectiveness in the United States
+
+Congress: The Lawmakers. Cambridge University Press.
+
+Volden, Craig, Wiseman, Alan E., 2016. Legislative Eﬀectiveness and Problem Solving in
+the U.S. House of Representatives. Annual Meeting of the American Political Science
+Association, Philadelphia, PA. bit.ly/2kLKP0m.
+
+11
+
+

@@ -1,0 +1,6790 @@
+Journal of Financial Economics 128 (2018) 287–319 
+
+Contents lists available at ScienceDirect 
+
+Journal  of  Financial  Economics 
+
+journal homepage: www.elsevier.com/locate/jfec 
+
+R
+Cash  windfalls  and  acquisitions 
+
+Bastian von Beschwitz 
+
+Federal Reserve Board, International Finance Division, 20th Street and Constitution Avenue N.W., Washington, D.C. 20551, United States 
+
+a r t i c l e 
+
+i n f o 
+
+a b s t r a c t 
+
+This article studies the effect of cash windfalls on the acquisition policy of companies. As 
+identiﬁcation, I use a German tax reform that permitted ﬁrms to sell their equity stakes tax 
+free. Companies that could realize a cash windfall by selling equity stakes see an increase 
+in the probability of acquiring another company by 14%. I ﬁnd that these additional acqui- 
+sitions destroy ﬁrm value. Following the tax reform, affected ﬁrms experience a decrease 
+of 1.2 percentage points in acquisition announcement returns. These effects are stronger 
+for larger cash windfalls. My ﬁndings are consistent with the free cash ﬂow theory. 
+
+Published by Elsevier B.V. 
+
+Article history: 
+Received 13 January 2016 
+Revised 13 February 2017 
+Accepted 14 March 2017 
+Available online 28 February 2018 
+
+JEL classiﬁcation: 
+G31 
+G34 
+
+Keywords: 
+Acquisitions 
+Free cash ﬂow theory 
+Overinvestment 
+
+1. Introduction 
+
+How  access  to  ﬁnancing  affects  a  ﬁrm’s  investment 
+policy  is  one  of  the  fundamental  questions  in  corporate 
+ﬁnance.  As  Stein  (2003)  points  out,  there  is  convincing 
+evidence  that  ﬁrms  with  a  strong  ﬁnancial  position  in- 
+vest  more,  but  it  is  less  clear  whether  this  effect  is 
+driven by under- or overinvestment. Underinvestment oc- 
+curs if ﬁnancial frictions prevent management from mak- 
+ing value increasing investments (e.g., Myers and Majluf, 
+1984 ),  while  overinvestment  occurs  if  managers  engage 
+in “empire building” ( Baumol, 1959; Williamson, 1964 ) as 
+predicted by the free cash ﬂow theory ( Jensen, 1986 ). An- 
+
+R
+
+  I thank the INSEAD Alumni Fund (IAF) for generous ﬁnancial support. 
+I have beneﬁted greatly from feedback provided by Stijn Claessens, Jean 
+Dermine, Ruediger Fahlenbrach, Maria Guadalupe, Todd Gormley, Denis 
+Gromb, Anil Jain, Katharina Lewellen, Mathieu Luypaert, Massimo Massa, 
+Holger Mueller, Urs Peyer, Hannes Wagner, Stefan Zeume and seminar 
+participants at INSEAD and the DGF 2012. The views in this paper are 
+solely the responsibility of the author and should not be interpreted as 
+reﬂecting the views of the Board of Governors of the Federal Reserve Sys- 
+tem or of any other person associated with the Federal Reserve System. 
+
+E-mail address: bastian.vonbeschwitz@frb.gov 
+
+https://doi.org/10.1016/j.jﬁneco.2018.02.009 
+0304-405X/Published by Elsevier B.V. 
+
+swering this question is diﬃcult for two reasons: First, it is 
+generally hard to determine whether an investment project 
+creates value to shareholders. Second, internal ﬁnancial re- 
+sources and investment opportunities are typically corre- 
+lated, making any simple cross-sectional study subject to 
+1 
+endogeneity concerns. 
+
+In  this  paper,  I  address  these  issues  by  studying  the 
+effect  of  large  exogenous  cash  windfalls  on  a  ﬁrm’s  ac- 
+quisition activity. The cash windfalls resulted from a Ger- 
+man tax reform that made divestitures of equity stakes tax 
+free. Since not all ﬁrms owned equity stakes, the tax re- 
+form provided cash windfalls only to a subset of ﬁrms. Us- 
+ing difference-in-difference estimation, I ﬁnd that ﬁrms re- 
+ceiving  a  cash  windfall  undertake  more  acquisitions  and 
+that  the  additional  acquisitions  have  negative  announce- 
+ment returns, consistent with overinvestment. 
+
+In addition to showing evidence of overinvestment, my 
+paper  adds  to  the  literature  on  asset  sales.  Despite  the 
+
+1 There has been an intensive debate on how to interpret the ﬁnd- 
+ings  of  investment  cash  ﬂow  regressions  ( Fazzari,  Hubbard,  and  Pe- 
+tersen,  20 0 0;  Kaplan  and  Zingales,  1997,20 0 0;  Erickson  and  Whited, 
+20 0 0; Gomes, 2001; Alti, 2003; Moyen, 2004 ). 
+
+ 
+288 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+fact  that  U.S.  ﬁrms  raise  more  ﬁnancing  through  asset 
+sales  than  through  equity  issuance  ( Edmans  and  Mann, 
+2018 ), this ﬁnancing channel has received little attention 
+in  the  academic  literature.  In  particular,  while  there  is 
+evidence  that  asset  sales  are  correlated  with  higher  in- 
+vestments  ( Hovakimian  and  Titman,  2006;  Borisova  and 
+Brown, 2013 ), my paper is the ﬁrst to address endogeneity 
+by exploiting an exogenous shock to ﬁrms’ ability to sell 
+assets. 
+
+This exogenous shock is provided by the German capi- 
+tal gains tax reform in 20 0 0. Before the reform, many Ger- 
+man corporations held minority equity stakes in unrelated 
+ﬁrms. These equity stakes often had high market values, 
+making up a sizeable part of the holder’s assets. For ex- 
+ample, the telecommunications and energy company VIAG 
+owned equity stakes with a (pre-tax) market value of EUR 
+2.9  billion  (25%  of  its  own  market  capitalization)  at  the 
+end of 1999. Many of these holdings had been established 
+in the 1950s and 1960s and thus had accumulated large 
+capital gains. Consequently, ﬁrms had strong incentives to 
+maintain these equity stakes to avoid capital gains taxa- 
+tion  ( Sautner  and  Villalonga,  2010 ).  The  German  govern- 
+ment decided to abolish the 50% capital gains tax in 20 0 0, 
+thus removing a major obstacle to the divestiture of the 
+equity stakes. 
+
+I  show  that  stock  prices  of  ﬁrms  with  large  equity 
+stakes increased by 4% upon the announcement of the tax 
+reform, which suggests that the reform was a surprise to 
+the market and that the tax acted as a binding constraint 
+on  ﬁrms.  After  the  tax  reform,  this  constraint  was  lifted 
+and ﬁrms cashed in their equity stakes. I refer to the re- 
+sulting cash inﬂows as windfalls, because the capital gains 
+tax  effectively  prevented  a  sale  of  the  equity  stakes  be- 
+fore  the  tax  reform  and  because  the  tax  reform  is  ex- 
+ogenous to the investment opportunities of an individual 
+ﬁrm. 
+
+While  the  tax  reform  was  exogenous,  the  decision  to 
+sell an equity stake is endogenous to the ﬁrm. Therefore, 
+I conduct an intention-to-treat analysis and condition my 
+analyses on the existence of an equity stake prior to the 
+reform  rather  than  the  actual  divesting  decision,  i.e.,  my 
+treatment group is ﬁrms with equity stakes in 1999 and 
+the control group is ﬁrms without equity stakes. Such an 
+intention-to-treat analysis is common in the literature (e.g., 
+Angrist, 1990; Karlan and Zinman, 2010 ) and is the same as 
+a  reduced-form  instrumental  variable  approach  in  which 
+the divestiture of an equity stake is instrumented by the 
+existence of an equity stake at the time of the tax reform. 
+This approach is reasonable as 83% of companies divested 
+at least one of their equity stakes following the tax reform 
+and including the other 17% of ﬁrms in the analysis will 
+only underestimate the true effect. 
+
+Media  reports  suggest  that  ﬁrms  used  the  windfalls 
+from selling equity stakes to undertake more acquisitions. 
+For  example,  the  Wirtschafts  Woche ,  a  leading  German 
+business magazine, wrote in February 2005: 
+
+“The cross-holdings lock up capital which is needed to stay 
+competitive internationally. The energy company E.ON sold 
+several equity stakes […] as it needs the money for acqui- 
+sitions abroad.”
+
+2 
+Wirtschafts Woche , February 4, 2005. 
+My analyses suggest that E.ON is not the only ﬁrm to 
+ﬁnance  acquisitions  by  divesting  equity  stakes.  A  simple 
+comparison  of  means  reveals  that  the  yearly  probability 
+of doing an acquisition increases by 14% (ﬁve percentage 
+points)  for  ﬁrms  that  hold  equity  stakes  before  the  tax 
+reform (and thus received a potential cash windfall), but 
+decreases by 1.7 percentage points for the control group. 
+A more elaborate difference-in-difference analysis conﬁrms 
+these results by showing that ﬁrms with equity stakes in 
+1999  increase  their  probability  of  undertaking  an  acqui- 
+sition  by  eight  percentage  points  relative  to  the  control 
+group. This ﬁnding rejects the perfect capital market as- 
+sumption of Modigliani and Miller (1958) . 
+
+Next,  I  study  the  acquirer  announcement  returns  to 
+determine  whether  the  additional  acquisitions  represent 
+overinvestment (free cash ﬂow theory) or a reduction in 
+underinvestment (ﬁnancial constraints theory). I conduct a 
+difference-in-difference analysis on the acquirer announce- 
+ment returns. Companies that owned equity stakes at the 
+time of the tax reform experience a decrease in average 
+announcement returns relative to the control group of 1.2 
+%. This ﬁnding is consistent with overinvestment. 
+
+However,  because  average  announcement  returns  re- 
+main positive after the tax reform, a concern is that the 
+decrease in announcement returns can be explained by de- 
+3 I address this 
+creasing but still positive marginal returns. 
+concern  in  two  ways:  First,  I  show  in  a  simple  calcula- 
+tion  that  the  decrease  in  average  announcement  returns 
+is so large that the additional acquisitions must have neg- 
+ative  announcement  returns.  Second,  I  examine  the  sum 
+of  the  announcement  returns  of  all  acquisitions  a  com- 
+pany undertakes over a year (following Bertrand and Mul- 
+lainathan, 2005 ). If the additional acquisitions have posi- 
+tive announcement returns, they should increase the sum 
+of announcement returns. However, after the tax reform, 
+the  yearly  sum  of  all  announcement  returns  of  acquisi- 
+tions completed by ﬁrms with cash windfalls decreases by 
+0.4% relative to the control group. This result implies that 
+the additional acquisitions destroy 0.4% of ﬁrm value per 
+year or 3.2% over the sample period. These ﬁndings sug- 
+gest that the cash windfalls are used for overinvestment as 
+predicted by the free cash ﬂow theory. 
+
+Next, I study for which ﬁrms the results are largest. We 
+would expect the tax reform to have a stronger effect on 
+ﬁrms receiving larger cash windfalls. Indeed, I ﬁnd that my 
+results are largely driven by ﬁrms who rank above the me- 
+dian by value of their equity stakes before the tax reform 
+(as a share of their market capitalization). These ﬁrms see 
+an  increase  in  acquisition  probability  of  10%,  while  it  is 
+only  6%  for  ﬁrms  below  the  median.  Also  the  reduction 
+
+2 “Der  Umbau  der  Deutschland  AG” Wirtschafts  Woche ,  Febru- 
+ary 4, 2005. http://www.wiwo.de/unternehmen/sinnvolle- loesungen- der- 
+umbau- der- deutschland- ag/4902614.html 
+
+3 Like other studies on acquisitions in Europe ( Faccio, McConnell, and 
+Stolin, 2006; Huyghebaert and Luypaert, 2009 ), I ﬁnd positive acquirer 
+announcement returns. Even in the U.S. the average acquisition has a 
+positive announcement return for acquirers, but large acquisitions with 
+negative returns make the volume-weighted acquisition return negative 
+( Moeller, Schlingemann, and Stulz, 2005 ). 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+289 
+
+in average announcement returns is larger for ﬁrms with 
+large equity stakes (1.9% vs. 0.9%). 
+
+Consistent with divestitures of equity stakes providing 
+ﬁrms with additional cash, I ﬁnd that the results are con- 
+centrated in acquisitions that are paid in cash. While the 
+probability of undertaking a cash acquisition increases by 
+9% for ﬁrms with equity stakes in 1999, the probability of 
+undertaking a stock acquisition decreases slightly for these 
+ﬁrms. Similarly, the decrease in acquisition announcement 
+returns is concentrated in acquisitions paid for in cash. 
+
+Finally, I show that the results are more prominent for 
+ﬁrms  that  sold  more  equity  stakes  and  that  sold  equity 
+stakes with higher market values. Furthermore, I show that 
+acquisition  activity  increases  and  announcement  returns 
+decrease  in  the  year  following  the  ﬁrst  divestiture  of  an 
+equity stake. 
+
+All results are robust to controlling for different trends 
+in ﬁrm characteristics such as size, leverage, or Tobin’s Q , 
+as well as industry-year ﬁxed effects. They are also robust 
+to running the regressions on a control sample matched by 
+size and industry as well as using a shorter event window. 
+As expected, I do not ﬁnd signiﬁcant results when running 
+a placebo test in which I pretend the tax reform happened 
+in 1995. 
+
+Additional acquisitions do not substitute for capital ex- 
+penditures. In addition to the increase in acquisition activ- 
+ity, ﬁrms receiving cash windfalls increase capital expendi- 
+tures as a share of assets by 0.7 percentage points. While 
+this result is not statistically signiﬁcant, it constitutes an 
+increase of 13% relative to the sample median. In contrast, 
+dividends are not increased by ﬁrms receiving cash wind- 
+falls. 
+
+Taken  together,  my  results  suggest  that  ﬁrms  do  not 
+pay out the cash windfall to shareholders, but rather in- 
+vest it in value-destroying acquisitions. Therefore, my re- 
+sults are consistent with the free cash ﬂow theory and em- 
+pire building of managers. 
+
+My paper has important policy implications. It shows 
+that the tax reform succeeded in allowing ﬁrms to divest 
+their equity stakes and in freeing up capital for additional 
+investments. However, my results also suggest that these 
+investments  constituted  overinvestment,  which  destroyed 
+shareholder value. 
+
+My paper is related to two streams of literature: the lit- 
+4 
+erature on investment and the literature on asset sales. 
+The investment literature started by studying the relation 
+between investment and cash ﬂows directly (e.g., Fazzari 
+et  al.,  1988;  Hoshi  et  al.,  1990;  Whited,  1992;  Almeida 
+and Campello, 2007 ). Several studies also focus on acqui- 
+sitions  and  investment  projects:  Lang  et  al.  (1991)  show 
+that  low  q  ﬁrms  with  high  cash  ﬂows  exhibit  lower  ac- 
+quirer  announcement  returns.  Harford  (1999)  shows  that 
+
+4 My paper also relates to another stream of literature studying the 
+marginal value of cash in a company ( Pinkowitz, Stulz, and Williamson, 
+2006;  Faulkender  and  Wang,  2006;  Dittmar  and  Mahrt-Smith,  2007; 
+Frésard and Salva, 2010 ) and how companies accumulate and use cash 
+reserves ( Opler et al., 1999; Dittmar, Mahrt-Smith, and Servaes, 2003; 
+Almeida, Campello, and Weisbach, 2004; Harford, Mansi, and Maxwell, 
+2008; Bates, Kahle, and Stulz, 2009; Denis and Sibilkov, 2010 ). I add to 
+these papers by studying the effect of cash windfalls, which are exoge- 
+nous to investment opportunities. 
+
+ﬁrms with excess cash undertake more acquisitions, which 
+are less proﬁtable. Bertrand and Mullainathan (2005) ﬁnd 
+that oil companies with higher cash ﬂows bid more for oil 
+and gas leases, but do not bid on more leases. However, 
+all these studies are to some degree subject to endogene- 
+ity concerns: Firms potentially hoard cash in anticipation 
+of future acquisitions and cash ﬂows are correlated with 
+investment opportunities. 
+
+Therefore,  more  recent  papers  focus  on  shocks  to  ﬁ- 
+nancial resources that are exogenous to the company’s in- 
+vestment opportunities: Rauh (2006) uses the nonlineari- 
+ties of mandatory pension contributions to show that ex- 
+ogenous cash outﬂows cause a decrease in capital expen- 
+5  However, Bakke and 
+ditures, acquisitions, and dividends. 
+Whited  (2012)  show  that  the  methodology  employed  in 
+Rauh  (2006)  is  not  suﬃcient  to  account  for  the  endo- 
+geneity  of  mandatory  pension  contributions.  Using  a  re- 
+ﬁned approach, they ﬁnd no causal effect on investments. 
+Other papers study shocks transmitted through the ﬁnanc- 
+ing channel (e.g., Gan, 2007; Chaney et al., 2012; Almeida 
+et al., 2012; Chava and Purnanandam, 2011 ). I make two 
+important contributions to this literature. First, I use cash 
+windfalls rather than cash outﬂows. This difference is im- 
+portant: If shareholders want to restrict the free cash in 
+the company, they ﬁnance it just suﬃciently to undertake 
+all proﬁtable projects. In this case, the negative effect of 
+an unexpected cash outﬂow on investment does not nec- 
+essarily  imply  a  positive  effect  of  a  cash  windfall.  Sec- 
+ond, I focus on acquisitions, which allows me to examine 
+the value effect of the additional investments through an- 
+nouncement returns. Thus, I can distinguish between the 
+free cash ﬂow theory and non-agency theories of ﬁnancial 
+constraints. Few papers look at cash windfalls. Blanchard 
+et al. (1994) study cash windfalls of won or settled law- 
+suits,  but  cannot  make  any  statistical  inference  because 
+their study only includes 11 companies. Faulkender and Pe- 
+tersen (2012) ﬁnd that constrained ﬁrms invest more af- 
+ter a tax holiday on repatriated foreign earnings. However, 
+the law granting the tax holiday included regulations forc- 
+ing  ﬁrms  to  invest  the  repatriated  earnings ( Dharmapala 
+et al., 2011 ). Thus, it is not clear whether their ﬁndings ex- 
+tend to cash windfalls more generally or were just a result 
+of the speciﬁc law. More generally, Dobridge (2016) ﬁnds 
+that ﬁrms spend tax refunds differently depending on the 
+macroeconomic environment. 
+
+Second, I add to the literature studying asset sales as 
+a  ﬁnancing  channel.  This  literature  is  surprisingly  small, 
+given  that  U.S.  ﬁrms  raise  more  ﬁnancing  through  asset 
+sales  than  through  equity  issuance  ( Edmans  and  Mann, 
+2018 ). The literature include Bates (2005) , who ﬁnds that 
+ﬁrms with better investment opportunities are more likely 
+to  retain  the  proceeds  of  assets  sales.  Furthermore,  ﬁ- 
+nancially constrained ﬁrms have a stronger sensitivity be- 
+tween  the  proceeds  of  asset  sales  and  both  investment 
+( Hovakimian and Titman, 2006 ) and research and develop- 
+
+5 Following the approach in Rauh (2006) , Franzoni (2009) estimates the 
+stock price reaction to mandatory pension contributions and Campbell, 
+Dhaliwal, and Schwartz (2012) study their effect on companies’ cost of 
+capital. 
+
+290 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+6  However, these 
+ment (R&D) ( Borisova and Brown, 2013 ). 
+papers do not address the fact that asset sales are endoge- 
+nous ﬁrm decisions. I add to this literature by studying an 
+exogenous shock to a ﬁrm’s ability to sell a particular type 
+of asset (equity stakes), which provides for better identiﬁ- 
+cation. 
+
+2. The German tax reduction act of 20 0 0 – description 
+and event study 
+
+My main source of identiﬁcation is the German Tax Re- 
+duction  Act  of  20 0 0,  which  exempted  the  sale  of  equity 
+stakes from corporate capital gains tax. Before the reform, 
+many  German  companies  held  minority  equity  stakes  in 
+other unrelated companies. Also, cross-holdings, in which 
+company A holds equity in company B while company B 
+holds equity in company A, were not uncommon. This sys- 
+tem of minority equity stakes and cross-holdings was of- 
+ten called Germany Inc. (Deutschland AG). Many of these 
+equity stakes had been acquired in the distant past; often 
+after the Second World War as a way to foster coopera- 
+tion in the German economy ( Edwards et al., 2004 ). Thus, 
+the equity stakes had book values signiﬁcantly below their 
+market values, implying large capital gains. 
+
+In Appendix B , I provide some analyses to get an idea 
+of the size of these capital gains. Five ﬁnancial companies 
+with large equity holdings report the book and market val- 
+ues of their holdings on their balance sheets. On average, 
+for these ﬁve ﬁrms, the book value of the stakes makes up 
+only 36% of the stakes’ market value. For other ﬁrms I do 
+not have the exact book values, but I can infer from the 
+highly positive stock returns in the years leading up to the 
+tax reform that most equity stakes were likely held at high 
+capital gains. For example, 76% of equity stakes had cumu- 
+lative stock returns of over 50% in the ten years leading up 
+to the tax reform (see Appendix B ). 
+
+Before  the  tax  reform,  corporate  capital  gains  were 
+taxed  at  50%,  which  implies  that  companies  would  have 
+suffered a signiﬁcant tax burden if they had divested their 
+7 The German 
+equity stakes ( Sautner and Villalonga, 2010 ). 
+government lifted this lock-in by exempting the sale of eq- 
+uity stakes from capital gains taxes with the explicit in- 
+tention to facilitate the breakup of Germany Inc. ( Höpner, 
+20 0 0 ). This tax exemption was part of a wider tax reform, 
+which included a reduction in individual and corporate tax 
+rates as well as a change in dividend taxation. However, 
+there is no reason to believe that the general tax changes 
+had speciﬁc effects on ﬁrms with equity stakes. For a de- 
+tailed description of the tax reform, see Keen (2002) . 
+
+In Fig. 1 , I study how the announcement of the tax ex- 
+emption affected the stock prices of companies holding eq- 
+uity stakes. While the general tax reform was announced 
+
+6 There is also a large literature that studies the announcement returns 
+of asset sales and ﬁnds generally positive announcement returns (e.g., 
+Alexander, Benson, and Kampmeyer, 1984; Jain, 1985; Klein, 1986; Hite, 
+Owers, and Rogers, 1987; Lang, Poulsen, and Stulz, 1995; Borisova, John, 
+and Salotti, 2013 ). 
+
+7 Capital gains were taxed at 40% corporate tax and trade tax that 
+varies across regions, but was approximately 10%. For more details see 
+Edwards et al. (2004) . 
+
+on December 21, 1999, the plan for the corporate capital 
+gains tax exemption was not conﬁrmed until December 23, 
+1999. In Panel A, I plot the average returns for companies 
+with and without minority equity stakes around these an- 
+nouncement dates. While there was no reaction to the an- 
+nouncement of the general tax reform, the announcement 
+to exempt equity sales from corporate capital gains taxes 
+had a large market impact. During a quiet stock market en- 
+vironment, companies with equity stakes experienced an 
+average  stock  return  of  2.2%  on  the  announcement  date, 
+while the return for companies without equity stakes was 
+only 0.2%. The difference in the average returns between 
+the two groups was larger than on any other day in the 
+year around the announcement date. 
+
+In Panel B, I focus on ﬁrms holding large equity stakes, 
+i.e., ﬁrms whose equity stakes made up at least 1% of their 
+market value. I display the return difference between these 
+ﬁrms and ﬁrms without equity stakes. Firms with large eq- 
+uity stakes experienced an excess return of 4.0%, by far the 
+highest in the entire year around the event. These ﬁndings 
+are  consistent  with  the  results  of  Edwards  et  al.  (2004) , 
+who show a positive stock price reaction to the announce- 
+ment  of  the  tax  reform  concentrated  in  the  six  largest 
+holders. 
+
+In Panel C, I split companies with large equity stakes 
+into whether they are ﬁnancial or nonﬁnancial companies. 
+Given  that  banks  held  the  largest  equity  stakes,  I  exam- 
+ine whether the results are driven exclusively by ﬁnancial 
+companies. While ﬁnancial companies indeed have a larger 
+announcement return of 5.1%, nonﬁnancial companies with 
+large equity holdings also had a return of 2.4%, which is 
+signiﬁcant at the 5% level. 
+
+The event study shows that the corporate capital gains 
+tax  indeed  constrained  ﬁrms’  ability  to  sell  their  equity 
+stakes and that its abolition was not expected by the mar- 
+ket.  This  idea  is  supported  by  the  fact  that  Handelsblatt , 
+Germany’s leading business newspaper, headlined on the 
+following day, “Eichel [the ﬁnance minister] surprises stock 
+8 This surprise element 
+market with a Christmas present”. 
+is important, because it alleviates worries that acquisition 
+decisions before 1999 are endogenous to the anticipation 
+of the tax reform. 
+
+The German parliament passed the general tax reform 
+in  the  summer  of  20 0 0  to  be  effective  from  January  1, 
+2001. The abolition of the capital gains tax did not come 
+into effect until January 1, 2002. However, there were ways 
+for companies to divest equity stakes before 2002 and still 
+capture  the  better  tax  treatment.  For  example,  Deutsche 
+Bank sold a stake in Allianz on June 6, 20 0 0 and stated 
+in its investor relations release: 
+
+“The economic disposal has been achieved by an innova- 
+tive structure which allows Deutsche Bank to obtain the 
+full  beneﬁts  from  the  upcoming  tax  reform  in  Germany. 
+The transaction will qualify as a disposal for the Deutsche 
+Bank  Group  in  its  IAS  accounts,  giving  rise  to  a  capital 
+
+8 “Eichel überrascht die Börse mit einem Weihnachtsgeschenk”, Han- 
+
+delsblatt , December 24, 1999. 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+291 
+
+Fig. 1.  Event study: announcement of the tax reform. Panel A displays mean returns of companies with and without equity stakes around the announce- 
+ment of the German capital gains tax reform on December 23, 1999. Panel B displays the difference in daily mean returns between companies with large 
+equity stakes and companies without equity stakes. A company is deﬁned as having large equity stakes if its equity stakes have an aggregate value of at 
+least 1% of its market capitalization. Panel C splits the returns for companies with large equity stakes into ﬁnancial and nonﬁnancial companies. For Panel 
+C, 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+292 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+gain in excess of EUR 2 billion, but without triggering a 
+9 
+tax disposal in the current year”. 
+
+Furthermore,  anticipating  the  tax  reform,  companies 
+could have chosen to reduce their cash buffer and thereby 
+use the additional ﬁnancial resources already before they 
+actually sold any equity stakes. Accordingly, I use the an- 
+nouncement of the tax reform in December 1999 as the 
+event date. 
+
+On the other hand, when the tax reform took effect in 
+2002,  stock prices in Germany  had experienced a recent 
+bear  market  and  ﬁrms  could  have  been  reluctant  to  sell 
+their equity stakes quickly. Therefore, I examine a relatively 
+long post-event period until 2007. To make the event win- 
+dow symmetric, I use 1992–1999 as the pre-event period. 
+However, I show in Table 12 that the results are robust to 
+a shorter event window. 
+
+I am not the ﬁrst to use the German capital gains tax 
+as  a  natural  experiment.  As  mentioned  above,  Edwards 
+et al. (2004) study the stock market reaction to the tax re- 
+form. Weber (2009) studies the change of ownership con- 
+centration after the tax reform and ﬁnds that ownership 
+concentration  has  been  reduced.  This  ﬁnding  is  consis- 
+tent with ﬁrms selling their equity stakes in other compa- 
+nies. Sautner and Villalonga (2010) use the tax reform as 
+an exogenous shock to ﬁrms’ ownership structures. They 
+ﬁnd  that  ﬁrms  whose ownership concentration  increases 
+reduce diversiﬁcation and exhibit an increase in the eﬃ- 
+ciency of internal capital markets. Von Beschwitz and Foos 
+(2014) study how the divestiture of bank’s equity stakes af- 
+ter the tax reform affects the lending relationship. 
+
+3. Data and variable construction 
+
+3.1. Sample construction 
+
+The  data  used  in  this  study  come  from  ﬁve  different 
+databases. I obtain ownership data from Who owns Whom? 
+(Wer  gehört  zu  wem?)  provided  by  Picoware  as  of  July 
+1999. This database contains roughly 18,0 0 0 private as well 
+as  publicly  traded  ﬁrms  and  their  owners.  The  data  are 
+based  on  public  sources  such  as  balance  sheets  and  ad- 
+ditional  self-reported  information  by  companies.  I  obtain 
+data on acquisitions from Thomson Reuter’s Securities Data 
+Company (SDC) Platinum. For acquisitions with missing in- 
+formation on payment method, I add this information from 
+Zephyr database on acquisitions. I use Worldscope for bal- 
+ance sheet data and Datastream for stock market data. In 
+addition, I use balance sheet and stock market data from 
+Compustat  Global  if  observations  are  missing  in  World- 
+scope or Datastream. 
+
+I  limit  my  sample  to  publicly  listed  companies  to  be 
+able  to  compute  announcement  returns.  I  deﬁne  Equity 
+stake 1999 as an indicator variable equal to one if the ﬁrm 
+owns  a  minority  equity  stake  in  another  (public  or  pri- 
+
+9 "Deutsche  Bank  reduces  Allianz  stake  to  4.1%"  ( https://www.db. 
+com/ir/en/content/ir _ releases _ 20 0 0 _ 3464.htm )  and  "Deutsche  plays 
+clever  in  Allianz  sale  to  avoid  CGT"  ( http://www.eﬁnancialnews.com/ 
+story/20 0 0- 06- 12/deutsche- plays- clever- in- allianz- sale- to- avoid- cgt? 
+ea9c8a2de0ee111045601ab04d673622 ). 
+
+vate) company before the tax reform. I include direct own- 
+ership as well as indirect ownership through subsidiaries 
+(see  Appendix  C  for  more  details).  Following  Edwards 
+et al. (2004) , I deﬁne a minority equity stake to be any eq- 
+uity stake in another company below 20%. Thus, I assume 
+that  equity  stakes  below  20%  are  less  likely  to  generate 
+economic beneﬁts and are more likely to be divested af- 
+ter the tax reform. In my sample, there are 554 companies 
+from the Who owns Whom? database that I can match to 
+Worldscope or Compustat Global. Of these companies, 130 
+companies (23.4%) own at least one equity stake. 
+
+I study acquisitions of both public and private targets. 
+However, to exclude the acquisition of subsidiaries as well 
+as investments without economic control, I focus on acqui- 
+sitions, in which the acquirer owns less than 25% of shares 
+before the acquisition and more than 50% after the acqui- 
+sition. If several acquisitions are announced on the same 
+day, this day only enters the regressions once. Variable def- 
+initions are in Appendix A . More detail on sample and vari- 
+able construction is in Appendix C . 
+
+3.2. Summary statistics 
+
+In Fig. 2 , I display the companies in my sample by 10 
+Fama–French industries. Companies with equity stakes in 
+1999 cover all industries except oil & gas, but are some- 
+what overrepresented in the utilities and ﬁnancial sectors, 
+while  they  are  underrepresented  in  manufacturing,  non- 
+durables,  and  business  equipment.  I  ensure  that  the  dif- 
+ferent  industry  composition  is  not  driving  my  results  by 
+controlling for industry-speciﬁc trends with industry-year 
+ﬁxed effects (following Gormley and Matsa, 2014 ). Also, it 
+should be noted that ﬁrms with equity stakes are not con- 
+centrated  in  the  technology  sector,  which  alleviates  con- 
+cerns that the results are driven by the burst of the Inter- 
+net bubble. 
+
+Panel A of Table 1 displays the summary statistics of 
+companies  with  and  without  equity  stakes  in  1999  be- 
+fore  the  tax  reform  (December  1999).  I  display  median 
+and  mean  values  and  test  whether  the  difference  in  the 
+two subsamples is statistically signiﬁcant. In terms of in- 
+vestment  opportunities  measured  as  Tobin’s  Q ,  there  is 
+no difference between companies with and without equity 
+stakes. The ﬁrms in the two subsamples are also similar 
+in terms of leverage, dividend ratio, and return on assets. 
+The main difference is that companies with equity stakes 
+are considerably larger as measured by market capitaliza- 
+tion. I address this difference by including ﬁrm size inter- 
+acted  with  the  post-reform  dummy  in  my  difference-in- 
+difference setup. In addition, I run regressions on a sample 
+matched by industry and ﬁrm size. 
+
+Panel B displays more details on the subsample of ﬁrms 
+with equity stakes in 1999. In this subsample, the median 
+ﬁrm holds two equity stakes, but the mean is 4.9 as some 
+ﬁrms  own  a  large  number  of  equity  stakes.  Next,  I  dis- 
+play the (pre-tax) value of the equity stakes. Given that I 
+include  equity  stakes  in  private  companies,  this  value  is 
+only an estimate (see Appendix C for details of the esti- 
+mation). The distribution of the value of equity stakes is 
+highly skewed. The median company holds equity stakes 
+worth EUR 7.4 million, while the mean is EUR 646 million. 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+293 
+
+Fig. 2.  Companies by industry. This ﬁgure displays the companies with equity stakes in 1999 and the companies without equity stakes in 1999 according 
+to the 10 Fama–French industries. 
+
+Table 1 
+Summary statistics. 
+Panel A displays summary statistics of the sample, split by whether a company holds an equity stake in another company in 1999. Variables 
+are taken as of the last ﬁscal year ending before December 31, 1999. The test for the difference in median is the Wilcoxon rank-sum test. 
+The test for the difference in mean is the Student t -test. Dividends ratio is deﬁned as total dividends over total assets. Return on assets is 
+deﬁned as earnings before interest and taxes (EBIT) over total assets. Panel B displays summary statistics on equity stakes for those ﬁrms 
+that held at least one equity stake. Number of equity stakes gives the number of equity stakes a ﬁrm owns. Value of equity stakes (million 
+EUR) is my estimate of the sum of their value. Value of equity stakes (in % of market cap) is this sum divided by the ﬁrm’s own market 
+, 
+value in percentage points. Panel C displays summary statistics on the acquisition level. Other variables are deﬁned in Appendix A . 
+∗
+
+∗∗∗
+
+∗∗
+
+, 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+Panel A: Firms 
+
+Variable 
+
+Median 
+
+Mean 
+
+Median 
+
+Mean 
+
+Without equity stakes 
+
+With equity stakes 
+
+Tobin’s Q 
+Market capitalization (log) 
+Leverage 
+Dividends ratio 
+Return on assets 
+
+1.87 
+18.4 
+0.15 
+
+0.0072 
+0.063 
+
+2.32 
+18.5 
+0.20 
+0.015 
+0.055 
+
+2.01 
+21.1 
+0.17 
+
+0.0086 
+0.054 
+
+2.32 
+20.9 
+0.23 
+0.015 
+0.065 
+
+Number of ﬁrms 
+
+381 
+
+115 
+
+Z test for 
+difference 
+in median 
+−0.973 
+−9.89 
+∗∗∗
+−0.762 
+−1.87 
+∗
+0.596 
+
+T test for 
+
+difference in 
+
+mean 
+−0.057 
+−12.6 
+∗∗∗
+−1.50 
+−0.092 
+−0.78 
+
+Panel B: Firms with equity stakes 
+
+Variable 
+
+Number of equity stakes 
+Value of equity stakes (million EUR) 
+Value of equity stakes (in % of market cap) 
+
+Observations 
+
+Panel C: Acquisitions 
+
+Variable 
+
+−1, t 
++
+
+ 1 (%) 
+
+Acquirer announcement return t 
+Diversifying acquisition 
+Cross-border deal 
+Public target 
+Independent target 
+Cash acquisition 
+No payment information 
+Cash acquisition (as predicted by characteristics) 
+
+Observations 
+
+Mean 
+
+4.91 
+646.2 
+24.2 
+
+115 
+
+Mean 
+
+0.57 
+0.34 
+0.58 
+0.55 
+0.53 
+0.89 
+0.73 
+0.95 
+
+3378 
+
+10th 
+
+Percentile 
+
+1 
+
+0.20 
+0.020 
+
+Median 
+
+90th 
+
+Percentile 
+
+Standard 
+deviation 
+
+2 
+
+7.38 
+0.73 
+
+14 
+
+498.9 
+24.6 
+
+7.96 
+
+2719.8 
+122.7 
+
+10th 
+
+Percentile 
+−3.67 
+
+0 
+0 
+0 
+0 
+0 
+0 
+1 
+
+Median 
+
+90th 
+
+Percentile 
+
+Standard 
+deviation 
+
+0.23 
+
+5.22 
+
+0 
+1 
+1 
+1 
+1 
+1 
+1 
+
+1 
+1 
+1 
+1 
+1 
+1 
+1 
+
+3.89 
+0.47 
+0.49 
+0.50 
+0.50 
+0.31 
+0.44 
+0.22 
+
+294 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Next,  I  compare  these  values  to  the  ﬁrm’s  own  marked 
+capitalization. On average, the equity holdings account for 
+24% of a ﬁrm’s market capitalization (median 0.73%). I use 
+the fact of this skewed distribution by showing that my re- 
+sults are stronger in the subsample with the largest equity 
+holdings. 
+
+Panel C displays summary statistics on the acquisition 
+level. The average acquisition has a positive announcement 
+return  of  0.57%  (median  0.23%).  Of  the  acquisitions,  34% 
+are diversifying in the sense that the target is in another 
+industry (using 10 Fama–French industries). Of the targets, 
+58% are outside Germany, 55% are publicly listed, and 53% 
+are  independent  ﬁrms,  while  47%  are  spinoffs.  SDC  Plat- 
+inum and Zephyr only provide the payment information in 
+27% of the cases, but for these cases, 89% of the acquisi- 
+tions are paid in cash. To get an idea of the payment meth- 
+ods for acquisitions without payment information, I run a 
+predictive regression explained in Appendix D . I treat an 
+acquisition without payment information as a cash acqui- 
+sition if it has a probability of larger than 75% to be a cash 
+acquisition according to that regression. After this adjust- 
+ment, 95% of acquisitions are cash acquisitions. 
+
+owners,  I  assume  that  the  owner  that  experienced  the 
+largest  increase  in  ownership  bought  the  equity  stake.  I 
+display  the  result  of  this  analysis  in  Panel  C.  About  32% 
+of  equity  stakes  are  sold  to  listed  companies,  while  35% 
+are sold to private companies, 20% are sold into free ﬂoat, 
+and 6% are sold to the government sector, such as cities, 
+states, or government-aﬃliated entities. The other 7% are 
+sold to investor groups, individual investors, or the compa- 
+nies themselves as buybacks. 
+
+An implicit assumption in my analysis is that most eq- 
+uity stakes were divested for cash rather than via a share 
+exchange.  The  result  that  only  32%  of  equity  stakes  are 
+sold to publicly listed companies suggests that this is the 
+case because other types of buyers cannot offer share ex- 
+changes. Furthermore, as shown in Section 3.2 , even pub- 
+licly listed companies pay for a large fraction (95%) of their 
+acquisitions in cash. In Appendix E , I show that the fraction 
+of cash acquisitions is even higher when a company pur- 
+chases an equity stake rather than a whole company. This 
+evidence suggests that most equity stakes were indeed di- 
+vested for cash, thus generating a cash windfall to the sell- 
+ing ﬁrm. 
+
+4. Results 
+
+4.2. Acquisition probability 
+
+4.1. Divestitures of equity stakes following the tax reform 
+
+Several  prior  studies  ﬁnd  that  companies  divested  a 
+large part of their equity stakes following the tax reform 
+( Kengelbach and Roos, 2006; Höpner and Krempel, 2006 ). 
+In  Table  2 ,  I  conﬁrm  this  result  for  my  data  set.  I  use 
+Who owns Whom? data from November 2006 to determine 
+which equity stakes have been divested. I check by hand 
+that equity stakes have indeed been divested and not just 
+moved  to  a  different  holding  vehicle.  For  the  stakes  for 
+which I have data, 61.1% are divested by November 2006 
+and 83% of companies sold at least one equity stake until 
+November 2006. 
+
+It  is  not  surprising  that  many  ﬁrms  sold  their  equity 
+stakes  as  they  had  strong  incentives  to  do  so:  ﬁrst  and 
+most importantly, if the company is unrelated, then hold- 
+ing  an  equity  stake  in  it  will  not  create  value  and  the 
+locked-in capital can be put to a more effective use. Sec- 
+ond, companies realized large accounting gains by selling 
+the equity stakes, which was an incentive to sell for man- 
+agers, who cared about reporting a high accrual income. 
+Third, there was a general election in Germany in Septem- 
+ber  2002,  and  the  political  opposition  had  announced  a 
+plan to reintroduce capital gains taxation. The opposition 
+narrowly  lost  the  election  and  the  sale  of  equity  stakes 
+is  tax  free  for  companies  to  this  day.  However,  in  2002, 
+the opposition was ahead in the polls, which caused some 
+companies to sell their equity stakes to front run a return 
+of the tax. 
+
+10 
+
+Next,  I  use  Who  owns  Whom?  data  to  determine  the 
+likely buyers of equity stakes. For those equity stakes that 
+are conﬁrmed divestitures, I check which new owner re- 
+places the old owner in the data. If there are several new 
+
+10 “Jäger des verlorenen Schatzes", Spiegel, November 09, 2002 ( http: 
+
+//www.spiegel.de/spiegel/print/d-24793156.html ). 
+
+In this section, I study how a company’s acquisition be- 
+havior depends on its ﬁnancial resources using the German 
+capital gains tax reform as identiﬁcation. The tax reform 
+enabled ﬁrms to sell their equity stakes tax free. Thus, it 
+provided  a  cash  windfall  only  for  companies  able  to  sell 
+an equity stake. Accordingly, I compare how the acquisition 
+behavior of companies with equity stakes in 1999 changes 
+relative to companies without equity stakes. 
+
+I  condition  my  analysis  only  on  ownership  of  equity 
+stakes before the tax reform rather than divestiture of eq- 
+uity stakes because the decision of whether or not to sell 
+the  equity  stake  is  endogenous.  More  speciﬁcally,  I  con- 
+duct an intention-to-treat analysis, which is essentially a 
+reduced-form instrumental variable approach, in which the 
+sale of an equity stake is instrumented with the existence 
+of an equity stake prior to the tax reform. The intention- 
+to-treat (ITT) effect measures the effect of being able to sell 
+an equity stake. However, one might also be interested in 
+the treatment-on-the-treated (TOT) effect, i.e., the effect of 
+actually selling equity stakes. 
+
+Two  issues  make  it  diﬃcult  to  assess  the  TOT  effect: 
+First, due to missing data, I do not know the exact frac- 
+tion  of  ﬁrms  that  sold  equity  stakes  (but  I  know  that  it 
+is  between  66%  and  87%).  Second,  the  tax  reform  could 
+have had some effect on ﬁrms that did not sell their equity 
+stakes.  For  example,  a  ﬁrm  could  reduce  its  cash  buffer 
+when it knows that it can divest an equity stake, allow- 
+ing it to use the cash windfall without actually divesting 
+the equity stake. 
+
+Thus, I cannot estimate the TOT effect precisely. How- 
+ever, I can say that it is at least as high as the ITT effect (if 
+the tax reform had the same effect on ﬁrms that did not 
+sell their stakes) and at most 1.5 times as high (computed 
+as 1/0.66, in the case in which only 66% of ﬁrms sold their 
+equity  stakes  and  the  tax  reform  has  no  effect  on  ﬁrms 
+that keep their equity stakes). In the rest of the paper, I 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+295 
+
+Table 2 
+Divestitures of equity stakes until 2006. 
+
+Panel A displays how many of the equity stakes were sold until November 2006. An eq- 
+uity stake is deﬁned as sold if it has been divested by at least 50%. If the ﬁrm in which the 
+stake is held is not covered anymore in Who owns Whom? , the equity stake is listed under 
+not covered. In Panel B, I display how many companies sold at least one equity stake. In 
+Panel C, I display the type of buyers of the equity stakes with conﬁrmed divestitures. The 
+buyer is the entity that replaces the original owner of the equity stake in Who owns Whom? 
+I manually check the Who owns Whom? data for mistakes and adjust it accordingly. 
+
+Panel A: Equity stakes 
+
+Variable 
+
+Number 
+
+Percentage 
+with data 
+
+Total percentage 
+
+Equity stake sold 
+Equity stake not sold 
+Not covered 
+
+Total 
+
+Panel B: Companies 
+
+256 
+163 
+174 
+
+593 
+
+61.1 
+38.9 
+
+–
+
+100 
+
+43.2 
+27.5 
+29.3 
+
+Variable 
+
+Number 
+
+Percentage 
+with data 
+
+Total percentage 
+
+At least one equity stake sold 
+No equity stake sold 
+Not covered 
+
+Total 
+
+96 
+6 
+33 
+
+135 
+
+83.2 
+16.8 
+
+–
+
+100 
+
+65.9 
+13.3 
+20.7 
+
+100 
+
+Panel C: Buyers of equity stakes 
+
+Variable 
+
+Number 
+
+Total percentage 
+
+Private company 
+Publicly listed company 
+Sold into free ﬂoat 
+Government or government-related entity 
+Investor group 
+Individual investor 
+Buyback 
+
+Total 
+
+89 
+82 
+52 
+16 
+10 
+4 
+3 
+
+256 
+
+34.8 
+32.0 
+20.3 
+6.3 
+3.9 
+1.6 
+1.2 
+
+100 
+
+will report the ITT effects, which are a lower bound to the 
+TOT effects. But the reader should keep in mind that the 
+true TOT effects can be up to 50% higher. 
+
+Under  the  null  hypothesis  of  no  ﬁnancial  constraints, 
+a cash windfall should have no effect on the acquisition 
+activity,  since  companies  without  a  cash  windfall  could 
+simply raise the same amount of money in the ﬁnancial 
+market. On the other hand, under both the ﬁnancial con- 
+straints theory and the free cash ﬂow theory, a cash wind- 
+fall should result in more acquisitions. This prediction im- 
+plies that it is easier to raise ﬁnancing by selling equity 
+stakes  than  by  issuing  equity  or  bonds.  This  assumption 
+seems reasonable given that divestitures of equity stakes 
+are less affected by asymmetric information ( Edmans and 
+Mann, 2018 ). 
+
+I  start  with  a  univariate  analysis  in  Fig.  3 .  I  examine 
+the probability that a company undertakes an acquisition 
+in a certain year calculated as the number of companies 
+doing an acquisition divided by the total number of com- 
+panies. After the tax reform, companies that owned an eq- 
+uity  stake  in  1999  experience  an  increase  in  acquisition 
+probability of ﬁve percentage points or 14% relative to the 
+pre-event period. At the same time, the probability of un- 
+dertaking an acquisition slightly decreases by 1.7 percent- 
+age points for companies without equity stakes. These re- 
+
+sults suggest that the additional ﬁnancial resources from 
+selling  their  equity  stakes  led  companies  with  equity 
+stakes  to  increase  their  acquisition  activity  after  the  tax 
+reform. 
+
+After  illustrating  the  overall  economic  effect  above,  I 
+now undertake a more detailed analysis using a difference- 
+in-difference setup: 
+
+Acquisition probabilit y f,t 
+=
+
++
+β ∗ Equity stake 1999 f 
+αt 
+
++
+
+α
+
+f 
+
+∗ P ost re f orm 
++
+ε
+
+,
+ f,t 
+
+(1) 
+
+α
+
+, 
+f 
+
+where Equity stake 1999 is a dummy variable equal to one 
+if the company holds a minority stake in 1999 and Post re- 
+form is a dummy variable equal to one after the announce- 
+αt  denote ﬁrm and year 
+ment of the tax reform; and 
+ﬁxed effects (which also absorb the main effects of the in- 
+teraction Equity stake 1999 and Post reform ). The year ﬁxed 
+effects absorb any time trends. For example, the tax reform 
+could  make  acquisitions  more  attractive,  since  future  di- 
+vestitures are not subject to capital gains taxation. How- 
+ever,  this  effect  should  be  the  same  for  companies  with 
+and  without  equity  stakes  and  thus  be  captured  by  the 
+year  ﬁxed  effects.  The  fundamental  identifying  assump- 
+tion of this analysis is that factors other than the capital 
+
+ 
+ 
+ 
+ 
+ 
+296 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Fig. 3.  Change in acquisition probability. This ﬁgure displays the average percentage of companies in a certain year that undertook an acquisition. In the 
+ﬁrst graph, I display this average for companies with equity stakes in 1999 and in the second graph for companies without equity stakes in 1999. The 
+“before tax reform” period is 1992–1999; the “after tax reform” period is 20 0 0–20 07. 
+
+gains tax reform affect companies with and without equity 
+stakes in the same way (parallel trends assumption). Since 
+there might be different trends by industry, I add industry- 
+year ﬁxed effects. I do not include time-varying controls 
+as these can be endogenously affected by the tax reform. 
+However, I add ﬁrm-speciﬁc controls (measured in 1999) 
+interacted  with  the  post-reform  dummy.  This  method  to 
+account  for  differing trends  depending on  industry  char- 
+acteristics  and  control  variables  has  been  used  in  many 
+difference-in-difference studies, for example, Barrot (2016) . 
+The ﬁnal regression setup is: 
+
+=
+
+Y t, f 
+
++
+
++
+αt 
+
++
+α
+αi,t 
+∗ P ost re f orm 
++
+
+f 
+
+β ∗ Equity stake 1999 f 
+γ ∗ Control s f 
+
+∗ P ost re f orm 
++
+
+ε
+
+,
+ f,t 
+(2) 
+
+α
+
+i, t 
+
+are industry-year ﬁxed effects and Controls f 
+
+where 
+is 
+a vector with size, Tobin’s Q , and leverage as of Decem- 
+ber 1999. I cluster standard errors at the ﬁrm level, which 
+controls  for  the  serial  correlation  issue  in  difference-in- 
+difference analyses ( Bertrand et al., 2004 ). 
+
+I  report  results  in  Table  3 .  The  dependent  variable 
+is  a  dummy  variable  equal  to  one  if  a  company  under- 
+takes  an  acquisition  in  a  certain  year.  I  follow  Harford 
+(1999) and study the probability of undertaking an acquisi- 
+tion in a given year rather than the number of acquisitions, 
+since several small acquisitions could be equivalent to one 
+large acquisition. Due to the incidental parameters prob- 
+lem ( Chamberlain, 1980 ), I run logit estimation conditional 
+on ﬁrms rather than logit with ﬁrm ﬁxed effects. In addi- 
+tion, I also run a linear probability model estimated with 
+ordinary least squares (OLS). 
+
+In  all  speciﬁcations,  the  interaction  of  Equity  stake 
+1999  and  Post  reform  has  a  positive  effect  on  the  acqui- 
+sition probability. In nonlinear difference-in-difference se- 
+tups such as logit models, only the sign of the interaction 
+
+Table 3 
+Acquisition probability. 
+
+This table displays yearly panel regressions of Acquisition dummy on 
+the interaction of Equity stake 1999 and Post reform . The main effects Eq- 
+uity stake 1999 and Post reform are not included because they are multi- 
+collinear with the ﬁxed effects. In Regression 1, I employ logit estimation 
+conditional on ﬁrms. In Regressions 2 and 3, I employ OLS estimation 
+with ﬁrm ﬁxed effects. All variables are deﬁned in Appendix A . All stan- 
+dard errors are clustered at the ﬁrm level. I report t -statistics below the 
+indicate signiﬁcance at the 1%, 5%, 
+coeﬃcients in parentheses. 
+and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type 
+Condition on 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Acquisition dummy 
+
+(1) 
+∗∗
+0.672 
+(2.39) 
+0.058 
+(0.73) 
+−1.154 
+∗
+−1.83) 
+( 
+−0.139 
+−1.39) 
+( 
+
+3318 
+
+(2) 
+∗∗∗
+0.082 
+(3.03) 
+−0.005 
+−0.85) 
+( 
+−0.118 
+∗∗
+−2.18) 
+( 
+−0.004 
+−0.52) 
+( 
+
+(3) 
+∗∗∗
+0.088 
+(3.00) 
+−0.005 
+−0.94) 
+( 
+−0.134 
+∗∗
+−2.46) 
+( 
+−0.004 
+−0.46) 
+( 
+
+6090 
+0.41 
+
+6090 
+0.42 
+
+Cond. logit 
+
+OLS 
+
+OLS 
+
+Firm 
+
+No 
+Yes 
+No 
+
+Yes 
+Yes 
+No 
+
+Yes 
+No 
+Yes 
+
+coeﬃcient can be interpreted ( Puhani, 2012; Ai and Nor- 
+ton, 2003 ). Thus, I refer the reader to the univariate analy- 
+sis above to get an impression of the economic magnitude 
+of the effect. The linear probability model (OLS estimation) 
+estimates a relative increase of the acquisition probability 
+of 8%. This result is statistically signiﬁcant at the 5% level 
+for all speciﬁcations. It is consistent with companies using 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+297 
+
+Fig. 4.  Effect of cash windfall on acquisition probability by year. This ﬁgure reports the point estimates from a logit regression conditional on ﬁrms of 
+Acquisition dummy on the interaction between Equity stake 1999 and yearly dummies from 1994 to 2007. Additional controls in the regression include year 
+ﬁxed effects as well as Size, Leverage , and Tobin’s Q in 1999 interacted with Post reform . The speciﬁcation is the same as that reported in Table 3 Regression 1, 
+except that Equity stake 1999 is interacted with yearly dummies from 1994 to 2007 instead of Post reform . The two vertical lines indicate the announcement 
+of the tax reform in December 1999 and the tax reform coming into effect in January 2002. See Appendix A for variable deﬁnitions. 
+
+the additional cash from liquidating their equity stakes to 
+engage in additional acquisitions. 
+
+To  get  a  better  impression  of  the  exact  timing  of 
+the increase in acquisitions, I follow Gormley and Matsa 
+(2011) and plot the point estimates of a modiﬁed version 
+of Regression 1 in Fig. 4 . In this modiﬁed regression setup, 
+I  allow  the  effect  of  owning  an  equity  stake  in  1999  to 
+vary by year from six years before to eight years after the 
+announcement  of  the  tax  reform.  Before  the  tax  reform, 
+there is no apparent trend in the difference between ﬁrms 
+with  and  without  equity  stakes,  thus  validating  the  par- 
+allel trends assumption. If anything, there seems to be a 
+slight downwards trend in the relative acquisition proba- 
+bility of ﬁrms with equity stakes. After the announcement 
+of the tax reform in 1999, we see a reversal in the trend 
+and an increase in the number of acquisitions for compa- 
+nies with an equity stake in 1999. Especially, after the law 
+comes into effect in January 2002 and companies can sell 
+their equity stakes tax free, there is a large increase in the 
+number of acquisitions of these companies, suggesting that 
+the additional acquisitions were indeed caused by the cash 
+windfalls following the reform. 
+
+Overall, the results suggest that companies experiencing 
+a cash windfall engage in more acquisitions. This ﬁnding is 
+not consistent with the perfect capital market assumption 
+of Modigliani and Miller (1958) . So far, these results do not 
+tell us whether the additional acquisitions represent over- 
+investment (free cash ﬂow theory) or a reduction in un- 
+derinvestment (ﬁnancial constraints theory). I will address 
+this question in the following section. 
+
+4.3. Announcement returns 
+
+After considering the number of acquisitions, I now ex- 
+amine  whether  these  acquisitions  are  value  increasing.  I 
+
+proxy  for  the  proﬁtability  of  the  acquisitions  using  an- 
+nouncement returns. This approach assumes that the mar- 
+ket  did  not  fully  anticipate  the  acquisition  decision  be- 
+fore the announcement and thus the stock return around 
+the announcement represents the change in ﬁrm value re- 
+sulting from the acquisition. This assumption is standard 
+to any analysis of acquisition announcement returns (e.g., 
+Masulis et al., 2007; Moeller et al., 2005 ). 
+
++
+
+−1  to  t 
+
+I start with a univariate analysis in Fig. 5 . As is com- 
+mon in the literature, I deﬁne Announcement return as the 
+acquirer  return  in  the  three  trading  days  ( t 
+  1) 
+around the announcement date of the acquisition reported 
+in  SDC  Platinum.  In  Panel  A,  I  focus  on  raw  returns.  I 
+study one-factor alphas in Panel B and four-factor alphas 
+in Panel C. I use factors speciﬁcally constructed for the Ger- 
+man market (see Appendix C ). After the tax reform, com- 
+panies with an equity stake in 1999 experience a decrease 
+in the average acquisition announcement return by 0.5%. 
+This ﬁnding suggests a reduction in average announcement 
+returns for companies that received a cash windfall. Next, I 
+study whether this result transfers to a more rigorous anal- 
+ysis. 
+
+Table 4 reports the results of a difference-in-difference 
+speciﬁcation examining the change in acquirer announce- 
+ment returns before and after January 1, 20 0 0. The unit of 
+observation is an acquisition. As above, I control for size, 
+leverage,  and  Tobin’s  Q  interacted  with  the  post-reform 
+dummy as well as ﬁrm and industry-year ﬁxed effects. I 
+−20) to control 
+add the return in the past year ( t 
+for the momentum effect as reported by Jegadeesh and Tit- 
+man (1993) . 
+
+−365 to t 
+
+There are advantages and disadvantages to controlling 
+for merger characteristics such as payment methods and 
+the type of target. On the one hand, merger characteristics 
+can clearly be endogenous to the cash windfall and thus 
+
+298 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Fig. 5.  Change in average announcement return. This ﬁgure displays the average acquirer announcement return from t 
+ 1 trading days around the 
+acquisition. In the ﬁrst graph, I display this average for companies with equity stakes in 1999 and in the second graph for companies without equity stakes 
+in 1999. The “before tax reform” period goes from 1992 to 1999; the “after tax reform” period goes from 20 0 0 to 2007. In Panel A, I display cumulative 
+raw returns. In Panel B, I display cumulative one-factor alphas. In Panel C, I display cumulative four-factor alphas. 
+
+−1 to t 
++
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+299 
+
+Table 4 
+Announcement returns. 
+
+This table displays OLS regressions of acquirer announcement returns (in percentage points) on the interaction of Equity stake 1999 
+and Post reform . The main effects Equity Stake 1999 and Post Reform are not included because they are multicollinear with the ﬁxed 
+effects. The sam ple for this regression consists of all acquisitions from 1992 to 2007. In Regressions 1 and 2, the dependent variable is 
+ 1 around the announcement date of the acquirer. In Regressions 3–6, I replace returns with alphas 
+the cumulative return from t 
+based on a classical capital asset pricing model (CAPM) with only one market factor and the Carhart (1997) four-factor model. I construct 
+the respective factors for Germany (see Appendix C ). All variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm 
+level. I report t -statistics below the coeﬃcients in parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+−1 to t 
++
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Announcement return 
+
+−1 to t 
++
+t 
+
+ 1 
+
+Announcement one-factor 
+
+alpha t 
+
+−1 to t 
++
+
+ 1 
+
+Announcement four-factor 
+
+alpha t 
+
+−1 to t 
++
+
+ 1 
+
+∗
+Equity stake 1999 
+−365, 
+
+Avg. return ( 
+
+Post reform 
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+−1.14 
+∗∗
+−2.03) 
+( 
+∗
+1.40 
+(1.88) 
+0.15 
+(1.06) 
+0.02 
+(0.02) 
+−0.53 
+∗∗
+−2.44) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+(2) 
+−1.15 
+∗∗
+−2.03) 
+( 
+∗
+1.35 
+(1.78) 
+0.19 
+(1.32) 
+0.21 
+(0.19) 
+−0.53 
+∗∗
+−2.45) 
+( 
+0.64 
+(1.26) 
+0.34 
+(0.66) 
+0.02 
+(0.10) 
+−0.16 
+−0.71) 
+( 
+−0.40 
+∗
+−1.94) 
+( 
+−0.51 
+∗∗∗
+−3.27) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+(3) 
+−0.94 
+∗
+−1.86) 
+( 
+1.11 
+(1.24) 
+0.18 
+(1.25) 
+−0.50 
+−0.46) 
+( 
+−0.42 
+∗
+−1.79) 
+( 
+
+2852 
+0.11 
+
+Yes 
+Yes 
+
+(4) 
+−0.94 
+∗
+−1.86) 
+( 
+1.08 
+(1.22) 
+0.21 
+(1.42) 
+−0.41 
+−0.38) 
+( 
+−0.42 
+∗
+−1.80) 
+( 
+0.16 
+(0.37) 
+−0.15 
+−0.35) 
+( 
+0.06 
+(0.40) 
+−0.30 
+∗
+−1.89) 
+( 
+−0.03 
+−0.21) 
+( 
+−0.47 
+∗∗∗
+−3.28) 
+( 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+(5) 
+−0.89 
+∗
+−1.84) 
+( 
+0.93 
+(1.03) 
+0.19 
+(1.36) 
+0.00 
+(0.00) 
+−0.33 
+−1.47) 
+( 
+
+2852 
+0.11 
+
+Yes 
+Yes 
+
+(6) 
+−0.89 
+∗
+−1.82) 
+( 
+0.90 
+(1.00) 
+0.21 
+(1.49) 
+0.09 
+(0.08) 
+−0.33 
+−1.46) 
+( 
+0.32 
+(0.77) 
+−0.03 
+−0.08) 
+( 
+0.06 
+(0.44) 
+−0.33 
+∗∗
+−2.07) 
+( 
+0.02 
+(0.11) 
+−0.45 
+∗∗∗
+−3.05) 
+( 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+controlling for them could distort the analysis. For exam- 
+ple, it is perceivable that ﬁrms receiving a cash windfall 
+pay  more  in  cash  or  expand  more  abroad.  On  the  other 
+hand,  merger  characteristics  have  been  clearly  related  to 
+announcement  returns  and  it  is  standard  to  control  for 
+them. Therefore, I report regression results with and with- 
+out these controls. The regressions without merger-speciﬁc 
+controls  show  the  total  effect  of  cash  windfalls  on  an- 
+nouncement returns including the differences coming from 
+different mer ger characteristics, while the other regression 
+setup shows the effect conditional on these (endogenous) 
+variables. 
+
+The  merger  characteristics  that  I  control  for  include 
+Cash acquisition, an indicator variable that is equal to one 
+if the consideration listed in SDC Platinum is at least par- 
+tially paid using cash, capital infusion, or debt reduction. 
+Because the data item on considerations is often missing 
+in SDC Platinum, I employ another indicator variable equal 
+to one if I do not know the method of payment (in this 
+case, Cash acquisition is set to zero). I also include dummy 
+variables for diversifying acquisitions (different 10 Fama–
+French industry of the target), cross-border deals, publicly 
+listed targets, and targets which are independent compa- 
+nies rather than spinoffs sold by another company. 
+
+Robust to all these controls and ﬁxed effects, com panies 
+that own equity stakes in 1999 experience a signiﬁcant de- 
+crease in announcement returns after the tax reform. The 
+effect is also economically signiﬁcant. Companies receiving 
+a cash windfall experience a decrease in announcement re- 
+turns by roughly 1.2%. For one- and four-factor announce- 
+ment alphas, the effect is approximately 1%. Interestingly, 
+controlling for the deal characteristics does not change the 
+result. This ﬁnding suggests that the difference comes not 
+so  much  from  acquiring  different  tar gets  as  from  select- 
+ing worse targets and from overpaying, which is consistent 
+with the free cash ﬂow theory. 
+
+4.4. Interpretation of results 
+
+The  results  indicate  a  clear  reduction  in  average  an- 
+nouncement returns for ﬁrms with a cash windfall. How- 
+ever, such a decrease does not necessarily mean that ﬁrm 
+value is destroyed. Because average announcement returns 
+of ﬁrms with cash windfalls remain positive after the tax 
+reform (see Fig. 5 ), the decrease might be explained by de- 
+creasing but still positive marginal returns to scale. To illus- 
+trate this argument, consider an example with two acqui- 
+sition opportunities with net present values (NPV) of two 
+
+300 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Table 5 
+Hypotheses and results. 
+
+This table displays the different hypotheses of how a positive cash shock should inﬂuence certain variables 
+
+and compares it to the results. 
+
+Variables 
+
+Modigliani 
+
+Non-agency 
+
+Free cash ﬂow 
+
+Result 
+
+Miller 
+
+Number of acquisitions 
+Capital expenditures 
+Average announcement returns 
+Sum of announcement returns 
+
+No effect 
+No effect 
+No effect 
+No effect 
+
+Table 6 
+Yearly sum of announcement returns. 
+
+ﬁnancial 
+
+constraints 
+
+theory 
+
+Increase 
+Increase 
+
+theory 
+
+Increase 
+Increase 
+
+Increase 
+(Increase) 
+
+Small decrease 
+
+Large decrease 
+
+Large decrease 
+
+Increase 
+
+Decrease 
+
+Decrease 
+
+This table displays yearly panel regressions of the Sum of announcement returns (in percent- 
+age points) on the interaction of Equity stake 1999 and Post reform . The main effects Equity 
+stake 1999 and Post reform are not included because they are multicollinear with the ﬁxed 
+effects. The dependent variables are the yearly sum of all announcement returns (or alphas). 
+All variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm level. I 
+indicate signiﬁcance at the 
+report t -statistics below the coeﬃcients in parentheses. 
+1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+Yearly sum of announcement returns 
+
+Raw returns  One-factor alpha 
+
+Four-factor alpha 
+
+(1) 
+−0.405 
+∗∗
+−2.16) 
+( 
+
+6365 
+0.07 
+
+Yes 
+Yes 
+
+(2) 
+−0.340 
+∗∗
+−2.17) 
+( 
+
+6365 
+0.04 
+
+Yes 
+Yes 
+
+(3) 
+−0.359 
+∗∗
+−2.38) 
+( 
+
+6365 
+0.04 
+
+Yes 
+Yes 
+
+and one. If the ﬁrm is ﬁnancially constrained and can take 
+only one project, its average NPV is two. If it becomes un- 
+constrained and takes both projects, the average NPV de- 
+creases to 1.5. 
+
+However, a simple calculation reveals that the decrease 
+in  average  announcement  returns  from  0.65%  to  0.05% 
+is  too  large  to  be  explained  by  decreasing  (but  posi- 
+tive)  marginal  returns.  Even  assuming  all  additional  ac- 
+quisitions  have  expected  announcement  returns  of  zero, 
+the  number  of  acquisitions  would  have  to  increase  by 
+1200%  to  drive  the  average  return  down  to  0.05%  (as 
++
+(0.65 
+ 0.05). Yet, I observe an increase of only 
+19%. Thus, the strong decrease in average announcement 
+returns rejects non-agency theories of ﬁnancial constraints 
+and supports the free cash ﬂow theory. 
+
+×0)/13 
+=
+
+ 12 
+
+4.5. Yearly sum of announcement returns 
+
+It  is  possible  to  conﬁrm  the  simple  calculation  above 
+using  a  regression  framework.  For  this  purpose,  I  study 
+the combined proﬁtability of all acquisitions of a company 
+(following  Bertrand  and  Mullainathan,  2005 ).  Since  only 
+positive net present value (NPV) projects are taken under 
+the  ﬁnancial  constraints  theory,  every  additional  acquisi- 
+tion  should  increase  the  sum  of  announcement  returns. 
+Consider the above example with two acquisition oppor- 
+tunities  with  NPVs  of  two  and  one.  If  the  ﬁrm  is  ﬁnan- 
+cially constrained and can take only one project, its aver- 
+
+age NPV is two and the sum of NPVs is two. If it becomes 
+unconstrained, the average NPV decreases to 1.5 due to de- 
+creasing marginal returns, but the sum of NPVs increases 
+to three. However, under the free cash ﬂow theory, addi- 
+tional investments are value destroying and will decrease 
+the sum of announcement returns (see Table 5 for how dif- 
+ferent outcome variables are affected under the different 
+theories). 
+
+Therefore,  I  estimate  difference-in-difference  regres- 
+sions in which the dependent variable is the sum of the 
+announcement returns of all acquisitions a company un- 
+dertakes within a year. If the additional cash allows man- 
+agers to engage in additional value-increasing acquisitions, 
+I  expect  an  increase  in  the  Sum  of  announcement  re- 
+turns , while I expect a decrease under the free cash ﬂow 
+theory. 
+
+Table 6 displays the results of this analysis. Companies 
+that  receive  a  positive  cash  shock  see  a  decrease  in  ag- 
+gregate  yearly  announcement  returns  of  0.4%.  In  Regres- 
+sions  2  and  3,  I  show  that  the  effect  is  also  signiﬁcant 
+for sums of one- and four-factor alphas at similar magni- 
+tudes. These results imply that the additional acquisitions 
+not only have lower, but actually negative announcement 
+returns and therefore destroy value. The result is also eco- 
+nomically signiﬁcant. It implies that approximately 0.4% of 
+ﬁrm value is destroyed every year by additional acquisi- 
+tions or worse execution of acquisitions. Over my sample 
+period, this effect accumulates to 3.2%. 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+301 
+
+Table 7 
+Differential effect by the size of the equity stakes. 
+
+This table displays the main tests splitting the treated group by the aggregate size of their equity stakes. Large equity stake 1999 
+is a dummy variable equal to one if the company ranks above the median by value of its equity stakes (as a share of its market 
+capitalization) in 1999, while Small equity stake 1999 is a dummy variable equal to one if it ranks below the median. If a company 
+does not own minority equity stakes, these two variables are set equal to zero. The main effects Large equity stake 1999, Small equity 
+stake 1999, and Post reform are not included because they are multicollinear with the ﬁxed effects. Panel A displays regressions for the 
+acquisition probability and is thus the counterpart to Table 3 . In Regression 1, I run a logit regression conditional on ﬁrm. In Regressions 
+2 and 3, I run OLS regressions. Panel B displays regressions for announcement returns (in percentage points) and is thus the counterpart 
+to Table 4 . Panel C displays regressions for the yearly sum of announcement returns (in percentage points) and is thus the counterpart 
+to Table 6 . All variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm level. I report t -statistics below the 
+coeﬃcients in parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Large equity stake 1999 
+
+Post reform 
+
+∗
+Small equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type 
+Condition on 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+∗
+Large equity stake 1999 
+
+Post reform 
+
+Post reform 
+
+∗
+Small equity stake 1999 
+−20) 
+
+Avg. return ( 
+
+−365, 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+∗∗∗
+0.902 
+
+(2.67) 
+0.515 
+(1.55) 
+0.060 
+(0.76) 
+−1.190 
+∗
+−1.92) 
+( 
+−0.124 
+−1.25) 
+( 
+
+3318 
+
+Cond. logit 
+
+Firm 
+
+No 
+Yes 
+No 
+
+Acquisition dummy 
+
+(2) 
+∗∗∗
+0.100 
+(3.38) 
+0.063 
+(1.53) 
+−0.004 
+−0.78) 
+( 
+−0.119 
+∗∗
+−2.22) 
+( 
+−0.004 
+−0.46) 
+( 
+
+6090 
+0.41 
+
+OLS 
+
+Yes 
+Yes 
+No 
+
+(3) 
+∗∗∗
+0.111 
+(3.52) 
+0.067 
+(1.56) 
+−0.004 
+−0.87) 
+( 
+−0.137 
+∗∗
+−2.51) 
+( 
+−0.003 
+−0.37) 
+( 
+
+6090 
+0.42 
+
+OLS 
+
+Yes 
+No 
+Yes 
+
+Announcement return 
+
+Announcement one-factor 
+
+Announcement four-factor 
+
+−1 to t 
++
+t 
+(1) 
+−1.92 
+∗∗∗
+−2.66) 
+( 
+−0.84 
+−1.34) 
+( 
+∗
+1.34 
+(1.82) 
+0.22 
+(1.48) 
+−0.04 
+−0.03) 
+( 
+−0.60 
+∗∗∗
+−2.64) 
+( 
+
+ 1 
+
+(2) 
+−1.87 
+∗∗
+−2.53) 
+( 
+−0.87 
+−1.38) 
+( 
+∗
+1.29 
+(1.73) 
+∗
+0.25 
+(1.70) 
+0.15 
+(0.14) 
+−0.60 
+∗∗∗
+−2.63) 
+( 
+0.64 
+(1.25) 
+0.34 
+(0.66) 
+0.01 
+(0.07) 
+−0.17 
+−0.74) 
+( 
+−0.40 
+∗
+−1.95) 
+( 
+−0.50 
+∗∗∗
+−3.21) 
+( 
+
+alpha t 
+(3) 
+−1.67 
+∗∗
+−2.52) 
+( 
+−0.64 
+−1.14) 
+( 
+1.05 
+(1.22) 
+0.24 
+(1.63) 
+−0.56 
+−0.51) 
+( 
+−0.49 
+∗∗
+−1.98) 
+( 
+
+−1 to t 
++
+ 1 
+(4) 
+−1.61 
+∗∗
+−2.38) 
+( 
+−0.66 
+−1.19) 
+( 
+1.04 
+(1.20) 
+∗
+0.26 
+(1.75) 
+−0.47 
+−0.43) 
+( 
+−0.49 
+∗
+−1.96) 
+( 
+0.15 
+(0.36) 
+−0.15 
+−0.34) 
+( 
+0.06 
+(0.37) 
+−0.31 
+∗
+−1.92) 
+( 
+−0.03 
+−0.21) 
+( 
+−0.46 
+∗∗∗
+−3.22) 
+( 
+
+alpha t 
+(5) 
+−1.52 
+∗∗
+−2.30) 
+( 
+−0.64 
+−1.18) 
+( 
+0.89 
+(1.00) 
+∗
+0.24 
+(1.66) 
+−0.05 
+−0.05) 
+( 
+−0.39 
+−1.63) 
+( 
+
+−1 to t 
++
+ 1 
+(6) 
+−1.45 
+∗∗
+−2.16) 
+( 
+−0.66 
+−1.21) 
+( 
+0.86 
+(0.97) 
+∗
+0.25 
+(1.75) 
+0.04 
+(0.04) 
+−0.38 
+−1.59) 
+( 
+0.32 
+(0.76) 
+−0.03 
+−0.08) 
+( 
+0.06 
+(0.41) 
+−0.33 
+∗∗
+−2.09) 
+( 
+0.02 
+(0.12) 
+−0.44 
+∗∗∗
+−3.00) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+2885 
+0.11 
+
+Yes 
+Yes 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+2852 
+0.11 
+
+Yes 
+Yes 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+(Continued on next page) 
+
+302 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Table 7 
+(Continued). 
+
+Panel C: Yearly sum of announcement returns 
+
+Yearly sum of 
+
+Yearly sum of announcement 
+
+announcement returns 
+
+one-factor alphas 
+
+Yearly sum of 
+announcement 
+
+four-factor alphas 
+
+∗
+Large equity stake 1999 
+
+Post reform 
+
+∗
+Small equity stake 1999 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+−0.602 
+∗∗
+−2.26) 
+( 
+−0.239 
+−1.09) 
+( 
+
+6365 
+0.06 
+
+Yes 
+Yes 
+
+(2) 
+−0.489 
+∗∗
+−2.03) 
+( 
+−0.215 
+−1.26) 
+( 
+
+6365 
+0.04 
+
+Yes 
+Yes 
+
+(3) 
+
+−0.485 
+∗∗
+−2.10) 
+( 
+−0.253 
+−1.51) 
+( 
+
+6365 
+0.04 
+
+Yes 
+Yes 
+
+4.6. Differential effect by the size of the cash windfall 
+
+4.7. Differential effect by whether acquisitions are paid in 
+cash or in stock 
+
+Firms with larger equity stakes in terms of total mar- 
+ket  capitalization  receive  a  larger  cash  windfall  from  di- 
+vesting. Thus, we might expect a stronger effect for these 
+ﬁrms. To test this idea, I repeat the analyses from Tables 
+3 –6 , but split the treated group along the median in terms 
+of  the  size  of  equity  stakes  as  a  fraction  of  the  holder’s 
+market  capitalization.  I  introduce  two  new  dummy  vari- 
+ables: Large equity stake 1999 is equal to one if the com- 
+pany ranks above the median by aggregate value of equity 
+holdings as a share of its market capitalization, while Small 
+equity stake 1999 equals one if it ranks below the median. 
+If a company has no equity stakes, both variables are set to 
+zero. By including both of these variables (interacted with 
+Post  reform )  in  the  regression,  I  estimate  the  effect  of  a 
+large windfall and a small windfall both compared to the 
+control group of ﬁrms without equity stakes. 
+
+Table 7 shows the results. In Panel A, I repeat the anal- 
+ysis  of  Table  3  on  acquisition  probability.  Firms  receiv- 
+ing a large cash windfall see a 10% increase in acquisition 
+probability, which is statistically signiﬁcant at the 1% level. 
+On the other hand, ﬁrms with a small cash windfall see 
+a  lower  increase  of  6%,  which  is  not  statistically  signiﬁ- 
+cant. This ﬁnding suggests that a small cash windfall is not 
+enough to trigger a signiﬁcant increase in the number of 
+acquisitions, but that a large cash windfall is. 
+
+In Panel B, the dependent variables are announcement 
+returns and announcement alphas thus mirroring the anal- 
+yses of Table 4 . Firms receiving a large cash windfall see 
+a  large  drop  in  average  announcement  returns  of  about 
+2% that is signiﬁcant at the 1% level. On the other hand, 
+ﬁrms with a small cash windfall see a lower decrease of 
+0.9%,  which  is  not  statistically  signiﬁcant.  The  result  for 
+yearly sum of announcement returns (Panel C) is similar: 
+a large cash windfall leads to a decrease in yearly sum of 
+announcement returns of 0.6%, signiﬁcant at the 5% level, 
+while a small cash windfall only leads to an insigniﬁcant 
+decrease of approximately 0.2%. These ﬁndings show that 
+the  effect  on  the  ﬁrms’  acquisition  behavior  depends  on 
+the size of the cash windfall, which is consistent with the 
+free cash ﬂow theory. 
+
+We expect  the cash windfalls from the tax reform to 
+have a stronger effect on acquisitions that are ﬁnanced by 
+cash. I examine this proposition in Table 8 . Because pay- 
+ment information is missing for such a large part of the 
+sample,  I  supplement  the  payment  information  with  the 
+information  obtained  from  the  predictive  regression  ex- 
+plained in Appendix D . In Panel A, I run the same regres- 
+sion as in Table 3 but instead of having Acquisition dummy 
+as the dependent variable, I use two different dependent 
+variables: Cash acquisition , which is equal to one if the ﬁrm 
+undertakes a cash acquisition in the year and Stock acqui- 
+sition , which is equal to one if the ﬁrm undertakes a stock 
+acquisition. 
+
+After the tax reform, ﬁrms with equity stakes in 1999 
+experience an increase in the likelihood of undertaking a 
+cash acquisition, but there is no increase in the effect of 
+undertaking a stock acquisition. In fact, after controlling for 
+industry-year  ﬁxed  effects,  I  ﬁnd  even  a  statistically  sig- 
+niﬁcantly  negative  effect  on  the  probability  of  undertak- 
+ing a stock acquisition. A negative effect can be possible if 
+following the cash windfall, cash acquisitions “crowd out”
+stock acquisitions, i.e., the ﬁrm decides to pay cash for ac- 
+quisitions for which it would otherwise have used stock. 
+
+∗
+
+Next,  in  Panel  B,  I  split  the  effect  on  announcement 
+returns  by  whether  the  acquisition  is  likely  paid  for  in 
+cash  or  in  stock.  I  run  a  speciﬁcation  that  is  similar  to 
+Table 4 in the paper, but instead of including Equity stake 
+Post reform as the main explanatory variable of in- 
+1999 
+terest, I include Equity stake 1999 
+Post reform interacted 
+−Cash acquisi- 
+with both Cash acquisition predicted and (1 
+tion predicted) . This way, I split the main effect by whether 
+it is a cash or a stock acquisition. While ﬁrms with equity 
+stakes  in  1999  experience  a  1.2%  decrease  in  announce- 
+ment returns for cash acquisitions, the decrease for stock 
+acquisitions is only 0.4% and statistically insigniﬁcant. 
+
+∗
+
+To conclude, both the effect on acquisition probability 
+and the result on announcement returns is mainly driven 
+by cash acquisitions. This ﬁnding is consistent with the tax 
+reform  providing  ﬁrms  with  equity  stakes  in  1999  with 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+303 
+
+Table 8 
+Comparing effect of windfalls on cash and stock acquisitions. 
+
+This table displays OLS panel regressions examining whether the tax windfalls from the tax reform had different effects on cash and 
+stock acquisitions. In Panel A, the dependent variables are Cash acquisition dummy , which is a dummy variable equal to one if the ﬁrm 
+undertook an acquisition ﬁnanced at least partly by cash or had a 75% probability of being paid in cash according to the predictive 
+regression in Appendix D and Stock acquisition dummy , which is a dummy variable equal to one if the ﬁrm undertook an acquisition 
+ﬁnanced solely by equity or having a below 75% probability of being paid in cash. The main explanatory variable of interest is the 
+−1 
+interaction between Equity stake 1999 and Post reform . In Panel B, the dependent variable is the cumulative acquirer return from t 
++
+ 1 around the announcement date. The explanatory variables of interest are the triple interactions of Equity stake 1999, Post 
+to t 
+−Cash acquisition predicted). Cash acquisition predicted is a dummy variable equal to 
+reform, and either Cash acquisition predicted or (1 
+one if the acquisition was paid in cash or if there is at least a 75% probability that the acquisition was paid in cash according to the 
+predictive regression in Appendix D . All other variables are as deﬁned in Appendix A . The main effects are not included because they 
+are multicollinear with the ﬁxed effects. All standard errors are clustered at the ﬁrm level. I report t -statistics below the coeﬃcients in 
+parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+∗
+Equity stake 1999 
+
+∗
+Post reform 
+
+∗
+Equity stake 1999 
+−365, 
+
+Avg. return ( 
+
+∗
+Post reform 
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Cash acquisition predicted 
+
+Cash acquisition 
+
+No payment information 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+Cash acquisition dummy 
+
+Stock acquisition dummy 
+
+(1) 
+
+∗∗∗
+
+0.087 
+(3.14) 
+−0.005 
+−0.89) 
+( 
+−0.104 
+∗
+−1.94) 
+( 
+−0.003 
+−0.41) 
+( 
+
+6090 
+0.41 
+
+Yes 
+Yes 
+No 
+
+Cash acquisition predicted 
+−Cash acquisition predicted) 
+(1 
+
+(2) 
+
+∗∗∗
+
+0.092 
+(3.08) 
+−0.005 
+−0.95) 
+( 
+−0.117 
+∗∗
+−2.17) 
+( 
+−0.003 
+−0.36) 
+( 
+
+6090 
+0.42 
+
+Yes 
+No 
+Yes 
+
+(1) 
+−1.15 
+∗∗
+−2.04) 
+( 
+−0.41 
+−0.42) 
+( 
+∗
+1.42 
+(1.91) 
+0.15 
+(1.02) 
+0.00 
+(0.00) 
+−0.53 
+∗∗
+−2.43) 
+( 
+
+(3) 
+−0.013 
+−1.47) 
+( 
+−0.005 
+−1.21) 
+( 
+−0.004 
+−0.17) 
+( 
+−0.001 
+−0.33) 
+( 
+
+6090 
+0.15 
+
+Yes 
+Yes 
+No 
+
+Announcement return t 
+
+−1 to t 
++
+
+ 1 
+
+(2) 
+−1.19 
+∗∗
+−2.09) 
+( 
+−0.41 
+−0.41) 
+( 
+∗
+1.40 
+(1.85) 
+0.19 
+(1.33) 
+0.19 
+(0.17) 
+−0.54 
+∗∗
+−2.50) 
+( 
+0.02 
+(0.10) 
+−0.10 
+−0.45) 
+( 
+−0.44 
+∗∗
+−2.09) 
+( 
+−0.53 
+∗∗∗
+−3.42) 
+( 
+
+(3) 
+−1.18 
+∗∗
+−2.08) 
+( 
+−0.47 
+−0.47) 
+( 
+∗
+1.40 
+(1.86) 
+0.19 
+(1.33) 
+0.18 
+(0.16) 
+−0.54 
+∗∗
+−2.49) 
+( 
+0.02 
+(0.11) 
+−0.10 
+−0.45) 
+( 
+−0.44 
+∗∗
+−2.08) 
+( 
+−0.52 
+∗∗∗
+−3.41) 
+( 
+−0.07 
+−0.13) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+(4) 
+−0.024 
+∗∗
+−2.18) 
+( 
+−0.004 
+−1.04) 
+( 
+−0.011 
+−0.48) 
+( 
+−0.002 
+−0.73) 
+( 
+
+6090 
+0.16 
+
+Yes 
+No 
+Yes 
+
+(4) 
+−1.15 
+∗∗
+−2.04) 
+( 
+0.24 
+(0.22) 
+∗
+1.36 
+(1.80) 
+0.18 
+(1.25) 
+0.23 
+(0.21) 
+−0.52 
+∗∗
+−2.40) 
+( 
+0.01 
+(0.05) 
+−0.18 
+−0.78) 
+( 
+−0.42 
+∗∗
+−2.02) 
+( 
+−0.50 
+∗∗∗
+−3.25) 
+( 
+
+∗
+1.11 
+(1.88) 
+0.78 
+(1.36) 
+
+2885 
+0.11 
+
+Yes 
+Yes 
+
+304 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Fig. 6.  Effect split by number of divestitures. This ﬁgure reports the point estimates from a panel regression of Acquisition dummy (Panel A) and Sum of 
+four-factor announcement alphas (Panel B) on the interaction between Post reform and indicator variables indicating the number of divestitures. I employ 
+four indicator variables for one to two, three to four, ﬁve to ten, and more than ten divestitures. I also show the baseline of no divestitures as a comparison. 
+In Panel A, the dependent variable is Acquisition dummy and I use a conditional logit model. Additional controls in the regression include ﬁrm and year 
+ﬁxed effects as well as Size, Leverage , and Tobin’s Q in 1999 interacted with Post reform . The speciﬁcation is the same as that reported in Table 3 Regression 
+1, except that Post reform is interacted with number of divestiture dummy variables instead of Equity stake 1999 . In Panel B, the dependent variable is Sum 
+of four-factor announcement alphas and I use a basic OLS model. Additional controls in the regression include ﬁrm and year ﬁxed effects. The speciﬁcation 
+is the same as that reported in Table 6 Regression 3, except that Post reform is interacted with number of divestiture dummy variables instead of Equity 
+stake 1999 . See Appendix A for variable deﬁnitions. 
+
+a  cash  windfall  that  they  use  to  undertake  more  value- 
+destroying cash acquisitions. 
+
+4.8. Differential effect by number and value of divestitures 
+
+In this section, I study whether there are stronger re- 
+sults for ﬁrms that sold more equity stakes. Using the Who 
+owns Whom? data, I compute the number of equity stakes 
+a ﬁrm sold as well as their value in EUR million. Thus, im- 
+plicitly, I assume that equity stakes with missing data have 
+not been sold. 
+
+I start by examining the differential effect by number 
+of  divestitures.  For  this  purpose,  I  assign  ﬁrms  into  four 
+groups by whether they divested one to two, three to four, 
+ﬁve to ten, or more than ten equity stakes. Then I run a 
+
+regression similar to the standard difference-in-difference 
+setup used in Table 3 , but instead of interacting Post reform 
+with Equity stake 1999 , I interact it with four dummy vari- 
+ables for these four groups indicating the number of di- 
+vestitures. Fixed effects and control variables are the same 
+as in the main regression. Then, I plot the coeﬃcients for 
+the four quartiles as well as the base case of no divesti- 
+tures (which also includes ﬁrms without equity stakes) in 
+Fig. 6 . 
+
+In Panel A, the dependent variable is Acquisition dummy , 
+i.e.,  I  examine  the  change  in  acquisition  probability.  Af- 
+ter the tax reform all ﬁrms with divestitures increased the 
+number of acquisitions relative to the control group with- 
+out divestitures and with one exception the increase in ac- 
+quisition probability is monotonically increasing with the 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+305 
+
+Fig. 7.  Effect split by value of divestitures. This ﬁgure reports the point estimates from a panel regression of Acquisition dummy (Panel A) and Sum of 
+four-factor announcement alphas (Panel B) on the interaction between Post reform and indicator variables indicating the quartile by value of divestitures. 
+The value of divestitures is deﬁned as the EUR value of divestitures. I also show the baseline of no divestitures as a comparison. In Panel A, the dependent 
+variable is Acquisition dummy and I use a conditional logit model. Additional controls in the regression include ﬁrm and year ﬁxed effects as well as Size, 
+Leverage , and Tobin’s Q in 1999 interacted with Post reform . The speciﬁcation is the same as that reported in Table 3 Regression 1, except that Post reform is 
+interacted with number of divestiture dummy variables instead of Equity stake 1999 . In Panel B, the dependent variable is Sum of four-factor announcement 
+alphas and I use a basic OLS model. Additional controls in the regression include ﬁrm and year ﬁxed effects. The speciﬁcation is the same as that reported 
+in Table 6 Regression 3, except that Post reform is interacted with number of divestiture dummy variables instead of Equity stake 1999 . See Appendix A for 
+variable deﬁnitions. 
+
+number  of  divestitures.  In  Panel  B,  I  ﬁnd  similar  results 
+for announcement returns measured as Yearly sum of an- 
+nouncement four-factor alphas . With the exception of one 
+group, announcement returns are monotonically decreas- 
+ing with the number of divestitures. 
+
+Next, in Fig. 7 , I run the same speciﬁcations, but instead 
+of splitting the sample by the number of divestitures, I split 
+it into quartiles by the value of divestitures. After the tax 
+reform, all ﬁrms with divestitures experience an increase 
+in acquisition probability and a decrease in announcement 
+returns relative to the control group without divestitures. 
+While there is no monotonicity along the quartiles, the top 
+quartile by divestitures experienced clearly the largest in- 
+crease in acquisitions probability and the largest decrease 
+in announcement returns. One would expect such a result 
+concentrated  in  the  top  quartile  given  that  the  distribu- 
+
+tion of divestiture values is highly positively skewed, i.e., 
+the top quartile has signiﬁcantly more divestitures than the 
+other three quartiles. 
+
+These  results  are  consistent  with  a  larger  effect  on 
+acquisition  activity  if  more  stakes  are  actually  divested, 
+thereby supporting the previous ﬁndings in line with the 
+free cash ﬂow theory. However, these results are only in- 
+dicative,  because  they  are  affected  by  endogeneity  con- 
+cerns as the decision to divest equity stakes is endogenous. 
+
+4.9. Timing of effects relative to divestitures 
+
+In  this  section,  I  study  the  timing  of  the  effects  on 
+acquisition  activity  relative  to  the  divestitures  of  equity 
+stakes. For this purpose, I examine a ﬁrm’s acquisition ac- 
+tivity relative to its ﬁrst conﬁrmed divestiture of an equity 
+
+306 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Fig. 8.  Effect of cash windfall on acquisition probability by year. This ﬁgure reports the point estimates from a panel regression of Acquisition dummy 
+(Panel A) and Four-factor announcement alphas (Panel B) on indicator variables indicating the year relative to the year in which the ﬁrm ﬁrst divested an 
+equity stake. Indicator variables are zero for ﬁrms without divestitures and years earlier than four years before the divestiture. Additional controls in the 
+regression include ﬁrm and year ﬁxed effects as well as Size, Leverage , and Tobin’s Q in 1999 interacted with Post reform . In Panel A, the dependent variable 
+is Acquisition dummy and I use a conditional logit model. In Panel B, the dependent variable is Four-factor announcement alphas and I use a basic OLS model. 
+See Appendix A for variable deﬁnitions. 
+
+stake. I deﬁne the year of divestiture as the ﬁrst year in 
+which  the  equity  stake  does  not  appear  anymore  in  the 
+Who owns Whom? database or in which it is reduced by 
+at least 50%. 
+
+I regress Acquisition dummy and Acquisition announce- 
+ment returns on indicator variables indicating the year rel- 
+−4 to 
+ative to the ﬁrst divestiture of an equity stake from 
++
+ 4 years. For example, the variable “2” is equal to one in 
+the second year after a divestiture and zero for all other 
+years  and  for  ﬁrms  that  do  not  own  equity  stakes.  This 
+setup is very similar to the one used in Fig. 4 , with the ex- 
+ception that the indicator variables of interest are not de- 
+ﬁned by calendar year but relative to the ﬁrst divestiture. I 
+also include the usual ﬁxed effects and control variables. 
+
+I  plot  the  coeﬃcients  of  the  indicator  variables  in 
+Fig.  8 .  In  Panel  A,  the  dependent  variable  is  Acquisition 
+dummy . As can be seen in the graph, the acquisition prob- 
+ability is generally fairly constant, but clearly spikes in the 
+
+ﬁrst  year  after  the  divestiture.  This  ﬁnding  is  consistent 
+with ﬁrms using the cash windfall from the divestiture to 
+engage in additional acquisitions in the following year. The 
+fact that the increase in acquisition activity is only visible 
+in the year following the divestiture (rather than the year 
+of the divestiture) suggests a certain lead time to initiate 
+additional acquisitions. 
+
+Next, in Panel B, I run the same type of analysis but 
+use Four-factor acquisition announcement alphas as the de- 
+pendent variable. There is a large reduction in acquisition 
+announcement returns of about 1% in both the year of the 
+divestiture and the following year. This decline in acquisi- 
+tion announcement return is consistent with the free cash 
+ﬂow theory: ﬁrms use the cash windfall from the divesti- 
+ture to overpay for acquisitions. 
+
+Notice that for announcement returns I ﬁnd an effect 
+already in the year of the divestiture, while I ﬁnd the ef- 
+fect on acquisition probabilities only in the year after the 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+307 
+
+Table 9 
+Capital expenditures. 
+
+This table displays yearly panel regressions of capital expenditures divided by assets (in per- 
+centage points) on the interaction of Equity stake 1999 and Post reform . The main effects Equity 
+stake 1999 and Post reform are not included because they are multicollinear with the ﬁxed ef- 
+fects. In Regressions 3 and 4, I restrict the sample to nonﬁnancial companies (one-digit Standard 
+Industrial Classiﬁcation (SIC) code is different from 6). All independent variables are deﬁned in 
+Appendix A . All standard errors are clustered at the ﬁrm level. I report t -statistics below the 
+coeﬃcients in parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Capital expenditures 
+
+Full sample 
+
+Nonﬁnancial companies 
+
+(1) 
+∗∗
+1.140 
+(2.57) 
+−0.096 
+−0.84) 
+( 
+−1.790 
+∗
+−1.87) 
+( 
+0.076 
+(0.47) 
+
+5762 
+0.08 
+
+Yes 
+Yes 
+No 
+
+(2) 
+∗∗∗
+1.258 
+(2.64) 
+−0.066 
+−0.55) 
+( 
+−2.030 
+∗∗
+−2.05) 
+( 
+0.079 
+(0.44) 
+
+5762 
+0.08 
+
+Yes 
+No 
+Yes 
+
+(3) 
+
+(4) 
+
+0.679 
+(1.33) 
+−0.155 
+−1.11) 
+( 
+−1.915 
+−1.55) 
+( 
+∗
+0.314 
+(1.72) 
+
+4890 
+0.35 
+
+Yes 
+Yes 
+No 
+
+0.668 
+(1.25) 
+−0.119 
+−0.80) 
+( 
+−2.172 
+∗
+−1.70) 
+( 
+0.323 
+(1.61) 
+
+4890 
+0.36 
+
+Yes 
+No 
+Yes 
+
+divestiture. This difference is consistent with the idea that 
+it takes some time to initiate additional acquisitions after 
+a cash windfall but that a ﬁrm can directly use the addi- 
+tional cash to overpay for ongoing acquisitions that have 
+already been initiated. 
+
+The results on the timing are generally consistent with 
+the idea that ﬁrms used the cash proceed from their di- 
+vestiture of equity stakes to engage in value-destroying ac- 
+quisitions. However, these results are only indicative, be- 
+cause the decision when to divest an equity stake is en- 
+dogenous. 
+
+4.10. Capital expenditures 
+
+One might be concerned that the increase in acquisi- 
+tion activity is offset by a decrease in capital expenditures, 
+i.e., that acquisitions act as a substitute for internal growth. 
+Therefore, I now study how capital expenditures change for 
+companies with equity stakes relative to companies with- 
+out equity stakes after the tax reform. I run the same re- 
+gression setup as in Table 3 , but using capital expenditures 
+over assets as the dependent variable. 
+
+My  sample  contains  both  ﬁnancial  and  nonﬁnancial 
+companies. However, capital expenditures is an odd mea- 
+sure  for  investments  of  ﬁnancial  companies.  Normally, 
+the measure of choice for the expansion of banks is the 
+amount  of  loans  issued.  On  the  other  hand,  high  capital 
+expenditures are also a sign of expanding businesses (e.g., 
+new oﬃces) or of consuming perquisites (e.g., more repre- 
+sentative headquarters). Therefore, I run the regressions for 
+the full sample as well as for the subsample of nonﬁnan- 
+cial companies. 
+
+Table 9 depicts the results of this analysis. On the full 
+sample, there is a positive effect on capital expenditures of 
+around 1% of assets. The effect is signiﬁcant at the 5% level. 
+
+However,  if  I  exclude  ﬁnancial  companies  in  Regressions 
+3 and 4, the effect is smaller and not statistically signiﬁ- 
+cant anymore. However, it is still a sizeable 0.7% of assets, 
+which represents an increase of 13% relative to the sample 
+median. This ﬁnding suggests that ﬁrms with cash wind- 
+falls increased their capital expenditures at least somewhat 
+and certainly shows that acquisitions are not merely a re- 
+placement for lower capital expenditures. 
+
+4.11. Dividends 
+
+In  perfect  capital  markets,  managers  that  maximize 
+shareholder  value  should  pay  out  a  cash  windfall  to  the 
+company’s shareholders. Therefore, I study how dividends 
+as a fraction of assets changed following the tax reform. 
+I use the same regression setup as above. The results are 
+displayed in Table 10 . There is virtually no increase in div- 
+idends, with all regression coeﬃcients being insigniﬁcant 
+and around 0.1%. This result suggests that almost no part 
+of the cash windfalls is paid out to shareholders via divi- 
+dends, consistent with the free cash ﬂow theory. 
+
+5. Robustness checks 
+
+5.1. Matched sample 
+
+The companies holding equity stakes in 1999 are larger 
+than the sample average and not evenly distributed among 
+industries.  As  a  further  step  to  address  concerns  about 
+the violation of the parallel trends assumption, I rerun my 
+main tests using a matched control-sample. For each com- 
+pany with an equity stake in 1999, I select the company 
+within the same 10 Fama–French industry that is closest by 
+log market capitalization in 1999. I ensure that the same 
+company does not enter the regression twice. If two com- 
+
+308 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Table 10 
+Dividends. 
+
+This table displays yearly panel regressions of dividends divided by total assets (in percentage 
+points) on the interaction of Equity stake 1999 and Post reform . The main effects Equity stake 
+1999 and Post reform are not included because they are multicollinear with the ﬁxed effects. 
+In Regressions 3 and 4, I restrict the sample to nonﬁnancial companies (one-digit SIC code is 
+different from 6). All variables are deﬁned in Appendix A . All standard errors are clustered 
+at the ﬁrm level. I report t -statistics below the coeﬃcients in parentheses. 
+indicate 
+signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Dividends 
+
+Full sample 
+
+Nonﬁnancial companies 
+
+(1) 
+
+(2) 
+
+(3) 
+
+(4) 
+
+0.122 
+(0.65) 
+∗
+0.073 
+(1.73) 
+−0.147 
+−0.40) 
+( 
+0.095 
+(1.50) 
+
+5941 
+0.42 
+
+Yes 
+Yes 
+No 
+
+0.155 
+(0.80) 
+0.049 
+(1.16) 
+−0.187 
+−0.50) 
+( 
+∗
+0.122 
+(1.89) 
+
+5941 
+0.42 
+
+Yes 
+No 
+Yes 
+
+0.112 
+(0.47) 
+∗∗
+0.115 
+(2.15) 
+−0.047 
+−0.09) 
+( 
+0.107 
+(1.37) 
+
+4925 
+0.42 
+
+Yes 
+Yes 
+No 
+
+0.147 
+(0.62) 
+0.088 
+(1.60) 
+−0.115 
+−0.21) 
+( 
+∗
+0.143 
+(1.81) 
+
+4925 
+0.43 
+
+Yes 
+No 
+Yes 
+
+panies have the same best match, the second best match 
+is chosen instead. 
+
+Table 11 displays the results of this analysis. In Panel 
+A,  I  re-estimate  the  effect  of  cash  windfalls  on  acquisi- 
+tion activity. Using the matched sample I ﬁnd very sim- 
+ilar  results  of  an  increase  in  acquisitions  probability  of 
+8.2%  in  the  linear  probability  model.  Thus,  the  matched 
+sample  analysis  suggests  that  the  baseline  regression  al- 
+ready accounts well enough for differences in characteris- 
+tics between ﬁrms with and without equity stakes in 1999. 
+In  Panel  B,  I  re-estimate  the  effect  of  cash  windfalls  on 
+the average announcement return. Here, the matching ap- 
+proach actually increases the results to 1.5% (1.2% in terms 
+of alpha), suggesting that the main regressions might un- 
+derestimate the effect. In Panel C, I study the effect on the 
+Sum of announcement returns , replicating regressions from 
+Table 6 . I ﬁnd a negative effect of 0.4% (0.3% in terms of al- 
+pha) which is of similar economic magnitude as the results 
+in Table 6 . Overall, the matched sample approach yields re- 
+sults consistent with the main regressions. For some speci- 
+ﬁcations, the reported effects actually increase in economic 
+magnitude, suggesting that the differences in industry and 
+size composition in the treated and control samples do not 
+cause the effects reported in the main speciﬁcation. 
+
+5.2. Shorter sample period 
+
+Throughout the paper, I use a relatively long sample pe- 
+riod from 1992 to 2007 to account for a potential delayed 
+reaction to the tax reform. A delayed reaction is likely, be- 
+cause the tax reform, while announced in December 1999, 
+did not take effect until 2002. At that time, the German 
+stock market was experiencing a bear market, which might 
+have led some ﬁrms to postpone the sale of equity stakes 
+further. 
+
+However, I show that the results are robust to using a 
+shorter sample period from 1996 to 2005. Table 12 displays 
+the results. For acquisition probability, the results are al- 
+most identical. For announcement returns, they are close 
+to  identical  in  terms  of  coeﬃcients,  but  are  not  statisti- 
+cally signiﬁcant. For yearly sum of announcement returns 
+the results are even larger over the shorter period (0.9% 
+vs. 0.4%). This analysis suggests that the results are robust 
+to using a shorter sample period. 
+
+5.3. Controlling for reverse equity stakes 
+
+When a ﬁrm sells an equity stake in another ﬁrm, there 
+are two effects: the selling ﬁrm receives extra cash and the 
+ﬁrm whose equity is sold experiences a change in its own- 
+ership, which can affect its corporate governance. I focus 
+on  the  ﬁrst  effect  in  this  paper,  while  the  effect  of  the 
+ownership change is examined in Sautner and Villalonga 
+(2010) . In this section, I address the concern that the own- 
+ership effect could be driving the results as well. In gen- 
+eral, it seems unlikely that ownership changes caused by 
+the tax reform drive my results, because both the treated 
+and the control groups should be affected. However, given 
+that cross-holdings were relatively common in Germany, it 
+is possible that ﬁrms owning equity stakes are also more 
+likely to be owned via an equity stake. In this case, owner- 
+ship changes could bias the results. 
+
+To address this concern, I rerun the main analysis, but 
+include  as  an  additional  control  the  variable  Reverse  eq- 
+uity stake 1999 (interacted with Post reform ). Reverse equity 
+stake 1999 is a dummy variable equal to one if at least one 
+publicly  listed  German  ﬁrm  owns  an  equity  stake  below 
+20% in the company in December 1999. Thus the deﬁni- 
+tion is the same as for Equity stake 1999 , but in the oppo- 
+site direction, i.e., it is equal to one if the ﬁrm is owned 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+309 
+
+Table 11 
+Robustness check: matched sample. 
+
+This table displays the main tests for a matched subsample. For each company with a minority stake, I select the company in the 
+same 10 Fama–French industry which has the closest market capitalization (without replacement). Panel A displays regressions for the 
+acquisition probability and is thus the counterpart to Table 3 . Regression 1 is a logit regression conditional on ﬁrms. Regressions 2 
+and 3 are OLS regressions. Panel B displays regressions for announcement returns (in percentage points) and is thus the counterpart 
+to Table 4 . Panel C displays regressions for the yearly sum of announcement returns (in percentage points) and is thus the counterpart 
+to Table 6 . All variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm level. I report t -statistics below the 
+coeﬃcients in parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type 
+Condition on 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+(1) 
+∗∗
+0.737 
+(1.99) 
+0.037 
+(0.41) 
+−1.270 
+−1.34) 
+( 
+−0.113 
+−0.82) 
+( 
+
+1654 
+
+Cond. logit 
+
+Firm 
+
+No 
+Yes 
+No 
+
+Acquisition dummy 
+
+(2) 
+∗∗
+0.082 
+(2.35) 
+−0.002 
+−0.29) 
+( 
+−0.134 
+−1.49) 
+( 
+−0.009 
+−0.58) 
+( 
+
+2738 
+0.48 
+
+OLS 
+
+Yes 
+Yes 
+No 
+
+(3) 
+∗∗
+0.086 
+(2.34) 
+−0.001 
+−0.23) 
+( 
+−0.136 
+−1.47) 
+( 
+−0.008 
+−0.51) 
+( 
+
+2738 
+0.49 
+
+OLS 
+
+Yes 
+No 
+Yes 
+
+∗
+Equity stake 1999 
+−365, 
+
+Avg. return ( 
+
+Post reform 
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+Announcement return 
+
+−1 to t 
++
+ 1 
+t 
+
+(1) 
+−1.49 
+∗∗
+−2.46) 
+( 
+0.36 
+(0.50) 
+0.08 
+(0.54) 
+0.09 
+(0.08) 
+−0.58 
+∗∗∗
+−2.88) 
+( 
+
+2382 
+0.07 
+Yes 
+Yes 
+
+(2) 
+−1.50 
+∗∗
+−2.45) 
+( 
+0.33 
+(0.45) 
+0.12 
+(0.80) 
+0.20 
+(0.18) 
+−0.60 
+∗∗∗
+−2.95) 
+( 
+0.39 
+(0.74) 
+0.15 
+(0.28) 
+−0.09 
+−0.46) 
+( 
+0.07 
+(0.30) 
+−0.41 
+∗
+−1.88) 
+( 
+−0.40 
+∗∗∗
+−2.66) 
+( 
+2382 
+0.07 
+Yes 
+Yes 
+
+Announcement one-factor 
+
+alpha t 
+
+−1 to t 
++
+ 1 
+
+Announcement four-factor 
+
+alpha t 
+
+−1 to t 
++
+ 1 
+
+(3) 
+−1.18 
+∗∗
+−2.16) 
+( 
+−0.53 
+−0.68) 
+( 
+0.12 
+(0.81) 
+−0.59 
+−0.57) 
+( 
+−0.53 
+∗∗
+−2.48) 
+( 
+
+2362 
+0.09 
+Yes 
+Yes 
+
+(4) 
+−1.18 
+∗∗
+−2.17) 
+( 
+−0.51 
+−0.65) 
+( 
+0.13 
+(0.94) 
+−0.57 
+−0.54) 
+( 
+−0.54 
+∗∗
+−2.56) 
+( 
+−0.04 
+−0.09) 
+( 
+−0.30 
+−0.69) 
+( 
+0.02 
+(0.13) 
+−0.12 
+−0.74) 
+( 
+−0.03 
+−0.20) 
+( 
+−0.35 
+∗∗∗
+−2.64) 
+( 
+2362 
+0.09 
+Yes 
+Yes 
+
+(5) 
+−1.16 
+∗∗
+−2.21) 
+( 
+−0.62 
+−0.73) 
+( 
+0.11 
+(0.82) 
+−0.11 
+−0.12) 
+( 
+−0.45 
+∗∗
+−2.21) 
+( 
+
+2362 
+0.11 
+Yes 
+Yes 
+
+(6) 
+−1.16 
+∗∗
+−2.21) 
+( 
+−0.61 
+−0.70) 
+( 
+0.12 
+(0.91) 
+−0.11 
+−0.11) 
+( 
+−0.46 
+∗∗
+−2.28) 
+( 
+0.08 
+(0.20) 
+−0.23 
+−0.56) 
+( 
+0.02 
+(0.12) 
+−0.15 
+−0.92) 
+( 
+0.03 
+(0.21) 
+−0.32 
+∗∗
+−2.34) 
+( 
+2362 
+0.11 
+Yes 
+Yes 
+
+Panel C: Yearly sum of announcement returns 
+
+Yearly sum of 
+
+Yearly sum of announcement 
+
+Yearly sum of announcement 
+
+announcement returns 
+
+one-factor alphas 
+
+four-factor alphas 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+
+−0.369 
+−1.63) 
+( 
+
+2802 
+0.08 
+
+Yes 
+Yes 
+
+(2) 
+
+−0.279 
+−1.43) 
+( 
+
+2802 
+0.05 
+
+Yes 
+Yes 
+
+(3) 
+−0.323 
+∗
+−1.68) 
+( 
+
+2802 
+0.08 
+
+Yes 
+Yes 
+
+310 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Table 12 
+Robustness check – shorter sample period. 
+
+This table displays the main tests for a shorter sample period from 1996 to 2005. Panel A displays regressions for the acquisition 
+probability and is thus the counterpart to Table 3 . Regression 1 is a logit regression conditional on ﬁrms. Regressions 2 and 3 are OLS 
+regressions. Panel B displays regressions for announcement returns (in percentage points) and is thus the counterpart to Table 4 . Panel 
+C displays regressions for the yearly sum of announcement returns (in percentage points) and is thus the counterpart to Table 6 . All 
+variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm level. I report t -statistics below the coeﬃcients in 
+parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type 
+Condition on 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+(1) 
+∗
+0.608 
+(1.76) 
+0.019 
+(0.20) 
+−1.296 
+∗
+−1.72) 
+( 
+−0.140 
+−1.23) 
+( 
+
+1948 
+
+Cond. logit 
+
+Firm 
+
+No 
+Yes 
+No 
+
+Acquisition dummy 
+
+(2) 
+∗∗
+0.072 
+(2.18) 
+−0.009 
+−1.48) 
+( 
+−0.124 
+∗∗
+−2.11) 
+( 
+−0.004 
+−0.46) 
+( 
+
+4207 
+0.43 
+
+OLS 
+
+Yes 
+Yes 
+No 
+
+(3) 
+∗∗
+0.075 
+(2.12) 
+−0.009 
+−1.61) 
+( 
+−0.154 
+∗∗∗
+−2.60) 
+( 
+−0.003 
+−0.34) 
+( 
+
+4207 
+0.43 
+
+OLS 
+
+Yes 
+No 
+Yes 
+
+Announcement return t 
+
++
+ 1 
+to t 
+
+−1 
+
+Announcement one-factor 
+
+alpha t 
+
+−1 to t 
++
+ 1 
+
+Announcement four-factor 
+
+alpha t 
+
+−1 to t 
++
+ 1 
+
+∗
+Equity stake 1999 
+−365, 
+
+Avg. return ( 
+
+Post reform 
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+−1.20 
+−1.51) 
+( 
+1.04 
+(1.26) 
+0.06 
+(0.31) 
+−0.65 
+−0.47) 
+( 
+−0.98 
+∗∗∗
+−3.65) 
+( 
+
+2010 
+0.11 
+
+Yes 
+Yes 
+
+(2) 
+−1.18 
+−1.47) 
+( 
+0.92 
+(1.08) 
+0.10 
+(0.50) 
+−0.48 
+−0.34) 
+( 
+−0.95 
+∗∗∗
+−3.57) 
+( 
+∗
+1.12 
+(1.78) 
+0.88 
+(1.49) 
+0.03 
+(0.14) 
+−0.08 
+−0.26) 
+( 
+−0.64 
+∗∗
+−2.19) 
+( 
+−0.59 
+∗∗∗
+−2.76) 
+( 
+
+2010 
+0.12 
+
+Yes 
+Yes 
+
+(3) 
+−0.93 
+−1.24) 
+( 
+0.54 
+(0.55) 
+0.11 
+(0.54) 
+−0.55 
+−0.40) 
+( 
+−0.78 
+∗∗∗
+−2.65) 
+( 
+
+1982 
+0.13 
+
+Yes 
+Yes 
+
+(4) 
+−0.96 
+−1.26) 
+( 
+0.47 
+(0.47) 
+0.15 
+(0.70) 
+−0.45 
+−0.33) 
+( 
+−0.76 
+∗∗
+−2.59) 
+( 
+0.44 
+(0.82) 
+0.19 
+(0.37) 
+0.09 
+(0.42) 
+−0.26 
+−1.19) 
+( 
+−0.14 
+−0.76) 
+( 
+−0.63 
+∗∗∗
+−3.16) 
+( 
+
+1982 
+0.14 
+
+Yes 
+Yes 
+
+(5) 
+−0.84 
+−1.16) 
+( 
+0.40 
+(0.42) 
+0.15 
+(0.78) 
+0.15 
+(0.12) 
+−0.64 
+∗∗
+−2.32) 
+( 
+
+1982 
+0.14 
+
+Yes 
+Yes 
+
+(6) 
+−0.86 
+−1.18) 
+( 
+0.32 
+(0.33) 
+0.18 
+(0.93) 
+0.25 
+(0.19) 
+−0.62 
+∗∗
+−2.24) 
+( 
+0.67 
+(1.28) 
+0.34 
+(0.66) 
+0.10 
+(0.48) 
+−0.29 
+−1.37) 
+( 
+−0.07 
+−0.37) 
+( 
+−0.60 
+∗∗∗
+−2.99) 
+( 
+
+1982 
+0.14 
+
+Yes 
+Yes 
+
+Panel C: Yearly sum of announcement returns 
+
+Yearly sum of 
+
+Yearly sum of announcement 
+
+Yearly sum of announcement 
+
+announcement returns 
+
+one-factor alphas 
+
+four-factor alphas 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+−0.869 
+∗∗∗
+−3.37) 
+( 
+
+4386 
+0.08 
+
+Yes 
+Yes 
+
+(2) 
+−0.550 
+∗∗∗
+−2.64) 
+( 
+
+4386 
+0.06 
+
+Yes 
+Yes 
+
+(3) 
+−0.586 
+∗∗∗
+−2.94) 
+( 
+
+4386 
+0.07 
+
+Yes 
+Yes 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+311 
+
+Table 13 
+Robustness check – controlling for reverse equity stakes. 
+
+This table displays the main tests with an additional control for whether part of the ﬁrm’s own equity is held via minority equity 
+stakes. The additional control is Reverse equity stake 1999 interacted with Post reform. Reverse equity stake 1999 is a dummy variable 
+equal to one if a publicly listed German ﬁrm holds an equity stake of 20% or less in the ﬁrm in December 1999. Panel A displays 
+regressions for the acquisition probability and is thus the counterpart to Table 3 . Regression 1 is a logit regression conditional on ﬁrms. 
+Regressions 2 and 3 are OLS regressions. Panel B displays regressions for announcement returns (in percentage points) and is thus the 
+counterpart to Table 4 . All variables are deﬁned in Appendix A . All standard errors are clustered at the ﬁrm level. I report t -statistics 
+below the coeﬃcients in parentheses. 
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Reverse equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type 
+Condition on 
+
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Reverse equity stake 1999 
+
+Post reform 
+
+Avg. return ( 
+
+−365, 
+
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+∗∗∗
+0.769 
+(2.77) 
+−0.643 
+∗
+−1.96) 
+( 
+0.104 
+(1.23) 
+−1.108 
+∗
+−1.74) 
+( 
+−0.165 
+−1.55) 
+( 
+
+3318 
+
+Cond. logit 
+
+Firm 
+
+No 
+Yes 
+No 
+
+Acquisition dummy 
+
+(2) 
+∗∗∗
+0.096 
+(3.40) 
+−0.081 
+∗
+−1.95) 
+( 
+0.001 
+(0.10) 
+−0.109 
+∗∗
+−2.03) 
+( 
+−0.006 
+−0.80) 
+( 
+
+6090 
+0.41 
+
+OLS 
+
+Yes 
+Yes 
+No 
+
+(3) 
+∗∗∗
+0.101 
+(3.40) 
+−0.081 
+∗
+−1.87) 
+( 
+0.001 
+(0.09) 
+−0.127 
+∗∗
+−2.33) 
+( 
+−0.006 
+−0.71) 
+( 
+
+6090 
+0.42 
+
+OLS 
+
+Yes 
+No 
+Yes 
+
+Announcement return 
+
+−1 to t 
++
+t 
+
+ 1 
+
+Announcement one-factor 
+
+Announcement four-factor 
+
+alpha t 
+
+−1 to t 
++
+
+ 1 
+
+alpha t 
+
+−1 to t 
++
+
+ 1 
+
+(1) 
+−1.12 
+∗∗
+−1.98) 
+( 
+0.21 
+(0.42) 
+∗
+1.41 
+(1.88) 
+0.12 
+(0.70) 
+0.02 
+(0.02) 
+−0.51 
+∗∗
+−2.19) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+(2) 
+−1.12 
+∗∗
+−1.97) 
+( 
+0.25 
+(0.50) 
+∗
+1.36 
+(1.79) 
+0.15 
+(0.87) 
+0.21 
+(0.19) 
+−0.50 
+∗∗
+−2.18) 
+( 
+0.64 
+(1.26) 
+0.34 
+(0.64) 
+0.01 
+(0.08) 
+−0.16 
+−0.72) 
+( 
+−0.41 
+∗
+−1.95) 
+( 
+−0.51 
+∗∗∗
+−3.26) 
+( 
+
+2885 
+0.10 
+
+Yes 
+Yes 
+
+(3) 
+−0.92 
+∗
+−1.82) 
+( 
+0.14 
+(0.30) 
+1.10 
+(1.24) 
+0.16 
+(0.93) 
+−0.50 
+−0.46) 
+( 
+−0.40 
+∗
+−1.67) 
+( 
+
+2852 
+0.11 
+
+Yes 
+Yes 
+
+(4) 
+−0.92 
+∗
+−1.81) 
+( 
+0.17 
+(0.38) 
+1.08 
+(1.21) 
+0.18 
+(1.04) 
+−0.41 
+−0.38) 
+( 
+−0.40 
+∗
+−1.66) 
+( 
+0.16 
+(0.37) 
+−0.15 
+−0.36) 
+( 
+0.06 
+(0.39) 
+−0.30 
+∗
+−1.89) 
+( 
+−0.03 
+−0.22) 
+( 
+−0.47 
+∗∗∗
+−3.27) 
+( 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+(5) 
+−0.89 
+∗
+−1.82) 
+( 
+−0.00 
+−0.01) 
+( 
+0.93 
+(1.03) 
+0.19 
+(1.16) 
+0.00 
+(0.00) 
+−0.33 
+−1.44) 
+( 
+
+2852 
+0.11 
+
+Yes 
+Yes 
+
+(6) 
+−0.88 
+∗
+−1.79) 
+( 
+0.04 
+(0.09) 
+0.90 
+(1.00) 
+0.20 
+(1.23) 
+0.09 
+(0.08) 
+−0.33 
+−1.40) 
+( 
+0.32 
+(0.77) 
+−0.03 
+−0.08) 
+( 
+0.06 
+(0.43) 
+−0.33 
+∗∗
+−2.06) 
+( 
+0.02 
+(0.11) 
+−0.45 
+∗∗∗
+−3.04) 
+( 
+
+2852 
+0.12 
+
+Yes 
+Yes 
+
+312 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+via an equity stake rather than if it owns an equity stake. 
+I base this variable on ownership of ﬁrms that are German 
+and publicly listed for two reasons: ﬁrst, to ensure that it 
+is the exact counterpart to Equity stake 1999 , and second, 
+because the tax reform only applied to German ﬁrms, and 
+private ﬁrms are likely to be holding companies of private 
+owners, which are less likely to sell after the tax reform. 
+
+The  results  of  this  robustness  check  are  presented  in 
+Table  13 .  Including  the  new  control  variable  does  not 
+change the results much. The result for acquisition prob- 
+ability is actually larger, while the effect on announcement 
+returns is unchanged. This ﬁnding conﬁrms that my results 
+are indeed caused by the cash windfalls rather than being 
+spuriously related to governance changes. 
+
+Table 14 
+Placebo tax reform in December 1994. 
+
+This table displays a placebo test for the main tests. I use 1990–1994 as the before event sample and 1995–1999 as the after event 
+sample. Panel A displays regressions for the acquisition probability and is thus the counterpart to Table 3 . Panel B displays regressions 
+for announcement returns (in percentage points) and is thus the counterpart to Table 4 . All variables are deﬁned in Appendix A . All 
+indicate signiﬁcance 
+standard errors are clustered at the ﬁrm level. I report t -statistics below the coeﬃcients in parentheses. 
+at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗∗
+
+∗∗
+
+, 
+
+Panel A: Acquisition probability 
+
+∗
+Equity stake 1999 
+
+Post reform 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Observations 
+2 
+Adjusted R 
+
+Regression type Condition on 
+Firm ﬁxed effects 
+Year ﬁxed effects 
+Industry-year F.E. 
+
+Panel B: Announcement returns 
+
+∗
+Equity stake 1999 
+reform 
+
+Post 
+
+Avg. return ( 
+
+−365, 
+
+−20) 
+
+∗
+Size 
+
+Post reform 
+
+∗
+Leverage 
+
+∗
+Tobin’s Q 
+
+Post reform 
+
+Post reform 
+
+Cash acquisition 
+
+No payment information 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+Observations 
+2 
+Adjusted R 
+
+Firm ﬁxed effects 
+Industry-year F.E. 
+
+(1) 
+
+−0.200 
+−0.55) 
+( 
+∗
+0.177 
+(1.73) 
+1.063 
+(1.24) 
+0.150 
+(1.16) 
+
+1436 
+
+Cond. logit Firm 
+
+No 
+Yes 
+No 
+
+Acquisition dummy 
+
+(2) 
+
+−0.001 
+−0.03) 
+( 
+∗∗
+0.016 
+(2.06) 
+0.117 
+(1.56) 
+0.009 
+(0.89) 
+
+3149 
+0.43 
+
+OLS 
+Yes 
+Yes 
+No 
+
+(3) 
+
+0.002 
+(0.04) 
+∗
+0.015 
+(1.84) 
+∗
+0.149 
+(1.92) 
+0.007 
+(0.70) 
+
+3149 
+0.44 
+
+OLS 
+Yes 
+No 
+Yes 
+
+Announcement return 
+
+−1 to t 
++
+t 
+
+Announcement one-factor 
+
+alpha t 
+
+−1 to t 
++
+
+Announcement four-factor 
+
+alpha t 
+
+−1 to t 
++
+
+(1) 
+
+0.08 
+
+(0.11) 
+−1.26 
+−1.56) 
+( 
+0.15 
+(0.79) 
+1.05 
+(0.64) 
+0.03 
+(0.10) 
+
+1581 
+0.14 
+
+Yes 
+Yes 
+
+ 1 
+
+(2) 
+
+0.26 
+
+(0.34) 
+−1.38 
+∗
+−1.79) 
+( 
+0.12 
+(0.56) 
+1.29 
+(0.73) 
+0.06 
+(0.20) 
+−0.41 
+−0.65) 
+( 
+−0.87 
+−1.34) 
+( 
+0.24 
+(0.92) 
+−0.12 
+−0.39) 
+( 
+−1.61 
+∗∗∗
+−2.70) 
+( 
+−0.45 
+∗∗
+−2.03) 
+( 
+
+1572 
+0.15 
+
+Yes 
+Yes 
+
+(3) 
+
+0.20 
+
+(0.22) 
+−2.62 
+∗∗
+−2.32) 
+( 
+0.07 
+(0.32) 
+−0.83 
+−0.48) 
+( 
+−0.02 
+−0.07) 
+( 
+
+1435 
+0.17 
+
+Yes 
+Yes 
+
+ 1 
+
+(4) 
+
+0.60 
+
+(0.64) 
+−2.50 
+∗∗
+−2.27) 
+( 
+0.01 
+(0.03) 
+−0.64 
+−0.34) 
+( 
+−0.00 
+−0.00) 
+( 
+−0.79 
+−1.33) 
+( 
+−1.10 
+∗
+−1.84) 
+( 
+0.37 
+(1.57) 
+−0.25 
+−1.07) 
+( 
+−1.11 
+∗∗
+−2.12) 
+( 
+−0.47 
+∗∗
+−2.34) 
+( 
+
+1427 
+0.18 
+
+Yes 
+Yes 
+
+(5) 
+
+0.14 
+
+(0.15) 
+−2.31 
+∗∗
+−2.08) 
+( 
+0.07 
+(0.34) 
+−0.44 
+−0.25) 
+( 
+−0.06 
+−0.23) 
+( 
+
+1435 
+0.17 
+
+Yes 
+Yes 
+
+ 1 
+
+(6) 
+
+0.53 
+
+(0.56) 
+−2.18 
+∗∗
+−1.98) 
+( 
+0.00 
+(0.01) 
+−0.34 
+−0.18) 
+( 
+−0.05 
+−0.17) 
+( 
+−0.63 
+−1.05) 
+( 
+−0.92 
+−1.53) 
+( 
+0.36 
+(1.55) 
+−0.40 
+∗
+−1.68) 
+( 
+−0.90 
+∗
+−1.81) 
+( 
+−0.44 
+∗∗
+−2.18) 
+( 
+
+1427 
+0.18 
+
+Yes 
+Yes 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+313 
+
+5.4. Placebo test 
+
+In  difference-in-difference  analyses,  it  is  common  to 
+conﬁrm  the  parallel  trends  assumption  using  a  placebo 
+test. I conduct a placebo test by assuming the tax reform 
+had taken place in December 1994. I use 1990–1994 as the 
+pre-event period and 1995–1999 as the post-event period. 
+I use the same classiﬁcations of a company owning an eq- 
+uity  stake  as  above,  i.e.,  December  1999.  I  also  take  the 
+control variables to be as of 1999 to have everything else 
+besides the event timing comparable to my main analysis 
+(the results do not materially change when I instead use 
+control variables as of December 1994). 
+
+The results are reported in Table 14 . First, I repeat the 
+analysis  on  acquisition  probability.  As  one  would  expect, 
+the  results  are  not  statistically  signiﬁcant  and  generally 
+close to zero. Then, I repeat the analyses on announcement 
+returns. Here, the results are insigniﬁcant as well and point 
+into the opposite direction of the main speciﬁcation. Over- 
+all, the placebo test conﬁrms that my results are not driven 
+by mechanical relations or violations of the parallel trends 
+assumption. 
+
+high  market  values,  making  up  a  sizeable  part  of  the 
+holder’s  assets.  The  capital  gains  tax  of  50%  prevented 
+companies  from  selling  their  equity  stakes  even  if  there 
+was no economic reason to hold on to them. The tax re- 
+form completely abolished the capital gains tax, allowing 
+companies  to  sell  their  stakes  and  cash  in  their  capital 
+gains. 
+
+Because  the  tax  reform  only  affected  com panies  that 
+owned equity stakes, I can use difference-in-difference es- 
+timation  to  examine  the  effect  of  this  cash  windfall  on 
+ﬁrms’ acquisition and investment activity. I ﬁnd that com- 
+panies  able  to  sell  an  equity  stake  after  the  tax  reform, 
+engage  in  more  acquisitions  and  that  these  acquisitions 
+are value destroying. The effects are stronger if the mar- 
+ket value of the equity stakes and thus the cash windfall is 
+larger. I also ﬁnd some increase in capital expenditures, but 
+no effect on dividends. Overall, my results suggest that the 
+cash windfalls which result from the divestitures of the eq- 
+uity stakes of Germany Inc. were used to engage in empire 
+building through  acquisitions.  This  behavior is  consistent 
+with the free cash ﬂow theory and shows how the ability 
+to engage in asset sales can affect investment. 
+
+6. Conclusion 
+
+Appendix A. Variable deﬁnitions 
+
+In this paper, I study cash windfalls resulting from the 
+German  capital  gains  tax  reform  in  20 0 0.  Before  the  re- 
+form, many German companies held minority equity stakes 
+in  other  unrelated  ﬁrms.  These  equity  stakes  often  had 
+
+This table displays the variable deﬁnitions for all vari- 
+ables used in the regressions. All variables are winsorized 
+at the 1% and 99% thresholds. 
+
+Panel A: Firm-year-level variables and year-level variables 
+
+Variable name 
+
+Post reform 
+Acquisition dummy 
+
+Deﬁnition 
+
+Dummy variable equal to one in years 20 0 0–20 07 and zero in years 1992–1999. 
+Variable equal to one if the ﬁrm undertook an acquisition in the year. I include 
+
+Sum of announcement returns 
+
+Yearly sum of announcement 
+one-factor alphas 
+
+Yearly sum of announcement 
+four-factor alphas 
+
+Yearly sum of residuals (raw returns) 
+
+−1 to t 
++
+
+acquisitions of private companies, but exclude acquisitions in which the acquirer owns 
+more than 25% before or less than 50% after the acquisition. The variable is zero if the 
+ﬁrm did not undertake an acquisition in the year, but was covered in Worldscope or 
+Compustat Global. 
+
+Sum of acquirer returns from t 
+
+ 1 around the announcement date of all 
+
+acquisitions the ﬁrm undertook within the year. This variable is set to zero if the ﬁrm 
+did not undertake an acquisition in the year, but was covered in Worldscope or 
+Compustat Global. 
+
+Sum of acquirer one-factor alphas from t 
+
+−1 to t 
++
+
+ 1 around the announcement date of all 
+
+acquisitions the ﬁrm undertook within the year. This variable is set to zero if the ﬁrm 
+did not undertake an acquisition in the year, but was covered in Worldscope or 
+Compustat Global. 
+
+Sum of acquirer four-factor alphas from t 
+
+−1 to t 
++
+
+ 1 around the announcement date of all 
+
+Sum of residuals from a regression of Announcement return on Avg. return ( 
+
+acquisitions the ﬁrm undertook within the year. This variable is set to zero if the ﬁrm 
+did not undertake an acquisition in the year, but was covered in Worldscope or 
+Compustat Global. 
+−365, 
+
+−20), 
+Cash acquisition, No payment information, Diversifying acquisition, Cross-border deal, 
+Public target, Independent target. The sum is taken over all the acquisition the company 
+undertook in that year. This variable is set to zero if the ﬁrm did not undertake an 
+acquisition in the year, but was covered in Worldscope or Compustat Global. 
+
+Capital expenditures 
+Dividends 
+
+Capital expenditure 
+
+Assets 
+Total di v idends 
+
+Assets 
+
+( continued on next page ) 
+
+314 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+( continued ) 
+
+Panel B: Firm-level variables 
+
+Variable name 
+
+Equity stake 1999 
+
+Size 
+
+Leverage 
+
+Tobin’s Q 
+Industry 
+Large equity stake 1999 
+
+Deﬁnition 
+
+Dummy variable equal to one if the ﬁrm owns at least one equity stake below 20% in 
+
+another company in December 1999. I also include the equity stakes of subsidiaries if 
+the subsidiary is held at least with 75%. 
+
+Log ( market capitalization ) 
+Where market capitalization is the market value of equity of the ﬁrm in December 1999. 
+Book v alue o f debt 
+Book v alue o f assets 
+Market capitalization 
+Book v alue o f equity 
+10 Fama-French industries 
+Dummy variable equal to one if the company is above the median by total EUR size of its 
+
+(in December 1999) 
+
+(in December 1999) 
+
+minority equity stakes in 1999. It is equal to zero if the ﬁrm is below the median or 
+does not own equity stakes in 1999. For equity stakes held in private companies, I 
+estimate the market value of the company by multiplying the nominal capital (“Kapital”) 
+reported in Who owns Whom? with the average ratio of market capitalization to nominal 
+capital for public ﬁrms. 
+
+Small equity stake 1999 
+
+Dummy variable equal to one if the company is below the median by total EUR size of its 
+
+Reverse equity stake 1999 
+
+minority equity stakes in 1999. It is equal to zero if the ﬁrm is above the median or 
+does not own equity stakes in 1999. For equity stakes held in private companies, I 
+estimate the market value of the company by multiplying the nominal capital (“Kapital”) 
+reported in Who owns Whom? with the average ratio of market capitalization to nominal 
+capital for public ﬁrms. 
+
+Dummy variable equal to one if at least one publicly listed German ﬁrm owns an equity 
+stake below 20% in this company in December 1999. I also include cases in which the 
+equity stake is held through a chain of subsidiaries at the 75% cutoff. Thus the deﬁnition 
+is the same as for Equity stake 1999, but in the opposite direction, i.e., it is equal to one 
+if the ﬁrm is owned via an equity stake rather than that it owns an equity stake. 
+
+Panel C: Acquisition-level variables 
+
+Variable name 
+
+Deﬁnition 
+
+Announcement return 
+
+One-factor announcement alpha 
+
+Three-factor announcement alpha 
+
+Diversifying acquisition 
+
+Cross-border deal 
+Cash acquisition 
+
+Acquirer announcement return from t 
+
+−1 to t 
++
+
+announcement day according to SDC Platinum. 
+
+Acquirer announcement one-factor alpha from t 
+
+ 1 days around the acquisition 
+−1 to t 
++
+
+ 1 days around the acquisition 
+
+announcement day according to SDC Platinum. For a more detailed description see 
+Appendix C . 
+
+Acquirer announcement four-factor alpha from t 
+
+ 1 days around the acquisition 
+
+announcement day according to SDC Platinum. For a more detailed description see 
+Appendix C . 
+
+Dummy variable equal to one if the acquisition target operates in another 10 Fama 
+
+−French 
+
+industry. 
+
+Dummy variable equal to one if the acquisition target is not located in Germany. 
+Dummy variable equal to one if the consideration listed in SDC Platinum is at least partly 
+
+paid using cash, capital infusion, or debt reduction. If there is no information on 
+payment method, this variable is set to zero. 
+
+−1 to t 
++
+
+Cash acquisition predicted 
+
+For acquisitions for which I have payment information, this variable is the same as Cash 
+
+acquisition . For acquisitions without payment information, this variable is equal to one if 
+the probability of a cash acquisition according to the predictive regression in Appendix D 
+is at least 75% and equal to zero if the probability of a cash acquisition is below 75%. 
+
+No payment information 
+
+Dummy variable equal to one if SDC Platinum does not provide information on the 
+
+payment method. 
+
+Public target 
+
+Dummy variable equal to one if the acquisition target has a Stock Exchange Daily Oﬃcial 
+
+Independent target 
+
+Dummy variable equal to one if there is no parent company of the target listed in SDC 
+
+List (SEDOL). 
+
+Platinum. 
+
+Appendix B. Estimating capital gains of equity stakes 
+
+Panel A displays market values and book values of eq- 
+uity stakes as gathered from annual reports for the ﬁve ﬁ- 
+nancial companies with the largest equity stakes. Descrip- 
+tion of item gives the exact description from the annual re- 
+port. Book to market is the book value divided by the mar- 
+ket value in percent. My estimated market value is the ag- 
+gregate market value of equity stakes in my sample that I 
+estimate for these companies. Panel B displays returns of 
+
+ﬁrms in which an equity stake was held up to December 
+31, 1999 to get an idea of the likely capital gains at which 
+stakes are held at the time of the tax reform. I display re- 
+turns at three horizons: 3-year, 5-year, and 10-year in per- 
+cent. I display means and medians of returns and which 
+percent of stakes had positive returns and returns above 
+15%, 25%, and 50%. The analysis is done at the equity stake 
+level, i.e., if two ﬁrms hold an equity stake in a particular 
+ﬁrm, this ﬁrm’s returns are included twice. 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+315 
+
+Panel A: Valuations of equity stakes in annual reports 
+
+Name of company 
+
+Description of item 
+
+Market 
+value 
+
+Book 
+value 
+
+(EUR bn) 
+
+(EUR bn) 
+
+Allianz 
+
+Investments in aﬃliated enterprises, joint ventures, 
+
+23.4 
+
+and associated enterprises 
+
+Deutsche Bank 
+Dresdner Bank 
+Bayerische Hypo- und 
+
+Signiﬁcant shareholdings in the non-banking sector 
+Anteile an nicht verbundenen Unternehmen 
+Investments in non-bank companies above 5% 
+
+22 
+10.1 
+12.7 
+
+8.2 
+
+6.2 
+2.8 
+6.7 
+
+Vereinsbank 
+
+Munich Re 
+
+Average 
+
+Investments in aﬃliated and associated enterprises 
+
+27.3 
+
+10.6 
+
+Book to market 
+
+(%) 
+
+35 
+
+28 
+28 
+53 
+
+39 
+
+36 
+
+My estimated 
+market value 
+
+(EUR bn) 
+
+18 
+
+17.3 
+13.7 
+6.2 
+
+4.8 
+
+Panel B: Stock returns prior to tax reform 
+
+Time frame 
+
+Mean return 
+
+Median return 
+
+Positive return 
+
+Return 
+
+>
+
+ 15% 
+
+Return 
+
+>
+
+ 25% 
+
+Return 
+
+>
+
+ 50% 
+
+3-years (1997–1999) 
+5-years (1995–1999) 
+10-years (1990–1999) 
+
+Observations 
+
+63.1 
+103.2 
+153.8 
+
+85 
+
+48.5 
+87.0 
+130.5 
+
+81.2 
+86.4 
+85.3 
+
+76.5 
+81.5 
+84 
+
+58.8 
+81.5 
+82.7 
+
+48.2 
+63.0 
+76 
+
+Appendix C. Additional information on data set 
+construction 
+
+C.1. Ownership data 
+
+I  start  constructing  my  sample  using  the  Who  owns 
+Whom? (Wer gehört wem?) database on equity stakes in 
+Germany  as  of  July  1999.  I  match  companies  from  Who 
+owns Whom? to the other data sources using German secu- 
+rity identiﬁers (Wertpapierkennnummern or WKN) as well 
+as matching by name, since not all publicly listed compa- 
+nies in Who owns Whom? have a security identiﬁer. I con- 
+trol by hand that all matches are correct. 
+
+Pyramid structures within corporations, i.e., subsidiaries 
+owning subsidiaries, are common in Germany as they do 
+not have the same tax disadvantages as in the U.S. ( Faccio 
+and Lang, 2002 ). Therefore, I also take into account the eq- 
+uity stakes of subsidiaries. I follow the equity stakes “up 
+the ownership chain” as long as any link consists of at least 
+75% ownership. To illustrate: if company A owns company 
+B by at least 75%, I assign the equity stakes of company B 
+to company A. I make sure that in such a case, company B 
+does not enter the sample to avoid double counting. Basi- 
+cally, company B is treated as a subsidiary of company A 
+and not as an independent company. I choose the thresh- 
+old of 75%, because 25% is the threshold for a blocking mi- 
+nority in German corporation law. To illustrate: If company 
+A owns 80% in company B and company B has a 10% eq- 
+uity stake in company C, company A is treated as holding 
+8% in company C and company B is not part of my sample. 
+If A held only 60%, I would treat the equity stake as a 10% 
+equity stake belonging to company B. 
+
+C.2. Value of equity stakes 
+
+I estimate the value of an equity stake in 1999 by mul- 
+tiplying the percentage equity owned with my estimate of 
+the ﬁrm’s market value. The percentage owned is reported 
+in  the  Who  owns  Whom?  database.  For  equity  stakes  in 
+publicly listed ﬁrms, I take the market value from Datas- 
+tream or Compustat Global. For private companies, I esti- 
+
+mate the market value using nominal capital (Kapital) as 
+reported by Who owns Whom? First, I compute the ratio of 
+market value to nominal capital for publicly listed compa- 
+nies. Then, I estimate the market value of private compa- 
+nies by multiplying their nominal capital with this ratio. 
+
+C.3. Announcement returns 
+
+I  use  SEDOLs  to  match  mergers  and  acquisition  data 
+from  SDC  Platinum  data  to  the  other  data  sets.  I  assign 
+an  acquisition  to  a  company  if  the  acquirer’s  SEDOL  or 
+the acquirer’s parent SEDOL matches any of the company’s 
+SEDOLs  or  the  SEDOL  of  a  company  in  which  the  com- 
+pany owns at least 75%. For stock return data, I use Datas- 
+tream  and  Compustat  Global.  Many  companies  have  dif- 
+ferent share classes. I calculate the announcement returns 
+based on the share class which is listed as “primary share 
+class” on Datastream. Since individual equity return data 
+in Datastream can sometimes have severe errors ( Ince and 
+Porter, 2006 ), I set any daily return in Datastream or Com- 
+pustat Global whose absolute value is above 20% to miss- 
+ing. There are many days on which either Datastream or 
+Compustat Global has missing return data. For each com- 
+pany and each month, I choose the source that has fewer 
+missing observations in that month. 
+
+To compute alphas, I construct the four-factors of the 
+Carhart (1997) model for Germany following the instruc- 
+11  I use the one- 
+tions on the website of Kenneth French. 
+month Frankfurt interbank rate as the risk-free rate. As the 
+market return, I use the Germany Datastream Index, which 
+consists of 250 German companies. To compute HML, SMB, 
+and MOM factors, I use only German companies for which 
+I have market capitalization and a positive book value at 
+the end of the prior year. At the beginning of each year, 
+I split the ﬁrms into above/below median in terms of size 
+and in Top 30%, Bottom 30%, and rest for market-to-book 
+ratio. For the six portfolios thus formed, I compute value- 
+
+11 http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data _ library. 
+
+html 
+
+Table D.1 
+Predictive regressions for payment method. 
+
+This table displays a logit regression of payment method on differ- 
+ent merger characteristics. The independent variable is a dummy variable 
+equal to one if the acquisition was paid for at least partly in cash. Syn- 
+opsis mentions “merger” is a dummy variable equal to one if the synopsis 
+describing the acquisition contains the term “merge.” Sales of target is the 
+sales of the target in million $, replaced with the sample mean if miss- 
+ing. Asset purchase is a dummy variable equal to one if the consideration 
+sought is listed as “Assets” in SDC Platinum. Increase in acquirer shares 
+outstanding is a dummy variable equal to one if shares outstanding in- 
+creased for the acquirer from one month before to one month after the 
+effective date of the acquisition, and replaced by zero if missing. Sales 
+of target missing and Increase in acquirer shares outstanding missing are 
+dummy variables equal to one if the respective variable is missing. Other 
+variables are deﬁned in Appendix A . All standard errors are clustered at 
+the ﬁrm level. I report t -statistics below the coeﬃcients in parentheses. 
+∗∗∗
+
+indicate signiﬁcance at the 1%, 5%, and 10% level. 
+
+∗
+, 
+
+∗∗
+
+, 
+
+316 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+weighted returns for each day and then compute the fac- 
+tors as: 
+=
+SMB 
+
++
++
+ Smal l Growth )
+ Smal l V al ue 
+ Smal l Neutral 
++
+∗ (
++
+ Big Growth )
+ Big Neutral 
+ Big V alue 
+
+  (3) 
+
+∗ (
+1 
+3 
+− 1 
+3 
+
+=
+HML 
+
++
+ Big V alue )
+ Smal l V al ue 
+∗ (
+
++
+ Big Growth )
+ Small Growth 
+
+∗ (
+1 
+2 
+− 1 
+2 
+
+.
+
+(4) 
+
+To compute the MOM factor, I sort ﬁrms in each month 
+by market capitalization at the beginning of the year into 
+−12 
+above/below median and by sum of return on months t 
+−2 in Top 30%, Bottom 30%, and rest. For the ﬁrm to 
+to t 
+−2 must be based 
+be included, the returns over t 
+on  at  least  three  months  of  data.  For  the  six  portfolios 
+thus  formed,  I  compute  value-weighted  returns  for  each 
+day and then compute the momentum factor as: 
+
+−12 to t 
+
+=
+MOM 
+
++
+ Big High )
+ Small High 
++
+∗ (
+ Big Low )
+ Small Low 
+
+∗ (
+1 
+2 
+− 1 
+2 
+
+.
+
+For each stock and each month, I then compute the beta 
+with  respect  to  those  factors  from  a  regression  over  the 
+−2 months. For the one-factor alpha, I com- 
+past t 
+pute the beta using the regression: 
+
+−12 to t 
+β ∗ (cid:2)
+
+α +
+
+=
+r c,t 
+
+(cid:3)
+− r f,t 
+
+r m,t 
+
+Synopsis mentions “merger”
+
+Sales of target 
+
+Asset purchase 
+
+(5) 
+
+Diversifying acquisition 
+
+Cross-border deal 
+
+Public target 
+
+Independent target 
+
+,
+
+(6) 
+
+Increase in acquirer shares outstanding 
+
+where r c, t  is the daily company return, r m, t  is the daily 
+market return, and r f, t 
+is the daily risk-free rate. For the 
+four-factor alpha, I compute the regression: 
+∗ HML 
++
+
+∗ SMB 
+
+(cid:3) +
+
+− r f,t 
+
+βHML 
+
+βSMB 
+
+r c,t 
+
+=
+
+α +
++
+
+∗ (cid:2)
+βm 
+r m,t 
+∗ MOM.
+βMOM 
+
+(7) 
+
+Sales of target missing 
+
+Increase in acquirer shares outstanding 
+
+missing 
+
+Observations 
+2 
+Pseudo R 
+
+To compute the announcement return alphas, I use the 
+betas and factors constructed as described above and com- 
+pute the one-factor alpha as: 
+
+=
+ r c,t 
+One  f actor al ph a c,t 
+
+∗ (cid:2)
+− βc 
+
+(cid:3)
+− r f,t 
+
+r m,t 
+
+,
+
+(8) 
+
+where r c, t  is the daily company return, r m, t  is the daily 
+β c is the 
+market return, and r f, t 
+−2 as de- 
+company beta computed over months t 
+scribed above. 
+
+is the daily risk-free rate. 
+−12 to t 
+
+Similarly, I compute the four-factor alpha as: 
+
+F our  f actor al ph a c,t 
+∗ (cid:2)
+=
+− βc 
+ r c,t 
+r m,t 
+− βSMB 
+∗ SM B t 
+
+− r f,t 
+− βMOM 
+
+(cid:3) − βHML 
+∗ MO M t 
+
+.
+
+∗ HM L t 
+
+(9) 
+
+Appendix D. Estimating payment methods 
+
+SDC Platinum and Zephyr provide information on pay- 
+ment method for only 27% of acquisitions. For the other 
+acquisitions, I estimate payment method using the predic- 
+tive regression presented below in Table D.1 . I regress pay- 
+ment type on the different characteristics and use the coef- 
+ﬁcients of this regression to predict the payment type for 
+acquisitions without payment information. The regression 
+
+2 of 35%. I create a new variable 
+has a fairly high Pseudo- R 
+called  Probability  of  cash  acquisition ,  which  is  the  proba- 
+bility of a cash acquisition as predicted by this regression. 
+For acquisitions without payment information, the average 
+Probability of cash acquisition is 91%, which is much closer 
+to the 93% of cash acquisitions than to the 55% of stock 
+acquisitions. For 97% of the acquisitions without payment 
+information, the probability of being a cash acquisition is 
+above 75%, showing that the acquisitions without payment 
+information have characteristics which suggest that most 
+of them were cash acquisitions. 
+
+The fact that most acquisitions without payment infor- 
+mation are cash acquisitions is conﬁrmed in a simple com- 
+parison of means shown below in Table D.2 . In this table, 
+I display sample means for different variables for the three 
+subsamples of stock acquisitions, cash acquisitions, and ac- 
+quisitions without payment information. The means of the 
+no payment information group are much closer to the cash 
+acquisition group than to the stock acquisition group for all 
+variables except Cross-border deal. This result suggests that 
+the acquisitions without payment information are predom- 
+inantly cash acquisitions. 
+
+Cash acquisition dummy 
+
+(1) 
+−3.860 
+∗∗∗
+−9.69) 
+( 
+0.0 0 0 
+(0.26) 
+∗∗
+0.788 
+(2.30) 
+0.273 
+(0.73) 
+∗∗∗
+1.223 
+(4.13) 
+−0.142 
+−0.43) 
+( 
+−0.352 
+−1.02) 
+( 
+−0.045 
+−0.12) 
+( 
+−0.543 
+−1.28) 
+( 
+−0.428 
+−0.83) 
+( 
+
+904 
+0.35 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+317 
+
+Table D.2 
+Acquisition characteristics by payment type. 
+
+This table displays summary statistics on acquisition characteristics split by payment information. I split the sample into whether the 
+acquisition was paid for using stock or cash or whether I do not have any payment information. I display the sample mean for different 
+variables. Synopsis mentions “merger” is a dummy variable equal to one if the synopsis describing the acquisition contains the term “merge.”
+Asset purchase is a dummy variable equal to one if the consideration sought is listed as “Assets” in SDC Platinum. Increase in acquirer shares 
+outstanding is a dummy variable equal to one if shares outstanding increased for the acquirer from one month before to one month after 
+the effective date of the acquisition. Probability of cash acquisition is the probability that the acquisition has been paid in cash as predicted 
+by the regression model in Table D.1 . Other variables are deﬁned in Appendix A . 
+
+Mean acquisitions characteristics by payment type 
+
+Variable 
+
+Stock acquisition 
+
+Cash acquisition 
+
+Synopsis mentions “merger”
+Sales of target (m $) (if not missing) 
+Asset purchase 
+Diversifying acquisition 
+Cross-border deal 
+Public target 
+Independent target 
+Increase in acquirer shares outstanding (if not missing) 
+Probability of cash acquisition 
+
+Observations 
+
+0.56 
+
+4556.9 
+
+0.54 
+0.21 
+0.48 
+0.60 
+0.39 
+0.23 
+0.55 
+
+99 
+
+0.026 
+3248.1 
+
+0.61 
+0.29 
+0.80 
+0.54 
+0.40 
+0.15 
+0.93 
+
+805 
+
+No payment 
+information 
+
+0.023 
+188.1 
+0.76 
+0.37 
+0.52 
+0.55 
+0.58 
+0.13 
+0.91 
+
+2474 
+
+Table E.1 
+Payment method by fraction of equity acquired. 
+
+In this table, I display the payment methods in a sample of acquisitions of German companies between 20 0 0 and 20 07 
+taken from SDC Platinum. I split the results by whether the acquirer sought to acquire 100%, less than 100% but more 
+than 20%, or less than 20% of the company. Percentage with payment information gives the fraction of acquisitions that 
+have payment information. Percentage of cash acquisitions gives the percentage of acquisitions that are at least partially 
+paid in cash. 
+
+Payment methods of acquisitions from 20 0 0 to 20 07 
+
+Variable 
+
+Acquisition of 
+
+an equity stake ( 
+
+≤20%) 
+
+Partial acquisitions 
+>
+( 
+ 100%) 
+
+ 20% and 
+
+<
+
+=
+Full acquisitions ( 
+
+ 100%) 
+
+Percentage with payment information 
+Percentage of cash acquisitions 
+
+Number of acquisitions 
+
+27.8 
+96.8 
+
+626 
+
+28.6 
+93.1 
+
+2197 
+
+26.3 
+87.6 
+
+2973 
+
+Appendix E. Payment methods for partial acquisitions 
+
+In this appendix, I study how the payment method de- 
+pends on the fraction of equity that a ﬁrm acquires. For 
+this purpose, I use a sample of all acquisitions in SDC Plat- 
+inum  undertaken  by  a  German  company  between  20 0 0 
+and  2007  (even  if  they  are  not  related  to  companies  in 
+my sample). I split this sample by percentage of shares ac- 
+quired into three groups: full acquisitions (buyer acquires 
+100%  of  target),  partial  acquisitions  (buyer  acquires  less 
+than 100% but more than 20% of target), and acquisitions 
+of equity stakes (buyer acquires less than 20% of target). I 
+use the cutoff of 20% because it is the same cutoff I use to 
+deﬁne an equity stake. For each of the samples I study the 
+payment method as reported in SDC Platinum. 
+
+I present the results in Table E.1 below. Acquisitions are 
+more  likely  to  be  paid  in  cash  if  a  smaller  share  of  the 
+company is purchased. For full acquisitions, 87.6% are paid 
+in cash, while it is 93.1% for partial acquisitions and 96.8% 
+for  acquisitions  of  equity  stakes.  While  these  results  are 
+based only on the 27% of the sample for which payment 
+information is available, the analysis in Appendix D sug- 
+gests that acquisitions without payment information are at 
+
+least as likely to be cash acquisitions as acquisitions with 
+payment information. 
+
+This analysis shows that acquisitions are more likely to 
+be paid in cash the smaller the acquired stake in the com- 
+pany. Speciﬁcally, about 97% of the acquisitions of similar 
+≤20%) are paid 
+size as the divestitures of the equity stakes ( 
+in cash. 
+
+References 
+
+Ai, C. , Norton, E. , 2003. Interaction terms in logit and probit models. Econ. 
+
+Lett. 80, 123–129 . 
+
+Alexander, G. , Benson, P. , Kampmeyer, J. , 1984. Investigating the valuation 
+effects of announcements of voluntary corporate selloffs. J. Finance 
+39, 503–517 . 
+
+Almeida, H. , Campello, M. , Weisbach, M. , 2004. The cash ﬂow sensitivity 
+
+of cash. J. Finance 59, 1777–1804 . 
+
+Almeida, H. , Campello, M. , 2007. Financial constraints, asset tangibility, 
+
+and corporate investment. Rev. Financ. Stud. 20, 1429–1460 . 
+
+Almeida, H. , Campello, M. , Laranjeira, B. , Weisbenner, S. , 2012. Corporate 
+debt maturity and the real effects of the 2007 credit crisis. Crit. Fi- 
+nance Rev. 1, 3–58 . 
+
+Alti, A. , 2003. How sensitive is investment to cash ﬂow when ﬁnancing is 
+
+frictionless? J. Finance 58, 707–722 . 
+
+Angrist, J. , 1990. Lifetime earnings and the Vietnam era draft lottery: evi- 
+dence from Social Security administrative records. Am. Econ. Rev. 80, 
+313–336 . 
+
+318 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+Bakke, T. , Whited, T. , 2012. Threshold events and identiﬁcation: a study of 
+
+cash shortfalls. J. Finance 67, 1083–1111 . 
+
+Gomes, J. , 2001. Financing investment. Am. Econ. Rev. 91, 1263–1285 . 
+Gormley, T. , Matsa, D. , 2011. Growing out of trouble? corporate responses 
+
+Barrot, J. , 2016. Trade credit and industry dynamics: evidence from truck- 
+
+to liability risk. Rev. Financ. Stud. 24, 2781–2821 . 
+
+ing ﬁrms. J. Finance 71, 1975–2016 . 
+
+Gormley, T. , Matsa, D. , 2014. Common errors: how to (and not to) control 
+
+Bates, T. , 2005. Asset sales, investment opportunities, and the use of pro- 
+
+for unobserved heterogeneity. Rev. Financ. Stud. 27, 617–661 . 
+
+ceeds. J. Finance 60, 105–135 . 
+
+Harford, J. , 1999. Corporate cash reserves and acquisitions. J. Finance 54, 
+
+Bates, T. , Kahle, K. , Stulz, R. , 2009. Why do U.S. ﬁrms hold so much more 
+
+1969–1997 . 
+
+cash than they used to?.. J. Finance 64, 1985–2021 . 
+
+Harford, J. , Mansi, S. , Maxwell, W. , 2008. Corporate governance and ﬁrm 
+
+Baumol, W. , 1959. Business Behavior, Value and Growth. Macmillan, New 
+
+cash holdings in the US. J. Financ. Econ. 87, 535–555 . 
+
+York . 
+
+Hite, G. , Owers, J. , Rogers, R. , 1987. The market for interﬁrm asset sales: 
+
+Bertrand, M. , Duﬂo, E. , Mullainathan, S. , 2004. How much should we trust 
+
+partial sell-offs and total liquidations. J. Financ. Econ. 18, 229–252 . 
+
+differences-in-differences estimates? Q. J. Econ. 119, 249–275 . 
+
+Bertrand, M. , Mullainathan, S. , 2005. Proﬁtable Investments or Dissipated 
+Cash? Evidence on the Investment-Cash Flow Relationship from Oil 
+and Gas Lease Bidding. University of Chicago and Harvard University 
+NBER working paper no. 11126 . 
+
+Blanchard, O. , Lopez-de-Silanes, F. , Shleifer, A. , 1994. What do ﬁrms do 
+
+with cash windfalls? J. Financ. Econ. 36, 337–360 . 
+
+Borisova, G. , John, K. , Salotti, V. , 2013. The value of ﬁnancing through 
+cross-border asset sales: shareholder returns and liquidity. J. Corp. Fi- 
+nance 22, 320–344 . 
+
+Borisova, G. , Brown, J. , 2013. R&D sensitivity to asset sales proceeds: new 
+evidence on ﬁnancing constraints and intangible investment. J. Bank. 
+Finance 37, 159–173 . 
+
+Campbell, J. , Dhaliwal, D. , Schwartz, W. , 2012. Financing constraints and 
+the cost of capital: evidence from the funding of corporate pension 
+plans. Rev. Financ. Stud. 25, 868–912 . 
+
+Höpner, M. , 20 0 0. Unternehmensverﬂechtung im Zwielicht: Hans Eichels 
+Plan zur Auﬂösung der Deutschland AG. Max Planck Institute for the 
+Study of Societies Unpublished working paper . 
+
+Höpner,  M. ,  Krempel,  L. ,  2006.  Ein  Netzwerk  in  Auﬂösung:  Wie  Die 
+Deutschland AG zerällt. Max Planck Institute for the Study of Societies 
+Unpublished working paper . 
+
+Hoshi, T. , Kashyap, A. , Scharfstein, D. , 1990. The role of banks in reducing 
+
+the costs of ﬁnancial distress in Japan. J. Financ. Econ. 27, 67–88 . 
+
+Hovakimian, G. , Titman, S. , 2006. Corporate investment with ﬁnancial 
+constraints: sensitivity of investment to funds from voluntary asset 
+sales. J. Money Credit Bank. 38, 357–374 . 
+
+Huyghebaert, N. , Luypaert, M. , 2009. Value creation in mergers and acqui- 
+sitions: a study of European transactions during the ﬁfth wave. Tijd- 
+schrift voor Bank-en Financiewezen 5, 308–316 . 
+
+Ince, O. , Porter, R. , 2006. Individual equity return data from thomson 
+
+datastream: handle with care!. J. Financ. Res. 29, 463–479 . 
+
+Carhart, M. , 1997. On persistence in mutual fund performance. J. Finance 
+
+Jain, P. , 1985. The effect of voluntary sell-off announcements on share- 
+
+52, 57–82 . 
+
+holder wealth. J. Finance 40, 209–224 . 
+
+Chamberlain, G. , 1980. Analysis of covariance with qualitative data. Rev. 
+
+Jegadeesh, N. , Titman, S. , 1993. Returns to buying winners and selling 
+
+Econ. Stud. 47, 225–238 . 
+
+Chaney,  T. ,  Sraer,  D. ,  Thesmar,  D. ,  2012.  The  collateral  channel:  how 
+real estate shocks affect corporate investment. Am. Econ. Rev. 102, 
+2381–2409 . 
+
+losers: implications for stock market eﬃciency. J. Finance 48, 65–91 . 
+
+Jensen, M. , 1986. Agency costs of free cash ﬂow, corporate ﬁnance, and 
+
+takeovers. Am. Econ. Rev. 76, 323–329 . 
+
+Kaplan, S. , Zingales, L. , 1997. Do investment-cash ﬂow sensitivities provide 
+
+Chava, S. , Purnanandam, A. , 2011. The effect of banking crisis on bank-de- 
+
+useful measures of ﬁnancing constraints? Q. J. Econ. 112, 169–215 . 
+
+pendent borrowers. J. Financ. Econ. 99, 116–135 . 
+
+Kaplan, S. , Zingales, L. , 20 0 0. Investment-cash ﬂow sensitivities are not 
+
+Denis, D. , Sibilkov, V. , 2010. Financial constraints, investment, and the 
+
+valid measures of ﬁnancing constraints. Q. J. Econ. 115, 707–712 . 
+
+value of cash holdings. Rev. Financ. Stud. 23, 247–269 . 
+
+Dharmapala, D. , Foley, C. , Forbes, K. , 2011. Watch what I do, not what I 
+say: the unintended consequences of the homeland investment act. J. 
+Finance 66, 753–787 . 
+
+Dittmar, A. , Mahrt-Smith, J. , Servaes, H. , 2003. International corporate 
+governance and corporate cash holdings. J. Financ. Quant. Anal. 38, 
+111–133 . 
+
+Dittmar, A. , Mahrt-Smith, J. , 2007. Corporate governance and the value of 
+
+cash holdings. J. Financ. Econ. 83, 599–634 . 
+
+Dobridge, C. , 2016. Fiscal Stimulus and Firms: A Tale of Two Recessions. 
+Board of Governors of the Federal Reserve System (U.S.) Finance and 
+economics discussion series 2016–13 . 
+
+Karlan,  D. ,  Zinman,  J. ,  2010.  Expanding  credit  access:  using  random- 
+ized supply decisions to estimate the impacts. Rev. Financ. Stud. 23, 
+433–464 . 
+
+Keen, M. , 2002. The German tax reform of 20 0 0. Int. Tax Public Finance 
+
+9, 603–621 . 
+
+Kengelbach, J. , Roos, A. , 2006. Entﬂechtung der Deutschland AG - Em- 
+pirische Untersuchung der Reduktion von Kapital- und Personalver- 
+ﬂechtungen zwischen deutschen börsennotierten Gesellschaften. M&A 
+Rev. 1, 12–21 . 
+
+Klein,  A. ,  1986.  The  timing  and  substance  of  divestiture  announce- 
+ments: individual, simultaneous and cumulative effects. J. Finance 41, 
+685–696 . 
+
+Edmans, A., Mann, W., 2018. Financing through asset sales. Management 
+
+Lang, L. , Stulz, R. , Walkling, R. , 1991. A test of the free cash ﬂow hypothe- 
+
+Science, (Forthcoming). 
+
+sis: the case of bidder returns. J. Financ. Econ. 29, 315–335 . 
+
+Edwards, C. , Lang, M. , Maydew, E. , Shackelford, D. , 2004. Germany’s repeal 
+of the corporate capital gains tax: the equity market response. J. Am. 
+Tax. Assoc. 26 (Suppl), 73–97 . 
+
+Lang, L. , Poulsen, A. , Stulz, R. , 1995. Asset sales, ﬁrm performance, and the 
+
+agency costs of managerial discretion. J. Financ. Econ. 37, 3–37 . 
+
+Masulis, R. , Wang, C. , Xie, F. , 2007. Corporate governance and acquirer re- 
+
+Erickson, T. , Whited, T. , 20 0 0. Measurement error and the relationship be- 
+
+turns. J. Finance 62, 1851–1889 . 
+
+tween investment and q. J. Polit. Econ. 108, 1027–1057 . 
+
+Modigliani, F. , Miller, M. , 1958. The cost of capital, corporation ﬁnance and 
+
+Faccio, M. , Lang, L. , 2002. The ultimate ownership of Western European 
+
+the theory of investment. Am. Econ. Rev. 48, 261–297 . 
+
+corporations. J. Financ. Econ. 65, 365–395 . 
+
+Faccio, M. , McConnell, J. , Stolin, D. , 2006. Returns to acquirers of listed 
+
+and unlisted targets. J. Finan. Quant. Anal. 41, 197–220 . 
+
+Moeller, S. , Schlingemann, F. , Stulz, R. , 2005. Wealth destruction on a mas- 
+sive scale? a study of acquiring-ﬁrm returns in the recent merger 
+wave. J. Finance 60, 757–782 . 
+
+Faulkender, M. , Wang, R. , 2006. Corporate ﬁnancial policy and the value 
+
+Moyen, N. , 2004. Investment-cash ﬂow sensitivities: constrained versus 
+
+of cash. J. Finance 61, 1957–1990 . 
+
+Faulkender, M. , Petersen, M. , 2012. Investment and capital constraints: 
+repatriations under the American jobs creation act. Rev. Financ. Stud. 
+25, 3351–3388 . 
+
+Fazzari, S. , Hubbard, R. , Petersen, B. , Blinder, A. , Poterba, J. , 1988. Financing 
+constraints and corporate investment. Brook. Papers Econ. Act. 1988, 
+141–206 . 
+
+Fazzari, S. , Hubbard, R. , Petersen, B. , 20 0 0. Investment-cash ﬂow sensitiv- 
+ities are useful: a comment on Kaplan and Zingales. Q. J. Econ. 115, 
+695–705 . 
+
+Franzoni, F. , 2009. Underinvestment vs. overinvestment: evidence from 
+
+price reactions to pension contributions. J. Financ. Econ. 92, 491–
+518 . 
+
+unconstrained ﬁrms. J. Finance 59, 2061–2092 . 
+
+Myers, S. , Majluf, N. , 1984. Corporate ﬁnancing and investment decisions 
+when ﬁrms have information that investors do not have. J. Financ. 
+Econ. 13, 187–221 . 
+
+Opler, T. , Pinkowitz, L. , Stulz, R. , Williamson, R. , 1999. The determinants 
+and implications of corporate cash holdings. J. Financ. Econ. 52, 3–46 . 
+Pinkowitz, L. , Stulz, R. , Williamson, R. , 2006. Does the contribution of cor- 
+porate cash holdings and dividends to ﬁrm value depend on gover- 
+nance? a cross-country analysis. J. Finance 61, 2725–2751 . 
+
+Puhani, P. , 2012. The treatment effect, the cross difference, and the in- 
+teraction term in nonlinear “difference-in-differences” models. Econ. 
+Lett. 115, 85–87 . 
+
+Rauh, J. , 2006. Investment and ﬁnancing constraints: evidence from the 
+
+Frésard, L. , Salva, D. , 2010. The value of excess cash and corporate gover- 
+
+funding of corporate pension plans. J. Finance 61, 33–71 . 
+
+nance: evidence from US cross-listings. J. Financ. Econ. 98, 359–384 . 
+
+Gan, J. , 2007. Collateral, debt capacity, and corporate investment: evidence 
+
+from a natural experiment. J. Financ. Econ. 85, 709–734 . 
+
+Sautner, Z. , Villalonga, B. , 2010. Corporate Governance and Internal Capital 
+Markets. Frankfurt School of Finance & Management and New York 
+University Unpublished working paper . 
+
+B. von Beschwitz / Journal of Financial Economics 128 (2018) 287–319 
+
+319 
+
+Stein, J. , 2003. Agency, information and corporate investment. In: Con- 
+stantinides, G., Harris, M., Stulz, R. (Eds.), Handbook of the Economics 
+of Finance. Elsevier, Amsterdam, pp. 111–165 . 
+
+von Beschwitz, B. , Foos, D. , 2014. Banks’ Equity Stakes and Lending: Evi- 
+dence from a Tax Reform. Federal Reserve Board and Deutsche Bun- 
+desbank Unpublished working paper . 
+
+Weber, A. , 2009. An empirical analysis of the 2000 corporate tax reform 
+in Germany: effects on ownership and control in listed companies. 
+Int. Rev. Law Econ. 29, 57–66 . 
+
+Whited, T. , 1992. Debt, liquidity constraints, and corporate investment: 
+
+evidence from panel data. J. Finance 47, 1425–1460 . 
+
+Williamson, O. , 1964. The Economics of Discretionary Behavior: Manage- 
+rial Objectives in a Theory of the Firm. Prentice-Hall, Englewood Cliffs, 
+New Jersey . 
+
+

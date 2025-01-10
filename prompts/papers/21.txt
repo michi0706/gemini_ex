@@ -1,0 +1,7352 @@
+Contagious Effects of a Political Intervention
+in Debt Contracts: Evidence Using
+Loan-Level Data
+
+Prasanna L. Tantri
+Indian School of Business
+
+Using an unexpected government regulation that restricted the ability of microﬁnance
+institutions to recover loans in one Indian state, I examine whether this intervention affected
+bank loan performance. The bank loan delinquency rate signiﬁcantly increased as a result.
+In response, the ex post bank credit supply declined by more than half. For identiﬁcation,
+I compare loans from branches located in regions subject to this intervention with loans
+from nearby branches of the same bank located in regions not subject to the intervention.
+I conclude that political interventions in credit markets could have signiﬁcant spillover
+effects.
+
+(JEL D14, G18, G21)
+
+Received October 29, 2016; editorial decision November 28, 2017 by Editor Philip Strahan.
+Authors have furnished an Internet Appendix, which is available on the Oxford University
+Press Web site next to the link to the ﬁnal published paper online.
+
+A large body of literature has examined the consequences of political
+intervention in private debt contracts (Agarwal et al. 2016; Bolton and Rosenthal
+2002; Kroszner 2003; Melzer 2011; Mian and Suﬁ 2014) on ex post outcomes
+within the segment of the credit market subject to the intervention. However, the
+possibility of such an intervention having a contagious effect on other segments
+of the credit market that are not subject to the intervention has not received much
+attention. Such an analysis is important to understand the full costs and beneﬁts
+of political interventions in debt contracts.1
+
+I thank the Editor, Philip E. Strahan, and two anonymous referees for helpful suggestions. I thank
+Jeffereson Kaduvinal Abraham, Bhagwan Choudhry, Yakshup Chopra, Maitresh Ghatak, Radhakrishna Gopalan,
+Ravi Jagannathan, Saptarshi Mukherjee, N.R.Prabhala, Bhimasankaram Pochiraju, Amit Seru, Swaminathan
+Sridharan, Krishnamurthy Subramanian, and Suresh Sunderesan for their helpful comments. I thank Gautam
+Kanthaswamy, Chitrarth Kaushik, Padma Priya, and Mohan Ramanath for excellent research assistance. I
+thank the Center for Analytical Finance, Indian School of Business, Gachibowli, Hyderabad, Telangana, India
+for providing the data and necessary ﬁnancial assistance for this project. Any remaining errors are my own.
+Supplementary data can be found on The Review of Financial Studies Web site.
+
+1 Furthermore, most of the extant evidence on the implications of political interventions comes from studies that use
+either the Great Depression (Bolton and Rosenthal 2002; Rucker and Alston 1987) or the recent ﬁnancial crisis
+(Mayer et al. 2014) as the economic setting. It is difﬁcult to study spillover effects using such settings, as even
+parts of the credit market not subject to interventions were in turmoil in these settings, and many interventions
+took place simultaneously.
+
+© The Author(s) 2018. Published by Oxford University Press on behalf of The Society for Financial Studies.
+All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.
+doi:10.1093/rfs/hhy001
+
+Advance Access publication January 20, 2018
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4556 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+I use a large shock delivered by an unexpected government regulation
+to microﬁnance institutions’ ability to recover loans in one Indian state
+as an economic setting and examine the plausible spillover impact of this
+intervention on bank loans in the geographic region subject to the intervention.
+Speciﬁcally, I ask the following two questions. First, did the performance of
+bank loans, deﬁned in terms of the default rate, deteriorate in regions subject
+to the microﬁnance intervention? Second, anticipating deterioration in loan
+performance, did banks curtail credit in the post-intervention period?
+
+The economic setting for this study is provided by an ordinance issued by
+the state government of Andhra Pradesh2 on October 15, 2010. Breza and
+Kinnan (2016) study the impact of the above event on the local economy.
+They document signiﬁcant negative effects on consumption, employment, and
+entrepreneurship. Breza (2012) uses an earlier incident of sudden increase in
+microﬁnance defaults in one district of Andhra Pradesh to study the impact
+of a borrower’s loan repayment decision on peers. I focus on bank loans.
+The government imposed severe restrictions on the loan recovery practices
+followed by microﬁnance lenders in the state. That the state government issued
+an ordinance3 and did not wait for the legislation to pass shows the urgency
+and speed with which the government reacted.
+
+The reason for this quick reaction was an allegation leveled by the opposition
+parties and media that the harsh recovery practices adopted by microﬁnance
+institutions led 57 individuals to commit suicide in Andhra Pradesh (Kar
+2013). As I will discuss in Section 2.1, the numbers compiled by the national
+crimes database do not show an abnormal increase in suicides related to high
+indebtedness in the state of Andhra Pradesh when compared with neighboring
+states. Therefore, it is reasonable to categorize the state government’s reaction
+as an exercise to limit political damage caused by the opposition’s propaganda
+and not as a reasonable reaction to the sudden implosion of an economic
+crisis. Careful analysis of news around the time of the event shows that no
+other signiﬁcant economic event affecting only the state of Andhra Pradesh
+took place close to the notiﬁcation date. The impact of the regulation
+on microﬁnance lending in Andhra Pradesh was swift and signiﬁcant; the
+microﬁnance delinquency ratio increased from less than 1% to nearly 90%
+(Kar 2013). The lone listed microﬁnance stock, SKS microﬁnance, fell by
+6.5% on October 15, 2010, by 26% within one month and by 48% within three
+months.4
+
+2 Andhra Pradesh was one of the largest states of India. It is now divided into two states, Andhra Pradesh and
+
+Telangana. I consider the undivided Andhra Pradesh state in this study.
+
+3 An ordinance is issued by an executive to promulgate a law when the legislature is in recess. The ordinance
+becomes a law as soon it is signed by the governor of the state and notiﬁed in the state gazette. However, the
+ordinance needs to be approved by the state legislature within six months. Otherwise, it lapses and, hence, ceases
+to be a law.
+
+4 The stock eventually lost nearly 90% of its original market value. The benchmark market index lost only about
+
+7% during this period.
+
+4557
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4557 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+I collect proprietary transaction-level data relating to crop loans from a large
+government-owned bank in India. I have time series information about all
+transactions executed by these borrowers. The data set includes loans made
+by bank branches located in Andhra Pradesh and nearby branches located in
+the border districts of two other neighboring states, Maharashtra and Karnataka.
+All bank branches from which I obtained data are located in border districts of
+the above three states.
+
+A crucial aspect of my analysis is that all the loans I examine in this study
+are bullet loans with tenure of one year. In other words, repayment of the loans,
+along with interest, is expected in one installment. No intermediate payments
+are speciﬁed. A loan is considered to be in default if the total outstanding
+amount including interest is not repaid on or before the due date. A loan lent
+on, say, January 1 of a year, will be considered in default if it is not fully repaid
+on or before December 31 of the same year.
+
+I ﬁrst identify loans made before October 15, 2010 (event date, henceforth),
+whose due dates were immediately after the event date. I call such loans
+“affected loans.” For example, take the case of a loan made on November
+15, 2009. The due date for this loan was November 15, 2010, one month
+after the event date. Similarly, I identify loans whose due dates were just
+prior to the event date. I call such loans “unaffected loans.” For example,
+consider a loan made on September 15, 2009. The due date for this loan
+was September 15, 2010, one month before the event date. This way of
+identifying affected and unaffected loans has two distinct advantages. First,
+the decision to provide a loan is made long before the event. Hence, the
+loans are not affected by loan ofﬁcer selection after the event. Second,
+given the bullet
+the decision of whether to default on
+affected (unaffected) loans has to be made after (before) the event date. This
+requirement signiﬁcantly strengthens identiﬁcation. Using the above facts, I
+design difference-in-differences (DID, henceforth) and regression discontinuity
+(RD, henceforth) tests to assess the impact of the event on bank loan
+performance.
+
+loan structure,
+
+For DID tests, the ﬁrst difference is provided by the difference in default rates
+between affected and unaffected loans made by branches located in Andhra
+Pradesh. Using the fact that the law change applied only to Andhra Pradesh,
+I design a counterfactual difference: the difference in default rates between
+affected and unaffected loans made by branches located in the other two
+states. The difference between the above two differences is the DID measure. I
+examine and ﬁnd the existence of a close to parallel trend between the treatment
+and control regions during the pre-event period. All the branches I study are
+located in the border districts of their respective states and, hence, are in
+close geographical proximity. As expected, I do not ﬁnd signiﬁcant differences
+between the treatment and control regions in terms of pre-treatment observable
+characteristics, such as loan performance, loan size, rainfall, crop area and
+yield, and agricultural credit.
+
+4558
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4558 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+I ﬁnd that the default rate of treatment loans is about 18.6 (19) percentage
+points higher when compared with the default rate of control loans based
+on DID estimates when I limit the sample to loans having due dates within
+three (six) months on either side of the event date. Here, I compare loans
+with due dates between October 15, 2010, and January 15, 2011 (April 15,
+2011), with loans with due dates between July 15, 2010 (April 15, 2010), and
+October 14, 2010. The above differences are both statistically and economically
+signiﬁcant.
+
+I use the classiﬁcation of a loan as a nonperforming asset (NPA) as the second
+loan performance measure. A crop loan that remains in default for at least two
+crop seasons is considered an NPA. A crop season is deﬁned as six months
+for rice, the underlying crop for loans under consideration. Therefore, a loan
+will be categorized as an NPA if it remains in default for at least 365 days. A
+loan borrowed on, say, January 1, 2010, will be classiﬁed as an NPA if it is not
+fully repaid on or before December 31, 2011. The loan would be classiﬁed as
+being in default on December 31, 2010. The provisioning requirement goes up
+signiﬁcantly if a loan is recognized as an NPA. A loan being classiﬁed as an NPA
+impacts the loan ofﬁcer’s appraisal scores negatively (Bhowal, Subramanian,
+and Tantri 2014). If one bank loan of a borrower is categorized as an NPA, all
+other loans of that borrower with the same bank are also classiﬁed as NPAs.
+This impacts the borrower’s credit score signiﬁcantly. For tests that use NPA
+status as the dependent variable, I consider loans that were in default but had
+not reached the due date for recognition as an NPA as of October 15, 2010, as
+“affected loans,” and loans in default whose NPA due dates were just before
+October 15, 2010, as “unaffected loans.” I ﬁnd that the NPA rate of “affected
+loans” is 30.2 percentage points higher than that of “unaffected loans” based
+on DID estimates when I limit the sample to defaulted loans with NPA due
+dates within three months on either side of the event date. The results remain
+qualitatively similar when I extend the window to six months.
+
+To buttress the ﬁndings further, I use a robust RD design (Calonico, Cattaneo,
+and Titiunik 2014). Here, I use the notiﬁcation date, October 15, 2010, as the
+cutoff and the distance between the due date of a loan and the cutoff as the
+running variable. For example, for a loan with the due date of October 12 (18),
+the running variable takes the value of −3 (3). As before, loan performance,
+denoted by whether or not a loan defaults (or turns into an NPA), is the dependent
+variable. The due date, respectively, refers to the due date for default or for
+becoming an NPA when I use default or NPA as the dependent variable. The RD
+test detects a 12.4 percentage point jump in the default rate and a 24.5 percentage
+point jump in the NPA rate at the cutoff for loans made by Andhra Pradesh
+branches. No such signiﬁcant discontinuity is detected in control regions.
+
+I perform several robustness tests to rule out other explanations. First, I
+perform placebo tests and ﬁnd that the results are robust. Second, I limit the
+treatment and control samples to regions that are contiguous and, hence, are
+located very close to each other. The main results are replicated even in this
+
+4559
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4559 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+subsample. Third, I perform two external validation tests. For the ﬁrst external
+validation test, I collect data pertaining to the delinquency rates of all listed
+banks in India, including private banks, and I compare the delinquency rates of
+banks with high exposure to Andhra Pradesh with those of other banks in a DID
+setting. The level of exposure and the period (pre- or post-intervention) provide
+the two differences. I ﬁnd that banks with high exposure to Andhra Pradesh
+experience higher delinquency rates in the post-notiﬁcation period based on
+DID estimates. For the second external validation test, I use the Indian farm
+debt waiver of 2008 as the economic setting. Gine and Kanz (2017) ﬁnd that the
+waiver program led to deterioration in the loan performance of the beneﬁciaries.
+Given the ﬁndings described so far, I expect the impact of the waiver to spill
+over to the nonbeneﬁciaries as well. Using the RD strategy described above, I
+ﬁnd that the waiver program led to worsening of the loan performance of the
+nonbeneﬁciaries as well. This supports the thesis that political intervention
+could have a contagious impact. Here, the contagion spreads within the
+segment.
+
+In the second part of the study, I look at the intervention’s impact on
+subsequent functioning of the credit markets. I employ the robust RD design
+with a similar setup as described before. Here, I organize the data at a branch-
+day level. I calculate the daily loan amount at the branch level, which becomes
+the dependent variable. I ﬁnd that the daily loan amount lent by Andhra Pradesh
+branches experiences a sharp discontinuity at the cutoff. The daily loan amount
+at the branch level falls by 54.8%. However, I do not detect any signiﬁcant
+discontinuity in the loan amount lent by branches located outside Andhra
+Pradesh. Furthermore, the decline in loans seems to be driven by the intensive
+margin, as I do not detect any discontinuity in the number of loans granted per
+day.
+
+Although I show that a government intervention in one segment of the credit
+market has adverse spillover impacts on loan performance and loan supply in
+other segments, due to data limitations, I cannot precisely pin down the exact
+mechanism at work. First, it is possible that the curtailment of microﬁnance
+credit adversely affected Andhra Pradesh’s agricultural economy (Breza and
+Kinnan 2016; Sane and Thomas 2016) and that this impact led to increased
+bank loan defaults. The results show a sharp jump in defaults immediately after
+the event, implying that at least a part of the result is not caused by the above
+mechanism. The real effects of a loan supply shock are likely to take some time
+to manifest and spread through economic linkages.5 However, it is not possible
+to fully rule out the above explanation.
+
+A second possibility is that bank borrowers defaulted anticipating a future
+government intervention in bank loans. In this case, the reaction is likely to be
+quick. Therefore, a decline in loan performance immediately after the event
+
+5 I thank an anonymous referee for pointing this out.
+
+4560
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4560 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+is consistent with the moral hazard view. This discussion applies to the ﬂow
+of bank credit in the post-event period as well. It is possible that loan ofﬁcers
+tightened their lending anticipating deterioration in loan performance. It is
+also possible that adverse economic effects of the intervention led to reduced
+loan demand. Admittedly, I do not have data pertaining to loan applications,
+and, hence, disentangling the impact of demand from supply is a challenge.
+However, as stated above, the manifestation of demand effect is likely to take
+time, and, hence, an immediate decline in credit ﬂow is likely to be the result
+of the tightening of supply. However, the existence of demand effects cannot
+be completely ruled out.
+
+I contribute to two distinct strands of literature. First, this study is related
+to a large body of empirical literature that examines the consequences of
+political interventions in private loan contracts (Agarwal et al. 2016; Bolton
+and Rosenthal 2002: De and Tantri 2014; Gine and Kanz 2017; Mayer et al.
+2014; Mukherjee, Subramanian, and Tantri 2014; Rucker and Alston 1987). I
+contribute to this literature by showing that a government intervention in one
+segment of the credit market could cause ripple effects on other segments.
+Second, I also contribute to the literature that highlights the possibility of a
+ﬁnancial contagion (Acemoglu et al. 2015; Allen and Gale 2000; Bae, Karolyi,
+and Stulz 2003; Bekaert et al. 2014; Billio et al. 2012). I argue that a political
+intervention in one segment of the credit market could be the source of a
+contagion.
+
+1. Institutional Background
+
+1.1 Indian banking
+The Indian banking landscape, even to this day, is dominated by public sector
+banks. Public sector banks account for more than 70% of the bank credit in
+India.6 Banks and micro-ﬁnance institutions are linked directly, as bank loans
+are one of the most important sources of funding for micro-ﬁnance institutions
+(ET Bureau 2015). Banks in India are tightly regulated by the Reserve Bank of
+India.
+
+1.2 Agricultural lending in India
+As described earlier, I use crop loan data. The majority of the Indian population,
+even to this day, is dependent on agriculture. Agriculture is considered as a
+“priority sector,” and, hence, all banks are required to direct at least 18% of their
+credit to agriculture (Cole 2009b). Although banking is a federal subject, local
+politicians often intervene in the recovery process with an eye on borrowers’
+votes (Mukherjee, Subramanian, and Tantri 2014).7 Local politicians are
+
+6 https://rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=38738.
+7 Moreover, agricultural loans are excluded from the purview of many recent laws that have signiﬁcantly enhanced
+
+creditor rights (Bhue, Prabhala, and Tantri 2015).
+
+4561
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4561 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+members of state-level bankers’ committees that set broad guidelines regarding
+agricultural lending in the state.8
+
+1.2.1 Loan features. Having brieﬂy discussed the broad institutional
+framework applicable to agricultural lending in India, I proceed to describe
+the relevant loan features. As noted earlier, all the loans I consider are crop
+loans with tenure of 12 months. I verify this fact using a sample loan contract
+obtained from the bank. The underlying crop is rice. Moreover, the loans I study
+are bullet loans to be repaid in a single installment. In other words, there are no
+intermediate payments to be made.9 This type of loan structure suits farmers
+who are likely to earn most of their revenue within a short interval, that is,
+immediately following the harvest season.
+
+1.2.2 Measures of loan performance. Broadly, a crop loan that is not fully
+repaid is classiﬁed as either current, in default, or as an NPA. Every loan is
+classiﬁed as current until the due date. A loan that is not fully repaid as on
+the due date is considered to be in default. Figure 8, presented in the Online
+Appendix, depicts the above classiﬁcations. I provide an example to clarify
+the above classiﬁcation further. Suppose, three farmers, A, B, and C, borrow
+INR10 10,000 each on January 1, 2010. The due date for all three loans will be
+December 31, 2010. All three loans are classiﬁed as current until the end of the
+day on December 31, 2010. Assume that A repays her/his loan on December
+31, 2010, just before the end of the working hours of the bank. A’s loan account
+gets closed. Also assume that B and C do not fully repay their loans by the end
+of the day on December 31, 2010. Crop loans lent to B and C will be classiﬁed
+as loans in default starting from January 1, 2011. It is crucial to note that even a
+delay of one day beyond the due date in loan repayment leads to classiﬁcation
+of a loan as being in default. Classiﬁcation of a borrower’s loan as a loan
+in default negatively impacts the borrower’s credit score, possibly restricting
+future access to credit. The default status also triggers recovery procedures,
+starting from constant reminders to issue of legal notice.
+
+The next stage of loan classiﬁcation after default is the NPA stage. A loan
+that remains in default for at least two crop seasons is classiﬁed as an NPA.11
+In case of rice, the underlying crop in the sample, a crop season is deﬁned as
+six months. Therefore, effectively, a loan that remains in default for 365 days
+or more is classiﬁed as an NPA. Going back to the earlier example, the deadline
+
+8 The state-level bankers’ committee determines the deﬁnition of the season for each crop, reviews the ﬂow
+of agricultural credit, and makes nonbinding recommendations to banks regarding the allocation of credit to
+agriculture within the state, and constantly monitors the ﬂow of bank credit to agriculture within the state.
+
+9 However, I observe that some borrowers do make partial payments.
+10 INR stands for Indian Rupee.
+11 Source: https://rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=9009.
+
+4562
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4562 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+for NPA classiﬁcation for loans borrowed on January 1, 2010, is December 31,
+2011, that is, one year from the due date of December 31, 2010, and—given
+the 365-day loan tenure—two years from the date of loan issuance. Suppose
+B repays the loan in full along with interest and penalty before December 31,
+2010, but C fails to do so. C’s loan will be classiﬁed as an NPA starting from
+January 1, 2011.
+
+The classiﬁcation of a loan as an NPA has signiﬁcant consequences for
+the bank, the loan ofﬁcer, and the borrower. From the bank’s point of view,
+the provisioning requirement is signiﬁcantly higher for NPAs when compared
+with default.12 NPA management gets a weightage of 10% in a loan ofﬁcer’s
+annual appraisal. I present a pro forma appraisal form in the Online Appendix.
+Classiﬁcation of a loan as an NPA allows a bank to initiate action under
+The Securitisation and Reconstruction of Financial Assets and Enforcement
+of Security Interest Act 2002 (SARFAESI Act). The SARFAESI Act allows
+the lender to seize collateral without obtaining prior permission from a court
+of law. Prior to SARFAESI, a lender needed explicit approval from a court to
+seize collateral. A lender can proceed under SARFAESI only after classifying a
+loan as an NPA and providing a 60-day notice to the borrower (Alok, Chaurey,
+and Nukala 2016; Vig 2013). Mere default does not trigger SARFAESI action.
+Finally, if one loan borrowed by a borrower from a bank turns into an NPA,
+then all other loans borrowed by the same borrower from the same bank
+are considered as NPAs. Therefore, the impact of NPA classiﬁcation on a
+borrower’s credit score is much higher than the impact of default.
+
+1.3 Microﬁnance
+Microﬁnance is a form of ﬁnancial service for the poor and small enterprises
+(Kannan, and Panneerselvam 2013). It is based on the idea of providing ﬁnancial
+services to the poor through market-based structures. Muhammad Yunus, who
+started the Grameen Bank in Bangladesh, pioneered the recent round of the
+microﬁnance revolution in emerging and under-developed economies. The key
+feature of microﬁnance lending is that the focus is on lending to close-knit
+groups and not to individuals (Banerjee et al. 2015; Breza 2012). Such groups
+work as informal enforcement mechanisms. As per World Bank’s estimates,
+microﬁnance now serves 16 million people all over the world (Longhurst 2013).
+Microﬁnance in India grew at an annualized rate of 83% between 2003
+and 2010 (M CRILL 2012). The delinquency rate of microﬁnance loans made
+during that period was less than 1% (Kaur and Dey 2013). Although industry
+insiders attribute this performance to better process, there have been allegations
+that microﬁnance lenders adopted coercive recovery practices (Kar 2013;
+Shylendra 2006). Andhra Pradesh, the state under consideration in this study,
+was at the forefront of microﬁnance growth in India. Lending to close-knit
+
+12 Source: https://rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=9009.
+
+4563
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4563 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+self-help groups was the delivery model adopted by microﬁnance institutions
+in Andhra Pradesh.
+
+2. The Event
+
+2.1 Background
+Microﬁnance was not tightly regulated in India in the late 1990s and early
+2000s (Singh 2003). In 2006, 10 people who also happened to be microﬁnance
+borrowers committed suicide in the Krishna district of Andhra Pradesh. Local
+media and politicians blamed the suicides on “coercive” recovery practices
+adopted by microﬁnance institutions. This led to the forced shutdown of two
+branches of two large microﬁnance lenders (Ghate 2008). The government of
+Andhra Pradesh refrained from intervening in the microﬁnance sector until
+the year 2010. In 2010, newspapers reported that 57 microﬁnance borrowers
+committed suicide due to the “coercive recovery practices” of microﬁnance
+institutions and “excessive” borrowing. These reports created a huge furor,
+with the opposition parties blaming the government for being a mute spectator
+(Bandyopadhyay 2014).
+
+However, a cursory look at the national crimes database shows that, in total,
+15,901 individuals committed suicide in Andhra Pradesh in the year 2010, and
+this number was not signiﬁcantly different from those of the neighboring states
+of Maharashtra, Karnataka, and Tamil Nadu. More importantly, a careful look
+at the suicide notes reveals that bankruptcy or a sudden change in economic
+status were not the major reasons for the suicides (IANS 2015). Given the above
+details, it appears that the government’s decision to intervene was a knee-jerk
+reaction to limit political damage.
+
+2.2 Ordinance
+As a response, the Andhra Pradesh government issued an ordinance titled “The
+Andhra Pradesh Micro Finance Institutions (Regulation of Money Lending)
+Rules 2010” on October 15, 2010. This ordinance imposed severe restrictions
+on the recovery practices of microﬁnance institutions. Some of the important
+restrictions included the following:
+
+• Compulsory registration of all microﬁnance institutions with the district
+
+administration
+
+• Ban on the door-to-door collection of loans
+• Public disclosure of interest rates
+• Heavy punishment, including imprisonment
+
+The ordinance was ratiﬁed by the state assembly on December 15, 2010.13
+The direct impact of the notiﬁcation was stark. Loan performance deteriorated
+
+13 The ordinance was challenged in the High Court and later in the Supreme Court and was upheld by both.
+
+4564
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4564 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 1
+Sample construction
+
+Variable
+
+Total number of bank branches
+Number of branches in Andhra Pradesh
+Number of branches in Karnataka
+Number of branches in Maharashtra
+Average distance between branches within Andhra Pradesh (in miles)
+Average distance between Andhra Pradesh and Maharashtra branches
+Average distance between Andhra Pradesh and Karnataka branches
+Total number of loans
+Number of loans from Andhra Pradesh branches
+Number of loans from Karnataka branches
+Number of loans from Maharashtra branches
+Number of loans outstanding but not in default as of Oct. 15, 2010
+Total number of loan ofﬁcers
+
+13
+8
+2
+3
+150
+222
+277
+37,556
+27,963
+4,100
+5,493
+3,994
+44
+
+and loan uptake decreased in the microﬁnance sector. The loan repayment rate
+fell drastically from 99% to 10%. Microﬁnance loan growth fell from 95%
+to 17% per annum (Kar 2013). The enormity of the regulation is evidenced
+by the steep fall in the stock price of the only listed microﬁnance stock, SKS
+microﬁnance. INR 100 invested in SKS just before the announcement of the
+regulation was worth only INR 11 in a year’s time, whereas the benchmark
+index lost only about 7% during this period.
+
+3. Data, Variable Deﬁnitions, and Summary Statistics
+
+In this section, I describe the data and provide basic summary statistics.
+
+3.1 Data
+I obtain transaction-level data from a large government-owned bank in India.
+The bank operates more than 1,000 branches and has more than 70 years of
+operating history. Bhowal, Subramanian, and Tantri (2014) use the same data
+to study the costs of job rotation. Details about the data are presented in Table 1.
+I obtain data from 14 branches of the bank located in three large states of India,
+namely, Andhra Pradesh, Karnataka, and Maharashtra.14 The data collection
+exercise was not undertaken with the view to examine the microﬁnance event.
+Its purpose was to study the impact of various institutional changes on farm
+loans. Of the 14 branches, one branch located in Andhra Pradesh did not have
+any agricultural loans outstanding during the event period. Therefore, I use
+loan data drawn from 13 branches of the bank. The data set spans the period
+between October 2005 and May 2012. The bank also provided us information
+about whether or not a borrower is a beneﬁciary of the national debt waiver
+awarded in the year 2008.
+
+14 The data were collected from the branches, and, hence, the sample size is limited to 14 branches. The border
+
+districts were chosen ﬁrst. The bank branches within these districts were selected through a lottery.
+
+4565
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4565 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 1
+Agro-climatic regions of India
+This ﬁgure shows the different agro-climatic regions of India. The bank branches from which I obtain data are
+all located in zone number 10. Source: Planning Commission of India.
+
+As described earlier, I follow Ponticelli and Alencar (2016) and Banerjee and
+Iyer (2005) in designing the identiﬁcation strategy. I compare the outcomes at
+bank branches located in areas that received the treatment with outcomes at
+bank branches located in neighboring areas that did not receive the treatment.
+Therefore, the distance between the treated and control branches becomes a
+critical factor for identiﬁcation. As shown in Figure 1, all 14 bank branches are
+part of a single agro-climatic region and, hence, are subject to similar weather
+shocks.
+
+I calculate the pairwise distance from each branch located in Andhra Pradesh
+to the branches located in the other two states. I report the average for these
+pairwise distances in Table 1. The average distance, so calculated, between
+the Andhra Pradesh and Maharashtra branches is 222 miles, and the average
+distance between the Andhra Pradesh and Karnataka branches is 277 miles.
+This result compares well with the average distance of 150 miles between
+branches located within Andhra Pradesh. Furthermore, the three states under
+consideration are large states of India, with a combined area of 299,126 square
+
+4566
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4566 4556–4592
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 2
+Comparison between Andhra Pradesh districts and other districts in terms of
+key observable characteristics during the pre-intervention period
+
+Andhra Pradesh
+
+Other states
+
+Crop yield (kg per hectare)
+Crop area (000 hectares)
+Agricultural credit (million rupees)
+Inﬂation (value of GDP deﬂator)
+Rainfall (in cm)
+
+1,848
+3,932
+10,870
+169
+930
+
+1,822
+3,980
+11,580
+175
+893
+
+In this table, I compare Andhra Pradesh districts and the other two states’ districts in
+terms of variables ranging from crop yield to rainfall. I consider only those districts
+where the bank branches from which I source data are located. I calculate the within-
+state average for the years 2009 and 2010. I obtain data related to crop yields and crop
+area from the federal agricultural ministry, rainfall from the meteorological department,
+credit from the central bank, and inﬂation from the national statistics ofﬁce.
+
+miles.15 Not surprisingly, the treatment and control regions share similar
+observable characteristics. I provide these details in Table 2. I compare the
+regions on several observable characteristics, such as rainfall, crop yield, area
+under cultivation, and agricultural credit, before the intervention.
+
+In total, I have data relating to 37,556 loans lent before the event date by 44
+loan ofﬁcers. The data set has information about a total of 43,767 loans. Here,
+I report the summary numbers by restricting the sample to loans lent before
+the microﬁnance intervention. Out of these, 27,963 loans were lent by bank
+branches located in the state of Andhra Pradesh, 4,100 by those in Karnataka,
+and 5,493 by those in Maharashtra. These totals correspond to 3,107 loans per
+branch for Andhra Pradesh branches, 2,050 for Karnataka branches, and 1,831
+for Maharashtra branches. Andhra Pradesh’s average is signiﬁcantly affected
+by the Karimnagar branch, which alone accounts for 12,148 loans. If I exclude
+this branch, the number of loans per branch for Andhra Pradesh falls to 1,977,
+which is comparable with those of the other two states. As noted earlier, the
+focus here is on outstanding loans that were lent before October 15, 2010, but
+were not in default as of October 15, 2010. There are 3,994 such loans. The
+above details are reported in Table 1.
+
+4. Empirical Strategy and Results
+
+I use the fact that the notiﬁcation under study was issued by the state government
+of Andhra Pradesh and, hence, was applicable only within the borders of Andhra
+Pradesh after a particular date. Several inﬂuential studies (Banerjee and Iyer
+2005; Butler and Cornaggia 2011; Ponticelli and Alencar 2016) use regions
+that border the treatment regions in order to estimate the counterfactual. The
+crucial identiﬁcation assumption is that regions located close to each other are
+likely to share similar observable and unobservable characteristics, and, hence,
+
+15 Undivided Andhra Pradesh has an area of 106,195 square miles; Karnataka has an area of 74,122 miles; and
+
+Maharashtra has an area of 118,809 square miles.
+
+4567
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4567 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+any difference in outcomes that manifests after a treatment can reasonably be
+attributed to the treatment. In the same spirit, I consider branches located in
+Andhra Pradesh as treatment branches and branches located in regions very
+close to the Andhra Pradesh branches but situated in the states of Karnataka
+and Maharashtra as control branches.
+
+Both the treatment and control branches are located within a single agro-
+climatic zone in India. I illustrate this fact in Figure 1. The Planning Commission
+of India16 divided the country into 15 zones based on agro-climatic conditions.
+Agro-climatic conditions mainly refer to soil types, rainfall, temperature, and
+water availability, which inﬂuence the type of vegetation. All the branches are
+located in the southern plateau and hills zone. This zone is denoted by number
+10 in Figure 1. All these branches are clustered in the northwest corner of
+zone 10. It is well known that weather and other natural factors play a key
+role in Indian agriculture (Burgess et al. 2011; Rosenzweig and Wolpin 1993).
+Moreover, as described in Section 3, all branches of the other states are located
+in close proximity to the Andhra Pradesh branches, and, hence, borrowers
+from across the border are likely to be similar and subject to similar economic
+shocks. In Table 2, I show that the treatment and control regions compare
+well in terms of several observable characteristics, such as rainfall, crop
+yield, area cultivated, ﬂow of agricultural credit, and literacy in the pre-event
+period.
+
+The second part of the identiﬁcation strategy involves identifying the affected
+loans. A signiﬁcant identiﬁcation challenge faced by studies that compare the
+outcomes of loans made after a natural experiment with those of loans made
+before the natural experiment is that post-period loans could be inﬂuenced
+by selection by the loan ofﬁcer. For example, if loan ofﬁcers expect borrower
+behavior to deteriorate after a debt waiver, then they may tighten credit. Credit
+may be liberalized if loan ofﬁcers expect the borrowers to do better in the post-
+waiver period. In this situation, a study that ﬁnds the worsening of (improvement
+in) borrower behavior after a waiver by analyzing post-waiver loans may not
+be able to capture the impact of selection by loan ofﬁcers. This selection may
+render pre- and post-waiver loans incomparable.
+
+The natural experiment I study provides us with an opportunity to overcome
+the above limitation. The microﬁnance regulation only made loan recovery
+difﬁcult in the microﬁnance segment. Prima facie, it had no impact on existing
+bank loans. I use this aspect of the natural experiment to identify a group
+of affected loans. I ﬁrst identify loans made by Andhra Pradesh-based bank
+branches that were outstanding but not overdue as of October 15, 2010, and
+whose due dates were immediately after October 15, 2010. I call these loans
+“affected loans.”Given that the loans are all bullet loans with a single stipulated
+payment at the end of the tenure and that their tenure is one year, these loans
+
+16 The Planning Commission was abolished in 2014. Currently, the National Institution for Transforming India
+
+(NITI) Aayog performs most of the functions of the erstwhile Planning Commission.
+
+4568
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4568 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Figure 2
+Unaffected and affected loans: Identiﬁcation
+This ﬁgure depicts the treatment and control groups. Due dates of loans are represented in the horizontal axis
+with October 15, 2010, at the center. Loans with due dates before October 15, 2010, form the control group, and
+loans with due dates after October 15, 2010, form the treatment group.
+
+must have been made before October 15, 2010. Since all of these loans were
+provided before the passage of the ordinance, there is little chance of a loan
+ofﬁcer factoring in plausible borrower reaction to the event when lending these
+loans. Therefore, the question of disentangling the borrower reaction and loan
+ofﬁcer reaction is less important because the loan ofﬁcer would have made
+her/his decision by the time the notiﬁcation was issued. Thus, any outcome that
+arises can reasonably be attributed to the borrower.
+
+Next, I identify loans whose due dates were just before October 15, 2010.
+I call these loans “unaffected”loans. These loans were made in advance of
+the event date, and also the decision to repay or default was made before the
+event date. In the case of affected loans, default could have happened only after
+the event date. I depict the classiﬁcation of loans into affected and unaffected
+groups in Figure 2.
+
+The above classiﬁcation of branches into treatment and control branches and
+loans into affected and unaffected loans creates a good set-up for employing
+the DID methodology. The difference in default rates between affected and
+unaffected loans in the treatment region (Andhra Pradesh) provides the ﬁrst
+difference. The counterfactual is the difference between affected and unaffected
+loans in the control (Karnataka and Maharashtra) region. The difference
+between the two differences is the DID measure. The event also lends itself
+nicely to an RD design. In an RD framework, October 15, normalized to zero,
+could be used as the cutoff, and the distance from the cutoff, in terms of days,
+could be used as a running variable. By design, affected loans fall to the right
+of the cutoff, and unaffected loans fall to the left. The RD can be estimated
+separately for control and treatment regions.
+
+4569
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4569 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Table 3
+Univariate comparison
+
+Variable
+
+Default
+Default
+NPA
+NPA
+
+Group
+
+Treatment
+Control
+Treatment
+Control
+
+Difference (%)
+
+∗∗∗
+∗∗∗
+
+13.27
+2.37
+7.98
+1.92
+
+t-stat
+
+6.29
+1.32
+4.31
+0.95
+
+In this table, I present the results of univariate tests that compare the treatment and
+control groups in terms of default and NPA rate. Column 1 presents the outcome variable
+of interest. Column 2 indicates the sample used. Column 3 presents the difference
+in outcomes between branches located in Andhra Pradesh and the other two states.
+Column 4 presents the t-statistics for the difference. ***, **, and * represent statistical
+signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+4.1 DID test
+The preceding discussion on empirical strategy sets the stage for tests designed
+to establish causality. The results of the univariate tests presented in Table 3
+show that the default rate increased signiﬁcantly in treatment regions in the
+post-intervention period. No signiﬁcant increase is detected in control regions.
+
+I estimate the following DID regression equation.
+Yitj = αitj +β1×Andhraij ×Affected Loansit
+
++β2×Affected Loansit +β3×Monthit +β4×Branchij
++β5×Xitj +β6×Dtj +itj .
+
+(1)
+
+Each observation represents a loan i with due date within a month t and
+made by a branch j. The dependent variable, Yitj, is a dummy variable that
+takes the value of one if loan i with due date within month t and provided by
+branch j defaults and zero otherwise. The explanatory variable, Andhraij , is
+a dummy variable that takes the value of one for loans made by branches
+located in Andhra Pradesh and zero otherwise. The explanatory variable,
+Affected loansit , is a dummy variable that takes the value of one for loans with a
+due date after October 15, 2010, and zero otherwise. The variables Mont hit and
+Branchij represent month ﬁxed effects and branch ﬁxed effects, respectively.
+Xitj represents loan-level controls, such as loan size and the tenure of the loan
+ofﬁcer when the loan was issued. Dtj represents time-varying district-level
+controls, such as level of crop yield, total agricultural credit, and inﬂation.
+
+The explanatory variable of interest is the interaction between Andhraij and
+Affected loansit . The results are reported in Table 4. In Columns 1 and 2 (3
+and 4), I limit the sample to loans with a due date within three (six) months
+before and after October 15, 2010. I include branch and month ﬁxed effects
+in all speciﬁcations. District and loan-level control variables are included in
+Columns 2 and 4. Standard errors are clustered at the branch X month level and
+adjusted for heteroscedasticity.
+
+As shown in the table, the interaction term is consistently positive and
+statistically signiﬁcant at conventional levels. The increase in the default rate
+ranges from 17.9 to 22.6 percentage points based on DID estimates. The default
+
+4570
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4570 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 4
+Impact on default rate: Difference-in-differences test
+
+Dependent variable
+
+Andhra X Affected loans
+
+Affected loans
+
+Loan-level factors
+District-level factors
+Branch ﬁxed effects
+Month ﬁxed effects
+Observations
+Adjusted R-squared
+
+(1)
+
+∗∗
+0.186
+[2.102]
+0.125
+[1.158]
+
+No
+No
+Yes
+Yes
+2,167
+0.234
+
+Default
+
+(2)
+
+∗∗
+0.179
+[2.052]
+0.071
+[0.607]
+Yes
+Yes
+Yes
+Yes
+2,167
+0.238
+
+(3)
+
+∗∗
+0.190
+[2.124]
+0.063
+[0.537]
+
+No
+No
+Yes
+Yes
+3,959
+0.206
+
+(4)
+
+∗
+0.226
+[1.928]
+0.105
+[0.808]
+
+Yes
+Yes
+Yes
+Yes
+3,959
+0.224
+
+In this table, I present the results of tests that examine the impact of the microﬁnance regulation on bank loan
+defaults. The data are organized at the loan level. In Columns 1 and 2, the data are limited to loans whose due
+dates are within the range of three months before and three months after October 15, 2010, that is, July 15, 2010,
+to January 15, 2011. In Columns 3 and 4, the data are limited to loans whose due dates are within the range of six
+months before and six months after October 15, 2010, that is, April 15, 2010, to April 15, 2011. The dependent
+variable, default, is a dummy variable that takes the value of one if the loan under consideration defaults and
+zero otherwise. The explanatory variable, Andhra, is a dummy variable that takes the value of one for loans
+made by branches located in Andhra Pradesh and zero otherwise. Affected loans is also a dummy variable that
+takes the value of one for loans having due dates immediately after the event date and zero otherwise. The main
+explanatory variable is the interaction between the above two variables. I use branch and month ﬁxed effects in
+all columns, and I use loan-level and district-level economic variables as controls in Columns 2 and 4. Standard
+errors are clustered at the branch X month level and adjusted for heteroscedasticity. t-statistics are presented
+inside parentheses. ***, **, and * represent statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+rate during six months immediately before the event in Andhra Pradesh is
+close to 48%. An increase in default rate by 22.6 percentage points implies an
+increase by 47.08% when compared with the pre-intervention level. Therefore,
+the increase is economically signiﬁcant. Furthermore, the results continue to
+hold even if I drop the largest branch, Karimnagar.17
+
+From the abovementioned results, it is reasonable to infer that government
+intervention in the microﬁnance segment did have a contagious impact on bank
+loans.
+
+4.2 Impact on nonperforming assets
+Given the institutional details presented in Section 1, it is not surprising that
+the default rate of agricultural loans is extremely high at 62% in the overall
+sample and 48% during six months immediately before the event. This number
+seems abnormally high. However, none of the institutional features relevant
+for banking changed during the sample period. Furthermore, I look at changes
+based on DID estimates rather than changes in levels. Nonetheless, I reexamine
+the results using a second measure of loan performance. As per the Reserve
+Bank of India norms, a crop loan is considered as an NPA only if it remains in
+default for at least two crop seasons. The loans for which I have data are all crop
+loans, and a crop season is deﬁned as six months for rice, the underlying crop
+
+17 The result excluding Karimnagar is presented in Table 14 in the Online Appendix.
+
+4571
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4571 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+for the sample of loans used in this study. The bank is required to signiﬁcantly
+increase provisioning once an account is classiﬁed as an NPA, and, hence, the
+NPA number is relevant from the point of view of bank proﬁtability. The average
+NPA rate is nearly 27%, which is signiﬁcantly lower than the default rate. This
+result shows that a large number of defaulters eventually repay. I estimate the
+DID regression equation using loan status in terms of NPA as the dependent
+variable.
+
+Given the importance of NPAs described in Section 1.2.1, I proceed to test if
+the microﬁnance regulation affected NPAs. For the purpose of this test, I deﬁne
+affected loans as loans in default but not categorized as NPAs as of October
+15, 2010. In line with the spirit of the earlier DID test, I consider loans whose
+NPA due dates were immediately after (before) October 15, 2010, as affected
+(unaffected) loans.
+
+Univariate results presented in Table 3 show an increase in NPA rate in the
+treatment regions in the post-intervention period when compared with the pre-
+intervention period. No such increase is found in control regions. Formally,
+I estimate regression Equation (1). Here, the dependent variable, NPA, is a
+dummy variable that takes the value of one if the loan under consideration
+becomes an NPA and zero otherwise. All other terms have the same meanings
+as assigned in Equation (1).
+
+The sample used here is not the same as that used in tests whose results
+are reported in Table 4. Here, loans lent immediately after October 15, 2008,
+form the treatment group, and loans lent immediately before that date form the
+control group. These are loans lent close to two years before the event date.
+Loans studied in Table 4 are lent close to one year before the event date.
+
+The results are reported in Table 5. The arrangement of rows and columns
+exactly mimics the arrangement in Table 4. The main explanatory variable that
+I focus on, the interaction between the treatment dummy and affected loan
+dummy, is positive in all columns and is statistically signiﬁcant. The NPA rate
+seems to be higher based on the DID estimates by 18.7 to 30.2 percentage
+points. Given that the average NPA rate in the sample is 27%, the increase
+shown here is economically signiﬁcant.
+
+Note also that
+
+the increase in NPAs is signiﬁcantly higher than the
+increase in the default rate. As I noted in Section 1.2.1, NPA recognition
+leads to signiﬁcant negative consequences for banks, bankers, and borrowers.
+Therefore, in the normal course, almost half the defaulters repay before their
+loans are categorized as NPAs.18 If the microﬁnance intervention led to an
+economic slowdown or an increase in strategic default in anticipation of future
+interventions, then it is reasonable to expect that a large portion of defaulters
+
+18 In Figure 7 presented in the Online Appendix, I plot the proportion of defaulted loans that are recovered before
+being classiﬁed as NPAs against the time in default in the pre-event period. I ﬁnd that the proportion of loans
+recovered increases as the due date for NPA classiﬁcation nears. However, given the data limitations, it is not
+possible to disentangle the impact of loan ofﬁcers’ efforts from borrowers’ repayment on their own to avoid the
+NPA tag.
+
+4572
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4572 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 5
+Impact on NPA rate: Difference-in-differences test
+
+Dependent variable
+
+(1)
+
+Andhra X Affected loans
+
+Affected loans
+
+Loan-level factors
+District-level factors
+Branch ﬁxed effects
+Month ﬁxed effects
+Observations
+Adjusted R-squared
+
+∗∗∗
+
+0.302
+[5.503]
+0.037
+[0.834]
+
+No
+No
+Yes
+Yes
+4,604
+0.228
+
+NPA
+
+(3)
+
+∗∗∗
+
+0.241
+[4.735]
+0.075
+[1.406]
+
+No
+No
+Yes
+Yes
+5,354
+0.208
+
+(2)
+
+∗∗∗
+
+0.303
+[5.454]
+0.036
+[0.786]
+Yes
+Yes
+Yes
+Yes
+4,604
+0.229
+
+(4)
+
+∗∗∗
+0.187
+[2.888]
+∗∗
+0.131
+[2.231]
+Yes
+Yes
+Yes
+Yes
+5,353
+0.227
+
+In this table, I present the results of tests that examine the impact of the microﬁnance regulation on bank loan
+NPAs. The data are organized at the loan level. In Columns 1 and 2, the data are limited to loans whose NPA
+due dates are within the range of three months before and three months after October 15, 2010, that is, July 15,
+2010, to January 15, 2011. In Columns 3 and 4, the data are limited to loans whose NPA due dates are within
+the range of six months before and six months after October 15, 2010, that is, April 15, 2010, to April 15, 2011.
+The dependent variable, NPA, is a dummy variable that takes the value of one if the loan under consideration
+turns into an NPA and zero otherwise. The explanatory variable, Andhra, is a dummy variable that takes the
+value of one for loans made by branches located in Andhra Pradesh and zero otherwise. Affected Loans is also
+a dummy variable that takes the value of one for loans whose NPA due dates are immediately after October 15,
+2010. The main explanatory variable is the interaction between the above two variables. I use branch and month
+ﬁxed effects in all columns, and I use loan-level and district-level economic variables as controls in Columns 2
+and 4. Standard errors are clustered at the branch X month level and adjusted for heteroscedasticity. t-statistics
+are presented inside parentheses. ***, **, and * represent statistical signiﬁcance at the 1%, 5%, and 10% levels,
+respectively.
+
+who would have repaid otherwise do not do so in the post-event period. It is
+also reasonable to assume that both economic slowdown and spillover of moral
+hazard are likely to impact past defaulters more than good borrowers.
+
+4.3 Regression discontinuity test for loan performance
+As noted earlier, the event nicely lends itself to an RD test as well. I perform
+an RD test to examine the impact of the event on loan performance. I use
+October 15, 2010, as the cutoff date and the distance of a loan’s due date from
+October 15, 2010, as the running variable. I use a measure of loan performance
+as the dependent variable. For tests that use NPA as the dependent variable, the
+running variable is deﬁned as the distance of a loan’s due date for recognition
+as an NPA from October 15, 2010. Essentially, like in Sections 4.1 and 4.2,
+affected loans fall to the right of the cutoff, and unaffected loans fall to the left.
+I use the method designed by Calonico, Cattaneo, and Titiunik (2014).
+This method recognizes that routinely employed polynomial estimators are
+extremely sensitive to speciﬁc bandwidths employed. Calonico, Cattaneo, and
+Titiunik (2014) show that both conventional RD tests as well as recently
+developed nonparametric local polynomial estimators make bandwidth choices
+that lead to “bias in the distributional approximation of the estimator.” They
+ﬁrst bias-correct the RD estimator by recentering the t-statistics. This step leads
+to their bias-corrected estimators. They also recognize that this approximation
+may lead to a “low-quality distributional approximation.” They devise a novel
+
+4573
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4573 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+method to calculate standard errors that account for the additional variability
+introduced by the previous step. They call these standard errors robust standard
+errors. I estimate both bias-corrected and robust RD estimators. I also report
+conventional RD coefﬁcients.
+
+All three estimates are from local linear regressions. The bias-corrected
+and robust coefﬁcients differ from the conventional coefﬁcients due to the
+application of bias correction procedure suggested in Calonico, Cattaneo, and
+Titiunik (2014).19 The robust and bias-corrected coefﬁcients have the same
+values, but their respective standard errors differ. Bandwidth selection is based
+on Imbens and Kalyanaraman (2011). I use the results based on robust standard
+errors for inference.
+
+To absorb the impact of other related factors, I ﬁrst calculate the residuals
+by employing branch and month ﬁxed effects. I exclude the main running
+variable, distance, from the above regression. The dependent variable in this
+ﬁrst-stage regression is a dummy variable that represents loan performance. The
+residuals calculated in this way represent, as closely as possible, the impact of
+the running variable on the dependent variable. I use these residuals as the
+dependent variable in robust RD tests.
+
+I report the results in panel A of Table 6. In Columns 1 and 2, I use the sample
+of loans made by branches located in Andhra Pradesh. A dummy variable
+representing default (NPA) is the dependent variable in Column 1 (2). Here, I
+expect to see a sharp deterioration in loan performance immediately after the
+cutoff. The results show an increase of 12.4 percentage points in the rate of
+default and an increase of 24.5 percentage points in the NPA rate at the cutoff.
+In Figures 5 and 6, I present the results of an RD regression wherein I use only
+one stage and do not employ any control variable. In Figures 2 and 3 presented
+in the Online Appendix, I depict the results of RD regressions wherein I adopt
+a two-stage procedure by ﬁrst obtaining residuals. The regressions used are
+local linear, and the bandwidth used is six months before and after the event in
+terms of the due date. Regardless of the method used, I detect a pattern of sharp
+deterioration in loan performance at the cutoff followed by a steady increase
+in the default and NPA rates.
+
+In Columns 3 and 4 of panel A of Table 6, I estimate the RD test using the
+sample of loans from regions not affected by the event. As expected, I do not
+ﬁnd any signiﬁcant increase in either the default rate (in Column 3) or the NPA
+rate (in Column 4). From the above results, it is reasonable to conclude that
+only the affected loans in treatment regions experience a sharp deterioration in
+performance. The RD results corroborate the earlier results obtained through
+DID tests.
+
+As noted before, bandwidth selection is based on Imbens and Kalyanaraman
+(2011). In the spirit of RD, and as a further robustness check, I limit the sample
+
+19 A detailed description of the procedure is given in Section 2.
+
+4574
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4574 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 6
+Loan performance: Regression discontinuity
+
+A
+
+Treatment region
+
+Control region
+
+Dependent variable
+
+Robust
+
+Bias-corrected
+
+Conventional
+
+Observations
+
+Dependent variable
+
+Robust
+
+Conventional
+
+Bias-corrected
+
+Observations
+
+Dependent variable
+
+Robust
+
+Conventional
+
+Bias-corrected
+
+Observations
+
+Default
+∗∗
+0.124
+[2.536]
+∗∗∗
+0.124
+[3.300]
+∗∗∗
+0.193
+[5.119]
+4,444
+
+Default
+∗
+0.349
+[1.743]
+∗∗
+0.311
+[2.123]
+∗∗
+0.349
+[2.382]
+1801
+
+Default
+∗
+0.375
+[1.902]
+∗
+0.275
+[1.782]
+∗∗
+0.375
+[2.430]
+287
+
+NPA
+
+∗∗∗
+0.245
+[6.282]
+∗∗∗
+0.245
+[8.157]
+∗∗
+0.062
+[2.057]
+7,219
+
+B
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+NPA
+
+0.425
+[7.067]
+0.411
+[8.238]
+0.425
+[8.516]
+3,950
+
+C
+
+NPA
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.322
+[3.525]
+0.308
+[3.882]
+0.322
+[4.057]
+981
+
+Default
+
+0.086
+[0.801]
+0.086
+[0.960]
+0.025
+[0.282]
+640
+
+Default
+
+0.287
+[1.090]
+0.317
+[1.398]
+0.287
+[1.266]
+366
+
+Default
+
+0.434
+[1.101]
+0.342
+[1.004]
+0.434
+[1.273]
+
+66
+
+NPA
+−0.058
+[−1.334]
+−0.058
+[−1.473]
+−0.057
+[−1.457]
+800
+
+NPA
+
+0.048
+[0.898]
+0.052
+[1.136]
+0.048
+[1.051]
+654
+
+NPA
+
+0.221
+[1.478]
+0.179
+[1.405]
+∗
+0.221
+[1.736]
+277
+
+This table reports the RD results for the impact of the microﬁnance regulation on loan performance. The data
+are organized at the loan level. In Columns 1 and 2, I consider only Andhra Pradesh branches, and in Columns
+3 and 4, I consider branches located in the other two states. The RD speciﬁcation estimates the signiﬁcance of
+E[Yi (1)−Yi (0)|Xi = ¯x]. I use the procedure developed by Calonico, Cattaneo, and Titiunik (2014) to estimate
+robust and bias-corrected standard errors. The distance of a loan’s due date for default (due date for NPA) from
+October 15, 2010, is the running variable in Columns 1 and 3 (2 and 4), and October 15, 2010, normalized to
+zero, serves as the cutoff. Measures of loan performance as deﬁned in Tables 4 and 5 serve as dependent variables
+in different speciﬁcations. I ﬁrst obtain the residuals of the regression of the dependent variable on branch and
+month ﬁxed effects. I then use the residuals as the dependent variable in the RD test. In panel A, bandwidth
+selection is based on the method devised by Imbens and Lemieux (2008). In panel B (C) I use the bandwidth of
+three months (one month) on either side of the cutoff. ***, **, and * represent statistical signiﬁcance at the 1%,
+5%, and 10% levels, respectively.
+
+to loans having due dates within three months on either side of the cutoff date.
+I report the results in panel B of Table 6. For an additional robustness check, I
+limit the bandwidth to one month. Results with the one-month bandwidth are
+reported in panel C.
+
+In Columns 1 and 2 of both panels B and C, I restrict the sample to loans
+lent by branches located in Andhra Pradesh. In line with the earlier results, I
+ﬁnd a sharp discontinuity in loan performance immediately after the cutoff. In
+non-Andhra Pradesh states, as shown in Columns 3 and 4, I do not observe
+any signiﬁcant discontinuity. The number of observations sharply falls to 66
+
+4575
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4575 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+Figure 3
+Pre- and post-trends
+This ﬁgure compares the treatment and control regions based on pre- and post-trends. The proportion of loans
+in default in a quarter is the variable of interest plotted in the vertical axis. Quarter −1 (−2) refers to a period
+between 1 and 90 (90 and 180) days before the event date. Quarter 1 (2) refers to a period between 1 and 90 (90
+and 180) days after the event date.
+
+in Column 3 of panel C. Therefore, I do not use bandwidths closer than one
+month.
+
+4.4 Appropriateness of the methodology
+4.4.1 Parallel trend. A crucial prerequisite for the validity of the DID method
+is the existence of a parallel trend in the pre-event period with respect to the
+outcome of interest (Bertrand, Duﬂo, and Mullainathan 2004). I check for the
+existence of a parallel trend in two ways.
+
+4.4.2 Parallel trend using raw default data. First, in Figure 3, I plot the
+default rates over time. I expect to see a parallel trend in default rates between
+Andhra Pradesh-based branches and branches located in other states for loans
+having due dates just before the event date.
+
+These are unconditional numbers derived using raw data. The blue line
+represents loans lent by Andhra Pradesh branches, and the red line represents
+loans lent by branches located in the other two states. Each point in the
+horizontal axis represents a quarter. Quarter 1 (2) refers to the period between
+0 and 90 (90 and 180) days after the event date. Similarly, quarter -1 (-2) refers
+to the period between 0 and 90 (90 and 180) days before the event date. A loan
+that has a due date in a quarter is associated with that quarter. Default rate is the
+ratio between the number of loans in default and the total number of loans due
+in a quarter. As can be seen in the ﬁgure, the default rates in the two quarters
+
+4576
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4576 4556–4592
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+before the event move almost in parallel. The line representing the treatment
+region breaks out from quarter 1 and continues its upward movement in quarter
+2 as well. On the other hand, the line representing the control regions does not
+show any signiﬁcant directional movement in the post-event period. Moreover,
+notice that the difference between the default rates of Andhra Pradesh (treatment
+region) and the other two states (control regions) in the pre-event period ranges
+from -2% to -3%, and the same during the post-event period ranges from 15%
+to 18%. These numbers are broadly in line with the DID coefﬁcient values
+presented in Table 4. In Figure 1 presented in the Online Appendix, I plot the
+default rates at monthly frequency by limiting the sample to three months before
+and after the event. The ﬁgure shows a parallel trend between the treatment and
+control regions during the pre-event period.
+
+4.4.3 Parallel trend using a simple regression framework. Following,
+Following, Barrot (2016), I break the pre-period into subperiods. I then interact
+each subperiod with the treatment dummy.
+I estimate the following regression equation:
+Yitj = αitj +β1×Andhraij ×Pre-Period=−3
+
++β2×Andhraij ×Pre-Period=−2+β3×Andhraij ×Pre-Period=−1
++β4×Andhraij ×Post-Periodit +β5×Monthit +β6×Branchij
++β6×Xitj +β7∗Dtj +ij t .
+
+(2)
+
+The data are organized at the level of a loan i. The dependent variable is a
+dummy variable that takes the value of one if loan i with a due date in a quarter
+t and made by a branch j defaults and zero otherwise. I report the results in
+Table 7. Each observation is a loan. The sample period spans three (six) months
+before and after the event date in Columns 1 and 2 (3 and 4). The Post-period is
+a dummy variable that takes the value of one for loans having due dates after the
+event date. In Columns 1 and 2, Pre-period 3 is a dummy variable that takes the
+value of one for loans having due dates between 61 and 90 days before the event
+date. Similarly, Pre-period=2 (Pre-period=1) is a dummy variable that takes
+the value of one for loans having due dates between 31 and 60 (1 and 30) days
+before the event date. In Columns 3 and 4, the pre-period is counted in quarters.
+Pre-period=2 (Pre-period=1) is a dummy variable that takes the value of one
+for loans having due dates between 1 and 90 (91 and 180) days before the event
+date. Andhra is a dummy variable that takes the value of one for loans lent
+by Andhra Pradesh-based branches and zero otherwise. The main explanatory
+variables of interest are the interaction terms between the pre-periods and the
+Andhra dummy.
+
+If a parallel trend exists between the treatment and control regions, I expect
+the interaction between the pre-event period dummies and treatment region to
+be statistically indistinguishable from zero. As expected, all the pre-period
+
+4577
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4577 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Table 7
+Default rate: Pre- and post-trends
+
+Dependent variable
+
+Andhra X Pre-period=-3
+
+Andhra X Pre-period=-2
+
+Andhra X Pre-period=-3
+
+Andhra X Post-period
+
+Loan-level factors
+District-level factors
+Branch ﬁxed effects
+Month ﬁxed effects
+Observations
+Adjusted R-squared
+
+(1)
+
+0.043
+[0.327]
+0.070
+[0.898]
+0.001
+[0.009]
+∗
+0.227
+[1.967]
+
+No
+No
+Yes
+Yes
+2,167
+0.234
+
+(2)
+
+0.045
+[0.342]
+0.073
+[0.935]
+−0.000
+[−0.001]
+∗
+0.231
+[1.992]
+Yes
+Yes
+Yes
+Yes
+2,167
+0.235
+
+Default
+
+(3)
+
+(4)
+
+0.030
+[0.551]
+0.162
+[1.156]
+∗∗
+0.370
+[2.292]
+
+No
+No
+Yes
+Yes
+3,959
+0.206
+
+−0.147
+[−0.568]
+0.156
+[1.106]
+∗∗
+0.402
+[2.452]
+
+Yes
+Yes
+Yes
+Yes
+3,959
+0.209
+
+In this table, I present the results of tests that examine the impact of the microﬁnance regulation on bank loan
+defaults. Speciﬁcally, I test if any pre-trend exists. Each observation is a loan. The sample period spans three (six
+months) before and after the event date in Columns 1 and 2 (3 and 4). The Post-period is a dummy variable that
+takes the value of one for loans having due dates after the event date. In Columns 1 and 2, Pre-period 3 is a dummy
+variable that takes the value of one for loans having due dates between 61 and 90 days before the event date and
+zero otherwise. Similarly, Pre-period=2 (Pre-period=1) is a dummy variable that takes the value of one for loans
+having due dates between 31 and 60 (1 and 30) days before the event date and zero otherwise. In Columns 3 and
+4, the pre-period is counted in quarters. Pre-period=2 (Pre-period=1) is a dummy variable that takes the value
+of one for loans having due dates between 1 and 90 (91 and 180) days before the event date and zero otherwise.
+The dependent variable, default, is a dummy variable that takes the value of one if the loan under consideration
+defaults and zero otherwise. The explanatory variable, Andhra, is a dummy variable that takes the value of one
+for loans made by branches located in Andhra Pradesh and zero otherwise. Standard errors are clustered at the
+branch X month level and adjusted for heteroscedasticity. t-statistics are presented inside parentheses. ***, **,
+and * represent statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+interaction terms are statistically indistinguishable from zero. Expectedly,
+interaction between the Post-Period dummy and the Andhra dummy indicates
+an increase in the default rate in the post-event period in a DID sense.
+
+The results from comparing the default rate using raw data and from
+estimating the ordinary least squares (OLS) regression equation in line with
+Barrot (2016) help us address the concern regarding pre-trends inﬂuencing the
+results.
+
+4.4.4 Validity of the regression discontinuity: McCrary test. For the RD
+design to be valid, it is important to rule out the possibility of bunching around
+the cutoff, plausibly in anticipation of the event (Imbens and Lemieux 2008). I
+perform the test prescribed by McCrary (2008) to see whether bunching around
+the cutoff exists. I depict the results in Figure 4. There is no evidence of any
+signiﬁcant bunching around the cutoff.
+
+As noted in Section 4.3, there are differences between the samples used in
+RD tests that use NPA classiﬁcation as the dependent variable and those that
+use default as the dependent variable. Therefore, I perform the McCrary (2008)
+test using the sample used for the NPA test. I report the results in Figure 6
+
+4578
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4578 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 4
+Results of the McCrary test
+The discontinuity estimate has a coefﬁcient of −0.28 and t-statistics of −0.71. The discontinuity is statistically
+indistinguishable from zero.
+
+presented in the Online Appendix. I do not ﬁnd any signiﬁcant bunching close
+to the cutoff.20
+
+4.5 Placebo tests
+To address any residual concerns regarding the existence of pre-trends, I
+perform several placebo tests. I ﬁrst estimate the DID regression Equation (1)
+using placebo event dates. I report the results in Table 7 presented in the Online
+Appendix. I consider October 15, 2009 (October 15, 2008), as the placebo
+event date in Columns 1 to 4 (Columns 5 to 8). All variables have the same
+meanings like in Equation (1). As before, I focus on the interaction between the
+treatment region dummy and the affected loan dummy. As shown in the table,
+the interaction term is statistically insigniﬁcant in all eight columns. I perform
+another set of placebo tests using the RD design and ﬁnd similar results. Here,
+I use 12 placebo event dates. I use the 15th of every month from September
+2010 to October 2009 as placebo event dates. I report these results in Table 8
+presented in the Online Appendix. I do not ﬁnd a signiﬁcant jump at the cutoff
+after any placebo event date. Therefore, it is reasonable to conclude that the
+
+20 A large-scale national-level debt waiver was awarded in February 2008 and executed by the end of June 2008. I
+restrict the sample to loans lent after the waiver in both the above tests. This explains the difference in bandwidths
+in Figure 4 of the main draft and Figure 6 of the Online Appendix.
+
+4579
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4579 4556–4592
+
+The Review of Financial Studies / v 31 n 11 2018
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 5
+RD plot: Impact on default
+This ﬁgure depicts the results of the RD test that examines the impact of the event on loan default rates in the
+treatment region. I use the method designed by Calonico, Cattaneo, and Titiunik (2014). I use October 15, 2010,
+as the cutoff date and the distance of a loan’s due date for default from October 15, 2010, as the running variable.
+The RD test uses local linear regression. The economic magnitude of the discontinuity is 25.2 percentage points.
+
+phenomenon I detect in this study is not an event that occurs every year after
+October 15 or every month after the 15th day.
+
+4.6 Addressing identiﬁcation concerns and external validity
+I perform a series of robustness tests to ameliorate the concern that the results
+are driven by some other correlated shock that affected only Andhra Pradesh.
+A careful reading of local newspapers and ofﬁcial gazettes of the three state
+governments under consideration does not reveal the existence of any such
+shock. Nonetheless, to rule out any residual concerns, I perform additional
+tests.
+
+4.6.1 Close branch test. All bank branches I study are located close to the
+borders of the respective states. I further tighten identiﬁcation by limiting
+the sample to branches that are closest to each other on either side of the
+border. I include branches located in the Mahbubnagar and Medak districts
+of Andhra Pradesh, the Raichur district of Karnataka, and the Nanded district
+of Maharashtra. Mahbubnagar district shares its borders with Raichur district
+of Karnataka, and Medak district shares its border with Nanded district of
+Maharashtra.
+
+4580
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4580 4556–4592
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 6
+RD plot: Impact on NPA
+This ﬁgure depicts the results of the RD test that examines the impact of the event on loan NPA rates in the
+treatment region. I use the method designed by Calonico, Cattaneo, and Titiunik (2014). I use October 15, 2010,
+as the cutoff date and the distance of a loan’s due date for NPA from October 15, 2010, as the running variable.
+The RD test uses local linear regression. The economic magnitude of the discontinuity is 13.7 percentage points.
+
+I estimate the DID regression Equation (1) using the above sample of nearby
+branches and report the results in Columns 1 to 4 of Table 8. The arrangement of
+rows and columns exactly mimics that of Table 4. In line with the earlier results
+that use the entire sample, I ﬁnd that the loan default rate increases by between
+22.4 to 33.6 percentage points. The economic magnitude of the coefﬁcients of
+interest is slightly higher than what I ﬁnd using the entire sample. However,
+in one of the four speciﬁcations, the coefﬁcient of interest narrowly misses
+the conventional signiﬁcance level of 10%. I repeat the tests using the entire
+sample, like in Table 4, and control for the distance from each branch to the
+Andhra Pradesh border. The results remain materially unchanged. I report these
+results in Columns 3 and 4 of Table 14 presented in the Online Appendix.
+
+4.6.2 External validity: Impact on banks highly exposed to Andhra
+Pradesh. Admittedly, all the sample loans are made by a single government-
+owned bank. This fact raises a concern that the results could be driven
+by features peculiar to government-owned banks. However, I exploit the
+differences between branches of the same government-owned bank located
+in areas that received the treatment and branches located in other areas.
+Therefore, it is unlikely that the results are caused by peculiar government
+
+4581
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4581 4556–4592
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Table 8
+Impact on default rate: Difference-in-differences test using nearby branches
+
+Default
+
+Dependent variable
+
+Andhra X Affected loans
+
+Affected loans
+
+Loan-level factors
+District-level factors
+Branch ﬁxed effects
+Month ﬁxed effects
+Observations
+Adjusted R-squared
+
+(1)
+
+∗∗
+0.252
+[2.157]
+0.078
+[0.528]
+
+No
+No
+Yes
+Yes
+942
+0.317
+
+(2)
+
+0.225
+[1.511]
+0.045
+[0.280]
+Yes
+Yes
+Yes
+Yes
+942
+0.321
+
+(3)
+
+∗
+0.224
+[1.797]
+−0.006
+[−0.031]
+
+No
+No
+Yes
+Yes
+2,097
+0.225
+
+(4)
+
+∗∗
+0.336
+[2.331]
+0.047
+[0.270]
+
+Yes
+Yes
+Yes
+Yes
+2,097
+0.253
+
+In this table, I present the results of tests that examine the impact of the microﬁnance regulation on bank loan
+defaults. I restrict the sample to branches that are close to each other on either side of the border. The data are
+organized at the loan level. In Columns 1 and 2, the data are limited to loans whose due dates are within the range
+of three months before and three months after October 15, 2010, that is, July 15, 2010, to January 15, 2011. In
+Columns 3 and 4, the data are limited to loans whose due dates are within the range of six months before and
+six months after October 15, 2010, that is, April 15, 2010, to April 15, 2011. The dependent variable, default, is
+a dummy variable that takes the value of one if the loan under consideration defaults and zero otherwise. The
+explanatory variable, Andhra loans, is a dummy variable that takes the value of one for loans made by branches
+located in Andhra Pradesh and zero otherwise. Affected loans is also a dummy variable that takes the value of one
+for loans having due dates immediately after the event date and zero otherwise. The main explanatory variable
+is the interaction between the above two variables. I use branch and month ﬁxed effects in all columns, and I use
+loan-level and district-level economic variables as controls in Columns 2 and 4. Standard errors are clustered at
+the branch X month level and adjusted for heteroscedasticity. t-statistics are presented inside parentheses. ***,
+**, and * represent statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+bank characteristics. Nonetheless, to address any residual concerns, I collect
+data relating to the delinquency rates of all listed banks in India for the period
+between 2008 and 2011. I obtain these data from the website of the Reserve
+Bank of India, the Indian central bank. The choice of sample period is dictated
+by the availability of the data. The data set includes 39 banks in total, of which,
+23 are government owned and 16 are privately owned.
+
+I estimate the following regression equation.
+
+Yitj = αitj +β1×Exposure to Andhrai×Postit
++β2∗Exposure to Andhrai +β3∗Postit
++β4∗Publici +β5∗Xitj +ij .
+
+(3)
+
+Here, the data are organized at the bank-year level. The dependent variable
+is the ratio between the value of delinquent loans and that of total loans at
+the bank-year level. Exposure to Andhra is the ratio between the number of
+branches of a bank located in Andhra Pradesh and total number of branches at
+the beginning of the ﬁnancial year 2010. Post is a dummy variable that takes
+the value of one for loans made in the year 2011 and zero otherwise. Public is
+a dummy variable that takes the value of one for government-owned banks and
+zero otherwise. Standard errors are clustered at the bank level and adjusted for
+heteroscedasticity. I focus on the interaction between the Exposure To Andhra
+and the Post variables.
+
+4582
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4582 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Table 9
+External validity test using bank exposure
+
+Dependent variable
+
+Exposure X Post
+
+Public X Post
+
+Exposure
+
+Public
+
+Bank ﬁxed effects
+Year ﬁxed effects
+Observations
+Adjusted R-squared
+
+(1)
+
+∗
+0.004
+[1.700]
+
+∗∗∗
+
+−0.011
+[−2.886]
+
+No
+Yes
+152
+0.036
+
+NPA Ratio
+
+(2)
+
+∗
+0.004
+[1.694]
+
+∗∗∗
+
+−0.012
+[−2.840]
+−0.424
+[−0.919]
+No
+Yes
+152
+0.062
+
+(3)
+
+∗∗
+0.005
+[2.485]
+∗∗
+0.486
+[2.178]
+∗∗∗
+−0.012
+[−2.850]
+−0.546
+[−1.185]
+
+No
+Yes
+152
+0.068
+
+(4)
+
+∗∗
+0.005
+[2.162]
+∗
+0.486
+[1.895]
+
+Yes
+Yes
+152
+0.738
+
+In this table, I present the results of external validity tests. The data are organized at the bank-year level. I collect
+information about the loan delinquency rates of all listed banks in India for the period between 2008 and 2011.
+The dependent variable is the ratio between NPAs and the total advances at the bank-year level. I calculate the
+level of exposure of a bank to Andhra Pradesh state by using the ratio of the number of bank branches located in
+Andhra Pradesh and total number of branches as of the beginning of the year 2010. This ratio is the independent
+variable, exposure. Post is a dummy variable that takes the value of one for years after the intervention and
+zero otherwise. Public is a dummy variable that takes the value of one for government-owned banks and zero
+otherwise. The main independent variable is the interaction between post and exposure. I include year ﬁxed effects
+in all columns. In Column 4, I include bank ﬁxed effects. Standard errors are clustered at the bank level and
+adjusted for heteroscedasticity. t-statistics are presented inside parentheses. ***, **, and * represent statistical
+signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+The results are reported in Table 9. In Column 1, I include only year ﬁxed
+effects and ﬁnd that banks with high exposure to Andhra Pradesh experience
+higher delinquency in the post-intervention period. In Column 2, I include
+the P ublic dummy, which absorbs time-invariant factors common to public
+sector banks. In Column 3, along with the P ublic dummy, I also include
+the P ublicXP ost variable, which absorbs any shock to public sector banks
+that is correlated with the microﬁnance intervention. Finally, in Column 4, I
+include bank and year ﬁxed effects. Regardless of the speciﬁcation used, I ﬁnd
+that banks with high exposure to Andhra Pradesh experience a higher default
+rate in the post-micro-ﬁnance-intervention period. The variables P ublic and
+P ublicXP ost ensure that the phenomenon detected is not driven by factors
+peculiar to government-owned banks.
+
+As a further robustness test, I check whether the impact is any different
+between government-owned and private banks by including a triple interaction
+between Exposure To Andhra, P ost, and P ublic. I report the results in Table 12
+presented in the Online Appendix. As shown in the table, the triple interaction
+is statistically insigniﬁcant. There does not seem to be a signiﬁcant difference
+between government-owned and private banks in terms of borrower response.
+
+4.6.3 External validity: Using the debt waiver program of 2008.
+I perform
+a second external validation test using the national debt waiver program for past
+
+4583
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4583 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Table 10
+External validity: Using the debt waiver program of 2008
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Dependent variable
+
+Robust
+
+Bias-corrected
+
+Conventional
+
+Observations
+
+Default_dummy
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.342
+[3.898]
+0.342
+[4.656]
+0.333
+[4.533]
+3,956
+
+NPA_dummy
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.241
+[3.530]
+0.241
+[4.037]
+0.217
+[3.649]
+3,956
+
+Default_dummy
+
+0.083
+[0.271]
+0.083
+[0.336]
+0.088
+[0.356]
+
+2,719
+
+NPA_dummy
+−0.390
+[−1.113]
+−0.390
+[−1.408]
+−0.384
+[−1.388]
+2,719
+
+This table reports the RD results regarding the impact of the debt waiver program of 2008 on loan performance
+of nonbeneﬁciaries. The data are organized at the loan level. The sample is drawn from all 14 branches. The RD
+speciﬁcation estimates the signiﬁcance of E[Yi (1)−Yi (0)|Xi = ¯x]. I use the procedure developed by Calonico,
+Cattaneo, and Titiunik (2014) to estimate robust and bias-corrected standard errors. In Columns 1 and 2, the
+distance of a loan’s due date for default from February 29, 2008, is the running variable, and February 29, 2008,
+normalized to zero, serves as the cutoff. I use the placebo cutoff date of February 28, 2007, in Columns 3 and 4.
+Measures of loan performance as deﬁned in Tables 4 and 5 serve as dependent variables in different speciﬁcations.
+I ﬁrst obtain the residuals of the regression of the dependent variable on branch and month ﬁxed effects. I then
+use these residuals as the dependent variable in the RD test. t-statistics are presented inside parentheses. ***, **,
+and * represent statistical signiﬁcance at the 1%, 5%, and 10% levels, respectively.
+
+defaulters announced in the year 2008.21 Crucially, to obtain waiver beneﬁts, it
+was stipulated that a borrower should have defaulted on or before December 31,
+2007, a full two months before the waiver. Several studies (Kanz 2015, De and
+Tantri 2014) that examine the program ﬁnd that the program led to signiﬁcant
+moral hazard in loan repayment among the beneﬁciaries. Given the ﬁndings
+using the microﬁnance event, I hypothesize that even the nonbeneﬁciaries are
+likely to default more.
+
+I test the above hypothesis using the regression discontinuity framework
+described in Section 4.3 on a sample of nonbeneﬁciaries. The waiver was
+announced on February 29, 2008. In the RD tests, I compare nonbeneﬁciary
+borrowers having due dates immediately prior to February 29, 2008 (“affected
+borrowers”) with those having due dates immediately after February 29, 2008
+(“notaffected borrowers”). As before, both categories of loans were lent before
+the announcement of the waiver. The event date, February 29, 2008, is the
+cutoff, and the distance of a loan’s due date from the cutoff is the running
+variable.
+
+As a prerequisite to the RD test, I perform the test recommended by McCrary
+(2008) and report the results in Figure 5 presented in the Online Appendix. I do
+not detect any signiﬁcant bunching at the cutoff. I then perform the RD test and
+report the results in Table 10. The data are organized at the loan level. The data
+belong to all 14 branches located in the states of Andhra Pradesh, Karnataka,
+and Maharashtra.
+
+21 The waiver was awarded to past defaulters. Those with a landholding of less than 2 hectares received full waiver.
+Defaulters with a landholding of more than 2 hectares received only a partial waiver, which was limited to 25%
+of the total debt owed.
+
+4584
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4584 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+In Column 1, the dependent variable is the default dummy. As reported in
+the Table, I ﬁnd that the default rate of waiver nonbeneﬁciaries having due
+dates after the waiver is 34.2 percentage points higher than that of comparable
+nonbeneﬁciaries having due dates just before the waiver. In Column 2, I use NPA
+status as the dependent variable and ﬁnd similar results. Here, the economic
+magnitude of the discontinuity is 24.1 percentage points.22 Finally, I perform
+placebo tests by using February 28, 2007, as the placebo event date and report
+the results in Columns 3 and 4 of Table 10. I do not detect any signiﬁcant jump
+at the cutoff in these tests. These results support the thesis that the impact of
+the waiver spills over to nonbeneﬁciaries.
+
+I present the above ﬁndings as part of the robustness exercise and not as the
+main results. This is because the waiver of 2008 was a nationwide program, and,
+hence, unlike in the case of the microﬁnance event, wherein I use the border
+regions of non-Andhra Pradesh states to calculate the counterfactual difference,
+it is very difﬁcult to obtain the counterfactual difference.
+
+4.6.4 Other robustness tests.
+I perform several other robustness tests to
+address any residual concerns. First, there could be a concern that the results are
+driven by an unobserved economic shock that is not related to the microﬁnance
+event but moved in tandem with it. The close branch test, whose results
+are reported in Section 4.6.1, helps in addressing this concern substantially.
+Nonetheless, as a further robustness check, using a separate within-Andhra
+Pradesh loan-level dataset, I ﬁnd that the deterioration in loan performance is
+limited to types of loans that are known to be subject to political intervention
+(Cole 2009b). A general economic shock is likely to impact all sectors and
+not just sectors where the chances of political intervention are high. I describe
+these results in Section 1 of the Online Appendix and report the same in Table 1
+presented in the Online Appendix. Second, I test and ﬁnd that the deterioration
+in loan performance is higher in regions having high microﬁnance coverage
+before the event. I describe these results in Section 1.3 of the Online Appendix
+and report the same in Table 3 presented in the Online Appendix.
+
+5. Flow of Bank Credit After the Event
+
+5.1 Impact on Andhra Pradesh branches
+In the second part of the study, I focus on loan ofﬁcers’ (banks’) responses to
+deterioration in loan performance. I examine the impact of the intervention on
+the ﬂow of credit. An important caveat that needs to be mentioned at this stage
+
+22 I cannot perform a test using the NPA due date as the cut-off as in Section 4.3. In other words, I cannot use the
+sample of borrowers whose due dates for recognition of NPA fall on either side of the cutoff date of February 29,
+2008. This is because defaulting borrowers are eligible for the waiver regardless of whether or not their loans were
+classiﬁed as NPAs as on February 29, 2008. Therefore, I do not have a category of defaulting nonbeneﬁciaries
+whose loans are close to be classiﬁed as NPAs. Thus, I test for the long-term impact using the due date for default
+as the cutoff and NPA status as the dependent variable.
+
+4585
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4585 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Table 11
+Loan ofﬁcer response
+
+Loan amount
+
+Andhra
+
+Non-Andhra
+
+Dependent variable
+
+Robust
+
+Bias-corrected
+
+Conventional
+
+Observations
+
+(1)
+∗∗
+−0.548
+[−2.489]
+∗∗∗
+−0.548
+[−4.569]
+−0.071
+[−0.589]
+774
+
+(2)
+∗∗
+−0.479
+[−2.395]
+∗∗∗
+−0.479
+[−3.643]
+0.016
+[0.125]
+635
+
+(3)
+
+0.165
+[0.298]
+0.165
+[0.643]
+−0.044
+[−0.170]
+549
+
+(4)
+
+0.132
+[0.331]
+0.132
+[0.464]
+0.104
+[0.367]
+376
+
+This table reports the RD results regarding the impact of the microﬁnance regulation on the daily loan amount
+disbursed by the bank. The RD speciﬁcation estimates the signiﬁcance of E[Yi (1)−Yi (0)|Xi = ¯x]. I use the
+procedure developed by Calonico, Cattaneo, and Titiunik (2014) to estimate robust and bias-corrected standard
+errors. The distance from October 15, 2010, is the running variable, and October 15, 2010, normalized to zero,
+serves as the cutoff. The dependent variable, Loan Amount, is the natural logarithm of the daily loan amount.
+I ﬁrst obtain the residuals of the regression of the dependent variable on branch and month ﬁxed effects. I then
+use these residuals as the dependent variable in the RD test. Loans made by the Andhra Pradesh branches are
+covered in Columns 1 and 2. Loans made by branches located in the other two states are covered in Columns
+3 and 4. t-statistics are presented inside parentheses. ***, **, and * represent statistical signiﬁcance at the 1%,
+5%, and 10% levels, respectively.
+
+is that I observe only equilibrium outcomes in the post-intervention period and,
+hence, are unable to fully disentangle demand and supply effects. A second
+crucial difference between this part of the study and the previous part is that,
+in the previous part, the treatment loans had already been provided when
+the regulation was issued. In this part, I look at new loans issued after the
+announcement of the intervention.
+
+The RD setup is similar to the one used in Section 4.3. The dependent variable
+is the natural logarithm of the daily value of loans made at the branch level. An
+observation represents a branch-day.
+
+As before, I use the robust RD framework developed by Calonico, Cattaneo,
+and Titiunik (2014). To absorb the impact of other time-invariant and time-
+varying factors, I ﬁrst calculate the residuals from a regression of the daily
+loan amount on branch and month ﬁxed effects. I exclude the main running
+variable, distance, from the above regression. The residuals calculated in this
+way represent, as closely as possible, the impact of the running variable on the
+dependent variable. I use these residuals as the dependent variable in robust RD
+tests. I estimate the RD tests separately for the treatment and control regions.
+The results are reported in Table 11. In Columns 1 and 2, I perform RD
+tests using loans made by the Andhra Pradesh branches. In Column 1, I include
+branch and month ﬁxed effects in the ﬁrst stage, whereas in Column 2, I include
+other loan-level and district-level covariates. The daily loan amount is lower
+by 47.9% to 54.8% as one crosses the discontinuity from left to right. In other
+words, the daily loan amount falls by nearly half immediately after the issue of
+the notiﬁcation. This result is depicted in Figure 7. Notice a sharp fall around
+the cutoff. From the ﬁgure, it appears that the supply of credit did not recover
+to previous levels even six months after the event date.
+
+4586
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4586 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 7
+RD plot: Impact on lending-intensive margin
+This ﬁgure depicts the results of the RD test that examines the impact of the event on the quantity of loans made
+in the treatment region. I use the method designed by Calonico, Cattaneo, and Titiunik (2014). I use October 15,
+2010, as the cutoff date and the distance of the day under consideration from October 15, 2010, as the running
+variable. To absorb the impact of other related factors, I ﬁrst calculate the residuals by employing branch and
+month ﬁxed effects. I exclude the main running variable, distance, from the above regression. The dependent
+variable in this ﬁrst-stage regression is the natural logarithm of the value of loans made at a branch-day level. I
+use the residuals as the dependent variable in robust RD tests.
+
+A sudden and discontinuous decrease in bank credit immediately after
+the event indicates that the results could be driven more by supply than by
+demand. As discussed before, the demand side effects, if any, are likely to take
+time to manifest. However, it is not possible to fully rule out demand-based
+explanations.
+
+5.2 Impact on branches located in neighboring states
+To rule out the possibility that the results presented in Section 5.1 are the
+result of a common economic shock other than the microﬁnance intervention, I
+conduct RD tests on the sample of loans from branches that are located outside
+Andhra Pradesh but close to the Andhra Pradesh border. All other details about
+the speciﬁcations used remain the same as before. The results are reported in
+Columns 3 and 4 of Table 11. As reported in the table, I do not observe any
+signiﬁcant discontinuity at the cutoff. Thus, there is unlikely to be any other
+shock working in tandem with the microﬁnance intervention.
+
+4587
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4587 4556–4592
+
+The Review of Financial Studies / v 31 n 11 2018
+
+6. Discussion
+
+The results presented so far indicate that deterioration in loan performance and
+reduction in the ﬂow of credit are a result of the microﬁnance intervention.
+The chances of these results being caused by some other factor are remote.
+In one of the robustness tests reported in Section 4.6.1, I compare branches
+located in districts that are very close to each other and ﬁnd that the results
+continue to hold. It is unlikely that an economic shock from a source other than
+the microﬁnance intervention discussed in this paper would hit one side of the
+border and not the other side. Second, a careful newspaper search around the
+event did not ﬁnd reports of any other economic shock hitting only Andhra
+Pradesh during October 2010.
+
+I now discuss the plausible mechanisms through which the spillover effects
+could have spread. One possibility is that the curtailment of microﬁnance loans
+created economic distress in Andhra Pradesh (Breza and Kinnan 2016), and this
+distress in turn led to increased bank loan defaults. Suppose a farmer borrows
+from both a bank and a microﬁnance institution; if microﬁnance loans are
+suddenly cut off, the farmer may experience distress. Farmers may not have
+sufﬁcient funds to invest in critical inputs, and, hence, their production may
+suffer. This may lead to a situation wherein the farmer is forced to default on
+bank loans as well. However, it is likely that the impact of credit constraints will
+take some time before the real outcomes manifest. However, I see an immediate
+increase in the default rate after October 15, 2010. Therefore, the real impact
+of the curtailment of microﬁnance credit is unlikely to explain the results of
+this study fully.
+
+Another plausible channel is a change in bank borrowers’ behavior in
+anticipation of government
+intervention in bank loans as well. Political
+intervention in bank loan contracts is quite common in emerging economies
+(Cole 2009b; Gine and Kanz 2017; Khwaja and Mian 2005; Mukherjee,
+Subramanian, and Tantri 2014). It is possible that borrowers considered the
+microﬁnance intervention as a signal regarding the government type and,
+hence, expected further intervention in bank loans. In addition, the effects of
+this channel are likely to manifest quickly. Borrowers who are on the verge
+of repaying their loans could stop repayment as soon as they learn about
+the intervention and understand its implications. Although this explanation
+certainly seems plausible, I are unable to test it given data limitations. It is
+difﬁcult to detect strategic default in the absence of a survey. Even with a
+survey, there is no guarantee that participants will reveal their true intentions.
+The moral hazard is likely to manifest quickly, while the indirect impact of
+economic distress caused by the virtual shutdown of microﬁnance is likely to
+manifest with a lag. Therefore, it is reasonable to infer that the results are more
+in line with the moral hazard argument than with the demand-side economic
+distress argument. At least a part of the result is caused by increased expectation
+of future political intervention in bank loans and change in borrower behavior
+
+4588
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4588 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+in anticipation. However, it is difﬁcult to disentangle the impact of increased
+expectations of the government intervention and change in borrower behavior.
+Loan performance is likely to deteriorate if both occur simultaneously.
+
+This discussion also applies to the second part of the study, wherein I attempt
+to identify bank response in terms of subsequent credit. From the results
+presented in Section 5 and timing of the response, it appears reasonable to
+infer that the decline in credit is a supply response in anticipation of bad loan
+performance. It is also possible that loan ofﬁcers resort to ever-greening of loans
+in order to limit the damage to their appraisal scores. Tantri (2017) shows that
+ever-greening, as identiﬁed by their measure, increased in Andhra Pradesh after
+the microﬁnance intervention. The purpose of ever-greening is to show lower
+defaults, and hence a discontinuous increase in ever-greening could understate
+the actual deterioration in loan performance and actual reduction in the ﬂow of
+credit. Ever-greening also involves granting of ﬁctitious loans to show that the
+previous loans have been repaid and new loans have been issued. Therefore,
+an increase in ever-greening also implies an overstatement of actual new credit
+lent. This suggests that, in reality, the ﬂow of credit could have declined more
+than what I show in this study.
+
+7. Conclusion
+
+In this study, I ask if a political intervention in debt contracts in one segment
+of the credit market becomes contagious, thereby negatively affecting other
+segments of the credit market as well. The empirical setting for this study is
+provided by a sudden order issued by one Indian state government on October
+15, 2010. The order imposed severe restrictions on the loan recovery processes
+to be followed by microﬁnance institutions. This sudden action was driven by
+media reports of suicides committed by microﬁnance borrowers, allegedly due
+to harsh recovery practices followed by the lenders. Using proprietary loan-level
+data provided to us by a bank, I test the implications of this intervention on the
+repayment of bank loans. I use a sample of loans made by bank branches situated
+outside Andhra Pradesh but close to its border to assess the counterfactual.
+
+I ﬁnd that bank loans made by Andhra Pradesh branches that were
+outstanding but not overdue as on October 15, 2010, defaulted signiﬁcantly
+more when compared with similar loans made by other comparable branches
+of the same bank located outside Andhra Pradesh. I establish the results using
+the DID and RD methods. In the second part of the study, I look at the impact
+on new loans made after the intervention. I detect a sharp decline of about 54%
+in the average daily value of loans lent by Andhra Pradesh-based branches. I
+attribute this to the rational anticipation of adverse loan performance by loan
+ofﬁcers. It appears that political intervention in the microﬁnance segment of
+the credit market adversely affected bank loans because of spillover effects.
+
+This study points out an important cost of political intervention in debt
+contracts. By costs, I mean the increased default rate on bank loans and
+
+4589
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4589 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+reduction in the ﬂow of credit. Policymakers are likely to weigh in costs and
+beneﬁts of an intervention such as the one examined in this study. I point out
+that it is not sufﬁcient to only factor in the impact on borrowers who deal with
+the segment of the credit market that is likely to be subject to an intervention.
+As I show in this study, borrowers who deal with other segments of the credit
+market may also be affected by the intervention. Depending on the strength of
+the intervention and linkages, the spillover impact may vary. Therefore, it is
+advisable that policymakers consider the contagious effect pointed out in this
+study before designing any such intervention.
+
+References
+
+Acemoglu, D., A. Ozdaglar, and A. Tahbaz-Salehi. 2015. Systemic risk and stability in ﬁnancial networks.
+American Economic Review 105:564–608.
+
+Acharya, V. V., and N. Kulkarni. 2012. What saved the Indian banking system: State ownership or state guarantees?
+World Economy 35:19–31.
+
+Agarwal, S., G. Amromin, I. Ben-David, S. Chomsisengphet, T. Piskorski, and A. Seru. 2016. Policy intervention
+in debt renegotiation: Evidence from the home affordable modiﬁcation program. Journal of Political Economy
+125:654–712.
+
+Allen, F., and D. Gale. 2000. Financial contagion. Journal of Political Economy 108:1–33.
+
+Alok, S., R. Chaurey, and V. Nukala. 2016. Creditor rights and corporate labor policy: Evidence from a policy
+experiment. Working Paper.
+
+Bae, K., G. Karolyi, and R. Stulz. 2003. A new approach to measuring ﬁnancial contagion. Review of Financial
+Studies 16:717–63.
+
+Bandyopadhyay, T. 2014. Microﬁnance: To hell and back. Livemint, October 19.
+
+Banerjee, A., E. Duﬂo, R. Glennerster, and C. Kinnan. 2015. The miracle of microﬁnance? Evidence from a
+randomized evaluation. American Economic Journal: Applied Economics 7:22–53.
+
+Banerjee, A., and L. Iyer. 2005. History, institutions, and economic performance: The legacy of colonial land
+tenure systems in India. American Economic Review 95:1190–213.
+
+Barrot, J. 2016. Trade credit and industry dynamics: Evidence from trucking ﬁrms. Journal of Finance
+71:1975–2016.
+
+Bekaert, G., M. Ehrmann, M. Fratzscher,and A. Mehl. 2014. The global crisis and equity market contagion.
+Journal of Finance 69:2597–649.
+
+Bertrand, M., E. Duﬂo, and S. Mullainathan. 2004. How much should we trust difference-in-difference estimates?
+Quarterly Journal of Economics 119:249–75.
+
+Bhowal, S., K. Subramanian, and P. Tantri. 2014. Soft information and the cost of job rotation: Evidence from
+loan ofﬁcer rotation. Working Paper.
+
+Bhue, G., N. R. Prabhala, and P. Tantri. 2015. Creditor rights and relationship banking: Evidence from a policy
+experiment. Working Paper.
+
+Billio, M., M. Getmansky, A. Lo, and L. Pelizzon. 2012. Econometric measures of connectedness and systemic
+risk in the ﬁnance and insurance sectors. Journal of Financial Economics 104:535–59.
+
+Bolton, P., and H. Rosenthal. 2002. Political intervention in debt contracts. Journal of Political Economy
+110:1103–34.
+
+Breza, E. 2012. Peer effects and loan repayment: Evidence from the Krishna default crisis. Job Market Paper,
+MIT.
+
+4590
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4590 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Contagious Effects of a Political Intervention in Debt Contracts
+
+Breza, E., and C. Kinnan. 2016. Measuring the equilibrium impacts of credit: Evidence from the Indian
+microﬁnance crisis. Unpublished Manuscript, Northwestern University.
+
+Burgess, R., O. Deschenes, D. Donaldson, and M. Greenstone. 2011. Weather and death in India. Unpublished
+Manuscript, MIT.
+
+Butler, A., and J. Cornaggia. 2011. Does access to external ﬁnance improve productivity? Evidence from a natural
+experiment. Journal of Financial Economics 99:184–203.
+
+Calonico, S., M. Cattaneo, and R. Titiunik. 2014. Robust nonparametric conﬁdence intervals for regression-
+discontinuity designs. Econometrica 82:2295–326.
+
+Cole, S. 2009. Financial development, bank ownership, and growth: Or, does quantity imply quality? Review of
+Economics and Statistics 91:33–51.
+
+———. Fixing market failures or ﬁxing elections? Agricultural credit in India. American Economic Journal:
+Applied Economics 1:219–50.
+
+De, S., and P. Tantri. 2014. Borrowing culture and debt relief: Evidence from a policy experiment. Working
+Paper.
+
+ET Bureau 2015. Microﬁnance institutions turn crucial channel for banks’ priority sector lending. India Times,
+May 20.
+
+Ghate, P. 2008. Microﬁnance in India: A state of the sector report, 2007. New Delhi, India: SAGE Publications.
+
+Gine, X., and M. Kanz. 2017. The economic effects of a borrower bailout: Evidence from an emerging market.
+Review of Financial Studies 30:4081.
+
+IANS 2015. Impotency, love affairs top reasons behind farmers suicides: Centre. The Hindu, July 24.
+
+Imbens, G., and K. Kalyanaraman. 2011. Optimal bandwidth choice for the regression discontinuity estimator.
+Review of Economic Studies 79:933–59.
+
+Imbens, G., and T. Lemieux. 2008. Regression discontinuity designs: A guide to practice. Journal of Econometrics
+142:615–35.
+
+Kannan, M., and A. Panneerselvam. 2013. The microﬁnance in India–an overview. International Journal of
+Current Research and Academic Review 1:78–83.
+
+Kanz, M. 2015. What does debt relief do for development? Evidence from India’s bailout for rural households.
+American Economic Journal: Applied Economics 8:66–99.
+
+Kar, S. 2013. Recovering debts: Microﬁnance loan ofﬁcers and the work of proxy-creditors in India. American
+Ethnologist 40:480–93.
+
+Kaur, P., and S. Dey. 2013. Andhra Pradesh microﬁnance crisis and its repercussions on microﬁnancing activities
+in India. Global Journal of Management and Business Studies 3:695–702.
+
+Khwaja, A., and A. Mian. 2005. Do lenders favor politically connected ﬁrms? Rent provision in an emerging
+ﬁnancial market. Quarterly Journal of Economics 120:1371–411.
+
+Kroszner, R. 2003. Is it better to forgive than to receive? An empirical analysis of the impact of debt repudiation.
+Working Paper.
+
+Longhurst, H. 2013. How the microﬁnance industry lost its veneer of moral probity. Working Paper, The
+International School of Management.
+
+Mayer, C., E. Morrison, T. Piskorski, and A. Gupta. 2009. Mortgage modiﬁcation and strategic behavior: Evidence
+from a legal settlement with countrywide. American Economic Review 104:2830–57.
+
+McCrary, J. 2008. Manipulation of the running variable in the regression discontinuity design: A density test.
+Journal of Econometrics 142:698–714.
+
+Melzer, B. 2011. The real costs of credit access: Evidence from the payday lending market. Quarterly Journal
+of Economics 126:517–55.
+
+4591
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4591 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 11 2018
+
+Mian, A., and A. Suﬁ. 2014. House of debt: How they (and you) caused the great recession, and how we can
+prevent it from happening again. Chicago: University of Chicago Press.
+
+M-CRIL Microﬁnance Review 2012. MicroâŁłCredit Ratings International Limited.
+
+Mukherjee, S., K. Subramanian, and P. Tantri. 2014. Costs and beneﬁts of debt moratoria: Evidence from a
+natural experiment in India. Working Paper.
+
+Ponticelli, J., and L. Alencar. 2016. Court enforcement, bank loans and ﬁrm investment: Evidence from a
+bankruptcy reform in Brazil. Quarterly Journal of Economics 131:1365–413.
+
+Rosenzweig, M., and K. Wolpin. 1993. Credit market constraints, consumption smoothing, and the accumulation
+of durable production assets in low-income countries: Investments in bullocks in India. Journal of Political
+Economy 101:223–44.
+
+Rucker, R., and L. Alston. 1987. Farm failures and government intervention: A case study of the 1930’s. American
+Economic Review 77:724–30.
+
+Sane, R., and S. Thomas. 2016. The real cost of credit constraints: Evidence from micro-ﬁnance. BE Journal of
+Economic Analysis & Policy 16:151–83.
+
+Shylendra, H. 2006. Microﬁnance institutions in Andhra Pradesh: Crisis and diagnosis. Economic and Political
+Weekly 41:1959–63.
+
+Singh, N. 2003. Building social capital through micro-ﬁnance: A perspective on the growth of micro-ﬁnance
+sector with special reference to India. Working Paper.
+
+Tantri, P. 2017. Identifying zombie lending: Evidence from loan level data. Working Paper.
+
+Vig, V. 2013. Access to collateral and corporate debt structure: Evidence from a natural experiment. Journal of
+Finance 68:881–928.
+
+4592
+
+[16:49 9/10/2018 RFS-OP-REVF180001.tex]
+
+Page: 4592 4556–4592
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+1
+1
+4
+5
+5
+6
+4
+8
+1
+9
+2
+0
+0
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+

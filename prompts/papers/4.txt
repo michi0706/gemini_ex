@@ -1,0 +1,4359 @@
+Journal of Urban Economics 86 (2015) 128–146
+
+Contents lists available at ScienceDirect
+
+Journal of Urban Economics
+
+w w w . e l s e v i e r . c o m / l o c a t e / j u e
+
+Air service and urban growth: Evidence from a quasi-natural policy
+experiment q
+Bruce A. Blonigen a,b,1, Anca D. Cristea a,⇑
+
+a University of Oregon, USA
+b NBER, USA
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+While signiﬁcant work has been done to examine the determinants of regional development, there is lit-
+tle evidence on the role of air services. This paper exploits the large and swift changes to air trafﬁc
+induced by the 1978 Airline Deregulation Act to identify the link between air trafﬁc and local economic
+growth. Using data for 263 Metropolitan Statistical Areas (MSAs) over a two-decade time period, we esti-
+mate the effects of airline trafﬁc on local population, income, and employment growth. Our most conser-
+vative estimates suggest that a 50-percent increase in an average city’s air trafﬁc growth rate generates
+an additional stream of income over a 20-year period equal to 7.4 percent of real GDP, the equivalent of
+$523.3 million in 1978 dollars.
+
+Ó 2015 Elsevier Inc. All rights reserved.
+
+Article history:
+Received 6 December 2013
+Revised 12 January 2015
+Available online 11 February 2015
+
+JEL classiﬁcation:
+O18
+R1
+R4
+
+Keywords:
+Air transport
+Passenger aviation
+Urban growth
+Regional development
+Airline Deregulation Act
+
+1. Introduction
+
+Almost since the invention of the airplane, policymakers at all
+levels of government have spent considerable resources to pro-
+mote air services for their constituents. Currently in the United
+States, local airports and communities are quite active in providing
+subsidies and pledging future travel tickets in order to encourage
+airlines to add new routes for their region (e.g., Tampa2), or to deter
+
+q We thank the editor and the anonymous referees for their constructive
+comments, which signiﬁcantly improved this paper. We also thank Leah Brooks,
+Ariel Burstein, Jan Brueckner, Pablo Fajgelbaum, James Harrigan, Walker Hanlon,
+Vernon Henderson, David Hummels,
+Jerry Nickelsberg, Nicholas
+Sheard, Matthew Turner, Alex Vrtiska, Glen Waddell, Wes Wilson and Clifford
+Winston for helpful discussions and comments, as well as seminar participants at
+UCLA and the Urban Economic Association meeting (Ottawa, 2012) for useful
+suggestions. Mitchell Johnson provided excellent research assistance. Any remain-
+ing errors are our own.
+
+⇑ Corresponding author at: Department of Economics, 1285 University of Oregon,
+
+Jason Lindo,
+
+them from terminating strategic routes (e.g., Portland3), or from
+downgrading a city from its hub status (e.g., Cleveland4). A 2009 sur-
+vey by Airports Council International North America found that of
+the 52 responding airports, 33 had incentive agreements involving
+domestic air service, and 23 airports had incentive agreements for
+international air service.5
+
+The universal justiﬁcation for these government policies is the
+stated belief that air services are crucial for regional economic
+growth. In support of this belief there is anecdotal evidence sug-
+gesting that air transport improves business operations by provid-
+ing quick access to input supplies, it stimulates innovation by
+facilitating face-to-face meetings, and overall
+it represents an
+essential input to the activity of many industries. However, it is
+not clear how much local economies signiﬁcantly rely on air ser-
+vices, nor the extent to which other modes of transportation and
+communication can be easily used as substitute. In the end, a posi-
+tive correlation between air services and economic growth may
+make policymakers erroneously believe that there is a causal
+
+Eugene, OR 97403, USA.
+
+E-mail addresses: bruceb@uoregon.edu (B.A. Blonigen), cristea@uoregon.edu
+
+(A.D. Cristea).
+
+1 Department of Economics, 1285 University of Oregon, Eugene, OR 97403, USA.
+2 See ‘‘Intense competition boosts airport incentives to airlines’’ at: http://
+www.tampabay.com/news/business/airlines/intense-competition-boosts-airport-in-
+centives-to-airlines/1042035.
+
+3 See ‘‘Port’s gamble on Delta pays off’’ from 06/11/2010 on www.oregonlive.com.
+4 See ‘‘Pittsburgh could foreshadow future of Cleveland Hopkins International
+
+Airport’’ from 11/22/2009 on www.cleveland.com.
+
+5 McAllister, Brad, ’’Regaining stability,’’ Airport Business Magazine, September 15,
+2011 at: http://www.airportbusiness.com/print/Airport-Business-Magazine/Regain-
+ing-stability/137314.
+
+http://dx.doi.org/10.1016/j.jue.2015.02.001
+0094-1190/Ó 2015 Elsevier Inc. All rights reserved.
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+129
+
+4
+
+.
+
+3
+
+.
+
+2
+
+.
+
+1
+
+.
+
+0
+
+1
+
+.
+-
+
+2
+
+.
+-
+
+3
+
+.
+-
+
+1973 1974 1975 1976 1977 1978 1979 1980 1981 1982 1983 1984 1985 1986 1987 1988 1989 1990 1991
+
+Small MSA
+
+Medium MSA
+
+Large MSA
+
+Source: Authors’ Calculations
+
+Fig. 1. Trends in air passengers by city size category. Note: The series represent the average (log) number of air passengers by year and city size category. To remove level
+differences in air trafﬁc and facilitate relative comparisons between city size categories, each series has been adjusted by its average value for year 1977. The small, medium
+and large city categories are deﬁned by splitting the sample distribution of MSA population levels in three equal parts, based on city size information at the beginning of the
+sample period.
+
+relationship that they can affect, when other factors out of their
+control could be driving the positive correlation.
+
+Estimating the economic beneﬁts of transportation projects in
+general, and of air services in particular, is difﬁcult because there
+is a strong interdependence between the provision of such services
+and regional growth. Communities that beneﬁt from more rapid
+economic growth tend to also invest more in infrastructure, and
+in the provision of transportation services. In turn, the availability
+of reliable transportation services further stimulates regional
+development.
+
+Perhaps due to the difﬁculty of identiﬁcation, there are only a
+couple prior studies examining the effect of air service on regional
+growth. Brueckner (2003) estimates the effect of airline trafﬁc on
+employment using cross-sectional data at the Metropolitan Statis-
+tical Area (MSA) level, and ﬁnds that a 10 percent increase in pas-
+senger enplanements leads to an approximately 1 percent increase
+in MSA employment, with service sectors responsible for most of
+the effect. Brueckner (2003) uses hub status of an airport, the
+MSA’s centrality within the U.S., and its proximity to the nearest
+large metropolitan area to instrument for the endogeneity of the
+level of air transport services. However, hub status may be endoge-
+nous with current and expected growth of an MSA, while geo-
+graphic factors may affect general economic growth of a region
+just as much as air services.6 Green (2007) estimates the effect of
+air transport on regional growth. Using information on 83 MSAs,
+he regresses air passenger trafﬁc levels in 1990 on subsequent
+decennial population and employment growth, and ﬁnds that a 10
+percent increase in boardings per capita generates a 3.9 percent
+higher population growth and 2.8 percent higher employment
+growth for the period 1990–2000. However, economic outcomes
+such as population, employment, and even air services are persistent
+
+6 There is a signiﬁcant economic geography literature showing how spatial location
+inﬂuences regional development and income growth via market access effects. See,
+for example, Redding and Venables (2004) for a cross-country analysis, or Hanson
+(2005) and Head and Mayer (2006) for a regional analysis.
+
+processes. This too makes identiﬁcation difﬁcult in the absence of a
+major exogenous and long-lasting shock to the airline service.
+
+In this paper we present an alternative way to identify the rela-
+tionship between air services and regional economic growth,
+which relies on time series variation. We exploit a quasi-natural
+experiment that stems from the dramatic changes in the aviation
+industry following the 1978 U.S. Airline Deregulation Act.7 In just
+a few years following the legislation, the industry was rapidly
+deregulated, transitioning from an environment of tight policy
+restrictions to free market. This transformation was accompanied
+by large changes in air services across cities to unwind the artiﬁcial
+constraints imposed under regulation. These constraints included a
+regulatory regime that had stopped approving new routes since
+the early 1970s, and that had explicitly subsidized air service to
+small and medium communities in the U.S. at the expense of larger
+cities.8 To illustrate the relevance and impact of the policy, Fig. 1
+illustrates the relative changes in air services across city size groups
+in the wake of deregulation around the phase-in years 1977–1983.
+The simple snapshot of the raw data suggests that the 1978 aviation
+deregulation led to sizable, long-lasting and heterogeneous effects
+on the provision of aviation services across urban locations.
+
+Using historical data on economic and aviation indicators for 263
+MSAs spanning the period 1969–1991, we exploit the signiﬁcant
+changes in passenger aviation triggered by industry deregulation
+in order to infer the effect of air services on regional growth.9 We
+
+7 Using the German division and reuniﬁcation as a natural experiment, Redding
+et al. (2011) provide interesting evidence for how persistent the shocks to the aviation
+network can be, in large part due to the presence of sunk costs and network
+externalities.
+
+8 The only major form of regulation in the industry that remained was the Essential
+Air Service program, which mandated service to very small communities. This
+program has been quite limited in the communities it covers, and currently provides
+services to approximately 3000 passengers a day.
+
+9 Technically, the unit of observation in our dataset is a Core Based Statistical Area
+(CBSA), which includes both micropolitan and metropolitan statistical areas. How-
+ever, since 75 percent of the cities in our sample are metropolitan statistical areas,
+throughout the paper we will be using the abbreviation MSA to refer to cities in our
+sample.
+
+130
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+take advantage of the variation in the growth of air trafﬁc before ver-
+sus after the policy change, and employ a difference-in-differences
+framework. Given the artiﬁcial distortions swiftly unwound by
+deregulation, it is plausible that these deviations in air passenger
+changes over time were unrelated to urban growth patterns. If so,
+then an OLS estimation methodology would be sufﬁcient to causally
+identify the effect of air passenger service on regional growth.
+
+However, we take a number of additional measures to purge
+our results of any remaining endogeneity concerns. First, we esti-
+mate our difference-in-differences framework on already differ-
+enced data (i.e., variables expressed as average annual growth
+rates), so that we identify our effects from deviations in growth
+paths.10 Second, we control for location-speciﬁc secular trends, as
+well as for joint determinants of air trafﬁc and urban growth via city
+ﬁxed effects and control variables for initial period economic condi-
+tions. Third, we are only identifying our effects from changes in air
+passenger trafﬁc that occurred in a relatively short time window fol-
+lowing deregulation (i.e., 1977–1983). Longer time frames would
+mix these one-time deregulatory changes with ongoing air passen-
+ger changes that are made in response to current and expected
+future regional growth trends.
+
+While we believe that these strategies largely eliminate endo-
+geneity concerns, we also employ instrumental variables methods
+in tandem with our difference-in-differences framework. We
+explore a number of alternative instruments to isolate the exoge-
+nous component of the change in the growth of air trafﬁc that
+occurred in the wake of deregulation. First, we instrument the
+deviation in a city’s air trafﬁc growth with the average deviation
+in air trafﬁc growth among cities within the same size category
+as the city in question. Second, we use information only on ‘‘neigh-
+boring’’ cities to construct the average change in air trafﬁc growth
+triggered by deregulation, and explore a number of alternative
+deﬁnitions of what constitutes a neighboring city.
+
+Our analysis provides evidence for a direct effect of air services
+on regional development that is robust to these many strategies for
+identifying this relationship. We ﬁnd statistically signiﬁcant and
+positive estimates across the OLS and across the IV estimates. For
+a given city, a 50 percent increase in the growth rate of air passen-
+ger trafﬁc (a relatively small change in our sample11) leads, on aver-
+age, to an increase in the annual population growth rate ranging
+between 1.55 and 4.2 percent. To put this result in perspective, this
+corresponds to an additional 0.42–1.14 percent increase in the
+population level of the average city after a 20-year period. In the
+same manner, we ﬁnd that a 50 percent increase in a city’s air trafﬁc
+growth rate leads to between 1.65 and 3.45 percent increase in the
+annual income growth rate (which corresponds to an additional
+0.6–1.20 percent increase in the level of per-capita income after a
+20-year period), and to 2.7–4.7 percent increase in the annual
+employment growth rate (which corresponds to an additional 1.6–
+5.7 percent increase in total employment after a two-decade period)
+on average. When estimating the employment effects by sector, we
+ﬁnd that services and retail industries are the ones experiencing
+
+10 This strategy follows the ‘‘difference of differences’’ approach pursued by Treﬂer
+(2004).
+11 There is a lot of variation across communities in the change in air trafﬁc growth
+rates pre- versus post-deregulation. Rather than rely on the large sample deviation to
+interpret the coefﬁcients, we chose instead to use a more moderate value of a 50
+percent change in the air trafﬁc growth rate. There are only 42 communities (16%) in
+our sample whose air trafﬁc growth rate changed by 50 percent or less. While this
+may not be a very large number, we think this conservative scenario is more
+representative for out-of-sample periods. The kind of changes in air trafﬁc growth
+rates that happened around the deregulation period are probably much larger than
+what we tend to observe today. In fact, the change in air trafﬁc growth rate at the
+national level between 2011–2012 and 2012–2013 is 43 percent (source: Department
+of Transportation).
+
+signiﬁcant growth. These effects are comparable in magnitude to
+similar studies in the literature.12
+
+Our paper contributes to the broader literature on the determi-
+nants of urban growth, among which transportation infrastructure
+is one. In two related papers, Glaeser et al. (1992) and Glaeser et al.
+(1995) provide a framework for analyzing the determinants of
+urban growth. While they employ their set-up to examine the
+effect of agglomeration economies and human capital on urban
+growth, we focus on the role of air services. A study closer to ours
+is Duranton and Turner (2012), which examines the causal relation
+between road transportation and city growth. The study ﬁnds large
+and signiﬁcant effects of highway kilometers on employment and
+population growth, focusing particularly on intra-city transporta-
+tion investments as the main determinants of growth. Using his-
+torical data on U.S.
+railroad construction, Donaldson and
+Hornbeck (2013) assess the importance of railroads to the national
+economy by quantifying the changes in the agricultural land values
+resulting from improvements in market access at county level.
+Banerjee et al. (2012) and Faber (2013) focus on a rapidly growing
+developing country such as China, and investigate empirically how
+access to transport infrastructure (e.g., railroads, highways) affects
+regional economic growth. They ﬁnd mixed results regarding the
+local beneﬁts of transport infrastructure investments.
+
+Our paper also complements an expanding literature evaluating
+other economic consequences of transport infrastructure projects.
+A prior line of research has examined the aggregate relationship
+between public spending and economic growth ﬁnding mixed
+results.13 The availability of historical data on road or railroad con-
+struction at detailed geographical level has spurred a number of
+new studies on the impact of infrastructure, though most of these
+papers focus on how infrastructure affects trade between regions
+rather than regional growth.14
+
+The remainder of our paper proceeds as follows. The next sec-
+tion describes the context and consequences of
+the Airline
+Deregulation Act of 1978. Section 3 lays out the empirical model
+and discusses the estimation methodology. The data sources are
+presented in Section 4, while Section 5 describes the estimation
+results. Finally, Section 6 concludes.
+
+2. The 1978 aviation deregulation and its appropriateness as a
+quasi-natural experiment
+
+2.1. Institutional background
+
+The 1978 Aviation Deregulation Act (ADA) in the United States
+was a signiﬁcant policy change that led to swift and dramatic
+transformations in the aviation industry. Important for our purpos-
+es, the evidence suggests that it had a number of features that
+make it an appropriate quasi-natural experiment.
+
+First, the regulatory regime had clearly and systematically dis-
+torted air service patterns from what one would see in the free
+
+12 For example, Duranton and Turner (2012) ﬁnd that a 10 percent increase in a
+city’s stock of highways leads to 1.5 percent increase in local employment over a 20-
+year period.
+13 See Aschauer (1989), Munnell (1992), Holtz-Eakin (1994), Evans and Karras
+(1994), and Shirley and Winston (2004). Fernald (1999) and Chandra and Thompson
+(2000) provide insights into the heterogeneous effect of transportation infrastructure
+across industries and counties, which may explain the mixed ﬁndings.
+14 Michaels (2008) provides evidence that rural counties with access to interstate
+highways experience an increase in trade-related activities such as trucking and retail
+sales. Duranton et al. (2014) bring additional evidence for the role of interstate
+highways in determining the specialization of urban locations in sectors producing
+and trading heavy goods. Sheard (2012) uses the 1944 Civil Aeronautics Adminis-
+tration national airport plan as an instrument for current day airport sizes to examine
+their impact on the composition of industrial activity. Donaldson (2010) examines
+how the introduction of railroads in India differentially affected incomes and prices
+across regions.
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+131
+
+market following the industry deregulation. Before 1978, the
+development and activity of the airline industry was closely over-
+seen by the Civil Aeronautic Board (CAB). The CAB was in charge of
+certifying and approving new entrant carriers, and assigning them
+precise point-to-point routes that they had to operate at predeter-
+mined airfares. Except for aircraft capacity and ﬂight frequency, all
+operation decisions, such as entry and exit, route allocations, inten-
+sity of market competition, and price levels, were centrally deter-
+mined by the CAB (Morrison and Winston, 1986). Entry was
+tightly controlled, certiﬁcation being awarded on a per-case basis
+and only for operations on speciﬁed routes (Bailey et al., 1985).
+Rather than aim for industry efﬁciency, CAB regulations strived
+to protect the well-being of all existing airlines. It achieved this
+by suppressing market competition and favoring cross-route subsi-
+dization (Dempsey, 1987; GAO, 1996).15 At the peak of the govern-
+ment intervention, in the early 1970s, CAB ceased to certify new
+carriers entirely, and even rejected requests by existing carriers to
+enter new city-pair routes (Borenstein, 1992).
+
+A second important feature of the deregulation was the fast rate
+at which signiﬁcant transformations were taking place, as ‘‘policy
+changes followed one another with dazzling rapidity’’ (Bailey
+et al., 1985, p. 37). Facing an economic recession, the Ford admin-
+istration had an economic summit in 1974, where a consensus was
+reached to tackle federal deregulation. The CAB became an imme-
+diate focus and a Senate hearing in 1975 brought much economic
+evidence to bear that regulation had restricted pricing and entry to
+the detriment of consumers. When the Carter administration came
+in 1976 supporting deregulation, there was virtually full political
+support and the ADA was passed in 1978. In fact, the CAB began
+signiﬁcant reforms already by 1977, allowing ‘‘pro forma approval
+of discount fares’’ and granting ‘‘permissive route authority, which
+would allow a carrier to enter and exit from a route without CAB
+intervention’’ (Bailey et al., 1985, p. 33). The ADA speciﬁed full
+deregulation by January 1, 1983, but the CAB already had granted
+airlines complete route ﬂexibility within a year of the act and new
+airlines were entering the market.
+
+A third important feature is that the ultimate effects of the avia-
+tion deregulation were uncertain and the industry responded in a
+number of unexpected ways. The rapidity of the deregulation pro-
+cess, as described above, made the effects unlikely to be anticipat-
+ed. The expectation was that the aviation industry would become
+much more competitive after deregulation, leading to greater efﬁ-
+ciencies and lower prices for air travel. The contestable market the-
+ory, combined with the lack of evidence in support of economies of
+scale in the aviation industry, diminished any concerns about anti-
+competitive effects in markets dominated by single carriers
+(Borenstein, 1992). While there is signiﬁcant evidence of lower
+general prices and increased competition, in many ways, the actual
+transformations that swept the aviation industry since deregula-
+tion had been surprising due to ‘‘mistaken expectation and unfore-
+seen outcomes’’ (Kahn, 1988). Perhaps one of the most signiﬁcant
+yet totally unanticipated responses from air carriers was the
+switch from operating point-to-point service to a hub-and-spoke
+network. This
+transformation increased industry efﬁciency
+through better capacity utilization, as captured by higher load fac-
+tors per ﬂights (Borenstein and Rose, 2011). It also allowed for
+more frequent departures and more ﬂexibility in ﬂight schedules
+from hub airports, but at the cost of an increase in the average
+
+15 In documenting the cross-subsidization practice of the CAB Eads (1972, pp. 205–
+206) states that: ‘‘the more recent attempt by the Board to internalize the local
+service subsidy (by giving carriers routes on which it hoped substantial proﬁts could
+be made) required that entry controls be continued. It also meant that the Board, in
+deciding which carrier to favor with route awards, had to continue to base its choice
+in large part on the need of local service carriers for proﬁt and not on the more
+desirable criterion of which carrier would provide the service at the least cost.’’
+
+number of connections and travel distances for itineraries originat-
+ing in smaller airports. The restructuring of non-stop destinations
+by airport size implied a decrease in the number of non-stop des-
+tinations at small and some medium size communities (Dempsey,
+1987; GAO, 1996), and a much larger increase in air services in big
+cities, many of which had been selected as hub locations.16
+
+A ﬁnal feature of aviation deregulation that is fundamental to
+our identiﬁcation strategy consists of the systematic heterogeneity
+in the policy-induced shock to air services across locations. The
+CAB undertook many efforts to ensure service to smaller commu-
+nities under regulation. In fact, the CAB deliberately set fares above
+cost in city-pair markets located more than 400 miles apart
+(typically large, dense markets), and set fares less than the costs
+in shorter city-pair markets (Bailey et al., 1985, p. 20). The loss of
+this cross-market subsidization was a primary concern of legisla-
+tors when considering deregulation, as there were real fears that
+many small (and even medium-sized) communities would face
+substantial loss of air service. Ultimately, arguments that com-
+muter air services would likely take the place of traditional airline
+services in these communities, as well as the institution of the
+Essential Air Service program to directly subsidize air service at
+the
+back
+smallest
+deregulation.17
+
+communities,
+
+legislators
+
+allowed
+
+to
+
+In summary, it was well known that the price levels and route
+allocations set by the CAB favored small communities. The reverse
+was true for large urban areas, where high fares and the sup-
+pressed competition hindered the growth and development of air
+transport services. As a result, the regulatory environment led to
+large and systematic deviations from market forces.
+
+2.2. Descriptive evidence
+
+The evidence for the systematic distortions in air trafﬁc patterns
+across city sizes is noticeable in the data. Fig. 1 depicts the average
+number of air passengers per city by size category in the years
+before and after the aviation deregulation, relative to the national
+trends.18 The data representation shows that prior to 1978 small
+communities witnessed the largest increase in air trafﬁc – evidence
+that the CAB strategies of route cross-subsidization had been effec-
+tive at stimulating air service in small locations at the expense of
+large communities.19 Following the Airline Deregulation Act in
+1978, large urban areas beneﬁted from a relative increase in the rate
+of air passenger growth, while small communities suffered a nega-
+tive shock to the provision of air services. These trend reversals trig-
+gered by the regime switch are consistent with the changes in air
+trafﬁc expected from the removal of capacity restrictions and price
+setting schemes imposed by the CAB prior to 1978.
+
+Going beyond average tendencies in air passenger ﬂows by city
+size group, Fig. 2 documents the differences in air trafﬁc growth
+rates between the regulated and deregulated periods. The scatter-
+plots bring further support to how large and persistent was the
+
+16 The evidence on the decrease in the number of non-stop destinations at small
+cities as a consequence of the aviation deregulation is mixed. While many small
+communities indeed suffered a net loss in non-stop destinations reached, Morrison
+and Winston (1986) ﬁnd that other factors speciﬁc to the post-deregulation period
+are responsible for these service losses, such as increased fuel prices, higher returns to
+aircraft equipment elsewhere, or cyclical macroeconomic conditions.
+17 Several very small communities did lose air trafﬁc entirely after deregulation.
+However, the Essential Air Service (EAS) program allowed many others to keep air
+connectivity with the nearest hub airport. For more information on costs and beneﬁts
+of the EAS Program, see the General Accounting Ofﬁce report (GAO, 2000), among
+others.
+18 For ease of representation, each time series has been rescaled by the average level
+of air trafﬁc in 1977.
+19 The small, medium and large city categories are deﬁned by splitting the sample
+distribution of MSA population levels in three equal parts, based on city size
+information at the beginning of the sample period.
+
+132
+
+a
+
+t
+i
+
+p
+a
+C
+
+ 
+r
+e
+p
+
+l
+
+ 
+s
+r
+e
+e
+v
+a
+r
+T
+n
+
+ 
+
+i
+ 
+
+e
+g
+n
+a
+h
+C
+
+ 
+l
+
+a
+u
+n
+n
+A
+
+ 
+.
+
+g
+v
+A
+
+5
+1
+
+0
+1
+
+5
+
+0
+
+5
+-
+
+0
+1
+-
+
+5
+1
+-
+
+0
+2
+-
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+a
+
+t
+i
+
+p
+a
+C
+
+ 
+r
+e
+p
+
+l
+
+ 
+s
+r
+e
+e
+v
+a
+r
+T
+n
+
+ 
+
+i
+ 
+
+e
+g
+n
+a
+h
+C
+
+ 
+l
+
+a
+u
+n
+n
+A
+
+ 
+.
+
+g
+v
+A
+
+5
+1
+
+0
+1
+
+5
+
+0
+
+5
+-
+
+0
+1
+-
+
+5
+1
+-
+
+0
+2
+-
+
+8
+
+10
+
+12
+
+City Size
+
+(1969 MSA Population)
+Period 1969 - 1977
+
+Source: Authors’ Calculations
+
+14
+
+16
+
+8
+
+10
+
+14
+
+16
+
+12
+
+City Size
+
+(1969 MSA Population)
+
+Period 1977 - 1983
+
+Fig. 2. City-level changes in air trafﬁc per capita during regulation and deregulation. Note: The y-axis of each scatterplot represents the average annual percentage change in
+air passengers per capita at city level. The average percentage change is calculated over two distinct periods: 1969–1977, which denotes the pre-deregulation period; and
+1977–1983, which corresponds to the aftermath of the aviation deregulation. The pattern of changes in air trafﬁc per capita differs quite substantially across the two time
+periods, suggestive of the major shock to the aviation industry induced by the policy change. The fact that differences in air trafﬁc changes display signiﬁcant variation both
+within and across city size groups can be indicative of the heterogeneous effect of deregulation across locations.
+
+impact of the policy change. They also illustrate the heterogeneity
+across cities in air trafﬁc changes over time. Even though, on aver-
+age, small and medium size cities have witnessed a larger negative
+shock to air trafﬁc growth than large cities, when looking within a
+given city size, there is still quite a bit of variation in the magnitude
+of the policy-induced shock. This aspect is going to play a crucial
+role in the analysis, as our estimation will exploit both within city
+size and across city size variation in air trafﬁc changes over time.
+Besides the large data variation that it generates, identiﬁcation
+from a quasi-natural experiment requires that there are no other
+confounding events that also affect urban growth. There are two
+major events that took place around the same time as the
+deregulation of the aviation industry, which could potentially
+affect our ability to identify the effects induced by the airline
+deregulation on regional growth.
+
+The ﬁrst event is the 1979 oil price shock, which occurred in the
+aftermath of the aviation deregulation. The surge in fuel costs and
+energy prices in the early 1980s presumably impacted not only the
+growth and development of the aviation industry, but also the
+economy as a whole. To the extent that these shocks affected eco-
+nomic growth differentially across cities of different sizes, then
+part of this variation may be spuriously picked up in our estima-
+tion. However, we think this issue is less problematic for our data
+exercises because our variables of interest are long-run growth
+rates computed over a period of time (i.e., 1977–1991) whose start
+and end dates are distant from the oil crisis and its aftermath.20
+
+A second series of events that may be of concern for our estima-
+tion strategy is the full or partial deregulation occurring during the
+same time period in other industries – most notably in the trucking
+and railroad industries.21 However, unlike the airline industry, we
+are not aware of any evidence to suggest that these deregulation
+events led to systematic heterogeneous changes in the economic
+activity across regions. While increased competition and improved
+
+20 There is no evidence in our sample that economic growth rates differ across MSA
+size categories once controlling for initial conditions, industrial composition and
+lagged urban growth rates. Estimates are available upon request.
+21 Winston (1993) provides a comprehensive survey of the regulatory reforms
+implemented in the U.S. at the end of 1970s and beginning of 1980s, including the
+deregulation of the transport sector.
+
+cost efﬁciency in the absence of regulation have favored industry
+expansion and a rapid output growth, these trends have been
+observed nationwide. This implies that any systematic deviations
+from national trends in local economic growth rates that we identify
+across different-sized communities pre- versus post- the 1978 avia-
+tion deregulation cannot be attributed to regulatory initiatives hap-
+pening simultaneously in other sectors.
+
+3. Empirical strategy
+
+3.1. Basic framework
+
+In this paper, we take the view that aviation services are part of
+the local fundamentals characterizing an urban community. As
+such, they contribute to enhancing local productivity levels while,
+at the same time, being a valuable city amenity that enhances the
+quality of life.22 In a Web Appendix,23 we build these assumptions
+into a simple model of urban growth to formally derive a direct rela-
+tionship between changes in air trafﬁc at the community level, and
+labor force and per-capita
+subsequent changes in population,
+income. Using the notation _KiT  lnKiT1  lnKiT0
+to denote the (log) aver-
+age annual change of variable K in city i over the time period
+
+T1 T0
+
+22 Several channels have been suggested for the productivity effect of air transport
+services. First, air travel facilitates face-to-face communication, which is essential for
+innovation, technology diffusion, and for coordination and efﬁcient allocation of
+resources (see, among others, Gaspar and Glaeser, 1998; Audretsch and Feldman,
+1996; Hovhannisyan and Keller, 2011; Giroud, 2013). Second, the availability of air
+services reduces transaction costs, increasing the openness of a region to trade (Poole,
+2010; Cristea, 2011). This in turn fosters labor and industrial specialization at the
+micro level, as well as product diversiﬁcation at the regional
+leading to
+increased aggregate productivity (Glaeser et al., 1992; Feenstra and Kee, 2008).
+Finally, air trafﬁc could raise regional productivity via agglomeration effects and the
+associated positive externalities (see, among others, Stuart and Strange, 2004). The
+location decision of exporters and multinational ﬁrm headquarters is inﬂuenced by
+the quality of air services (Lovely et al., 2005; Bel and Fageda, 2008). At the same time,
+both types of ﬁrms are shown to exert positive spillovers on local businesses, further
+affecting productivity (Blomstrom and Kokko, 1998; Arnold et al., 2011). Our
+intention in this study is to identify an aggregate net effect of air trafﬁc on urban
+development, working in part through any of these productivity effects.
+23 Web Appendix URL: <http://pages.uoregon.edu/cristea/Research_ﬁles/
+WebAppendix_urban.pdf>.
+
+level,
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+133
+
+T ¼ ½T0; T1, the resulting estimation equation can be written as
+follows:
+_Y iT ¼ b _AiT þ XiT0
+
+0c þ ai þ aT þ eiT
+
+ð1Þ
+
+where Y i stands for population, employment or per-capita income
+in city i; Ai denotes the level of air services in city i, as measured
+by the total number of enplaned passengers; the vector XiT0 cap-
+tures location-speciﬁc control variables that are observable at the
+beginning of the time period T and that affect urban growth. Finally,
+ai and aT stand for location and time period ﬁxed effects, and eiT
+denotes the error term.
+
+Our interest lies in estimating the effect of air services on
+regional growth. We expect the coefﬁcient of interest b to be posi-
+tive and signiﬁcant.24 A challenge in identifying b comes from the
+interdependency between the provision of air services and regional
+growth, which raises endogeneity concerns. To address this, we take
+advantage of the exogenous data variation generated by the disman-
+tling of aviation regulations. Before analyzing the approaches we
+take to isolate the exogenous variation in air trafﬁc from any
+endogenous responses to the policy change, it is worth discussing
+some key aspects related to the speciﬁcation in Eq. (1).
+
+First, the outcome variables of interest – population, per-capita
+income or employment – change slowly over time. As a result, long
+run growth rates may be better suited for capturing regional devel-
+opment. Unlike year-on-year changes, long differences of the data
+are more appropriate for correctly identifying any persistent rela-
+tion between the variables of interest in the presence of signiﬁcant
+autocorrelation (Bertrand and Duﬂo, 2004). For this reason, in our
+estimation we consider two long-run subsample periods: one that
+deﬁnes an interval of time before the aviation deregulation, and
+one that deﬁnes an interval of time following the policy change.
+We let the time indicator T index the two time periods, with
+T = 0 denoting the pre-deregulation period 1966–1977, and T = 1
+denoting the post-deregulation period 1977–1991.25 We choose
+the year 1977 as the cutoff point rather than 1978, which is the year
+when the Airline Deregulation Act entered into effect, because we
+want to calculate post-deregulation long-run changes in air trafﬁc
+starting from a reference period that pre-dates and thus is unaffect-
+ed by any major changes in routes or price levels triggered by the
+policy change.
+
+Second, the period ﬁxed effect aT is important for model identi-
+ﬁcation as it accounts for any period-speciﬁc macroeconomic fac-
+tors that may inﬂuence regional growth. However, given the
+long-run time horizon being considered, it is possible for cities to
+go through structural changes in their urban growth paths. These
+changes may differ systematically across cities depending on geo-
+graphic location, economic size or industrial specialization. To
+account for this in our regression model, we control for economic
+conditions at the beginning of each time period T. We specify the
+vector XiT0 to include information on population size, per-capita
+income, factor endowments, and industrial composition at the
+MSA level for the base year of each long-term period. This allows
+us to implicitly control for things like changes in labor productivity
+and skill premium across both periods, as well as across cities of
+different sizes.
+
+Finally, to account for location-speciﬁc determinants of urban
+growth that may be difﬁcult to measure, we employ city ﬁxed
+
+24 The coefﬁcients b; c are reduced-form parameters whose structure is derived in
+the Web Appendix from the proposed urban growth model.
+25 The chosen time periods are determined by the data availability on air services,
+and by the timing of deregulation. In particular, year 1969 is the ﬁrst year when air
+passenger trafﬁc was collected and reported at city level, while year 1991 is the
+earliest year that such records have become available electronically. In the empirical
+analysis, we provide evidence for the robustness of our results to perturbations in
+these time windows.
+
+effects, ai. These control for factors such as economic fundamen-
+tals, geographical location, land area, climate, natural resource
+endowments, and any persistent socio-cultural characteristics that
+may affect the economic growth of a city. Adding city ﬁxed effects
+to the regression Eq. (1) allows us to remove location-speciﬁc secu-
+lar trends. A direct implication is that the model coefﬁcients are
+identiﬁed from the comparison of urban growth rates before ver-
+sus after the aviation deregulation.26
+
+This estimation approach is very demanding of the data. If the
+policy shock under consideration is not large enough to generate
+substantial variation in the variables of interest, or if the time peri-
+od is not long enough for the economic outcomes to fully adjust to
+their new equilibrium levels, then differencing the data by con-
+structing long-run annual growth rates, and removing location-
+speciﬁc trends by adding city ﬁxed effects are going to sweep away
+any useful information. Fortunately for our identiﬁcation strategy,
+Figs. 1 and 2 provide suggestive evidence of substantial variation in
+air passenger trafﬁc before versus after deregulation.
+
+3.2. Estimation methodology
+
+Estimating Eq. (1) requires a careful consideration of the data
+_AiT, in
+generating process underlying the changes in air trafﬁc,
+order to understand the main sources of variation and to isolate
+the exogenous component. We proceed by discussing ﬁrst the
+lengths we can go to fully exploit the quasi-natural policy experi-
+ment to identify the effects of air service on regional growth within
+an OLS framework. We then describe a number of instrumental
+variables strategies that we use to pin down the exogenous portion
+of air passenger growth, thus allaying any remaining concerns
+about endogeneity.
+
+Given the regression speciﬁcation, the variation exploited for
+model identiﬁcation consists of the deviation in air trafﬁc changes
+between the regulation (T = 0) and post-deregulation (T = 1) periods,
+i.e., D _AiT  _Ai1   _Ai0. To formally derive it, we begin by deﬁning the
+level of air trafﬁc in city i at time t. We assume that the CAB rules
+imposed during the regulatory period distorted air trafﬁc by affect-
+ing both its level and its rate of adjustment to local economic condi-
+tions. Thus, air trafﬁc in city i at time t can be deﬁned as:
+
+(
+
+lnAit ¼ ai þ dlnZit þ at;
+aiÞþðdþ
+
+dÞlnZit þ at;
+
+e
+
+e
+
+ðai þ
+e
+
+e
+
+if deregulation ðfree marketÞ
+if regulation
+
+ð2Þ
+
+ai;
+
+d denote the policy-induced distortions to air trafﬁc,
+where
+which can be location-speciﬁc; and Zit represents any city charac-
+teristics that explain the level of air trafﬁc in city i, including city
+size or income level (which are elements of Y it in Eq. (1)).
+
+From Eq. (2), using the notation _KiT  lnKiT1  lnKiT0
+
+, we can write
+the average annual change in air trafﬁc during the regulatory peri-
+od as:
+ð3Þ
+_Ai0 ¼ _a0 þ ðd þ
+where the subscript ‘‘0’’ indexes pre-deregulation period variables.
+Similarly, we can express the average annual change in air traf-
+
+dÞ _Zi0
+
+T1 T0
+
+e
+
+ai þ d _Zi1  
+
+ﬁc post-deregulation as:
+ð4Þ
+_Ai1 ¼ _a1  
+where the subscript ‘‘1’’ indexes post-deregulation period variables,
+and T0 denotes the initial year of the post-deregulation period. Note
+
+dlnZi1;T0
+
+e
+
+e
+
+26 Given that the estimation sample includes two long-run periods, i.e., T 2 f0; 1g,
+the city ﬁxed effects model in Eq. (1) delivers identical estimates as a differenced
+model of urban growth rates between the two time periods (Wooldridge, 2002, p.
+284).
+
+134
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+that since the initial year of the post-deregulation period coincides
+with the last year of the regulatory period (i.e., year 1977 in the
+data), in deriving Eq. (4) we use policy-distorted levels of air trafﬁc
+for the base year T0 of the post-deregulation period ‘‘1’’.
+
+e
+
+ai þ dD _Zi  
+
+e
+dð _Zi0 þ lnZi1;T0Þ
+
+The variation exploited for identifying the coefﬁcient of interest
+b in Eq. (1) is then given by the deviation in air trafﬁc growth rates
+between pre- and post-deregulation periods. From Eqs. (3) and (4),
+we can derive this differential change as:
+D _Ai  _Ai1   _Ai0 ¼ D _a  
+ð5Þ
+The constant term D _a  _d1   _d0 captures the change in air trafﬁc
+growth rates between the pre- and post-deregulation periods that
+is uniform across all cities in the sample. The term D _Zi captures over
+time changes in the growth rate of location speciﬁc determinants of
+air trafﬁc. Note that D _Zi is different from zero only for those city
+characteristics that witness systematic changes in their long-run
+growth rates at the time of the aviation deregulation. This is impor-
+tant for model identiﬁcation as many unobservable factors that
+jointly determine air trafﬁc and urban growth are potentially evolv-
+ing at a constant rate over the two periods of interest T 2 f0; 1g.
+
+e
+
+e
+
+ai and
+
+Key for our purposes, Eq. (5) identiﬁes the conditions under
+which the variation in air trafﬁc changes over time, i.e., D _Ai, can
+be taken as exogenous with respect to the unobserved determi-
+nants of urban growth (i.e., the residual variation in Eq. (1)). It also
+formalizes the channels through which endogeneity may operate.
+The regulatory distortions rapidly unwound by deregulation, as
+captured by
+d, add unique variation to city-level changes
+in air trafﬁc. This is the exogenous variation generated by the
+quasi-natural experiment that we want to exploit in our estima-
+tion. However, city size or per-capita income – the dependent vari-
+ables in our baseline model – are likely part of the vector Zi. This
+creates an endogeneity problem. Note that the sources of endo-
+geneity in D _Ai lie both in the levels (Zi1;T0 ) and per-period growth
+rates ( _Zi0; _Zi1) of urban growth determinants. To the extent that
+we can isolate the exogenous component of the variation in D _Ai
+once conditioning on city characteristics, the OLS estimation meth-
+ods should be appropriate to use in estimating Eq. (1). Otherwise,
+we need to refer to instrumental variable methods.
+
+At this point, before discussing each estimation method, it is
+useful to take a preliminary look at the data and examine raw cor-
+relations between the variables in Eq. (5). Table 1 provides some
+interesting statistics, with Panel A reporting the correlation
+between city-level changes in air trafﬁc and urban growth rates
+pre- versus post-deregulation (i.e., corrðD _Ai; D _ZiÞ). In general, the
+growth rate changes are not highly correlated among the variables
+of interest, reducing concerns about simultaneity or spurious cor-
+relation. This is in contrast to the correlation coefﬁcients between
+the level of these variables – observed in Panel B of Table 1 – where
+the scale differences across cities make the volume of air trafﬁc
+highly correlated with the population size and with total employ-
+ment.27 Based on this, we can reasonably argue that many of the fac-
+tors that simultaneously determine air travel and regional economic
+development are eliminated by double differencing the data.
+
+Additional descriptive evidence is provided in Panel C of Table 1,
+which illustrates the relatively weak correlation between the vari-
+ables’ growth rates in the regulation period (i.e., DZi0) and the air
+trafﬁc growth rate in the post-deregulation period (i.e., DAi1). For
+example, the correlation coefﬁcient between population growth
+in the regulation period and passenger growth post-deregulation
+is 0.37, absent any city level controls. Similarly, the correlation
+between the air trafﬁc growth rates pre- and post- deregulation
+
+27 While the reported correlation coefﬁcients are calculated based on data for year
+1969, this pattern is found for all other years in the sample.
+
+is 0.33, a value that is suggestive of some consistency in the evolu-
+tion of air trafﬁc over time, but also of signiﬁcant shocks to its
+growth trajectory at city level. Finally, the last row in Panel C
+reports the correlations between city-level changes in air trafﬁc
+growth (D _Ai) and pre-deregulation urban growth rates (i.e., DZi0).
+Again, we ﬁnd little to no evidence of systematic relationships –
+suggestive that endogeneity concerns may be limited.
+
+3.2.1. OLS approach
+
+We propose several model reﬁnements to restrict the variation
+in air trafﬁc growth to only capture the exogenous policy-induced
+shocks triggered by the dismantling of aviation regulation.
+
+Short post-deregulation time window. We shorten the time
+horizon over which air trafﬁc changes are measured during the
+post-deregulation period as a way to mitigate the impact of reverse
+causality. Referring to Eq. (4), by limiting the time frame for T ¼ 1,
+we force the vector of city characteristics _ZiT that affects _Ai1 to only
+vary due to immediate or short run changes. To the extent that
+such changes are not much different from the changes observed
+the previous period – e.g., sluggish adjustments – this reduces
+the reverse causality problem,
+increasing the chances that
+D _Zi ¼ 0 in Eq. (5).
+
+In the empirical analysis, we restrict our attention to the time
+window 1977–1983 to deﬁne _Ai1, as this period captures the after-
+math of deregulation, when the large unexpected changes in air traf-
+ﬁc occurred. We choose 1983 as the end-year, ﬁrst, because this is
+when the CAB was fully dissolved – suggestive that the industry
+had reached a stable equilibrium and required no more oversight;
+and second, because year 1983 was relatively uneventful at a
+macroeconomic level, reducing the potential for other market dis-
+tortions to affect the calculated average annual changes in air trafﬁc.
+Observed and anticipated urban growth. As Eq. (5) shows, the
+variation in air trafﬁc changes depends on urban growth determi-
+nants (both levels and changes). To mitigate endogeneity concerns,
+we control for these directly in our regression model. Eq. (1)
+already accounts for per-period initial economic conditions
+(lnZi1;T0), so what still needs to be controlled for are the observed
+( _Zi0) and anticipated ( _Zi1) rates of urban growth. For that, we rely
+on cities’ historical population sizes. Thus, we expand our regres-
+sion model by including as additional control variables: (1) dec-
+ade-long lags of city population (i.e., Li;T0 j for j > 0); (2) per-
+period base year city characteristics; and, as a distinct element of
+the vector of initial conditions, (3) the level of air passengers per
+capita at the beginning of each period (i.e., AiT0 =LiT0 ), as a way to
+account for any systematic variation in _AiT across cities. The esti-
+mating Eq. (1) now becomes:
+
+
+
+
+
+X
+~cjLi;T0 j þ ai þ aT þ eiT
+
+L
+
+_Y iT ¼ b _AiT þ XiT0
+
+0c þ hln
+
+AiT0
+LiT0
+
+þ
+
+j¼0
+
+ð6Þ
+
+with Y standing for population, employment or per-capita income
+in city i.
+
+Eq. (6) can achieve proper identiﬁcation by OLS methods if the
+remaining residual variation in _AiT coming from the unwinding of
+policy distortions is exogenous.
+
+3.2.2. Instrumental variables (2SLS) approach
+
+Differencing the data, and adding control variables and ﬁxed
+effects to the regression model may be sufﬁcient measures to elim-
+inate any correlation between our variable of interest and the error
+term. However, in the event of remaining endogeneity concerns,
+we also estimate our model using instrumental variables. For this
+purpose, we exploit the differential impact that the ADA had on cities
+of different sizes. We instrument for the change in air trafﬁc growth
+in city i using the average change in air trafﬁc growth over time
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+135
+
+Table 1
+Correlation coefﬁcients.
+
+Panel A: Correlation coefﬁcients between changes in variables’ growth rates
+
+D Passenger growth
+
+D Population growth
+
+D Income growth
+
+D Employment growth
+
+D Passenger growth (log)
+D Population growth (log)
+D Income growth (log)
+D Employment growth (log)
+
+1.00
+0.23
+0.40
+0.29
+
+1.00
+0.16
+0.49
+
+Panel B: Correlation coefﬁcients between (log) base year variables
+
+1.00
+0.59
+
+0
+1.00
+
+Passengers 1969
+
+Population 1969
+
+Income 1969
+
+Employment 1969
+
+Passengers 1969
+Population 1969
+Income 1969
+Employment 1969
+
+1.00
+0.88
+0.50
+0.87
+
+1.00
+0.48
+0.98
+
+Panel C: Correlation coefﬁcients between variables’ growth rates across periods
+
+1.00
+0.51
+
+1.00
+
+Passenger
+growth
+69–77
+
+Population
+growth
+69–77
+
+Income
+growth
+69–77
+
+Employment
+growth
+69–77
+
+Passenger
+growth
+77–83
+
+Population
+growth
+77–91
+
+Income
+growth
+77–91
+
+Employment
+growth
+77–91
+
+Passenger growth 69–77
+Population growth 69–77
+Income growth 69–77
+Employment growth 69–77
+
+Passenger growth 77–83
+Population growth 77–91
+Income growth 77–91
+Employment growth 77–91
+
+D Passenger growth
+(91–77)–(77–69)
+
+1.00
+0.50
+0.16
+0.44
+
+0.33
+0.39
+0.04
+0.35
+
+ 0.23
+
+1.00
+0.01
+0.72
+
+0.37
+0.75
+0.16
+0.66
+
+0.09
+
+1.00
+0.36
+ 0.20
+ 0.13
+ 0.30
+ 0.16
+
+ 0.30
+
+1.00
+
+0.21
+0.55
+ 0.01
+0.52
+
+ 0.03
+
+1.00
+0.46
+0.37
+0.49
+
+
+
+0.84
+
+
+
+Note: Each variable measuring a change in growth rates is constructed at MSA i level as follows: Dyi ¼ 1
+employment}.
+
+14 log yi;1991
+yi;1977
+
+1.00
+0.20
+0.85
+
+
+
+0.27
+8 log yi;1977
+yi;1969
+
+  1
+
+1.00
+0.47
+
+0.36
+
+1.00
+
+0.30
+
+
+
+, with y 2 {passengers; per capita income;
+
+observed across the MSAs in the same size category as city i.
+Speciﬁcally, we use the interaction term between the time period
+indicator T and each of the three MSA size category indicators to pre-
+dict _AiT. 28
+
+Exploiting information pertaining to many cities of similar size
+as city i has several advantages. It signiﬁcantly reduces reverse
+causality concerns, since much of the data variation contained in
+the excluded instrument comes from sources external to city i. It
+also mitigates the concern of weak instruments, as we have already
+documented the common patterns among cities of similar size in
+their policy-induced distortions.
+
+We also experiment with two related versions of the proposed
+instrument. First, within each MSA size category, we calculate the
+average deviation in air trafﬁc changes among cities other than the
+particular city of focus, city i. By construction, this instrument is
+now purged of any economic growth determinants speciﬁc to city
+i. Second, rather than rely on the simple average of air trafﬁc
+changes for cities j – i, we compute instead a weighted average
+using the inverse of the geographic distance between cities i and
+j as weights. That is, we instrument for _AiT using the weighted aver-
+_AjT =Distij, with city j belonging to the same MSA size
+age: 1
+N
+category as city i. The main beneﬁt of using spatial weights is to
+place greater importance on cities that are in proximity of city i.
+To the extent that the regulatory distortions had regional compo-
+nents, then such a geography-weighted instrument may have a
+stronger predictive power.
+
+P
+
+j–i
+
+Besides their beneﬁts, a potential drawback of these instru-
+ments is that, by construction, they may capture more than just
+the exogenous changes in air trafﬁc growth induced by the airline
+deregulation. For instance, unobserved factors that affect both air
+
+28 We are grateful to Jan Brueckner for suggesting these instruments.
+
+trafﬁc and urban growth, and that change simultaneously with
+the change in policy are going to load onto the ﬁrst stage estimator.
+To understand how large is this concern, as a preliminary data
+check, we inspect for structural breaks in the MSAs’ growth path
+around the time of the ADA.29 The results of this exercise, relegated
+to the Appendix Table A1, suggest that once accounting for city and
+time ﬁxed effects, the average annual growth rate of population,
+employment or per-capita income during the period 1977–1983
+does not differ from the pre-deregulation period in a way that is sys-
+tematically related to the size category of the cities in the sample.
+
+4. Data
+
+The data used in this study correspond to years 1969, 1977 and
+1991 (and 1983 for air trafﬁc), and are collected from various
+sources. The beginning and end years of the sample period are dic-
+tated by data availability, as well as the distance in time away from
+the policy shock represented by the 1978 ADA. The data are col-
+lected at the city or county level for the 48 contiguous U.S. states,
+and aggregated to the level of metropolitan (or, in some cases
+micropolitan) statistical areas.30 This seems the most appropriate
+spatial unit for evaluating the economic impact of an airport’s air
+transport services.
+
+29 To do so, we include the instruments as explanatory variables in a fully speciﬁed
+regression model of urban growth, where the growth rate of each economic indicator
+used as dependent variable is calculated over the same post-deregulation time
+window as the growth rate of air trafﬁc, i.e., 1977–1983.
+30 We use the current mapping of counties into the core based statistical areas (the
+majority of which are MSAs) available from the U.S. Census through their U.S
+Gazetteer Place data from 2006. Even if the current delineation does not correspond
+to the one implemented several decades ago, its application throughout the entire
+sample period ensures the consistency of statistical areas throughout the panel
+period.
+
+136
+
+Table 2
+Summary statistics.
+
+Variable (log)
+
+Growth rates: total sample
+Passenger growth
+Population growth
+Income growth
+Employment growth
+
+Growth rates: pre-deregulation period
+Passenger growth ’69–’77
+Population growth ’69–’77
+Income growth ’69–’77
+Employment growth ’69–’77
+
+Growth rates: post-deregulation period
+Passenger growth ’77–’83
+Population growth ’77–’91
+Income growth ’77–’91
+Employment growth ’77–’91
+Base year variables (per long-run period)a
+Passengers per-capita
+Population
+Income per-capita
+Employment
+Share manufacturing
+Share services
+Share wholesale
+Share retail
+Share transport/utilities
+Share construction
+Population LagðT0 10Þb
+Population LagðT0 20Þb
+Population LagðT0 30Þb
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+Obs.
+
+Mean
+
+Std. dev.
+
+526
+526
+526
+526
+
+263
+263
+263
+263
+
+263
+263
+263
+263
+
+526
+526
+526
+526
+526
+526
+526
+526
+526
+524
+526
+526
+526
+
+0.012
+0.012
+0.017
+0.028
+
+0.049
+0.015
+0.025
+0.031
+
+ 0.025
+0.009
+0.010
+0.025
+
+ 0.713
+12.034
+9.220
+10.687
+ 1.430
+ 1.632
+ 2.731
+ 1.482
+ 2.793
+ 2.800
+11.933
+11.795
+11.609
+
+0.061
+0.012
+0.011
+0.018
+
+0.034
+0.012
+0.008
+0.020
+
+0.060
+0.011
+0.006
+0.015
+
+0.937
+1.273
+0.184
+1.390
+0.604
+0.270
+0.366
+0.227
+0.320
+0.359
+1.254
+1.222
+1.211
+
+Min.
+
+ 0.185
+ 0.014
+ 0.010
+ 0.033
+
+ 0.040
+ 0.005
+0.000
+ 0.033
+
+ 0.185
+ 0.014
+ 0.010
+ 0.014
+
+ 3.456
+9.273
+8.478
+7.745
+ 3.870
+ 2.722
+ 5.573
+ 2.341
+ 3.799
+ 3.878
+8.870
+8.648
+8.665
+
+Max.
+
+0.150
+0.060
+0.051
+0.080
+
+0.150
+0.053
+0.051
+0.080
+
+0.108
+0.060
+0.029
+0.074
+
+2.036
+16.020
+9.746
+14.990
+ 0.350
+ 0.646
+ 1.675
+ 0.862
+ 1.397
+ 1.266
+15.940
+15.764
+15.567
+
+a Initial conditions refer to economic indicators from year 1969 for the pre-deregulation period, 1969–1977, and from year 1977 for the post-deregulation period 1977–
+
+1991.
+
+b For the pre-deregulation period, the three lags of population levels correspond to years 1960, 1950 and 1940. For the post-deregulation period, the three lags of
+
+population levels correspond to years 1969, 1960 and 1950.
+
+The air passenger transport data are provided by the Depart-
+ment of Transportation (DOT) and the Federal Aviation Administra-
+tion (FAA). We collect the data from the Airport Activity Statistics of
+Certiﬁcated Route Air Carriers, which cover the activity of large air
+carriers certiﬁed to operate aircraft with capacity of 60 seats or
+more. We augment this data with air trafﬁc information from the
+Small Air Carriers Database (Form 298C Schedule T1) provided by
+the DOT. We restrict attention to domestic scheduled air services
+and for each city or airport in the U.S. record the total annual num-
+ber of enplaned passengers. We map all U.S. airports or city loca-
+tions available in our dataset into the corresponding counties
+using information from the FAA, and then map counties into MSAs
+based on the concordance available from the U.S. Census Bureau.
+Data on population and per-capita income is provided by the
+Bureau of Economic Analysis at the county level, which we then
+aggregate to the MSA level.31 Employment data – total and by major
+sectors (manufacturing, services, wholesale, retail, construction,
+transportation and utilities) – are available from the County Business
+Patterns (CBP) provided by the U.S. Census.32
+
+After combining all sources of data over the three selected years
+1969, 1977 and 1991 (1983 for air trafﬁc), and after screening the
+resulting sample for potential outliers, we end up with a set of 263
+urban centers.33 Each of these remaining MSAs hosts at least one
+
+31 Nominal per-capita income rates are converted into real values using the
+consumer price index (CPI) series provided by the Federal Reserve Bank of St. Louis.
+32 For the years prior to 1986, the CBP ﬁles are not available electronically from the
+U.S. Census, so we use the Inter-University Consortium for Political and Social
+Research (ICPSR) as our data source.
+33 In obtaining the estimation sample, we have dropped the top and bottom 5
+percent of cities based on (per-period) passenger growth rates in order to remove any
+outliers.
+
+airport that has been active in every one of the three years spanning
+the 23-year period. The summary statistics on the variables of inter-
+est, including the constructed annual growth rates for the periods
+1969–1977 and 1977–1991 (respectively, 1977–1983 for air trafﬁc),
+are reported in Table 2. An important thing to notice is the substan-
+tial variation in growth rates over the two sample periods, especially
+for air passenger trafﬁc.
+
+5. Estimation results
+
+5.1. OLS approach
+
+Table 3 reports the results from estimating Eq. (6) with popula-
+tion growth as the local economic outcome of interest. The ﬁrst
+column includes city-level changes in air trafﬁc, in addition to a
+minimum set of control variables: time ﬁxed effect and initial peri-
+od conditions. Population levels at the start of each time period
+account for differences across cities in population growth rates,
+while the time ﬁxed effect captures any post-deregulation macroe-
+conomic shocks that may affect the rate of population growth
+nationwide.
+
+Air trafﬁc growth has a positive effect on the rate of population
+growth. While signiﬁcant, this result does not take into account the
+possibility that prior and anticipated future city growth are not
+only correlated with actual urban growth rates, but they also
+determine the growth rate of air trafﬁc post-deregulation. To
+remove this source of endogeneity, in column 2 we include three
+decadal lags of population, in levels. The effect of air service on
+population growth decreases in magnitude but remains positive
+and signiﬁcant.
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+137
+
+Table 3
+OLS effect of air travel changes on population growth.
+
+Dependent variable: population growth rateiT
+
+Passenger growth rateiT
+
+Passenger per capitaT0
+
+PopulationT0
+
+Population lagT0 10
+
+Population lagT0 20
+
+Population lagT0 30
+
+Income per capitaT0
+
+EmploymentT0
+
+Share manufacturingT0
+
+Share servicesT0
+
+Share retailT0
+
+Share wholesaleT0
+
+Share transport=utilitiesT0
+
+Share constructionT0
+
+Time ﬁxed effect
+MSA ﬁxed effects
+Large hubs included?
+Observations
+R-squared
+
+Basic
+(1)
+0.108⁄⁄⁄
+[0.010]
+0.002⁄⁄
+[0.001]
+ 0.002⁄⁄⁄
+[0.000]
+
+Population lags
+(2)
+0.084⁄⁄⁄
+[0.010]
+0.001
+[0.001]
+0.015⁄⁄
+[0.007]
+ 0.007
+[0.006]
+0.003
+[0.005]
+ 0.014⁄⁄⁄
+[0.003]
+
+Yes
+No
+Yes
+526
+0.301
+
+Yes
+No
+Yes
+526
+0.479
+
+Industrial composition
+(3)
+0.066⁄⁄⁄
+[0.009]
+ 0.001
+[0.001]
+0.009
+[0.006]
+ 0.008
+[0.005]
+ 0.005
+[0.004]
+ 0.010⁄⁄⁄
+[0.002]
+ 0.021⁄⁄⁄
+[0.004]
+0.013⁄⁄⁄
+[0.003]
+0.000
+[0.001]
+0.004
+[0.003]
+0.008⁄⁄
+[0.004]
+ 0.001
+[0.001]
+0.002
+[0.001]
+0.005⁄⁄⁄
+[0.001]
+
+Yes
+No
+Yes
+524
+0.577
+
+MSA ﬁxed effects
+(4)
+0.031⁄⁄⁄
+[0.007]
+0.005⁄⁄⁄
+[0.002]
+ 0.053⁄⁄⁄
+[0.007]
+0.002
+[0.003]
+0.004
+[0.003]
+0.011⁄⁄⁄
+[0.004]
+ 0.012
+[0.008]
+0.001
+[0.005]
+0.002
+[0.002]
+0.003
+[0.004]
+ 0.001
+[0.005]
+0.002⁄⁄
+[0.001]
+ 0.004⁄⁄
+[0.002]
+0.001
+[0.001]
+
+Yes
+Yes
+Yes
+524
+0.673
+
+No hubs
+(5)
+0.026⁄⁄⁄
+[0.007]
+0.004⁄⁄⁄
+[0.001]
+ 0.053⁄⁄⁄
+[0.007]
+0.001
+[0.003]
+0.004
+[0.003]
+0.010⁄⁄
+[0.004]
+ 0.010
+[0.008]
+0.001
+[0.005]
+0.002
+[0.002]
+0.003
+[0.004]
+ 0.001
+[0.005]
+0.002⁄⁄
+[0.001]
+ 0.005⁄⁄
+[0.002]
+0.001
+[0.002]
+
+Yes
+Yes
+No
+486
+0.693
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the baseline regression Eq. (6). The data panel includes two long-run time periods, 1969–1977 and 1977–1991, deﬁned around the
+year of the aviation deregulation. The dependent variable, i.e., annual population growth, is calculated at MSA level over each time period. The main variable of interest, i.e.,
+air passenger annual growth rate, is calculated over a shorter post-deregulation period (1977–1983) to better isolate the exogenous variation induced by the policy shock. The
+decennial population lags control for previous and anticipated city growth rates. The period-speciﬁc initial economic conditions help to mitigate endogeneity. The time period
+and city level ﬁxed effects account for both macroeconomic and for location-speciﬁc secular growth trends. The large city hubs (dropped in the last column) are identiﬁed
+based on a classiﬁcation provided by the Federal Aviation Administration.
+⁄ p < 0.1.
+⁄⁄ p < 0.05
+⁄⁄⁄ p < 0.01.
+
+Next, we add to the estimation model regional indicators to
+account for differences in economic conditions at city level at the
+start of each time period. In particular, the industrial composition
+of a city’s activities has been shown to be a signiﬁcant determinant
+of urban growth.34 Therefore, we allow the rate of urban growth to
+vary over time according to the sectoral composition of cities in the
+initial period. The estimates are reported in column 3. As expected,
+differences across cities in industrial structure inﬂuence both urban
+growth, as well as the growth of air services. Once conditioning on
+such linkages, the impact of air trafﬁc changes on population growth
+decreases in magnitude, but remains positive and highly signiﬁcant.
+Finally, there are several other location speciﬁc characteristics
+that need to be considered but may be difﬁcult to measure. Some
+of these characteristics are time invariant, like geographic location,
+
+34 Glaeser et al. (1992) provides evidence that inter-industry knowledge spillovers,
+which are facilitated by a diverse industrial base, explain economic agglomerations.
+At the same time, the industrial composition of a region also determines its average
+level of human capital, inﬂuencing income levels and consumption. More important-
+ly, Brueckner (2003) provides evidence from a cross-section of MSAs that services
+beneﬁt more than manufacturing activities from the availability and quality of air
+services.
+
+natural resources, or climate. Other factors, even if location-speci-
+ﬁc, may evolve at a constant rate over time. To account for such
+factors that simultaneously determine air travel and urban growth
+rates, we rely on city ﬁxed effects as solution. Column 4 of Table 3
+reports the results from such a fully speciﬁed regression model.
+This is our preferred speciﬁcation. The coefﬁcient on the variable
+of interest remains positive and signiﬁcant, with a 50 percent
+increase in the annual air trafﬁc growth rate leading to a 1.55 per-
+cent increase in the annual population growth rate, on average.35
+Cumulating the resulting change in population over time, this
+
+35 There is a lot of variation across communities in the change in air trafﬁc growth
+rates between the pre- and post-deregulation periods. The median city in the sample
+witnessed an average  1.9 percent annual growth rate in air passenger trafﬁc in the
+time period following the deregulation, and this represents a negative 123 percent
+change relative to the average annual growth rate observed in the regulation period.
+To interpret our estimation coefﬁcients, rather than rely on the large sample
+deviation, we chose to use a more moderate value of a 50 percent change in the air
+trafﬁc growth rate. In the sample, there are 42 (16%) communities whose air trafﬁc
+growth rate changed by up to 50 percent. While this may not be a very large number,
+we think this conservative scenario is more representative for out-of-sample periods.
+The kind of changes in air trafﬁc growth rates that happened around the aviation
+deregulation period are probably much larger than what we tend to observe today.
+
+138
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+Table 4
+OLS effect of air travel changes on local per-capita income growth and on employment growth.
+
+Dependent variable: annual growth rateiT for. . .
+
+Passenger growth rateiT
+
+Passenger per capitaT0
+
+Income per capitaT0
+
+PopulationT0
+
+Population lagT0 10
+
+Population lagT0 20
+
+Population lagT0 30
+
+EmploymentT0
+
+Share manufacturingT0
+
+Share servicesT0
+
+Share retailT0
+
+Share wholesaleT0
+
+Share transport=utilitiesT0
+
+Share constructionT0
+
+Per capita income
+
+Industrial composition
+(1)
+0.039⁄⁄⁄
+[0.007]
+ 0.000
+[0.000]
+ 0.023⁄⁄⁄
+[0.004]
+ 0.005
+[0.004]
+0.006
+[0.005]
+ 0.004
+[0.005]
+0.002
+[0.003]
+0.001
+[0.002]
+ 0.001
+[0.001]
+0.002
+[0.002]
+ 0.002
+[0.003]
+ 0.000
+[0.001]
+0.001
+[0.001]
+ 0.000
+[0.001]
+
+Time ﬁxed effect
+MSA ﬁxed effects
+Large hubs included?
+Observations
+R-squared
+
+Yes
+No
+Yes
+524
+0.628
+
+MSA ﬁxed effects
+(2)
+0.033⁄⁄⁄
+[0.008]
+0.003⁄
+[0.002]
+ 0.143⁄⁄⁄
+[0.007]
+0.014
+[0.009]
+ 0.001
+[0.002]
+ 0.003
+[0.003]
+ 0.004
+[0.003]
+ 0.000
+[0.007]
+0.000
+[0.002]
+ 0.000
+[0.004]
+0.002
+[0.006]
+0.002
+[0.001]
+ 0.000
+[0.002]
+ 0.006⁄⁄⁄
+[0.002]
+
+Yes
+Yes
+Yes
+524
+0.918
+
+No hubs
+(3)
+0.034⁄⁄⁄
+[0.009]
+0.003⁄
+[0.002]
+ 0.144⁄⁄⁄
+[0.008]
+0.013
+[0.009]
+ 0.001
+[0.003]
+ 0.003
+[0.003]
+ 0.003
+[0.004]
+0.000
+[0.007]
+0.001
+[0.002]
+ 0.000
+[0.004]
+0.003
+[0.006]
+0.002
+[0.001]
+ 0.000
+[0.002]
+ 0.005⁄⁄⁄
+[0.002]
+
+Yes
+Yes
+No
+486
+0.920
+
+Employment
+
+Industrial composition
+(4)
+0.100⁄⁄⁄
+[0.014]
+ 0.000
+[0.001]
+ 0.030⁄⁄⁄
+[0.006]
+0.010⁄⁄
+[0.004]
+ 0.001
+[0.004]
+ 0.014⁄⁄
+[0.006]
+ 0.006
+[0.004]
+0.009⁄⁄
+[0.004]
+0.000
+[0.002]
+0.012⁄⁄⁄
+[0.003]
+0.026⁄⁄⁄
+[0.005]
+0.002
+[0.002]
+0.002
+[0.002]
+0.003⁄
+[0.002]
+
+Yes
+No
+Yes
+524
+0.586
+
+MSA ﬁxed effects
+(5)
+0.054⁄⁄⁄
+[0.013]
+0.007⁄⁄
+[0.003]
+ 0.034⁄⁄⁄
+[0.013]
+0.064⁄⁄⁄
+[0.012]
+0.005
+[0.005]
+ 0.000
+[0.004]
+0.006
+[0.005]
+ 0.106⁄⁄⁄
+[0.010]
+ 0.004
+[0.003]
+ 0.007
+[0.010]
+0.005
+[0.008]
+0.004⁄⁄
+[0.002]
+ 0.007⁄⁄
+[0.003]
+ 0.004
+[0.003]
+
+Yes
+Yes
+Yes
+524
+0.755
+
+No hubs
+(6)
+0.050⁄⁄⁄
+[0.014]
+0.006⁄⁄
+[0.003]
+ 0.030⁄⁄
+[0.012]
+0.065⁄⁄⁄
+[0.013]
+0.004
+[0.004]
+ 0.001
+[0.004]
+0.004
+[0.005]
+ 0.106⁄⁄⁄
+[0.010]
+ 0.003
+[0.003]
+ 0.007
+[0.010]
+0.006
+[0.008]
+0.004⁄⁄
+[0.002]
+ 0.007⁄⁄
+[0.003]
+ 0.003
+[0.003]
+
+Yes
+Yes
+No
+486
+0.763
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the baseline regression Eq. (6). The data panel includes two long-run time periods, 1969–1977 and 1977–1991, deﬁned around the
+year of the aviation deregulation. The dependent variable, i.e., annual per-capita income growth, is calculated at MSA level over each time period. The main variable of
+interest, i.e., air passenger annual growth rate, is calculated over a shorter post-deregulation period (1977–1983) to better isolate the exogenous variation induced by the
+policy shock. The decennial population lags control for previous and anticipated city growth rates. The period-speciﬁc initial economic conditions help to mitigate endo-
+geneity. The time period and city level ﬁxed effects account for both macroeconomic and for location-speciﬁc secular growth trends. The large city hubs (dropped in the last
+column) are identiﬁed based on a classiﬁcation provided by the Federal Aviation Administration.
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+corresponds to a 0.42 percent additional increase in the population
+of the average city after a 20-year period.36
+
+We further examine the sensitivity of our results to sample
+composition by verifying whether our estimates are driven by a
+subset of cities, in particular, by large hub airports. We identify
+the MSAs that host the largest airport hubs based on the airport
+classiﬁcation compiled by the Federal Aviation Administration
+(FAA). Column 5 reports the results from a fully speciﬁed model
+estimated on a subsample that excludes large hub cities. While
+the effect of air trafﬁc on urban growth decreases in magnitude,
+it remains positive and signiﬁcant. This provides evidence that
+our ﬁnding is not a local result, driven by a particular subset of
+urban centers in our sample.
+
+36 To arrive at this number, we take the annual population growth rate of an average
+city in the sample, computed over the period 1969–1991, which is equal to 1.365 per
+year. Then, a 50 percent increase in the air trafﬁc growth rate predicts an annual
+pop ¼ ð1 þ 0:0155Þ1:365 ¼ 1:386. We then apply the
+growth rate of population of: gpredict
+¼ ð1þ1:386=100Þ20Popt
+following calculation: Poppredict
+tþ20
+ð1þ1:365=100Þ20Popt
+Popactual
+tþ20
+
+¼ 1:0042 or 0.42 percent.
+
+Overall, the estimates in Table 3 provide robust evidence that
+urban growth, as measured by population size, is directly affected
+by the provision of air services. Next, we investigate whether per-
+capita income responds in a similar manner. If air services are an
+important factor into productivity changes, then a standard model
+of urban growth predicts that they should directly affect changes in
+per-capita income as well.
+
+Table 4 reports the estimation results following the same model
+speciﬁcations as in columns 3–5 of Table 3. In all of the estimated
+regressions, the impact of air trafﬁc on per-capita income growth is
+positive and signiﬁcant. The magnitude of the effects decreases as
+we control for omitted variable bias by gradually accounting in our
+estimation for city characteristics that simultaneously affect air
+trafﬁc and urban growth rates. Based on the preferred speciﬁcation
+reported in column 2, a 50 percent increase in the air passenger
+growth rate leads to a 1.65 percent increase in the annual growth
+rate of per-capita income, on average. To put results in perspective,
+the annual income growth rate calculated over the sample period
+is 1.76 percent for the average city. Cumulating the resulting
+change in per-capita income over a 20-year period, this corre-
+sponds to a 0.57 percent additional
+increase in the level of
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+139
+
+per-capita income for the average city. These effects are almost
+identical when we eliminate the large hub cities from the sample
+(see column 3).
+
+While there are several reasons why population growth may be
+preferred to employment as an indicator of regional growth, it is
+customary in the urban economics literature to investigate the
+effects of air trafﬁc on regional employment. Research work has
+shown that agglomerations, through the positive externalities they
+provide, represent a strong force of attraction for future businesses.
+Furthermore, the effect of air passenger services on employment
+growth may operate not only through productivity effects, but also
+through quality of life considerations (i.e., urban amenities).
+
+The results explaining the growth in employment are provided
+in columns 4–6 of Table 4. Again, the columns report the estimates
+from speciﬁcations that gradually incorporate an increasing set of
+control variables to explain the differences in employment growth
+across communities (following the same pattern as columns 1–3 of
+the same table). Focusing on the most complete speciﬁcation
+reported in column 5, we ﬁnd that a 50 percent increase in the rate
+of regional air trafﬁc growth leads to a 2.7 percent increase in
+annual employment growth, on average. The coefﬁcient is larger
+in magnitude than the effect of trafﬁc growth on population, sug-
+gestive of additional channels through which air services affect
+employment growth that operate independently from population
+growth determinants. To put results in perspective, the annual
+employment growth rate calculated over the sample period is 3
+percent for the average city. Cumulating the resulting change in
+employment over a 20-year period, this leads to an additional
+increase in total employment of 1.6 percent for the average city.
+By dropping the large hub cities from our sample, the magnitude
+of the main coefﬁcient of interest decreases slightly but remains
+highly signiﬁcant (column 6). This reveals that the estimated aver-
+age employment effects are not driven by a particular subgroup of
+cities, but are in fact representative for the entire sample of urban
+centers.
+
+5.2. Instrumental variables (2SLS) approach
+
+To address any remaining endogeneity concerns, we experi-
+ment with two sets of excluded instruments. We exploit informa-
+tion on the differences in regulatory distortions across cities based
+on their size. Table 5 reports the 2SLS estimation results for each of
+the three urban growth indicators as dependent variable. For con-
+ciseness, we only report the coefﬁcients for the variable of interest,
+however the estimated model includes the complete set of controls
+and ﬁxed effects used in prior estimations.
+
+Columns 1–4 of Table 5 include the 2SLS estimates for the
+speciﬁcation explaining urban population growth. We ﬁrst instru-
+ment for the difference in the growth rate of air trafﬁc over time
+using the average air trafﬁc change observed across cities within
+the same size category. That is, we use the interaction terms
+between the post-deregulation time indicator and city size indica-
+tors, distinguishing between small, medium or large cities. The
+results are reported in column 1. In the subsequent columns, we
+experiment with variants of the proposed instrument. In column
+2 we use as instrument the average air trafﬁc change observed in
+other cities within the same size category as the city in question.
+In column 3 we use proximity as criteria to weight the other cities
+whose air trafﬁc changes are used in predicting a city’s response to
+deregulation. If regulatory distortions have regional-speciﬁc com-
+ponents, we are able to exploit that additional source of exogenous
+variation with this location-speciﬁc instrument. In column 4, we
+combine the predictive power of the last two instruments by using
+them together in the same regression.
+
+Across all four 2SLS speciﬁcations, the effect of air trafﬁc on
+population growth remains positive and statistically signiﬁcant.
+
+Using the coefﬁcient from column 1, a 50 percent increase in the
+air passenger growth rate leads to a 4.15 percent increase in the
+annual rate of population growth, on average. Comparing columns
+1–4, there are no notable differences between the estimated coef-
+ﬁcient of interest. However, the IV estimates are larger in magni-
+tude when compared to the OLS results from column 4 in
+Table 3. While this direction of change may seem contrary to the
+expected positive correlation between air trafﬁc and population
+growth rates, this outcome is not new to the literature (e.g.,
+Duranton and Turner, 2012; Duranton et al., 2014). Like others
+have pointed out, transportation infrastructure might get allocated
+disproportionately to cities that are less productive, poorer and
+that grow slower, which explains the underlying negative correla-
+tion. Put differently, unobservable factors causing urban growth
+during the regulation period may have determined the CAB to inef-
+ﬁciently allocate air services across communities, oversupplying
+the cities witnessing slower growth at the expense of rapidly grow-
+ing areas. In addition, much of the positive correlation between air
+trafﬁc and urban growth is already accounted for by the control
+variables and the regression ﬁxed effects. Lastly, it is also possible
+that air trafﬁc changes are measured or recorded with error at city
+level, inducing attenuation bias in the OLS estimates.
+
+Two conditions are necessary for these proposed variables to
+qualify as valid instruments. First, the excluded instruments need
+to be correlated with city level changes in air trafﬁc growth, condi-
+tional on all the right-hand side regression variables. In that
+respect, both the anecdotal evidence and the data representation
+in Fig. 2 seem to give support to this condition. Second, the exclud-
+ed instruments must not be correlated with the residual from the
+urban growth regression. Here, it is important to emphasize that
+the model speciﬁcation directly controls for the city size at the
+beginning of each period, as well as for the city’s history of eco-
+nomic growth, in addition to accounting for secular trends using
+city ﬁxed effects. This removes concerns about omitted variable
+bias, minimizing the ways in which the excluded instruments
+could be correlated with the urban growth residual.
+
+Formal tests for the validity of the excluded instruments are
+reported at the bottom of Table 5. From the ﬁrst stage coefﬁcients,
+it appears that the excluded instruments are jointly signiﬁcant in
+explaining changes over time in air trafﬁc growth. The reported
+F-statistic and the partial R-squared are large, being well above
+the conventional critical levels. Furthermore, the overidentiﬁcation
+test for the exogeneity of the excluded instruments also provides
+support for their choice. Based on the reported Hansen J-statistic,
+the test fails to reject the hypothesis that the instruments are
+uncorrelated with the residual from the population growth regres-
+sion (once conditioning on all the control variables and ﬁxed
+effects).
+
+Moving to the speciﬁcations explaining per-capita income
+growth, we report the corresponding 2SLS estimates in columns
+5–8 of Table 5. We exploit the same set of excluded instruments
+as before (in columns 1–4), and we ﬁnd a similar pattern of results.
+The effect of air trafﬁc on per-capita income growth is positive and
+signiﬁcant in all of the 2SLS estimations, and the magnitude of the
+coefﬁcient is almost double in size compared to the OLS result
+(reported in Table 4). Based on the estimate from column 5, a 50
+percent increase in the air passenger growth rate leads to a 3.2 per-
+cent increase in the annual rate of per-capita income growth, on
+average. Since the estimated regression model is no different from
+the one explaining population growth, the ﬁrst stage coefﬁcients
+reported at the bottom of columns 5–8 are identical to the ones
+in columns 1–4. Only the test of overidentifying restrictions pro-
+vides different statistics due to a change in the dependent variable.
+Judging from the reported Hansen J statistic, the chosen instru-
+ments are exogenous to the regression model, being orthogonal
+to the residual income growth rates.
+
+Dependent variable: annual growth rateiT
+Population
+
+(1)
+0.083⁄⁄⁄
+[0.017]
+
+(2)
+0.086⁄⁄⁄
+[0.018]
+
+(3)
+0.081⁄⁄⁄
+[0.021]
+
+(4)
+0.084⁄⁄⁄
+[0.017]
+
+Employment
+
+(6)
+0.066⁄⁄⁄
+[0.018]
+
+(7)
+0.072⁄⁄⁄
+[0.020]
+
+(8)
+0.069⁄⁄⁄
+[0.016]
+
+(9)
+0.101⁄⁄⁄
+[0.025]
+
+(10)
+0.104⁄⁄⁄
+[0.027]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.593
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.608
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.911
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.908
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.910
+
+Table 5
+Instrumental variables estimates for the effect of air travel on urban growth.
+
+Passenger growth rateiT
+
+Time ﬁxed effect
+MSA ﬁxed effects
+Initial economic conditionsðT0Þ
+Pop: lagsðT0 10;T0 20;T0 30Þ
+Sectoral composition
+Observations
+R-sq
+
+Excluded instruments:
+Post-deregulation period  medium city
+
+Post-deregulation period  large city
+
+Avg. passenger growth in other cities by size
+
+Avg. passenger growth in other cities by location & size
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.602
+
+0.014⁄
+[0.008]
+0.058⁄⁄⁄
+[0.009]
+
+First stage statistics:
+F-statistic
+Partial R-squared
+Hansen J statistic
+Hansen J p-value
+
+30.11
+0.173
+0.092
+0.762
+
+52.39
+0.156
+n.a.
+n.a.
+
+Income
+
+(5)
+0.064⁄⁄⁄
+[0.017]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.912
+
+0.014⁄
+[0.008]
+0.058⁄⁄⁄
+[0.009]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.599
+
+0.577⁄⁄⁄
+[0.160]
+3.349⁄⁄
+[1.359]
+
+33.47
+0.179
+0.081
+0.777
+
+0.832⁄⁄⁄
+[0.115]
+
+0.832⁄⁄⁄
+[0.115]
+
+6.315⁄⁄⁄
+[1.028]
+
+37.75
+0.133
+n.a.
+n.a.
+
+0.577⁄⁄⁄
+[0.160]
+3.349⁄⁄
+[1.359]
+
+33.47
+0.179
+0.092
+0.762
+
+6.315⁄⁄⁄
+[1.028]
+
+37.75
+0.133
+n.a.
+n.a.
+
+30.11
+0.173
+2.403
+0.121
+
+52.39
+0.156
+n.a.
+n.a.
+
+1
+4
+0
+
+.
+
+B
+A
+
+.
+
+B
+l
+o
+n
+i
+g
+e
+n
+
+,
+
+.
+
+A
+D
+
+.
+
+C
+r
+i
+s
+t
+e
+a
+/
+
+J
+o
+u
+r
+n
+a
+l
+
+o
+f
+
+U
+r
+b
+a
+n
+
+E
+c
+o
+n
+o
+m
+i
+c
+s
+
+8
+6
+
+(
+2
+0
+1
+5
+)
+
+1
+2
+8
+–
+1
+4
+6
+
+(11)
+0.079⁄⁄
+[0.031]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.750
+
+6.315⁄⁄⁄
+[1.028]
+
+37.75
+0.133
+n.a.
+n.a.
+
+(12)
+0.094⁄⁄⁄
+[0.025]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.744
+
+0.577⁄⁄⁄
+[0.160]
+3.349⁄⁄
+[1.359]
+
+33.47
+0.179
+0.867
+0.352
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.740
+
+0.014⁄
+[0.008]
+0.058⁄⁄⁄
+[0.009]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.738
+
+0.832⁄⁄⁄
+[0.115]
+
+30.11
+0.173
+1.084
+0.298
+
+52.39
+0.156
+n.a.
+n.a.
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the regression Eq. (6) estimated by instrumental variables methods (2SLS). We instrument for the variable of interest – air passenger annual growth rate – using the following excluded
+instruments: (1) a time dummy for the post-deregulation period, allowed to vary by city size category (this measure corresponds to the deviation in air trafﬁc changes over time observed among cities within the same size groups);
+(2) the average air trafﬁc growth rate of other cities within the same size category; (3) the average air trafﬁc growth rate of other cities within the same size category, weighted by distance. Because of the presence of city ﬁxed
+effects, the variation exploited by the last two instruments also consists of deviations in air trafﬁc changes over time. The complete list of the controls and ﬁxed effects from prior estimations are included in all the reported
+speciﬁcations.
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+Table 6
+Effect of air travel changes on local employment growth by sector.
+
+Dependent variable: sector employment growth rateiT
+
+Passenger growth rateiT
+
+Time ﬁxed effect
+MSA ﬁxed effects
+Initial economic conditionsðT0Þ
+Pop: lagsðT0 10;T0 20;T0 30Þ
+Sectoral composition
+Observations
+R-squared
+
+Excluded instruments:
+Post-deregulation period  medium city
+Post-deregulation period  large city
+Pax growth in other cities by size
+Pax growth in other cities by loc. and size
+
+First stage statsistics:
+F-stat
+Hansen J stat
+Hansen J p-val
+
+Manufacturing
+
+(1)
+OLS
+ 0.011
+[0.027]
+Yes
+Yes
+Yes
+Yes
+Yes
+519
+0.789
+
+(2)
+2SLS
+ 0.049
+[0.055]
+Yes
+Yes
+Yes
+Yes
+Yes
+512
+0.788
+
+Yes
+Yes
+
+28.64
+0.140
+0.709
+
+(3)
+2SLS
+ 0.092
+[0.059]
+Yes
+Yes
+Yes
+Yes
+Yes
+512
+0.781
+
+Yes
+Yes
+
+31.46
+2.014
+0.156
+
+Services
+
+(4)
+OLS
+0.071⁄⁄⁄
+[0.017]
+Yes
+Yes
+Yes
+Yes
+Yes
+524
+0.702
+
+(5)
+2SLS
+0.203⁄⁄⁄
+[0.038]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.620
+
+Yes
+Yes
+
+30.11
+7.658
+0.006
+
+(6)
+2SLS
+0.212⁄⁄⁄
+[0.038]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.608
+
+Yes
+Yes
+
+33.47
+0.018
+0.894
+
+Wholesale
+
+(7)
+OLS
+
+0.011
+[0.024]
+Yes
+Yes
+Yes
+Yes
+Yes
+523
+0.902
+
+(8)
+2SLS
+0.087⁄
+[0.050]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.897
+
+Yes
+Yes
+
+30.11
+0.001
+0.985
+
+(9)
+2SLS
+
+0.065
+[0.053]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.899
+
+Yes
+Yes
+
+33.47
+1.601
+0.206
+
+Retail
+
+(10)
+OLS
+0.040⁄⁄⁄
+[0.011]
+Yes
+Yes
+Yes
+Yes
+Yes
+524
+0.812
+
+(11)
+2SLS
+0.080⁄⁄⁄
+[0.025]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.801
+
+Yes
+Yes
+
+30.11
+1.074
+0.300
+
+(12)
+2SLS
+0.078⁄⁄⁄
+[0.025]
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.802
+
+Yes
+Yes
+
+33.47
+0.327
+0.568
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the baseline regression Eq. (6), with the modiﬁcation that sector level employment growth rates are used as dependent variables. The data panel includes two long-run time periods, 1969–
+1977 and 1977–1991, deﬁned around the year of the aviation deregulation. The dependent variable, i.e., annual growth in sector level employment, is calculated at MSA level over each time period. The main variable of interest, i.e.,
+air passenger annual growth rate, is calculated over the shorter post-deregulation period (1977–1983) to better isolate the exogenous variation induced by the policy shock. To remove endogeneity concerns, in the reported 2SLS
+estimates in columns 2, 5, 8 and 11, the growth rate of air trafﬁc is instrumented by the same excluded variables as those reported in column 1 of Table 5. Further, in the reported 2SLS in columns 3, 6, 9 and 12, the growth rate of air
+trafﬁc is instrumented by the same excluded variables as those reported in column 4 of Table 5. The ﬁrst stage regression leads to the same estimates as previously reported. The complete list of the controls and ﬁxed effects from
+prior estimations are included in all the reported speciﬁcations.
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+.
+
+B
+A
+
+.
+
+B
+l
+o
+n
+i
+g
+e
+n
+
+,
+
+.
+
+A
+D
+
+.
+
+C
+r
+i
+s
+t
+e
+a
+/
+
+J
+o
+u
+r
+n
+a
+l
+
+o
+f
+
+U
+r
+b
+a
+n
+
+E
+c
+o
+n
+o
+m
+i
+c
+s
+
+8
+6
+
+(
+2
+0
+1
+5
+)
+
+1
+2
+8
+–
+1
+4
+6
+
+1
+4
+1
+
+142
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+Table 7
+Effect of air travel changes on the number of local businesses.
+
+Dependent variable: growth rate in number of ﬁrmsiT
+
+Passenger growth rateiT
+
+Large hubs included?
+Time ﬁxed effect
+MSA ﬁxed effects
+Initial economic conditionsðT0Þ
+Pop: lagsðT0 10;T0 20;T0 30Þ
+Sectoral composition
+Observations
+R-squared
+
+Excluded instruments:
+Post-deregulation period  medium city
+
+Post-deregulation period  large city
+
+Avg. passenger growth in other cities by size
+
+Avg. passenger growth in other cities by location and size
+
+First stage statistics:
+F-statistic
+Partial R-squared
+Hansen J statistic
+Hansen J p-value
+
+OLS
+Basic
+(1)
+0.039⁄⁄⁄
+[0.010]
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+524
+0.832
+
+OLS
+No hubs
+(2)
+0.035⁄⁄⁄
+[0.011]
+No
+Yes
+Yes
+Yes
+Yes
+Yes
+486
+0.841
+
+2SLS
+City category
+(3)
+0.123⁄⁄⁄
+[0.032]
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.769
+
+0.013⁄
+[0.008]
+0.046⁄⁄⁄
+[0.009]
+
+16.59
+0.100
+0.034
+0.854
+
+2SLS
+City category
+(4)
+0.135⁄⁄⁄
+[0.033]
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+520
+0.750
+
+0.444⁄⁄⁄
+[0.156]
+2.628⁄
+[1.347]
+
+17.80
+0.103
+0.114
+0.736
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the baseline regression Eq. (6). The data panel includes two long-run time periods, 1969–1977 and 1977–1991, deﬁned around the
+year of the aviation deregulation. The dependent variable, i.e., average annual change in the number of ﬁrms, is calculated at MSA level over each time period. The main
+variable of interest, i.e., air passenger annual growth rate, is calculated over the shorter post-deregulation period (1977–1983) to better isolate the exogenous variation
+induced by the policy shock. The decennial population lags control for previous and anticipated city growth rates. The period-speciﬁc initial economic conditions help to
+mitigate endogeneity. The time period and city ﬁxed effects account for both macroeconomic and location-speciﬁc secular growth trends. The large city hubs (dropped in the
+last column) are identiﬁed based on a classiﬁcation provided by the Federal Aviation Administration.
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+Finally, columns 9–12 of Table 5 report the 2SLS estimates for
+total employment as measure of urban growth. The pattern of
+results observed so far applies to this speciﬁcation as well. Again,
+we ﬁnd that the 2SLS estimates for the effect of air trafﬁc growth
+are positive and signiﬁcant, with a magnitude that is almost twice
+the size of the corresponding OLS coefﬁcient from column 5 in
+Table 4. The same reasoning for this ﬁnding that we provided ear-
+lier applies here as well. Based on the estimate reported in column
+9, a 50 percent increase in the air passenger growth rate leads to a
+5.5 percent increase in the annual rate of employment, on average.
+The reported tests of overidentifying restrictions validate once
+again the excluded instruments’ exogeneity.
+
+To summarize the results so far, we have pursued a variety of
+estimation strategies to identify a causal effect of the growth in
+air trafﬁc on the economic development and long-run growth of
+U.S. cities, and found surprisingly consistent and robust evidence
+for a positive and signiﬁcant effect.
+
+5.3. Robustness exercises
+
+This section describes additional data exercises that bring sup-
+port to the results of the paper. The aim here is twofold. First, we
+want to shed some light on the channels through which air trafﬁc
+changes affect urban growth. For that reason, we focus attention on
+employment composition effects, as well as on the expansion in
+the number of local businesses. Second, we want to verify the
+robustness of our ﬁndings to the choice of time windows, as well
+
+as to the use of the quasi-natural experiment as a source of exoge-
+nous data variation.
+
+5.3.1. Sectoral decomposition and ﬁrm extensive margin
+
+Studies analyzing the impact of road infrastructure ﬁnd robust
+evidence that retail and wholesale industries beneﬁt the most from
+improved market access and lower transportation costs (Michaels,
+2008). Similarly, studies focusing on air transport have shown that
+service sectors have been the most responsive to the availability of
+air services (Brueckner, 2003). Following this practice, we exploit
+the sectoral disaggregation available in the city level employment
+data to investigate the sectors whose labor demand is sensitive to
+changes in air passenger transport.
+
+The results reported in Table 6 are consistent with the prior lit-
+erature.
+It seems that the total employment effects that we
+documented earlier are mainly driven by employment growth in
+services and in trade-related industries. This ﬁnding is consistent
+across OLS and 2SLS speciﬁcations (where the latter are estimated
+using average deregulation shocks by city size category as
+instruments).37
+
+A second robustness exercise examines the impact of air traf-
+ﬁc changes on the establishment of new businesses in a location.
+
+37 This ﬁnding gives support to early reports by the CAB suggesting that market
+towns – where trading is the most important occupation – and diversiﬁed cities –
+which have a signiﬁcant representation of government, ﬁnance or professional
+activities – represent the type of cities that generate the largest demand for air trafﬁc
+(Sealy, 1968, p. 149; Eads, 1972).
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+143
+
+Table 8
+Robustness: sensitivity of estimates to redeﬁning the post-deregulation time periods.
+
+Dependent variable: annual growth rate for. . .
+
+Population
+
+OLS
+(1)
+
+2SLS
+(2)
+
+2SLS
+(3)
+
+Baseline estimates
+Urban Growth Window = [1977–1991] &
+Policy Shock Window = [1977–1983]
+
+0.031⁄⁄⁄
+[0.007]
+
+Sensitivity to long-run window for urban growth
+Urban Growth Window = [1977–1989]
+
+Urban Growth Window = [1977–1994]
+
+0.032⁄⁄⁄
+[0.007]
+0.031⁄⁄⁄
+[0.007]
+
+Sensitivity to short-run window for air trafﬁc growth
+0.027⁄⁄⁄
+Policy Shock Window = [1977–1982]
+[0.007]
+0.038⁄⁄⁄
+[0.007]
+
+Policy Shock Window = [1977–1984]
+
+MSA ﬁxed effects
+Time ﬁxed effect
+Base year controls
+Pop: lagsðT0 10;T0 20;T0 30Þ
+Sectoral composition
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Excluded instruments:
+Post-deregulation period  medium city
+Post-deregulation period  large city
+Pax growth in other cities by size
+Pax growth in other cities by loc. and size
+
+0.083⁄⁄⁄
+[0.017]
+
+0.081⁄⁄⁄
+[0.017]
+0.076⁄⁄⁄
+[0.016]
+
+0.078⁄⁄⁄
+[0.017]
+0.080⁄⁄⁄
+[0.015]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+0.084⁄⁄⁄
+[0.017]
+
+0.083⁄⁄⁄
+[0.017]
+0.076⁄⁄⁄
+[0.016]
+
+0.088⁄⁄⁄
+[0.018]
+0.081⁄⁄⁄
+[0.015]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Income
+
+OLS
+(4)
+
+0.033⁄⁄⁄
+[0.008]
+
+0.037⁄⁄⁄
+[0.010]
+0.027⁄⁄⁄
+[0.007]
+
+0.020⁄⁄⁄
+[0.007]
+0.026⁄⁄⁄
+[0.007]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Employment
+
+2SLS
+(5)
+
+2SLS
+(6)
+
+OLS
+(7)
+
+2SLS
+(8)
+
+2SLS
+(9)
+
+0.064⁄⁄⁄
+[0.017]
+
+0.084⁄⁄⁄
+[0.021]
+0.055⁄⁄⁄
+[0.015]
+
+0.056⁄⁄⁄
+[0.018]
+0.048⁄⁄⁄
+[0.016]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+0.069⁄⁄⁄
+[0.016]
+
+0.089⁄⁄⁄
+[0.020]
+0.056⁄⁄⁄
+[0.014]
+
+0.064⁄⁄⁄
+[0.018]
+0.052⁄⁄⁄
+[0.014]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+0.054⁄⁄⁄
+[0.013]
+
+0.064⁄⁄⁄
+[0.016]
+0.050⁄⁄⁄
+[0.011]
+
+0.042⁄⁄⁄
+[0.012]
+0.050⁄⁄⁄
+[0.012]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.101⁄⁄⁄
+[0.025]
+
+0.130⁄⁄⁄
+[0.031]
+0.071⁄⁄⁄
+[0.022]
+
+0.091⁄⁄⁄
+[0.027]
+0.091⁄⁄⁄
+[0.025]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+0.094⁄⁄⁄
+[0.025]
+
+0.137⁄⁄⁄
+[0.032]
+0.065⁄⁄⁄
+[0.021]
+
+0.102⁄⁄⁄
+[0.027]
+0.087⁄⁄⁄
+[0.023]
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+Yes
+Yes
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: This table veriﬁes the sensitivity of our results to the chosen time window over which growth rates are calculated for the post-deregulation period. The data sample
+used in all prior estimations spans two long-run time periods, 1969–1977 and 1977–1991, deﬁned around the year of the aviation deregulation. The air trafﬁc growth rate has
+been calculated over the shorter period 1977–1983 to better isolate the exogenous variation induced by the policy shock. The reported coefﬁcients correspond to the variable
+of interest, i.e., air trafﬁc growth, and are obtained from the baseline regression Eq. (6). To remove endogeneity concerns, in the reported 2SLS estimates in columns 2, 5, and 8,
+the growth rate of air trafﬁc is instrumented by the same excluded variables as those reported in column 1 of Table 5. Furthermore, in the reported 2SLS estimates in columns
+3, 6, and 9, the growth rate of air trafﬁc is instrumented by the same excluded variables as those reported in column 4 of Table 5. The complete list of the controls and ﬁxed
+effects from prior estimations are included in all the reported speciﬁcations. The unreported number of observations is 524 (520 in 2SLS regressions) and the R-squared varies
+between 0.548 and 0.929.
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+While we found direct evidence of employment growth at city
+level, it is not clear whether this is caused by production growth
+among existing ﬁrms (i.e., intensive margin effect), or by the
+entry of new ﬁrms (i.e., extensive margin effect). This distinction
+may be important to policy makers as business agglomerations
+are known to generate positive spillovers (e.g., Baldwin and
+Martin, 2004). Using information on the number of businesses
+operating in a location, which is available from the County Busi-
+ness Patterns database, we estimate the same fully speciﬁed
+regression model as before and report the estimates in Table 7.
+Columns 1 and 2 provide OLS estimates on a sample with and
+without large city hubs. Columns 3 and 4 report 2SLS estimates
+using the average growth in air trafﬁc across cities of similar size
+category as instruments. Across all estimations, air
+trafﬁc
+changes have a positive and signiﬁcant effect on the growth in
+the number of local businesses. Depending on speciﬁcation, a
+50 percent increase in the air trafﬁc growth rate leads to an
+increase in the growth of the number of ﬁrms between 2 and
+6.75 percent. Once again, we ﬁnd that the 2SLS estimates are
+larger in magnitude than the OLS counterparts, which may be
+the result of either attenuation bias from measurement error
+in ﬁrm count, or, more likely, from a disproportionate allocation
+of air services to slow growing cities during the CAB regulatory
+period.
+
+5.3.2. Coefﬁcient sensitivity to variations in time windows
+
+One consideration regarding our econometric strategy is that
+the time periods over which the growth rates are calculated may
+have a direct impact on the data variation used for model identiﬁ-
+cation. This is true especially if macroeconomic factors have a dif-
+ferential impact across cities in the years deﬁning the time window
+under consideration, case in which the time ﬁxed effect is not able
+to account for this heterogeneity. For instance, in constructing the
+long-run urban growth rates, we have chosen year 1991 as the
+end-point of the post-deregulation period. However, year 1991 is
+a recession year. This could attenuate the long-run growth rates
+used for model identiﬁcation, becoming particularly problematic
+if the recession had a more negative effect on small or medium size
+cities compared to large cities (potentially leading to spurious
+correlation).
+
+To assess the robustness of our ﬁndings, we evaluate the sensi-
+tivity of our estimates to changes in the time window deﬁning the
+post-deregulation period.38 Table 8 povides the results, reporting
+only the coefﬁcient for the air trafﬁc growth rate estimated both
+by OLS and 2SLS methods. We consider four time periods as alterna-
+
+38 Since the regression model controls for initial economic conditions (i.e., base year
+city characteristics), the starting periods are less of a concern for inﬂuencing the
+econometric analysis and the estimates.
+
+144
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+Table 9
+Placebo test: 1987 as deregulation year over the period 1983–1994.
+
+Dependent variable
+
+Annual growth rateiT for. . .
+
+Air passenger growthiT
+
+Passenger growth rateiT
+
+Excluded instruments:
+Post-deregulation period  medium City
+
+Post-deregulation period  large city
+
+Avg. passenger growth in other cities by size
+
+Avg. passenger growth in other cities by location and size
+
+First stage F-statistic
+
+Time ﬁxed effect
+MSA ﬁxed effects
+Initial economic conditionsðT0Þ
+Pop: lagsðT0 10;T0 20;T0 30Þ
+Sectoral composition
+
+Observations
+R-squared
+
+Population
+OLS
+(1)
+
+0.009
+[0.006]
+
+Income
+OLS
+(2)
+
+0.008
+[0.005]
+
+Employment
+OLS
+(3)
+
+0.014
+[0.011]
+
+1st Stage
+(4)
+
+1st Stage
+(5)
+
+0.012
+[0.023]
+0.020
+[0.029]
+
+0.23
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+500
+0.748
+
+ 0.045
+[0.326]
+ 2.495
+[2.309]
+1.06
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+500
+0.750
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+503
+0.565
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+503
+0.891
+
+Yes
+Yes
+Yes
+Yes
+Yes
+
+503
+0.829
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results are the outcome of a placebo experiment deﬁned over the period 1983–1994. Year 1987 is set as the time of a hypothetical aviation deregulation
+episode, such that the period 1983–1987 becomes the ‘‘pre-deregulation’’ period, and 1987–1994 becomes the ‘‘post-deregulation’’ period. We further limit the ‘‘post-
+deregulation’’ adjustment period for air trafﬁc growth to the time window 1987–1991. The reported estimates in columns 1–3 correspond to the baseline regression Eq. (6),
+estimated using the redeﬁned pre- versus post-deregulation periods. The reported estimates in columns 4–5 correspond to the ﬁrst stage estimates for air trafﬁc growth. The
+set of excluded instruments are the same as reported in column 1, respectively 4 of Table 5. The complete list of the controls and ﬁxed effects from prior estimations are
+included in all the reported speciﬁcations.
+
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+tives to the baseline case, and report the coefﬁcients for each distinct
+time period by row. The ﬁrst two alternative time periods corre-
+spond to deviations from the end-year 1991 deﬁning the post-
+deregulation period over which the urban growth indicators are cal-
+culated. The next two period redeﬁnitions correspond to deviations
+from end-year 1983, deﬁning the period over which air trafﬁc
+growth rates are calculated. Comparing the estimates by column
+across all rows, it becomes clear that our ﬁndings are not sensitive
+to the time window being considered. All the estimates are positive
+and signiﬁcant, being reasonably close in magnitude to our baseline
+results.
+
+5.3.3. Placebo test
+
+To verify the robustness of our results to the identiﬁcation
+mechanism – which exploits the large and permanent policy shock
+of the 1978 aviation deregulation – we develop a placebo test
+based on an arbitrary deregulation year. Focusing on a period with
+no major policy changes affecting air services, such as the post-
+deregulation period 1983–1994, we select year 1987 as a hypo-
+thetical deregulation year and deﬁne the time period 1983–1987
+as the ‘‘regulatory’’ period, and the time period 1987–1991 as the
+‘‘aftermath’’ of the hypothetical policy change. To maintain the
+same pattern in the construction of the data sample as before,
+we allow the urban growth rates to be calculated over a longer
+‘‘post-deregulation’’ period, i.e., 1987–1994. Using these redeﬁned
+time windows, which exploit a purely hypothetical policy shock,
+we estimate the same regression model relating the differential
+changes in air trafﬁc and urban growth rates, i.e., Eq. (6).
+
+We report the results of our placebo experiment in Table 9. If
+the identiﬁcation method correctly isolates the policy-induced var-
+iation in air trafﬁc changes across cities, then this method should
+
+fail to detect any signiﬁcant variation using this counterfactual
+data sample. The estimates reported in Table 9 seem to conﬁrm
+this intuition. The OLS results from columns 1–3 show that devia-
+tions in air trafﬁc changes around year 1987 have no effect on
+either population, income or employment growth rates. The fact
+that the placebo test delivers zero coefﬁcients for the variable of
+interest is informative also because it suggests that our data differ-
+encing strategy is able to successfully deal with the simultaneity
+between air trafﬁc and urban growth.39 While we cannot imple-
+ment instrumental variables estimations given the lack of variation
+in our variable of interest, we can report the coefﬁcients from the
+ﬁrst stage regressions. Using the average changes in air trafﬁc across
+cities within the same size category as excluded instruments, the
+results reported in columns 4 and 5 suggest that the instruments
+have no predictive power in explaining a city’s air trafﬁc growth rate.
+Note that these are the same type of instruments that have been suc-
+cessfully used in previous IV estimations, when exploiting actual
+policy-induced changes in air trafﬁc growth.
+
+6. Conclusion
+
+Public spending on aviation at the federal, state, and local levels
+have constantly increased since the beginning of commercial avia-
+tion, reaching ten percent of total public spending on infrastructure
+by 2004 (CBO, 2007). To evaluate the beneﬁts of such resource
+
+39 While air trafﬁc growth should have a direct effect on urban growth and vice
+versa during the deregulated time period 1983–1994, in the absence of any major
+policy shocks to air trafﬁc the regression variables loose most of their predictive
+power when taking a difference in growth rates around the arbitrary year 1978
+(especially in the presence of other control variables and ﬁxed effects).
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+145
+
+Table A1
+The effect of city size group on short-run urban growth rates.
+
+Annual growth rateiT
+
+Post-deregulation period  medium city
+
+Post-deregulation period  large city
+
+Passenger growth rateiT
+
+Passenger per capitaT0
+
+PopulationT0
+
+Population lagT0 10
+
+Population lagT0 20
+
+Population lagT0 30
+
+Income per capitaT0
+
+EmploymentT0
+
+Share manufacturingT0
+
+Share servicesT0
+
+Share retailT0
+
+Share wholesaleT0
+
+Share transport=utilitiesT0
+
+Share constructionT0
+
+Time ﬁxed effect
+MSA ﬁxed effects
+
+Observations
+R-squared
+
+Population
+(1)
+ 0.001
+[0.002]
+ 0.001
+[0.002]
+0.026⁄
+[0.013]
+0.003
+[0.002]
+ 0.028⁄⁄
+[0.012]
+0.001
+[0.002]
+0.010⁄⁄
+[0.005]
+0.010⁄⁄
+[0.004]
+0.034⁄⁄⁄
+[0.011]
+ 0.004
+[0.009]
+0.009⁄⁄⁄
+[0.003]
+0.007
+[0.006]
+ 0.001
+[0.009]
+0.005⁄⁄
+[0.002]
+ 0.001
+[0.003]
+0.005⁄⁄
+[0.002]
+
+Yes
+Yes
+
+524
+0.351
+
+Income per-capita
+(2)
+
+0.002
+[0.002]
+0.001
+[0.002]
+0.048⁄⁄⁄
+[0.013]
+0.002
+[0.003]
+0.028⁄⁄
+[0.012]
+ 0.003
+[0.004]
+0.008
+[0.005]
+ 0.007
+[0.005]
+ 0.142⁄⁄⁄
+[0.014]
+ 0.002
+[0.009]
+0.009⁄⁄⁄
+[0.003]
+ 0.001
+[0.006]
+0.002
+[0.008]
+0.002
+[0.002]
+0.002
+[0.004]
+ 0.003
+[0.003]
+
+Yes
+Yes
+
+524
+0.888
+
+Employment
+(3)
+ 0.001
+[0.003]
+ 0.003
+[0.004]
+0.097⁄⁄⁄
+[0.027]
+0.008
+[0.005]
+0.119⁄⁄⁄
+[0.021]
+0.003
+[0.004]
+0.021⁄⁄
+[0.010]
+0.004
+[0.008]
+0.019
+[0.022]
+ 0.130⁄⁄⁄
+[0.016]
+0.010⁄
+[0.006]
+ 0.005
+[0.012]
+ 0.013
+[0.017]
+0.011⁄⁄⁄
+[0.003]
+ 0.005
+[0.007]
+ 0.002
+[0.005]
+
+Yes
+Yes
+
+524
+0.583
+
+Robust standard errors clustered at MSA level in brackets.
+Notes: The reported results correspond to the baseline regression Eq. (6). The difference from prior estimations is that the two time periods considered here are 1969–1977
+and 1977–1983, i.e., the same time periods over which the growth rate in air trafﬁc is constructed. The main goal of these exercises is to see whether there are systematic
+changes in urban growth rates over the two time periods by city size category, once accounting for all the control variables and ﬁxed effects previously considered. Since the
+interaction terms between the Post-Deregulation dummy and MSA size category indicators are considered as exogenous instruments for the change in the growth rate of air
+trafﬁc post-deregulation, it is crucial that they are not affecting simultaneously the urban economic growth indicators of interest.
+
+⁄ p < 0.1.
+⁄⁄ p < 0.05.
+⁄⁄⁄ p < 0.01.
+
+allocations, it is crucial that we understand the implications of
+these investments for regional development and economic growth.
+Surprisingly, this research question has received little attention in
+the empirical literature, to a large extent because of the difﬁculty
+in going beyond correlations to identify actual causation.
+
+This paper exploits the quasi-natural experiment created by the
+signing of the 1978 Airline Deregulation Act to identify the link
+between airline trafﬁc and local economic growth. Our ﬁndings
+suggest that exogenous increases in air services lead to statistically
+and economically signiﬁcant increases in regional growth. For
+example, increasing the annual growth rate of air passenger trafﬁc
+by 50 percent for a given city leads to an increase in the rate of
+population growth of 1.55 percent (conservative OLS estimates).
+Cumulating the estimated effect over a 20-year period, this corre-
+sponds to an additional 0.42 percent increase in the level of
+population (we get slightly larger magnitudes with respect to air
+service effects on per-capita income and employment growth).
+
+From these estimates, one can do simple calculations about how
+much a region may gain in additional income from increased air
+
+service. For example, an average city that witnesses a 50 percent
+increase in the air trafﬁc growth rate will gain a stream of income
+over a 20-year period, which in discounted present value terms
+corresponds to an average 7.4 percent increase in its total real
+GDP in 1978.40 This estimate is equivalent to a total discounted
+present value of 523.3 million dollars in 1978 for the average city.
+Our analysis ﬁnds only small differences in the main results
+across communities based on their average size. We also ﬁnd
+evidence that shifts in industrial composition are associated with
+a growth in the aviation networks. When estimating the
+employment effects by sector, we ﬁnd that service and retail indus-
+tries are the ones experiencing the signiﬁcant growth effects.
+
+These ﬁndings are important for better understanding the
+determinants of regional growth, but also for inﬂuencing policies
+
+40 This estimate corresponds to the stream of income generated over a two decade
+period, and combines the effects of air service on population growth and per-capita
+income growth over that same time interval. The calculation is done based on the
+more conservative OLS estimates.
+
+146
+
+B.A. Blonigen, A.D. Cristea / Journal of Urban Economics 86 (2015) 128–146
+
+designed to allocate public infrastructure spending. We note that
+the identiﬁcation strategy we use forces us to focus on a period
+of time when commercial aviation, while it witnessed dramatic
+growth, might not have been as essential to consumers and busi-
+nesses as it is today. This suggests that the importance of air ser-
+vice for regional growth may be even greater today than our
+estimated effects.
+
+Appendix A. Supplementary material
+
+Supplementary data associated with this article can be found, in
+
+the online version, athttp://dx.doi.org/10.1016/j.jue.2015.02.001.
+
+References
+
+Arnold, Jens, Javorcik, Beata S., Mattoo, Aaditya, 2011. Does services liberalization
+beneﬁt manufacturing ﬁrms? Evidence from the Czech Republic. Journal of
+International Economics 85 (1), 136–146.
+
+Aschauer, David, 1989. Is public expenditure productive? Journal of Monetary
+
+Economics 23, 177–200.
+
+Audretsch, David B., Feldman, Maryann P., 1996. R&D spillovers and the geography
+
+of innovation and production. American Economic Review 86 (3), 630–640.
+
+Bailey, Elizabeth E., Graham, David R., Kaplan, Daniel P., 1985. Deregulating the
+
+Airlines. MIT Press, Cambridge, MA.
+
+Baldwin, Richard E., Martin, Philippe, 2004. Agglomeration and regional growth.
+
+Handbook of Regional and Urban Economics 4, 2671–2711.
+
+Banerjee, Abhijit, Duﬂo, Esther, Qian, Nancy, 2012. On the Road: Access to
+Transportation Infrastructure and Economic Growth in China. NBER Working
+Paper No. 17897.
+
+Bel, Germa, Fageda, Xavier, 2008. Getting there fast: globalization, intercontinental
+ﬂights and location of headquarters. Journal of Economic Geography 8, 471–
+495.
+
+Bertrand, Marianne, Duﬂo, Esther, 2004. How much should we trust differences-in-
+
+differences estimates? Quarterly Journal of Economics 119 (1), 249–275.
+
+Blomstrom, Magnus, Kokko, Ari, 1998. Multinational corporations and spillovers.
+
+Journal of Economic Surveys 12 (3), 247–277.
+
+Borenstein, Severin, 1992. The evolution of the U.S. airline competition. Journal of
+
+Economic Perspectives 6 (2), 45–73.
+
+Borenstein, Severin, Rose, Nancy, 2011. How airline markets work or do they?
+regulatory reform in the airline industry.
+In: Rose, N.L. (Ed.), Economic
+Regulation and Its Reform: What Have We Learned? University of Chicago
+Press.
+
+Brueckner, Jan, 2003. Airline trafﬁc and urban economic development. Urban
+
+Studies 40 (8), 1455–1469.
+
+Chandra, Amitabh, Thompson, Eric, 2000. Does public infrastructure affect
+interstate highway system.
+
+economic activity? evidence from the rural
+Regional Science and Urban Economics 30, 457–490.
+
+Congressional Budget Ofﬁce (CBO), 2007. Trends
+
+in Public Spending on
+Transportation and Water Infrastructure, 1956 to 2004. Available at: <www.
+cbo.gov/sites/default/ﬁles/cboﬁles/ftpdocs/85xx/doc8517/08-08-infrastructure.
+pdf>.
+
+Cristea, Anca, 2011. Buyer-seller relations in international trade: evidence from U.S.
+states’ exports and business-class travel. Journal of International Economics 84
+(2), 207–220.
+
+Dempsey, Paul Stephen, 1987. Dark side of deregulation: its impact on small
+
+communities. Administrative Law Review 39, 445–465.
+
+Donaldson, Dave, 2010. Railroads of
+
+the Raj: Estimating the Impact of
+Transportation Infrastructure. Massachusetts Institute of Technology, mimeo.
+Donaldson, Dave, Hornbeck, Richard, 2013. Railroads and American Economic
+
+Growth: A Market Access Approach. NBER Working Paper No. 19213.
+
+Duranton, Gilles, Turner, Matthew, 2012. Urban growth and transportation. Review
+
+of Economic Studies 79 (4), 1407–1440.
+
+Duranton, Gilles, Morrow, Peter, Turner, Matthew, 2014. Roads and trade: Evidence
+
+from the U.S. Review of Economic Studies 81 (2), 681–724.
+
+Eads, George, 1972. The Local Service Airline Experiment, The Brookings Institution,
+
+Washington, D.C.
+
+Evans, Paul, Karras, Georgios, 1994. Are government activities productive? evidence
+
+from a panel of U.S. states. The Review of Economics and Statistics 76, 1–11.
+
+Faber, Benjamin, 2013. Trade Integration, Market Size, And Industrialization:
+
+Evidence From Chinas National Trunk Highway System. UC Berkley, mimeo.
+
+Feenstra, Robert, Kee, Hiau Looi, 2008. Export variety and country productivity:
+estimating the monopolistic competition model with endogenous productivity.
+Journal of International Economics 74 (2), 500–518.
+
+Fernald, John, 1999. Roads to prosperity? assessing the link between public capital
+
+and productivity. American Economic Review 89, 619–638.
+
+Gaspar, Jess, Glaeser, Edward L., 1998. Information technology and the future of
+
+cities. Journal of Urban Economics 43 (1), 136–156.
+
+General Accounting Ofﬁce (GAO), 1996. Airline Deregulation: Changes in Airfares,
+Service, and Safety at Small, Medium-Sized, and Large Communities, GAO/
+RCED-96-79.
+
+General Accounting Ofﬁce (GAO), 2000. Essential Air Service: Changes in Subsidy
+
+Levels, Air Carrier Costs, and Passenger Trafﬁc, GAO/RCED-00-34.
+
+Giroud, Xavier, 2013. Proximity and investment: evidence from plan level data. The
+
+Quarterly Journal of Economics 128 (2), 861–915.
+
+Glaeser, Edward L., Scheinkman, Jose, Schleifer, Andrei, 1995. Economic growth in a
+
+cross-section of cities. Journal of Monetary Economics 36, 117–143.
+
+Glaeser, Edward L., Kallal, Heidi, Scheinkman, Jose, Schleifer, Andrei, 1992. Growth
+
+in cities. Journal of Political Economy 100 (6), 1126–1152.
+
+Green, Richard K., 2007. Airports and economic development. Real Estate Economics
+
+35, 91–112.
+
+Hanson, Gordon, 2005. Market potential,
+
+increasing returns, and geographic
+
+concentration. Journal of International Economics 67, 1–24.
+
+Head, Keith, Mayer, Thierry, 2006. Regional wage and employment responses to
+market potential in the EU. Regional Science and Urban Economics 36, 573–594.
+Holtz-Eakin, Douglas, 1994. Public-sector capital and the productivity puzzle.
+
+Review of Economics and Statistics 76 (1), 12–21.
+
+Hovhannisyan, Nune, Keller, Wolfgang, 2011. International Business Travel: An
+
+Engine of Innovation? NBER Working Paper No. 17100.
+
+Kahn, Alfred E., 1988. Surprises of airline deregulation. American Economic Review
+
+Papers and Proceedings, 316–322.
+
+Lovely, Mary E., Rosenthal, Stuart S., Sharma, Shalini, 2005.
+
+Information,
+agglomeration and the headquarters of U.S. exporters. Regional Science and
+Urban Economics 35, 167–191.
+
+Michaels, Guy, 2008. The effect of trade on the demand for skill: evidence from the
+interstate highway system. The Review of Economics and Statistics 90 (4), 683–
+701.
+
+Morrison, S.A., Winston, C., 1986. The Economic Effects of Airline Deregulation. The
+
+Brookings Institution, Washington, D.C..
+
+Munnell, Alicia H., 1992. Policy watch: infrastructure investment and economic
+
+growth. Journal of Economic Perspectives 6 (4), 189–198.
+
+Poole, Jennifer, 2010. Business Travel as an Input to International Trade. University
+
+of California Santa Cruz, mimeo.
+
+Redding, Stephen, Venables, Anthony, 2004. Economic geography and international
+
+inequality. Journal of International Economics 62, 53–82.
+
+Redding, Stephen, Sturm, Daniel, Wolf, Nikolaus, 2011. History and industry
+location: evidence from German airports. The Review of Economics and
+Statistics 93 (3), 814–831.
+
+Stuart, Rosenthal, Strange, William C., 2004. Evidence on the Nature and Sources of
+Agglomeration Economies. Handbook of Regional and Urban Economics, vol. 4,
+pp. 2119–2171.
+
+Sealy, Kenneth R., 1968. The Geography of Air Transport. Aldine Publishing
+
+Company, Chicago, IL.
+
+Sheard, Nicholas, 2012. The Effect of Air Transport on the Production of Goods and
+
+Services. Stockholm University, mimeo.
+
+Shirley, Chad, Winston, Clifford, 2004. Firm inventory behavior and the returns from
+highway infrastructure investments. Journal of Urban Economics 55, 398–415.
+Treﬂer, Daniel, 2004. The long and short of the Canada–U.S. free trade agreement.
+
+American Economic Review 94 (4), 870–895.
+
+Winston, Clifford, 1993. Economic deregulation: days of
+
+reckoning for
+
+microeconomists. Journal of Economic Literature 31 (3), 1263–1289.
+
+Wooldridge, Jeffery M., 2002. Econometric Analysis of Cross Section and Panel Data.
+
+MIT Press, Cambridge, MA.
+
+

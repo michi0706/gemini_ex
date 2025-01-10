@@ -1,0 +1,8937 @@
+THE JOURNAL OF FINANCE • VOL. LXXIII, NO. 5 • OCTOBER 2018
+
+Asset Management within Commercial Banking
+
+Groups: International Evidence
+
+MIGUEL A. FERREIRA, PEDRO MATOS, and PEDRO PIRES∗
+
+ABSTRACT
+
+We study the performance of equity mutual funds run by asset management divisions
+of commercial banking groups using a worldwide sample. We show that bank-afﬁliated
+funds underperform unafﬁliated funds by 92 basis points per year. Consistent with
+conﬂicts of interest, the underperformance is more pronounced among those afﬁli-
+ated funds that overweight the stock of the bank’s lending clients to a great extent.
+Divestitures of asset management divisions by banking groups support a causal inter-
+pretation of the results. Our ﬁndings suggest that afﬁliated fund managers support
+their lending divisions’ operations to reduce career concerns at the expense of fund
+investors.
+
+MUTUAL FUND COMPANIES MANAGE TRILLIONS of U.S. dollars worldwide, but many
+of these companies are not stand-alone entities. About 40% of mutual funds
+are run by asset management divisions of groups whose primary activity is
+commercial banking. This phenomenon is less prevalent in the United States
+(only 20% of mutual funds) as a result of the Glass-Steagall Act, which sepa-
+rated banking and asset management activities for many decades. Since the
+repeal of Glass-Steagall by the Gramm-Leach-Bliley Act in 1999, many U.S.
+
+∗Miguel A. Ferreira is at the Nova School of Business and Economics, CEPR, and ECGI. Pedro
+Matos is at the University of Virginia–Darden School of Business, and ECGI. Pedro Pires is at
+the Nova School of Business and Economics. We thank Kenneth Singleton (the Editor), the Asso-
+ciate Editor, two anonymous referees, Claire Celerier, Lauren Cohen, Richard Evans, Benjamin
+Golez, Peter Hoffmann, Russell Jame, Bige Kahraman, Andrew Karolyi, Alberto Manconi, Saurin
+Patel, Melissa Prado, Ruy Ribeiro, David Schumacher, Clemens Sialm, and Rafael Zambrana;
+participants at the American Finance Association Annual Meeting, European Finance Association
+Annual Meeting, Financial Intermediation Research Society Annual Conference, McGill Global
+Asset Management Conference, Recent Advances in Mutual Fund and Hedge Fund Research
+Conference–ESMT Berlin, and Luxembourg Asset Management Summit; and seminar participants
+at the Darden School of Business, Federal Reserve Board, Georgia State University, International
+Monetary Fund, Luso-Brazilian Finance Network (Lubraﬁn), Maastricht University, Norges Bank
+Investment Management, Nova School of Business and Economics, U.S. Securities and Exchange
+Commission, Stockholm School of Economics, Southern Methodist University, Telfer Annual Con-
+ference on Accounting and Finance, Temple University, Texas A&M University, Tilburg University,
+University of Alabama, University of Hong Kong, University of Toronto, and Villanova University
+for helpful comments. Financial support from the European Research Council (ERC), the Fundac¸ ˜ao
+para a Ciˆencia e Tecnologia (FCT), and the Richard A. Mayo Center for Asset Management at the
+Darden School of Business is gratefully acknowledged. We have read the Journal of Finance’s
+disclosure policy and have no conﬂicts of interest to disclose.
+DOI: 10.1111/joﬁ.12702
+
+2181
+
+2182
+
+The Journal of Finance R(cid:3)
+
+banking groups have begun to develop asset management divisions. Press re-
+ports indicate that bank-afﬁliated funds often underperform funds operated by
+independent fund management companies, particularly in Europe.1 Yet, aca-
+demic research has little to say about the potential spillover effects between
+commercial banking and asset management divisions.
+
+When fund management companies are owned by commercial banking
+groups, fund managers may beneﬁt the bank’s lending business at the ex-
+pense of fund investors (conﬂict of interest hypothesis).2 Alternatively, the
+lending business may generate private information about borrowers via credit
+origination, monitoring, and renegotiation that is beneﬁcial to the afﬁliated
+fund manager (information advantage hypothesis). A third possibility is that
+banking groups impose “Chinese walls” to prevent communication between the
+asset management and lending divisions, so that funds operate independently
+of other bank divisions (null hypothesis).
+
+We test these hypotheses using a comprehensive sample of open-end equity
+mutual funds domiciled in 28 countries over the period 2000 to 2010. We focus
+on actively managed funds that invest in domestic equities because banks
+typically have stronger lending relationships with domestic ﬁrms. We deﬁne
+commercial bank-afﬁliated funds as those funds that belong to a management
+company that is either majority-owned by a commercial parent bank or part
+of a group that owns a commercial bank. The other management companies
+are classiﬁed as afﬁliated with investment banks or insurance companies or as
+unafﬁliated companies.3
+
+We ﬁnd that, on average, commercial bank-afﬁliated funds underperform
+unafﬁliated funds by about 92 basis points per year as measured by four-factor
+alphas. We obtain similar results when we use alternative measures of per-
+formance such as benchmark-adjusted returns, gross returns, or buy-and-hold
+returns. In addition, we ﬁnd that afﬁliated funds underperform more when
+the ratio of outstanding loans to assets under management is higher, which is
+consistent with greater conﬂicts of interest. When we examine cross-country
+differences in the performance of afﬁliated funds, we ﬁnd that “Chinese walls”
+between bank lending and asset management activities are more strictly en-
+forced and fund investors’ rights are better protected in common-law countries
+such as the United States (Khorana, Servaes, and Tufano (2005, 2009)). In the
+sample of U.S.-domiciled funds, we ﬁnd less pronounced underperformance and
+no relation between performance and measures of conﬂicts of interest with the
+lending division.
+
+To examine more directly whether the parent bank’s lending activity is di-
+rectly linked to fund underperformance, we measure the overlap between lend-
+ing clients and fund stock holdings using the bank’s activity in the syndicated
+
+1 See Steve Johnson, “Bank-run funds are poor performers,” Financial Times, January 9, 2011.
+2 See Mehran and Stulz (2007) for a review of the literature on conﬂicts of interest in ﬁnancial
+
+institutions.
+
+3 We focus on the conﬂict of interest within commercial banking groups because net interest
+
+income represents the largest share of revenues among top banks worldwide.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2183
+
+loan market. A “client stock” is a ﬁrm that obtained a syndicated loan from
+the bank during the previous three years and whose shares are held in the
+portfolio of a fund afﬁliated with the bank. We show that bank-afﬁliated funds’
+portfolio holdings are biased toward client stocks over nonclient stocks. In addi-
+tion, we ﬁnd that bank-afﬁliated funds with higher portfolio exposure to client
+stocks (in excess of the portfolio weights in passive funds that track the same
+benchmark) tend to underperform more.
+
+The endogeneity of the organizational form of a management company makes
+it difﬁcult to identify a causal effect. The decision to operate a fund management
+company as bank afﬁliated may be related to unobserved fund characteristics
+that also explain the performance. We implement two empirical strategies
+to address this concern. First, we use fund ﬁxed effects to control for time-
+invariant unobserved fund heterogeneity. The estimated underperformance of
+afﬁliated funds is even more pronounced in this case, which indicates that per-
+formance deteriorates after a fund switches from unafﬁliated to bank-afﬁliated.
+Second, we exploit the exogenous variation generated by divestitures of asset
+management divisions by commercial banking groups during the 2000 to 2012
+period as well as in the aftermath of the 2007 to 2009 ﬁnancial crisis, when
+banks improved their regulatory capital ratios by divesting asset management
+units.4 The evidence shows that funds that switch from afﬁliated to unafﬁl-
+iated through divestiture subsequently reduce their holdings of client stocks
+and experience improved performance.
+
+One remaining concern with our results is that bank-afﬁliated funds might
+hire less skilled fund managers. We examine the portfolio trading of afﬁl-
+iated funds using calendar-time portfolio returns. In these tests, we com-
+pare manager skill exclusively within afﬁliated funds on their holdings of
+client and nonclient stocks. We ﬁnd that funds that overweight client stocks
+to a greater extend underperform in the trading of client stocks. However,
+these funds do not underperform in the trading of nonclient stocks. More-
+over, funds that overweight client stocks to a lesser extent do not underper-
+form in the trading of client stocks. These results do not support the skill
+hypothesis.
+
+Why do commercial bank-afﬁliated funds exist in equilibrium if they perform
+more poorly? We try to understand the motivation of the different agents by
+providing evidence on the beneﬁts that accrue to the parent bank and fund
+manager, as well as to the borrower. First, we show that banks use afﬁli-
+ated fund resources to build lending relationships with borrowers (Bharath
+et al. (2007, 2011), Ferreira and Matos (2012)). We ﬁnd that banks are more
+likely to act as lead arrangers of future loans when they exert control over
+borrowers by holding shares through their asset management divisions; these
+holdings increase the probability of initiating a lending relationship and pre-
+serving a past lending relationship. Second, we ﬁnd that fund managers that
+act as team players for their banking group by overweighting client stocks
+are less likely to lose jobs. This result suggests that career concerns help
+
+4 See “Find management–Wasting assets,” The Economist, January 18, 2009.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2184
+
+The Journal of Finance R(cid:3)
+
+explain the fund managers’ decisions to support the bank’s interests. Third,
+we ﬁnd that afﬁliated funds’ portfolio holdings of client stocks are associated
+with less shareholder voting dissent on executive compensation proposals. This
+result is consistent with the idea that afﬁliated funds attempt to curry favor
+with the borrower’s management in an effort to promote a lending relation-
+ship.5 Finally, we ﬁnd that, outside the United States, investors of afﬁliated
+funds exhibit inertia as the sensitivity of ﬂows to poor past performance is
+insigniﬁcant. This result explains how afﬁliated funds may earn lower returns
+without suffering signiﬁcant investor outﬂows and retain a signiﬁcant market
+share.
+
+Our work contributes to the literature examining agency conﬂicts in fund
+complexes in U.S. markets (Massa (2003), Nanda, Wang, and Zheng (2004),
+Gaspar, Massa, and Matos (2006), Cohen and Schmidt (2009)). Recent papers
+study the spillover effects between other businesses and asset management
+companies afﬁliated with ﬁnancial groups. In the United States, Massa and
+Rehman (2008) ﬁnd that bank-afﬁliated funds overweight lending client stocks
+around new loan announcements, a strategy that has a short-term positive ef-
+fect on fund performance. This result is consistent with the information advan-
+tage hypothesis. Other authors, however, ﬁnd evidence of conﬂicts of interest
+between investment banks’ underwriting and asset management businesses
+(Ritter and Zhang (2007), Johnson and Marietta-Westberg (2009), Hao and
+Yan (2012), Berzins, Liu, and Trzcinka (2013)). More recently, Sialm and Tham
+(2016) document spillover effects across business segments of publicly traded
+fund management companies. Internationally, Golez and Marin (2015) show
+that Spanish bank-afﬁliated funds support the price of their own-parent stock,
+while Gil-Bazo, Hoffmann, and Mayordomo (2016) show that these funds sup-
+ported parent banks’ bond issues during the 2007 to 2009 ﬁnancial crisis and
+the 2010 to 2012 European sovereign debt crisis. Ghosh, Kale, and Pancha-
+pagesan (2014) ﬁnd conﬂicts of interest in business group-afﬁliated funds in
+India.
+
+Our main contribution is to provide evidence of conﬂicts of interest between
+the lending and asset management divisions of commercial banking groups
+using an international sample of mutual funds where such conﬂicts are more
+prevalent than in the United States.
+
+I. Hypotheses
+
+The economics underlying our conﬂict of interest hypothesis is that the par-
+ent entity (a banking group) can be thought of as a multidivision business
+
+5 In a 2011 Financial Times article, Guillaume Prache, managing director of the European
+Federation of Investors, states that “Banks tend to double up their shares, combining the ones
+they hold directly with the proxy votes from shares owned by asset management arms. Banks
+invariably vote in ways that suit their commercial lending or investment banking arms, not in
+ways that reﬂect the interests of end investors.” Ian Fraser, “Conﬂicts of interest a big issue for
+banks,” Financial Times, May 22, 2011.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2185
+
+whose objective function is to maximize the combined revenue of all its divi-
+sions. While commercial banking operations derive value from lending rela-
+tionships with their borrower clients, the asset management division receives
+revenues from fees on assets under management, which depend on attract-
+ing ﬂows from end investors. The interest of the bank as creditor may conﬂict
+with that as equity holder via its afﬁliated funds. While fund managers have a
+ﬁduciary responsibility to fund investors, they are also employees of banking
+groups, for which revenues from lending usually dominate revenues from asset
+management. Thus, the fund manager’s objectives are linked to both the size
+of assets under management and continued employment. As a result, instead
+of maximizing the risk-adjusted returns of fund investors, the fund manager
+may be asked to make portfolio decisions that beneﬁt the parent bank’s inter-
+ests.6 For example, the fund manager might overweight a lending client’s stock
+to increase voting rights and help build long-term relationships that generate
+future loan business. Afﬁliated funds could also be used to temporarily support
+the stock price of the bank’s lending clients even if doing so impairs fund perfor-
+mance to gain favor with the borrower’s management. This argument predicts
+a negative effect on the performance of bank-afﬁliated funds. This leads to our
+ﬁrst testable prediction:
+
+HYPOTHESIS 1: Commercial bank-afﬁliated funds underperform unafﬁliated
+funds, as well as funds afﬁliated with other types of ﬁnancial conglomerates
+(e.g., investment banks and insurance companies).
+
+The extent of the conﬂict of interest in a multidivision banking group de-
+pends on the relative size of the commercial banking and asset management
+divisions. If the commercial bank’s balance sheet exposure (or loan interest
+income) dominates the assets (or revenues) from the asset management divi-
+sion, conﬂicts of interest are likely to be more pronounced. In particular, an
+afﬁliated fund’s portfolio is likely to be tilted in favor of lending client’s stocks.
+This is expected to be perceived favorably by the client ﬁrms, particularly if the
+afﬁliated funds help support their stock price. This leads to our second testable
+prediction:
+
+HYPOTHESIS 2: The underperformance of commercial bank-afﬁliated funds is
+increasing in the relative size of the lending division and the degree of over-
+weighting of the bank’s lending-client stocks.
+
+The information advantage hypothesis predicts that bank-afﬁliated fund
+managers overweight lending clients’ stocks because they have private infor-
+mation on clients that is acquired through the banks’ lending relationships.
+In this case, afﬁliated funds’ trades on client stocks should be associated
+with outperformance. Alternatively, afﬁliated funds may attract less skilled
+managers, in which case fund manager trading should be associated with
+
+6 Portfolio decisions are ultimately in the hands of fund managers. However, fund managers
+have incentives to minimize the likelihood that the bank faces ﬁnancial distress, which could lead
+to salary cuts, layoffs, and liquidation of the asset management division.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2186
+
+The Journal of Finance R(cid:3)
+
+underperformance for both client and nonclient stocks. We can empirically
+distinguish the conﬂict of interest hypothesis from these alternatives because
+it predicts that afﬁliated funds underperform rather than outperform, and that
+the underperformance is observed only in the trades of client stocks, not in the
+trades of nonclient stocks. This leads to our third testable prediction:
+
+HYPOTHESIS 3: The trades of a bank’s lending client stocks explain the un-
+derperformance of commercial bank-afﬁliated funds: while managers of bank-
+afﬁliated funds show below-average skill in the trading of client stocks, they
+show average skill in the trading of nonclient stocks.
+
+For the overweighting of client stocks and the underperformance of bank-
+afﬁliated funds to exist in equilibrium, it must ﬁrst be the case that the
+commercial bank sees a beneﬁt from the afﬁliated funds’ portfolio holdings
+of client stocks. We test this prediction by examining whether afﬁliated funds’
+holdings increase the probability that a bank retains or gains lending rela-
+tionships. Second, it must be the case that the inﬂuence that comes from
+afﬁliated funds’ holdings of client stocks generates beneﬁts for the client’s
+management. We test this prediction by examining whether clients’ manage-
+ment beneﬁts from less shareholder voting dissent on management proposals.
+We further test whether fund managers who overweight client stocks have
+a lower probability of job loss.7 Finally, we test whether afﬁliated funds’ in-
+vestor clientele exhibits inertia, that is, does not react signiﬁcantly to poor
+past fund performance. Unafﬁliated fund providers may ﬁnd it difﬁcult to es-
+tablish a distribution network in countries where banks have a strong pres-
+ence.8 In addition, banks have a competitive advantage in brand recogni-
+tion, which allows them to cross-sell by offering mutual funds jointly with
+other ﬁnancial products. This discussion leads to the following equilibrium
+prediction:
+
+HYPOTHESIS 4: The overweighting of a bank’s client stocks by commercial
+bank-afﬁliated fund managers is an equilibrium outcome: (1) the bank bene-
+ﬁts from repeated lending relationships, (2) the client’s management beneﬁts
+from friendlier voting at shareholder meetings, (3) afﬁliated fund managers
+beneﬁt from lower job turnover, and (4) the ﬂows of afﬁliated fund investors
+exhibit low sensitivity to poor past fund performance.
+
+7 Fund managers have limited career opportunities in countries where the asset management
+industry is dominated by banks and investors mainly rely on the advice of bank branches to select
+funds. Thus, bank-afﬁliated fund managers are viewed as bank employees and they have few
+incentives to build a track record.
+
+8 A similar argument explains the underperformance of broker-sold mutual funds in the United
+States, which could result from conﬂicts of interest between brokers and their clients or from
+substantial nontangible beneﬁts offered by brokers (Bergstresser, Chalmers, and Tufano (2009),
+Del Guercio and Reuter (2014)). Christoffersen, Evans, and Musto (2013) document other biases
+in broker-intermediated funds.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2187
+
+A. Sample of Equity Mutual Funds
+
+II. Data
+
+Data on equity mutual funds come from the Lipper survivorship bias-free
+database, which covers many countries worldwide over the 1997 to 2010
+period. Although multiple share classes are listed as separate observations in
+Lipper, they have the same holdings and the same returns before expenses.
+We therefore use the primary share class as our unit of observation and
+aggregate fund-level variables across different share classes. We exclude
+offshore funds (e.g., funds domiciled in Luxembourg or Dublin), funds-of-
+funds, and closed-end funds, which yields a sample of 29,872 open-end equity
+funds in 28 countries (18,918 funds that managed over $7.4 trillion as of
+December 2010).9
+
+To classify a mutual fund as either afﬁliated or unafﬁliated with a commer-
+cial bank, we ﬁrst collect information on each fund’s ultimate owner from the
+FactSet database. Speciﬁcally, we match each Lipper fund with the fund’s port-
+folio holdings data in FactSet using ISIN and CUSIP fund identiﬁers as well
+as management company and fund names. This matching results in a sam-
+ple of 16,245 funds (11,556 funds that managed $6.8 trillion as of December
+2010). We then match the fund’s ultimate parent obtained from FactSet with
+the ultimate owners of banks from the Bureau van Dijk’s BankScope database.
+A fund is classiﬁed as afﬁliated with a commercial bank if (1) the fund’s ulti-
+mate owner is a commercial bank (i.e., is classiﬁed by BankScope under Bank
+Holding & Holding Companies, Cooperative Bank, Commercial Bank, Savings
+Bank, or Specialized Governmental Credit Institution) with total assets of over
+$10 billion or (2) a commercial bank within the fund’s ultimate owner group
+has total assets of over $10 billion.10
+
+We also classify each fund as afﬁliated or unafﬁliated with an invest-
+ment bank or insurance company. We use the ultimate owner type from the
+BankScope and ISIS databases to identify fund management companies afﬁl-
+iated with insurance groups. Next, we use the top 20 banks in the Thomson
+Reuters Deal Analytics global equity league tables (by proceeds) for each year
+and region (Global, USA, EMEA, and Asia-Paciﬁc) to identify management
+companies afﬁliated with investment banks.11
+
+To illustrate our classiﬁcation, funds managed by Wells Fargo Fund Man-
+agement (the asset management arm of Wells Fargo & Co) and funds man-
+aged by DWS Investments (the asset management arm of Deutsche Bank) are
+
+9 Ferreira et al. (2013) and Cremers et al. (2016) provide a detailed description of this data
+source. Lipper’s worldwide data coverage is comprehensive compared to aggregate statistics from
+the Investment Company Institute (2011).
+
+10 For insurance groups, we consider only commercial bank subsidiaries with signiﬁcant assets
+relative to the total assets of the group. For example, funds afﬁliated with Allianz SE are not
+considered commercial bank-afﬁliated.
+
+11 Funds can be classiﬁed in more than one category. For example, funds managed by DWS
+Investments (the asset management arm of Deutsche Bank) are classiﬁed as commercial bank-
+afﬁliated and investment bank-afﬁliated because Deutsche Bank is a universal banking group.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2188
+
+The Journal of Finance R(cid:3)
+
+classiﬁed as commercial bank-afﬁliated. Funds managed by MFS Investment
+Management (the asset management arm of Sun Life Financial) and funds
+managed by Allianz Global Investors (the asset management arm of Allianz
+SE) are classiﬁed as insurance company-afﬁliated. Funds managed by Goldman
+Sachs Asset Management (the asset management arm of Goldman Sachs) and
+funds managed by Credit Suisse Funds (the asset management arm of Credit
+Suisse) are classiﬁed as investment bank-afﬁliated. Finally, funds managed by
+Fidelity Investments (parent company is FMR LLC) and funds managed by
+Schroders are classiﬁed as unafﬁliated.
+
+We focus on the conﬂict of interest with lending because this is the dominant
+activity of the top banks worldwide. For example, in 2010, the world’s top 20
+banks (as ranked by total assets) earned about 58% of their revenues from net
+interest income generated by loans (from BankScope). In contrast, investment
+banking fees (from Thomson Reuters) represent less than 4% of total revenues
+among the world’s top banks. We conclude that most revenues for the banks in
+our sample are generated from interest income rather than underwriting and
+advisory services.
+
+In our main tests, we focus on actively managed domestic funds (i.e., funds
+that invest in their local market) because banks typically have stronger lending
+relationships with domestic ﬁrms. The sample comprises 7,220 domestic equity
+funds in 28 countries over the 2000 to 2010 period. For robustness, we also
+perform placebo tests using international funds.
+
+Table I presents the number and total net assets (TNA) of the domestic
+funds in our sample by country as of December 2010. Our sample contains
+4,981 domestic funds that managed $3.6 trillion in assets in 2010. Domestic
+funds afﬁliated with a commercial banking group represent 32% of the number
+of funds and 18% of TNA. There is considerable variation in the market share of
+commercial bank-afﬁliated funds across countries. While bank-afﬁliated funds
+represent only 11% of TNA in the United States, they represent 40% outside
+the United States. Indeed, the market share of bank-afﬁliated funds exceeds
+50% of TNA in the majority of European countries such as Germany, Italy,
+Spain, and Switzerland. Figure 1 shows the time series of the number and
+TNA of commercial bank-afﬁliated and unafﬁliated funds. We see a downward
+trend in the market share of afﬁliated funds.
+
+In Table IA.I in the Internet Appendix,12 for each sample country, we list the
+top ﬁve fund management companies and indicate whether they are afﬁliated
+with a commercial bank. In the United States, none of the top ﬁve fund manage-
+ment companies are part of a commercial banking group, while in continental
+Europe, most of the top ﬁve companies are afﬁliated with a commercial bank.
+
+B. Measuring Risk-Adjusted Performance
+
+We estimate a fund’s risk-adjusted returns (alphas) in U.S. dollars using
+the Carhart (1997) four-factor model. Following Bekaert, Hodrick, and Zhang
+
+12 The Internet Appendix may be found in the online version of this article.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2189
+
+Sample of Commercial Bank-Afﬁliated Funds
+
+Table I
+
+This table presents number of funds, total net assets (TNAs), number of ultimate owners, percent-
+age of commercial bank-afﬁliated funds, and number of parent (commercial) banks as of December
+2010 for the sample of open-end actively managed domestic equity mutual funds and for the sample
+of domestic and international equity mutual funds (bottom of the table).
+
+Domestic Equity Funds
+
+Commercial Bank-Afﬁliated Funds
+
+Number of
+
+Funds
+
+Australia
+Austria
+Belgium
+Brazil
+Canada
+China
+Denmark
+Finland
+France
+Germany
+India
+Israel
+Italy
+Japan
+Malaysia
+Netherlands
+Norway
+Poland
+Portugal
+Singapore
+South Africa
+Spain
+Sweden
+Switzerland
+Taiwan
+Thailand
+United Kingdom
+United States
+Total
+Total (ex-U.S.)
+
+98
+13
+23
+48
+366
+69
+22
+28
+180
+47
+242
+37
+30
+515
+91
+12
+58
+29
+19
+13
+109
+63
+101
+77
+147
+118
+406
+2,020
+4,981
+2,961
+
+TNA ($
+billion)
+
+32.6
+1.4
+1.7
+42.0
+194.6
+76.0
+3.1
+5.5
+42.2
+34.8
+37.4
+0.8
+4.5
+36.6
+6.4
+4.3
+15.7
+5.8
+0.5
+1.6
+21.8
+2.3
+63.2
+20.7
+10.2
+5.3
+215.3
+2,683.2
+3,569.7
+886.5
+
+Number of
+Ultimate
+Owners
+
+Number of
+Funds (%)
+
+TNA (%)
+
+Number of
+
+Parent
+
+Banks (%)
+
+28
+11
+8
+17
+66
+35
+15
+14
+48
+20
+31
+15
+15
+43
+20
+7
+15
+15
+11
+10
+27
+31
+20
+31
+31
+16
+90
+365
+831
+513
+
+27.6
+61.5
+73.9
+79.2
+28.4
+11.6
+54.5
+71.4
+48.9
+51.1
+18.6
+2.7
+60.0
+45.6
+62.6
+66.7
+58.6
+58.6
+84.2
+61.5
+38.5
+65.1
+71.3
+55.8
+43.5
+62.7
+17.7
+20.3
+32.2
+40.3
+
+16.5
+81.0
+78.6
+78.4
+44.5
+8.0
+70.0
+89.8
+57.8
+71.7
+17.7
+1.8
+55.0
+36.8
+92.3
+69.9
+60.2
+71.0
+72.4
+28.6
+42.3
+72.4
+77.1
+52.1
+26.8
+86.0
+18.0
+10.9
+18.1
+39.8
+
+14.3
+54.5
+50.0
+58.8
+21.2
+8.6
+46.7
+50.0
+27.1
+45.0
+25.8
+6.7
+60.0
+30.2
+45.0
+57.1
+46.7
+53.3
+81.8
+50.0
+14.8
+58.1
+40.0
+32.3
+35.5
+56.3
+14.4
+11.0
+18.2
+25.7
+
+Domestic and International Equity Funds
+
+Commercial Bank-Afﬁliated Funds
+
+Total
+Total (ex-U.S.)
+
+10,644
+7,798
+
+5,842.4
+1,897.4
+
+987
+690
+
+40.2
+47.7
+
+19.9
+41.2
+
+17.0
+22.2
+
+(2009), we estimate four-factor alphas using regional factors based on a fund’s
+investment region in the case of domestic, foreign country, and regional funds.
+We use world factors in the case of global funds.13
+
+13 We construct country-level factors using individual stock returns in U.S. dollars obtained
+from Datastream, closely following the method of Fama and French (1993). The regional and world
+factors are value-weighted averages of country factors. The regions are Asia Paciﬁc, Europe, North
+America, Emerging, and World. Ferreira et al. (2013) provide a detailed description of the factors.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2190
+
+The Journal of Finance R(cid:3)
+
+Figure 1. Market share of commercial bank-afﬁliated mutual funds. This ﬁgure shows
+the number of funds (Panel A) and total net assets (Panel B) of commercial bank-afﬁliated and
+unafﬁliated mutual funds by year. A fund is classiﬁed as bank-afﬁliated if the ultimate owner of
+the fund’s management company is a commercial banking group. The sample consists of actively
+managed domestic equity mutual funds over the 2000 to 2010 period. (Color ﬁgure can be viewed
+at wileyonlinelibrary.com)
+
+For each fund-quarter, we estimate factor loadings using the previous 36
+
+months of return data (we require a minimum of 24 months of return data),
+
+Ri,t = αi + β1iMKTi,t + β2iSMBi,t + β3iHMLi,t + β4iMOMi,t + εi,t,
+
+(1)
+
+where Ri,t is the return in U.S. dollars of fund i in month t in excess of the
+one-month U.S. Treasury bill rate, MKTi,t (market) is the excess return in the
+fund’s investment region in month t, SMBi,t (small minus big) is the average
+return on the small-capitalization stock portfolio minus the average return on
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2191
+
+the large-capitalization stock portfolio in the fund’s investment region, HMLi,t
+(high minus low) is the difference between the return on the portfolio with
+high book-to-market stocks and the return on the portfolio with low book-
+to-market stocks in the fund’s investment region, and MOMi,t (momentum)
+is the difference between the return on the portfolio with the past 12-month
+stock winners and the return on the portfolio with the past 12-month stock
+losers in the fund’s investment region. Using the estimated factor loadings, we
+subtract the expected return from the realized fund return to obtain the fund’s
+abnormal return in each quarter (alpha). In robustness checks, we instead use
+benchmark-adjusted returns (i.e., the difference between the fund’s return and
+the return on its benchmark), gross returns, buy-and-hold returns, and the
+information ratio (i.e., the ratio of the alpha to the standard deviation of the
+residuals).
+
+C. Measuring Conﬂicts of Interest
+
+We use several proxies for conﬂicts of interest within a commercial banking
+group based on the relative importance of the lending and asset management
+divisions. First, we use the ratio of the parent bank’s total loans outstanding to
+the TNA managed by the asset management division (Loans/TNA).14 Second,
+we use the ratio of the parent bank’s corporate and commercial loans outstand-
+ing to the TNA (Corporate Loans/TNA). Finally, we use the ratio of the parent
+bank’s interest income on loans to the total annual U.S. dollar value of the
+asset management division’s fees (Interest Income/Fees).
+
+To test the lending channel more directly, we use fund holdings data to ex-
+amine whether the portfolio choices of bank-afﬁliated funds are biased toward
+lending client stocks. We obtain data on funds’ portfolio holdings from the Fact-
+Set database.15 We classify each fund’s holdings as a client stock or nonclient
+stock using the DealScan database where we use all loans initiated between
+1997 and 2010 with facility amounts above $25 million. A fund’s stock hold-
+ing is classiﬁed as a “client stock” if the fund’s parent bank, subsidiary, or
+branch acted as a lead arranger for loans of the ﬁrm in the previous three
+years.
+
+We construct several variables based on client stocks. First, we measure the
+fund’s investment in client stocks as a percentage of TNA (%TNA Invested in
+Client Stocks). Second, we measure whether a bank-afﬁliated fund overweights
+client stocks compared to passive funds that track the same benchmark (Bias
+in Client Stocks). Finally, we account for the intensity of the bank-ﬁrm lending
+relationship by computing the prior two measures using only the holdings of
+the top 10 borrowers of the parent bank in terms of the total dollar amount
+
+14 TNA is given by the sum of open-end actively managed domestic equity funds managed by the
+parent bank’s asset management divisions. We obtain similar estimates when we use TNA across
+all funds.
+
+15 Ferreira and Matos (2008) provide a detailed description of this database.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2192
+
+The Journal of Finance R(cid:3)
+
+of syndicated loans over the previous three years (%TNA Invested in Top 10
+Client Stocks, Bias in Top 10 Client Stocks).
+
+To better understand the classiﬁcation of fund portfolio holdings as client or
+
+nonclient stocks, consider two funds (as of December 2010):
+
+DWS Investa Fund
+
+JPMorgan U.S. Equity Fund
+
+Deutsche Bank AG Ultimate Owner
+
+Ultimate Owner
+Management Company DWS Investments Management Company
+Germany
+Country of Domicile
+DAX 30 TR
+Fund Benchmark
+43
+Number of Holdings
+%TNA in Client Stocks
+56.9
+Bias in Client Stocks (%) 17.1
+
+JPMorgan Chase & Co.
+JPMorgan Asset Mgmt.
+United States
+Country of Domicile
+S&P 500 TR
+Fund Benchmark
+217
+Number of Holdings
+%TNA in Client Stocks
+40.4
+Bias in Client Stocks (%) 7.2
+
+Top 5 Holdings:
+
+Top 5 Holdings:
+
+Stock
+
+Country Client Weight (%)
+
+Stock
+
+Country
+
+Client Weight (%)
+
+BASF SE
+Germany Yes
+Siemens AG Germany Yes
+Daimler AG Germany Yes
+E.ON SE
+Germany Yes
+Allianz SE Germany No
+
+10.92
+9.81
+7.72
+5.35
+4.46
+
+United States No
+Apple
+United States Yes
+Exxon Mobil
+United States Yes
+Microsoft
+Procter & Gamble United States Yes
+Chevron
+United States No
+
+3.70
+2.51
+2.42
+2.19
+2.07
+
+The ﬁrst of those funds is the DWS Investa Fund, which is managed by DWS
+Investments. Deutsche Bank acted as a lead arranger in the syndicated loan
+market over the 2008 to 2010 period for BASF, Siemens, Daimler, and E.ON,
+which are among the top ﬁve holdings of DWS Investa Fund. Overall, 56.9% of
+the fund’s TNA is invested in client stocks, which corresponds to an overweight
+of 17.1 percentage points compared to passive funds that track the DAX 30
+index.
+
+The second example fund is the JPMorgan U.S. Equity Fund, which is man-
+aged by JPMorgan Asset Management. Three of its top ﬁve holdings are clas-
+siﬁed as client stocks for which JPMorgan acted as a lead arranger over the
+previous three years. Overall, 40.4% of the fund’s TNA is invested in client
+stocks, which corresponds to an overweight of 7.2 percentage points compared
+to passive funds that track the S&P 500 index.
+
+D. Summary Statistics
+
+Panel A of Table II reports summary statistics for the Commercial Bank-
+Afﬁliated, Publicly Traded Parent, Insurance-Afﬁliated, and Investment Bank-
+Afﬁliated dummy variables, our conﬂict of interest variables (Loans/TNA, Cor-
+porate Loans/TNA, Interest Income/Fees, %TNA Invested in Client Stocks, Bias
+in Client Stocks), our risk-adjusted performance measure (Four-Factor Alpha),
+and the fund-level control variables (TNA, Family TNA, Age, Total Expense
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2193
+
+Table II
+
+Summary Statistics
+
+Panels A and C present mean, median, standard deviation, 1st percentile, 99th percentile, and
+number of observations for each variable. Panel B presents mean and number of observations for
+the samples of unafﬁliated funds and commercial bank-afﬁliated funds, and the corresponding
+mean difference p-value. The sample consists of actively managed domestic equity mutual funds
+over the 2000 to 2010 period.
+
+Panel A: Fund Characteristics
+
+Mean Median
+
+SD
+
+Percentile
+
+Percentile
+
+1st
+
+99th
+
+Number of
+Observations
+
+Commercial Bank-Afﬁliated
+Publicly Traded Parent
+Insurance-Afﬁliated
+Investment Bank-Afﬁliated
+Loans/TNA
+Corporate Loans/TNA
+Interest Income/Fees
+%TNA Invested in Client
+
+Stocks
+
+0.34
+0.64
+0.15
+0.22
+36.22
+26.53
+106.56
+5.01
+
+0.00
+1.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.47
+0.48
+0.36
+0.42
+428.03
+253.28
+792.31
+12.71
+
+%TNA Invested in Top 10
+
+0.55
+
+0.00
+
+Client Stocks
+
+Bias in Client Stocks
+Bias in Top 10 Client Stocks
+Four-Factor Alpha (%)
+Benchmark-Adjusted Return
+
+(%)
+
+Gross-Four-Factor Alpha (%)
+Buy-and-Hold Benchmark
+
+Adj.-Return (%)
+Information Ratio
+TNA ($ million)
+Family TNA ($ million)
+Age (years)
+Total Expense Ratio (%)
+Total Load (%)
+Flow (%)
+Number of Countries of Sale
+Team-Managed
+
+2.01
+0.00
+0.07
+0.00
+0.25 −0.18
+0.06 −0.09
+
+0.51
+0.09
+0.45
+0.28
+−0.038 −0.057
+158
+909
+35,581
+5,501
+12.46
+9.25
+1.44
+1.38
+2.42
+2.00
+0.61 −1.45
+1.00
+1.16
+1.00
+0.61
+
+2.40
+
+7.25
+1.25
+5.88
+4.18
+
+5.43
+4.12
+
+1.152
+3,980
+104,401
+11.16
+0.57
+2.40
+15.45
+0.84
+0.49
+
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+
+0.00
+−6.41
+−3.14
+−15.34
+−12.28
+−13.73
+−12.36
+−2.825
+
+2
+15
+2.33
+0.31
+0.00
+−33.70
+1.00
+0.00
+
+1.00
+1.00
+1.00
+1.00
+548.92
+445.74
+1,677.93
+60.16
+
+12.37
+
+39.06
+3.97
+19.05
+13.61
+
+18.45
+14.78
+
+2.852
+
+12,522
+588,055
+59.25
+3.50
+10.84
+69.92
+4.00
+1.00
+
+127,880
+127,880
+127,880
+127,880
+126,782
+126,673
+110,641
+127,880
+
+127,880
+
+127,238
+127,238
+127,880
+125,988
+
+116,554
+123,174
+
+127,880
+127,880
+127,880
+127,880
+127,880
+127,880
+127,880
+127,880
+127,880
+
+(Continued)
+
+Ratio, Total Load, Flow, Number of Countries of Sale, Team-Managed). Table
+A.I in the Appendix provides variable deﬁnitions.
+
+Panel B of Table II reports the sample means of the variables separately
+for commercial bank-afﬁliated and unafﬁliated funds, as well as univariate
+test results on the equality of the coefﬁcients between the two groups. Panel
+C reports summary statistics on the proxies for conﬂicts of interest in bank-
+afﬁliated funds. The mean and median Loans/TNA and Corporate Loans/TNA
+well exceed one, indicating that banking groups’ loan exposure is greater than
+their (equity) assets under management. In addition, on average, 14.7% of
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2194
+
+The Journal of Finance R(cid:3)
+
+Table II—Continued
+
+Panel B: Unafﬁliated and Commercial Bank-Afﬁliated Fund Characteristics
+
+Unafﬁliated Funds
+
+Commercial Bank-Afﬁliated
+
+Number of
+Observa-
+
+Funds
+
+Number of
+Observa-
+
+Mean
+
+tions
+
+Mean
+
+tions
+
+Difference
+
+p-Value
+
+Publicly Traded Parent
+Insurance-Afﬁliated
+Investment Bank-Afﬁliated
+Four-Factor Alpha (%)
+Benchmark-Adjusted Return (%)
+Gross-Four-Factor Alpha (%)
+Buy-and-Hold Benchmark-Adj. Return (%)
+Information Ratio
+TNA ($ million)
+Family TNA ($ million)
+Age (years)
+Total Expense Ratio (%)
+Total Load (%)
+Flow (%)
+Number of Countries of Sale
+Team-Managed
+
+0.49
+0.21
+0.08
+0.26
+0.11
+0.53
+0.49
+−0.037
+1,122
+47,024
+12.54
+1.44
+2.52
+1.02
+1.16
+0.59
+
+84,227
+84,227
+84,227
+84,227
+83,189
+78,536
+81,481
+84,227
+84,227
+84,227
+84,227
+84,227
+84,227
+84,227
+84,227
+84,227
+
+0.92
+0.04
+0.50
+0.22
+−0.04
+0.48
+0.38
+−0.040
+499
+
+13,501
+12.30
+1.45
+2.24
+−0.17
+1.16
+0.65
+
+43,653
+43,653
+43,653
+43,653
+42,799
+38,018
+41,693
+43,653
+43,653
+43,653
+43,653
+43,653
+43,653
+43,653
+43,653
+43,653
+
+0.00
+0.00
+0.00
+0.26
+0.00
+0.19
+0.00
+0.74
+0.00
+0.00
+0.00
+0.04
+0.00
+0.00
+0.31
+0.00
+
+Panel C: Commercial Bank-Afﬁliated Fund Characteristics
+
+Mean Median
+
+SD
+
+Percentile
+
+Percentile
+
+1st
+
+99th
+
+Number of
+Observations
+
+Loans/TNA
+Corporate Loans/TNA
+Interest Income/Fees
+%TNA Invested in Client
+
+Stocks
+
+%TNA Invested in Top 10
+
+Client Stocks
+
+Bias in Client Stocks
+Bias in Top 10 Client Stocks
+
+107.90
+79.18
+446.36
+14.69
+
+22.75
+10.24
+120.81
+6.61
+
+733.56
+432.77
+1,574.14
+18.21
+
+0.17
+0.10
+2.18
+0.00
+
+1,148.47
+977.45
+6,307.21
+69.28
+
+1.60
+
+5.89
+0.22
+
+0.00
+
+1.51
+0.00
+
+3.90
+
+11.46
+2.13
+
+0.00
+−12.69
+−6.94
+
+18.49
+
+51.55
+7.26
+
+42,555
+42,446
+26,414
+43,653
+
+43,653
+
+43,400
+43,400
+
+afﬁliated funds’ holdings are in client stocks, which is 5.9 percentage points
+more than comparable passive funds hold in the same stocks.
+
+Deutsche Bank is a good example of a commercial banking group with a
+large asset management division, DWS Investments. Deutsche Bank was the
+second-largest commercial bank worldwide in 2010, with total assets of over
+$2.5 trillion (outstanding loans of $545 billion), and second in the league table
+of syndicated loan arrangers in Europe, with $183 billion in 2008 to 2010. DWS
+is the largest fund management company in Germany and the third largest in
+Europe, with TNA of $90 billion in equity funds ($24 billion in domestic equity
+funds) in 2010. Thus, Deutsche Bank’s lending business is several times the
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2195
+
+size of its asset management business. When we examine fund holdings, we
+ﬁnd that DWS’s equity holdings show a strong bias toward client stocks, with
+25% of TNA invested in client stocks compared to 15% for comparable passive
+funds.
+
+A. Baseline Test
+
+III. Results
+
+We start by comparing the performance of management companies whose
+parent’s primary activity is commercial banking and the performance of unaf-
+ﬁliated fund management companies. Speciﬁcally, we estimate fund-quarter
+panel regressions of four-factor alphas on the Commercial Bank-Afﬁliated
+dummy variable and a set of control variables (measured with a one-quarter
+lag). The regressions control for different types of afﬁliation by including the
+Insurance-Afﬁliated dummy variable for management companies that belong
+to insurance groups and the Investment Bank-Afﬁliated dummy variable for
+management companies that belong to investment banks. We also include the
+Publicly Traded Parent dummy to control for spillover effects associated with
+the listing of the parent company. The regressions further include quarter ﬁxed
+effects and country-of-domicile ﬁxed effects. Standard errors are clustered at
+the ultimate owner level.
+
+The main results are reported in Panel A of Table III. Column (1) shows
+that commercial bank-afﬁliated funds underperform unafﬁliated funds, as in-
+dicated by the negative and signiﬁcant coefﬁcient on the Commercial Bank-
+Afﬁliated dummy. The effect is economically signiﬁcant: bank-afﬁliated funds
+underperform unafﬁliated funds by 23 basis points per quarter (or 92 ba-
+sis points per year). The results also show that afﬁliation with commercial
+banking groups is the most detrimental organizational arrangement for fund
+performance.
+
+Insurance-afﬁliated funds’ performance is in line with that of unafﬁliated
+funds (i.e., the coefﬁcient on the Insurance-Afﬁliated dummy variable is sta-
+tistically insigniﬁcant). Funds afﬁliated with ﬁnancial conglomerates with rel-
+evant commercial and investment banking activity underperform unafﬁliated
+funds by about 12.5 (−.125 = −0.231 + 0.106) basis points per quarter. These
+ﬁndings on investment banks are consistent with conﬂicts of interest between
+the underwriting business and the asset management division (Hao and Yan
+(2012), Berzins, Liu, and Trzcinka (2013)).16
+
+Fund management companies whose ultimate owners are publicly traded
+perform similarly to companies whose ultimate owners are privately held. The
+coefﬁcients on the remaining control variables are in line with other studies
+that ﬁnd performance is negatively related to fund size and the total expense
+ratio but positively related to family size and fund ﬂows (e.g., Chen et al. (2004),
+P´astor, Stambaugh, and Taylor (2015)).
+
+16 Most of the top investment banks (e.g., JP Morgan, Bank of America, Citigroup, Barclays
+Capital, BNP Paribas, and Deutsche Bank) are also part of a wider ﬁnancial conglomerate that
+earns signiﬁcant revenues from commercial banking.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2196
+
+The Journal of Finance R(cid:3)
+
+Table III
+
+Performance of Commercial Bank-Afﬁliated Funds
+
+This table presents estimates of ordinary least squares (OLS) regressions of fund risk-adjusted
+performance. Panel A presents results in which the dependent variable is the alpha from the
+Carhart four-factor model in each quarter. Panel B presents results using alternative measures of
+risk-adjusted performance. Commercial Bank-Afﬁliated is a dummy variable that takes a value of
+1 if the ultimate owner of the fund’s management company is a commercial banking group, and 0
+otherwise. All control variables are lagged by one period. Variable deﬁnitions are provided in Table
+A.I in the Appendix. The sample consists of actively managed domestic equity mutual funds over
+the 2000 to 2010 period. Robust t-statistics adjusted for clustering at the ultimate owner level are
+reported in parentheses. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% level,
+respectively.
+
+Commercial Bank-Afﬁliated
+log (1+Loans/TNA)
+log (1+Corporate Loans/TNA)
+log (1+Interest Income/Fees)
+
+Publicly Traded Parent
+
+Insurance-Afﬁliated
+
+Investment Bank-Afﬁliated
+
+log (TNA)
+
+log (Family TNA)
+log (1+Age)
+
+Total Expense Ratio
+
+Total Load
+
+Flow
+
+Number of Countries of Sale
+
+Team-Managed
+
+Past Performance
+
+Quarter Fixed Effects
+Country Fixed Effects
+Fund Fixed Effects
+
+Panel A: Four-Factor Alpha
+
+(1)
+
+−0.231***
+(−3.92)
+
+(2)
+
+−0.382**
+(−2.35)
+
+(3)
+−0.093
+(−1.00)
+−0.050**
+(−2.14)
+
+(4)
+−0.121
+(−1.35)
+
+−0.051**
+(−1.98)
+
+−0.002
+(−0.03)
+−0.055
+(−0.77)
+0.106*
+(1.84)
+−0.052***
+(−4.82)
+
+0.041***
+(3.65)
+−0.030
+(−1.09)
+−0.035
+(−0.70)
+−0.022*
+(−1.95)
+
+0.007***
+(5.35)
+−0.002
+(−0.12)
+−0.105***
+(−2.65)
+
+0.026***
+(3.78)
+Yes
+Yes
+No
+
+−0.010
+(−0.05)
+−0.138
+(−0.52)
+0.172
+(0.95)
+−0.617***
+(−15.57)
+−0.097
+(−1.24)
+−0.323*
+(−1.71)
+−0.073
+(−0.47)
+−0.021
+(−0.49)
+
+0.005***
+(3.66)
+
+−0.017**
+(−2.44)
+Yes
+No
+Yes
+
+−0.006
+(−0.10)
+−0.062
+(−0.93)
+0.103*
+(1.81)
+−0.054***
+(−4.94)
+
+0.040***
+(3.47)
+−0.026
+(−0.93)
+−0.035
+(−0.69)
+−0.024**
+(−2.13)
+
+0.007***
+(5.36)
+−0.004
+(−0.19)
+−0.107***
+(−2.71)
+
+0.026***
+(3.76)
+Yes
+Yes
+No
+
+−0.010
+(−0.17)
+−0.055
+(−0.81)
+0.106*
+(1.83)
+−0.054***
+(−4.90)
+
+0.040***
+(3.51)
+−0.025
+(−0.91)
+−0.031
+(−0.62)
+−0.025**
+(−2.14)
+
+0.007***
+(5.38)
+−0.004
+(−0.20)
+−0.107***
+(−2.71)
+
+0.026***
+(3.75)
+Yes
+Yes
+No
+
+(5)
+
+0.126
+(0.63)
+
+−0.074**
+(−1.99)
+−0.004
+(−0.07)
+−0.057
+(−0.83)
+0.146*
+(1.88)
+−0.045***
+(−3.82)
+
+0.040***
+(3.15)
+−0.020
+(−0.69)
+−0.010
+(−0.18)
+−0.041***
+(−2.75)
+
+0.007***
+(5.07)
+0.002
+(0.10)
+−0.088**
+(−2.02)
+
+0.027***
+(3.74)
+Yes
+Yes
+No
+
+(Continued)
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2197
+
+Table III—Continued
+
+Panel A: Four-Factor Alpha
+
+Number of Observations
+R2
+
+(1)
+
+127,880
+0.145
+
+(2)
+
+127,880
+0.192
+
+(3)
+
+126,782
+0.146
+
+(4)
+
+126,673
+0.146
+
+(5)
+
+110,641
+0.131
+
+Panel B: Alternative Measures of Performance
+
+Benchmark-
+Adjusted
+Return
+
+(1)
+
+−0.198***
+(−3.75)
+Yes
+Yes
+Yes
+No
+
+125,920
+0.034
+
+Gross-
+Four-
+Factor
+Alpha
+
+(2)
+
+−0.219***
+(−3.93)
+Yes
+Yes
+Yes
+No
+
+116,266
+0.174
+
+Buy-and-Hold
+Benchmark-Adj.
+
+Return
+
+(3)
+
+−0.167***
+(−3.33)
+Yes
+Yes
+Yes
+No
+
+120,198
+0.052
+
+Information
+
+Ratio
+
+(4)
+
+−0.048***
+(−3.79)
+Yes
+Yes
+Yes
+No
+
+127,880
+0.089
+
+Commercial Bank-Afﬁliated
+
+Controls
+Quarter Fixed Effects
+Country Fixed Effects
+Fund Fixed Effects
+Number of Observations
+R2
+
+An important concern with our baseline results is potential endogeneity.
+We ﬁrst address endogeneity concerns using fund ﬁxed effects that control for
+unobserved sources of fund heterogeneity. This solves the joint determination
+problem whereby an unobserved time-invariant fund-level variable determines
+both performance and the decision to operate a fund management company in
+a commercial banking group. This test is equivalent to looking only at within-
+fund changes in the Commercial Bank-Afﬁliated dummy (i.e., divestitures or
+acquisitions of asset management divisions by commercial banking groups in
+which the other party is not a banking group).
+
+Column (2) of Table III reports estimates of fund ﬁxed effects regressions.
+The afﬁliated funds’ underperformance gap relative to unafﬁliated funds is 38
+basis points per quarter, which is stronger than the estimate in column (1). The
+fund ﬁxed effects speciﬁcation indicates that fund performance improves after
+a switch from afﬁliated to unafﬁliated, while fund performance deteriorates
+after a switch from unafﬁliated to afﬁliated.
+
+To investigate further why bank-afﬁliated funds underperform, we alterna-
+tively add to our baseline speciﬁcation the logarithm of one plus Loans/TNA,
+Corporate Loans/TNA, or Interest Income/Fees, which measure the size of the
+lending division relative to the asset management division within a banking
+group. Columns (3) to (5) show negative and statistically signiﬁcant coefﬁ-
+cients on these three variables. Moreover, the coefﬁcient on the Commercial
+Bank-Afﬁliated dummy becomes statistically insigniﬁcant, which suggests
+that most of the underperformance of afﬁliated funds is explained by the size
+of the lending business. The effect is economically signiﬁcant. For example,
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2198
+
+The Journal of Finance R(cid:3)
+
+funds afﬁliated with commercial banks with lending divisions of relative size
+close to zero underperform unafﬁliated funds by 9 basis points per quarter,
+while funds afﬁliated with commercial banks with lending divisions of median
+relative size (i.e., ratio of Loans/TNA of 22.75) underperform unafﬁliated
+funds by 25 basis points.
+
+Panel B reports estimates of the Commercial Bank-Afﬁliated coefﬁcient us-
+ing alternative measures of risk-adjusted performance. Column (1) shows that
+the results are robust to using benchmark-adjusted returns as an alternative
+to four-factor alphas—the extent of the underperformance remains practically
+unchanged at 20 basis points per quarter. Banks’ larger foothold in fund dis-
+tribution may allow afﬁliated funds to charge higher fees, which might be an
+alternative explanation for the underperformance of afﬁliated funds. Column
+(2) shows that bank-afﬁliated funds underperform unafﬁliated funds when
+gross returns are used as the dependent variable, with the performance gap
+remaining virtually unchanged at 22 basis points per quarter. Thus, the abil-
+ity of bank-afﬁliated funds to charge higher expense ratios does not explain
+their underperformance. In column (3), we consider funds’ buy-and-hold re-
+turn in excess of the benchmark return, as the performance gap could come
+from higher loads, wrap fees, or other hidden costs. We ﬁnd that bank-afﬁliated
+funds underperform unafﬁliated funds by a similar difference of 17 basis points
+per quarter. Finally, in column (4), we account for differences in idiosyncratic
+risk across funds using the information ratio as a performance measure. The
+idea here is that, as a portfolio deviates from the benchmark, it will be exposed
+to greater idiosyncratic risk. The results are robust to using the information
+ratio as a performance measure.
+
+We also explore the time-series variation of our results by analyzing the
+bank-afﬁliated funds’ performance gap in market downturns as proxied by (1)
+a dummy variable that takes a value of 1 in bear markets (2000:Q1 to 2002:Q3
+and 2007:Q4 to 2009:Q1), (2) the market return of a fund’s investment region
+(Asia Paciﬁc, Europe, North America, and Emerging), and (3) a dummy vari-
+able that takes a value of 1 during NBER recessions periods (any quarter that
+includes at least one month classiﬁed as a recession month). The estimates in
+Table IA.II in the Internet Appendix show that the underperformance of
+afﬁliated funds is more pronounced during market downturns when we expect
+a bank’s balance sheet to suffer from deterioration in the valuation of borrower
+ﬁrms.
+
+B. Cross-Country Variation
+
+Our sample of funds domiciled in 28 countries allows us to examine cross-
+country differences in the performance of commercial bank-afﬁliated funds.
+We consider several country characteristics that can help explain the under-
+performance of afﬁliated funds. Table IV reports the results. First, we compare
+the underperformance of afﬁliated funds in the United States relative to other
+countries. The intuition is that “Chinese walls” between bank lending and as-
+set management are more strictly enforced in the United States because of
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2199
+
+Performance of Commercial Bank-Afﬁliated Funds:
+
+Cross-Country Differences
+
+Table IV
+
+This table presents estimates of ordinary least squares (OLS) regressions of fund risk-adjusted
+performance. The dependent variable is the alpha from the Carhart four-factor model in each
+quarter. Commercial Bank-Afﬁliated is a dummy variable that takes a value of 1 if the ultimate
+owner of the fund’s management company is a commercial banking group, and 0 otherwise. In
+columns (1) and (2), the non-U.S. and U.S. fund groups consist of those funds domiciled outside
+of the United States and domiciled in the United States. In columns (3) and (4), the civil and
+common-law fund groups consist of those funds domiciled in civil-law and common-law countries
+as deﬁned in La Porta et al. (1998). In columns (5) and (6), the bank- and market-based fund groups
+consist of those funds domiciled in bank- and market-based countries as deﬁned in Demirg ¨uc¸-
+Kunt and Levine (2001). In columns (7) and (8), the high and low bank concentration groups
+consist of those funds domiciled in countries that are above and below the 75th percentile of the
+distribution of the market share of the top ﬁve banks. In columns (9) and (10), the high- and
+low-fund management company concentration groups consist of those funds domiciled in countries
+that are above and below the 75th percentile of the distribution of the market share of the top ﬁve
+fund management companies. In columns (11) and (12), the low and high approvals fund groups
+consist of those funds domiciled in countries that have one and more than one regulatory approval
+and disclosure requirements in the fund industry as deﬁned in Khorana, Servaes, and Tufano
+(2005). The regressions include the same control variables (coefﬁcients not shown) as in Table III.
+All control variables are lagged by one period. Variable deﬁnitions are provided in Table A.I in
+the Appendix. The sample consists of actively managed domestic equity mutual funds over the
+2000 to 2010 period. Robust t-statistics adjusted for clustering at the ultimate owner level are
+reported in parentheses. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% level,
+respectively.
+
+Commercial Bank-Afﬁliated
+
+Controls
+Quarter Fixed Effects
+Country Fixed Effects
+Number of Observations
+R2
+
+Commercial Bank-Afﬁliated
+
+Controls
+Quarter Fixed Effects
+Country Fixed Effects
+Number of Observations
+R2
+
+Country of Domicile
+
+Legal Origin
+
+Non-U.S.
+
+Funds
+
+(1)
+
+−0.332***
+(−3.49)
+Yes
+Yes
+Yes
+
+50,864
+0.088
+
+U.S. Funds
+
+Civil Law
+
+(2)
+
+−0.165**
+(−2.55)
+Yes
+Yes
+No
+
+77,016
+0.246
+
+(3)
+
+−0.322***
+(−2.69)
+Yes
+Yes
+Yes
+
+24,723
+0.147
+
+Common
+
+Law
+(4)
+
+−0.185***
+(−2.83)
+Yes
+Yes
+Yes
+
+103,157
+0.167
+
+Financial System
+
+Banking Industry
+
+Bank
+Based
+
+(5)
+
+−0.307**
+(−2.12)
+Yes
+Yes
+Yes
+
+22,250
+0.136
+
+Market
+Based
+
+(6)
+
+−0.197***
+(−3.18)
+Yes
+Yes
+No
+
+105,630
+0.182
+
+High Con-
+centration
+
+(7)
+
+−0.405***
+(−3.60)
+Yes
+Yes
+Yes
+
+31,821
+0.117
+
+Low Con-
+centration
+
+(8)
+
+−0.199***
+(−3.13)
+Yes
+Yes
+Yes
+
+96,059
+0.191
+
+(Continued)
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2200
+
+The Journal of Finance R(cid:3)
+
+Table IV—Continued
+
+Mutual Fund Industry
+
+Approvals
+
+High Con-
+centration
+
+(9)
+
+−0.325**
+(−2.56)
+Yes
+Yes
+Yes
+
+32,094
+0.150
+
+Low Con-
+centration
+
+(10)
+
+−0.168***
+(−2.80)
+Yes
+Yes
+No
+
+95,786
+0.199
+
+Low
+(11)
+
+−0.309**
+(−2.42)
+Yes
+Yes
+Yes
+
+28,234
+0.095
+
+High
+(12)
+
+−0.226***
+(−3.53)
+Yes
+Yes
+Yes
+
+99,646
+0.185
+
+Commercial Bank-Afﬁliated
+
+Controls
+Quarter Fixed Effects
+Country Fixed Effects
+Number of Observations
+R2
+
+the legacy effect of the Glass-Steagal Act, and hence fund investors’ rights are
+better protected (Khorana, Servaes, and Tufano (2005, 2009)). In columns (1)
+and (2), we ﬁnd much less pronounced underperformance among U.S.-afﬁliated
+funds (17 basis points per quarter) than among non-U.S. afﬁliated funds (33 ba-
+sis points per quarter). This performance difference is statistically signiﬁcant.
+Second, we compare the performance gap of afﬁliated funds in countries with
+civil-law legal origin versus countries with common-law legal origin (La Porta
+et al. (1998)). In columns (3) and (4) of Table IV, we ﬁnd that the underperfor-
+mance of afﬁliated funds is more pronounced in civil-law countries (32 basis
+points per quarter) than in common-law countries (19 basis points per quar-
+ter). Taken together, the non-U.S. versus U.S. results as well as the legal origin
+results suggest that conﬂicts of interest are less pronounced in markets with
+stronger laws and regulations.
+
+Third, we compare the performance gap of afﬁliated funds in countries with
+bank-based ﬁnancial systems versus countries with market-based ﬁnancial
+systems (Demirg ¨uc¸-Kunt and Levine (2001)). The conﬂicts of interest between
+lending and asset management divisions should be exacerbated in countries
+where ﬁrms are more bank-dependent and rely less on markets to raise capital.
+In columns (5) and (6), we ﬁnd that the underperformance of afﬁliated funds
+is more pronounced in bank-based countries (31 basis points per quarter) than
+in market-based countries (20 basis points per quarter).
+
+Fourth, we compare the performance gap of afﬁliated funds in countries
+with low versus high banking industry concentration as proxied by the mar-
+ket share of the top ﬁve banks (Beck, Demirg ¨uc¸-Kunt, and Levine (2000)). We
+expect that conﬂicts of interest are more pronounced in countries with higher
+banking concentration. In columns (7) and (8), we ﬁnd that the underperfor-
+mance of afﬁliated funds is more pronounced in the high banking industry
+concentration group (41 basis points per quarter) than in the low banking in-
+dustry concentration group (20 basis points per quarter). This performance
+difference is statistically signiﬁcant.
+
+Fifth, we compare the performance gap of afﬁliated funds in countries with
+low versus high mutual fund industry concentration as proxied by the market
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2201
+
+share of the top ﬁve fund management companies. In columns (9) and (10),
+we ﬁnd that the underperformance of afﬁliated funds is more pronounced in
+the high concentration group (33 basis points per quarter) than in the low con-
+centration group (17 basis points per quarter), with the difference statistically
+signiﬁcant.
+
+Finally, we compare the performance gap of afﬁliated funds in countries
+with low versus high requirements with regard to regulatory approvals and
+disclosure (Approvals) in the fund industry (Khorana, Servaes, and Tufano
+(2005)). In columns (11) and (12) of Table IV, we ﬁnd that the underperformance
+of afﬁliated funds is more pronounced in the low Approvals group (31 basis
+points per quarter) than in the high Approvals group (23 basis points per
+quarter).
+
+Overall, the results suggest that better investor protection, a stricter regu-
+latory environment, and more intense competition in the banking and mutual
+fund industry mitigate conﬂicts of interest between the lending and asset man-
+agement divisions of commercial banking groups.
+
+C. Client Stock Overweighting
+
+We use fund portfolio holdings data to test more directly whether fund man-
+ager investment decisions favor the parent bank’s lending business over fund
+investors’ interests. In particular, we examine the cost of the portfolio’s expo-
+sure to lending-client stocks.
+
+Panel C of Table II shows that bank-afﬁliated funds hold on average 14.7%
+of the fund’s TNA in client stocks (%TNA Invested in Client Stocks). In com-
+parison, the average weight in the same stocks among passive funds that track
+the same benchmark is 8.8%. This corresponds to a 5.9 percentage point over-
+weight of client stocks by afﬁliated funds relative to comparable passive funds
+(Bias in Client Stocks). The overweight in client stocks is 0.22 percentage points
+when we consider the top 10 borrowers of the fund’s parent bank (Bias in Top
+10 Client Stocks).17
+
+The fact that fund managers’ allocations are biased toward client stocks
+does not necessarily imply that these portfolio choices are detrimental to
+performance, as funds might have access to private information obtained
+from the parent’s bank lending business. To test whether the conﬂict of
+interest hypothesis or the information advantage hypothesis dominates, we
+estimate our baseline regressions of fund performance using measures based
+on portfolio holdings.
+
+We use four dummy variables to capture the extent to which a fund’s holdings
+overweight client stocks. We deﬁne High Allocation Fund as a dummy that
+takes a value of 1 if the fund’s %TNA Invested in Client Stocks is above the me-
+dian in each country and quarter, and High Bias Fund as a dummy that takes a
+value of 1 if the fund’s Bias in Client Stocks is above the median in each country
+
+17 Table IA.III in the Internet Appendix shows that afﬁliated funds overweight client stocks
+
+using fund-stock-quarter regression tests.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2202
+
+The Journal of Finance R(cid:3)
+
+and quarter. We similarly deﬁne two dummy variables High Allocation Fund
+in Top 10 Client Stocks and High Bias Fund in Top 10 Client Stocks based on
+holdings in the top 10 clients. In the regressions, the coefﬁcient on Commercial
+Bank-Afﬁliated is an estimate of the difference in the performance between
+funds with low exposure to client stocks and unafﬁliated funds. Similarly, the
+coefﬁcients on High Allocation Fund and High Bias Fund provide estimates of
+the difference in the performance between funds with high exposure to client
+stocks and funds with low exposure to client stocks, and therefore the degree
+to which fund performance is affected by conﬂicts of interest with the lending
+division.
+
+Table V presents the results. Columns (1) and (2) show negative and sta-
+tistically signiﬁcant coefﬁcients on the High Bias Fund and High Bias Fund
+in Top 10 Client Stocks dummy variables. The effects are also economically
+signiﬁcant. For example, using the estimates in column (1), afﬁliated funds
+with low overweight of client stocks underperform unafﬁliated funds by about
+20 basis points per quarter. In addition, afﬁliated funds with high overweight of
+client stocks underperform afﬁliated funds with low overweight of client stocks
+by about 12 basis points, which indicates that they underperform unafﬁliated
+funds by 32 basis points. These estimates therefore indicate that the exposure
+to client stocks represents about 40% of the underperformance of afﬁliated
+funds.
+
+Columns (3) and (4) show negative and statistically signiﬁcant coefﬁcients
+on the High Allocation Fund and High Allocation Fund in Top 10 Client Stocks
+dummy variables. The effects are again economically signiﬁcant. For example,
+afﬁliated funds with low exposure to client stocks underperform unafﬁliated
+funds by 17.5 basis points per quarter. In addition, afﬁliated funds with high
+exposure to client stocks underperform afﬁliated funds with low exposure to
+client stocks by 16 basis points, which indicates that they underperform unaf-
+ﬁliated funds by 33.5 basis points.
+
+We also compare the effect on fund performance of overweighting client stocks
+for the sample of non-U.S. funds and U.S. funds separately. Columns (5) and (6)
+present estimates using the Commercial Bank-Afﬁliated and High Bias Fund
+dummy variables. We ﬁnd that the High Bias Fund coefﬁcient is negative and
+signiﬁcant in the sample of non-U.S. funds but statistically insigniﬁcant in the
+sample of U.S. funds. This is consistent with the idea that the underperfor-
+mance of non-U.S. afﬁliated funds is related to the extent of the portfolio’s tilt
+toward client stocks. For the sample of U.S. funds, however, the performance
+gap of commercial bank-afﬁliated funds is unrelated to the fund’s exposure to
+client stocks.
+
+Overall, the evidence indicates that commercial bank-afﬁliated funds with
+greater portfolio exposure and overweighting of client stocks tend to underper-
+form more, which is line with the conﬂict of interest hypothesis.18
+
+18 We also investigate whether afﬁliated funds would have performed better had they chosen
+to invest in other client stocks held by their peer funds (Client Stocks Not Held). The results in
+Table IA.IV in the Internet Appendix show that bank-afﬁliated funds are more biased toward
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2203
+
+Table V
+
+Performance of Commercial Bank-Afﬁliated Funds and Portfolio
+
+Allocation to Client Stocks
+
+This table presents estimates of ordinary least squares (OLS) regressions of fund risk-adjusted
+performance. The dependent variable is the alpha from the Carhart four-factor model in each
+quarter. Commercial Bank-Afﬁliated is a dummy variable that takes a value of 1 if the ultimate
+owner of the fund’s management company is a commercial banking group, and 0 otherwise. High
+Bias Fund is a dummy variable that takes a value of 1 if an afﬁliated fund Bias in Client Stocks
+is above the median in a given country and quarter, and 0 otherwise. Bias in Client Stocks is
+the portfolio bias in stocks of ﬁrms that borrow from the fund’s parent bank versus the average
+weight of comparable passive funds. High Allocation Fund is a dummy variable that takes a value
+of 1 if an afﬁliated fund %TNA Invested in Client Stocks is above the median in a given country
+and quarter, and 0 otherwise. %TNA Invested in Client Stocks is the percentage of TNA invested
+in stocks of ﬁrms that borrow from the fund’s parent bank. High Bias Fund in Top 10 Client
+Stocks and High Allocation Fund in Top 10 Client Stocks are dummy variables similarly deﬁned
+for the top 10 borrowers of the fund’s parent bank. All of these variables are set to zero if the fund
+is unafﬁliated. The regressions include the same control variables (coefﬁcients not shown) as in
+Table III. All control variables are lagged by one period. Variable deﬁnitions are provided in Table
+A.I in the Appendix. The sample consists of actively managed domestic equity mutual funds over
+the 2000 to 2010 period. Robust t-statistics adjusted for clustering at the ultimate owner level are
+reported in parentheses. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% level,
+respectively.
+
+All Funds
+
+Non-U.S.
+
+Funds
+
+U.S.
+Funds
+
+(3)
+
+(4)
+
+(2)
+
+(1)
+−0.201*** −0.210*** −0.175*** −0.170*** −0.264**
+(−3.17)
+(−2.55)
+−0.120*
+−0.198*
+(−1.65)
+(−1.87)
+
+(−3.50)
+
+(−2.72)
+
+(−2.70)
+
+(5)
+
+(6)
+
+−0.182**
+(−2.53)
+−0.005
+(−0.05)
+
+−0.182**
+(−2.38)
+
+−0.160**
+(−2.12)
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+Yes
+Yes
+Yes
+
+127,238
+
+127,238
+
+127,880
+
+0.15
+
+0.15
+
+0.15
+
+−0.258***
+(−2.98)
+Yes
+Yes
+Yes
+
+127,880
+
+0.15
+
+Yes
+Yes
+Yes
+
+50,810
+0.088
+
+Yes
+Yes
+No
+
+76,428
+0.247
+
+Commercial
+
+Bank-Afﬁliated
+
+High Bias Fund
+
+High Bias Fund in Top 10
+
+Client Stocks
+
+High Allocation Fund
+
+High Allocation Fund in
+
+Top 10 Client Stocks
+
+Controls
+Quarter Fixed Effects
+Country Fixed Effects
+Number of Observations
+R2
+
+D. Robustness Checks
+
+Table IA.V in the Internet Appendix presents additional robustness checks
+of our primary ﬁnding that commercial bank-afﬁliated funds underperform
+unafﬁliated funds. First, we use alternative estimation methods such as Fama
+and MacBeth (1973) and weighted least squares (WLS) using fund TNA as
+
+poorer-performing client stocks within the investable universe of stocks of their bank’s lending
+clients.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2204
+
+The Journal of Finance R(cid:3)
+
+weights. Columns (1) and (2) show that these alternative estimation meth-
+ods provide estimates of the Commercial Bank-Afﬁliated coefﬁcient that are
+comparable to the baseline results in Table III. Second, we check for the sensi-
+tivity of the estimates to the inclusion of small funds and earlier sample years
+with lower coverage of the population of funds. Columns (3) and (4) indicate
+that the results are robust to excluding funds with assets under management
+below $10 million or to excluding the ﬁrst two years of the sample (2000 to
+2001). Third, we check the robustness to controlling for the fund’s Active Share
+(Cremers and Petajisto (2009), Cremers et al. (2016)), a proxy for manage-
+rial skill. This test alleviates concerns that bank-afﬁliated funds might hire
+less-skilled fund managers. The estimate of the Commercial Bank-Afﬁliated
+coefﬁcient, reported in column (5), is similar to that in Table III, which indi-
+cates that our results are not driven by systematic differences in fund manager
+skills between afﬁliated and unafﬁliated funds. Finally, we repeat our base-
+line test using a sample of passive funds run by bank-afﬁliated fund manage-
+ment companies. We should not ﬁnd signiﬁcant conﬂicts of interest stemming
+from lending activity in the case of passive funds that have little discretion
+to overweight client stocks. In line with this prediction, column (6) shows
+that bank-afﬁliated passive funds do not underperform unafﬁliated passive
+funds.
+
+We also check whether subadvisory arrangements across the different com-
+plexes affect our primary ﬁndings. Speciﬁcally, following the methodology in
+Chuprinin, Massa, and Schumacher (2015), we identify funds that are man-
+aged in an outsourcing relationship. We then repeat our baseline performance
+tests either (1) by restricting the sample to funds managed in-house and (2) by
+including a dummy variable for outsourced funds as a control. Table IA.VI of
+the Internet Appendix shows that the results are similar to those presented in
+Table III.
+
+IV. Endogeneity
+
+An important concern with our baseline results is endogeneity. A ﬁrst con-
+cern is omitted variable bias, which we address using fund ﬁxed effects in
+Table III. A second concern is reverse causality. Strong past performance may
+prompt a fund management company to operate as unafﬁliated, while poorly
+performing funds may not be able to operate as unafﬁliated. Another concern
+is the possibility that commercial bank-afﬁliated funds may have less-skilled
+managers. We address these issues using several empirical strategies.
+
+A. Divestitures of Asset Management Divisions
+
+To strengthen the causal interpretation of our results, we exploit the varia-
+tion in commercial bank afﬁliation generated by a quasi-natural experiment.
+Speciﬁcally, we use asset management division divestitures by commercial
+banking groups to identify changes in bank afﬁliation that are exogenous to
+fund performance. We employ a difference-in-differences regression using the
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2205
+
+three quarters before and the three quarters after the announcement quarter
+of a fund divestiture by a commercial banking group (treated funds). The sam-
+ple includes 22 divestitures by 19 commercial banks for a total of 132 funds
+managed by companies sold by commercial banks to unafﬁliated companies
+during the 2000 to 2010 period.19
+
+We ﬁrst isolate treated funds. Then, from the population of nontreated (un-
+afﬁliated) funds, we look for control funds that minimize the (Mahalanobis)
+distance between a vector of observed covariates (pre-event) across treated and
+nontreated funds. We select one matched control fund for each treated fund.
+The matching estimator produces exact matches on categorical variables but
+less exact matches on continuous variables (although they should be close). The
+categorical variables include country and investment objective. The noncate-
+gorical variables (measured one quarter before the event) include TNA, Family
+TNA, and prior year Average Performance (i.e., average four-factor alpha over
+the previous four quarters).
+
+Panel A of Table VI reports results for equality of means and medians tests
+between the treatment and control groups. In general, we cannot reject the
+hypothesis of equal means or medians on the matching covariates between the
+treatment and control groups.
+
+We estimate difference-in-differences regressions to examine whether funds’
+portfolio holdings of client stocks and performance change after a management
+company switches from afﬁliated to unafﬁliated. In the case of the portfolio
+holdings tests, for each treated fund, we compute %TNA Invested in Client
+Stocks using the pre-event list of client stocks of the parent bank with which
+the fund management company was afﬁliated before the event. For each control
+fund, we compute its allocation to client stocks using the same pre-event list of
+client stocks of the treated fund. The main explanatory variables are a dummy
+variable that takes a value of 1 if the fund is sold by a commercial bank to an
+unafﬁliated company (Treated), a dummy variable that takes a value of 1 in
+the quarter of the divestiture and thereafter (After), and the interaction term
+Treated × After.20
+
+Panel B of Table VI reports the results. Columns (1) and (2) report es-
+timates for the sample of divestitures during the 2000 to 2010 period.
+Column (1) shows that fund managers signiﬁcantly reduce their stock hold-
+ings of clients of the parent bank after a switch from afﬁliated to unafﬁliated
+relative to control funds. On average, the holdings of client stocks (%TNA In-
+vested in Client Stocks) in treated funds decline by 2.4 percentage points more
+(t-statistic = −4.75) than control funds following a divestiture.21 Column (2)
+
+19 The events are identiﬁed by combining information from several sources including FactSet,
+
+SDC Platinum, and web searches of press releases.
+
+20 The Treated dummy variable captures the difference in %TNA Invested in Client Stocks
+between the treated fund and the control fund in the same stock holding, which corresponds to the
+bias variables in Table V as treated and control funds share the same benchmark.
+
+21 We repeat our difference-in-differences regressions using the fund benchmark weights (in-
+stead of the nearest-neighbor fund) as controls. The results reported in Table IA.VII in the Internet
+Appendix are similar to those presented in Table VI.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2206
+
+The Journal of Finance R(cid:3)
+
+)
+e
+u
+l
+a
+V
+-
+p
+(
+
+2
+χ
+n
+o
+s
+r
+a
+e
+P
+
+l
+o
+r
+t
+n
+o
+C
+
+d
+e
+t
+a
+e
+r
+T
+
+)
+e
+u
+l
+a
+V
+-
+p
+(
+
+t
+s
+e
+T
+-
+t
+
+l
+o
+r
+t
+n
+o
+C
+
+d
+e
+t
+a
+e
+r
+T
+
+n
+a
+i
+d
+e
+M
+
+e
+l
+p
+m
+a
+S
+d
+e
+h
+c
+t
+a
+M
+
+:
+
+A
+
+l
+e
+n
+a
+P
+
+n
+a
+e
+M
+
+.
+y
+l
+e
+v
+i
+t
+c
+e
+p
+s
+e
+r
+
+,
+l
+e
+v
+e
+l
+
+%
+1
+d
+n
+a
+
+,
+
+%
+5
+
+,
+
+%
+0
+1
+
+e
+h
+t
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+i
+n
+g
+i
+s
+
+l
+a
+c
+i
+t
+s
+i
+t
+a
+t
+s
+
+e
+t
+a
+c
+i
+d
+n
+i
+
+)
+d
+e
+u
+n
+i
+t
+n
+o
+C
+
+(
+
+3
+3
+
+1
+1
+
+0
+9
+
+.
+
+.
+
+.
+
+0
+
+0
+
+0
+
+4
+3
+
+.
+
+0
+
+3
+8
+1
+
+,
+
+9
+
+3
+
+.
+
+3
+9
+1
+
+9
+1
+
+.
+
+0
+
+9
+8
+4
+
+,
+
+1
+2
+
+6
+
+.
+
+1
+5
+2
+
+1
+4
+
+0
+0
+
+0
+8
+
+.
+
+.
+
+.
+
+0
+
+0
+
+0
+
+6
+0
+
+.
+
+0
+
+7
+6
+5
+
+,
+
+2
+2
+
+6
+
+.
+
+2
+5
+7
+
+3
+1
+
+.
+
+0
+
+0
+4
+9
+
+,
+
+2
+3
+
+9
+
+.
+
+1
+1
+9
+
+I
+V
+e
+l
+b
+a
+T
+
+s
+p
+u
+o
+r
+G
+g
+n
+i
+k
+n
+a
+B
+
+l
+a
+i
+c
+r
+e
+m
+m
+o
+C
+y
+b
+s
+e
+i
+n
+a
+p
+m
+o
+C
+t
+n
+e
+m
+e
+g
+a
+n
+a
+M
+d
+n
+u
+F
+f
+o
+s
+e
+r
+u
+t
+i
+t
+s
+e
+v
+i
+D
+
+r
+o
+t
+c
+a
+f
+-
+r
+u
+o
+f
+(
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+p
+
+d
+e
+t
+s
+u
+j
+d
+a
+-
+k
+s
+i
+r
+
+d
+n
+a
+
+s
+g
+n
+i
+d
+l
+o
+h
+
+o
+i
+l
+o
+f
+t
+r
+o
+p
+
+k
+c
+o
+t
+s
+
+’
+
+s
+d
+n
+u
+f
+
+a
+
+f
+o
+
+s
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+s
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+-
+n
+i
+-
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+
+f
+o
+
+s
+e
+t
+a
+m
+
+i
+t
+s
+e
+
+s
+t
+n
+e
+s
+e
+r
+p
+
+e
+l
+b
+a
+t
+
+s
+i
+h
+T
+
+.
+
+p
+u
+o
+r
+g
+g
+n
+i
+k
+n
+a
+b
+l
+a
+i
+c
+r
+e
+m
+m
+o
+c
+a
+y
+b
+y
+n
+a
+p
+m
+o
+c
+
+t
+n
+e
+m
+e
+g
+a
+n
+a
+m
+d
+n
+u
+f
+a
+f
+o
+
+e
+r
+u
+t
+i
+t
+s
+e
+v
+i
+d
+e
+h
+t
+
+r
+e
+t
+f
+a
+s
+r
+e
+t
+r
+a
+u
+q
+e
+e
+r
+h
+t
+
+e
+h
+t
+d
+n
+a
+e
+r
+o
+f
+e
+b
+s
+r
+e
+t
+r
+a
+u
+q
+e
+e
+r
+h
+t
+
+e
+h
+t
+d
+n
+u
+o
+r
+a
+)
+a
+h
+p
+l
+a
+
+s
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+-
+n
+i
+-
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+f
+o
+s
+e
+t
+a
+m
+
+i
+t
+s
+e
+s
+w
+o
+h
+s
+B
+
+l
+e
+n
+a
+P
+
+.
+s
+p
+u
+o
+r
+g
+l
+o
+r
+t
+n
+o
+c
+d
+n
+a
+d
+e
+t
+a
+e
+r
+t
+
+f
+o
+s
+n
+a
+i
+d
+e
+m
+d
+n
+a
+s
+n
+a
+e
+m
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+e
+r
+p
+f
+o
+y
+t
+i
+l
+a
+u
+q
+e
+f
+o
+s
+t
+s
+e
+t
+s
+w
+o
+h
+s
+A
+
+l
+e
+n
+a
+P
+
+e
+h
+t
+d
+n
+a
+
+,
+)
+)
+4
+(
+d
+n
+a
+)
+3
+(
+
+s
+n
+m
+u
+l
+o
+c
+(
+
+s
+i
+s
+i
+r
+c
+
+l
+a
+i
+c
+n
+a
+n
+ﬁ
+l
+a
+b
+o
+l
+g
+9
+0
+0
+2
+o
+t
+7
+0
+0
+2
+e
+h
+t
+
+,
+)
+)
+2
+(
+d
+n
+a
+)
+1
+(
+
+s
+n
+m
+u
+l
+o
+c
+(
+d
+o
+i
+r
+e
+p
+0
+1
+0
+2
+o
+t
+0
+0
+0
+2
+e
+h
+t
+
+g
+n
+i
+r
+u
+d
+s
+e
+r
+u
+t
+i
+t
+s
+e
+v
+i
+d
+f
+o
+
+s
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+e
+r
+a
+s
+d
+n
+u
+f
+d
+e
+t
+a
+e
+r
+T
+
+.
+)
+)
+6
+(
+d
+n
+a
+)
+5
+(
+
+s
+n
+m
+u
+l
+o
+c
+(
+
+w
+o
+d
+n
+i
+w
+
+t
+n
+e
+v
+e
+
+e
+h
+t
+n
+i
+
+r
+e
+v
+o
+n
+r
+u
+t
+
+r
+e
+g
+a
+n
+a
+m
+d
+n
+u
+f
+
+t
+u
+o
+h
+t
+i
+
+w
+s
+d
+n
+u
+f
+
+o
+t
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+g
+n
+i
+t
+c
+i
+r
+t
+s
+e
+r
+
+t
+u
+b
+d
+o
+i
+r
+e
+p
+0
+1
+0
+2
+o
+t
+0
+0
+0
+2
+
+l
+o
+r
+t
+n
+o
+c
+
+e
+h
+T
+
+.
+
+d
+n
+u
+f
+d
+e
+t
+a
+e
+r
+t
+h
+c
+a
+e
+
+r
+o
+f
+d
+e
+t
+c
+e
+l
+e
+s
+
+s
+i
+d
+n
+u
+f
+
+l
+o
+r
+t
+n
+o
+c
+d
+e
+h
+c
+t
+a
+m
+A
+
+.
+y
+n
+a
+p
+m
+o
+c
+
+t
+n
+e
+m
+e
+g
+a
+n
+a
+m
+e
+n
+o
+l
+a
+-
+d
+n
+a
+t
+s
+
+a
+
+o
+t
+k
+n
+a
+b
+
+l
+a
+i
+c
+r
+e
+m
+m
+o
+c
+
+a
+
+y
+b
+d
+l
+o
+s
+
+s
+d
+n
+u
+f
+
+e
+s
+o
+h
+t
+
+)
+n
+o
+i
+t
+a
+c
+ﬁ
+i
+s
+s
+a
+l
+c
+
+l
+a
+b
+o
+l
+g
+r
+e
+p
+p
+i
+L
+
+(
+e
+v
+i
+t
+c
+e
+j
+b
+o
+t
+n
+e
+m
+t
+s
+e
+v
+n
+i
+d
+n
+a
+
+,
+e
+l
+i
+c
+i
+
+m
+o
+d
+f
+o
+y
+r
+t
+n
+u
+o
+c
+
+,
+r
+e
+t
+r
+a
+u
+q
+e
+m
+a
+s
+e
+h
+t
+
+m
+o
+r
+f
+
+)
+e
+c
+n
+a
+t
+s
+i
+d
+s
+i
+b
+o
+n
+a
+l
+a
+h
+a
+M
+
+(
+
+r
+o
+b
+h
+g
+i
+e
+n
+t
+s
+e
+r
+a
+e
+n
+e
+h
+t
+s
+i
+d
+n
+u
+f
+
+y
+m
+m
+u
+d
+
+a
+
+s
+i
+
+r
+e
+t
+f
+A
+
+.
+)
+s
+r
+e
+t
+r
+a
+u
+q
+
+r
+u
+o
+f
+
+s
+u
+o
+i
+v
+e
+r
+p
+
+e
+h
+t
+n
+i
+
+a
+h
+p
+l
+a
+
+r
+o
+t
+c
+a
+f
+-
+r
+u
+o
+f
+
+’
+
+s
+d
+n
+u
+f
+
+e
+g
+a
+r
+e
+v
+a
+(
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+P
+e
+g
+a
+r
+e
+v
+A
+d
+n
+a
+
+,
+
+A
+N
+T
+y
+l
+i
+
+m
+a
+F
+
+,
+
+A
+N
+T
+t
+s
+e
+s
+o
+l
+c
+
+e
+g
+a
+t
+n
+e
+c
+r
+e
+p
+
+e
+h
+t
+
+s
+i
+
+s
+k
+c
+o
+t
+S
+t
+n
+e
+i
+l
+
+C
+n
+i
+d
+e
+t
+s
+e
+v
+n
+I
+A
+N
+T
+%
+
+.
+r
+e
+t
+f
+a
+e
+r
+e
+h
+t
+
+d
+n
+a
+
+e
+r
+u
+t
+i
+t
+s
+e
+v
+i
+d
+
+d
+n
+u
+f
+
+a
+
+f
+o
+
+r
+e
+t
+r
+a
+u
+q
+
+t
+n
+e
+m
+e
+c
+n
+u
+o
+n
+n
+a
+
+e
+h
+t
+n
+i
+
+1
+
+f
+o
+
+e
+u
+l
+a
+v
+
+a
+
+s
+e
+k
+a
+t
+
+e
+h
+t
+h
+t
+i
+w
+d
+n
+a
+
+t
+a
+h
+t
+
+e
+l
+b
+a
+i
+r
+a
+v
+
+.
+x
+i
+d
+n
+e
+p
+p
+A
+e
+h
+t
+n
+i
+
+I
+.
+A
+e
+l
+b
+a
+T
+n
+i
+
+d
+e
+d
+i
+v
+o
+r
+p
+
+e
+r
+a
+
+s
+n
+o
+i
+t
+i
+n
+ﬁ
+e
+d
+
+e
+l
+b
+a
+i
+r
+a
+V
+
+.
+)
+k
+n
+a
+b
+
+t
+n
+e
+r
+a
+p
+
+’
+
+s
+d
+n
+u
+f
+
+e
+h
+t
+
+m
+o
+r
+f
+
+w
+o
+r
+r
+o
+b
+
+t
+a
+h
+t
+
+s
+m
+r
+ﬁ
+
+,
+.
+e
+.
+i
+(
+
+s
+k
+c
+o
+t
+s
+
+t
+n
+e
+i
+l
+c
+n
+i
+
+d
+e
+t
+s
+e
+v
+n
+i
+
+A
+N
+T
+
+f
+o
+
+n
+i
+
+d
+e
+t
+r
+o
+p
+e
+r
+
+e
+r
+a
+
+l
+e
+v
+e
+l
+
+l
+a
+e
+d
+
+e
+h
+t
+
+t
+a
+
+g
+n
+i
+r
+e
+t
+s
+u
+l
+c
+
+r
+o
+f
+
+d
+e
+t
+s
+u
+j
+d
+a
+
+s
+c
+i
+t
+s
+i
+t
+a
+t
+s
+-
+t
+
+t
+s
+u
+b
+o
+R
+
+.
+s
+d
+n
+u
+f
+
+l
+a
+u
+t
+u
+m
+y
+t
+i
+u
+q
+e
+
+c
+i
+t
+s
+e
+m
+o
+d
+
+d
+e
+g
+a
+n
+a
+m
+y
+l
+e
+v
+i
+t
+c
+a
+
+f
+o
+
+s
+t
+s
+i
+s
+n
+o
+c
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+T
+
+*
+*
+*
+d
+n
+a
+,
+*
+*
+
+,
+*
+
+.
+s
+e
+s
+e
+h
+t
+n
+e
+r
+a
+p
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+P
+e
+g
+a
+r
+e
+v
+A
+
+A
+N
+T
+y
+l
+i
+
+m
+a
+F
+
+A
+N
+T
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2207
+
+r
+e
+g
+a
+n
+a
+M
+d
+n
+u
+F
+t
+u
+o
+h
+t
+i
+w
+e
+l
+p
+m
+a
+S
+
+l
+a
+i
+c
+n
+a
+n
+i
+F
+
+l
+a
+b
+o
+l
+G
+9
+0
+0
+2
+
+o
+t
+
+7
+0
+0
+2
+
+r
+e
+v
+o
+n
+r
+u
+T
+
+s
+i
+s
+i
+r
+C
+
+0
+1
+0
+2
+
+o
+t
+
+0
+0
+0
+2
+
+e
+g
+a
+r
+e
+v
+A
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+P
+
+d
+e
+t
+s
+e
+v
+n
+I
+A
+N
+T
+%
+
+s
+k
+c
+o
+t
+S
+t
+n
+e
+i
+l
+
+C
+n
+i
+
+e
+g
+a
+r
+e
+v
+A
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+P
+
+d
+e
+t
+s
+e
+v
+n
+I
+A
+N
+T
+%
+
+s
+k
+c
+o
+t
+S
+t
+n
+e
+i
+l
+
+C
+n
+i
+
+e
+g
+a
+r
+e
+v
+A
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+P
+
+d
+e
+t
+s
+e
+v
+n
+I
+A
+N
+T
+%
+
+s
+k
+c
+o
+t
+S
+t
+n
+e
+i
+l
+
+C
+n
+i
+
+d
+e
+u
+n
+i
+t
+n
+o
+C
+—
+I
+V
+e
+l
+b
+a
+T
+
+s
+e
+c
+n
+e
+r
+e
+f
+f
+i
+
+D
+-
+n
+i
+-
+e
+c
+n
+e
+r
+e
+f
+f
+i
+
+D
+
+:
+
+B
+
+l
+e
+n
+a
+P
+
+)
+6
+(
+
+3
+6
+0
+0
+−
+
+)
+6
+9
+0
+−
+
+*
+8
+7
+4
+0
+−
+
+)
+7
+9
+1
+−
+
+.
+
+.
+
+.
+
+.
+
+(
+
+(
+
+*
+*
+4
+8
+3
+0
+
+.
+
+)
+2
+9
+2
+(
+
+.
+
+s
+e
+Y
+
+6
+3
+1
+1
+
+,
+
+5
+9
+
+5
+1
+
+2
+1
+
+7
+5
+1
+0
+
+.
+
+)
+5
+(
+
+*
+*
+6
+7
+9
+3
+1
+
+.
+
+9
+5
+6
+0
+
+.
+
+)
+1
+7
+2
+(
+
+.
+
+*
+*
+*
+4
+0
+7
+2
+−
+
+)
+6
+1
+0
+(
+
+)
+7
+6
+4
+−
+
+.
+
+.
+
+.
+
+(
+
+s
+e
+Y
+
+0
+4
+1
+1
+
+,
+
+5
+9
+
+5
+1
+
+2
+1
+
+1
+7
+2
+0
+
+.
+
+)
+4
+(
+
+9
+1
+0
+0
+−
+
+)
+2
+3
+0
+−
+
+.
+
+.
+
+(
+
+8
+0
+3
+0
+
+.
+
+*
+3
+5
+3
+0
+
+.
+
+)
+4
+3
+0
+(
+
+.
+
+s
+e
+Y
+
+0
+2
+4
+
+5
+3
+
+7
+
+7
+
+6
+8
+1
+0
+
+.
+
+)
+7
+8
+1
+(
+
+.
+
+*
+*
+*
+4
+4
+4
+4
+
+.
+
+6
+9
+9
+1
+
+.
+
+)
+1
+1
+5
+(
+
+.
+
+)
+3
+(
+
+*
+*
+*
+8
+1
+0
+3
+−
+
+)
+9
+1
+0
+(
+
+)
+8
+8
+3
+−
+
+.
+
+.
+
+.
+
+(
+
+s
+e
+Y
+
+0
+2
+4
+
+5
+3
+
+7
+
+7
+
+1
+4
+0
+0
+
+.
+
+)
+2
+(
+
+*
+*
+6
+8
+0
+0
+−
+
+*
+2
+0
+4
+0
+−
+
+)
+6
+7
+1
+−
+
+)
+0
+2
+2
+−
+
+.
+
+.
+
+.
+
+.
+
+(
+
+(
+
+*
+*
+*
+2
+1
+4
+0
+
+.
+
+s
+e
+Y
+
+7
+7
+5
+1
+
+,
+
+2
+3
+1
+
+)
+0
+3
+4
+(
+
+.
+
+2
+2
+
+9
+1
+
+5
+3
+1
+0
+
+.
+
+)
+1
+(
+
+*
+*
+3
+2
+3
+1
+1
+
+.
+
+*
+*
+*
+1
+7
+3
+.
+2
+−
+
+)
+5
+7
+.
+4
+−
+
+)
+8
+5
+2
+(
+
+0
+1
+3
+.
+1
+−
+
+)
+1
+4
+.
+0
+−
+
+.
+
+(
+
+(
+
+s
+e
+Y
+
+4
+8
+5
+1
+
+,
+
+2
+3
+1
+
+2
+2
+
+9
+1
+
+5
+7
+1
+0
+
+.
+
+s
+d
+n
+u
+F
+d
+e
+t
+a
+e
+r
+T
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+O
+
+s
+l
+a
+e
+D
+
+s
+k
+n
+a
+B
+
+f
+o
+
+f
+o
+
+f
+o
+
+f
+o
+
+r
+e
+b
+m
+u
+N
+
+r
+e
+b
+m
+u
+N
+
+r
+e
+b
+m
+u
+N
+
+r
+e
+b
+m
+u
+N
+
+2
+R
+
+s
+t
+c
+e
+f
+f
+
+E
+d
+e
+x
+i
+F
+r
+e
+t
+r
+a
+u
+Q
+
+r
+e
+t
+f
+A
+×
+d
+e
+t
+a
+e
+r
+T
+
+d
+e
+t
+a
+e
+r
+T
+
+r
+e
+t
+f
+A
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2208
+
+The Journal of Finance R(cid:3)
+
+shows that treated funds’ Average Performance improves by 41 basis points
+more (t-statistic = 4.30) than control funds following a divestiture (the post-
+treatment period).
+
+Columns (3) and (4) report estimates when we restrict the sample to the
+2007 to 2009 global ﬁnancial crisis (2007:Q3 to 2009:Q2). During this pe-
+riod, several commercial banking groups were forced to divest noncore busi-
+ness assets to improve their regulatory capital ratios rather than due to
+factors such as fund performance.22 Some high-proﬁle deals include the di-
+vestitures of the asset management division of Credit Suisse to Aberdeen, of
+Barclays Global Investors to Blackrock, and of Cominvest (Commerzbank) to
+Allianz. The results are similar to those in columns (1) and (2). Speciﬁcally,
+we ﬁnd that the differential effect on portfolio holdings of client stocks is 3.0
+percentage points, and the differential effect on performance is a positive 35
+basis points.
+
+As we discuss above, a potential concern with our results is that commer-
+cial bank-afﬁliated funds may hire less-skilled managers. This could occur if
+talented managers view stand-alone management companies as offering more
+prestigious career paths or if afﬁliated funds have less of an incentive to attract
+talent because banks can offer bundled services to clients. If afﬁliated funds
+hire less-skilled managers, then when an asset management arm is spun off,
+the new stand-alone entity may have to switch to a talent-based model by
+replacing fund managers. To mitigate this concern, we restrict the sample of
+divestitures to funds that do not experience fund manager turnover (i.e., man-
+ager skill remains constant) around divestitures. Columns (5) and (6) report
+the results for the 2000 to 2010 period, which are similar to those in columns
+(1) to (4). Speciﬁcally, treated funds signiﬁcantly reduce their portfolio hold-
+ings of client stocks by 2.7 percentage points relative to control funds after a
+divestiture. In addition, the differential effect on performance is positive at 38
+basis points and statistically signiﬁcant. These results suggest that differences
+in manager skill do not explain our results.
+
+Figure 2 shows the evolution of differences in holdings of client stocks (%TNA
+Invested in Client Stocks) and fund performance (Average Performance) be-
+tween the treatment and control groups over the two quarters before and af-
+ter a divestiture of an asset management company by a commercial banking
+group during the 2000 to 2010 period (Panel A) and during the 2007 to 2009
+global ﬁnancial crisis (Panel B). This ﬁgure is based on the estimation with
+the treatment variable (Treated) interacted with event quarter dummies. The
+divestitures occur between quarter −1 and quarter 0. The ﬁgure shows that the
+two groups follow parallel trends in the pretreatment period. A switch from af-
+ﬁliated to unafﬁliated is accompanied by signiﬁcant reductions in the holdings
+of client stocks. There is also evidence of an improvement in fund performance
+following divestitures.
+
+22 See “Fund management–Wasting assets,” The Economist, January 18, 2009.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2209
+
+Figure 2. Funds’ client stock holdings and performance around divestitures. This ﬁgure
+shows commercial bank-afﬁliated funds’ portfolio holdings of client stocks and performance around
+divestitures of fund management companies in the 2000 to 2010 (Panel A) and 2007 to 2009
+global ﬁnancial crisis (Panel B) periods. %TNA Invested in Client Stocks is the percentage of
+TNA invested in stocks of ﬁrms that borrow from the fund’s parent bank. Average Performance
+is the average four-factor alpha over the last four quarters. The sample of divestitures includes
+funds of management companies afﬁliated with commercial banking groups that are sold to stand-
+alone management companies. The divestitures occur between quarter −1 and quarter 0. The
+sample consists of actively managed domestic equity mutual funds. (Color ﬁgure can be viewed at
+wileyonlinelibrary.com)
+
+B. Calendar-Time Portfolio Return Tests
+
+To further rule out alternative channels, we use a calendar-time portfolio
+approach to study the performance of afﬁliated funds in the trading of client and
+nonclient stock holdings. In these tests, we compare manager skill for afﬁliated
+funds with regard to two groups of holdings—client stocks and nonclient stocks.
+If fund managers face conﬂicts of interest with the lending division, then the
+client stocks that a fund buys should underperform the client stocks that the
+fund sells. In addition, the nonclient stocks that a fund buys should perform
+similarly to the nonclient stocks that the fund sells. Notice that signiﬁcant
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2210
+
+The Journal of Finance R(cid:3)
+
+Table VII
+
+Calendar-Time Portfolio Returns on Buys Minus Sells of Client and
+
+Nonclient Stocks
+
+This table presents risk-adjusted monthly portfolio returns of the client stocks a fund buys and
+sells, deﬁned as the portfolio of client stocks (i.e., ﬁrms that borrow from the fund’s parent bank)
+held by bank-afﬁliated funds that had an increase or decrease in the number of shares held in the
+previous quarter, respectively. Portfolio returns of the nonclient stocks a fund buys and sells are
+deﬁned similarly. Every quarter in the 2000 to 2010 period, each fund’s portfolio holdings are split
+into a client portfolio and a nonclient portfolio. These two portfolios are further subdivided into a
+buy portfolio and a sell portfolio. We calculate the average portfolio return across funds in each
+month weighted by TNA, and then the return of the portfolio of stocks bought minus sold in each
+month. Returns are risk-adjusted using the Carhart four-factor model with global factors. The high
+and low bias fund groups consist of those funds that are above and below the median of the Bias
+in Client Stocks variable in a given country and quarter. The sample consists of actively managed
+domestic equity mutual funds that are afﬁliated with commercial banking groups over the 2000
+to 2010 period. Robust t-statistics are reported in parentheses. *, **, and *** indicate statistical
+signiﬁcance at the 10%, 5%, and 1% level, respectively.
+
+All Bank-Afﬁliated Funds
+
+High Bias Funds
+
+Low Bias Funds
+
+Client Stocks
+
+Nonclient Stocks
+Client − Nonclient Stocks
+
+(1)
+−0.115
+(−0.99)
+0.033
+(0.60)
+−0.148
+(−1.23)
+
+(2)
+
+−0.226*
+(−1.90)
+0.044
+(0.65)
+−0.269*
+(−1.90)
+
+(3)
+
+0.169
+(0.68)
+0.021
+(0.32)
+0.148
+(0.61)
+
+underperformance for both client and nonclient stocks would indicate that
+afﬁliated fund managers have less skill than unafﬁliated fund managers.23
+
+We compute the value-weighted monthly portfolio return in quarter t of
+client stocks in which a fund increased its holdings (in terms of number of
+shares) in quarter t−1. Similarly, we calculate the return to a portfolio of client
+stocks in which holdings decreased in quarter t−1. We average returns across
+funds in each month weighted by TNA. Next, we compute the average return
+of the client stocks bought minus the client stocks sold in each month, and the
+corresponding risk-adjusted return using Carhart (1997) four-factor alphas
+with global factors. We follow the same steps to compute the risk-adjusted
+performance of the nonclient stocks bought and sold, and compare performance
+on client stocks relative to nonclient stocks.
+
+Table VII reports the average monthly four-factor alpha of client stocks and
+nonclient stocks bought minus sold. Column (1) shows that client stocks bought
+underperform client stocks sold by 11.5 basis points per month, which is sta-
+tistically insigniﬁcant. The nonclient stock portfolio return (buys minus sells)
+is positive and statistically insigniﬁcant. The difference in portfolio returns
+between client stocks and nonclient stocks is −15 basis points but statistically
+
+23 Alternatively, if fund managers have private information on lending clients, then the client
+
+stocks that the fund buys should outperform the client stocks that the fund sells.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2211
+
+insigniﬁcant. The estimate indicates that the exposure to client stocks repre-
+sents about 30% of the average underperformance of bank-afﬁliated funds.24
+
+The source of the underperformance in the trading of client stocks is related
+to the decision to overweight client stocks. We therefore expect the underper-
+formance in the trading of client stocks to be concentrated in the group of
+afﬁliated funds that overweight client stocks to a greater extent (High Bias
+Funds). In addition, we do not expect to ﬁnd underperformance in the group
+of afﬁliated funds with low bias in client stocks (Low Bias Funds). Column (2)
+shows that client stocks bought signiﬁcantly underperform client stocks sold
+by 23 basis points in the group of High Bias Funds, while column (3) shows
+that client stocks bought outperform client stocks sold by 17 basis points in
+the group of Low Bias Funds. In the case of nonclient stocks, the alphas are
+neither statistically nor economically signiﬁcant. The difference in portfolio
+returns between client and nonclient stocks is signiﬁcant at −27 basis points
+in the group of High Bias Funds and statistically insigniﬁcant in the group of
+Low Bias Funds. The estimate for the group of High Bias Funds indicates that
+the exposure to client stocks (23.8% of the fund’s TNA on average) represents
+about 60% of the underperformance among afﬁliated funds that overweight
+client stocks to a greater extent. These results are consistent with the idea
+that manager skill is similar in afﬁliated and unafﬁliated funds, and thus the
+skill hypothesis does not explain the underperformance of afﬁliated funds.
+
+We also examine the performance of client stocks bought and sold during
+bear market periods in the group of High Bias Funds. We ﬁnd that client stocks
+bought signiﬁcantly underperform client stocks sold by 50 basis points, while
+nonclient stock portfolio returns are statistically insigniﬁcant. The difference
+in portfolio returns between client stocks and nonclient stocks is −64 basis
+points (t-statistic = −2.55) in bear markets, while the difference is statistically
+insigniﬁcant in bull markets. We conclude that the underperformance in client
+stocks is driven by market downturns, when a bank’s balance sheet would
+suffer most from deterioration in the pricing of loans.
+
+To shed light on the reason behind the performance gap of bank-afﬁliated
+funds on client stocks, we examine the trading activity of afﬁliated fund man-
+agers on client stocks and nonclient stocks. Table IA.VIII in the Internet
+Appendix reports estimates of a fund-stock-quarter regression of fund hold-
+ing turnover on the Commercial Bank-Afﬁliated dummy variable and a Client
+Stock dummy variable, which takes a value of 1 if the stock holding is from
+a fund’s parent bank lending client. We ﬁnd that bank-afﬁliated funds trade
+signiﬁcantly more frequently in client stocks than in nonclient stocks.
+
+We also examine the behavior of afﬁliated funds when they are more valu-
+able to lending clients, for example, when the lending clients experience a
+
+24 Bank-afﬁliated funds underperform by 15 basis points in the trading of client stocks versus
+nonclient stocks using the estimate in column (1) of Table VII. Since these funds hold, on average,
+14.7% of the TNA in client stocks, this implies that the underperformance due to this channel
+is 26 basis points per year (= 15 × 14.7% × 12). This corresponds to about 30% of the average
+underperformance of bank-afﬁliated funds.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2212
+
+The Journal of Finance R(cid:3)
+
+negative shock. Following Cohen and Schmidt (2009), we look at downward
+price pressure events caused by widespread selling of client stock using the
+dummy variable %Comp Sold>1, which takes a value of 1 when more than
+1% of the shares outstanding of a stock are sold in aggregate by all funds in a
+quarter (excluding funds from the own-management company). Table IA.IX in
+the Internet Appendix reports estimates of a fund-stock-quarter regression of
+the logarithm of fund holding ownership on the Commercial Bank-Afﬁliated,
+Client Stock, and %Comp Sold>1 dummy variables. We ﬁnd that afﬁliated
+funds increase their ownership of client stocks in periods of high selling pres-
+sure by other funds, as indicated by the positive and signiﬁcant coefﬁcient on
+Client Stock × %Comp Sold>1. This effect is economically signiﬁcant, as bank-
+afﬁliated funds increase their holdings in client stocks by about 3% more than
+in nonclient stocks following a negative shock. This is consistent with the idea
+that afﬁliated funds provide price support during negative shocks, which biases
+their portfolios toward poorer-performing client stocks. These results suggest
+that afﬁliated fund managers act as liquidity providers for client stocks, which
+leads to higher turnover and poorer performance in their client stock’s portfolio
+holdings.
+
+C. Placebo Tests
+
+As a placebo test of our baseline regressions, we use a sample of international
+equity funds (i.e., funds that invest outside their local market). We expect
+relationship lending to be less important, and arm’s-length (i.e., transactional)
+lending to be more important, in the international syndicated loan market than
+in the domestic market.
+
+Table IA.X reports the estimates for the sample of international funds.
+Column (1) shows less of a pronounced performance gap of bank-afﬁliated
+funds relative to unafﬁliated funds in the sample of international funds (11
+basis points per quarter) than in the sample of domestic funds (23 basis points,
+as shown in Table III). Columns (2) and (3) show estimates of regressions that
+include the High Bias Fund or High Allocation Fund dummy variables. While
+international funds afﬁliated with a commercial banking group underperform
+unafﬁliated funds, this underperformance is not driven by conﬂicts of interest
+with the lending division since the coefﬁcients on both the High Bias Fund
+and High Allocation Fund dummies are statistically insigniﬁcant. Note that
+these same coefﬁcients are statistically signiﬁcant in the sample of domestic
+funds in Table V. These results are consistent with fund managers’ portfolio
+choices in international funds being less distorted by lending relationships,
+as conﬂicts of interest should be more important for domestic borrowers than
+foreign borrowers.
+
+V. Equilibrium
+
+In this section, we provide evidence that the decision to favor the stock of
+the bank’s lending clients beneﬁts various agents (the parent bank, the fund
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2213
+
+manager, and the borrowing ﬁrm’s managers). We also provide evidence that
+investors of bank-afﬁliated funds exhibit inertia, as ﬂows have low sensitivity to
+poor performance, which explains why afﬁliated funds hold signiﬁcant market
+shares despite their inferior performance.
+
+A. Beneﬁts to the Bank
+
+We examine the trade-off between the lending and asset management di-
+visions when the parent bank uses its afﬁliated funds to support its lend-
+ing business by overweighting client stocks. On the one hand, this biased
+portfolio allocation may impose a cost as afﬁliated funds may underperform
+their peers (i.e., funds that track the same benchmark) and therefore ex-
+perience signiﬁcant outﬂows and erosion of fees. On the other hand, us-
+ing fund resources may help build long-term relationships with borrowers
+and increase the likelihood of the bank acting as a lead arranger of future
+loans.
+
+To test for potential beneﬁts to the banking group, we examine whether
+bank-afﬁliated fund holdings in client stocks make it more likely that the bank
+will be chosen as a lead arranger for future loans of the same borrower ﬁrm.
+We perform this test following the methodology in Bharath et al. (2007) and
+Ferreira and Matos (2012). Speciﬁcally, for each loan facility, we pair ﬁrms with
+each of the top 20 banks in a country in terms of syndicated loan volume in
+U.S. dollars. We then estimate a logit model in which the dependent variable is
+a dummy variable that takes a value of 1 if the bank acted as a lead arranger,
+and 0 otherwise.
+
+Table VIII reports the results. The estimates in column (1) indicate that
+banks tend to arrange more loans for ﬁrms in which their afﬁliated funds hold
+stock (Client Stock Holding). On average, banks with afﬁliated fund holdings
+in borrowers are 3.2% more likely to be chosen as lead arrangers than banks
+without afﬁliated fund holdings in borrowers (the probability increases from
+12.6% to 15.8%). The relative importance of afﬁliated fund holdings in increas-
+ing the bank’s lending business depends on whether or not the bank has a
+past lending relationship (over the past three years) with the borrower. For
+new lending relationships, afﬁliated fund holdings in the borrower increase
+the likelihood that the bank will act as a lead arranger by 2.6% (from 9.4% to
+12%); for past lending relationships, banks are 6.6% more likely to act as lead
+arrangers (from 41.3% to 47.9%).
+
+The probability that the bank acts as a lead arranger should increase with
+the size of the afﬁliated fund holdings in the borrower. To test this con-
+jecture, we repeat our analysis using a dummy that takes a value of 1 if
+the bank’s afﬁliated funds together hold at least 1% of the borrower ﬁrm’s
+shares (Client Stock Holdings>1%). The results in column (2) show that, on
+average, banks with afﬁliated fund holdings in a borrower of at least 1% of
+shares outstanding are 4.5% more likely to be chosen as lead arrangers than
+other banks. While for new relationships, the probability of being chosen as
+lead bank increases by 3.5%, for past lending clients, it increases by 8.4%.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2214
+
+The Journal of Finance R(cid:3)
+
+Table VIII
+
+Probability of Getting Future Lending Business and Client
+
+Stock Holdings
+
+This table presents estimates of logit regressions of whether the existence of a bank-ﬁrm(i, j) link
+through bank-afﬁliated funds’ portfolio holdings prior to the loan affects the probability that ﬁrm
+(borrower) j chooses bank i as a lead arranger in the syndicated loan market. For each facility, there
+is a choice set of 20 potential lead arrangers (top 20 ranked by U.S. dollar volume of syndicated
+loans in each country). The dependent variable is a dummy variable that takes the value of 1 if
+bank i acted as a lead arranger, and 0 otherwise. Client Stock Holding is a dummy variable that
+takes the value of 1 if the funds afﬁliated with bank i hold stock of the ﬁrm at the end of the
+previous year, and 0 otherwise. Client Stock Holding>1% is a dummy that takes the value of 1
+if the funds afﬁliated with bank i hold at least 1% of the ﬁrm’s shares outstanding at the end
+of the previous year, and 0 otherwise. Bank Market Share is the fraction of bank i of the U.S.
+dollar volume of syndicated loans in each country. Lending Relationship is a dummy that takes the
+value of 1 if ﬁrm j chose bank i as a lead arranger in a loan over the past three years. Firm-level
+controls include stock market capitalization (log), book-to-market ratio, leverage, tangibility, stock
+volatility, and stock return (coefﬁcients not shown). All control variables are lagged by one period.
+Variable deﬁnitions are provided in Table A.I in the Appendix. The sample consists of syndicated
+loans by publicly listed borrowers over the 2000 to 2010 period. Robust t-statistics adjusted for
+clustering at the ﬁrm and bank levels are reported in parentheses. *, **, and *** indicate statistical
+signiﬁcance at the 10%, 5%, and 1% level, respectively.
+
+Client Stock Holding
+
+Client Stock Holding > 1%
+
+Bank Market Share
+
+Lending Relationship
+
+log(Bank Assets)
+
+Bank Return on Assets
+
+Year Fixed Effects
+Loan Purpose Fixed Effects
+Bank Fixed Effects
+Firm Controls
+Firm Industry Fixed Effects
+Firm Country Fixed Effects
+Number of Observations
+Pseudo R2
+
+(1)
+
+0.269***
+(5.72)
+
+13.266***
+(22.67)
+
+1.911***
+
+(27.33)
+
+(2)
+
+0.339***
+(3.56)
+13.522***
+(23.50)
+
+1.946***
+
+(29.07)
+
+Yes
+Yes
+No
+No
+Yes
+Yes
+
+Yes
+Yes
+No
+No
+Yes
+Yes
+
+(3)
+
+0.193***
+(3.03)
+
+13.586***
+(16.68)
+
+1.748***
+
+(24.61)
+0.119
+(1.27)
+0.095
+(1.14)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+(4)
+
+0.324***
+(3.75)
+13.824***
+(15.96)
+
+1.750***
+
+(24.79)
+0.108
+(1.11)
+0.105
+(1.31)
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+
+499,143
+0.21
+
+499,143
+0.21
+
+402,733
+0.23
+
+402,733
+0.23
+
+Probability of being chosen as the lead lender using the column (1) speciﬁcation
+
+Past Lending Relationship
+
+Client Stock Holdings = 0
+Client Stock Holdings = 1
+Change in Probability
+
+Average
+
+0.126
+0.158
+0.032
+
+No
+
+0.094
+0.120
+0.026
+
+Yes
+
+0.413
+0.479
+0.066
+
+(Continued)
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2215
+
+Probability of being chosen as the lead lender using the column (2) speciﬁcation
+
+Table VIII—Continued
+
+Client Stock Holdings >1% = 0
+Client Stock Holdings >1% = 1
+Change in Probability
+
+Past Lending Relationship
+
+Average
+
+0.135
+0.180
+0.045
+
+No
+
+0.101
+0.136
+0.035
+
+Yes
+
+0.441
+0.525
+0.084
+
+Columns (3) and (4) show that the results are robust to including bank (lender)-
+speciﬁc controls (assets, return on assets); bank ﬁxed effects; ﬁrm (borrower)-
+speciﬁc controls (market capitalization, book-to-market ratio, leverage, tangi-
+bility, stock volatility, and stock return); and ﬁrm-country and industry ﬁxed
+effects.
+
+B. Beneﬁts to the Lending Client
+
+Commercial banks may use afﬁliated funds to boost their voting rights and
+thus increase inﬂuence over the borrower’s board of directors. This inﬂuence
+could help build long-term relationships that lead to future loan business.
+In this case, we would expect afﬁliated funds to systematically overweight
+client stocks to curry favor with the borrower’s management. To examine this
+hypothesis, we estimate a ﬁrm-level regression of voting dissent in executive
+compensation proposals on ownership by funds afﬁliated with banks that acted
+as lead arrangers over the previous three years.
+
+The sample consists of ﬁrms from 17 countries for which voting records are
+available in Institutional Shareholder Services/RiskMetrics (ISS) over the 2008
+to 2010 period.25 The great majority of proposals are management sponsored,
+and there is close to 100% approval in routine issues, with the exception of
+those related to executive compensation (i.e., votes on option plans, repricing
+of options, restricted stock, bonuses, and loans). We focus our analysis on voting
+dissent, deﬁned as the percentage of votes against management’s recommen-
+dation on compensation plans.
+
+Table IX reports the results. The results in column (1) show that ownership
+by funds afﬁliated with lenders reduces voting dissent in proposals related
+to executive compensation at shareholder meetings, as indicated by the neg-
+ative and signiﬁcant coefﬁcient on Lender-Afﬁliated Funds Ownership. How-
+ever, ownership by funds afﬁliated with banks that have not acted as lead
+arrangers for the ﬁrms’ loans over the past three years (Nonlender-Afﬁliated
+Funds Ownership) is not signiﬁcantly associated with voting dissent. The
+effect is also economically signiﬁcant: a one-standard-deviation increase in
+
+25 The sample consists of ﬁrms in major European stock indices (Austria, Belgium, Denmark,
+Finland, France, Germany, Italy, Netherlands, Norway, Portugal, Spain, Sweden, Switzerland, and
+United Kingdom) as well Australia, Canada, and Japan.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2216
+
+The Journal of Finance R(cid:3)
+
+Table IX
+
+Voting Dissent and Commercial Bank-Afﬁliated Funds Ownership
+
+This table presents estimates of ordinary least squares (OLS) and tobit (with censoring at 0 and 1)
+ﬁrm-level panel regressions of voting dissent on executive compensation proposals. The dependent
+variable is the percentage of votes against management’s proposals on executive compensation
+plans at shareholder meetings (Voting Dissent). Lender-Afﬁliated Funds Ownership is ownership
+by funds afﬁliated with commercial banks that were chosen by ﬁrm j as lead arrangers in a loan
+over the past three years. Nonlender-Afﬁliated Funds Ownership is ownership by funds afﬁliated
+with commercial banks that were not chosen by ﬁrm j as lead arrangers in a loan over the past
+three years. Unafﬁliated Funds Ownership is ownership by funds unafﬁliated with commercial
+banks. Institutional ownership is total institutional ownership and Insider Ownership is closely
+held shares. Ownership variables are deﬁned as a percentage of market capitalization. All control
+variables are lagged by one period. Variable deﬁnitions are provided in Table A.I in the Appendix.
+The sample consists of non-U.S. ﬁrms for which votes at shareholder meetings are available
+in Institutional Shareholder Services/RiskMetrics (ISS) over the 2008 to 2010 period. Robust t-
+statistics adjusted for clustering at the country-industry level are reported in parentheses. *, **,
+and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% level, respectively.
+
+Lender-Afﬁliated Funds Ownership
+
+Nonlender-Afﬁliated Funds Ownership
+
+Unafﬁliated Funds Ownership
+
+Institutional Ownership
+
+Insider Ownership
+
+log(Market Capitalization)
+
+Leverage
+
+Book-to-Market
+
+Return on Assets
+
+Year Fixed Effects
+Stock Country Fixed Effects
+Stock Industry Fixed Effects
+Number of Observations
+R2
+
+OLS
+
+Tobit
+
+(1)
+
+−0.545**
+(−2.16)
+−0.124
+(−1.28)
+0.092*
+(1.84)
+
+−0.023*
+(−1.71)
+−0.003
+(−1.18)
+0.032*
+(1.73)
+0.002
+(0.33)
+−0.040**
+(−2.50)
+Yes
+Yes
+Yes
+2,263
+0.104
+
+(2)
+
+−0.520**
+(−2.12)
+
+0.043*
+(1.75)
+−0.016
+(−1.13)
+−0.003
+(−1.45)
+0.029
+(1.62)
+0.002
+(0.29)
+−0.040**
+(−2.42)
+Yes
+Yes
+Yes
+2,263
+0.104
+
+(3)
+
+−0.639**
+(−1.97)
+−0.128
+(−1.04)
+0.107
+(1.64)
+
+−0.032**
+(−2.09)
+−0.001
+(−0.35)
+0.041*
+(1.93)
+0.001
+(0.10)
+−0.042**
+(−2.25)
+Yes
+Yes
+Yes
+2,263
+
+(4)
+
+−0.642**
+(−2.04)
+
+0.065**
+(2.05)
+−0.022
+(−1.33)
+−0.002
+(−0.82)
+0.038*
+(1.82)
+0.000
+(0.05)
+−0.041**
+(−2.25)
+Yes
+Yes
+Yes
+2,263
+
+Lender-Afﬁliated Funds Ownership increases voting dissent by 0.54%, which
+corresponds to about 10% of the average voting dissent. In addition, owner-
+ship by unafﬁliated fund is associated with more voting dissent in executive
+compensation proposals. The results in columns (2) to (4) show that the re-
+sults hold when we include total institutional ownership as a control or use
+tobit regressions.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2217
+
+C. Beneﬁts to the Fund Manager
+
+The results so far show that overweighting client stocks in afﬁliated funds’
+portfolios can be beneﬁcial from the perspective of the commercial banking
+group as a whole. It is not clear, however, why fund managers would support
+this strategy if doing so would hurt their track record. One possible expla-
+nation is that managers are rewarded by being less likely to be replaced.
+In this section, we test the hypothesis that favoring client stocks in portfo-
+lio choices reduces a fund manager’s career concerns. To test for potential
+beneﬁts to the fund manager, we test whether afﬁliated fund managers with
+greater bias toward client stocks (High Bias Fund) are less likely to be replaced
+than afﬁliated managers with less of a bias toward client stocks (Low Bias
+Fund).
+
+Our sources of data on manager names and tenures (i.e., fund manager
+start dates) are the historical annual ﬁles from Lipper. From these histori-
+cal ﬁles, we assemble a data set on fund manager turnover over the 2004
+to 2010 period. We estimate a fund-level probit regression of fund manager
+turnover-performance sensitivity in which the dependent variable is a dummy
+variable that takes a value of 1 if there is a turnover in a given quarter
+(given that the fund survived), and 0 otherwise. The main explanatory vari-
+ables are the Commercial Bank-Afﬁliated dummy and the High Bias Fund
+dummy. We also control for lagged performance rank and other fund and
+manager characteristics (Khorana (1996), Chevalier and Ellison (1999), Kos-
+tovetsky and Warner (2015)). In each quarter and country, fractional perfor-
+mance ranks ranging from 0 (poorest performance) to 1 (best performance)
+are assigned to funds according to their returns over the past four quarters
+(Rank).
+
+Table X reports the estimates of probit regressions of fund manager turnover.
+We present the results separately for the samples of all funds, non-U.S. funds,
+and U.S. funds. In column (1), which corresponds to the sample of all funds,
+the coefﬁcient on the High Bias Fund dummy is negative but statistically in-
+signiﬁcant. In column (2), which corresponds to the sample of non-U.S. funds,
+the coefﬁcient on the High Bias Fund dummy is negative and statistically sig-
+niﬁcant. The panel at the bottom of the table shows the economic signiﬁcance
+of overweighting client stocks on the probability of fund manager turnover.
+The predicted probability of a fund manager turnover in a given quarter for
+a fund manager with more overweight on client stocks (other variables be-
+ing evaluated at their means) is 0.93% lower than that for a fund manager
+with lower bias on client stocks in the sample of non-U.S. funds (the uncon-
+ditional probability of observing a turnover in a given quarter is about 2%).
+Column (3) shows that the probability of a fund manager turnover is not
+associated with the decision to favor client stocks in portfolio choice in the
+sample of U.S. funds. Figure IA.1 in the Internet Appendix shows that fund
+manager turnover-performance sensitivity is different between high and low
+bias funds in the sample of all funds and non-U.S. funds, while it is similar
+between high and low bias funds in the sample of U.S. funds. In addition,
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2218
+
+The Journal of Finance R(cid:3)
+
+Table X
+
+Commercial Bank-Afﬁliated Fund Manager Turnover and Portfolio
+
+Allocation to Client Stocks
+
+This table presents estimates of fund-level probit regressions of fund manager turnover-
+performance sensitivity. The dependent variable is a dummy variable that takes a value of 1
+if the fund manager is replaced in a quarter, and 0 otherwise (Fund Manager Turnover). Com-
+mercial Bank-Afﬁliated is a dummy variable that takes a value of 1 if the ultimate owner of the
+fund’s management company is a commercial banking group, and 0 otherwise. High Bias Fund is
+a dummy variable that takes a value of 1 if an afﬁliated fund’s Bias in Client Stocks is above the
+median in a given country and quarter, and 0 otherwise. Bias in Client Stocks is the portfolio bias
+in stocks of ﬁrms that borrow from the fund’s parent bank versus the average weight of comparable
+passive funds. All control variables are lagged by one period. Variable deﬁnitions are provided in
+Table A.I in the Appendix. The sample consists of actively managed domestic equity mutual funds
+over the 2004 to 2010 period. Robust t-statistics adjusted for clustering at the ultimate owner level
+are reported in parentheses. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1%
+level, respectively.
+
+All Funds
+
+(1)
+
+Non-U.S. Funds
+
+(2)
+
+U.S. Funds
+
+(3)
+
+Commercial Bank-Afﬁliated
+
+High Bias Fund
+
+Rank
+
+Fund Manager Tenure
+
+log(TNA)
+
+log(Family TNA)
+log(1+Age)
+
+Flow
+
+Team-Managed
+
+0.109***
+(2.66)
+−0.081
+(−1.41)
+−0.144***
+(−3.15)
+
+0.009***
+(2.60)
+−0.039***
+(−3.67)
+
+0.058***
+(4.95)
+−0.005
+(−0.19)
+−0.003**
+(−2.11)
+−0.140***
+(−4.12)
+Yes
+Yes
+
+Year Fixed Effects
+Country Fixed Effects
+Number of Observations
+Pseudo-R2
+Probability (fund manager left |fund survived) in quarter t
+High Bias Fund = 0
+High Bias Fund = 1
+Change in Probability
+
+2.01%
+1.66%
+−0.35%
+
+72,373
+0.055
+
+0.149***
+(2.58)
+−0.188***
+(−2.73)
+−0.168**
+(−2.29)
+
+0.024***
+(4.67)
+−0.024*
+(−1.78)
+0.034*
+(1.82)
+−0.059
+(−1.53)
+−0.002
+(−0.95)
+−0.220***
+(−3.37)
+Yes
+Yes
+
+26,052
+0.102
+
+2.75%
+1.82%
+−0.93%
+
+0.075
+(1.20)
+0.002
+(0.02)
+−0.137**
+(−2.37)
+0.000
+(0.04)
+−0.048***
+(−3.72)
+
+0.064***
+(4.90)
+0.032
+(1.15)
+−0.003**
+(−1.98)
+−0.106**
+(−2.55)
+Yes
+No
+
+46,321
+0.035
+
+1.57%
+1.58%
+0.01%
+
+Table IA.II in the Internet Appendix shows that conﬂicts of interest are
+more pronounced during bear markets, when fund managers have heightened
+career concerns.26
+
+26 During bear markets, net inﬂows into mutual funds are generally weak (Karceski (2002)),
+and fund family proﬁtability is lower. Both effects lead to lower compensation incentives for fund
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2219
+
+In short, we ﬁnd that fund managers who act as team players for the banking
+group by favoring client stocks beneﬁt from a lower probability of turnover.
+This result does not hold for the sample of funds domiciled in the United
+States where there are fewer conﬂicts of interest between the lending and
+asset management divisions.
+
+D. Investor Clienteles
+
+We also examine the behavior of end investors of bank-afﬁliated funds. We
+account for the possibility of different clienteles by studying the sensitivity of
+fund ﬂows to past fund performance using the piecewise linear regression of
+Sirri and Tufano (1998): Low = min(0.2, Rank), Mid = min(0.6, Rank− Low),
+and High = Rank− (Low + Mid). We compare the sensitivity of ﬂows to past
+fund performance of afﬁliated funds versus unafﬁliated fund investors.
+
+Table XI reports the estimates of fund ﬂow-performance sensitivity regres-
+sions for the sample of all funds as well as for the samples of non-U.S. and U.S.
+funds. The estimates in columns (1) and (2), which correspond to the sample of
+all funds, show that investors of afﬁliated funds and unafﬁliated funds exhibit
+similar ﬂow-performance sensitivity. However, the estimates in columns (3)
+and (4) show that afﬁliated funds have less ﬂow-performance sensitivity than
+unafﬁliated funds in the sample of non-U.S. funds: a 10-percentile increase
+in performance rank over the prior year increases unafﬁliated fund ﬂows by
+4.0% ( = 0.1 × 9.984 × 4) per year for the bottom quintile, 1.3% per year for the
+middle three quintiles, and 7.0% per year for the top quintile, while it increases
+afﬁliated fund ﬂows by 1.3% for the bottom quintile, 1.1% for the middle three
+quintiles, and 5.8% for the top quintile. The sensitivity of afﬁliated fund ﬂows
+to poor performance is statistically insigniﬁcant, which suggests that afﬁliated
+fund investors (typically, retail investors) exhibit inertia. In addition, the differ-
+ence in ﬂow-performance sensitivities between afﬁliated funds and unafﬁliated
+funds is statistically signiﬁcant for the bottom performance quintile (t-statistic
+is 1.97).27 We conclude that afﬁliated fund ﬂows outside the United States tend
+to be more “sticky and less discerning” (using the terminology in Sialm, Starks,
+and Zhang (2015) and other papers on fund ﬂows).
+
+managers in bear markets, as compensation is linked to fund size and fund family proﬁtability
+(Farnsworth and Taylor (2006)). Moreover, the probability of job loss for fund managers is generally
+higher in bear markets (Chevalier and Ellison (1999)), when there are more fund closures and
+managers have fewer employment options (Kempf, Ruenzi, and Thiele (2009)).
+
+27 We also estimate ﬂow-performance sensitivity regressions using a sample at the fund share
+class level. The results reported in Table IA.XI in the Internet Appendix show that, for the sam-
+ple of non-U.S. funds, the sensitivity of retail investors of bank-afﬁliated funds is statistically
+insigniﬁcant and less than half (6.4 versus 17.4) of that of retail investors of unafﬁliated funds for
+the bottom performance quintile. However, the results on ﬂows for institutional share classes are
+estimated without precision, which we attribute to a low number of observations in the sample of
+institutional share classes outside of the United States. In fact, in our sample of non-U.S. funds,
+as of December 2010, institutional share classes amount to only 8% and 6% of the total number of
+share classes and TNA, respectively. This fact suggests that, outside the United States, the mutual
+fund market is oriented mostly toward the (less sophisticated) retail segment.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2220
+
+The Journal of Finance R(cid:3)
+
+I
+X
+e
+l
+b
+a
+T
+
+s
+d
+n
+u
+F
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+A
+k
+n
+a
+B
+
+-
+
+l
+a
+i
+c
+r
+e
+m
+m
+o
+C
+o
+t
+
+s
+w
+o
+l
+F
+
+,
+)
+5
+(
+
+d
+n
+a
+
+,
+)
+3
+(
+
+,
+)
+1
+(
+
+s
+n
+m
+u
+l
+o
+c
+
+n
+I
+
+.
+)
+
+A
+N
+T
+
+n
+i
+
+h
+t
+
+w
+o
+r
+g
+
+e
+g
+a
+t
+n
+e
+c
+r
+e
+p
+(
+
+s
+w
+o
+ﬂ
+
+d
+n
+u
+f
+
+f
+o
+
+s
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+)
+S
+L
+O
+
+(
+
+s
+e
+r
+a
+u
+q
+s
+
+t
+s
+a
+e
+l
+
+y
+r
+a
+n
+i
+d
+r
+o
+
+f
+o
+
+s
+e
+t
+a
+m
+
+i
+t
+s
+e
+
+s
+t
+n
+e
+s
+e
+r
+p
+
+e
+l
+b
+a
+t
+
+s
+i
+h
+T
+
+-
+k
+n
+a
+b
+
+l
+a
+i
+c
+r
+e
+m
+m
+o
+c
+(
+
+p
+u
+o
+r
+g
+
+g
+n
+i
+k
+n
+a
+b
+
+l
+a
+i
+c
+r
+e
+m
+m
+o
+c
+
+a
+
+s
+i
+
+y
+n
+a
+p
+m
+o
+c
+
+t
+n
+e
+m
+e
+g
+a
+n
+a
+m
+s
+d
+n
+u
+f
+
+’
+
+e
+h
+t
+
+f
+o
+
+r
+e
+n
+w
+o
+
+e
+t
+a
+m
+
+i
+t
+l
+u
+
+e
+s
+o
+h
+w
+
+s
+d
+n
+u
+f
+
+e
+s
+o
+h
+t
+
+f
+o
+
+s
+t
+s
+i
+s
+n
+o
+c
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+l
+a
+n
+o
+i
+t
+c
+a
+r
+f
+
+e
+h
+t
+
+r
+e
+t
+r
+a
+u
+q
+
+n
+e
+v
+i
+g
+
+s
+i
+
+a
+
+s
+e
+d
+u
+l
+c
+n
+i
+
+n
+o
+i
+t
+a
+c
+ﬁ
+i
+c
+e
+p
+s
+
+k
+n
+a
+R
+
+r
+a
+e
+n
+i
+l
+
+.
+)
+d
+i
+M
++
+w
+o
+L
+
+(
+
+e
+s
+i
+w
+e
+c
+e
+i
+p
+
+e
+h
+T
+
+.
+)
+s
+d
+n
+u
+f
+
+−
+k
+n
+a
+R
+=
+h
+g
+i
+H
+d
+n
+a
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+a
+n
+u
+(
+
+w
+o
+L
+−
+k
+n
+a
+R
+
+s
+d
+n
+u
+f
+
+r
+e
+h
+t
+o
+
+l
+l
+a
+
+f
+o
+
+,
+
+.
+
+6
+0
+(
+n
+i
+m
+=
+d
+i
+M
+
+s
+t
+s
+i
+s
+n
+o
+c
+
+,
+)
+
+,
+)
+k
+n
+a
+R
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+,
+
+.
+
+2
+0
+(
+n
+i
+m
+=
+w
+o
+L
+
+,
+)
+6
+(
+
+d
+n
+a
+
+,
+)
+4
+(
+
+,
+)
+2
+(
+
+s
+n
+m
+u
+l
+o
+c
+
+n
+I
+
+.
+)
+s
+d
+n
+u
+f
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+a
+
+:
+s
+t
+n
+e
+m
+g
+e
+s
+
+k
+n
+a
+r
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+p
+
+e
+e
+r
+h
+t
+
+n
+i
+
+s
+r
+e
+t
+r
+a
+u
+q
+
+r
+u
+o
+f
+
+t
+s
+a
+p
+
+e
+h
+t
+
+r
+e
+v
+o
+
+a
+h
+p
+l
+a
+
+r
+o
+t
+c
+a
+f
+-
+r
+u
+o
+f
+
+e
+g
+a
+r
+e
+v
+a
+
+e
+h
+t
+
+o
+t
+
+g
+n
+i
+d
+r
+o
+c
+c
+a
+
+d
+e
+n
+g
+i
+s
+s
+a
+
+s
+i
+
+h
+c
+i
+h
+w
+
+,
+1
+
+o
+t
+
+0
+m
+o
+r
+f
+
+g
+n
+i
+g
+n
+a
+r
+
+k
+n
+a
+r
+
+e
+c
+n
+a
+m
+r
+o
+f
+r
+e
+p
+
+f
+o
+
+s
+t
+s
+i
+s
+n
+o
+c
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+T
+
+.
+x
+i
+d
+n
+e
+p
+p
+A
+e
+h
+t
+
+n
+i
+
+I
+.
+A
+e
+l
+b
+a
+T
+
+n
+i
+
+d
+e
+d
+i
+v
+o
+r
+p
+
+e
+r
+a
+
+s
+n
+o
+i
+t
+i
+n
+ﬁ
+e
+d
+
+e
+l
+b
+a
+i
+r
+a
+V
+
+.
+
+d
+o
+i
+r
+e
+p
+
+e
+n
+o
+
+y
+b
+
+d
+e
+g
+g
+a
+l
+
+e
+r
+a
+
+s
+e
+l
+b
+a
+i
+r
+a
+v
+
+l
+o
+r
+t
+n
+o
+c
+
+l
+l
+
+A
+
+.
+y
+r
+t
+n
+u
+o
+c
+
+d
+n
+a
+
+l
+e
+v
+e
+l
+
+r
+e
+n
+w
+o
+
+e
+t
+a
+m
+
+i
+t
+l
+u
+e
+h
+t
+
+t
+a
+
+g
+n
+i
+r
+e
+t
+s
+u
+l
+c
+
+r
+o
+f
+
+d
+e
+t
+s
+u
+j
+d
+a
+
+s
+c
+i
+t
+s
+i
+t
+a
+t
+s
+-
+t
+
+t
+s
+u
+b
+o
+R
+
+.
+
+d
+o
+i
+r
+e
+p
+
+0
+1
+0
+2
+
+o
+t
+
+0
+0
+0
+2
+
+e
+h
+t
+
+r
+e
+v
+o
+
+s
+d
+n
+u
+f
+
+l
+a
+u
+t
+u
+m
+y
+t
+i
+u
+q
+e
+
+c
+i
+t
+s
+e
+m
+o
+d
+
+d
+e
+g
+a
+n
+a
+m
+y
+l
+e
+v
+i
+t
+c
+a
+
+.
+y
+l
+e
+v
+i
+t
+c
+e
+p
+s
+e
+r
+
+,
+l
+e
+v
+e
+l
+
+%
+1
+d
+n
+a
+
+,
+
+%
+5
+
+,
+
+%
+0
+1
+
+e
+h
+t
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+i
+n
+g
+i
+s
+
+l
+a
+c
+i
+t
+s
+i
+t
+a
+t
+s
+
+e
+t
+a
+c
+i
+d
+n
+i
+
+*
+*
+*
+d
+n
+a
+,
+*
+*
+
+,
+*
+
+s
+d
+n
+u
+F
+
+.
+
+.
+
+S
+U
+
+)
+6
+(
+
+*
+*
+3
+0
+3
+5
+
+.
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+a
+n
+U
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+A
+
+)
+5
+(
+
+*
+*
+*
+9
+4
+1
+2
+1
+
+.
+
+*
+*
+*
+6
+4
+4
+5
+
+.
+
+)
+4
+3
+2
+(
+
+.
+
+*
+*
+*
+0
+1
+0
+3
+1
+
+.
+
+)
+8
+6
+0
+1
+(
+
+.
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+)
+5
+2
+4
+(
+
+.
+
+9
+9
+3
+2
+5
+
+,
+
+8
+1
+1
+0
+
+.
+
+*
+*
+*
+3
+9
+7
+4
+
+.
+
+)
+1
+9
+3
+(
+
+.
+
+)
+8
+8
+7
+(
+
+.
+
+7
+2
+4
+5
+
+.
+
+)
+8
+2
+1
+(
+
+.
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+2
+7
+5
+9
+1
+
+,
+
+7
+5
+1
+0
+
+.
+
+*
+*
+*
+3
+9
+5
+7
+1
+
+.
+
+)
+2
+3
+5
+(
+
+.
+
+*
+*
+*
+1
+4
+5
+4
+1
+
+.
+
+)
+8
+5
+4
+(
+
+.
+
+*
+*
+*
+1
+2
+5
+4
+1
+
+.
+
+.
+
+)
+2
+0
+2
+1
+(
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+)
+2
+7
+6
+(
+
+.
+
+9
+7
+9
+5
+2
+
+,
+
+0
+7
+0
+0
+
+.
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+)
+2
+0
+4
+(
+
+.
+
+4
+7
+4
+1
+2
+
+,
+
+7
+5
+0
+0
+
+.
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+)
+2
+7
+6
+(
+
+.
+
+8
+7
+3
+8
+7
+
+,
+
+1
+0
+1
+0
+
+.
+
+*
+*
+*
+0
+5
+2
+3
+
+.
+
+)
+1
+9
+3
+(
+
+.
+
+*
+*
+*
+7
+4
+8
+2
+
+.
+
+)
+8
+3
+1
+(
+
+.
+
+*
+*
+*
+9
+5
+7
+4
+
+.
+
+)
+3
+9
+3
+(
+
+.
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+a
+n
+U
+
+)
+4
+(
+
+*
+*
+*
+4
+8
+9
+9
+
+.
+
+s
+d
+n
+u
+F
+
+.
+
+.
+
+S
+U
+-
+n
+o
+N
+
+s
+d
+n
+u
+F
+
+l
+l
+
+A
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+A
+
+)
+3
+(
+
+7
+2
+2
+3
+
+.
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+a
+n
+U
+
+)
+2
+(
+
+*
+*
+*
+7
+0
+1
+7
+
+.
+
+d
+e
+t
+a
+i
+l
+ﬁ
+f
+A
+
+)
+1
+(
+
+*
+*
+*
+3
+1
+7
+.
+8
+
+*
+*
+*
+9
+2
+9
+.
+3
+
+)
+1
+3
+.
+4
+(
+
+*
+*
+*
+2
+3
+6
+.
+0
+1
+
+)
+9
+3
+.
+8
+(
+
+)
+6
+6
+.
+3
+(
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+6
+4
+0
+,
+1
+4
+
+8
+8
+0
+.
+0
+
+.
+s
+e
+s
+e
+h
+t
+n
+e
+r
+a
+p
+n
+i
+d
+e
+t
+r
+o
+p
+e
+r
+
+e
+r
+a
+
+s
+t
+c
+e
+f
+f
+
+E
+d
+e
+x
+i
+F
+r
+e
+t
+r
+a
+u
+Q
+
+s
+t
+c
+e
+f
+f
+
+E
+d
+e
+x
+i
+F
+y
+r
+t
+n
+u
+o
+C
+
+s
+l
+o
+r
+t
+n
+o
+C
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+O
+
+f
+o
+
+r
+e
+b
+m
+u
+N
+
+2
+R
+
+w
+o
+L
+
+d
+i
+M
+
+h
+g
+i
+H
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2221
+
+The conﬂict of interest hypothesis assumes that afﬁliated fund investors
+are unsophisticated. Alternatively, investors may be trading off performance
+in exchange for some other beneﬁts with the bank (e.g., lower commissions,
+lower spread on mortgages), which would be a result of an institutional ar-
+rangement between investors and the banking group rather than a conﬂict of
+interest within the bank. To address this possibility, Table IA.XII in the Internet
+Appendix reports estimates of our baseline performance regressions for a sam-
+ple of funds that cater exclusively to retail investors (i.e., funds without an
+institutional share class) and for a sample of funds that cater to both retail and
+institutional investors (i.e., funds with at least one institutional share class).
+The results reported in Panel A show that bank-afﬁliated funds that cater ex-
+clusively to retail investors signiﬁcantly underperform unafﬁliated funds. In
+contrast, the results in Panel B show that funds that cater to both retail and
+institutional investors do not signiﬁcantly underperform unafﬁliated funds.
+These results are consistent with the notion that greater monitoring exerted
+by institutional investors reduces agency problems (e.g., Evans and Fahlen-
+brach (2012)). Taken together, our results suggest that the underperformance
+of afﬁliated funds is driven by funds that cater exclusively to retail investors,
+and thus provide further support for the conﬂict of interest hypothesis.28
+
+Overall, our results show that outside the United States, investors of afﬁli-
+ated funds exhibit inertia by failing to sell past losers and forgoing performance.
+This result contrasts with those for U.S. funds, in which investors of afﬁliated
+funds do not exhibit inertia. Consistent with our results, commercial bank-
+afﬁliated funds have been losing market share in the United States, while
+outside the United States, they still have a signiﬁcant market share.29
+
+VI. Conclusion
+
+We show that mutual fund performance is negatively affected when a man-
+agement company is owned by a commercial banking group. We ﬁnd that com-
+mercial bank-afﬁliated funds underperform unafﬁliated funds by about 92 ba-
+sis points per year. Underperformance is more pronounced the larger the size of
+the lending division relative to the asset management division and the higher
+the funds’ direct exposure to the stock of the bank’s lending clients. We inter-
+pret these results as indicating that bank-afﬁliated fund underperformance is
+driven by a conﬂict of interest between the bank’s lending business and asset
+management business.
+
+28 We also estimate the ﬂow-performance sensitivity regressions in Table XI using the sample of
+funds that cater exclusively to retail investors. Table IA.XIII in the Internet Appendix shows that
+the sensitivity of afﬁliated fund ﬂows to poor performance is statistically insigniﬁcant outside the
+United States.
+
+29 The estimates in Figure IA.2 in the Internet Appendix show that bank-afﬁliated domestic
+equity funds lost signiﬁcant market share both in the United States (from 18% in 2000 to 11% in
+2010) and outside the United States (from 60% in 2000 to 40% in 2010). However, while afﬁliated
+funds appear to be disappearing in the United States, outside the United States, they are able to
+capture signiﬁcant market share of both incumbent and new funds.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2222
+
+The Journal of Finance R(cid:3)
+
+We use divestitures of asset management divisions as a quasi-natural exper-
+iment to address the concern that past performance may affect the organiza-
+tional form of a fund management company. To address the concern that our
+results might be driven by afﬁliated funds attracting less talented managers,
+we compare the performance of bank-afﬁliated fund managers on the trading
+of client stocks and nonclient stocks. While the client stocks that a fund buys
+underperform the client stocks that a fund sells, this is not the case for non-
+client stocks, which indicates that differences in manager skill are not likely to
+explain our ﬁndings.
+
+The evidence shows that afﬁliated funds systematically overweight stocks of
+lending clients, which may help their parent banks build long-term relation-
+ships with borrower ﬁrms that lead to future loan business. Our results also
+suggest a beneﬁt to the borrower’s management, as we ﬁnd that ownership
+by lender-afﬁliated funds reduces voting dissent on executive compensation
+proposals at borrower shareholder meetings. We further ﬁnd that fund man-
+agers that favor client stocks face a lower likelihood of turnover for the same
+performance rank than managers with less of a bias toward client stocks.
+Bank-afﬁliated funds still hold signiﬁcant market share despite their inferior
+performance outside the United States, as afﬁliated fund ﬂows tend to be sticky
+and not discerning.
+
+Overall, our results suggest that the underperformance of commercial bank-
+afﬁliated funds results from a double agency problem whereby fund managers
+set aside the interests of one principal (the fund investor) to beneﬁt another
+principal (the parent bank). Our ﬁndings have important implications, as about
+40% of mutual funds worldwide operate not as stand-alone entities, but rather
+as divisions of commercial banking groups.
+
+Initial submission: February 24, 2016; Accepted: November 10, 2017
+Editors: Bruno Biais, Michael R. Roberts, and Kenneth J. Singleton
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2223
+
+Appendix
+
+Table A.I
+
+Variable Deﬁnitions
+
+Deﬁnition
+
+Dummy variable that takes a value of 1 if the ultimate owner of the
+fund’s management company is a commercial banking group, and
+0 otherwise (Lipper and FactSet).
+
+Dummy variable that takes a value of 1 if the ultimate owner’s stock
+
+of the fund’s management company is publicly traded, and 0
+otherwise (Lipper and FactSet).
+
+Dummy variable that takes a value of 1 if the ultimate owner of the
+fund’s management company is an insurance banking group, and
+0 otherwise (Lipper and FactSet).
+
+Dummy variable that takes a value of 1 if the ultimate owner of the
+
+fund’s management company is among the top 20 investment
+banks in a given region and quarter, and 0 otherwise (Lipper and
+FactSet).
+
+Loans outstanding (Bankscope item 2000) of the fund’s parent bank
+
+divided by total net assets (in equity funds) of the fund
+management company (Lipper).
+
+Variable
+
+Commercial
+
+Bank-Afﬁliated
+
+Publicly Traded Parent
+
+Insurance-Afﬁliated
+
+Investment
+
+Bank-Afﬁliated
+
+Loans/TNA
+
+Corporate Loans/TNA
+
+Corporate and commercial loans outstanding (Bankscope item
+
+Interest Income/Fees
+
+%TNA Invested in Client
+
+Stocks
+
+%TNA Invested in Top 10
+
+Client Stocks
+
+Bias in Client Stocks
+
+Bias in Top 10 Client
+
+Stocks
+
+Four-Factor Alpha
+
+11060) of the fund’s parent bank divided by total net assets (in
+equity funds) of the fund management company (Lipper).
+
+The fund’s parent bank interest income on loans (Bankscope item
+10010) divided by revenues of the fund management company,
+deﬁned as the product of total net assets by total expense ratio (in
+equity funds) (Lipper).
+
+Sum of portfolio holdings in stocks of ﬁrms that are among the fund’s
+
+parent bank lending clients over the past three years (FactSet).
+Sum of portfolio holdings in stocks of ﬁrms that are among the top
+10 lending clients of the fund’s parent bank over the past three
+years (FactSet).
+
+Sum of portfolio bias (difference in portfolio weight compared to
+
+passive funds with the same benchmark) in stocks of ﬁrms that
+are among the fund’s parent bank lending clients over the past
+three years (FactSet).
+
+Sum of portfolio bias in stocks of ﬁrms that are among the top 10
+
+lending clients of the fund’s parent bank over the past three years
+(FactSet).
+
+Four-factor alpha (per quarter), estimated with three years of past
+
+monthly fund net returns in U.S. dollars and with regional factors
+(Asia, Europe, North America, or Emerging Markets) or world
+factors in the case of world funds (Lipper).
+
+Benchmark-Adjusted
+
+Difference between the fund’s net return and its benchmark return
+
+Return
+
+(per quarter) (Lipper).
+
+Gross-Four-Factor Alpha
+
+Four-factor alpha (percentage per quarter), estimated with three
+
+years of past monthly fund gross returns in U.S. dollars and with
+regional factors (Asia, Europe, North America, or Emerging
+Markets) or world factors in the case of world funds (Lipper).
+
+(Continued)
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2224
+
+Variable
+
+Buy-and-Hold
+
+Benchmark-Adj.
+Return
+
+Information Ratio
+
+The Journal of Finance R(cid:3)
+
+Table A.I—Continued
+
+Deﬁnition
+
+Difference between the fund’s buy-and-hold return and its
+
+benchmark return (per quarter) (Lipper).
+
+Ratio of four-factor alpha to the standard deviation of the residuals
+
+of the four-factor model (Lipper).
+
+TNA
+Family TNA ($ million)
+
+Age
+Total Expense Ratio
+Total Load
+
+Total net assets (in millions of U.S. dollars) of the fund (Lipper).
+Total net assets (in millions of U.S. dollars) of funds managed by the
+
+fund management company to which the fund belongs (Lipper).
+
+Number of years since the fund launch date (Lipper).
+Total annual expenses as a fraction of TNA (Lipper).
+Sum of front- and back-end loads as a fraction of new investments
+
+(Lipper).
+
+Flow
+
+Percentage growth in TNA in a quarter, net of internal growth
+
+(assuming reinvestment of dividends and distributions) (Lipper).
+
+Number of Countries of
+
+Number of countries in which the fund is sold (Lipper).
+
+Sale
+
+Team-Managed
+
+Dummy variable that takes a value of 1 if the fund is managed by a
+
+team, and 0 otherwise (Lipper).
+
+Client Stock Holding
+
+Dummy that takes a value of 1 if the funds afﬁliated with a lead
+
+Client Stock Holding>1%
+
+arranger bank hold stock of the borrower at the end of the
+previous year (FactSet).
+
+Dummy that takes a value of 1 if the funds afﬁliated with a lead
+arranger bank own at least 1% of the shares of the borrower at
+the end of the previous year (FactSet).
+
+Bank Market Share
+
+Fraction of the lead arranger bank in U.S. dollar volume of loans in
+
+each country (DealScan).
+
+Lending Relationship
+
+Bank Assets
+
+Dummy that takes a value of 1 if a ﬁrm chose a bank as lead
+
+arranger of a loan over the past three years (DealScan).
+
+Book value of assets in millions of U.S. dollars of the lead arranger
+
+bank (Bankscope item 2000).
+
+Bank Return on Assets
+Market Capitalization
+Book-to-Market
+
+Return on assets of the lead arranger bank (Bankscope item 4024).
+Market capitalization in U.S. dollars (Datastream item MV).
+Book value of equity divided by market value of equity (Worldscope
+
+Leverage
+
+Tangibility
+
+item 03501/item 08001).
+
+Ratio of total debt to total assets (WorldScope item 03255/item
+
+02999).
+
+Net property, plant, and equipment divided by total assets
+
+(Worldscope item 02501/item 02999).
+
+Stock Volatility
+
+Annualized standard deviation of monthly stock returns
+
+Stock Return
+Return on Assets
+
+Voting Dissent
+
+(Datastream).
+
+Stock return (Datastream item RI).
+Ratio of net income before extraordinary items plus interest
+expenses to total assets (Worldscope (item 01551 + item
+01151)/item 02999).
+
+Percentage of votes against management’s recommendation on
+
+executive compensation proposals at shareholder meetings
+(Institutional Shareholder Services/RiskMetrics).
+
+(Continued)
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2225
+
+Table A.I—Continued
+
+Variable
+
+Deﬁnition
+
+Lender-Afﬁliated Funds
+
+Institutional ownership by funds afﬁliated with commercial
+
+Ownership
+
+Nonlender-Afﬁliated
+Funds Ownership
+
+Unafﬁliated Funds
+
+Ownership
+
+Institutional Ownership
+
+banks chosen by a ﬁrm as lead arrangers of a loan over the
+past three years as a percentage of market capitalization
+(DealScan and FactSet).
+
+Institutional ownership of funds afﬁliated with commercial
+
+banks not chosen by a ﬁrm as lead arrangers of a loan over the
+past three years as a percentage of market capitalization
+(DealScan and FactSet).
+
+Institutional ownership of funds unafﬁliated with commercial
+
+banks as a percentage of market capitalization (FactSet).
+Institutional ownership of all institutions as a percentage of
+
+market capitalization (FactSet).
+
+Insider Ownership
+
+Number of shares held by insiders as a proportion of the number
+
+Fund Manager Turnover
+
+Dummy variable that takes a value of 1 if the fund manager is
+
+of shares outstanding (WorldScope item 08021).
+
+Fund Manager Tenure
+Rank
+
+replaced in a quarter, and 0 otherwise (Lipper).
+
+Number of years as fund manager at the current fund (Lipper).
+Fractional rank that ranges from 0 (poorest performance) to 0
+
+(best performance) assigned to funds within each country
+according to their average Carhart (1997) four-factor model
+over the past four quarters (Lipper).
+
+REFERENCES
+
+Beck, Thorsten, Asli Demirg ¨uc¸-Kunt, and Ross Levine, 2000, A new database on the structure and
+
+development of the ﬁnancial sector, World Bank Economic Review 14, 597–605.
+
+Bekaert, Geert, Robert Hodrick, and Xiaoyan Zhang, 2009, International stock return comove-
+
+ments, Journal of Finance 64, 2591–2626.
+
+Bergstresser, Daniel, John Chalmers, and Peter Tufano, 2009, Assessing the costs and beneﬁts of
+
+brokers in the mutual fund industry, Review of Financial Studies 22, 4129–4156.
+
+Berzins, Janis, Crocker Liu, and Charles Trzcinka, 2013, Asset management and investment
+
+banking, Journal of Financial Economics 110, 215–231.
+
+Bharath, Sreedhar, Sandeep Dahiya, Anthony Saunders, and Anand Srinivasan, 2007, So what do
+I get? The bank’s view of lending relationships, Journal of Financial Economics 85, 368–419.
+Bharath, Sreedhar, Sandeep Dahiya, Anthony Saunders, and Anand Srinivasan, 2011, Lending
+
+relationships and loan contract terms, Review of Financial Studies 24, 1141–1203.
+
+Carhart, Mark, 1997, On persistence in mutual fund performance, Journal of Finance 52, 57–82.
+Chen, Joseph, Harrison Hong, Ming Huang, and Jeffrey Kubik, 2004, Does fund size erode mutual
+fund performance? The role of liquidity and organization, American Economic Review 94,
+1276–1302.
+
+Chevalier, Judith, and Glenn Ellison, 1999, Career concerns of mutual fund managers, Quarterly
+
+Journal of Economics 114, 389–432.
+
+Christoffersen, Susan, Richard Evans, and David Musto, 2013, What do consumers’ fund ﬂows
+
+maximize? Evidence from their brokers’ incentives, Journal of Finance 68, 201–235.
+
+Chuprinin, Oleg, Massimo Massa, and David Schumacher, 2015, Outsourcing in the international
+
+mutual fund industry: An equilibrium view, Journal of Finance 70, 2275–2308.
+
+Cohen, Lauren, and Breno Schmidt, 2009, Attracting ﬂows by attracting big clients, Journal of
+
+Finance 64, 2125–2151.
+
+Cremers, Martijn, Miguel Ferreira, Pedro Matos, and Laura Starks, 2016, Indexing and active
+
+fund management: International evidence, Journal of Financial Economics 120, 539–560.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2226
+
+The Journal of Finance R(cid:3)
+
+Cremers, Martijn, and Antti Petajisto, 2009, How active is your fund manager? A new measure
+
+that predicts performance, Review of Financial Studies 22, 3329–3365.
+
+Del Guercio, Diane, and Jonhatan Reuter, 2014, Mutual fund performance and the incentive to
+
+generate alpha, Journal of Finance 69, 1673–1704.
+
+Demirg ¨uc¸-Kunt, Asli, and Ross Levine, 2001, Bank-based and market-based ﬁnancial systems:
+Cross-country comparisons, in Asli Demirg ¨uc¸-Kunt and Ross Levine, eds.: Financial Structure
+and Economic Growth: A Cross-Country Comparison of Banks, Markets, and Development
+(MIT Press, Cambridge, MA).
+
+Evans, Richard, and R ¨udiger Fahlenbrach, 2012, Institutional investors and mutual fund gover-
+nance: Evidence from retail-institutional fund twins, Review of Financial Studies 25, 3530–
+3571.
+
+Fama, Eugene, and Kenneth French, 1993, Common risk factors in the returns on stocks and
+
+bonds, Journal of Financial Economics 33, 3–56.
+
+Fama, Eugene, and James D. MacBeth, 1973, Risk, return, and equilibrium: Empirical tests,
+
+Journal of Political Economy 81, 607–636.
+
+Farnsworth, Heber, and Jonathan Taylor, 2006, Evidence on the compensation of portfolio man-
+
+agers, Journal of Financial Research 29, 305–324.
+
+Ferreira, Miguel, Aneel Keswani, Ant´onio Miguel, and Soﬁa Ramos, 2013, The determinants of
+
+mutual fund performance: A cross-country study, Review of Finance 17, 483–525.
+
+Ferreira, Miguel, and Pedro Matos, 2008, The colors of investors’ money: The role of institutional
+
+investors around the world, Journal of Financial Economics 88, 499–533.
+
+Ferreira, Miguel, and Pedro Matos, 2012, Universal banks and corporate control: Evidence from
+
+the global syndicated loan market, Review of Financial Studies 25, 2703–2744.
+
+Gaspar, Jos´e-Miguel, Massimo Massa, and Pedro Matos, 2006, Favoritism in mutual fund families?
+
+Evidence on strategic cross-fund subsidization, Journal of Finance 61, 73–104.
+
+Ghosh, Pulak, Jayant Kale, and Venkatesh Panchapagesan, 2014, Do Indian business group owned
+mutual funds maximize value for their investors? Working paper, Indian Institute of Manage-
+ment Bangalore.
+
+Gil-Bazo, Javier, Peter Hoffmann, and Sergio Mayordomo, 2016, Mutual funding, Working paper,
+
+Universitat Pompeu Fabra, Barcelona, Spain.
+
+Golez, Benjamin, and Jose Marin, 2015, Price support by bank-afﬁliated mutual funds, Journal of
+
+Financial Economics 115, 614–638.
+
+Hao, Qing, and Xuemin Yan, 2012, The performance of investment bank-afﬁliated mutual funds:
+Conﬂicts of interest or informational advantage? Journal of Financial and Quantitative Anal-
+ysis 47, 537–565.
+
+Investment Company Institute, 2011, Investment Company Fact Book, Washington, DC. Available
+
+at https://www.ici.org/pdf/2011_factbook.pdf.
+
+Johnson, William, and Jennifer Marietta-Westberg, 2009, Universal banking, asset management,
+
+and stock underwriting, European Financial Management 15, 703–732.
+
+Karceski, Jason, 2002, Returns-chasing behavior, mutual funds, and beta’s death, Journal of Fi-
+
+nancial and Quantitative Analysis 37, 559–594.
+
+Kempf, Alexander, Stefan Ruenzi, and Tanja Thiele, 2009, Employment risk, compensation in-
+centives, and managerial risk taking: Evidence from the mutual fund industry, Journal of
+Financial Economics 92, 92–108.
+
+Khorana, Ajay, 1996, Top management turnover: An empirical investigation of mutual fund man-
+
+agers, Journal of Financial Economics 40, 403–427.
+
+Khorana, Ajay, Henri Servaes, and Peter Tufano, 2005, Explaining the size of the mutual fund
+
+industry around the world, Journal of Financial Economics 78, 145–185.
+
+Khorana, Ajay, Henri Servaes, and Peter Tufano, 2009, Mutual fund fees around the world, Review
+
+of Financial Studies 22, 1279–1310.
+
+Kostovetsky, Leonard, and Jerold Warner, 2015, You’re ﬁred! New evidence on portfolio manager
+
+turnover, Journal of Financial and Quantitative Analysis 50, 729–755.
+
+La Porta, Rafael, Florencio Lopez-de-Silanes, Andrei Shleifer, and Robert Vishny, 1998, Law and
+
+ﬁnance, Journal of Political Economy 106, 1113–1155.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseAsset Management within Commercial Banking Groups
+
+2227
+
+Massa, Massimo, 2003, How do family strategies affect fund performance? When performance-
+
+maximization is not the only game in town, Journal of Financial Economics 67, 249–304.
+
+Massa, Massimo, and Zahid Rehman, 2008, Informational ﬂows within ﬁnancial conglomerates:
+Evidence from the banks-mutual funds relation, Journal of Financial Economics 89, 288–306.
+Mehran, Hamid, and Ren´e Stulz, 2007, The economics of conﬂicts of interest in ﬁnancial institu-
+
+tions, Journal of Financial Economics 85, 267–296.
+
+Nanda, Vikram, Z. Jay Wang, and Lu Zheng, 2004, Family values and the star phenomenon:
+
+Strategies of mutual fund families, Review of Financial Studies 17, 667–698.
+
+P´astor, Lubos, Robert Stambaugh, and Lucian Taylor, 2015, Scale and skill in active management,
+
+Journal of Financial Economics 116, 23–45.
+
+Ritter, Jay, and Donghang Zhang, 2007, Afﬁliated mutual funds and the allocation of initial public
+
+offerings, Journal of Financial Economics 86, 337–368.
+
+Sialm, Clemens, Laura Starks, and Hanjiang Zhang, 2015, Deﬁned contribution pension plans:
+
+Sticky or discerning money? Journal of Finance 70, 805–838.
+
+Sialm, Clemens, and T. Mandy Tham, 2016, Spillover effects in mutual fund companies, Manage-
+
+ment Science 62, 1472–1486.
+
+Sirri, Erik, and Peter Tufano, 1998, Costly search and mutual fund ﬂows, Journal of Finance 53,
+
+1589–1622.
+
+Supporting Information
+
+Additional Supporting Information may be found in the online version of this
+article at the publisher’s website:
+Appendix S1: Internet Appendix.
+
+ 15406261, 2018, 5, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12702 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

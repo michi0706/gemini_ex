@@ -1,0 +1,4010 @@
+Journal of Financial Economics 115 (2015) 84–101
+
+Contents lists available at ScienceDirect
+
+Journal of Financial Economics
+
+journal homepage: www.elsevier.com/locate/jfec
+
+Attentive insider trading$
+Dallin M. Alldredge a,1, David C. Cicero b,n
+a University of Tennessee, USA
+b University of Alabama, USA
+
+a r t i c l e i n f o
+
+a b s t r a c t
+
+We provide evidence that some profitable insider stock selling is motivated by public
+information. At firms that disclose having concentrated sales relationships,
+insiders
+appear to sell their own stock profitably based on public information about their principal
+customers. Supplier insiders also sell more stock when public information about their
+customers' recent returns and earnings surprises suggests they will earn larger profits.
+These results are stronger when outside investor attention could be lower. Outside of this
+setting, insiders engage in a higher proportion of routine sales and their sales are less
+profitable. We do not find similar patterns for insider purchases.
+
+& 2014 Elsevier B.V. All rights reserved.
+
+Article history:
+Received 17 July 2013
+Received in revised form
+8 January 2014
+Accepted 20 January 2014
+Available online 16 September 2014
+
+Keywords:
+Insider trading
+Investor attention
+Supply chain
+
+JEL classification:
+K22
+G14
+G30
+
+1.
+
+Introduction
+
+Corporate insiders'
+
+future abnormal
+returns.2 If stock prices reflect all publicly available
+
+trades predict
+
+☆ We thank a very helpful anonymous referee, Anup Agrawal,
+Lee Biggerstaff, Douglas Cook, Phillip Daves, Jesse Ellis, Joan Heminway,
+Ashrafee Hossain (Financial Management Association 2013 discussant),
+Andy Puckett, Bill Schwert (the editor) and seminar participants at
+Georgia State University and the University of Tennessee for helpful
+comments.
+
+n Corresponding author.
+
+dccicero@cba.ua.edu (D.C. Cicero).
+
+E-mail addresses: dalldred@utk.edu (D.M. Alldredge),
+1 Tel.: þ1 865 974 8253.
+2 Examples of work in this area include Lorie and Niederhoffer
+(1968), Jaffe (1974), Finnerty (1976), Seyhun (1986, 1992, 1998), Bettis,
+Vickrey, and Vickery (1997), Lakonishok and Lee (2001), Jeng, Metrick,
+and Zeckhauser (2003), Agrawal and Cooper (2014), and Agrawal and
+Nasser (2012). Historically, most of the robust evidence of returns
+following insider transactions was based on stock purchases. More
+recently, Cohen, Malloy, and Pomorski (2012) and Cicero and Wintoki
+(2014) show that applying simple and intuitive screens on the trading
+data results in strong evidence of informed stock sales, too.
+
+http://dx.doi.org/10.1016/j.jfineco.2014.09.005
+0304-405X/& 2014 Elsevier B.V. All rights reserved.
+
+information, this suggests that insiders generally do not
+respect the legal prohibitions on using inside information
+to make trading decisions.3 We evaluate whether an
+alternative explanation can account for the abnormal
+returns earned by insiders. We pose a hypothesis of
+attentive insider trading informed by public information.
+That is, we hypothesize that corporate insiders pay close
+attention to public information that is relevant to their
+firms and earn profits by trading when outside investors
+are relatively inattentive.
+
+We explore insider trading in a setting where attentive
+trading could be distinguished from illegal trading. It is
+where firms have disclosed that other individual public
+companies account for a large fraction of their sales (i.e.,
+where suppliers are economically linked to their principal
+customers). Supplier insiders' opportunities to trade on
+
+3 In the United States, as in many other countries, it is illegal to trade
+securities based on private information. Securities and Exchange Act of
+1934, Sections 16(b) and 10(b), and the related Security and Exchange
+Commission rules and case law.
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+85
+
+public information should be enhanced in this setting. Cohen
+and Frazzini (2008) and Menzly and Ozbas (2010) argue that
+outside investors are limited in their ability to understand
+the full
+impact of public information across firms and
+industries, and they show that this leads to return predict-
+ability across economically linked firms.4 Cohen and Frazzini
+(2008), in particular, show that investor inattention allows
+lagged abnormal returns to principal customers to predict
+their suppliers' returns.
+In this paper, we test whether
+customers' lagged returns and their information disclosures
+to the market (which are public information at the time of
+trading) explain supplier insiders' trading decisions and the
+abnormal returns that they earn. Although this is not the
+only setting in which insiders could trade profitably on
+public information, it is one in which opportunities should
+be particularly acute. Therefore, the evidence of attentive
+trading could contrast more starkly compared with trading
+outside of this context.
+
+Our hypothesis is grounded in an expectation that
+corporate insiders are among the most attentive traders of
+their own stocks. They have undiversified economic stakes in
+their firms, including both their current securities holdings
+and their future income, giving them high incentives to
+monitor developments that affect their firms' prospects. In
+addition, the nature of their jobs is to be informed about
+market developments that affect their firms as they work to
+maximize firm value. Corporate insiders at economically
+linked suppliers could, therefore, quickly recognize profitable
+trading opportunities when they observe public information
+about their large customers such as recent stock returns,
+earnings announcements, and corporate press releases.5 As a
+result, insiders at these firms could have increased opportu-
+nities to trade profitably on public information beyond that
+which is available to insiders at other firms.
+
+Taken as a whole, our results suggest that some profit-
+able insider stock sales are motivated by public informa-
+tion. We first show that insiders' sales are more profitable
+at economically linked suppliers, suggesting that these
+insiders possess some informational advantage. Interest-
+ingly, though, their purchases, although profitable in this
+setting, are followed by similar return patterns when
+strong supply chain links are not reported. The asymmetry
+of this finding supports a conclusion that insiders' sales are
+at times motivated by public information. To see why, it is
+useful to consider the different incentives insiders face
+when they sell stock versus when they purchase it. As
+argued by prior researchers, there is significantly more
+litigation risk associated with selling stock. If an insider
+withholds negative information when he trades, other
+investors would clearly be harmed if they purchase at an
+inflated price. Selling by insiders when their stock is
+
+overvalued could also be used as evidence in a suit
+claiming fraudulent financial reporting. However,
+if an
+insider withholds positive information and purchases
+stock, the only harm is to other investors who could have
+sold and missed out on potential gains if the good news
+had already been released. But as others point out, it is less
+likely that shareholders will bring a successful derivative
+lawsuit against insiders when their only losses are best
+described as opportunity costs.6
+
+Given the asymmetric litigation risk, a reasonable
+interpretation of our results is that the higher levels of
+profitable insider selling in this context is driven by the
+greater abundance of opportunities to trade profitably on
+public information. The comparably strong profitability of
+insider purchases across settings suggests that any increased
+opportunities to trade on public information in the supply
+chain context is not incrementally useful when insiders are
+less deterred from exploiting private information.7
+
+To conduct our analysis, we collect a sample of 1,858
+firms (6,939 firm-years) that report the existence of large
+principal customers during the period 1986–2010 (eco-
+nomically linked suppliers). We compare insider trading
+activity at these firms across years when they do and do
+not report these strong economic links. We also contrast
+the returns to insider trading at the economically linked
+firms to those at 5,118 other firms that never report these
+relations (never-linked firms). Our focus is on trades that
+are nonroutine, because Cohen, Malloy, and Pomorski
+(2012) show that these trades are most likely to be
+motivated by an informational advantage.
+
+We start by evaluating the profitability of insiders' trades.
+Abnormal returns following nonroutine insider sale months
+are significantly larger at economically linked suppliers. For
+example, NYSE size decile-adjusted one-month cumulative
+abnormal returns (CARs) following insider sales at economic-
+ally linked suppliers are  0.67% compared with  0.16% at
+linked suppliers during non-linked years and  0.32% at
+never-linked firms. The significance of this result is con-
+firmed in multivariate tests controlling for market returns,
+firm size, book-to-market equity value, and stock return
+momentum. In addition, a larger proportion of trade months
+are profitable when strong economic links exist. In contrast,
+insiders' stock purchases are profitable, on average, regard-
+less of the existence of a strong supplier–customer relation-
+ship. For example,
+insiders' purchases are followed by
+monthly abnormal returns of 0.92% when an economic link
+is present and 0.80% when it is not, and these two values are
+not significantly different.
+
+We provide a variety of additional tests to help further
+identify whether insiders' trades in this setting are moti-
+vated by private or public information. For one, we show
+
+4 Numerous researchers argue for both the existence and rationality
+of limited investor attention to information relevant to asset prices
+(Hong, Torous, and Valkanov, 2007; Bacchetta and Van Wincoop, 2010;
+Peng and Xiong, 2006). Huang and Liu (2007), in particular, show that
+investor inattention can lead to cross-sectional return predictability. For
+the social psychology foundations of limited attention theories, see
+Kahneman (1973) and Fiske and Taylor (1991).
+
+5 Throughout the paper we refer to stock sales as profitable if they
+precede negative abnormal returns, as the insider avoids losses by selling.
+
+6 See, for instance, Skinner (1994), Brochet (2010), and Chen, Martin,
+
+and Wang (2012).
+
+7 Other research suggests that attentive institutional
+
+investors
+exploit information spillovers when investing in related firms (see, for
+example, Cohen and Frazzini, 2008; Menzly and Ozbas, 2010; and Huang
+and Kale, 2012). However, because the mutual fund holdings data are
+reported at quarterly frequency, they are generally neither able to
+evaluate the profitability of specific investments nor establish the direc-
+tion of causation between trading and returns.
+
+86
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+that supplier insiders do not sell stock profitably in the
+first year of a concentrated supplier–customer relation-
+ship, which could precede their disclosure of the relation-
+ship to the market. If supplier insiders traded on private
+information about their customers, similar or even larger
+abnormal returns would be expected during these years
+because outside investors are less likely to understand the
+impact of information across economic links before they
+are disclosed. The subsequent analyses focus on trades by
+supplier insiders once the relations with principal custo-
+mers have been disclosed. We find that the abnormal
+returns following these trades are a function of the lagged
+returns to the large principal customers. Supplier insiders'
+sales earn significant abnormal profits on average only
+when the lagged abnormal returns of their principal
+customers were negative. In addition, the abnormal profits
+earned on sales are a function of the magnitude of the
+customers'
+lagged returns. Supplier insiders also earn
+greater profits when the market could be less attentive
+to the economic link between suppliers and principal
+customers. For example, the abnormal returns following
+their sales are more pronounced when fewer analysts
+cover the suppliers. Their sales also become less profitable
+as the duration of the supplier–customer relationship
+grows. This is to be expected if insiders are trading on
+public information because the market should learn about
+the cross-firm return predictability over time and the
+faster recognition by outside investors should limit insi-
+ders' profitable trading opportunities.8
+
+The next issue we focus on is whether supplier insiders
+trade more when they have opportunities to profit on
+public information. We find that the overall
+level of
+nonroutine insider trading is higher at economically linked
+suppliers than at other firms, suggesting that more oppor-
+tunities exist to trade profitably in this setting.
+It is
+reasonable to expect attentive insiders to notice market
+signals about their customers' prospects and to react when
+they think the market does not fully appreciate the impact
+of these developments on their own future performance.
+We find that insiders at economically linked suppliers are
+more likely to trade when publicly available information
+about their customers indicates their trades will be profit-
+able. In the first set of tests along these lines, we show that
+supplier insiders are more likely to sell (purchase) stock
+when the lagged returns to their principal customers are
+lower (higher), a situation that predicts they will earn
+abnormal returns (Cohen and Frazzini, 2008).
+
+Moreover, a strong relation exists between supplier
+insiders' stock sales and their customers' specific commu-
+nications to the market. Supplier insiders trade their own
+stock around the time their principal customers announce
+earnings, and their trades are in the direction one would
+expect, given the impact of the unexpected earnings
+component on their own firm value. The level of trading
+is also greater when other investors could be less attentive,
+in particular when the earnings are released on Fridays.
+
+8 None of the results discussed in this paragraph holds for purchases,
+with the exception of the fact that supplier insider purchases are
+profitable only when lagged customer returns are positive.
+
+Other investors could be less attentive at the end of the
+week and, therefore, slower to incorporate new informa-
+tion into the suppliers' stock prices (DellaVigna and Pollet,
+2009). To get a sense of the economic significance of these
+results, we find increases in the odds of a supplier insider
+sale of 425% (a 6.50% increase relative to the unconditional
+odds of a sale of 1.53%) following a large negative earnings
+surprise announced by a principal customer on a Friday. In
+addition, given a sale, supplier insiders sell an additional
+19,190 shares under these circumstances.
+
+We conclude with robustness tests designed to evalu-
+ate alternative explanations for our findings, including the
+possibility that our results are driven by trading on private
+information. We find that the strong relation between
+supplier insider selling and the information content of
+their customers' earnings announcements does not hold in
+the two days immediately preceding the announcements.
+However, for purchases, we find similar trading patterns in
+this period as we find for the days following customer
+earnings announcements. A final alternative we consider is
+that insiders use public announcements to camouflage
+trades based on other, unrelated, private information.
+We analyze the trades of a subset of supplier insiders who
+were already trading prior to their customers' earnings
+announcements and in the direction that would be expected
+given the content of the pending release. For the case of
+stock sales, we continue to find that trading immediately
+following the customers' announcements is related to its
+content. This would not be expected if they are trading on
+this particular information ahead of time. Also, given that
+they are already trading, it seems unlikely that they are
+waiting for a public news release to camouflage trading
+motivated by other private information.9 This relation does
+not hold for purchases.
+
+As a whole, our analysis is consistent with a conclusion
+that some profitable insider selling in this setting is
+motivated by public information. This conclusion is sup-
+ported in the case of supplier insider sales because of the
+robust evidence that public information explains the
+returns that are earned, that selling patterns following
+customer announcements are a function of
+the new
+information conveyed, and that the level of nonroutine
+trading and returns earned by supplier insiders are not
+matched outside of this setting. However, the evidence
+does not support the same conclusion for stock purchases.
+Less evidence exists regarding the relation between public
+information and the returns following purchases, insider
+selling patterns are similar immediately before and after
+customer earnings announcements, and insiders earn
+similar returns outside of this setting.
+
+9 We cannot be certain whether insiders are ever motivated solely by
+public information when they trade, or if their actions reflect considera-
+tion of a mosaic of public and private signals. Assuming they have access
+to both sets of signals, it seems unlikely that insiders would completely
+ignore one set when they trade. Even if one has the best of intentions,
+certainly insiders' expectations of the impact of new public information
+on their firms' values would be colored by the private information they
+possess. Regardless, our analysis suggests that it is the addition of public
+information to an insiders' information set that often leads them to trade.
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+87
+
+It is beyond the scope of this paper to estimate the
+relative levels of illegal trading on private information
+versus attentive trading on public information in our
+markets. However, we offer some thoughts on this ques-
+tion in Section 4 with a focus on insights from prior
+research that could be useful for calibrating expectations
+about the prevalence of each.
+
+The remainder of this paper proceeds as follows. In
+Section 2 we discuss the data and methodologies used in
+this study. Section 3 contains the empirical results. Finally,
+in Section 4 we conclude with a summary of the results
+and discuss the possible extent of attentive insider trading
+in our markets.
+
+2. Data and methodology
+
+The data for our analyses are obtained from several
+sources. We first identify firms that sell a large fraction of
+their output to individual principal customers. Under US
+securities laws, public companies are required to report
+annually any customer that accounts for more than 10% of
+their annual sales, and these disclosures are included in
+the Compustat Customer Segments database. Extracting
+the supplier–customer relationships from this database
+required a significant amount of hand-matching. The
+reporting companies often abbreviate the names of their
+large customers, so each entry had to be compared with
+the full company name listed in Compustat. We matched
+the customer names conservatively, and we were careful
+to check company websites and the Business Week com-
+pany profiles to exclude questionable matches.
+
+This analysis also requires insider trading data. These data
+are retrieved from Table 1 of the Thomson Reuters insider
+database, which reports stock transactions by insiders at
+publicly traded US firms.10 We conduct our main tests on
+trades by the broad cross section of insiders that must report
+their transactions, and we show selected results for subsets
+of top officers or directors. Transactions are included in our
+analysis if Thomson Reuters has verified their accuracy and
+given them a cleanse code of R, H, L, C, or Y.
+
+We exclude trades that can be characterized as routine
+because these trades are unlikely to be motivated by
+information. Cohen, Malloy, and Pomorski (2012) charac-
+terize insiders as routine traders if they trade in the same
+calendar month in three consecutive years, and they show
+that trades by these insiders do not predict abnormal
+returns. We follow their definition for routine traders
+and exclude all
+trades made by these individuals.
+The remaining trades covered in our analysis are, there-
+fore, reasonably characterized as nonroutine. We also
+exclude insider trades related to options transactions,
+
+10 The Thomson Reuters Financial Network Insider Filing Data
+provides information on executives' stock and derivative transactions.
+These transactions must be reported to the Securities and Exchange
+Commission on Forms 3, 4, 5, and 144. Insiders are required to file Form 3
+to report initial beneficial ownership of shares, Form 4 to report changes
+in beneficial holdings, Form 5 to report annual changes in beneficial
+ownership, and Form 144 to declare their intention to sell restricted
+shares. Stock transactions are reported in Table 1 of these forms. Officers,
+directors, and beneficial owners of more than 10% of a class of a
+company's equity securities are required to report their transactions.
+
+which leaves us with a sample of nonroutine insider open
+market sales and purchases. For most of our tests, the
+trading observation is measured at the monthly level. A
+sale month (purchase month) is defined as a calendar
+month in which an insider reported trading at least once
+and where the trades resulted in a net increase (decrease)
+in ownership.
+
+Evaluating abnormal returns requires stock market
+returns and firm characteristics. Balance sheet and income
+statement data are collected from Compustat, and stock
+returns are collected from the Center for Research in
+Security Prices (CRSP). We focus our study on common
+stocks only (CRSP share codes 10 and 11). We eliminate
+illiquid stocks by dropping those with prices below $5 or
+market capitalizations below $100 million. Further, to
+eliminate the effect of outliers, we winsorize all variables
+at the 99% and 1% levels.
+
+Combining the economically linked suppliers, the insi-
+der trading data, stock returns, and firm characteristics
+resulted in a final sample of 1,858 linked firms and 17,180
+unique trade months at those firms (11,805 net sale
+months and 5,375 net purchase months). Our control
+observations consist of all other firms for which we have
+the available CRSP, Compustat, and insider trading data but
+that do not report the existence of principal customers.
+The control sample includes 6,330 non-linked firms
+(including never-linked firms and linked firms in non-
+linked years) with 128,942 unique trade months (82,905
+net sale months and 46,037 net purchase months).
+
+Our main empirical strategy is to test for differences in
+abnormal stock returns following trades at economically
+linked suppliers versus those at other firms. To establish
+the robustness of our results, we calculate abnormal
+returns in a couple of ways. The first and simplest method
+consists of comparing stock returns over the calendar
+month subsequent to trading months with the calendar
+month returns on the appropriate size decile portfolio of
+firms based on NYSE size breakpoints
+(size decile
+portfolio-adjusted CAR). This method is useful because it
+accounts for market-related risk factors that affect firms of
+similar size during the same one-month period.
+
+We also determine abnormal returns in a regression
+framework. We regress excess one month returns follow-
+ing trade months onto the equal-weighted market return
+and other variables that account for additional risk factors,
+including the firm's stock market value, book-to-market
+value of equity, and prior supplier stock returns.11 This
+method mimics that of Cohen, Malloy, and Pomorski
+(2012). We also introduce a variety of explanatory vari-
+ables derived from the lagged three-month abnormal
+returns to the suppliers' principal customers. In the case
+that a supplier has more than one principal customer, we
+use the equal weighted average of the principal customers'
+returns in our regression analysis. We are careful to control
+for the lagged abnormal return to the supplier firm over
+
+11 Excess returns are defined as the monthly return to a firm's stock
+minus the one-month risk-free rate as reported on Ken French's website:
+http://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.
+html. We confirm that all of our results are robust to using total return
+and size decile-adjusted CARs as the dependent variable.
+
+88
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 1
+Summary statistics.
+
+This table reports summary statistics for the sample firm-months of nonroutine insider trades from January 1986 to December 2010. The sample is
+divided into linked firm insider sale (purchase) months in Panel A (Panel C) and non-linked firm insider sale (purchase) months in Panel B (Panel D). The
+variable B/M is the previous year-end book-to-market equity ratio. The variable Size is the previous year-end market value (in millions). Trade days per
+firm-month, traders per firm-month, and firms per month are also reported. If a firm-month contains both an insider net sale and an insider net purchase,
+then the observation is removed from the sample.
+
+Mean
+
+Median
+
+Standard deviation
+
+Panel A: Linked firm sales (1,375 firms; 11,805 firm-month observations)
+0.367
+B/M
+676
+Size
+1.00
+Trade days per firm-month
+Traders per firm-month
+1.00
+34.0
+Firms per month
+
+0.421
+4,445
+2.61
+1.57
+37.0
+
+Panel B: Non-linked Firm Sales (5,729 firms; 82,905 firm-month observations)
+B/M
+Size
+Trade days per firm-month
+Traders per firm-month
+Firms per month
+
+0.455
+4,825
+2.47
+1.55
+277.3
+
+0.402
+821
+1.00
+1.00
+272.0
+
+Panel C: Linked firm purchases (1,088 firms; 5,375 firm-month observations)
+B/M
+Size
+Trade days per firm-month
+Traders per firm-month
+Firms per month
+
+0.452
+529
+1.00
+1.00
+15.0
+
+0.510
+2,974
+1.89
+1.40
+17.3
+
+Panel D: Non-linked firm purchases (5,203 firms; 46,037 firm-month observations)
+B/M
+Size
+Trade days per firm-month
+Traders per firm-month
+Firms per month
+
+0.561
+3,509
+1.97
+1.49
+154.6
+
+0.511
+525
+1.00
+1.00
+131.0
+
+0.275
+17,914
+3.80
+1.66
+18.0
+
+0.301
+18,626
+3.23
+1.14
+100.7
+
+0.346
+12,820
+2.05
+0.96
+10.3
+
+0.360
+17,058
+2.58
+1.21
+81.6
+
+5%
+
+0.086
+123
+1.00
+1.00
+13.0
+
+0.096
+131
+1.00
+1.00
+122.0
+
+0.107
+121
+1.00
+1.00
+4.0
+
+0.130
+117
+1.00
+1.00
+52.0
+
+95%
+
+0.923
+16,876
+8.00
+4.00
+70.0
+
+0.977
+18,713
+7.00
+4.00
+534.0
+
+1.106
+11,221
+5.00
+3.00
+39.0
+
+1.146
+11,695
+6.00
+4.00
+306.0
+
+the same horizon to account for any industry-wide effect
+that could codetermine these returns.
+
+The second part of our analysis focuses on whether
+public information about principal customers predicts the
+trading activity of supplier insiders. We conduct limited
+dependent variable regressions predicting trading at
+the economically linked suppliers as a function of their
+principal customers' past abnormal returns and unex-
+pected earnings. The analyst
+forecasts and earnings
+announcements for this part of our analysis are obtained
+from the Institutional Brokers' Estimate System (I/B/E/S)
+database. We use a normalized measure of quarterly
+earnings surprise from DellaVigna and Pollet
+(2009),
+constructed as
+
+SUEt;k ¼ actual earningst;k  expected earningst;k
+
+;
+
+ð1Þ
+
+pricet;k
+
+where SUEt,k is the standardized unexpected earnings
+(SUE) announced by company k for quarter t, actual
+earningst,k is the actual earnings per share for company
+k in quarter t, and expected earningst,k is the correspond-
+ing median of all analyst earnings per share forecasts
+issued closest in time to the earnings announcement date
+but not more than 90 days prior to the fiscal period end.
+The earnings surprise is scaled by Pricet,k, which is the
+stock price of company k five days prior to the earnings
+announcement date in quarter t. For our analysis, we
+calculate earnings surprises for our firms' principal cus-
+tomers, as well as for the other firms in the same industry
+[Standard industrial classification (SIC) 4] as
+those
+
+customers. In unusual cases in which suppliers report
+more than one principal customer and multiple custo-
+mers report their earnings on the same day (3.9% of
+observations), we take the average of the firms' SUE.
+
+Table 1 contains summary statistics for our sample.
+Economically linked suppliers in the sample are slightly
+smaller than non-linked firms. This makes sense because it
+is easier for smaller firms to have one customer account
+for 10% or more of sales. The mean market capitalization of
+linked firms with insider sales is $4.4 billion, and the mean
+market capitalization of non-linked firms with insider
+sales is $4.8 billion. The book-to-market equity value of
+linked suppliers is marginally higher than for the control
+firms. These differences highlight the importance of con-
+trolling for these characteristics in a regression format.
+Linked suppliers with insider sales have slightly higher
+nonroutine traders and trade days per firm-month, which
+suggests more profitable trading opportunities could be
+found at these firms. In contrast, this relation is reversed
+for insider purchases.
+
+Fig. 1 shows the duration of the supplier–customer
+relationships in our sample. The plot illustrates a general
+decrease in the number of links as the duration increases.
+The maximum link duration is 25 years, and the average
+duration is 2.66 years. For most of our tests, we include
+insider trading months in the analysis only if they occur
+after the supplier–customer link has been disclosed, such
+that the link can be characterized as public information.
+For comparison purposes, we also present one regression
+of returns following trades that occur during the first year
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+89
+
+s
+k
+n
+i
+l
+ 
+f
+o
+ 
+r
+e
+b
+m
+u
+N
+
+7,000
+
+6,000
+
+5,000
+
+4,000
+
+3,000
+
+2,000
+
+1,000
+
+0
+
+(6,229)
+
+(3,168) 
+
+(1,612) 
+
+(944) 
+
+(614) 
+
+(455) 
+
+(323) 
+
+1
+
+2
+
+3
+
+4
+
+6
+
+5
+7
+Link duration (years)
+
+(198) 
+
+(165) 
+
+8
+
+9
+
+(116) 
+
+10
+
+(312) 
+
+11+
+
+Fig. 1. Durations of the supplier–customer links.
+
+of the relationship, which is before the public can be
+expected to know of the link, to help distinguish trading
+based on private or public information.
+
+The distribution of linked and non-linked firms across
+the Fama and French 17 industry classifications is reported
+in Table 2. The economically linked suppliers are dispro-
+portionately concentrated in the machinery and business
+equipment industry and the drugs, soap, perfumes, and
+tobacco industry. The machinery and business equipment
+suppliers are typically producers of parts for machinery
+and computers (e.g., SanDisk Corp and Integrated Device
+Technology), and the drugs, soap, perfumes, and tobacco
+suppliers are predominately pharmaceutical companies
+(e.g., Alnylam Pharmaceuticals Inc. and Alexza Pharma-
+ceuticals Inc.). As would be expected, relatively few sup-
+plier firms are retail stores and financial institutions. The
+main results of the paper are robust to the exclusion of all
+financial firms, but for completeness we include them in
+the analysis.
+
+3. Empirical results
+
+We analyze insider trading in a setting where an
+increased potential exists for insiders to earn returns by
+trading on public information. The first part of our analysis
+focuses on the determinants of returns following insider
+transactions at firms that have large principal customers.
+The second part of this analysis focuses on the conditions
+that lead insiders at these economically linked suppliers
+to trade.
+
+3.1. Returns following insider trades at economically linked
+suppliers
+
+We first examine the relation between strong supplier–
+customer relationships and the returns following insider
+trading months. We compare insider trading returns at
+economically linked suppliers with those at other non-
+linked firms. We also make comparisons with insider
+returns at two mutually exclusive groups within the non-
+linked firms: the non-linked years for firms that report
+
+Table 2
+Industry classifications of suppliers and principal customers.
+
+This table reports the percentage of economically linked suppliers in
+our sample that are associated with each of the Fama and French 17
+industry classifications. The table also shows the percentage difference
+between the distribution of non-linked firms and linked firms. Finally, it
+reports the distribution of the principal customers across the Fama and
+French 17 industry classifications.
+
+Fama and French 17
+industry classification
+
+Non-
+linked
+firms
+
+Linked
+firms
+
+Difference
+
+Principal
+customers
+
+Food
+Mining and minerals
+Oil and petro products
+Textiles, apparel and
+
+footwear
+
+Consumer durables
+Chemicals
+Drugs, soap, perfumes,
+
+tobacco
+
+Construction
+Steel
+Fabricated products
+Machinery and
+
+business equipment.
+
+Automobiles
+Transportation
+Utilities
+Retail stores
+Financial institutions
+Other
+
+3%
+1%
+3%
+1%
+
+2%
+2%
+5%
+
+3%
+1%
+1%
+12%
+
+1%
+3%
+3%
+8%
+20%
+31%
+
+4%
+1%
+5%
+4%
+
+4%
+2%
+11%
+
+3%
+2%
+1%
+22%
+
+4%
+5%
+2%
+1%
+2%
+29%
+
+ 1%
+0%
+ 2%
+ 3%
+ 2%
+0%
+ 6%
+
+0%
+ 1%
+0%
+ 10%
+ 3%
+ 2%
+1%
+7%
+18%
+2%
+
+2%
+0%
+4%
+0%
+
+2%
+1%
+12%
+
+3%
+1%
+0%
+18%
+
+10%
+5%
+3%
+17%
+3%
+20%
+
+economic links at some point (linked suppliers in non-
+linked years), and other firms that never report links
+(never-linked firms).
+
+Table 3 presents NYSE size decile-adjusted one-month
+CARs following insider trades. The size-adjusted CARs
+following insider sales are reported in Panel A. Overall
+the results indicate that the returns earned by insiders on
+their stock sales are significant when economic links are
+present. The CARs following insider sales at economically
+linked suppliers on average are  0.671% per month. In
+contrast, evidence of profitable insider sales is not very
+strong outside of this context. On average, insiders at these
+
+90
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 3
+Market-adjusted abnormal returns following supplier insider trades.
+
+This table reports the one-month NYSE size decile-portfolio adjusted cumulative abnormal returns (CARs) following months with insider trading. The
+CARs for trade months by insiders at economically linked firms are compared with those at non-linked firms and with those at two subsets of this control
+group: linked firms during non-linked years and never-linked firms. Panel A contains insider sales, and Panel B contains insider purchases. Column 1
+reports results for all insiders. Column 2 reports results for the top-level insiders, who include chief executive officers, chief financial officers, and chief
+operating officers. Column 3 reports results for only the directors. Results for all other insiders are reported in Column 4. Standard errors are in parentheses
+and significance at the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+Abnormal returns
+
+Panel A: Sales
+Linked suppliers
+Size-adj. CAR (%)
+Standard errors
+Number of observations
+
+Non-linked firms
+Size-Adj. CAR (%)
+Standard errors
+Number of observations
+
+Linked suppliers in non-linked years
+Size-adj. CAR (%)
+Standard errors
+Number of observations
+
+Never-linked firms
+Size-adj. CAR (%)
+Standard Errors
+Number of observations
+
+Panel B: Purchases
+Linked suppliers
+Size-adj. CAR (%)
+Standard errors
+Number of observations
+
+Non-linked firms
+Size-adj. CAR (%)
+Standard erors
+Number of observations
+
+Linked suppliers in non-linked years
+Size-adj. CAR (%)
+Standard Errors
+Number of observations
+
+Never-linked firms
+Size-adj. CAR (percent)
+Standard errors
+Number of observations
+
+All insiders
+(1)
+
+Top-level officers
+(2)
+
+Only directors
+(3)
+
+Other insiders
+(4)
+
+ 0.671***
+(0.103)
+11,805
+
+ 0.292***
+(0.036)
+82,905
+
+ 0.158*
+(0.091)
+15,290
+
+ 0.322***
+(0.039)
+67,615
+
+0.922***
+(0.153)
+5,375
+
+0.796***
+(0.049)
+46,037
+
+1.398***
+(0.145)
+5,782
+
+0.709***
+(0.052)
+40,255
+
+ 1.230***
+(0.262)
+2,321
+
+ 0.277***
+(0.101)
+13,888
+
+0.359
+(0.354)
+1,510
+
+ 0.355***
+(0.105)
+12,378
+
+1.630***
+(0.405)
+1,054
+
+1.626***
+(0.142)
+8,007
+
+2.237***
+(0.601)
+485
+
+1.586***
+(0.146)
+7,522
+
+ 0.809***
+(0.193)
+3,499
+
+ 0.231***
+(0.063)
+27,612
+
+ 0.220***
+(0.193)
+3,741
+
+ 0.233***
+(0.066)
+23,871
+
+0.763***
+(0.183)
+3,403
+
+0.619***
+(0.056)
+31,287
+
+1.101***
+(0.180)
+3,297
+
+0.562***
+(0.059)
+27,990
+
+ 0.473***
+(0.118)
+8,891
+
+ 0.313***
+(0.040)
+62,418
+
+ 0.218**
+(0.102)
+11,349
+
+ 0.334***
+(0.044)
+51,069
+
+1.330***
+(0.241)
+2,415
+
+1.030***
+(0.076)
+20,703
+
+1.430***
+(0.247)
+2,033
+
+0.985***
+(0.080)
+18,670
+
+firms earn only 29 basis points ( 0.29% CAR) of abnormal
+return over the month following their nonroutine sales.
+Breaking the non-linked firms down further, we find
+abnormal returns of  0.158% per month at linked firms
+during non-linked years and  0.322% per month at never-
+linked firms. The differences from the average returns earned
+by linked suppliers of 0.513% per month (T-statistic¼3.74)
+and 0.349% per month (T-statistic¼3.42), respectively, are
+highly significant.
+The contrast
+
+in returns is starkest with top-level
+officers (chief executive officers, chief financial officers,
+and chief operating officers), who are most likely to be
+focused on information affecting their firms' future pro-
+spects. Top-level officers are also under the spotlight of
+regulators and the press, which could motivate them to
+avoid trading on private information. Size-adjusted CARs
+
+for top level officers, on average, are  1.230% per month
+at linked firms versus only  0.277% at non-linked firms
+altogether. Breaking these control observations down
+further, the average returns are  0.355% per month at
+never-linked firms and 0.359% at linked firms during non-
+linked years. The differences in abnormal returns at linked
+suppliers compared with these two groups are 0.875%
+(T-statistic¼3.28) per month and 1.589% (T-statistic¼
+3.67) per month, respectively. Similar patterns are also
+apparent for outside directors. These results suggest that
+top-level officers and directors are the most skilled at
+interpreting and profiting from information about their
+customers.
+
+The size-adjusted CARs following insider purchases are
+reported in Panel B of Table 3. Consistent with prior
+research, average CARs following insider purchases are
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+91
+
+Table 4
+An analysis of supplier insider trading returns compared with insider trading at other firms.
+
+This table compares cumulative abnormal returns (CARs) following insider sales at economically linked suppliers with those at other firms in a
+multivariate regression framework. It also presents regressions of monthly returns following insider sales at economically linked suppliers on control
+variables and lagged returns to their principal customers. The dependent variable Excess Rettþ 1 is the one-month excess return following trade month t.
+Link is an indicator equal to one if the firm has a principal customer during the given year. Log(Link Duration) is the log of the total number of months
+separating the trade month and the first reported relationship with the principal customer. Log(Analyst) is the log of number of analysts covering the
+supplier, and Log(Sales) is the log of the percentage of firm sales associated with principal customer. Customer CARt 3,t  1 is the customer three-month
+market adjusted return from months t 3 to t 1. Log(Size) is the log of the previous year-end market value. Log(B/M) is the log of the previous year-end
+book-to-market equity ratio. CARt  3,t 1 is the supplier's three-month market-adjusted return from months t 3 to t 1, and CARt 12,t 1 is the supplier's
+one-year market-adjusted return from months t 12 to t 1. Markettþ 1 is the equal-weighted market return. Panel A contains insider sales, and Panel B
+contains insider purchases. Column 2 contains observations from insider trade months in the first year of the supplier–customer relation, and all other
+regressions in this table omit observations from insider trades during the first year of the supplier–customer relationship. Columns 1 and 7 contain results
+for insider trade months at linked and non-linked firms. Columns 3 and 4 (Columns 5 and 6) contain regression results for insider trade months at linked
+firms following three-month positive (negative) lagged customer CARs. Column 8 contains only the regression results for insider trade months at linked
+firms. Clustered standard errors at the firm level are in parentheses, and significance at the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+Panel A: Insider sales
+
+Excess Rettþ 1
+
+Constant
+
+Customer CARt  3,t 1
+
+Link
+
+Log(Link Duration)
+
+Log(Analysts)
+
+Log(Sales)
+
+Log(Size)
+
+Log(B/M)
+
+Markettþ 1
+
+CARt  3,t 1
+
+CARt  12,t 1
+
+Number of
+
+observations
+
+R2
+
+Linked and
+non-linked
+
+firms
+
+(1)
+
+ 0.0119***
+(0.00205)
+
+Linked firms
+
+(first
+year of
+link)
+(2)
+
+0.00140
+(0.0148)
+
+ 0.00371***
+(0.00112)
+
+Linked firms
+
+Linked firms
+
+Linked firms
+
+Linked firms
+
+(positive lagged
+customer CAR)
+
+(positive lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(3)
+
+ 0.0114
+(0.00882)
+
+(4)
+
+ 0.0146
+(0.00937)
+
+0.0294
+(0.0254)
+
+(5)
+
+ 0.0279***
+(0.00840)
+
+(6)
+
+ 0.0199**
+(0.00869)
+0.0824***
+(0.0249)
+
+ 0.00007
+(0.000217)
+0.00906***
+(0.00208)
+1.040***
+(0.0111)
+0.00388
+(0.00271)
+0.00824***
+(0.00117)
+
+94,710
+
+0.149
+
+ 0.00344*
+(0.00178)
+
+0.0190
+(0.0153)
+1.240***
+(0.0613)
+0.0306**
+(0.0150)
+ 0.00468
+(0.00523)
+
+2,924
+
+0.130
+
+0.000174
+(0.00102)
+0.00192
+(0.00875)
+1.084***
+(0.0394)
+ 0.0128
+(0.0106)
+0.0109**
+(0.00440)
+
+5,754
+
+0.154
+
+0.000223
+(0.00102)
+0.00254
+(0.00879)
+1.084***
+(0.0394)
+ 0.0144
+(0.0106)
+0.0108**
+(0.00439)
+
+5,754
+
+0.154
+
+0.00101
+
+(0.000960)
+
+0.0150*
+(0.00829)
+1.201***
+(0.0415)
+0.00751
+(0.0103)
+ 0.00420
+(0.00432)
+
+6,051
+
+0.162
+
+0.000938
+(0.000957)
+
+0.0148*
+(0.00824)
+1.204***
+(0.0415)
+0.00430
+(0.0104)
+ 0.00368
+(0.00431)
+
+6,051
+
+0.164
+
+Panel B: Insider purchases
+
+Linked and
+non-linked
+
+firms
+
+(1)
+
+Linked
+
+firms (first
+
+year of
+link)
+(2)
+
+Linked firms
+
+(positive lagged
+customer CAR)
+
+Linked firms
+
+Linked firms
+
+Linked firms
+
+(positive lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(3)
+
+(4)
+
+0.0132***
+(0.00293)
+
+0.0261
+(0.0215)
+
+0.0326**
+(0.0131)
+
+0.0345***
+(0.0132)
+ 0.0197
+(0.0359)
+
+0.000996
+(0.00159)
+
+(5)
+
+ 0.0140
+(0.0126)
+
+(6)
+
+ 0.0119
+(0.0128)
+0.0276
+(0.0369)
+
+Excess Rettþ 1
+
+Constant
+
+Customer CARt  3,t 1
+
+Link
+
+Log(Link Duration)
+
+Log(Analysts)
+
+Log(Sales)
+
+Log(Size)
+
+Log(B/M)
+
+ 0.00147***  0.00442*
+(0.00266)
+(0.000324)
+ 0.000125
+(0.00288)
+
+0.0280
+(0.0196)
+
+ 0.00408***
+(0.00154)
+0.00386
+(0.0139)
+
+ 0.00407***
+(0.00154)
+0.00354
+(0.0138)
+
+0.000171
+(0.00139)
+0.0322***
+(0.0120)
+
+0.000197
+(0.00139)
+0.0325***
+(0.0120)
+
+Linked and
+non-linked
+
+firms
+
+(7)
+
+Linked
+firms
+
+(8)
+
+ 0.00805**  0.0148*
+(0.00854)
+(0.00316)
+
+ 0.0160***
+(0.00606)
+0.00330**
+(0.00157)
+
+0.00644***
+(0.00206)
+0.00532
+(0.0122)
+ 0.000137  0.00198*
+(0.00113)
+(0.000218)
+0.0103***
+0.00783
+(0.00771)
+(0.00211)
+1.127***
+1.065***
+(0.0115)
+(0.0372)
+ 0.00569
+0.00287
+(0.00869)
+(0.00272)
+0.00849***
+0.00272
+(0.00353)
+(0.00116)
+
+94,710
+
+0.153
+
+Linked and
+non-linked
+
+firms
+
+(7)
+
+8,445
+
+0.152
+
+Linked
+firms
+
+(8)
+
+0.00468
+(0.00472)
+
+0.0122
+(0.0142)
+
+0.00840
+(0.00898)
+ 0.00207
+(0.00228)
+
+ 0.00236
+(0.00381)
+ 0.0251
+(0.0236)
+ 0.00164***  0.00110
+(0.00180)
+(0.000326)
+ 0.000215
+0.0222*
+(0.00296)
+(0.0119)
+
+92
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 4 (continued )
+
+Panel B: Insider purchases
+
+Excess Rettþ 1
+
+Markettþ 1
+
+CARt  3,t  1
+
+CARt  12,t 1
+
+Number of
+
+observations
+
+R2
+
+Linked and
+non-linked
+
+firms
+
+(1)
+
+1.050***
+(0.0135)
+ 0.0232***
+(0.00379)
+0.00395**
+(0.00193)
+
+51,412
+
+0.173
+
+Linked
+
+firms (first
+
+year of
+link)
+(2)
+
+1.173***
+(0.0828)
+ 0.0201
+(0.0252)
+0.0142
+(0.0123)
+
+1,203
+
+0.144
+
+Linked firms
+
+(positive lagged
+customer CAR)
+
+Linked firms
+
+Linked firms
+
+Linked firms
+
+(positive lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(negative lagged
+customer CAR)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+1.028***
+(0.0528)
+0.0117
+(0.0166)
+ 0.00462
+(0.00838)
+
+2,575
+
+0.160
+
+1.029***
+(0.0527)
+0.0121
+(0.0165)
+ 0.00459
+(0.00838)
+
+2,575
+
+0.160
+
+1.242***
+(0.0561)
+ 0.0374**
+(0.0165)
+0.0116
+
+(0.00738)
+
+2,800
+
+0.199
+
+1.241***
+(0.0562)
+ 0.0396**
+(0.0168)
+0.0117
+
+(0.00737)
+
+2,800
+
+0.200
+
+Linked and
+non-linked
+
+firms
+
+(7)
+
+Linked
+firms
+
+(8)
+
+1.062***
+1.181***
+(0.0139)
+(0.0519)
+ 0.0227***  0.0104
+(0.0141)
+(0.00380)
+0.00255
+0.00280
+(0.00203)
+(0.00708)
+
+51,412
+
+0.176
+
+3,581
+
+0.179
+
+Fig. 2. Framework for calculating abnormal returns as a function of returns to principal customers.
+
+larger than those following insider sales. However, we do
+not find that the abnormal returns following purchases are
+greater at economically linked firms. The size-adjusted
+CARs for insider purchases on average are 0.922% per
+month at linked firms and 0.709% per month at never-
+linked firms, a difference of  0.213% (T-statistic¼1.40) per
+month. Purchases are more profitable, on average, at
+economically linked firms during non-linked years which
+are followed by average CARs of 1.398% (5% significance on
+the difference). This pattern holds generally across the
+different groups of insiders, but the significance of the
+differences is lost in the smaller samples.
+
+Our next step is to analyze the returns following insiders'
+trades in a multivariate regression framework, in which we
+can control for other risk factors and include explanatory
+variables to evaluate whether the returns are associated with
+public information. This analysis builds on the empirical setup
+of Cohen, Malloy, and Pomorski (2012) and is presented in
+Table 4 for insiders' sales (Panel A) and insiders' purchases
+(Panel B). We follow the framework illustrated in Fig. 2 for this
+analysis. Supplier insider trade months are classified as sale
+(purchase) months in month t if there is at least one net seller
+(purchaser) of shares during that month and no net purcha-
+sers (sellers). Supplier excess returns in month tþ1 are
+regressed onto explanatory variables. The baseline specifica-
+tion (Column 1) includes those risk factors discussed pre-
+viously and a dummy indicating that a firm reported an
+economic link to a principal customer in that year (Link). The
+coefficient on Link in the regression for sales of  0.0037
+(T-statistic¼3.31) in Panel A confirms the incremental profit-
+ability of these trades at economically linked suppliers. The
+similarity of returns following insiders' purchases across the
+linked and non-linked settings is also confirmed by the much
+
+smaller and insignificant coefficient on Link in Panel B,
+Column 1.
+
+The subsequent regressions in this table explore the
+extent to which public information explains insiders'
+returns. We first conduct regressions using only those
+trades at economically linked suppliers that are executed
+in the first year of the reported relationship to a principal
+customer. During this year, the relationship might not have
+yet been disclosed in public filings with the Securities and
+Exchange Commission (SEC). In Panel A, we do not find
+evidence of abnormal returns following supplier insiders'
+sales during this year (insignificant coefficient of 0.0014 on
+the intercept). This could indicate insiders' reluctance to
+sell stock on information before the public could be
+expected to know the importance of the economic link.
+In the regression evaluating purchases, in Panel B, we find
+evidence of larger positive abnormal returns during these
+years (coefficient of 0.0261 on the intercept), but the result
+is not statistically significant. Although not significant, the
+point estimate would suggest that insiders take advantage
+of the market's lack of knowledge to make greater profits
+on purchases. The lack of significance could reflect the
+much smaller sample size (N¼1,203).
+
+Next we consider whether insiders' profits can be
+explained by public information. We examine the relation
+between supplier insiders'
+trading profits and public
+information about their customers' prior stock returns.
+Cohen and Frazzini (2008) show that past customer
+returns predict future abnormal returns in the same
+direction for their suppliers. The regressions in Columns 3
+and 4 of both panels include trades only following positive
+lagged three month CARs at the principal customers. Simi-
+larly, Columns 5 and 6 present regressions in which trades
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+93
+
+follow negative customer CARs.12 These regressions show
+that both sales and purchases are only profitable on average
+(with statistical significance) when the lagged customer
+returns predict they will be. In particular, sales are only
+followed by negative abnormal returns when the lagged
+customer returns are also negative (coefficient on the inter-
+cept in Panel A Column 5 of  0.0279, significant at the 1%
+level); and purchases are only followed by positive abnormal
+returns when lagged customer returns are positive (coeffi-
+cient on the intercept in Panel B Column 3 of 0.0326,
+significant at the 5% level). These abnormal returns are large
+in economic terms.13
+
+The magnitude of the returns earned by supplier
+insiders on their sales is also a function of the magnitude
+of the lagged customer CARs. The coefficient on Customer
+CARt 3,t 1 is insignificant when supplier insiders sell stock
+following periods of positive customer abnormal returns
+(Column 4 in Panel A). However, their profits from sales
+following negative customer returns are highly sensitive to
+the magnitude of the customers' returns (Column 6 in
+Panel A). In contrast, we do not find the same relation for
+supplier insider purchases. These results show that insi-
+ders' trading profits are a function of the strength of
+the public signal when they sell stock, which would not
+be expected if
+they were trading solely on private
+information.
+
+these trading opportunities, we expect
+
+In the final two specifications in this table, we account
+for the level of outside investor attention to the supplier–
+customer relationship.
+In Column 7 of each panel we
+include Log(Link Duration), which indicates the length of
+the supplier–customer relationship in years. If insiders'
+superior returns reflect the sharing of private information
+from customers to suppliers, we would expect their profits
+to increase over time as relationships strengthen. Alter-
+natively, if market inattention to public information gen-
+erates
+the
+abnormal returns to decline over time as the market learns
+about return predictability across firms.14 We also include
+year fixed effects in this specification to alleviate concerns
+that we could pick up a time trend in the returns to insider
+trading. We find that the length of the relationship is
+positively related to the abnormal returns following sup-
+plier insider sales, indicating that the returns are more
+negative earlier in the relationship, which lends additional
+support to the hypothesis that the insiders' sales are often
+motivated by public information. In contrast, we do not
+find this relation for supplier insiders' purchases.
+
+In Column 8 we include Log(Analysts) and Log(Sales) to
+account for how attentive outside investors could be to the
+
+12 In the case that a supplier firm has multiple principal customers,
+
+the average customer CAR is used in our analysis.
+
+13 To determine whether the abnormal return patterns we find are
+driven by risk associated with the existence of a principal supplier–
+customer relationship, we conduct similar regressions but with abnormal
+returns that are measured following supplier insider trade months
+relative to the returns at other supplier return months. The results are
+qualitatively unchanged.
+
+14 If suppliers have more than one principal customer, we use in our
+analysis the average number of months separating the trade month from
+the first reported relationship with each customer as our measure of the
+duration of the supplier-customer relationship.
+
+supplier–customer
+relationship. Log(Analysts) captures
+the number of equity analysts covering the supplier.
+We expect the market to be faster to incorporate informa-
+tion about principal customers into the suppliers' stock
+price when more analysts cover the stock, thus reducing
+the profits earned by supplier insiders if they trade on
+public information. We find that this is the case for
+supplier insiders' sales in Panel A, where the coefficient
+on Log(Analysts) is positive and significant, indicating less
+negative returns following sales when there is more
+attention to the stock. Log(Sales) indicates the percentage
+of the suppliers' sales that go to the principal customer.
+When the economic link is stronger, the market could pay
+more attention. However, we do not find that the strength
+of this relation impacts the returns to either insiders'
+purchases or sales. Perhaps this non-result reflects the
+endogenous choice whether to trade based on the oppor-
+tunity for profits.
+
+3.2. What causes insiders at economically linked suppliers
+to trade?
+
+The second part of our analysis focuses on the factors
+that lead insiders to trade. We begin by investigating
+whether the frequency of trading differs depending on
+whether firms report having principal customers.
+In
+Table 5, Panel A, we compare the number of trade months
+per year across linked suppliers and non-linked firms.15
+We find significantly higher levels of both routine and
+nonroutine stock sales at economically linked firms. How-
+ever, the difference in nonroutine trading across these
+groups of firms is much larger. This leads to a significantly
+higher difference-in-differences (the difference in nonrou-
+tine stock sale months per year minus the difference in
+routine stock sale months per year) of 0.127 trade months
+per year for the economically linked suppliers versus other
+firms. This pattern does not hold for stock purchases.
+Insiders at economically linked suppliers engage in higher
+levels of both routine and nonroutine purchases, but the
+difference-in-differences is essentially zero.
+
+In Table 5, Panel B, we compare trading patterns at just
+the economically linked firms across years with and with-
+out reported links. For both sales and purchases, there is a
+lower level of routine trading and a higher level of
+nonroutine trading in years when the economic links are
+reported. The results in this panel suggest that for these
+firms, in aggregate, more profitable trading opportunities
+arise when these links exist. Because the results are similar
+across sales and purchases, they do not provide a clear
+indication of the type of information that is available.
+Among the possibilities, it could be that supplier insiders
+have both more public and private information predicting
+returns when these links exist. The increased selling could
+reflect trading on public information, but the increased
+purchasing could reflect additional trading on private
+information, too.
+
+15 Because the ratio of nonroutine trade months per year to routine
+trade months per year is undefined for years containing zero routine
+trade months, we cannot evaluate a simple ratio of trade types.
+
+94
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 5
+The frequency of insider trading at economically linked suppliers.
+
+This table presents a comparison of the mean number of trade-months
+per year across groups of firms. The comparison in Panel A is between
+linked firms and non-linked firms, and the comparison in Panel B is
+between linked firms during linked years and linked firms during non-
+linked years. We analyze insider sale months and insider purchase
+months separately. The table also includes a comparison of routine and
+nonroutine trades. Standard errors are in parentheses, and significance at
+the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+Trade
+months
+
+Routine Nonroutine
+
+Difference-in-
+
+differences
+
+N
+
+Panel A: All firms
+Sale months
+Non-linked
+
+0.416
+
+1.284
+
+firms
+
+Linked firms
+Difference
+Standard
+errors
+
+0.457
+
+1.452
+
+ 0.041***  0.168***
+(0.020)
+(0.014)
+
+Purchase months
+Non-linked
+
+0.346
+
+firms
+
+Linked firms
+Difference
+Standard
+errors
+
+0.229
+0.117***
+(0.013)
+
+0.921
+
+0.811
+0.110***
+(0.016)
+
+ 0.127***
+(0.023)
+
+ 0.007
+(0.019)
+
+Panel B: Economically linked suppliers only
+Sale months
+Non-linked
+
+0.489
+
+1.403
+
+years
+
+Linked years
+Difference
+Standard
+errors
+
+0.457
+0.032*
+(0.017)
+
+1.452
+ 0.049**
+(0.023)
+
+ 0.081***
+(0.028)
+
+Purchase months
+Non-linked
+
+0.250
+
+0.757
+
+years
+
+Linked years
+Difference
+Standard
+errors
+
+0.229
+0.021*
+(0.012)
+
+0.811
+
+ 0.054***
+(0.016)
+
+ 0.075***
+(0.019)
+
+81,961
+
+9,616
+
+81,961
+
+9,616
+
+18,097
+
+9,616
+
+18,097
+
+9,616
+
+The combination of larger abnormal returns following
+insider sales and more non-routine trading suggests a higher
+prevalence of profitable insider selling overall. To examine
+this further, we compare the percentages of trade months
+that are profitable across settings. We consider a sale month
+to be profitable if it is followed by a negative size-adjusted
+CAR in the following month. Insiders at economically linked
+suppliers execute 17.6% more profitable sales than unprofita-
+ble sales overall and 19.4% more profitable nonroutine sales.
+By comparison, the same figures for linked firms in non-
+linked years are 6.8% and 12.4%, respectively; and for never
+linked firms, they are 10.3% and 9.5%. Chi-square tests show
+that the higher proportions of profitable trade months at
+linked firms are significantly different from those at the other
+two groups at the 1% level.
+
+The final issue we examine is whether public information
+about principal customers drives trading by supplier insiders.
+Supplier insiders could understand the return predictability
+across economically linked firms and trade when they
+
+observe abnormal returns to their customers' stock. Table 6
+presents limited dependent variable regressions predicting
+trading by supplier insiders. The independent control vari-
+ables are the suppliers' market value of equity [Log(Size)],
+book-to-market equity [Log(B/M)], the contemporaneous mar-
+ket return (Markett), and the three-month lagged abnormal
+returns to the supplier (SupplierCARt 3,t 1). The variable of
+interest is either the lagged customer abnormal return
+(CustomerCARt 3,t 1) or a dummy indicating that the lagged
+customer return was negative or positive (CustomerCARt 3,t 1
+Negative for predicting sales or CustomerCARt 3,t 1Positive for
+predicting purchases). If the coefficients on these variables are
+significant, then that would suggest that insiders trade when
+public information predicts they will earn profits. We present
+both probit regressions that predict whether a supplier
+insider traded and Tobit regressions that predict the number
+of shares traded. The regressions predicting supplier insider
+sales are presented in Columns 1 through 4, and those
+predicting purchases are reported in Columns 5 through 8.
+The results clearly indicate that supplier insiders trade more
+often, and they trade more shares, when their customers'
+lagged returns predict that their trades will be profitable. For
+example, the marginal effects associated with the coefficients
+on CustomerCARt 3,t 1Negative in the probit regression in
+Column 2 indicate that supplier insiders are 8.07% more likely
+to sell shares when their lagged customer returns were
+negative. The same coefficient from the Tobit regression in
+Column 4 indicates that, when they do sell stock, they sell
+27,290 more shares when their customers' lagged returns
+were negative. Similarly, the marginal effects indicate that
+when lagged customer returns are positive, they are 3.67%
+more likely purchase shares (Column 6); and they purchase
+8,308 more shares under those circumstances (Column 8).16
+These results are consistent with supplier insiders
+trading based on their knowledge of the return relation
+between their firm and their customers. Attentive supplier
+insiders also could trade around the specific news releases
+of their customers. The next part of the analysis, therefore,
+offers tests focused on trading immediately around princi-
+pal customers' earnings releases. In Table 7 we present
+limited dependent variable regressions predicting supplier
+insider trading during the two-day window (0,1) around
+their customers' earnings releases.17 We remove observa-
+tions with confounding supplier earnings announcement
+during an approximately three-week window [( 8,8)
+trading days]. We are interested in whether supplier
+insiders are more likely to trade when customers
+announce unexpected earnings, which could predict the
+suppliers' own future sales and, therefore, profits. To
+control for the fact that insiders' trading decisions could
+be driven by general concerns about the future of the
+market that are reflected in the earnings of similar firms,
+we include as control observations the earnings announce-
+ments of all
+firms in the same SIC4 industry as the
+principal customers (Cust Industry Firm SUE contains the
+
+16 The marginal effect presented here is E(shares_sold|shares_sold40).
+
+This is accomplished in Stata with the command mfx, pred(e,0).
+
+17 Because there are so many non-trading observations, here we
+winsorize the upper tail of the distribution for the variables Shares Sold
+and Shares Purchased at the 99% level of the nonzero values.
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+95
+
+Table 6
+Predicting supplier insider trading with lagged customer returns.
+
+This table presents Tobit regressions analyzing the number of shares sold by supplier insiders as a function of lagged customer returns. In Columns 1 and
+2 the dependent variable is Sale Indicatort, an indicator equal to one if the firm-month was a net insider sale month. In Columns 3 and 4 the dependent
+variable is Shares Soldt, the number of shares sold by all insiders (in thousands of shares) for each firm-month observation. In Columns 5 and 6 the
+dependent variable is Purchase Indicatort, an indicator equal to one if the firm-month was a net insider purchase month. In Columns 7 and 8 the dependent
+variable is Shares Purchasedt, the number of shares purchased by all insiders (in thousands of shares) for each firm-month observation. The independent
+variables are an indicator for negative lagged three-month cumulative abnormal customer returns (Customer CARt  3,t  1 Negative), an indicator for positive
+lagged three-month cumulative abnormal customer returns (Customer CARt  3,t  1 Positive), a continuous variable for lagged three-month cumulative
+abnormal customer return (Customer CARt 3,t  1), the three-month cumulative abnormal supplier return (Supplier CARt  3,t 1), the equal-weighted stock
+market return (Markett), the log of market capitalization for the prior year [Log(Size)], and the log of the book-to-market equity ratio for the prior year [Log
+(B/M)]. Standard errors are in parentheses, and significance at the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+Probit regressions,
+
+Tobit regressions,
+
+Probit regressions,
+
+Tobit regressions,
+
+Sale Indicatort
+
+(1)
+
+(2)
+
+Shares Soldt
+
+(3)
+
+(4)
+
+Purchase Indicatort
+(5)
+(6)
+
+Shares Purchasedt
+(7)
+(8)
+
+ 0.141***
+(0.0383)
+
+0.673***
+(0.0256)
+1.395***
+(0.124)
+
+0.0363***
+(0.00370)
+ 0.431***
+(0.0291)
+ 1.270***
+(0.0296)
+
+97,247
+0.0167
+
+0.0249**
+(0.0105)
+
+0.662***
+(0.0254)
+1.398***
+(0.124)
+
+0.0364***
+(0.00370)
+ 0.429***
+(0.0291)
+ 1.284***
+(0.0300)
+
+97,247
+0.0166
+
+ 828.5***
+(252.5)
+
+3,838***
+(170.1)
+7,428***
+(819.0)
+222.6***
+(24.32)
+ 2,530***
+(193.1)
+ 9,145***
+(203.7)
+
+97,247
+0.00333
+
+0.166***
+(0.0470)
+
+ 0.583***
+(0.0335)
+ 1.530***
+(0.144)
+0.00145
+(0.00467)
+0.244***
+(0.0343)
+ 1.636***
+(0.0370)
+
+97,247
+0.0103
+
+165.2**
+(69.34)
+
+3,782***
+(168.3)
+7,449***
+(818.7)
+223.1***
+(24.32)
+ 2,522***
+(193.1)
+ 9,236***
+(206.4)
+
+97,247
+0.00331
+
+238.9***
+(79.84)
+
+ 966.1***
+(58.26)
+ 2,444***
+(244.1)
+ 0.669
+(7.956)
+426.0***
+(58.08)
+ 2,831***
+(68.92)
+
+97,247
+0.00372
+
+0.0382***
+(0.0129)
+ 0.574***
+(0.0332)
+ 1.537***
+(0.144)
+0.00128
+(0.00467)
+0.242***
+(0.0342)
+ 1.652***
+(0.0378)
+
+97,247
+0.0102
+
+62.27***
+(21.91)
+ 955.5***
+(57.68)
+ 2,454***
+(244.1)
+ 0.800
+(7.955)
+423.8***
+(58.05)
+ 2,859***
+(70.30)
+
+97,247
+0.00372
+
+Customer CARt  3,t 1
+
+Customer CARt  3,t 1 Negative
+
+Customer CARt  3,t 1 Positive
+
+Supplier CARt 3,t  1
+
+Markett
+
+Log(Size)
+
+Log(B/M)
+
+Constant
+
+Number of observations
+Pseudo R2
+
+SUE of both customers and their peers). The variable of
+interest is the standardized unexpected earnings reported
+by the customer (Customer*Cust Industry Firm SUE), where
+is a dummy variable indicating earnings
+Customer
+announcements made by the actual large customers.
+
+These results are presented in Table 7 for supplier insider
+sales (Panel A) and purchases (Panel B). The regressions in
+Columns 1 through 3 of each panel present probit regres-
+sions and Columns 4 through 6 present Tobit regressions
+with the same specifications. The results in Panel A provide
+strong evidence that supplier insiders' decisions to sell their
+stock is impacted by the information in their customers'
+earnings releases. The highly significant negative coefficient
+in Column 1 on the interaction term Customer*Cust Industry
+Firm SUE demonstrates a negative relation between the
+customers' SUE and supplier insider sales. In Column 2, the
+SUE is replaced by a dummy indicating a negative SUE and
+the coefficient on the interaction term Customer*Cust Indus-
+try Firm SUE Negative remains highly significant. In Column 3,
+the SUE is replaced with a dummy indicating a large shortfall
+(below  0.3% of the stock price, which represents approxi-
+mately the 10th percentile of earnings surprises). Here the
+magnitude of the coefficient on the interaction term Custo-
+mer*Cust Industry Firm SUEo  0.3% increases, indicating that
+supplier insiders sell more shares in this two-day window
+when their customers report large earnings shortfalls. In
+terms of marginal significance, the result in Column 2
+indicates a 41.60% increase in the odds that a supplier insider
+sells shares when its principal customer announces a
+
+negative earnings surprise, and the result in Column 3
+indicates that when the surprise is large there is a 58.82%
+increase in the odds of a supplier insider sale. In comparison
+with the unconditional odds of a supplier insider sale during
+one of these two-day windows, these results are economic-
+ally significant. These results are also evident in the Tobit
+regressions. From the regressions in Columns 5 and 6, we are
+able to estimate that, conditional on a sale, supplier insiders
+sell 3,353 more shares when their customers announce
+disappointing earnings and 4,793 more shares when the
+earnings shortfall was large. We obtain similar results for
+supplier insider purchases in Panel B when using dummy
+variables to control for positive customer earnings surprises
+(Columns 2, 3, 5, and 6), although the result is not evident
+when using a continuous customer SUE variable (Columns 1
+and 4).
+
+To conclude this analysis, we present a number of
+robustness tests in Table 8. These additional tests focus
+on two issues: (1) whether the decision to trade around
+customer earnings announcements is a function of how
+quickly the market incorporates information into prices,
+and (2) to what extent we can be confident that the
+supplier insiders are trading on public information. To
+address the first issue, we evaluate the same regressions
+reported in Table 7 but limit the sample to earnings
+announcements made on Fridays. DellaVigna and Pollet
+(2009) show that investors are generally less attentive to
+corporate announcements made at the end of the week, by
+showing that post-earnings announcement drift (PEAD) is
+
+96
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 7
+Predicting supplier insider trading with customer earnings surprises.
+
+This table presents probit and Tobit regressions predicting insider trading at economically linked suppliers as a function of their customers' earnings
+announcements. The dependent variables in Panel A are Sale Indicator and Shares Sold. In Columns 1, 2, and 3 of Panel A, Sale Indicator is equal to one if
+there is at least one supplier insider sale during the window (0,1) days around an earnings announcement by a principal customer or another firm in the
+same industry. In Columns 4, 5, and 6 of Panel A, Shares Sold is the total volume of shares sold by supplier insiders (in thousands of shares) during the
+window (0,1) days around an earnings announcement by a principal customer or another firm in the same industry. The dependent variables in Panel B are
+Purchase Indicator and Shares Purchased, which are constructed analogously to the variables in Panel A. Five earnings surprise measures are used as
+independent variables: the earnings surprise for the customer and each firm in the customer's industry (Cust Industry Firm SUE), an indicator equal to one if
+the earnings surprise is negative (Cust Industry Firm SUE Negative), an indicator equal to one if the earnings surprise is positive (Cust Industry Firm SUE
+Positive), an indicator variable equal to one if the earnings surprise is less than  0.3% of the stock price (Cust Industry Firm SUE o  0.3%), and an indicator
+variable equal to one if the earnings surprise is greater than 0.3% of the stock price (Cust Industry Firm SUE40.3%). Customer is an indicator equal to one if
+the earnings surprise is for a customer. Non-Customer is an indicator equal to one if the earnings surprise is for a customer peer. Control variables include
+the past 30-day cumulative abnormal supplier return (Past Ret), the equal-weighted market return on the earnings announcement day (Market), the log of
+market capitalization for the prior year [Log(Size)], and the log of the book-to-market ratio for the prior year [Log(B/M)]. Standard errors are in parentheses,
+and significance at the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+Panel A: Insider sales
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+Sale indicator
+
+Sale indicator
+
+Sale indicator
+
+Shares sold
+
+Shares sold
+
+Shares sold
+
+Non-Customer*
+Cust Industry Firm SUE
+Customer*
+Cust Industry Firm SUE
+Non-Customer*
+Cust Industry Firm SUE
+
+Negative
+Customer*
+Cust Industry Firm SUE
+
+Negative
+
+Non-Customer*
+Cust Industry Firm SUEo  0.3%
+Customer*
+Cust Industry Firm SUEo  0.3%
+Log(Size)
+
+Log(B/M)
+
+Past Ret
+
+Market
+
+Constant
+
+Number of observations
+Pseudo R2
+
+Panel B: Insider purchases
+
+(1)
+
+ 0.180
+(0.268)
+ 4.857***
+(1.874)
+
+0.000356
+(0.00472)
+ 0.329***
+(0.0352)
+0.554***
+(0.0261)
+6.528***
+(0.782)
+ 2.036***
+(0.0356)
+
+247,416
+0.0150
+
+(2)
+
+(3)
+
+0.00118
+(0.0134)
+
+0.151***
+(0.0370)
+
+0.000331
+(0.00472)
+ 0.332***
+(0.0352)
+0.555***
+(0.0261)
+6.517***
+(0.782)
+ 2.039***
+(0.0360)
+
+247,416
+0.0152
+
+0.0105
+(0.0154)
+0.202***
+(0.0556)
+0.000512
+(0.00472)
+ 0.332***
+(0.0352)
+0.555***
+(0.0261)
+6.504***
+(0.782)
+ 2.040***
+(0.0358)
+
+247,416
+0.0151
+
+(4)
+
+ 58.51
+(65.83)
+ 1,135**
+(463.0)
+
+1.334
+(1.160)
+ 78.98***
+(8.768)
+131.8***
+(6.653)
+1,455***
+(193.8)
+ 512.8***
+(10.87)
+
+247,416
+0.00677
+
+(5)
+
+(6)
+
+1.081
+(3.309)
+
+31.15***
+(9.261)
+
+1.331
+(1.161)
+ 79.45***
+(8.773)
+132.0***
+(6.659)
+1,453***
+(193.9)
+ 513.7***
+(10.96)
+
+247,416
+0.00682
+
+3.213
+(3.806)
+43.89***
+(13.91)
+1.370
+(1.161)
+ 79.61***
+(8.774)
+132.0***
+(6.657)
+1,450***
+(193.9)
+ 513.8***
+(10.92)
+
+247,416
+0.00681
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+Purchase Indicator Purchase Indicator Purchase Indicator
+
+Shares Purchased
+
+Shares Purchased
+
+Shares Purchased
+
+Non-Customer*
+Cust Industry Firm SUE
+Customer*
+Cust Industry Firm SUE
+Non-Customer*
+Cust Industry Firm SUE Positive
+Customer*
+Cust Industry Firm SUE Positive
+Non-Customer*
+Cust Industry Firm
+
+SUE40.3%
+
+Customer*
+Cust Industry Firm
+
+SUE40.3%
+
+Log(Size)
+
+(1)
+
+0.181
+(0.435)
+ 0.609
+(2.990)
+
+(2)
+
+(3)
+
+0.0122
+(0.0210)
+0.206***
+(0.0385)
+
+(4)
+
+16.95
+(54.43)
+ 76.15
+(374.6)
+
+(5)
+
+(6)
+
+0.772
+(2.636)
+22.97***
+(4.918)
+
+0.0289
+(0.0248)
+
+0.301***
+(0.0635)
+ 0.0264***
+
+ 3.388***
+
+ 3.487***
+
+3.465
+(3.113)
+
+35.85***
+(8.071)
+ 3.348***
+
+ 0.0267***
+
+ 0.0276***
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+97
+
+Table 7 (continued )
+
+Panel B: Insider purchases
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+Event window
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Probit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+(0,1)
+Tobit,
+
+Purchase Indicator Purchase Indicator Purchase Indicator
+
+Shares Purchased
+
+Shares Purchased
+
+Shares Purchased
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Log(B/M)
+
+Past Ret
+
+Market
+
+Constant
+
+Number of observations
+Pseudo R2
+
+(0.00798)
+0.169***
+(0.0529)
+ 0.730***
+(0.0501)
+ 2.729**
+(1.249)
+ 2.520***
+(0.0597)
+
+247,416
+0.0171
+
+(0.00799)
+0.160***
+(0.0531)
+ 0.738***
+(0.0503)
+ 2.762**
+(1.248)
+ 2.532***
+(0.0605)
+
+247,416
+0.0189
+
+(0.00798)
+0.160***
+(0.0530)
+ 0.733***
+(0.0502)
+ 2.805**
+(1.249)
+ 2.532***
+(0.0599)
+
+247,416
+0.0184
+
+(1.003)
+15.43**
+(6.689)
+ 89.17***
+(6.591)
+ 285.8*
+(157.1)
+ 312.7***
+(10.60)
+
+247,416
+0.00938
+
+(1.005)
+14.34**
+(6.706)
+ 90.13***
+(6.621)
+ 290.4*
+(157.0)
+ 313.9***
+(10.70)
+
+247,416
+0.0102
+
+(1.004)
+14.30**
+(6.700)
+ 89.56***
+(6.603)
+ 295.1*
+(157.0)
+ 314.0***
+(10.64)
+
+247,416
+0.0101
+
+extended when earnings surprises are announced on
+Fridays.18 These regressions demonstrate a stronger rela-
+tion between the customer earnings surprises announced
+on Fridays and supplier insiders' stock trades. The probit
+regressions predicting supplier insider stock sales in
+Columns 1 and 2 of Panel A estimate marginal increases
+in the probability of a stock sale of 213% and 425% when a
+customer announces earnings shortfalls and large earnings
+shortfalls, respectively, on Fridays.19 Similar unreported
+Tobit regressions estimate marginal increases in the num-
+ber of shares sold by supplier insiders of 11,740 and 19,190
+when customers announce earnings shortfalls and large
+shortfalls on Fridays, respectively, conditional on there
+being a sale. The results are also more pronounced for
+supplier insider purchases, reported in Panel B. Here, the
+probit regressions indicate marginal increases in the odds
+of a supplier insider purchase of 130% or 328% for positive
+earnings surprises and large positive earnings surprises,
+respectively.20 Here, Tobit regressions estimate marginal
+increases in the number of shares purchased of 1,962 and
+3,837, respectively.
+
+The results thus far provide evidence that supplier
+insider trading is a function of the information content
+in customers' public announcements. We conclude our
+analysis with a number of robustness tests designed to
+evaluate, as best as possible, whether trading in this
+
+18 A recent working paper by Michaely, Rubin, and Vedrashko (2013)
+argues that
+the extended PEAD associated with Friday earnings
+announcements is not due to investor inattention at the end of the week,
+but rather the characteristics of firms that make Friday announcements
+(small market cap, low analyst following, low institutional shareholdings)
+or the fact that these announcements are more likely to be made after
+markets close for the day, or both. Regardless of the factors driving the
+extended PEAD under these circumstances, our test should still be valid
+to the extent all of these factors are associated with investor inattention.
+19 The odds of a stock sale are higher by 3.26% and 6.50%, respec-
+tively, following missed earnings and large misses, compared with the
+unconditional odds of a sale of 1.53%.
+
+20 The odds of a stock purchase are higher by 0.658% and 1.66%,
+respectively, for positive earnings surprises and large surprises, compared
+with the unconditional odds of a purchase of 0.506%.
+
+context is genuinely motivated by information learned
+from public sources. The first issue addressed is whether
+we can be confident that supplier insiders' trades around
+the time of their customers' earnings announcements
+follow the public release of the information. Over the time
+period studied we do not have time-stamp data capturing
+when earnings were released, so we cannot be certain that
+trading on the day of the release (day 0) follows the
+announcement. In Columns 3 and 4 of Table 8 we provide
+regressions that analyze trading in the two-day window
+(1,2)
+the earnings
+release. For both sales (Panel A) and purchases (Panel B),
+the results show that the fundamental relation between
+supplier insider trading and customer earnings surprises
+remains intact when we focus on this window that follows
+the earnings release. Again, unreported Tobit regressions
+that analyze the number of shares traded give consistent
+results.
+
+immediately following the day of
+
+The next alternative we consider is whether supplier
+insiders are privy to the information content of their
+customers' earnings releases ahead of time and actively
+trade on this information while it is still expected to be
+private. Principal customers could convey information to
+their suppliers in the normal course of business (through
+sales orders, cancellations, or indications of commit-
+ments), or they could intentionally tip suppliers as to the
+content of upcoming news releases. In Columns 5 and 6 of
+each panel we analyze trading in the two-day period
+immediately preceding customer earnings releases. The
+results are interesting. We find only weak evidence that
+supplier insiders sell stock during this period when the
+pending customer announcement predicts they should.
+But we find that the relation between supplier insider
+purchases and the content of the pending release is similar
+to what was found following the release. Furthermore, for
+the most part, the insiders that trade in the expected
+direction ahead of customer earnings releases are not the
+same ones who trade following the announcements. We
+find that only 11% of
+in the week
+following negative customer earnings surprises also sell
+
+insiders who sell
+
+98
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+Table 8
+Robustness tests of supplier insider trading around customer earnings announcements.
+
+This table presents robustness tests using probit regressions predicting insider trading at economically linked supplier firms as a function of their
+customers' earnings announcements. The regressions in Panel A (Panel B) predict insider sales (purchases). In Columns 1 and 2 of Panel A, Sale Indicator is
+equal to one if there is at least one supplier insider sale during the window (0,1) days around an earnings announcement by a principal customer or other
+firm in the same industry Standard Industrial Classification (SIC) 4. In Columns 3 and 4 of Panel A, Sale Indicator is equal to one if there is at least one
+supplier insider sale during the window (1,2) days immediately following the day a principal customers or another firm in the same industry announced
+earnings. In Columns 5 and 6 of Panel A, Sale Indicator is equal to one if there is at least one supplier insider sale during the window ( 2, 1) days
+preceding an earnings announcement by a principal customer or another firm in the same industry. Lastly, in Columns 7 and 8 of Panel A, Sale Indicator is
+equal to one if there is at least one supplier insider sale during the window (0,1) days around an earnings announcement by a principal customer. The
+explanatory variables of interest in Panel B are the insider purchase analog to those in Panel A. The observations in Columns 1 and 2 are limited to earnings
+announcements that occur on Fridays. The observations in Columns 7 and 8 of Panel A (Panel B) are limited to those where the insider made at least one
+sale (purchase) within the 20 trading days leading up to the earnings announcement. See Table 7 for earnings surprise measures and control variable
+definitions. Standard errors are in parentheses, and significance at the 1%, 5%, and 10% level are indicated by ***, **, and *, respectively.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+All
+
+All
+
+All
+
+All
+
+Those with pre-release
+
+Those with pre-release
+
+Panel A: Insider sales
+Non-Customer*
+Cust Industry Firm SUE
+
+Negative
+Customer*
+Cust Industry Firm SUE
+
+0.0474
+(0.0402)
+
+0.526***
+(0.0981)
+
+0.00589
+(0.0136)
+
+0.182***
+(0.0367)
+
+ 0.0354***
+(0.0134)
+
+0.100***
+(0.0378)
+
+Negative
+
+Non-Customer*
+Cust Industry Firm
+SUEo  0.3%
+
+Customer*
+Cust Industry Firm
+
+SUEo  0.3%
+
+Log(Size)
+
+Log(B/M)
+
+Past Ret
+
+Market
+
+Constant
+
+Announcements
+
+sample
+
+Event window
+
+Number of
+
+observations
+
+Pseudo R2
+
+0.0495
+(0.0428)
+
+0.0213
+(0.0156)
+
+ 0.0257*
+(0.0155)
+
+(0.0153)
+
+(0.00482)
+
+0.0716
+(0.0612)
+
+0.794***
+(0.116)
+
+0.200***
+(0.0566)
+ 0.00835  0.00783  0.00586  0.00560
+0.00290
+(0.00482)
+(0.0152)
+(0.00465)
+ 0.386***  0.402***  0.387***  0.387***  0.424***  0.422***
+(0.0353)
+(0.110)
+0.564***
+0.629***
+(0.0258)
+(0.0827)
+4.647*
+6.738***
+(2.763)
+(0.763)
+ 2.037***  2.028***  2.002***  2.003***  2.004***  2.009***
+(0.0354)
+(0.112)
+
+(0.0361)
+0.528***
+(0.0266)
+5.908***
+(0.815)
+
+(0.0361)
+0.528***
+(0.0266)
+5.884***
+(0.815)
+
+(0.0353)
+0.565***
+(0.0258)
+6.730***
+(0.762)
+
+(0.110)
+0.629***
+(0.0826)
+4.605*
+(2.760)
+
+0.00278
+(0.00465)
+
+(0.0356)
+
+(0.0367)
+
+(0.0365)
+
+(0.111)
+
+Friday
+release
+
+Friday
+release
+
+Days (0,1) Days (0,1) Days (1,2) Days (1,2)
+
+27,294
+
+27,294
+
+247,416
+
+247,416
+
+Days
+
+( 2, 1)
+247,416
+
+Days
+
+( 2, 1)
+247,416
+
+0.0221
+
+0.0252
+
+0.0147
+
+0.0145
+
+0.0173
+
+0.0171
+
+Panel B: Insider purchases
+
+Non-Customer*
+Cust Industry Firm SUE
+
+Positive
+Customer*
+Cust Industry Firm SUE
+
+0.0730
+(0.0616)
+
+0.334**
+(0.141)
+
+0.0160
+(0.0216)
+
+0.223***
+(0.0390)
+
+ 0.00464
+(0.0205)
+
+0.224***
+(0.0366)
+
+Positive
+
+Non-Customer*
+Cust Industry Firm
+
+SUE40.3%
+
+Customer*
+Cust Industry Firm
+
+SUE40.3%
+
+Log(Size)
+
+Log(B/M)
+
+Past Ret
+
+Market
+
+Constant
+
+0.174**
+(0.0679)
+
+0.0265
+(0.0255)
+
+ 0.00651
+(0.0247)
+
+0.0467**
+(0.0220)
+
+0.599***
+0.276***
+(0.160)
+(0.0627)
+0.0472**  0.0257***  0.0244***  0.0257***  0.0245***
+(0.00772)
+(0.0221)
+
+0.317***
+(0.0638)
+
+(0.00821)
+0.200***
+(0.0542)
+
+(0.00821)
+0.201***
+(0.0541)
+
+0.234
+(0.157)
+
+0.255
+0.111**
+(0.156)
+(0.0518)
+ 0.814***  0.812***  0.735***  0.728***  0.657***  0.650***
+(0.0481)
+(0.158)
+(0.0479)
+ 4.522
+ 3.832***  3.807***
+(1.173)
+(1.172)
+(3.785)
+ 3.069***  3.078***  2.586***  2.583***  2.490***  2.489***
+(0.0578)
+(0.172)
+
+(0.0515)
+ 2.226*
+(1.238)
+
+(0.0514)
+ 2.351*
+(1.239)
+
+(0.159)
+ 4.467
+(3.806)
+
+(0.0622)
+
+(0.0585)
+
+(0.0616)
+
+(0.171)
+
+(0.00773)
+0.108**
+(0.0519)
+
+0.140*
+(0.0795)
+
+ 0.0574**
+(0.0259)
+ 0.0400
+(0.198)
+ 0.0252
+(0.147)
+12.89***
+(4.543)
+ 1.454***
+(0.208)
+
+0.155
+(0.112)
+ 0.0587**
+(0.0259)
+ 0.0559
+(0.199)
+ 0.0324
+(0.147)
+12.56***
+(4.551)
+ 1.420***
+(0.206)
+
+trading
+
+Days (0,1)
+
+4,633
+
+0.0120
+
+0.0782
+(0.145)
+
+ 0.106*
+(0.0644)
+
+0.123
+(0.383)
+ 0.520
+(0.384)
+ 14.63*
+(7.716)
+ 1.610***
+(0.491)
+
+trading
+
+Days (0,1)
+
+4,633
+
+0.0111
+
+0.271
+(0.177)
+ 0.0972
+(0.0647)
+0.0954
+(0.383)
+ 0.521
+(0.386)
+ 15.51**
+(7.777)
+ 1.662***
+(0.488)
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+99
+
+Table 8 (continued )
+
+Panel B: Insider purchases
+
+Announcements
+
+sample
+
+Event window
+
+Number of
+
+observations
+
+Pseudo R2
+
+Friday
+release
+
+Friday
+release
+
+All
+
+All
+
+All
+
+All
+
+Those with pre-release
+
+Days (0,1) Days (0,1) Days (1,2)
+
+Days (1,2)
+
+27,294
+
+27,294
+
+247,416
+
+247,416
+
+Days
+
+( 2, 1)
+247,416
+
+Days
+
+( 2, 1)
+247,416
+
+0.0232
+
+0.0292
+
+0.0193
+
+0.0187
+
+0.0165
+
+0.0152
+
+trading
+
+Days (0,1)
+
+1,949
+
+0.0280
+
+Those with pre-
+release trading
+
+Days (0,1)
+
+1,949
+
+0.0337
+
+in the two days leading up to the announcement and only
+6% of insiders who purchase following a positive surprise
+also purchased before the announcement. At the firm
+level,
+in only 15% of cases in which an insider sold
+following a negative customer earnings surprise did
+another insider at that firm sell in the days before the
+announcement. The similar measure for purchases is
+just 10%.
+
+We offer a couple of comments on these findings. First,
+it is reasonable to expect customers to be more careful not
+to convey negative news before they release it to the
+public, either due to similar concerns over legal liability or
+because of a desire to hide negative information but
+convey positive information quickly.21 From this perspec-
+tive, selling by supplier insiders following the poor earn-
+ings releases looks more like attentive trading on newly
+public information, whereas purchasing before the earn-
+ings releases seems more likely to reflect a willingness to
+buy stock on private information, if available. The second
+alternative is that supplier insiders have similar access to
+positive and negative information from their customers
+before it is released, but they refrain from selling,
+in
+particular, until bad news is released to the public. If the
+informed insiders wait to trade, then this is analogous to
+an insider trading following their own public announce-
+ments (that they would have had prior knowledge of),
+with the additional benefit that they are confident they
+can profit because the market will be slow to respond to
+the information. Overall, this piece of our analysis confirms
+the existence of a set of supplier insiders who trade
+attentively on public information released by their custo-
+mers, while others could exploit
+their informational
+advantage prior to the announcements, especially when
+the news is good.
+
+The final analysis that we offer helps determine
+whether supplier insiders genuinely learn from their
+customers' public disclosures. To get at this question, we
+evaluate the trading decisions of supplier insiders around
+customer earnings announcements, conditioned on the
+fact that they are already trading in the predicted direction
+during the 20 trading days prior to the release. Because
+they are already trading, it is likely that they either already
+know the content of their customer's announcement and
+
+21 See Graham, Harvey, and Rajgopal (2005), Anilowski, Feng, and
+Skinner (2006), and Kothari, Shu, and Wysocki (2009) for evidence that
+managers prefer to release or leak good news quickly but withhold bad
+news from the market as long as possible. Similar reasoning could drive
+firms' communications with their key business partners.
+
+are taking advantage of this before it was made public, are
+already trading on other private signals, or are trading for
+unrelated reasons in the lead-up period. The results are
+reported in Columns 7 and 8 of the panels. For the case of
+stock sales we continue to find some evidence that these
+insiders' trading behavior immediately following their
+customers' announcements is related to the information
+content of the customers' earnings, even in this limited
+sample. This would not be expected if they are trading on
+this particular information ahead of time. Also, given that
+they are already trading, it does not appear that they are
+waiting for a public news release to camouflage trading
+motivated by other, unrelated, private information. It is
+therefore reasonable to expect that the earnings releases,
+in fact, convey new information to these insiders, motivat-
+ing their post-announcement stock sales. The exception to
+this interpretation would be if these insiders begin a
+sequence of trading on the information about their custo-
+mer while it is still private that extends into the post-
+announcement period.
+
+4. Conclusion
+
+A body of
+
+literature demonstrates that corporate
+insiders' trades predict abnormal returns. Because insiders
+are privy to information about their firms before it is
+disclosed to the public, it is natural to suspect that these
+returns reflect trading decisions based on private informa-
+tion. However, there are also significant costs to trading on
+private information as doing so is in violation of securities
+laws and invites scrutiny from regulators and outside
+investors. Another body of literature shows that investors
+are limited in their ability to understand the impact of
+relevant public information on stock prices. This can result
+in opportunities for particularly attentive investors to
+trade profitably on public information. Corporate insiders
+likely represent such a group of investors.
+
+We analyze corporate insider trading in a setting that
+allows us to possibly distinguish between illegal trading on
+private information and attentive trading on public infor-
+mation. The setting is trading at firms that sell a large
+fraction of their products to principal customers. We find
+that insiders at these firms execute more profitable stock
+sales than those at other firms, and we provide evidence
+that at times they generate these enhanced profits by
+trading on public information. They sell more stock when
+public information about their principal customers pre-
+dicts that their trades will be profitable and their custo-
+mers' past returns explain the abnormal returns following
+
+100
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+their sales. We do not find the same contrasting patterns
+for insider purchases, suggesting that insiders are more
+likely to refrain from trading on private information when
+the litigation risk associated with being detected is high,
+which is the case with insider sales more so than with
+purchases.
+
+More work would have to be done to estimates the
+actual
+levels of attentive insider stock selling. Other
+researchers have uncovered complimentary patterns of
+trading and stock return predictability that could point
+toward the extent of this behavior. For example, Ali, Wei,
+and Zhou (2011) show that insiders trade in the opposite
+direction of high volume price-moving trading by mutual
+funds, which could represent a similar form of insider
+trading motivated by mispricing relative to public infor-
+mation.
+Jenter (2005) shows that insiders tend to be
+contrarian, which could indicate they trade when beha-
+vioral biases in other investors cause their stock price to
+move away from its fundamental value. In terms of market
+inefficiencies that insiders could take advantage of, Lo and
+MacKinlay (1990) show that small stocks tend to be less
+efficiently priced than large stocks,
+leading to return
+predictability across the two groups. Further, Sadka
+(2006) argues that stock return momentum and PEAD
+returns are associated with increased insider trading. The
+perspective supported by this paper is also related to the
+one proposed by papers showing a relation between
+insiders'
+trading profits and information asymmetry
+(Aboody and Lev, 2000; Frankel and Li, 2004; Huddart
+and Ke, 2007). That body of work argues that insiders
+make greater profits on private information when firms
+are more opaque and, therefore, more private information
+is available on which to trade. However, the results we
+present could call for a reinterpretation of those results if
+proxies for information asymmetry are also related to the
+time it takes the market to digest public information. Also,
+given their knowledge and experience with their own
+firms, insiders likely are attuned to a variety of other
+forms of public information that bear on their firms' values
+but to which the market does not quickly adjust.
+
+We caution, though, against overgeneralization of our
+results. For one, we do not find evidence of attentive
+insider stock purchasing on public information. In addi-
+tion, our results for stock sales could characterize insider
+trading only in the specific situation in which firms
+maintain strong economic links to other public companies,
+and they could characterize a subset of the trades by
+insiders only at these firms. Our evidence should be
+balanced against prior studies that provide evidence of
+trading on private information in certain settings. Exam-
+ples include insider trading during private merger nego-
+tiations
+(Heitzman and Klasa, 2013) or before the
+revelation of accounting fraud (Agrawal and Cooper,
+2014).
+Jagolinzer (2009) also shows that insiders earn
+significantly higher profits when they are afforded safe
+harbors from legal liability, such as when their trades
+follow pre-determined plans as allowed under SEC Rule
+10b5-1. His results could have captured a subset of illegal
+trading on private information under special circum-
+stances when negative repercussions could be avoided.
+But, one should also be careful not to overgeneralize these
+
+results either. In the case of private merger negotiations,
+the clear prediction is that target insiders should purchase
+undervalued shares, so this activity is unlikely to speak to
+the prevalence of illegal insider selling. And illegal selling
+during accounting fraud could reflect the character of a
+limited group of unethical executives, such that general-
+ization to other insiders could be inappropriate.
+
+Finally, we submit that our analysis could be useful for
+other researchers by laying the groundwork for identifying
+insiders who are more attentive to market developments
+that will impact their firms in the future. This information
+could be useful as a measure of executive or director quality
+or effort. Such a measure could be a valuable indicator of
+insiders' ability to adapt to future business conditions, thus
+impacting future firm values, security returns, and economic
+growth, while minimizing wasteful overinvestment.
+
+References
+
+Aboody, D., Lev, B., 2000. Information asymmetry, R&D, and insider gains.
+
+Journal of Finance 55, 2747–2766.
+
+Agrawal, A., Cooper, T., 2014. Insider trading before accounting scandals.
+Unpublished working paper. Available at SSRN: 〈http://ssrn.com/
+abstract=929413〉.
+
+Agrawal, A., Nasser, T., 2012. Insider trading in takeover targets. Journal of
+
+Corporate Finance 18 (3), 598–625.
+
+Ali, A., Wei, K.D., Zhou, Y., 2011. Insider trading and option grant timing in
+response to fire sales (and purchases) of stocks by mutual funds.
+Journal of Accounting Research 49, 595–632.
+
+Anilowski, C., Feng, M., Skinner, D., 2006. Does earnings guidance affect
+market returns? The nature and information content of aggregate
+earnings guidance. Journal of Accounting and Economics 44, 36–63.
+Bacchetta, P., Van Wincoop, E., 2010. Infrequent portfolio decisions: a
+solution to the forward discount puzzle. American Economic Review
+100 (3), 870–904.
+
+Bettis, C., Vickrey, D., Vickery, D.W., 1997. Mimickers of corporate insiders
+who make large-volume trades. Financial Analysts Journal 53, 57–66.
+Brochet, F., 2010. Information content of insider trades before and after
+
+the Sarbanes-Oxley Act. The Accounting Review 85 (2), 419–446.
+
+Chen, C., Martin, X., Wang, X., 2012. Insider trading, litigation concerns,
+and auditor going-concern opinions. The Accounting Review 88 (2),
+365–393.
+
+Cicero, D.C., Wintoki, M.B., 2014. Insider trading patterns. Unpublished
+working paper. Available at SSRN: 〈http://ssrn.com/abstract=2128127〉.
+Cohen, L., Frazzini, A., 2008. Economic links and predictable returns.
+
+Journal of Finance 63, 1977–2011.
+
+Cohen, L., Malloy, C., Pomorski, L., 2012. Decoding inside information.
+
+Journal of Finance 67, 1009–1043.
+
+DellaVigna, S., Pollet, J., 2009. Investor inattention and Friday earnings
+
+announcements. Journal of Finance 64, 709–749.
+
+Finnerty, J., 1976. Insiders and market efficiency. Journal of Finance 31,
+
+1141–1148.
+
+Fiske, S., Taylor, S., 1991. Social Cognition, second ed. McGraw-Hill,
+
+New York, NY.
+
+Frankel, R.M., Li, X., 2004. Characteristics of a firm's information environ-
+ment and the information asymmetry between insiders and out-
+siders. Journal of Accounting and Economics 37, 229–259.
+
+Graham, J., Harvey, C., Rajgopal, S., 2005. The economic implications of
+corporate financial reporting. Journal of Accounting and Economics
+40, 3–37.
+
+Heitzman, S., Klasa, S., 2013. Private information arrival, trading activity,
+and price formation: evidence from nonpublic merger negotiations.
+Unpublished working paper. Available at SSRN: 〈http://ssrn.com/
+abstract=1938436〉.
+
+Hong, H., Torous, W., Valkanov, R., 2007. Do industries lead stock
+
+markets? Journal of Financial Economics 83, 367–396.
+
+Huang, L., Kale, J., 2012. Product market linkages, manager quality, and
+
+mutual fund performance. Review of Finance 17 (6), 1895–1946.
+
+Huang, L., Liu, H., 2007. Rational inattention and portfolio selection.
+
+Journal of Finance 62, 1999–2040.
+
+Huddart, S.J., Ke, B., 2007. Information Asymmetry and Cross-sectional
+Variation in Insider Trading. Contemporary Accounting Research 24,
+195–232.
+
+D.M. Alldredge, D.C. Cicero / Journal of Financial Economics 115 (2015) 84–101
+
+101
+
+Jaffe, J., 1974. Special information and insider trading. Journal of Business 47,
+
+Menzly, L., Ozbas, O., 2010. Market segmentation and cross-predictability
+
+410–428.
+
+Jagolinzer, A.D., 2009. SEC Rule 10b5-1 and insiders' strategic trade.
+
+Management Science 55 (2), 224–239.
+
+Jeng, L., Metrick, A., Zeckhauser, R., 2003. Estimating the returns to
+insider trading: a performance evaluation perspective. Review of
+Economics and Statistics 85, 453–471.
+
+Jenter, D., 2005. Market timing and managerial portfolio decisions.
+
+Journal of Finance 60 (4), 1903–1949.
+
+Kahneman, D., 1973. Attention and effort. Prenctice Hall, Englewood
+
+Cliffs, N.J.
+
+Kothari, S.P., Shu, S., Wysocki, P.D., 2009. Do managers withhold bad
+
+news? Journal of Accounting Research 47, 241–276.
+
+Lakonishok, J., Lee, I., 2001. Are insider trades informative? Review of
+
+Financial Studies 14, 79–111.
+
+Lo, A.W., MacKinlay, A.C., 1990. When are contrarian profits due to stock
+
+market overreaction? Review of Financial studies 3 (2), 175–205.
+
+Lorie, J., Niederhoffer, V., 1968. Predictive and statistical properties of
+
+insider trading. Journal of Law and Economics 11, 35–53.
+
+of returns. Journal of Finance 65, 1555–1580.
+
+Michaely, R., Rubin, A., Vedrashko, A., 2013. Firm heterogeneity and
+investor inattention to Friday earnings announcements. Unpublished
+working paper. Available at SSRN: 〈http://ssrn.com/abstract=2164789〉.
+
+Peng, L., Xiong, W., 2006. Investor attention, overconfidence and category
+
+learning. Journal of Financial Economics 80, 563–602.
+
+Sadka, R., 2006. Momentum and post-earnings announcement drift
+anomalies: The role of liquidity risk. Journal of Financial Economics 80,
+309–349.
+
+Seyhun, N., 1986. Insiders' profits, costs of trading, and market efficiency.
+
+Journal of Financial Economics 16, 189–212.
+
+Seyhun, N., 1992. Why does aggregate insider trading predict future stock
+
+returns? Quarterly Journal of Economics 107, 1303–1331.
+
+Seyhun, N., 1998. Investment Intelligence from Insider Trading. MIT Press,
+
+Cambridge, MA.
+
+Skinner, D., 1994. Why firms voluntarily disclose bad news? Journal of
+
+Accounting Research 32, 38–60.
+
+

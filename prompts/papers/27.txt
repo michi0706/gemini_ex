@@ -1,0 +1,6195 @@
+THE JOURNAL OF FINANCE • VOL. LXXIII, NO. 3 • JUNE 2018
+
+Deviations from Covered Interest Rate Parity
+
+WENXIN DU, ALEXANDER TEPPER, and ADRIEN VERDELHAN∗
+
+ABSTRACT
+
+We ﬁnd that deviations from the covered interest rate parity (CIP) condition imply
+large, persistent, and systematic arbitrage opportunities in one of the largest asset
+markets in the world. Contrary to the common view, these deviations for major curren-
+cies are not explained away by credit risk or transaction costs. They are particularly
+strong for forward contracts that appear on banks’ balance sheets at the end of the
+quarter, pointing to a causal effect of banking regulation on asset prices. The CIP
+deviations also appear signiﬁcantly correlated with other ﬁxed income spreads and
+with nominal interest rates.
+
+THE FOREIGN EXCHANGE (FX) FORWARD AND swap market is one of the largest
+and most liquid derivative markets in the world, with a total notional amount
+outstanding equal to $61 trillion and average daily turnover equal to $3 trillion
+(Bank of International Settlements (2013, 2014)). The cornerstone of currency
+forward and swap pricing, presented in all economics and ﬁnance textbooks
+and taught in every class in international ﬁnance, is the covered interest rate
+parity (CIP) condition. In this paper, we document deviations from the CIP in
+the postcrisis period and investigate the causes of such deviations.
+
+∗Wenxin Du is with the Federal Reserve Board. Alexander Tepper is with the Columbia Gradu-
+ate School of Architecture, Planning and Preservation. A large part of this research was conducted
+while Alexander Tepper was working at the Federal Reserve Bank of New York. Adrien Verdelhan
+is with MIT Sloan and NBER. The authors thank the Editor, Stefan Nagel, and two anonymous
+referees. The views in this paper are solely the responsibility of the authors and should not be
+interpreted as reﬂecting the views of the Board of Governors of the Federal Reserve System or
+any other person associated with the Federal Reserve System. We thank Claudio Borio, Fran-
+cois Cocquemas, Pierre Collin-Dufresne, Doug Diamond, Charles Engel, Xavier Gabaix, Benjamin
+Hebert, Sebastian Infante, Arvind Krishnamurthy, Martin Lettau, Hanno Lustig, Matteo Mag-
+giori, Robert McCauley, Tyler Muir, Warren Naphtal, Brent Neiman, Pierre-Olivier Gourinchas,
+Jonathan Parker, Thomas Philippon, Arvind Rajan, Adriano Rampini, Fabiola Ravazzolo, Andrew
+Rose, Hyun Song Shin, Jeremy Stein, Steve Strongin, Saskia ter Ellen, Fabrice Tourre, Annette
+Vissing-Jorgensen, and seminar and conference participants at the AFA meeting in Chicago, the
+Bank of Canada, the Bank of England, the Bank for International Settlements, Berkeley, Chicago,
+the European Central Bank, the Federal Reserve Board, the Federal Reserve Bank of Dallas, the
+Federal Reserve Bank of Philadelphia, the Federal Reserve Bank of San Francisco, Harvard, the
+International Monetary Fund, MIT Sloan, the NBER Summer Institute, Northwestern, Stanford
+GSB, UNC Chapel Hilll, Wisconsin-Madison, Wharton, Vanderbilt, and Washington University
+for comments and suggestions. All remaining errors are our own. The paper previously circulated
+under the title “Cross-currency Basis.” We have read the Journal of Finance’s disclosure policy and
+have no conﬂicts of interest to disclose.
+DOI: 10.1111/joﬁ.12620
+
+915
+
+916
+
+The Journal of Finance R(cid:3)
+
+We ﬁrst show that the CIP condition has been systematically and per-
+sistently violated among G10 currencies since the global ﬁnancial crisis in
+2008, leading to signiﬁcant arbitrage opportunities in currency and ﬁxed in-
+come markets. This ﬁnding is a puzzle for no-arbitrage models in macroeco-
+nomics and ﬁnance. Since the arbitrage opportunities exist at a very short
+horizon, such as overnight or at the one-week horizon, this ﬁnding is also a
+puzzle for the classic limits-of-arbitrage models that rely on long-term mar-
+ket risk, as in Shleifer and Vishny (1997). The systematic patterns of the
+CIP violations point to a key interaction between costly ﬁnancial intermedia-
+tion and international imbalances in funding supply and investment demand
+across currencies in the new, postcrisis regulatory environment. In particu-
+lar, we provide evidence of the impact of postcrisis regulatory reforms on CIP
+arbitrage.
+
+The intuition for the CIP condition relies on a simple no-arbitrage condition.
+For example, an investor with U.S. dollars in hand today may deposit her dol-
+lars for one month, earning the dollar deposit rate. Alternatively, the investor
+may exchange her U.S. dollars for some foreign currency, deposit the foreign
+currency, and earn the foreign currency deposit rate for one month. At the same
+time, the investor can enter into a one-month currency forward contract today,
+which would convert the foreign currency earned at the end of the month into
+U.S. dollars. If both U.S. and foreign currency deposit rates are default-free and
+the forward contract has no counterparty risk, the two investment strategies
+are equivalent and thus should deliver the same payoffs. Therefore, the differ-
+ence between U.S. dollar and foreign currency deposit rates should be exactly
+equal to the cost of entering the forward contract, that is, the log difference
+between the forward and the spot exchange rates, with all rates observed at
+the same date.
+
+The cross-currency basis measures the deviation from the CIP condition. It is
+the difference between the direct dollar interest rate from the cash market and
+the synthetic dollar interest rate obtained by swapping the foreign currency
+into U.S. dollars. A positive (negative) currency basis means that the direct
+dollar interest rate is higher (lower) than the synthetic dollar interest rate.
+When the basis is zero, CIP holds. Before the global ﬁnancial crisis, the log
+difference between the forward rate and the spot rate was approximately equal
+to the difference in London interbank offered rates (Libor) across countries
+(Frenkel and Levich (1975), Akram, Rime, and Sarno (2008)). In other words,
+the Libor cross-currency basis was very close to zero. As is now well known,
+large bases appeared during the height of the global ﬁnancial crisis and the
+European debt crisis, as the interbank markets became impaired and arbitrage
+capital was limited.
+
+We show that Libor bases persist after the global ﬁnancial crisis among G10
+currencies and remain large in magnitude. Our sample includes the most liquid
+currencies, with a total daily turnover above $2 trillion (Bank of International
+Settlements (2013)): the Australian dollar, Canadian dollar, Swiss franc, Dan-
+ish krone, euro, British pound, Japanese yen, Norwegian krone, New Zealand
+dollar, and Swedish krona. The average annualized absolute value of the basis
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+917
+
+is 24 basis points (bps) at the three-month horizon and 27 bps at the ﬁve-year
+horizon over the 2010 to 2016 sample.1 These averages hide large variations
+both across currencies and over time. In the current economic environment,
+the cross-currency basis can be of the same order of magnitude as the interest
+rate differential. For example, the ﬁve-year basis for the Japanese yen was
+close to −90 bps at the end of 2015, which was even greater in magnitude than
+the difference (of about −70 bps) between the ﬁve-year Libor interest rate in
+Japan and in the United States.
+
+We show that credit risk in the Libor market and the indicative nature
+of Libor cannot explain away the persistence of the cross-currency basis. A
+common explanation for CIP deviations is that interbank panels have differ-
+ent levels of creditworthiness (e.g., Tuckman and Porﬁrio (2004)). If, for ex-
+ample, interbank lending in yen entails higher credit risk (due to the lower
+credit quality of yen Libor banks) than interbank lending in U.S. dollars,
+the lender should be compensated for the credit risk differential between
+yen Libor and dollar Libor, and thus the cross-currency basis need not be
+zero.2 Studying the credit default spreads of banks on interbank panels in
+different currencies, we do not ﬁnd much support for this explanation of CIP
+deviations.
+
+More crucially, we document that the currency basis exists even in the ab-
+sence of any credit risk difference across countries and for actual interest rate
+quotes. To do so, we ﬁrst examine general collateral (GC) repurchase agree-
+ments (repo) and then Kreditanstalt f ¨ur Wiederaufbau (KfW) bonds issued in
+different currencies. Repo contracts are fully collateralized and thus do not
+exhibit any credit risk. KfW bonds are fully backed by the German government
+and thus exhibit very minimal credit risk, without differences in credit risk
+across currencies. Repo and forward contracts highlight the CIP deviations at
+the short end of the yield curves, while KfW bonds and swaps focus on longer
+maturities. We ﬁnd that the repo currency basis is persistently and signiﬁ-
+cantly negative for the Japanese yen, the Swiss franc, and the Danish krone,
+and that the KfW basis is also signiﬁcantly different from zero for the euro, the
+Swiss franc, and the Japanese yen, even after taking into account transaction
+costs.
+
+The CIP deviations thus lead to persistent arbitrage opportunities free from
+exchange rate and credit risks. For example, a long-short arbitrageur may
+borrow at the U.S. dollar repo rate or short U.S. dollar-denominated KfW
+bonds and then earn risk-free positive proﬁts by investing in repo rates or KfW
+bonds denominated in low interest rate currencies such as the euro, the Swiss
+franc, the Danish krone, or the yen while hedging the foreign currency risk
+using FX forwards or swaps. The net arbitrage proﬁts range from 10 to 20 bps
+
+1 One-hundred basis points equal 1%.
+2 “Libor” rates measure the interest rates at which Libor panel banks borrow from each other.
+In this paper, we use the term “Libor” loosely to refer to the benchmark unsecured interbank
+borrowing rate, which can be determined by local interbank panels rather than the British Banker
+Association (now Intercontinental Exchange) Libor panels.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License918
+
+The Journal of Finance R(cid:3)
+
+on average in annualized values. The conditional volatility of each investment
+opportunity is naturally zero and Sharpe ratios are thus inﬁnite for the ﬁxed
+investment horizon of the strategy.
+
+After documenting the persistence of CIP deviations and formally establish-
+ing arbitrage opportunities, we turn to their potential explanations. We hy-
+pothesize that persistent CIP deviations can be explained by the combination
+of constraints on ﬁnancial intermediaries following the crisis and persistent
+international imbalances in investment demand and funding supply across
+currencies. If ﬁnancial intermediaries were unconstrained, the supply of cur-
+rency hedging should be perfectly elastic and any CIP deviations should be
+arbitraged away. Similarly, if the global funding and investment demand were
+balanced across currencies, there would be no client demand for FX swaps to
+transform funding liquidity or investment opportunities across currencies, and
+thus the cross-currency basis would be zero regardless of the supply of currency
+hedging. Costly ﬁnancial intermediation can explain why the basis is not ar-
+bitraged away following the crisis. The imbalances in savings and investment
+across currencies can explain the systematic relationship between the basis
+and nominal interest rates.
+
+Consistent with our two-factor hypothesis, we ﬁnd that the CIP deviations
+exhibit four main characteristics. First, CIP deviations increase toward the
+quarter-ends, as banks face tighter balance sheet constraints and renewed in-
+vestor attention due to quarterly regulatory ﬁlings. We ﬁnd that the one-month
+CIP deviation increases exactly one month before the quarter-ends, when a
+one-month forward contract has to appear on the quarter-end balance sheet.
+Likewise, the one-week CIP deviation increases exactly one week before the
+quarter-ends. This is the smoking gun. Meanwhile, a three-month CIP trade,
+which has to appear on a quarter-end report regardless of when it is executed,
+does not exhibit any particular dynamics. In this example, the one-month or
+one-week forward contracts that cross the quarter-ends are the “treated” as-
+sets, subject to higher balance sheet costs due to regulatory ﬁlings, while the
+three-month forward contract is the “nontreated” asset. Our simple difference-
+in-difference experiments exploit different lags before the quarter-ends and
+different horizons of the forward contracts. The term structure of short-term
+CIP deviations suggests that banking regulation has a causal impact on asset
+prices.
+
+Second, a proxy for the shadow costs of banks’ balance sheet accounts for
+about one-third of the CIP deviations. Our proxy is the spread between the
+interest rates on excess reserves (IOER) paid by the Fed and the federal funds
+rate or U.S. Libor rate. In the absence of balance sheet costs, banks should
+borrow at the federal funds rate/U.S. Libor rate and invest risk-free at the
+IOER, until the federal funds rate/Libor rate increases and both rates are equal.
+Yet, a signiﬁcant spread persists, which we interpret as a proxy for the shadow
+cost of leverage. Moreover, if banks invest at the foreign IOER, because foreign
+central bank reserves are more liquid than private money market instruments
+(as codiﬁed by the liquidity coverage ratio requirement under Basel III), the
+CIP deviations are further reduced by one-third on average.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+919
+
+Third, in both the cross section and the time series, the cross-currency basis
+is positively correlated with the level of nominal interest rates. In the cross
+section, high-interest-rate currencies tend to exhibit positive basis, while low-
+interest-rate currencies tend to exhibit negative basis. An arbitrageur should
+thus borrow in high-interest-rate currencies and lend in low-interest-rate cur-
+rencies while hedging the currency risk—this allocation is the opposite of that
+associated with the classic currency carry trade. In the time series, the cross-
+currency basis tends to increase with interest rate shocks, as measured in an
+event study of yield changes around monetary policy announcements of the
+European Central Bank (ECB).
+
+Fourth, the cross-currency basis is correlated with other liquidity spreads,
+especially the KfW over German bund basis and the U.S. Libor tenor basis,
+which is the price of swapping the one-month U.S. Libor rate in exchange
+for the three-month U.S. Libor rate. The comovement in bases measured in
+different markets points to the role of ﬁnancial intermediaries and correlated
+demand shocks for dollar funding and other forms of liquidity.
+
+We now provide a short review of existing relevant work. A large literature
+shows that the CIP condition holds well in periods before the global ﬁnancial
+crisis.3 A number of papers document the failure of the CIP condition dur-
+ing the global ﬁnancial crisis and the European debt crisis (see, for example,
+Baba, Packer, and Nagano (2008), Baba, McCauley, and Ramaswamy (2009),
+Coffey, Hrung, and Sarkar (2009), Griffolli and Ranaldo (2011), Bottazzi et al.
+(2012), and Ivashina, Scharfstein, and Stein (2015)). All of these papers focus
+on CIP deviations based on short-term money market instruments. The large
+cross-currency basis during the crisis appears to be linked to a severe dollar
+funding shortage in the presence of limits to arbitrage. The establishment of
+Fed swap lines with various foreign central banks, which alleviated the dol-
+lar shortage, signiﬁcantly reduced the magnitude of the cross-currency basis
+(Baba and Packer (2009), Goldberg, Kennedy, and Miu (2011), McGuire and
+von Peter (2012)).
+
+Our work focuses on the postcrisis period and is closely related to a large
+literature that departs from the frictionless asset pricing benchmark.4 On the
+theory side, Garleanu and Pedersen (2011) build a margin-based asset pricing
+model and use it to study the deviations from CIP during the crisis. Gabaix
+and Maggiori (2015) provide a tractable and elegant model of exchange rate
+
+3 Early discussions of the CIP condition appear in Lotz (1889) and much more clearly in Keynes
+(1923). A large literature in the 1970s and 1980s tests the CIP condition, notably Frenkel and
+Levich (1975, 1977), Deardorff (1979), Dooley and Isard (1980), Callier (1981), Bahmani-Oskooee
+and Das (1985), and Clinton (1988).
+
+4 Building on our work, CIP deviations following the crisis have become an area of active re-
+search. In ongoing work, Avdjiev et al. (2016) study the relationship between the strength of the
+dollar spot exchange rate and CIP deviations. Amador et al. (2017) model exchange rate policy
+at the zero lower bound and relate it to CIP deviations. Liao (2016) examines the implications of
+corporate funding cost arbitrage for CIP deviations. Rime, Schrimpf, and Syrstad (2016) focus on
+the role of money market segmentation for CIP deviations. Sushko et al. (2016) link the estimated
+dollar hedging demand (quantities) for major currencies to variation in CIP deviations (prices).
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License920
+
+The Journal of Finance R(cid:3)
+
+determination in the presence of moral hazard. A variant of their model, pre-
+sented in their appendix, encompasses CIP deviations. Our evidence on the
+impact of banking regulation points toward models of intermediary-based as-
+set pricing, such as those of He and Krishnamurthy (2012, 2013) and Brun-
+nermeier and Sannikov (2014) in the tradition of Bernanke and Gertler (1989)
+and Holmstrom and Tirole (1997). But many other friction-based models could
+potentially be relevant.5 To the best of our knowledge, however, no model in-
+troduced so far can replicate our four main facts on CIP deviations. On the
+empirical side, Adrian, Etula, and Muir (2014) and He, Kelly, and Manela
+(2017) show that shocks to the equity capital ratio of ﬁnancial intermediaries
+account for a large share of the cross-sectional variation in expected returns
+in different asset classes. Siriwardane (2016) shows that limited investment
+capital impacts pricing in the credit default swap (CDS) market. Our work is
+also closely related to recent papers on the interaction between the new U.S.
+monetary policy implementation framework and banking regulations, as dis-
+cussed in Dufﬁe and Krishnamurthy (2016), Klee, Senyuz, and Yoldas (2016),
+and Banegas and Tase (2016), and window dressing activities in repo markets
+on ﬁnancial reporting dates (Munyan (2015)).
+
+The paper is organized as follows. Section I deﬁnes and documents the CIP
+condition and its deviations at the short and long ends of the yield curves.
+Section II shows that the cross-currency basis exists in the absence of credit
+risk, for repo rates and KfW bonds, leading to clear arbitrage opportunities.
+Section III sketches a potential explanation for the CIP deviations that relies
+on the capital constraints of ﬁnancial intermediaries and global imbalances.
+Consistent with such an explanation, Section IV identiﬁes four characteristics
+of the currency basis: its surge at the end of quarters following the crisis, its
+high correlation with other liquidity-based strategies in different ﬁxed income
+markets, its relationship with the IOER, and its cross-sectional and time-series
+links with interest rates. Section V concludes.
+
+I. CIP Condition and Cross-Currency Basis
+
+In this section, we review the CIP condition and deﬁne the cross-currency
+basis as the deviation from the CIP condition. We then document the persistent
+failure of the textbook CIP condition based on Libor.
+
+5 The large theoretical literature on limits to arbitrage, surveyed in Gromb and Vayanos (2010),
+provides useful frameworks, with the caveat that CIP arbitrages exist over very short time horizons
+over which market risk and collateral constraints are limited. Focusing on the U.S. swap market,
+Jermann (2016) proposes a novel and attractive limits-to-arbitrage model based on the regulation-
+induced increased cost of holding Treasuries. Likewise, models of market and funding liquidity,
+as in Brunnermeier and Pedersen (2009), or models of preferred habitat, as in Vayanos and Vila
+(2009) or Greenwood and Vayanos (2014), are potential theoretical frameworks to account for the
+CIP deviations. Our ﬁndings are also related to models of the global imbalances in safe assets, as
+studied in the pioneering work of Caballero, Farhi, and Gourinchas (2008, 2016).
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+921
+
+A. Covered Interest Rate Parity
+
+Let y$
+
+t,t+n and yt,t+n denote the continuously compounded n-year risk-free
+interest rates quoted at date t in U.S. dollars and foreign currency, respectively.
+The spot exchange rate St is expressed in units of foreign currency per U.S.
+dollar; an increase in St thus denotes a depreciation of the foreign currency and
+an appreciation of the U.S. dollar. Likewise, Ft,t+n denotes the n-year outright
+forward exchange rate in foreign currency per U.S. dollar at time t. The CIP
+condition states that the forward rate should satisfy
+
+eny$
+
+t,t+n = enyt,t+n St
+Ft,t+n
+
+.
+
+(1)
+
+In logs, the continuously compounded forward premium, ρt,t+n, is equal to the
+interest rate difference
+
+ρt,t+n ≡ 1
+n
+
+( ft,t+n − st) = yt,t+n − y$
+
+t,t+n.
+
+(2)
+
+The intuition behind the CIP condition is simple: an investor with one U.S.
+dollar in hand today would own eny$
+t,t+n U.S. dollars n years from now by investing
+in U.S. dollars. But the investor may instead exchange her U.S. dollar for St
+units of foreign currency and invest in foreign currency to receive enyt,t+nSt units
+of foreign currency n years from now. A currency forward contract signed today
+would convert the foreign currency earned into enyt,t+nSt/Ft,t+n U.S. dollars. If
+both domestic and foreign notes are risk-free aside from the currency risk and
+the forward contract has no counterparty risk, the two investment strategies
+are equivalent and therefore should deliver the same payoffs. All contracts are
+signed today. The CIP condition is thus a simple no-arbitrage condition.6
+
+B. Deﬁnition of the Cross-Currency Basis
+
+We deﬁne the continuously compounded cross-currency basis, denoted by
+
+xt,t+n, as the deviation from the CIP condition:
+t,t+n = enyt,t+n+nxt,t+n St
+Ft,t+n
+
+eny$
+
+.
+
+Equivalently, in logs, the cross-currency basis is equal to
+
+xt,t+n = y$
+
+t,t+n − (yt,t+n − ρt,t+n).
+
+(3)
+
+(4)
+
+6 In the presence of transaction costs, the absence of arbitrage is characterized by two inequal-
+ities: arbitrage must be impossible by borrowing the domestic currency and lending the foreign
+currency, or by doing the opposite, and hedging the currency risk with the forward contract in
+both cases (see Bekaert and Hodrick (2012) for a textbook exposition). As a result, the bid and ask
+forward rates satisfy
+
+Fask
+t,t+n
+Sbid
+t
+
+≥ enybid
+t,t+n
+eny$,ask
+t,t+n
+
+and
+
+Fbid
+t,t+n
+Sask
+t
+
+≤ enyask
+t,t+n
+eny$,bid
+t,t+n
+
+.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License922
+
+The Journal of Finance R(cid:3)
+
+Figure 1. Cash ﬂow diagram for CIP arbitrage with a negative basis. This ﬁgure plots the
+cash ﬂow exchanges of an arbitrageur proﬁting from a negative cross-currency basis (xt,t+1 < 0)
+between the yen and the U.S. dollar. To arbitrage the negative cross-currency basis, the U.S.
+dollar arbitrageur borrows one U.S. dollar at the interest rate y$
+t,t+1, converts it into St yen, lends
+in yen at the interest rate yt,t+1, and signs a forward contract at date t. There is no cash ﬂow
+at date t. At date t + 1, the arbitrageur receives eyt,t+1 St (cid:7) (1 + yt,t+1)St yen, and converts that
+into eyt,t+1 St/Ft,t+1 (cid:7) (1 + yt,t+1)St/Ft,t+1 U.S. dollars due to the forward contract. The arbitrageur
+repays her debt in U.S. dollars and is left with a proﬁt equal to the negative of the cross-currency
+basis xt,t+1. In essence, the arbitrageur is going long in the yen and short in the dollar, with the yen
+cash ﬂow fully hedged by a forward contract. (Color ﬁgure can be viewed at wileyonlinelibrary.com)
+
+When CIP holds, comparison of equations (1) and (3) immediately implies that
+the currency basis is zero. The cross-currency basis measures the difference
+between the direct U.S. dollar interest rate, y$
+t,t+n, and the synthetic dollar in-
+terest rate, yt,t+n − ρt,t+n, obtained by converting the foreign currency interest
+rate into U.S. dollars using currency forward contracts. A negative currency ba-
+sis suggests that the direct U.S. dollar interest rate is lower than the synthetic
+dollar interest rate.
+
+As already noted, CIP holds in the absence of arbitrage. As soon as the basis is
+not zero, arbitrage opportunities theoretically appear. Figure 1 provides a cash
+ﬂow diagram of this CIP arbitrage strategy. In the case of a negative basis, x <
+0, the dollar arbitrageur can earn risk-free proﬁts equal to an annualized |x|%
+of the trade notional by borrowing at the direct dollar risk-free rate, investing
+at the foreign currency risk-free rate, and signing a forward contract to convert
+the foreign currency back into U.S. dollars. In the case of a positive basis, the
+opposite arbitrage strategy of funding in the synthetic dollar risk-free rate and
+investing in the direct dollar risk-free rate would also yield an annualized risk-
+free proﬁt equal to x% of the trade notional. With these deﬁnitions in mind, we
+turn now to a preliminary look at the data.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+923
+
+C. Failure of Textbook Libor-Based Covered Interest Parity
+
+Textbook tests of the CIP condition usually rely on Libor rates.7 We document
+persistent failure of Libor-based CIP after 2007 for G10 currencies at short and
+long maturities. As we discuss above, at short maturities less than one year, CIP
+violations can be computed using Libor rates and currency forward and spot
+rates. At the longer maturities (typically one year or greater), CIP violations
+based on Libor are quoted directly as spreads on Libor cross-currency basis
+swaps.
+
+C.1. Short-Term Libor Cross-Currency Basis
+
+We deﬁne the Libor basis as equal to
+(cid:2)
+t,t+n ≡ y$,Libor
+t,t+n −
+xLibor
+
+t,t+n − ρt,t+n
+yLibor
+
+(cid:3)
+
+,
+
+(5)
+
+where the generic dollar and foreign currency interest rates of equation (4)
+are replaced with Libor rates. We obtain daily spot exchange rates and forward
+points from Bloomberg using London closing rates for G10 currencies. Mid rates
+(average of bid and ask rates) are used for benchmark basis calculations. Daily
+Libor/interbank ﬁxing rates are also obtained from Bloomberg and described
+in the Data Appendix. Figure 2 shows the three-month Libor basis for G10
+currencies between January 2000 and September 2016.
+
+The three-month Libor basis was very close to zero for all G10 currencies be-
+fore 2007. During the global ﬁnancial crisis (2007 to 2009), there were large de-
+viations from Libor CIP, especially around the Lehman bankruptcy announce-
+ment, with some bases reaching −200 bps. But the deviations from Libor CIP
+did not disappear when the crisis abated: since the crisis, the three-month Libor
+basis has been persistently different from zero. Panel A of Table I summarizes
+the mean and standard deviation of the three-month Libor cross-currency basis
+across three periods: 2000 to 2006, 2007 to 2009, and 2010 to 2016. Precrisis,
+the Libor basis was not signiﬁcantly different from zero; postcrisis, it is. More-
+over, a clear cross-sectional dispersion in the level of the basis appears among
+G10 currencies. The Australian dollar (AUD) and New Zealand dollar (NZD)
+exhibit, on average, a positive basis of 5 and 12 bps at the three-month horizon,
+while the Swiss franc (CHF), Danish krone (DKK), euro (EUR), Japanese yen
+(JPY), Norwegian krone (NOK), and Swedish krona (SEK) exhibit, on average,
+negative bases below −20 bps. Among the G10 currencies, the Danish krone
+has the most negative three-month Libor basis postcrisis, with an average of
+−60 bps, a stark contrast to its precrisis average of −2 bps.8
+
+7 Eurocurrency deposit rates based in London have long been used as benchmark interest rates
+to test the CIP condition, starting with Frenkel and Levich (1975), as eurocurrency deposits are
+highly fungible and avoid many barriers to the free ﬂow of capital, such as differential domestic
+interest rate regulations, tax treatments, and reserve regulations. Akram, Rime, and Sarno (2008)
+conﬁrm the validity of the CIP condition using bank deposit rates in the early 2000s sample.
+
+8 The Danish central bank maintains a peg of its currency to the euro. Yet, the CIP deviations
+are larger for the Danish krone than for the euro, in part, reﬂecting the risk of a sudden break of
+the peg, similar to the Swiss franc experience in January 2015.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License924
+
+The Journal of Finance R(cid:3)
+
+s
+t
+
+i
+
+n
+o
+P
+ 
+s
+s
+a
+B
+
+i
+
+0
+5
+
+0
+
+0
+5
+−
+
+0
+0
+1
+−
+
+0
+5
+1
+−
+
+0
+0
+2
+−
+
+0
+5
+2
+−
+
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+
+AUD
+
+GBP
+
+CAD
+
+JPY
+
+CHF
+
+NOK
+
+DKK
+
+NZD
+
+EUR
+
+SEK
+
+Figure 2. Short-term Libor-based deviations from covered interest rate parity. This ﬁg-
+ure plots the 10-day moving averages of the three-month Libor cross-currency basis, measured in
+bps for G10 currencies. Covered interest rate parity implies that the basis should be zero. The
+Libor basis is equal to y$,Libor
+t,t+n denote
+the U.S. and foreign three-month Libor rates, and ρt,t+n ≡ 1
+n( ft,t+n − st) denotes the forward pre-
+mium obtained from the forward ft,t+n and spot st exchange rates. (Color ﬁgure can be viewed at
+wileyonlinelibrary.com)
+
+t,t+n − ρt,t+n), where n = three months, y$,Libor
+
+t,t+n − (yLibor
+
+t,t+n and yLibor
+
+C.2. Long-Term Libor Cross-Currency Basis
+
+At long maturities, the long-term CIP deviation based on Libor is given
+by the spread on the cross-currency basis swap. A cross-currency basis swap
+involves an exchange of cash ﬂows linked to ﬂoating interest rates referenced
+to interbank rates in two currencies, as well as an exchange of principal in two
+currencies at the inception and the maturity of the swap. Let us take a simple
+example. Figure 3 provides a cash ﬂow diagram for the yen/U.S. dollar cross-
+currency swap on $1 notional between Bank A and Bank B. At the inception
+of the swap, Bank A receives $1 from Bank B in exchange for ¥St. At the jth
+coupon date, Bank A pays a dollar ﬂoating cash ﬂow equal to yLibor,$
+on the $1
+notional to Bank B, where yLibor,$
+is the three-month U.S. dollar Libor at time
+t + j. In return, Bank A receives from Bank B a ﬂoating yen cash ﬂow equal
+to (yt+j
+Libor,¥ is the three-month
+yen Libor at time t + j and xxccy
+t,t+n is the cross-currency basis swap spread, which
+is predetermined at date t at the inception of the swap transaction. When the
+swap contract matures, Bank B receives $1 from Bank A in exchange for ¥St,
+undoing the initial transaction.
+
+xccy) on the ¥St notional, where yt+j
+
+Libor,¥ + xt,t+n
+
+The spread on the cross-currency basis swap, xxccy
+
+t,t+n, is the price at which
+swap counterparties are willing to exchange foreign currency ﬂoating cash
+
+t+ j
+
+t+ j
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons Licenser
+o
+b
+n
+i
++
+L
+t
+,
+,
+$
+t
+y
+
+e
+r
+e
+h
+w
+
+,
+)
+n
++
+
+t
+,
+t
+
+r
+n
+o
++
+b
+i
+t
+L
+,
+t
+y
+(
+
+r
+o
+b
+n
+i
++
+L
+t
+,
+,
+$
+t
+y
+
+ρ
+−
+
+−
+
+n
+o
+
+n
+g
+i
+e
+r
+o
+f
+d
+n
+a
+
+.
+
+.
+
+S
+U
+e
+h
+t
+
+e
+t
+o
+n
+e
+d
+
+e
+h
+T
+
+.
+s
+e
+t
+a
+r
+
+e
+g
+n
+a
+h
+c
+x
+e
+
+t
+s
+
+t
+o
+p
+s
+
+d
+n
+a
+
+r
+n
+o
++
+b
+i
+t
+L
+,
+t
+y
+
+d
+n
+a
+
+n
++
+
+t
+,
+t
+f
+
+Deviations from Covered Interest Rate Parity
+
+925
+
+,
+)
+
+Y
+P
+J
+(
+
+n
+e
+y
+
+e
+s
+e
+n
+a
+p
+a
+J
+
+,
+)
+
+P
+B
+G
+
+(
+
+d
+n
+u
+o
+p
+
+h
+s
+i
+t
+i
+r
+B
+
+,
+)
+
+R
+U
+E
+
+(
+
+o
+r
+u
+e
+
+,
+)
+
+K
+K
+D
+
+(
+
+e
+n
+o
+r
+k
+
+h
+s
+i
+n
+a
+D
+
+,
+)
+
+F
+H
+C
+
+(
+
+c
+n
+a
+r
+f
+
+s
+s
+i
+w
+S
+
+,
+)
+
+D
+A
+C
+
+(
+
+r
+a
+l
+l
+o
+d
+
+n
+a
+i
+d
+a
+n
+a
+C
+
+t
+s
+e
+r
+e
+t
+n
+i
+k
+r
+a
+m
+h
+c
+n
+e
+b
+
+e
+s
+i
+c
+e
+r
+p
+
+e
+h
+t
+
+s
+t
+r
+o
+p
+e
+r
+
+e
+l
+b
+a
+t
+
+e
+h
+t
+
+,
+y
+c
+n
+e
+r
+r
+u
+c
+h
+c
+a
+e
+
+r
+o
+F
+
+.
+)
+
+K
+E
+S
+(
+
+a
+n
+o
+r
+k
+h
+s
+i
+d
+e
+w
+S
+d
+n
+a
+
+,
+)
+
+D
+Z
+N
+
+(
+
+r
+a
+l
+l
+o
+d
+
+d
+n
+a
+l
+a
+e
+Z
+w
+e
+N
+
+,
+)
+
+D
+U
+A
+
+(
+
+,
+)
+
+K
+O
+N
+
+(
+
+r
+a
+l
+l
+o
+d
+
+n
+a
+i
+l
+a
+r
+t
+s
+u
+A
+
+e
+n
+o
+r
+k
+n
+a
+i
+g
+e
+w
+r
+o
+N
+
+n
+o
+z
+i
+r
+o
+H
+r
+a
+e
+Y
+-
+e
+v
+i
+F
+
+:
+
+B
+
+l
+e
+n
+a
+P
+
+n
+o
+z
+i
+r
+o
+H
+h
+t
+n
+o
+M
+-
+e
+e
+r
+h
+T
+
+:
+
+A
+
+l
+e
+n
+a
+P
+
+6
+1
+0
+2
+o
+t
+0
+1
+0
+2
+
+9
+0
+0
+2
+
+o
+t
+7
+0
+0
+2
+
+6
+0
+0
+2
+o
+t
+0
+0
+0
+2
+
+6
+1
+0
+2
+
+o
+t
+0
+1
+0
+2
+
+9
+0
+0
+2
+o
+t
+7
+0
+0
+2
+
+6
+0
+0
+2
+
+o
+t
+0
+0
+0
+2
+
+k
+r
+a
+m
+h
+c
+n
+e
+B
+
+y
+c
+n
+e
+r
+r
+u
+C
+
+.
+x
+i
+d
+n
+e
+p
+p
+A
+a
+t
+a
+D
+e
+h
+t
+n
+i
+d
+e
+t
+s
+i
+l
+
+e
+r
+a
+
+s
+e
+t
+a
+r
+
+t
+s
+e
+r
+e
+t
+n
+i
+k
+r
+a
+m
+h
+c
+n
+e
+b
+
+e
+s
+e
+h
+t
+
+f
+o
+
+s
+e
+m
+a
+n
+l
+l
+u
+f
+
+e
+h
+T
+
+.
+s
+i
+s
+a
+b
+
+e
+h
+t
+
+e
+t
+u
+p
+m
+o
+c
+
+o
+t
+d
+e
+s
+u
+s
+e
+t
+a
+r
+
+)
+5
+
+.
+
+5
+(
+
+6
+
+.
+
+4
+2
+
+4
+
+.
+
+4
+
+3
+
+.
+
+9
+
+)
+8
+
+.
+
+1
+1
+(
+
+9
+
+.
+
+0
+1
+
+)
+2
+
+.
+
+8
+
+.
+
+)
+0
+
+.
+
+7
+
+.
+
+)
+1
+
+.
+
+6
+
+.
+
+6
+(
+
+9
+3
+−
+
+2
+1
+(
+
+6
+4
+−
+
+4
+1
+(
+
+8
+2
+−
+
+)
+5
+
+.
+
+6
+
+.
+
+3
+1
+(
+
+6
+−
+
+)
+6
+
+.
+
+0
+
+.
+
+)
+3
+
+.
+
+1
+
+.
+
+6
+(
+
+2
+6
+−
+
+7
+1
+(
+
+5
+1
+−
+
+)
+5
+
+.
+
+9
+
+.
+
+)
+8
+
+.
+
+2
+
+.
+
+)
+2
+
+.
+
+0
+
+.
+
+)
+2
+
+.
+
+2
+
+.
+
+)
+1
+
+.
+
+5
+
+.
+
+)
+1
+
+.
+
+8
+
+.
+
+9
+(
+
+2
+1
+−
+
+2
+1
+(
+
+0
+3
+−
+
+0
+3
+(
+
+5
+1
+−
+
+6
+1
+(
+
+7
+1
+−
+
+8
+1
+(
+
+3
+1
+−
+
+0
+2
+(
+
+4
+1
+−
+
+)
+0
+
+.
+
+9
+(
+
+0
+
+.
+
+1
+3
+
+9
+7
+
+.
+
+)
+3
+
+.
+
+2
+1
+(
+
+)
+2
+
+.
+
+7
+
+.
+
+8
+(
+
+2
+−
+
+)
+2
+
+.
+
+1
+
+.
+
+8
+(
+
+4
+1
+−
+
+)
+6
+
+.
+
+8
+(
+
+.
+
+2
+7
+−
+
+)
+9
+
+.
+
+7
+(
+
+.
+
+3
+8
+−
+
+)
+7
+
+.
+
+0
+3
+(
+
+)
+5
+
+.
+
+0
+2
+(
+
+5
+.
+9
+
+)
+8
+.
+2
+(
+
+7
+.
+0
+1
+
+)
+7
+.
+3
+(
+
+2
+.
+2
+−
+
+)
+9
+.
+0
+(
+
+6
+.
+2
+−
+
+)
+4
+.
+2
+(
+
+1
+.
+0
+
+)
+0
+.
+2
+(
+
+9
+.
+0
+−
+
+)
+3
+.
+2
+(
+
+3
+.
+5
+−
+
+)
+2
+.
+4
+(
+
+7
+.
+4
+−
+
+)
+9
+.
+1
+(
+
+6
+.
+3
+
+)
+9
+.
+2
+(
+
+8
+.
+1
+−
+
+)
+0
+.
+1
+(
+
+6
+.
+0
+
+)
+0
+.
+6
+(
+
+3
+.
+5
+
+)
+3
+.
+9
+(
+
+3
+.
+6
+1
+−
+
+)
+2
+.
+9
+(
+
+4
+.
+5
+2
+−
+
+)
+7
+.
+9
+1
+(
+
+7
+.
+9
+5
+−
+
+)
+2
+.
+3
+2
+(
+
+2
+.
+1
+3
+−
+
+)
+2
+.
+5
+2
+(
+
+9
+.
+0
+1
+−
+
+)
+7
+.
+9
+(
+
+6
+.
+4
+2
+−
+
+)
+5
+.
+5
+1
+(
+
+3
+.
+0
+3
+−
+
+)
+5
+.
+1
+2
+(
+
+1
+.
+2
+1
+
+)
+6
+.
+7
+(
+
+9
+.
+3
+2
+−
+
+)
+1
+.
+2
+1
+(
+
+4
+.
+0
+2
+−
+
+)
+2
+.
+5
+2
+(
+
+1
+.
+0
+
+)
+8
+.
+9
+1
+(
+
+9
+.
+3
+−
+
+)
+5
+.
+6
+1
+(
+
+9
+.
+6
+1
+−
+
+)
+2
+.
+7
+2
+(
+
+1
+.
+3
+6
+−
+
+)
+4
+.
+4
+5
+(
+
+7
+.
+7
+2
+−
+
+)
+3
+.
+2
+3
+(
+
+1
+.
+4
+3
+−
+
+)
+7
+.
+6
+3
+(
+
+8
+.
+3
+1
+−
+
+)
+9
+.
+2
+2
+(
+
+6
+.
+0
+3
+−
+
+)
+5
+.
+3
+3
+(
+
+0
+.
+9
+
+)
+8
+.
+4
+1
+(
+
+6
+.
+6
+2
+−
+
+)
+3
+.
+3
+3
+(
+
+8
+.
+0
+2
+−
+
+)
+7
+.
+6
+3
+(
+
+0
+.
+2
+−
+
+)
+2
+.
+4
+(
+
+3
+.
+1
+
+)
+2
+.
+5
+(
+
+0
+.
+1
+
+)
+0
+.
+3
+(
+
+5
+.
+1
+−
+
+)
+0
+.
+4
+(
+
+0
+.
+2
+
+)
+9
+.
+2
+(
+
+8
+.
+5
+−
+
+)
+8
+.
+3
+(
+
+3
+.
+1
+−
+
+)
+3
+.
+5
+(
+
+9
+.
+5
+−
+
+)
+7
+.
+3
+(
+
+2
+.
+2
+−
+
+)
+8
+.
+6
+(
+
+4
+.
+4
+−
+
+)
+4
+.
+4
+(
+
+9
+.
+1
+−
+
+)
+2
+.
+5
+(
+
+W
+S
+B
+B
+
+R
+O
+D
+C
+
+R
+O
+B
+I
+L
+
+R
+O
+B
+I
+C
+
+R
+O
+B
+I
+R
+U
+E
+
+R
+O
+B
+I
+L
+
+R
+O
+B
+I
+L
+
+R
+O
+B
+I
+
+N
+
+M
+B
+K
+B
+
+R
+O
+B
+I
+T
+S
+
+D
+U
+A
+
+D
+A
+C
+
+F
+H
+C
+
+K
+K
+D
+
+R
+U
+E
+
+P
+B
+G
+
+Y
+P
+J
+
+K
+O
+N
+
+D
+Z
+N
+
+K
+E
+S
+
+e
+g
+a
+r
+e
+v
+A
+
+:
+s
+n
+o
+i
+t
+a
+i
+v
+e
+r
+b
+b
+a
+l
+a
+u
+s
+u
+r
+i
+e
+h
+t
+y
+b
+d
+e
+t
+o
+n
+e
+d
+e
+r
+a
+s
+e
+i
+c
+n
+e
+r
+r
+u
+c
+d
+n
+a
+s
+e
+i
+r
+t
+n
+u
+o
+c
+
+e
+h
+T
+
+.
+s
+t
+c
+a
+r
+t
+n
+o
+c
+p
+a
+w
+s
+
+s
+i
+s
+a
+b
+y
+c
+n
+e
+r
+r
+u
+c
+-
+s
+s
+o
+r
+c
+
+m
+o
+r
+f
+d
+e
+n
+i
+a
+t
+b
+o
+
+s
+i
+
+s
+i
+s
+a
+b
+y
+c
+n
+e
+r
+r
+u
+c
+
+r
+a
+e
+y
+-
+e
+v
+ﬁ
+
+d
+r
+a
+w
+r
+o
+f
+
+e
+h
+t
+
+m
+o
+r
+f
+
+d
+e
+n
+i
+a
+t
+b
+o
+m
+u
+i
+m
+e
+r
+p
+
+d
+r
+a
+w
+r
+o
+f
+
+e
+h
+t
+
+s
+e
+t
+o
+n
+e
+d
+
+d
+n
+a
+
+s
+e
+t
+a
+r
+
+r
+o
+b
+i
+L
+
+h
+t
+n
+o
+m
+-
+e
+e
+r
+h
+t
+
+)
+t
+s
+−
+n
++
+
+t
+,
+t
+f
+
+(
+1n
+
+≡
+n
++
+
+t
+,
+t
+
+ρ
+
+o
+t
+
+l
+a
+u
+q
+e
+
+s
+i
+
+s
+i
+s
+a
+b
+r
+o
+b
+i
+L
+h
+t
+n
+o
+m
+-
+e
+e
+r
+h
+t
+
+e
+h
+T
+
+.
+s
+i
+s
+a
+b
+
+y
+c
+n
+e
+r
+r
+u
+c
+-
+s
+s
+o
+r
+c
+
+r
+a
+e
+y
+-
+e
+v
+ﬁ
+
+I
+
+e
+l
+b
+a
+T
+
+s
+n
+o
+i
+t
+a
+i
+v
+e
+D
+y
+t
+i
+r
+a
+P
+t
+s
+e
+r
+e
+t
+n
+I
+d
+e
+r
+e
+v
+o
+C
+d
+e
+s
+a
+B
+-
+r
+o
+b
+i
+L
+r
+o
+f
+
+s
+c
+i
+t
+s
+i
+t
+a
+t
+S
+y
+r
+a
+m
+m
+u
+S
+
+o
+t
+
+0
+1
+0
+2
+1
+1
+
+/
+
+/
+
+d
+n
+a
+
+,
+
+/
+
+9
+0
+0
+2
+1
+3
+2
+1
+
+/
+
+o
+t
+
+7
+0
+0
+2
+1
+1
+
+/
+
+/
+
+,
+
+/
+
+6
+0
+0
+2
+1
+3
+2
+1
+
+/
+
+o
+t
+
+0
+0
+0
+2
+1
+1
+
+/
+
+/
+
+:
+s
+d
+o
+i
+r
+e
+p
+
+e
+e
+r
+h
+t
+
+r
+e
+v
+o
+
+s
+e
+i
+c
+n
+e
+r
+r
+u
+c
+
+0
+1
+G
+r
+o
+f
+
+s
+p
+b
+n
+i
+
+s
+i
+s
+a
+b
+
+r
+o
+b
+i
+L
+n
+a
+e
+m
+e
+h
+t
+
+s
+t
+r
+o
+p
+e
+r
+
+e
+l
+b
+a
+t
+
+s
+i
+h
+T
+
+e
+h
+t
+
+n
+o
+
+s
+e
+s
+u
+c
+o
+f
+
+B
+
+l
+e
+n
+a
+P
+e
+l
+i
+h
+w
+
+,
+s
+i
+s
+a
+b
+
+y
+c
+n
+e
+r
+r
+u
+c
+-
+s
+s
+o
+r
+c
+
+h
+t
+n
+o
+m
+-
+e
+e
+r
+h
+t
+
+e
+h
+t
+
+s
+e
+s
+u
+c
+o
+f
+
+A
+
+l
+e
+n
+a
+P
+
+.
+s
+e
+s
+e
+h
+t
+n
+e
+r
+a
+p
+
+n
+i
+
+n
+w
+o
+h
+s
+
+e
+r
+a
+
+s
+n
+o
+i
+t
+a
+i
+v
+e
+d
+
+d
+r
+a
+d
+n
+a
+t
+S
+
+.
+6
+1
+0
+2
+5
+1
+9
+0
+
+/
+
+/
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License926
+
+The Journal of Finance R(cid:3)
+
+Figure 3. Cash ﬂow diagram for JPY/USD cross-currency basis swap. This ﬁgure shows
+the cash ﬂow exchanges of a standard yen/U.S. dollar cross-currency basis swap. At the inception
+of the swap, Bank A receives $1 from Bank B in exchange for ¥St. At the jth coupon date, Bank A
+pays a dollar ﬂoating cash ﬂow equal to yLibor,$
+is the
+three-month U.S. dollar Libor at time t + j. In return, Bank A receives from Bank B a ﬂoating yen
+cash ﬂow equal to (yt+j
+Libor,¥ is the three-month
+yen Libor at time t + j and xxccy
+t,t+n is the cross-currency basis swap spread, which is predetermined at
+date t at the inception of the swap transaction. When the swap contract matures, Bank B receives
+$1 from Bank A in exchange for ¥St, undoing the initial transaction. (Color ﬁgure can be viewed
+at wileyonlinelibrary.com)
+
+on the $1 notional to Bank B, where yLibor,$
+
+xccy) on the ¥St notional, where yt+j
+
+Libor,¥ + xt,t+n
+
+t+ j
+
+t+ j
+
+ﬂows against U.S. dollar cash ﬂows. In the case of the yen/U.S dollar cross-
+currency swap over the recent period, xxccy
+t,t+n is often negative. Let us assume for
+simplicity that Bank B is able to lend risk-free in yen at the three-month yen
+Libor rate, yt+j
+Libor,¥. Then, according to the cross-currency basis swap contract,
+Bank B has to pay to Bank A the yen cash ﬂows (yt+j
+xccy), which is
+clearly less than the yen Libor rate yt+j
+Libor,¥ that Bank B collects by investing
+the yen it originally received from Bank A. In this example, Bank B pockets a
+sure proﬁt by lending U.S. dollars to Bank A. In other words, if both banks can
+borrow and lend risk-free at Libor rates, then the cross-currency basis should
+be zero. As soon as the cross-currency basis swap is not zero, one counterparty
+beneﬁts from the swap, hinting at potential deviations from the CIP condition
+at the long end of the yield curve.
+
+Libor,¥ + xt,t+n
+
+More formally, to see how the cross-currency basis swap translates directly
+into deviations from the long-term Libor-based CIP condition, let us focus on
+the case of zero-coupon ﬁxed-for-ﬁxed cross-currency swap contracts. Such con-
+tracts are similar to the swap contract described above and in Figure 3, but no
+coupon payments are exchanged at the intermediary dates. Intuitively, an in-
+vestor can take three steps to swap ﬁxed foreign currency cash ﬂows into ﬁxed
+U.S. dollar cash ﬂows. First, she pays the foreign currency interest rate swap,
+yIRS
+t,t+n, to swap ﬁxed foreign currency cash ﬂows into ﬂoating foreign currency
+Libor cash ﬂows. Second, she pays the cross-currency basis swap, xxccy
+t,t+n, to swap
+ﬂoating foreign currency Libor into U.S. dollar Libor cash ﬂows. Third, she re-
+ceives the U.S. interest rate swap, y$,IRS
+t,t+n , to swap ﬂoating dollar U.S. Libor
+cash ﬂows into ﬁxed U.S. dollar cash ﬂows. The three steps together eliminate
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+927
+
+0
+5
+
+0
+
+s
+t
+
+i
+
+n
+o
+P
+ 
+s
+s
+a
+B
+
+i
+
+0
+5
+−
+
+0
+0
+1
+−
+
+2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 2015 2016
+
+AUD
+
+GBP
+
+CAD
+
+JPY
+
+CHF
+
+NOK
+
+DKK
+
+NZD
+
+EUR
+
+SEK
+
+Figure 4. Long-term Libor-based deviations from covered interest rate parity. This ﬁg-
+ure plots the 10-day moving averages of the ﬁve-year Libor cross-currency basis, measured in basis
+points, for G10 currencies. Covered interest rate parity implies that the basis should be zero. (Color
+ﬁgure can be viewed at wileyonlinelibrary.com)
+
+all ﬂoating cash ﬂows, and only exchanges of ﬁxed cash ﬂows in two currencies
+at the inception and maturity of the swap remain.9
+
+In this synthetic agreement, an investor pays $1 in exchange for St yen at
+t,t+n U.S. dollars at the maturity of the
+t,t+nSt yen at the end of the contract, which is worth
+t,t+nSt/Ft,t+n U.S. dollars at that time. The cross-currency basis swap
+
+the start of the swap period, receives eny$,IRS
+contract, and pays enyIRS
+enyIRS
+rates are priced such that
+
+t,t+n+nxxccy
+
+t,t+n+nxxccy
+
+t,t+n = enyIRS
+
+eny$,IRS
+
+t,t+n + nxxccy
+t,t+n
+
+St
+
+Ft,t+n
+
+.
+
+Equivalently, the long-term forward premium to hedge a foreign currency
+against the U.S. dollar is implicitly given by
+( ft,t+n − st) = yIRS
+
+t,t+n − y$,IRS
+t,t+n .
+
+t,t+n + xxccy
+
+(6)
+
+ρt,t+n ≡ 1
+n
+
+The cross-currency basis swap rate, xxccy
+CIP condition where interest rates are Libor interest rate swap rates.
+
+t,t+n, thus measures deviations from the
+
+Data on cross-currency basis swaps come from Bloomberg. Figure 4 shows
+the ﬁve-year Libor basis for G10 currencies between January 2001 and
+
+9 A detailed cash ﬂow diagram of these transactions can be found in the Internet Appendix,
+
+which is available in the online version of the article on the Journal of Finance website.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License928
+
+The Journal of Finance R(cid:3)
+
+September 2016, while Panel B of Table I reports averages and standard devi-
+ations by subperiod. Before 2007, the ﬁve-year Libor basis was slightly positive
+for Australian, Canadian, and New Zealand dollars and negative for all other
+currencies, but all bases were very close to zero. The ﬁve-year Libor bases
+started diverging from zero in 2008, reaching their sample peak during the Eu-
+ropean debt crisis in 2012. The Libor bases narrowed in 2013 and early 2014,
+but started widening again in the second half of 2014. In the postcrisis sample,
+the Australian dollar and the New Zealand dollar exhibit the most positive
+bases, equal to 25 and 31 bps, on average, respectively, while the Japanese yen
+and the Danish krone exhibit the most negative bases, equal to −62 and −47
+bps on average, respectively. The Swiss franc and the euro also experience very
+negative bases.
+
+At short and long horizons, CIP deviations abound postcrisis. But the text-
+book treatment of these deviations points to potential transaction costs and
+default risk, not necessarily to arbitrage opportunities.
+
+II. CIP-Based Arbitrage Opportunities
+
+In this section, we start with a short description of the main concerns with
+a Libor-based investment strategy and then address those concerns using repo
+contracts and bonds issued by KfW and other multicurrency issuers. We demon-
+strate that the existence of the repo and KfW basis implies CIP arbitrage op-
+portunities free from currency and credit risk, even after taking into account
+transaction costs.
+
+A. Credit Risk in the Libor CIP Arbitrage
+
+A potential arbitrageur, noticing say a negative Libor CIP basis on the
+yen/dollar market, would need to borrow in U.S. dollars at the dollar Libor
+rate, invest in yen at the yen Libor rate, and enter a forward contract to convert
+yen back into U.S dollars at the end of her investment period. The investment
+strategy immediately raises three questions. First, can the arbitrageur really
+borrow and lend at the Libor rates? Libor rates are only indicative, that is, they
+do not correspond to actual transactions. The arbitrageur’s actual borrowing
+rate in U.S. dollars may thus be higher than the indicative Libor rate, even
+in the absence of any manipulation. More generally, transaction costs exist for
+both spot and derivative contracts and may lower the actual returns. Second,
+does the arbitrageur take on credit risk when lending at the yen Libor rate?
+Libor rates are unsecured: if the arbitrageur faces a risk of default on her loan,
+she should be compensated by a default risk premium, which may then account
+for the CIP deviations. Third, does the arbitrageur take on counterparty risk
+when entering an exchange rate forward contract? This last concern appears
+of second-order importance, as the effect of counterparty risk on the pricing of
+forwards and swaps is negligible due to the high degree of collateralization. As
+speciﬁed in the Credit Support Annex of the International Swap and Deriva-
+tive Association, common market practice is to post variation margins in cash
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+929
+
+with the amount equal to the mark-to-market value of the swap. Initial mar-
+gins are also posted to cover the gap risk not covered by the variation margins.
+In the event of a counterparty default, the collateral is seized by the other
+counterparty to cover the default cost.10
+
+The indicative nature of Libor and the potential default risk are valid con-
+cerns. Indeed, default risk appears as the recent leading explanation for CIP
+deviations in the literature (e.g., Tuckman and Porﬁrio (2004)). Formally, the
+default risk explanation of CIP deviations relies on cross-country differences in
+creditworthiness of different Libor panel banks. Let us assume that the mean
+credit spread for the yen Libor panel is given by spJPY
+and the mean credit
+and y∗USD
+. Let y∗JPY
+spread for the U.S. dollar Libor panel is given by spUSD
+be the true risk-free rates in yen and U.S. dollars and assume that CIP holds
+for risk-free rates. Starting from the deﬁnition of the basis in equation (4) and
+replacing each interest rate by the sum of the risk-free rate and the credit
+spread leads to
+
+t
+t
+
+t
+
+t
+
+(cid:3)
+
+(cid:2)
+
+(cid:3)
+
+xJPY/USD,Libor
+t
+
+=
+=
+
+∗USD
+y
+t
+∗USD
+y
+t
+
++ spUSD
+t
+(cid:2)
+−
+∗JPY
+y
+t
+
+∗JPY
+y
+t
+
+−
+− ρJPY/USD
+
+t − ρJPY/USD
++ spJPY
+(cid:2)
+(cid:3)(cid:5)
++
+− spJPY
+spUSD
+
+t
+
+,
+
+(cid:3)
+
+t
+
+t
+
+t
+
+.
+
+(7)
+
+(cid:2)
+(cid:4)
+
+In the absence of CIP deviations for risk-free rates, the term inside brackets is
+zero. In this case, the Libor-based currency basis of the yen/dollar is given by
+the difference between credit risk in dollar Libor and yen Libor panels:
+
+xJPY/USD,Libor
+t
+
+= spUSD
+
+t
+
+− spJPY
+
+t
+
+.
+
+(8)
+
+Therefore, the yen basis can be negative if the yen Libor panel is riskier than
+the dollar Libor panel. We test this hypothesis by regressing changes in the
+Libor basis xi,Libor
+for currency i on changes in the mean CDS spread between
+banks on the interbank panel of currency i and the dollar panel:
+
+t
+
+xi,Libor
+
+t
+
+= αi + β
+
+cdsi
+
+t − cdsUSD
+
+t
+
++ i
+t .
+
+(9)
+
+(cid:2)
+
+(cid:3)
+
+We use weekly changes in ﬁve-year Libor cross-currency basis swaps and ﬁve-
+year credit default swaps (CDS) of banks since 2007. The banks on the inter-
+bank panels included in our study and detailed regression results are reported
+in the Internet Appendix. If CDS spreads measure credit spreads perfectly,
+equation (8) suggests a slope coefﬁcient of −1 and an R2 of 1. All of the slope
+coefﬁcients are statistically different from −1, most of them are positive, and
+all R2 are tiny. In a nutshell, we do not ﬁnd much evidence in favor of credit
+risk. To rule it out, we turn to repo contracts.
+
+10 Direct empirical estimates for the magnitude of counterparty risk are available for the CDS
+market, where counterparty risk is a more serious concern due to the possibility of losing the
+full notional of the trade. Consistent with a high degree of collateralization, Arora, Gandhi, and
+Longstaff (2011) ﬁnd that a 645 bps increase in the seller’s CDS spread translates into only a 1 bps
+reduction in the quoted CDS premium using actionable quote data. Using real CDS transaction
+data, Du et al. (2016) obtain estimates of similar magnitude.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License930
+
+B. Repo Basis
+
+The Journal of Finance R(cid:3)
+
+At short maturities, one way to eliminate the credit risk associated with
+Libor-based CIP is to use secured borrowing and lending rates from the repo
+markets. We thus use GC repo rates in U.S. dollars and foreign currencies to
+construct an alternative currency basis measure.
+
+A general collateral (GC) repo is a repurchase agreement in which the cash
+lender is willing to accept a variety of Treasury and agency securities as col-
+lateral. Since GC assets are of high quality and very liquid, GC repo rates are
+driven by the supply and demand of cash, as opposed to the supply and demand
+of individual collateral assets. Given the U.S. dollar GC repo rate y$,Repo
+t,t+n and
+the foreign currency GC repo rate yRepo
+t,t+n, the general deﬁnition of the basis in
+equation (4) leads to the following repo basis:
+(cid:2)
+
+(cid:3)
+
+t,t+n = y$,Repo
+t,t+n −
+xRepo
+
+t,t+n − ρt,t+n
+yRepo
+
+.
+
+(10)
+
+Since the bulk of repo transactions entail very short maturities, we focus on
+the repo basis at the one-week horizon.
+
+Our data cover the Swiss, Danish, euro-area, Japanese, and U.S. repo mar-
+kets. The ﬁrst two columns of Table II report the annualized mean and standard
+deviation of Libor- and repo-based bases during the January 2009 to Septem-
+ber 2016 period. The two bases are indistinguishable from each other for most
+of the sample period. The Danish krone exhibits the most negative mean repo
+basis, equal to −41 bps if Libor-based and −35 bps if repo-based. The euro ex-
+hibits the least negative mean repo basis of −20 bps with Libor rates and −15
+with repo rates. For the Swiss franc and the yen, the CIP deviation is larger in
+magnitude for repo than for Libor rates. Clearly, CIP deviations exist even for
+interest rates that are free from credit risk.
+
+A negative basis entices the arbitrageur to borrow at the U.S. dollar GC repo
+rate and invest in the foreign currency GC repo rate, while paying the forward
+premium to hedge the foreign currency exposure. A positive basis suggests
+the opposite strategy of borrowing at the foreign currency rate, receiving the
+forward premium, and investing in the U.S. dollar rate. The arbitrage proﬁts
+under the negative and positive arbitrage strategies, denoted by π Repo−and
+π Repo+, respectively, are thus
+(cid:4)
+t,t+n ≡
+π Repo−
+yRepo
+t,t+n,Bid
+t,t+n ≡ y$,Repo
+π Repo+
+t,t+n,Bid
+
+− y$,Repo
+t,t+n,Ask
+(cid:5)
+− ρt,t+n,Bid
+
+− ρt,t+n,Ask
+−
+
+yRepo
+t,Ask
+
+(11)
+
+(12)
+
+(cid:4)
+
+(cid:5)
+
+,
+
+.
+
+We assume that the transaction cost for each step of the arbitrage strategy is
+equal to one-half of the posted bid-ask spread. We take into account bid-ask
+spreads on all forward and spot contracts and a conservative bid-ask spread
+for the U.S. dollar repo. The average bid-ask spread for U.S. repo used in our
+calculation is about 9 bps, which is signiﬁcantly higher than the 4 bps bid-ask
+spread quoted on Tullett Prebon. Transaction costs for Danish repos are also
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+931
+
+Table II
+
+One-Week Libor- and Repo-Based Basis and Repo CIP Arbitrage
+
+Columns (1) and (2) report the annualized mean and standard deviation for the one-week Libor
+and GC repo basis for the Swiss franc (CHF), the euro (EUR), the Danish krone (DKK), and the
+Japanese yen (JPY) during the 01/01/2009 to 09/15/2016 period. Column (3) reports the mean and
+standard deviation for the one-week arbitrage proﬁts of funding at the U.S. dollar GC repo rate
+and investing at the foreign currency GC repo rate, provided that the arbitrage proﬁts are positive.
+The last column reports the mean and standard deviation for the one-week arbitrage proﬁts of
+funding at the U.S. dollar Libor and investing at the foreign currency GC repo rate, provided that
+the arbitrage proﬁts are positive. In the last two columns, we also report the percentage of the
+sample with positive arbitrage proﬁts for each currency. All arbitrage proﬁts take into account
+the transaction costs on the forward and spot exchange rates, and the U.S. and Danish krone
+repo rates, but not the Swiss franc, euro, and yen repo rates. Standard errors are reported in
+parentheses.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Repo-Repo
+
+Repo-Libor
+
+Libor Basis Repo Basis
+
+Arbitrage Proﬁts
+
+Arbitrage Proﬁts
+
+CHF
+
+DKK
+
+EUR
+
+JPY
+
+Mean
+SD
+
+% sample with proﬁts > 0
+
+Mean
+SD
+
+% sample with proﬁts > 0
+
+Mean
+SD
+
+% sample with proﬁts > 0
+
+Mean
+SD
+
+% sample with proﬁts > 0
+
+−20.8
+(28.1)
+−41.0
+(21.6)
+−19.7
+(16.3)
+−21.6
+(27.7)
+
+−24.4
+(31.2)
+−34.9
+(26.9)
+−15.4
+(14.3)
+−25.9
+(27.6)
+
+15.6
+(26.6)
+83%
+18.5
+(22.2)
+70%
+11.2
+(13.1)
+80%
+17.1
+(21.8)
+93%
+
+16.9
+(28.2)
+83%
+20.4
+(23.2)
+62%
+12.1
+(13.9)
+84%
+17.7
+(22.9)
+96%
+
+taken into account with signiﬁcantly wider average bid-ask spreads equal to
+19 bps. The Bloomberg series used in our repo basis calculations do not contain
+bid-ask spreads for the euro, Swiss franc, or yen. In the case of euro repos, data
+from Thomson Reuters Eikon suggest that the average bid-ask spread is about 6
+bps. We do not have bid-ask spread information for the Swiss franc and the yen.
+The third column of Table II reports the net proﬁts obtained from the nega-
+tive basis arbitrage strategy, which is implemented provided that the ex-ante
+proﬁts are positive. The average annualized proﬁts range from 11 to 19 bps after
+taking into account transaction costs. The proﬁts vary over time, with standard
+deviations ranging from 13 to 27 bps. The arbitrage proﬁts are positive for the
+majority of the sample window. The conditional volatility of each arbitrage
+strategy is again naturally zero, and the conditional Sharpe ratio is inﬁnite.
+
+One potential concern with the arbitrage above is that borrowing in the U.S.
+GC repo market would require posting a U.S. Treasury bond as collateral,
+while investing in the foreign GC repo market would entail receiving a foreign
+Treasury bond as collateral. As a result, the scarcity of U.S. Treasury bonds
+as collateral or the difference in collateral value between U.S. and foreign
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License932
+
+The Journal of Finance R(cid:3)
+
+Treasury bonds could in theory be a source of CIP deviations for repo rates. To
+address this concern, in the last column of Table II, we report the arbitrage
+proﬁts for borrowing in the U.S. Libor market and investing in the respective
+foreign GC repo market. Since this arbitrage uses unsecured dollar funding,
+the arbitrageur does not need to post U.S. Treasury bonds as collateral, but
+nevertheless receives the foreign Treasury bonds as collateral. The arbitrage
+proﬁts in column (4) are very similar to the proﬁts in column (3) based on U.S.
+repo funding. This suggests that collateral valuation cannot be a main driver
+of CIP deviations.
+
+C. KfW Basis
+
+We turn now to CIP deviations at the long end of the yield curve. GC repo
+contracts do not exist for long maturities, but we can construct an alternative
+long-term cross-currency basis free from credit risk by comparing direct dollar
+yields on dollar-denominated debt and synthetic dollar yields on debt denomi-
+nated in other currencies for the same risk-free issuer and the same maturity
+in years. To do so, we focus on bonds issued by the KfW, a AAA-rated German
+government-owned development bank, with all its liabilities fully backed by
+the German government. The KfW is a very large multicurrency issuer, with
+an annual issuance of around $70 billion and $370 billion of bonds outstanding.
+Schwartz (2015) provides more details on KfW bonds, comparing them to Ger-
+man government bonds to study their liquidity premium. Here, we compare
+KfW bonds of similar maturity issued in different currencies.
+
+To simplify exposition, we consider a world with zero-coupon yield curves
+and swap rates. Detailed calculations involving coupon-bearing bonds and ad-
+ditional data are reported in the Internet Appendix.
+
+The ﬁrst column of Table III reports summary statistics on the KfW basis
+during the January 2009 to August 2016 period. The mean postcrisis KfW basis
+is zero for the Australian dollar but is signiﬁcantly negative for the other three
+currencies: −24 bps for the Swiss franc, −14 bps for the euro, and −30 bps
+for the yen. The second column of Table III reports similar summary statistics
+for the basis conditional on a positive basis for the Australian dollar and a
+negative basis for the other three currencies: while the Australian dollar basis
+is positive only 56% of the time, the other bases are negative at least 94% of
+the time. As a result, the average conditional basis is 7 bps for the Australian
+dollar, and close to its unconditional value for the other currencies: −24 bps for
+the Swiss franc, −15 bps for the euro, and −31 bps for the yen. These bases
+point to potential arbitrage strategies.
+
+When the KfW basis is negative, a potential arbitrage strategy would be to
+invest in the KfW bond denominated in foreign currency, pay the cross-currency
+swap to convert foreign currency cash ﬂows into U.S. dollars, and short-sell the
+KfW bond denominated in U.S. dollars, paying the shorting fee. When the KfW
+basis is positive, the arbitrage strategy would be the opposite.11
+
+11 Since shorting contracts expire before KfW bonds mature, the strategy embeds a small
+
+rollover-fee risk.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+933
+
+KfW Basis and KfW CIP Arbitrage
+
+Table III
+
+Following the general deﬁnition of the basis in equation (2), the KfW cross-currency basis is the
+difference between the direct borrowing cost of KfW in U.S. dollars and the synthetic borrowing
+cost of KfW in foreign currency j,
+
+(cid:2)
+
+t,t+n = y$,KfW
+xKfW
+
+t,t+n −
+
+t,t+n − ρ j
+y j,KfW
+
+t,t+n
+
+(cid:3)
+
+,
+
+t,t+n and y j,Kf W
+
+where y$,Kf W
+t,t+n denote the zero-coupon yields on KfW bonds denominated in U.S. dollars
+and foreign currency j. The ﬁrst column reports the annualized mean and annualized standard
+deviation for the KfW basis by currency during the 1/1/2009 to 08/31/2016 period. The second
+column reports similar statistics, conditional on observing a positive KfW basis for the Australian
+dollar (AUD) and a negative KfW basis for the Swiss franc (CHF), euro (EUR), and Japanese yen
+(JPY). The third column reports summary statistics for arbitrage proﬁts. The arbitrages (a positive
+basis arbitrage strategy for the Australian dollar and a negative basis arbitrage strategy for the
+Swiss franc, euro, and Japanese yen) are implemented, provided that the proﬁts remain positive
+after taking into account the bid-ask spreads of bonds and swaps. The last two columns report
+similar proﬁts also taking into account the cost of shorting KfW bonds. The fourth (ﬁfth) column
+assumes that the costs are equal to the 25th (50th) percentile of the shorting costs for KfW bonds of
+the corresponding currency on the same trading date. Standard errors are reported in parentheses.
+
+(1)
+Full-
+
+Sample
+Basis
+
+0.0
+(11.6)
+
+−23.5
+(15.7)
+
+−13.6
+(9.7)
+
+−30.2
+(15.2)
+
+(3)
+
+(2)
+
+Conditional
+
+Positive Proﬁts
+without Shorting
+
+Basis
+
+7.0
+(6.1)
+56%
+−24.3
+(15.0)
+97%
+−14.7
+(8.8)
+94%
+−30.8
+(14.6)
+98%
+
+Fee
+
+4.3
+(4.2)
+10%
+15.0
+(10.7)
+72%
+9.3
+(6.7)
+68%
+21.6
+(13.5)
+90%
+
+(4)
+
+Positive
+
+Proﬁts with
+
+25% Fee
+
+4.5
+(2.8)
+9%
+11.8
+(9.0)
+50%
+6.7
+(5.4)
+34%
+17.7
+(12.0)
+75%
+
+(5)
+
+Positive Proﬁts
+with Median
+
+Fee
+
+3.5
+(2.8)
+3%
+10.1
+(9.4)
+33%
+6.1
+(5.0)
+23%
+16.3
+(11.7)
+63%
+
+AUD
+
+CHF
+
+EUR
+
+JPY
+
+Mean
+SD
+
+% sample
+
+Mean
+SD
+
+% sample
+
+Mean
+SD
+
+% sample
+
+Mean
+SD
+
+% sample
+
+The last three columns of Table III describe the proﬁts net of transaction
+costs for the positive Australian dollar arbitrage and the negative Swiss franc,
+euro, and Japanese yen arbitrages. The third column takes into account bid-
+ask spreads on swaps and bonds, but not the bond short selling costs. The
+negative-basis arbitrage strategy yields positive proﬁts for the Swiss franc,
+euro, and Japanese yen for the majority of the sample, with averages ranging
+from 9 to 22 basis points. The positive-basis arbitrage strategy of the Australian
+dollar yields positive proﬁts only 10% of the time. The fourth and ﬁfth columns
+report similar proﬁts also taking into account the cost of shorting KfW bonds.
+The fourth (ﬁfth) column assumes that the costs are equal to the 25th (50th)
+percentile of the shorting costs for KfW bonds of the corresponding currency
+on the same trading date. The negative-basis arbitrage strategy yields positive
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License934
+
+The Journal of Finance R(cid:3)
+
+proﬁts for between 30% and 50% of the sample for the Swiss franc and the
+euro, and for around 75% of the sample for the Japanese yen. The positive-basis
+arbitrage yields proﬁts for less than 5% of the sample for the Australian dollar.
+While the Australian dollar does not exhibit signiﬁcant arbitrage opportunities
+net of transaction costs, the Swiss franc, euro, and Japanese yen clearly do.
+Assuming that arbitrageurs incur the median shorting fees prevalent on the
+day of their transaction, average proﬁts range from 6 to 16 bps, with standard
+deviations ranging from 5 to 12 bps. Again, the conditional volatility of such
+strategies is zero and the conditional Sharpe ratio is inﬁnite for the ﬁxed
+investment horizon of the bonds.
+
+Can cross-country differences in the liquidity of KfW bonds explain the CIP
+deviations? The answer depends on the currency pairs. For the euro and the
+Australian dollar, differences in liquidity vis-`a-vis the U.S. dollar cannot ex-
+plain CIP deviations; for the yen and the Swiss franc, they may.12
+
+Finally, neither credit risk nor the covariance between credit risk and cur-
+rency risk seem to explain CIP deviations for KfW yields. Even if there is a
+small amount of credit risk embedded in KfW bonds, it should be similar across
+currencies and thus should not have a ﬁrst-order effect on CIP deviations for
+KfW yields.13 In theory, combining credit risk and exchange rate risk may ex-
+plain the CIP deviations if the credit risk and exchange rate risk are correlated.
+This is the case for the euro basis, as investors are likely to expect the euro
+to depreciate against the dollar upon a KfW default. However, as explained in
+Du and Schreger (2016), such a covariance adjustment should be very small in
+magnitude because the credit spread of the KfW is small and directionally at
+odds with a negative cross-currency basis for the euro.
+
+Overall, deviations from CIP are present in many currency and ﬁxed in-
+come markets, often leading to signiﬁcant arbitrage opportunities. In the next
+section, we review potential causes of such arbitrage opportunities.
+
+III. Potential Explanations
+
+Deviations from CIP are at odds with frictionless ﬁnancial markets. In this
+section, we hypothesize that the persistent and systematic CIP deviations can
+be explained by a combination of two factors: (1) the balance sheet constraints
+
+12 On the one hand, the liquidity of euro-denominated KfW bonds is at least comparable to, if
+not better than, the liquidity of dollar-denominated bonds. Therefore, liquidity differences cannot
+explain the positive arbitrage proﬁts of going long in euro bonds and shorting U.S. dollar bonds.
+Likewise, the Australian dollar market, with an amount outstanding of around $21 billion, is
+signiﬁcantly less liquid than the U.S. dollar market. Thus, the lower liquidity in the KfW Australian
+market works against ﬁnding positive CIP arbitrage opportunities of going long in U.S. dollar-
+denominated KfW bonds and shorting Australian dollar-denominated KfW bonds. On the other
+hand, the Swiss franc and Japanese yen markets are comparatively small with total amounts
+outstanding of less than $5 billion. As a result, the liquidity differential can be a potential factor
+in explaining the positive proﬁts of going long in the more illiquid yen and Swiss franc KfW bonds
+and shorting the more liquid dollar KfW bonds.
+
+13 Since we are using debt of the same seniority, the pari passu clause should guarantee the
+
+same recovery rate.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+935
+
+that ﬁnancial intermediaries face, which limit the size of exposure that can
+be taken to narrow the CIP deviations, and (2) the international imbalances
+in investment demand and funding supply across currencies, which affect the
+demand for exchange rate forwards and swaps and, in turn, lead to CIP devia-
+tions.
+
+A. Balance Sheet Constraints of Financial Intermediaries
+
+Before the global ﬁnancial crisis, global banks actively arbitraged funding
+costs in the interbank markets across currencies and enforced the CIP con-
+dition. Since the crisis, a wide range of regulatory reforms have signiﬁcantly
+increased banks’ balance sheet costs of arbitrage and market making activities.
+Bank regulations likely also affect other nonregulated entities, such as hedge
+funds, increasing the cost of leverage for the overall ﬁnancial market. We con-
+sider how the following banking regulations affect CIP arbitrages: (i) non-risk-
+weighted capital requirements, or the leverage ratio, (ii) risk-weighted capital
+requirements, and (iii) other banking regulations, such as the restrictions on
+proprietary trading and the liquidity coverage ratio. Finally, we discuss lim-
+its to arbitrage that other players, such as hedge funds, money market funds
+(MMFs), foreign currency reserve managers, and corporate issuers face.
+
+A.1. Non-Risk-Weighted Capital Requirements
+
+Non-risk-weighted capital requirements are particularly relevant for short-
+term CIP arbitrage. The leverage ratio requires banks to maintain a minimum
+amount of capital against all on-balance-sheet assets and off-balance-sheet
+exposure, regardless of their risk. Short-term CIP arbitrage trades have very
+little market risk, but still expand bank balance sheets when levered since
+they involve borrowing and lending in the cash markets and therefore make
+the leverage ratio requirement more binding.14
+
+For foreign banks, the leverage ratio did not exist before the crisis; it is
+now equal to 3% under Basel III.15 For U.S. banks, while the leverage ratio
+existed before the crisis, it became more stringent following the crisis with
+the introduction of the supplementary leverage ratio, which is equal to 5%
+
+14 Banks may arbitrage the CIP deviations as real money investors, selling dollar Treasury bills
+and purchasing an equivalent value of yen Treasury bills. Such trades change the composition
+of the assets without affecting the total size of the balance sheet, and thus have no effect on the
+leverage ratio.
+
+15 As noted by the Basel Committee on Banking Supervision (2014, p. 1), “Implementation of
+the leverage ratio requirements has begun with bank-level reporting to national supervisors of the
+leverage ratio and its components from 1 January 2013, and will proceed with public disclosure
+starting 1 January 2015. The Committee will continue monitoring the impact of these disclosure
+requirements. The ﬁnal calibration, and any further adjustments to the deﬁnition, will be com-
+pleted by 2017, with a view to migrating to a Pillar 1 (minimum capital requirement) treatment
+on 1 January 2018.” Even though there is no formal penalty during the observation period before
+the rule ﬁnally kicks in on January 1, 2018, the leverage ratio has been a concern for European
+banks due to the close monitoring by the regulatory authority and public disclosure requirements.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License936
+
+The Journal of Finance R(cid:3)
+
+to 6% for systematically important ﬁnancial institutions. The leverage ratio
+requirement is likely to be acting as a constraint on bank balance sheets. A
+simple back-of-the-envelope approximation illustrates the impact of a leverage
+ratio equal to 3% that binds. If we assume that banks need to maintain 3%
+of their capital against CIP arbitrage trades, and that their overall objective
+in terms of the rate of return on capital is around 10%, then banks need at
+least a 3% × 10% = 30 bps cross-currency basis to engage in the trade.16 Thus,
+many of the arbitrage opportunities that are balance sheet-intensive may not be
+sufﬁciently attractive for banks: as balance sheet expansion becomes expensive
+due to the leverage ratio requirement, banks may limit or even shy away from
+CIP arbitrage.
+
+The Basel Committee recommends that the leverage ratio be disclosed at
+minimum at the quarter-end. The actual method used to calculate the leverage
+ratio differs across jurisdictions. For European banks, effective January 2015,
+the European Leverage Ratio Delegated Act changes the deﬁnition of this ratio
+from the average of the month-ends over a quarter to the point-in-time quarter-
+end ratio. For U.S. banks, the supplementary leverage ratio is calculated based
+on the daily average balances across the quarter. Furthermore, mandatory
+public disclosure of the leverage ratio for European banks began in January
+2015. Since European banks play an important role intermediating U.S. dollars
+offshore, we expect the quarter-end dynamics to be particularly pronounced
+since January 2015.
+
+A.2. Risk-Weighted Capital Requirements
+
+From the perspective of risk-weighted capital, global banks face signiﬁcantly
+higher capital requirements since the global ﬁnancial crisis. For example, for
+the eight U.S. globally systematically important banks (G-SIBs), the Tier 1
+capital ratio increased from 4% precrisis to the 9.5% to 13% range under Basel
+III, and the total capital ratio increased from 8% to the 11.5% to 15% range.
+In addition to higher capital ratios against risk-weighted assets (RWAs), the
+estimation of RWA itself also increased signiﬁcantly due to more stringent
+capital rules and the higher volatility of the cross-currency basis.
+
+The central component of the RWA calculation for a CIP trade is the 99%
+value-at-risk (VaR) measure based on 10-business-day holding-period returns,
+typically calculated over a window that corresponds to the past calendar year.
+Since one-week arbitrage opportunities exhibit zero VaR, RWA constraints mat-
+ter only for long-term CIP arbitrages. Basel II.5 (effective January 2013 in the
+United States) introduced an additional “stress-VaR” (SVaR) calibrated for the
+stress period. As Figure 4 shows, the cross-currency basis became signiﬁcantly
+more volatile following the crisis, thus increasing the VaR on the CIP trade.
+
+16 Even if the leverage ratio requirement does not bind, banks might prefer to maintain some
+buffer over the minimum leverage ratio requirement, in which case the leverage ratio would still
+matter. For an alternative approach that takes into account the debt overhang effect, see Darrell
+Duffﬁe’s article “The covered interest parity conundrum” on Risk.net (March 17, 2017).
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+937
+
+In the Internet Appendix, where we focus on a speciﬁc ﬁve-year Libor CIP ar-
+bitrage trade, we show that its capital charge theoretically increases 10 times
+following the crisis. In practice, capital charges are more difﬁcult to estimate
+as they depend on the whole portfolio, not just a single trade. But this simple
+example shows that risk-weighted requirements very likely increased the costs
+of long-term CIP arbitrage strategies.
+
+A.3. Other Banking Regulations
+
+A host of other ﬁnancial regulations have also reduced banks’ willingness
+to engage in CIP arbitrage. For example, the Volcker Rule (a part of the
+Dodd-Frank Act) forbids banks from actively engaging in proprietary trad-
+ing activities. Proprietary trading in spot exchange rates is allowed, but not
+in exchange rate forwards and swaps. As a result, banks can only engage in
+market-making or facilitate the arbitrage activities of their clients in the ex-
+change rate derivative markets. In practice, however, the distinction between
+arbitrage and market-making may be difﬁcult to draw. In addition, the over-
+the-counter derivatives market reform sets higher capital and minimum mar-
+gin requirements for cross-currency swaps, which are generally uncleared by
+central counterparties, further increasing the capital necessary to implement
+the CIP trade.
+
+In addition to the new risk-weighted capital rules and the leverage ratio,
+the Basel III agreement introduces the liquidity coverage ratio, which requires
+banks to hold high-quality liquidity assets (HQLAs) against potential net cash
+outﬂows during a 30-day stress period, where the expected inﬂows are equal
+at most to 75% of the expected outﬂows. The impact of the CIP trade is com-
+plex. When the 75% cap is binding, the CIP trade can deteriorate the liquidity
+coverage ratio. Investing in HQLAs, for example, central bank reserves, could,
+however, improve the liquidity coverage ratio.
+
+A.4. Limits to Arbitrage Facing Other Potential Arbitrageurs
+
+We turn now to the other potential arbitrageurs, that is, hedge funds, MMFs,
+reserve managers, and corporate issuers. For each category, we brieﬂy review
+its ability to proﬁt from, and thus attenuate the CIP deviations, along with
+its potential constraints. The persistence of CIP deviations suggests that these
+potential arbitrageurs take only limited positions.
+
+The regulatory reforms on banks certainly have some spillover effects on the
+cost of leverage that nonregulated entities, such as hedge funds, face. This is
+because hedge funds need to obtain funding from their prime brokers, which
+are regulated entities. In order to sell the CIP arbitrage strategy to their clients,
+hedge funds would need to lever up the arbitrage strategy 10 or 20 times to
+make it attractive. When borrowing large amounts, their borrowing costs may
+increase signiﬁcantly as their positions show up in their prime brokers’ balance
+sheets (making prime brokers’ capital requirements more binding).
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License938
+
+The Journal of Finance R(cid:3)
+
+U.S. prime MMFs hold large amounts of commercial paper (CP) and cer-
+tiﬁcates of deposit (CDs) issued by foreign banks and act as an important
+alternative source of dollar funding to foreign banks. The recent MMF reform
+has a signiﬁcant impact on the intermediation capacity of prime MMFs. The
+reform requires a ﬂoating net asset value for prime MMFs and allows gates
+and fees to limit redemptions for prime funds, which led to large outﬂows of
+funds from prime MMFs to government MMFs. Government MMFs do not hold
+bank CDs or CP. In the run-up to the MMF reform implementation (October
+14, 2016), as dollar funding from U.S. prime MMFs became scarcer and more
+expensive, the cross-currency basis also widened notably.
+
+In addition to MMFs, FX reserve managers with large dollar-denominated
+holdings may arbitrage CIP deviations. For example, the People’s Bank of
+China reportedly increased its holdings of Japanese Treasury bills, which, on
+the swapped basis, quadrupled yields on U.S. Treasury bills.17 In addition, as
+of June 30, 2016, more than half of the foreign currency assets at the Reserve
+Bank of Australia are denominated in Japanese yen, with more than 90% of
+the yen-denominated assets swapped into other currencies (Reserve Bank of
+Australia (2016)).
+
+Last but not the least, corporate issuers and bank treasuries can also arbi-
+trage long-term CIP deviations by issuing long-term debt in different currencies
+and then swapping into their desired currency. In the Internet Appendix, we re-
+port additional evidence on the CIP condition for bond yields of the same risky
+issuer denominated in different currencies. Using a panel including global
+banks, multinational nonﬁnancial ﬁrms, and supranational institutions, we
+show that the issuer-speciﬁc basis was close to zero precrisis but has been per-
+sistently different from zero postcrisis. Large differences in CIP bases appear
+postcrisis across issuers due to differences in funding costs over respective Li-
+bor benchmarks. Relative to the synthetic dollar rate obtained by swapping
+foreign currency interest rates, foreign banks generally borrow in U.S. dollars
+directly at higher costs, whereas U.S. banks and supranational institutions
+generally borrow in U.S. dollars directly at lower costs. As a result, U.S. banks
+and supranational institutions are in the best position to arbitrage the negative
+cross-currency basis, especially during periods of ﬁnancial distress.
+
+A.5. Testable Hypothesis
+
+In summary, the rules on and behavior of banks have changed since the
+crisis, offering a potential explanation for the CIP deviations and suggesting
+some simple predictions.
+
+PREDICTION 1:
+(i) CIP deviations are wider when banks’ balance sheet costs
+are higher, particularly toward quarter-end ﬁnancial reporting dates; (ii) CIP
+deviations are of similar magnitude to the balance sheet costs associated with
+
+17 See the article “World’s Biggest Bond Traders Undeterred by Negative Yields” in Bloomberg,
+
+August 21, 2016.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+939
+
+wholesale dollar funding; and (iii) CIP deviations are correlated with other
+near-risk-free ﬁxed income spreads.
+
+Constraints on ﬁnancial intermediaries are a likely driver of the overall in-
+crease in CIP deviations postcrisis. In the absence of currency-speciﬁc trading
+costs, frictions to ﬁnancial intermediation would likely affect all currencies
+similarly. Yet, large cross-currency differences exist in the data. This points to
+hedging demand arising from international imbalances in funding and invest-
+ment opportunities across currencies.
+
+B. International Imbalances
+
+The second element of our two-factor hypothesis works as follows. Search-for-
+yield motives create large customer demand for investments in high-interest-
+rate currencies, such as the Australian and New Zealand dollars, and a large
+supply of savings in low-interest-rate currencies, such as the Japanese yen
+and Swiss franc. Japanese life insurance companies, for example, may look
+for high yields in the U.S. Treasury markets (instead of investing in the low
+yield, yen-based Treasuries). Part of such investments is certainly currency-
+hedged, for example, Japanese life insurers sell dollars and buy yen forward
+to hedge their U.S. Treasury bond portfolios. Financial intermediaries, such
+as FX swap market makers, supply currency hedging but do not want to bear
+the currency risk. To that end, ﬁnancial intermediaries hedge the currency
+exposure of their forward and swap positions in the cash market by going long
+in low-interest-rate currencies and short in high-interest-rate currencies. The
+proﬁt per unit of notional is equal to the absolute value of the cross-currency
+basis, compensating the intermediary for the cost of capital associated with the
+trade. This hypothesis leads to the following prediction.
+
+PREDICTION 2: The cross-currency basis is increasing in the nominal interest
+rate differential between the foreign currency and the U.S. dollar.
+
+The intuition behind the above prediction is that the lower the foreign cur-
+rency interest rate compared to the U.S. interest rate, the higher the demand
+for U.S. dollar-denominated investment opportunities, which generates greater
+currency-hedging demand to sell U.S. dollars and buy foreign currencies in the
+forward or the swap market. Since providing these currency-hedging contracts
+is costly for ﬁnancial intermediaries, the cross-currency basis has to become
+more negative to justify the higher balance sheet costs associated with larger
+positions.
+
+With the two-factor hypotheses in mind, we turn now to additional empirical
+
+evidence on CIP deviations.
+
+IV. Characteristics of the Basis
+
+In this section, we characterize the systematic nature of the basis and test the
+two predictions outlined in the previous section, looking at (i) CIP deviations
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License940
+
+The Journal of Finance R(cid:3)
+
+0
+0
+4
+
+0
+0
+3
+
+0
+0
+2
+
+0
+0
+1
+
+0
+
+12/31/14
+
+3/31/15
+
+6/30/15
+
+9/30/15
+
+12/30/15
+
+3/31/16
+
+6/30/16
+
+9/30/16
+
+1w deviation
+
+1m deviation
+
+3m deviation
+
+Figure 5. Illustration of quarter-end dynamics of CIP deviations. The blue-shaded area
+denotes the dates for which the settlement and maturity of a one-week contract spans two quarters.
+The gray-shaded area denotes the dates for which the settlement and maturity dates of a one-month
+contract spans two quarters but excludes the dates in the blue-shaded area. The ﬁgure plots the
+one-week, one-month, and three-month Libor CIP deviations for the yen (in absolute values) in
+red, green, and orange, respectively. (Color ﬁgure can be viewed at wileyonlinelibrary.com)
+
+at quarter-ends, (ii) a proxy for the cost of wholesale dollar funding, (iii) the
+correlation of the CIP deviations with other liquidity spreads, and (iv) the
+correlation with nominal interest rates.
+
+A. Quarter-End Dynamics
+
+We ﬁnd that, since the 2007 to 2008 global ﬁnancial crisis, one-week and one-
+month CIP deviations tend to increase at the quarter-ends for contracts that
+cross quarter-end reporting dates. The quarter-end anomalies have become
+more pronounced since January 2015, which coincides with the change in the
+leverage ratio calculation method and the beginning of the public disclosure of
+the leverage ratio for European banks. These ﬁndings are consistent with the
+view that tightened balance sheet constraints at quarter-ends, due to banking
+regulation, translate into wider CIP deviations in the postcrisis period.
+
+A.1. Quarter-End Effects on the Level of CIP Deviations
+
+To build intuition, Figure 5 focuses on the yen starting in 2015. Banks may
+experience speciﬁc demands on the last day of each quarter, but our identiﬁ-
+cation strategy relies on what happens either one week or one month before
+the quarter-ends. The blue-shaded area denotes the dates for which one-week
+contracts cross quarter-end reporting dates. The gray area denotes the dates
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+941
+
+for which the one-month contract crosses quarter-end reporting dates, but one-
+week contracts stay within the quarter. The ﬁgure plots the one-week, one-
+month, and three-month CIP deviations in levels. It is clear that once the
+one-month contract crosses the quarter-end, the one-month CIP deviation in-
+creases in absolute value. Likewise, once the one-week contract crosses the
+quarter-end, the one-week CIP deviation increases in absolute value. No simi-
+lar pattern obtains for the three-month CIP deviations. With these patterns in
+mind, we turn to a formal causality test.
+
+We test whether CIP deviations are more pronounced at the end of quarters
+versus any other point in time, particularly since the global ﬁnancial crisis and
+since 2015. Our simple difference-in-difference test for the one-week contract
+takes the form
+
+− x1w,it = αi + β1 QendWt + β2 QendWt × Post07t + β3 QendWt × Post15t
+
++γ1 Post07t + γ2 Post15t + it,
+
+where x1w,it is the one-week basis for currency i at time t, αi is a currency ﬁxed
+effect, P OST 07t is an indicator variable equal to one after January 1, 2007
+and zero otherwise, and P OST 15t is an indicator variable equal to one after
+January 1, 2015 and zero otherwise.18 The variable QendWt is an indicator
+variable that equals one if the settlement date for the contract traded at t is
+within the last week of the current quarter and the maturity date is in the
+following quarter.19 These one-week contracts crossing the quarter-ends show
+up on the bank balance sheet on quarter-end reporting dates. The regression
+is estimated on the daily sample from 01/01/2000 to 09/15/2016 on one-week
+Libor, overnight interest rate swap (OIS), and repo bases.20 Similarly, we test
+the quarter-end effect for the monthly CIP deviation using
+
+− x1m,it = αi + β1QendMt + β2QendMt × Post07t + β3QendMt × Post15t
+
++γ1Post07t + γ2Post15t + it,
+
+where QendMt is a binary variable indicating whether the settlement date and
+maturity date of the monthly contract span two quarters.
+
+Table IV reports the regression results. Columns (1) to (3) pertain to the
+one-week CIP deviations based on Libor, OIS, and repos. The slope coefﬁcients
+
+absolute value of the basis.
+
+18 Since most currencies have a negative basis, we obtain almost identical results using the
+19 FX forwards follow the T + 2 settlement convention.
+20 Banks can borrow without collateral at the daily federal funds rate and then swap these daily
+rates for a weekly rate to avoid any interest rate risk over one week. By doing so, banks effectively
+borrow at the OIS rate for one week. As long as banks can borrow at the effective daily federal
+funds rate, no matter how high or low this rate is, the banks are not subject to interest rate risk.
+Recent data by the Federal Reserve Bank of New York suggest that banks do indeed borrow at
+rates very close to the effective daily federal funds rate. From March 2016 to May 2017, the 75th
+percentile of the spread between the actual borrowing rate and the effective borrowing rate is only
+0.7 bps on average; the 99th percentile is 13 bps on average. As a result, only banks in distress
+would bear some interest rate risk.
+
+(13)
+
+(14)
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License942
+
+The Journal of Finance R(cid:3)
+
+Table IV
+
+Quarter-End Effects on the Level of CIP Deviations
+
+This table reports regression results for (the negative of) the daily one-week and one-month Libor,
+OIS, and GC repo bases. QendMt is an indicator variable that equals one if the one-month contract
+traded at t crosses quarter-ends and zero otherwise. QendWt is an indicator variable that equals
+one if the one-week contract traded at t crosses quarter-ends and zero otherwise. Post07 is an
+indicator variable that equals one if the trading date t is on or after 01/01/2007 and zero otherwise.
+Post15 is an indicator variable that equals one if the trading date t is on or after 01/01/2015 and
+zero otherwise. All regressions include currency ﬁxed effects. Columns (1), (2), (4), and (5) use all
+sample currencies. Columns (3) and (6) include only the Danish krone, the euro, the Japanese
+yen, and the Swiss franc due to the lack of good term repo data for other currencies. Newey-West
+standard errors shown in parentheses are used with 90-day lags. *, **, and *** denote signiﬁcance
+levels at the 10%, 5%, and 1% conﬁdence levels. The sample period is 1/1/2000 to 09/15/2016.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+1w Libor
+
+1w OIS
+
+1w Repo
+
+1m Libor
+
+1m OIS
+
+1m Repo
+
+QendWt
+QendWt × Post07t
+QendWt × Post15t
+
+QendMt
+QendMt × Post07t
+QendMt × Post15t
+
+Post07t
+
+Post15t
+
+Observations
+R2
+
+1.0
+(1.0)
+9.7***
+(1.3)
+42.9***
+(2.2)
+
+3.7
+(2.9)
+9.3***
+(3.2)
+36.7***
+(3.4)
+
+5.5*
+(3.2)
+31.0***
+(4.5)
+43.4***
+(8.0)
+
+15.4***
+(1.0)
+5.1***
+(1.6)
+32,102
+0.256
+
+19.3***
+(2.8)
+2.7
+(2.6)
+22,664
+0.140
+
+27.8***
+(2.6)
+−9.2**
+(4.5)
+7,868
+0.150
+
+−0.1
+(0.6)
+4.6***
+(0.8)
+7.9***
+(1.3)
+17.1***
+(1.1)
+3.8**
+(1.8)
+41,577
+0.276
+
+1.4
+(1.4)
+3.0*
+(1.7)
+8.3***
+(2.4)
+17.6***
+(2.1)
+2.7
+(2.9)
+31,765
+0.191
+
+1.5
+(2.2)
+13.7***
+(3.1)
+3.5
+(6.2)
+29.1***
+(2.9)
+1.8
+(6.0)
+7,333
+0.198
+
+β2 and β3 are positive and statistically signiﬁcant across all three instruments.
+The quarter-end CIP deviation relative to the mean deviation in the rest of
+the quarter is on average 9 to 31 bps higher in the post-2007 sample than
+in the pre-2007 sample for the one-week contracts.21 Furthermore, compared
+to the post-2007 sample, the quarter-end weekly CIP deviation increases by
+another 30 to 40 bps on average since January 2015. Columns (4) to (6) pertain
+to the one-month CIP deviations. Again, we ﬁnd that β2 and β3 are consistently
+signiﬁcantly positive except in one case. For CIP deviations based on Libor
+and OIS rates, the month-end deviation relative to the rest of the quarter is
+on average 3 to 5 bps higher postcrisis than precrisis and increases by an-
+other 8 bps in the post-2015 sample. For the one-month repo, while β3 is not
+
+21 The large result for the repo basis is due largely to a smaller sample, which includes only the
+
+Danish krone, the euro, the Swiss franc, and the yen.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+943
+
+signiﬁcant, β2 is highly signiﬁcant and equals 14 bps. Furthermore, we note
+that the coefﬁcients on QendWt and QendMt are very small and largely insignif-
+icant, suggesting that there is very little quarter-end effect before 2007.22
+
+A.2. Quarter-End Effects on the Term Structure of CIP Deviations
+
+Since a three-month forward contract always shows up in a quarterly re-
+port regardless of when it is executed within the quarter, we should not ex-
+pect discrete price movement one week or one month prior to the quarter-
+end. Therefore, the quarter-end balance sheet constraint has implications for
+the term structure of the basis. In particular, we expect the difference be-
+tween the three-month and one-month CIP deviation (tst,3M−1M ≡ xt,3M − xt,1M)
+to drop signiﬁcantly once the one-month contract crosses the quarter-end.
+Meanwhile, the difference between the one-month and one-week CIP deviation
+(tst,1M−1W ≡ xt,1M − xt,1W) should ﬁrst increase signiﬁcantly as the one-month
+contract crosses the quarter-end and then decrease signiﬁcantly once the one-
+week contract crosses the quarter-end.
+
+Table V conﬁrms these predictions in panel regressions. Columns (1) to (3) re-
+port regression results using tst,3M−1M based on Libor, OIS, and repo as follows,
+similar to equation (14):
+− tst,3M−1M = αi + β1QendMt + β2QendMt × Post07t + β3QendMt × Post15t
+(15)
+
++γ1Post07t + γ2Post15t + it.
+
+We ﬁnd that β1 is small and insigniﬁcant, while β2 and β3 are signiﬁcantly
+negative. Compared to the precrisis sample, −tst,3M−1M is 2.3 bps lower relative
+to its mean in the rest of the quarter when the one-month contract crosses the
+quarter-ends in the postcrisis sample. In the post-2015 sample, the quarter-end
+effect corresponds to another 10 bps reduction in −tst,3M−1M compared to its
+postcrisis mean. Columns (4) to (6) report similar tests for tss,1M−1W:
+−tst,1M−1W = αi + β1IQendMt=1,QendWt=0 + β2IQendMt=1,QendWt=0 × Post07t
+
++β3IQendMt=1,QendWt=0×Post15t+β4QendWt+β5QendWt×Post07t
++β6QendWt × Post15t + γ1Post07t + γ2Post15t + it,
+
+where IQendMt=1,QendWt=0 is an indicator variable that equals one if a one-month
+contract traded at t crosses the quarter-end but the one-week contract traded
+at t does not cross the quarter-end. As expected, we ﬁnd signiﬁcantly positive
+β2 and β3 coefﬁcients and signiﬁcantly negative β5 and β6 coefﬁcients, which
+suggests that the difference between one-month and one-week CIP deviations
+ﬁrst increases as the once-month contract crosses the quarter-end but the one-
+week contract does not, and then decreases as the one-week contract crosses
+
+22 The magnitude of the quarter-end effect varies across currencies. The effect is strongest for
+the Japanese yen, likely reﬂecting the importance of the continental European banks subject to
+the quarter-end regulatory reporting in intermediating dollars to Japan.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License944
+
+The Journal of Finance R(cid:3)
+
+Table V
+
+Quarter-End Effects on the Term Structure of CIP Deviations
+
+This table reports regression results on (the negative of) the term structure of daily one-week
+and one-month Libor, OIS, and GC repo bases. QendMt is an indicator variable that equals one if
+the one-month contract traded at t crosses quarter-ends and equals zero otherwise. QendWt is an
+indicator variable that equals one if the one-week contract traded at t crosses quarter-ends and
+equals zero otherwise. IQendMt=1,QendWt=0 is an indicator variable that equals one if QendMt = 1
+and QendWt = 0 and equals zero otherwise. Post07 is an indicator variable that equals one if the
+trading date t is on or after 01/01/2007 and equals zero otherwise. Post15 is an indicator variable
+that equals one if the trading date t is on or after 01/01/2015 and equals zero otherwise. All
+regressions include currency ﬁxed effects. Columns (1), (2), (4), and (5) use all sample currencies.
+Columns (3) and (6) include only the Danish krone, the euro, the Japanese yen, and the Swiss franc
+due to the lack of good term repo data for other currencies. Newey-West standard errors shown in
+parentheses are used with 90-day lags. *, **, and *** denote signiﬁcance levels at 10%, 5%, and 1%
+conﬁdence levels. The sample period is 1/1/2000 to 09/15/2016.
+
+QendMt
+QendMt × Post07t
+QendMt × Post15t
+
+IQendMt=1,QendWt=0
+IQendMt=1,QendWt=0 × Post07t
+IQendMt=1,QendWt=0 × Post15t
+
+QendWt
+QendWt × Post07t
+QendWt × Post15t
+
+Post07t
+
+Post15t
+
+Observations
+R2
+
+(1)
+−tsLibor
+3M−1M
+0.3
+(0.4)
+−2.3***
+(0.5)
+−10.2***
+(0.9)
+
+(2)
+−tsOIS
+3M−1M
+−1.1**
+(0.6)
+−2.0***
+(0.7)
+−8.3***
+(1.0)
+
+(3)
+−tsRepo
+3M−1M
+−1.4
+(0.9)
+−6.5***
+(1.3)
+−23.7***
+(3.5)
+
+0.4
+(0.6)
+−0.2
+(0.9)
+41,553
+0.096
+
+0.5
+(0.5)
+2.4***
+(0.7)
+31,502
+0.056
+
+3.5***
+(0.8)
+2.0
+(2.3)
+5,671
+
+0.071
+
+(4)
+−tsLibor
+1M−1W
+
+(5)
+−tsOIS
+1M−1W
+
+(6)
+−tsRepo
+1M−1W
+
+−0.5
+2.2*
+1.4
+(0.6)
+(1.2)
+(1.3)
+5.7***
+10.6***
+3.0**
+(0.7)
+(1.8)
+(1.4)
+13.2***
+23.9***
+11.2***
+(1.2)
+(4.2)
+(1.4)
+−0.6
+−2.8*
+−3.3*
+(0.8)
+(1.8)
+(1.6)
+−2.6**
+−5.7*** −14.2***
+(2.7)
+(1.8)
+(1.0)
+−36.4*** −27.3*** −82.0***
+(6.8)
+1.1
+(1.0)
+3.8
+(2.4)
+5,799
+
+(1.7)
+1.9***
+(0.7)
+−2.9***
+(1.1)
+32,045
+0.098
+
+(1.9)
+1.5
+(1.1)
+0.6
+(1.0)
+22,491
+0.106
+
+0.136
+
+the quarter-end. These quarter-end effects are again larger in the postcrisis
+period and especially since 2015.
+
+In summary, consistent with the key role of banks’ balance sheets on quarter-
+end reporting dates, we ﬁnd that CIP deviations are systematically larger for
+contracts that cross quarter-end reporting dates after the crisis. We do not
+pin down which part of the regulation matters most, but we show that banking
+regulation affects asset prices. The quarter-end anomalies in the cross-currency
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+945
+
+markets, driven by “window dressing” for better regulatory capital ratios, are
+consistent with the sharp quarter-end decline in the U.S. Triparty repo volume
+(Munyan (2015)) and the quarter-end increase in the spread between repo rates
+in the GFC market and the tri-party markets.23
+
+B. CIP Arbitrage Based on Excess Reserves at Central Banks
+
+We now compare a proxy for banks’ balance sheet costs to the CIP deviations.
+Under unconventional monetary policies implemented by major central banks
+since the global ﬁnancial crisis, global depositary institutions have held large
+amounts of excess reserves at major central banks (e.g., $2.4 trillion at the Fed
+and $0.5 trillion at the ECB in 2016). Excess reserves are remunerated at a
+rate set by the central bank, namely, the IOER.
+
+The IOER at the Fed is often above interest rates paid on private money
+market instruments (for example, the federal funds rate) because government-
+sponsored enterprises (GSEs), such as the Federal Home Loan Banks, do not
+have access to the IOER deposit facility and are net lenders. This creates
+the well-known IOER-federal funds arbitrage for depositary institutions with
+access to the IOER deposit facility: Banks borrow in the federal funds market
+from the GSEs and deposit the proceeds in the form of excess reserves at the
+Fed, earning the IOER-federal funds spread. The trade is risk-free, and central
+bank reserve balances dominate private money market instruments in terms
+of liquidity and fungibility.
+
+Figure 6 shows the IOER, one-week OIS, Libor, and repo rates for the U.S.
+dollar since 2009. The IOER is always greater than the one-week OIS rate
+over the entire sample and is also greater than the one-week Libor and repo
+rates for most of the sample. If borrowing funds did not carry additional costs,
+banks would demand more reserves at the Fed in order to proﬁt from this
+arbitrage opportunity, and the interest rate gap between IOER and private
+money instruments would disappear. The spread earned on the IOER-private
+money market instrument arbitrage thus provides a concrete measure of the
+cost of balance sheet expansion for depository institutions that engage in risk-
+free arbitrage opportunities.24
+
+23 More details on the GFC-Triparty repo spread can be found in the Internet Appendix.
+24 This cost includes at least two components. For U.S. and foreign banks, the cost of leverage,
+summarized in leverage ratios, is likely to be the most important factor since the trade is risk-free,
+but still expands the size of banks’ balance sheet. For U.S. banks, an additional cost matters:
+the deposit insurance fees paid on wholesale funding, which mattered after the Federal Deposit
+Insurance Corporation (FDIC) widened the assessment base for deposit insurance fees to include
+wholesale funding in April 2011. In other words, the IOER is the opportunity cost of wholesale
+dollar funding for depository institutions, and the synthetic dollar interest rates by swapping
+foreign currency investments have to be higher than the IOER to attract banks to engage in CIP
+trades, instead of parking the dollars as excess reserves at the Fed. Consistent with our CIP
+evidence, the gap between the IOER and the federal funds rate widens at quarter-ends if we use
+the overnight federal funds rate instead of the one-week OIS rate. This is because the IOER-federal
+funds arbitrage is typically done at the overnight horizon.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License946
+
+The Journal of Finance R(cid:3)
+
+0
+6
+
+0
+4
+
+i
+
+s
+t
+n
+o
+P
+ 
+s
+s
+a
+B
+
+i
+
+0
+2
+
+0
+
+2009
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+IOER
+
+OIS
+
+Libor
+
+Repo
+
+Figure 6. IOER, OIS, repo, and Libor rates for the U.S. dollar. This ﬁgure plots the one-week
+interest on excess reserves (IOER), overnight interest swap (OIS), GC repo, and Libor rates for the
+U.S. dollar from 1/1/2009 to 09/15/2016. (Color ﬁgure can be viewed at wileyonlinelibrary.com)
+
+Therefore, instead of using the Libor (OIS or repo) rate to capture direct
+U.S. dollar funding costs when computing the cross-currency basis, we use
+the IOER. This is equivalent to assuming, for example, that banks borrow at
+the Libor (OIS or repo) rate and that the difference between the IOER minus the
+Libor (OIS or repo) rate proxies for banks’ balance sheet costs. Table VI reports
+the results using this alternative basis calculation. Compared to the standard
+Libor basis reported in the ﬁrst column, “funding” at the IOER reduces the
+magnitude of the Libor basis by 6 bps on average, as shown in the second
+column. Similarly, compared to the standard OIS basis reported in the third
+column, the basis is 12 bps narrower when using the IOER instead of the OIS to
+capture direct dollar funding costs, as shown in the fourth column. Compared
+to the standard repo basis, the basis is 8 bps narrower when using the IOER
+to capture funding costs, as shown in the sixth column. Therefore, the gap
+between the IOER and OIS/Libor/repo in the United States can explain about
+one-third of the one-week CIP deviations.
+
+The CIP arbitrage based on Libor, OIS, and repo rates has a neutral effect
+on the liquidity coverage ratio at best, but the IOER-federal funds arbitrage
+can potentially improve the liquidity coverage ratio.25 Also, more generally,
+central bank balances are considered safer and more liquid than any private
+
+25 The IOER-federal funds arbitrage can improve the liquidity coverage ratio in two potential
+ways. First, the IOER-federal funds arbitrage increases the numerator and the denominator by
+the same amount, which leads to a mechanical increase in the ratio, especially for large positions.
+Second, if the bank were subject to the composition cap for eligible Level-2 high-quality liquid
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+947
+
+Table VI
+
+t
+
+One-Week Deviations from CIP and Interest Rates on Excess Reserves
+This table shows the means and standard deviations of the one-week cross-currency basis for the
+Swiss franc (CHF), the Danish krone (DKK), the euro (EUR), and the Japanese yen (JPY). Column
+(1), denoted as xLibor
+, refers to the Libor cross-currency basis. Column (2), denoted as IOER-Libor,
+refers to the basis obtained by borrowing at the U.S. dollar interest rate on excess reserves (IOER),
+investing at the foreign currency Libor rate, and hedging the exchange rate risk. Column (3),
+denoted as xOIS
+, refers to the overnight interest rate swap (OIS) cross-currency basis. Column
+(4), denoted as IOER-OIS, refers to the basis obtained by borrowing in U.S. dollars at the IOER
+and investing in foreign currency at the OIS rate. Column (5), denoted as xRepo
+, refers to the repo
+cross-currency basis. Column (6), denoted as IOER-repo, refers to the basis obtained by borrowing
+in U.S. dollars at the IOER and investing in foreign currency at the repo rate. Column (7), denoted
+as xIOER
+, refers to the IOER cross-currency basis. The sample starts in 01/01/2009 and ends in
+09/15/2016. Standard errors are reported in parentheses.
+
+t
+
+t
+
+t
+
+Currency
+
+CHF
+
+DKK
+
+EUR
+
+JPY
+
+Total
+
+(1)
+xLibor
+t
+−20.8
+(28.1)
+−41.0
+(21.6)
+−19.7
+(16.3)
+−21.6
+(27.7)
+−25.7
+(25.5)
+
+(2)
+
+IOER-Libor
+
+−14.9
+(29.1)
+−35.1
+(24.9)
+−13.8
+(18.8)
+−15.8
+(28.2)
+−19.8
+(27.0)
+
+(3)
+xOIS
+t
+−36.1
+(36.3)
+−28.5
+(22.3)
+−22.8
+(15.4)
+−25.8
+(29.7)
+−27.8
+(27.0)
+
+(4)
+
+IOER-OIS
+−24.1
+(36.8)
+−15.5
+(23.1)
+−11.0
+(16.8)
+−13.6
+(29.9)
+−15.6
+(27.6)
+
+(5)
+xRepo
+t
+−24.4
+(31.2)
+−34.9
+(26.9)
+−15.4
+(14.3)
+−25.9
+(27.6)
+−24.4
+(26.4)
+
+(6)
+
+IOER-Repo
+
+−15.7
+(33.2)
+−25.3
+(27.9)
+−6.9
+(16.9)
+−17.5
+(29.5)
+−15.7
+(28.1)
+
+(7)
+xIOER
+t
+−12.6
+(29.8)
+−11.8
+(25.3)
+8.9
+(23.2)
+−14.9
+(28.4)
+−7.5
+(28.5)
+
+market alternatives even before being codiﬁed as Level-1 high-quality liquid
+assets (HQLA) by the Basel liquidity coverage ratio requirement. To take into
+account the better liquidity of central bank balances, we assume that banks
+fund themselves at the U.S. IOER (as above) and invest at the foreign IOER.
+Summary statistics for the IOER basis are reported in the last column of Table
+VI. The average IOER basis is −8 bps, much closer to zero than the Libor and
+OIS basis at −26 and −28 bps, respectively.26
+
+Using the IOER-Libor spread to account for banks’ balance sheet costs and
+investing at the foreign central bank deposit facility signiﬁcantly reduces the
+size of the CIP deviations, but does not eliminate them. For the Danish krone,
+the Swiss franc, and the Japanese yen, the CIP deviations still range from −12
+
+assets (HQLA) (40% of total HQLAs), adding reserve balances (Level-1 HQLA) may permit the
+inclusion of additional eligible Level-2 assets in the numerator of the liquidity coverage ratio.
+
+26 The Internet Appendix reports the time series of the IOER basis, together with the Libor
+basis and the modiﬁed Libor basis obtained by “funding” at the IOER. The bases based on the
+IOER can be positive, while the Libor basis is always negative. A positive IOER basis would lead
+U.S. banks to park excess reserves at the Fed, as opposed to lend out U.S. dollars in the case of a
+negative Libor basis. Increasing reserves at the Fed further reduces bank ﬂows to arbitrage the
+Libor basis.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseThe Journal of Finance R(cid:3)
+
+948
+to −15 bps on average.27 Such CIP deviations imply a risk-free arbitrage op-
+portunity for global depository institutions that can borrow U.S. dollars in the
+wholesale cash funding market and deposit at the foreign central bank deposit
+facility while hedging currency risk, even after accounting for their balance
+sheet costs. Banks are either factoring in higher shadow costs, or are willing
+to forgo some extra yield to hold Fed balances over swapped balances at the
+Bank of Japan, the Swiss National Bank, or the Danish National Bank, even
+though these central bank reserve balances are all risk-free HQLAs. One po-
+tential explanation is that Fed balances are more desirable for fulﬁlling banks’
+dollar liquidity needs compared to swapped foreign central bank balances, even
+though there is no hardwired liquidity coverage ratio imposed at the individual
+currency level.
+
+In summary, by assuming that banks borrow and invest at the IOER, we
+proxy for banks’ balance sheet costs associated with the leverage ratio and ac-
+count for the liquidity advantage of central bank reserve balances over private
+money market instruments. These adjustments correspond to approximately
+two-thirds of the average CIP deviations.
+
+C. Correlated Spreads in Other Markets
+
+Intermediary constraints, if present, would likely affect other asset classes
+beyond exchange rates. We thus compare the dynamics of the currency bases to
+other types of near-arbitrage ﬁxed-income strategies, focusing on (1) the KfW-
+German bund basis, (2) the one- versus three-month U.S. Libor tenor swap
+basis, (3) the CDS-CDX basis, and (4) the CDS and corporate bond (CDS-bond)
+basis. Each of these strategies is detailed in the Internet Appendix. Figure 7
+plots the average of the absolute value of the ﬁve-year Libor currency basis for
+G10 currencies and the four other types of bases in four different panels.
+
+The currency basis appears highly correlated with the two liquidity-based
+bases, that is, the KfW-German bund basis and the Libor tenor basis. They
+all increased during the recent global ﬁnancial crisis and the European debt
+crisis. Although there is no mechanical link between the CIP deviations and
+the KfW-bund and Libor tenor swap bases, their comovement is striking.
+
+The currency basis appears less correlated with the two credit bases, that
+is, the CDS-CDX basis and the bond-CDS basis. Both credit bases increased
+signiﬁcantly during the recent global ﬁnancial crisis, together with the cross-
+currency basis, but they narrowed signiﬁcantly after the crisis between 2010
+and 2014, whereas the currency basis did not. Between 2014 and 2016, the
+credit and currency bases appear to move in sync again.
+
+We test the link across asset classes with a simple regression of the G10
+average changes in the cross-currency bases on changes in the four other liq-
+uidity and credit bases for the 2005 to 2016 and 2010 to 2016 samples. The
+
+27 In the euro area, since the euro overnight index average (EONIA) is signiﬁcantly higher than
+the ECB deposit rate (unlike in the United States), the CIP arbitrage involving euro borrowing
+and Fed deposits is rarely proﬁtable despite the 8 bps average IOER basis for the euro.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+(a)
+
+0
+4
+
+CIP deviation and KfW−bund spread
+
+(b)
+
+0
+4
+
+0
+0
+1
+
+CIP deviation and tenor basis spread
+
+949
+
+0
+2
+
+0
+3
+
+)
+s
+p
+b
+(
+ 
+n
+o
+i
+t
+a
+v
+e
+d
+ 
+P
+C
+
+I
+
+i
+
+0
+2
+
+0
+1
+
+0
+8
+
+0
+6
+
+0
+4
+
+0
+2
+
+)
+s
+p
+b
+(
+ 
+d
+a
+e
+r
+p
+s
+ 
+d
+n
+u
+b
+−
+W
+K
+
+f
+
+0
+3
+
+)
+s
+p
+b
+(
+ 
+n
+o
+i
+t
+a
+v
+e
+d
+ 
+P
+C
+
+I
+
+i
+
+0
+2
+
+0
+1
+
+5
+1
+
+0
+1
+
+5
+
+i
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+ 
+r
+o
+n
+e
+t
+ 
+r
+o
+b
+L
+ 
+D
+S
+U
+
+i
+
+0
+
+(c)
+
+0
+4
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+2016
+
+2004
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+2016
+
+CIP deviation (bps)
+
+KfW−bund spread (bps)
+
+CIP deviation (bps)
+
+USD Libor tenor basis (bps)
+
+0
+
+0
+
+0
+
+CIP deviation and bond−CDS spread
+
+(d)
+
+0
+4
+
+0
+0
+3
+
+CIP deviation and CDS−CDX spread
+
+0
+6
+
+0
+3
+
+0
+2
+
+)
+s
+p
+b
+(
+ 
+n
+o
+
+i
+t
+
+i
+
+a
+v
+e
+d
+P
+C
+
+I
+
+ 
+
+0
+1
+
+0
+0
+2
+
+0
+0
+1
+
+i
+
+ 
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+S
+D
+C
+−
+d
+n
+o
+B
+
+0
+3
+
+0
+2
+
+0
+1
+
+)
+s
+p
+b
+(
+ 
+n
+o
+
+i
+t
+
+i
+
+a
+v
+e
+d
+P
+C
+
+I
+
+ 
+
+0
+4
+
+0
+2
+
+i
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+X
+D
+C
+−
+S
+D
+C
+
+ 
+
+0
+
+0
+
+0
+
+0
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+2016
+
+2006
+
+2008
+
+2010
+
+2012
+
+2014
+
+2016
+
+CIP deviation (bps)
+
+Bond−CDS basis (bps)
+
+CIP deviation (bps)
+
+CDS−CDX basis (bps)
+
+Figure 7. The cross-currency basis and other near-risk-free arbitrages. Each panel com-
+pares the time series of the average currency basis to the time series of other ﬁxed income spreads.
+The average currency basis corresponds to the average of the ﬁve-year Libor cross-currency bases
+of G10 currencies; its scale in bps is reported on the left-hand side. The scale of the other ﬁxed-
+income spreads, also expressed in bps, is reported on the right-hand side of each panel. The other
+ﬁxed-income spreads include: (1) the KfW-bund spread, deﬁned as the spread of a ﬁve-year euro-
+denominated KfW bond over a ﬁve-year German bund, obtained from Bloomberg, (2) the U.S.
+dollar Libor tenor basis spread, deﬁned as the ﬁve-year spread of exchanging one-month U.S.
+dollar Libor against three-month U.S. dollar Libor, obtained from Bloomberg, (3) the bond-CDS
+spread for investment-grade ﬁrms, obtained from Morgan Markets, and (4) the CDS-CDX spread,
+deﬁned as the difference between the average ﬁve-year CDS spread on the 125 constituents of the
+NA.IG.CDX index and the spread on the NA.IG.CDX index, obtained from Markit. (Color ﬁgure
+can be viewed at wileyonlinelibrary.com)
+
+results are reported in the Internet Appendix. In the full sample, which in-
+cludes the global ﬁnancial crisis, the CIP deviations comove signiﬁcantly with
+the four other spreads. In the postcrisis sample, the CIP deviations continue to
+comove signiﬁcantly with the two liquidity spreads, while the correlation with
+the two credit spreads remains positive but is no longer signiﬁcant. Overall,
+the correlation between the CIP deviations and other near-arbitrage strategies,
+especially the KfW-German bund basis and the Libor tenor basis, is consistent
+with a key role for liquidity-providing intermediaries.
+
+D. Cross-Currency Basis and Nominal Interest Rates
+
+Consistent with Prediction 2, we ﬁnd that CIP deviations are highly corre-
+lated with nominal interest rates both in the cross section and in the time series.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License950
+
+0
+2
+
+The Journal of Finance R(cid:3)
+
+3M Libor (corr.=68%)
+
+5Y Libor (corr.=90%)
+
+NZD
+
+AUD
+
+0
+4
+
+0
+2
+
+NZD
+
+AUD
+
+i
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+ 
+r
+o
+b
+L
+
+i
+
+0
+
+0
+2
+−
+
+0
+4
+−
+
+GBP
+
+CHF
+
+JPY
+
+EUR
+
+CAD
+
+SEK
+
+NOK
+
+i
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+ 
+r
+o
+b
+L
+
+i
+
+0
+
+0
+2
+−
+
+0
+4
+−
+
+0
+6
+−
+
+0
+
+DKK
+
+100
+
+200
+
+Libor rates (bps)
+
+300
+
+400
+
+0
+6
+−
+
+0
+
+CAD
+
+SEK
+
+GBP
+
+NOK
+
+EUR
+
+DKK
+
+CHF
+
+JPY
+
+100
+
+200
+
+Libor rates (bps)
+
+300
+
+400
+
+Figure 8. Cross-sectional variations in cross-currency basis (2010 to 2016). This ﬁgure
+plots the cross-currency relationship between various cross-currency bases on the y-axis and nom-
+inal interest rates on the x-axis. The left panel shows the relationship for three-month Libor and
+the right panel shows the relationship for ﬁve-year Libor. (Color ﬁgure can be viewed at wileyon-
+linelibrary.com)
+
+D.1. Cross Section of CIP Deviations and Interest Rates
+
+We ﬁrst document a robust cross-sectional relationship between nominal
+interest rates and various types of cross-currency basis. We ﬁnd that low-
+interest-rate currencies tend to have most negative bases and high-interest-
+rate currencies tend to have less negative bases or positive bases. Figure 8
+plots the mean cross-currency basis on the vertical axis as a function of the
+average nominal interest rates between 2010 and 2015 on the horizontal axis.
+The Libor cross-currency basis is positively correlated with Libor rates at short
+and long maturities. The relationship is particularly strong at long maturities,
+with the correlation between ﬁve-year Libor bases and Libor rates equal to 90%
+for G10 currencies.28
+
+Therefore, for a long-short arbitrageur, there exist arbitrage opportunities
+for going long in low-interest-rate currencies, and short in high-interest-rate
+currencies, with the currency risk hedged using exchange rate swaps. The
+direction of the arbitrage trade is exactly the opposite of the conventional
+unhedged carry trade of going long in high-interest-rate currencies and short
+in low-interest-rate currencies.29 This ﬁnding has clear implications for carry
+trade investors and multinational issuers.
+
+For carry trade investors, the CIP deviations make the carry trade more
+proﬁtable on the forward than on the cash markets.30 The unhedged currency
+excess return is
+
+28 Similarly, as shown in the Internet Appendix, we obtain a very high correlation between the
+average level of interest rates and the CIP deviations measured on bonds issued by KfW and other
+multinationals. By contrast, the mean CDS spread of the interbank panel exhibits a correlation of
+−33% with the ﬁve-year Libor basis.
+
+29 Note that the average CIP deviations and average carry trade excess returns differ by an
+order of magnitude: less than 50 bps for the CIP deviations and more than 500 bps for average
+carry trade excess returns.
+
+30 The authors thank Hanno Lustig for making this point.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+t − st+1 + xt.
+
+ft − st+1 = ft − st + st − st+1 = yt − y$
+
+951
+
+(16)
+
+For any investor who borrows in U.S. dollars (or yen) and invests in Australian
+(or New Zealand) dollars, the CIP basis is positive (xt > 0). As a result, the
+carry trade excess return obtained from forward contracts, ft − st+1, is larger
+than the excess return obtained on the cash markets, yt − y$
+For multinational issuers with diversiﬁed clienteles, the cross-sectional pat-
+tern has a simple funding cost implication: if they want to obtain U.S. dollars,
+they are better off borrowing in high- than in low-interest-rate currencies and
+then swapping their debt into U.S. dollars. Consistent with this ﬁnding, we
+present evidence in the Internet Appendix that diversiﬁed supranational is-
+suers issue disproportionately more in high-interest-rate currencies than in
+low-interest-rate currencies.
+
+t − st+1.
+
+D.2. Time Series of CIP Deviations and Interest Rates
+
+As in the cross section, the nominal interest rate differential between two
+currencies is also a signiﬁcant driver of the cross-currency basis in the time
+series. Assuming that the monetary policy is exogenous to the basis, an event
+study of a narrow window around the ECB monetary policy announcements
+shows the effect of unexpected shocks to the interest rate differential on the
+cross-currency basis.
+
+Our event study focuses on changes in the dollar/euro basis and changes in
+the yield differential between German bunds and U.S. Treasuries. The event
+window starts ﬁve minutes before the release of the monetary decision, usually
+at 1:45 pm Central European Time (CET), and ends 105 minutes after the
+release of the statement, thus including the one-hour press conference that
+usually takes place between 2:30 pm CET and 3:30 pm CET. By choosing such
+a narrow event window, the movements in the currency basis and government
+yields can be attributed to monetary policy shocks from the ECB. Intraday data
+come from the Thomson Reuters Tick History database. The cross-currency
+basis corresponds to over-the-counter quotes from a major European bank for a
+Euribor/U.S. Libor one-year maturity basis contract.31 The event study focuses
+on ECB announcements because quotes on the currency basis are available at
+high frequency for the euro.
+
+We regress the change in the cross-currency basis around the ith monetary
+policy announcement (xi) on changes in the German bund and U.S. Treasury
+−
+two-year benchmark yield differentials around the same event window (yGE
+yUS
+
+):
+
+i
+
+i
+
+(cid:2)
+
+(cid:3)
+
+xi = α + β
+
+yGE
+
+i − yUS
+
+i
+
++ i.
+
+(17)
+
+31 Cross-currency bases at tenors longer than one year are not quoted frequently enough for our
+event study. The three-month cross-currency basis was not actively traded as a separate derivative
+product until 2012. However, our results are robust to using the three-month basis since it became
+separately quoted.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License952
+
+The Journal of Finance R(cid:3)
+
+2
+
+i
+
+)
+s
+p
+b
+(
+ 
+s
+s
+a
+b
+D
+S
+U
+R
+U
+E
+
+/
+
+ 
+
+ 
+r
+a
+e
+y
+−
+e
+n
+o
+
+ 
+
+n
+
+0
+
+2
+−
+
+i
+ 
+s
+e
+g
+n
+a
+h
+C
+
+4
+−
+
+−15
+
+−10
+Changes in German/U.S.two−year yield differentials (bps)
+
+−5
+
+0
+
+5
+
+10
+
+Figure 9. Monetary policy shocks and deviations from CIP. This ﬁgure plots intraday
+changes in the two-year German bund and U.S. Treasury yield differential around the ECB mone-
+tary policy announcements on the horizontal axis and intraday changes in the one-year euro/dollar
+cross-currency basis around the same time on the vertical axis. All intraday data are from Thom-
+son Reuters Tick History. The sample period is from 1/1/2010 to 10/30/2015. (Color ﬁgure can be
+viewed at wileyonlinelibrary.com)
+
+In the cross section, as we saw, the cross-currency basis tends to increase with
+the interest rate differential. Similar behavior would imply a positive slope
+coefﬁcient, β > 0. As Figure 9 shows, this is clearly the case: in the time series,
+the cross-currency basis tends to increase with the interest rate differential.
+The slope coefﬁcient on the interest rate differential in equation (17) is equal to
+0.15 with a t-statistic of 5.88. Therefore, a 10 bps reduction in the German/U.S.
+Treasury two-year yield differential due to an accommodative ECB monetary
+policy shock would lead to a 1.5 bps reduction in the one-year euro/dollar
+Libor CIP deviations. More accommodative-than-expected monetary policy by
+the ECB thus results in a more negative cross-currency basis for the euro,
+implying that the synthetic dollar rate increases compared to the direct dollar
+rate, making the indirect dollar funding of European banks more expensive
+than before the announcement.
+
+V. Conclusion
+
+In this paper, we examine the persistent and systematic failures of the CIP
+condition in the postcrisis period. After formally establishing the existence of
+CIP arbitrage opportunities based on repo rates and KfW bonds, we argue that
+these arbitrage opportunities can be rationalized by the interaction between
+costly ﬁnancial intermediation and international imbalances in funding sup-
+ply and investment demand across currencies. Consistent with this two-factor
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+953
+
+hypothesis, we identify four empirical characteristics of the CIP deviations.
+First, the CIP deviations increase at the quarter-ends following the crisis, es-
+pecially for contracts that appear on banks’ quarter-end balance sheets. Second,
+proxies for banks’ balance sheet costs account for two-thirds of the CIP devia-
+tions. Third, the CIP deviations comove with other near-risk-free ﬁxed-income
+spreads. Fourth, the CIP deviations are highly correlated with nominal interest
+rates both in the cross section and in the time series.
+
+Looking beyond our paper, we expect a large literature to further investigate
+the CIP deviations. These deviations persist in one of the largest and most
+liquid markets in the world in the absence of ﬁnancial distress, which suggests
+that other arbitrage opportunities exist elsewhere. While trading in exchange
+rate derivatives is a zero-sum game, the CIP deviations may have large welfare
+implications because of the implied deadweight cost borne by ﬁrms seeking to
+hedge their cash ﬂows. Furthermore, the existence of CIP deviations intro-
+duces wedges between the interest rates in the cash and swap markets, which
+affects the external transmission of monetary policy. The welfare cost of the
+CIP deviations is beyond the scope of this paper as it would necessitate a gen-
+eral equilibrium model. Yet, even without such a model, the CIP condition is a
+clean laboratory to test the impact of ﬁnancial frictions in a general framework.
+In this spirit, we present the ﬁrst international evidence on the causal impact
+of recent banking regulations on asset prices. We expect more research in this
+direction in the future.
+
+Initial submission: January 27, 2017; Accepted: April 11, 2017
+Editors: Stefan Nagel, Philip Bond, Amit Seru, and Wei Xiong.
+
+Appendix: Data Appendix
+
+In this appendix, we provide a brief overview of the data sources used in the
+paper. Detailed Bloomberg or Reuters tickers of the data series can be found in
+the Internet Appendix.
+
+Exchange Rates: Daily spot exchange rates and forward points come from
+Bloomberg using London closing rates for G10 currencies. Mid rates (aver-
+age of bid and ask rates) are used for benchmark basis calculations. Daily
+Libor/interbank ﬁxing rates are also obtained from Bloomberg.
+
+Benchmark Interbank Rates: We use the following benchmark interest
+rates from Bloomberg for our sample currencies: Australian dollar (AUD): Bank
+Bill Swap Rate (BBSW); Canadian dollar (CAD): Canadian Dollar Offered Rate
+(CDOR); Swiss franc (CHF): London Interbank Offered Rate (LIBOR); Danish
+krone (DKK): Copenhagen Interbank Offered Rate (CIBOR); Euro (EUR): Euro
+Interbank Offered Rate (EURIBOR); British pound (GBP): LIBOR; Japanese
+yen (JPY): LIBOR; Norwegian krone (NOK): Norwegian Interbank Offered
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License954
+
+The Journal of Finance R(cid:3)
+
+Rate (NIBOR); New Zealand dollar (NZD): Bank Bill Market Rate (BKBM);
+and Swedish krona (SEK): Stockholm Interbank Offered Rate (STIBOR). We
+follow the market day count conventions for these interest rates: 365/ACT
+for the commonwealth currencies (AUD/CAD/GBP/NZD), and 360/ACT for the
+other currencies.
+
+GC Repo Rates: U.S. bid and ask repo rates come from the Thomson Reuters
+Tick History database. The mid rates are very close to the daily GC repo quotes
+from JP Morgan (obtained from Morgan Markets), one of the only two clearing
+banks to settle tri-party U.S. repo markets.
+
+The euro mid repo data are based on German bunds as collateral and are
+obtained from Bloomberg. Similar series from JP Morgan are very close to
+the Bloomberg series, but shorter. Bid and ask rates on euro repos are avail-
+able from Thomson Reuters Eikon. We do not use the Thomson Reuters Eikon
+GC euro rates in our baseline calculation because eligible collateral also in-
+cludes sovereign bonds in other European countries besides the German bunds.
+Thomson Reuters Eikon euro GC repo rates are persistently higher than the
+Bloomberg rates, and thus imply larger arbitrage proﬁts than the reported
+results.
+
+Swiss franc mid repo and Danish krone bid and ask repo rates also come
+from Bloomberg. The Japanese repo rates come from the Bank of Japan and
+the Japan Securities and Dealer Association. More details on the GC repo
+markets in our sample countries can be found in the Internet Appendix.
+
+Other Fixed Income Spreads: We compare the cross-currency basis with
+four types of near-risk-free ﬁxed-income spreads. First, the KfW-German bund
+basis is the spread of a ﬁve-year euro-denominated bond issued by KfW over
+the ﬁve-year German bund yield. The ﬁve-year KfW bond yield is estimated
+using the Nelson-Siegel methodology on individual KfW bond prices obtained
+from Bloomberg.
+
+Second, the one-month versus three-month Libor tenor swap basis measures
+the premium that one party has to pay in order to receive the one-month
+ﬂoating U.S. Libor in exchange for the three-month ﬂoating U.S. Libor for the
+ﬁve-year duration of the contract. The tenor swap basis reﬂects a premium for
+more frequent payments or a higher desirability of short-term liquidity. The
+tenor swap basis data are downloaded from Bloomberg.
+
+Third, the CDS-CDX basis measures the difference between the average
+ﬁve-year CDS spreads on the 125 constituent names of the North America
+investment grade CDS index (NA.IG.CDX) and the spread on the corresponding
+aggregate NA.IG.CDX index. All data on CDS and CDX spreads are obtained
+from Markit.
+
+Fourth, the CDS-bond basis measures the difference between the asset swap
+spread on a corporate bond over the CDS spread on the same reference entity.
+We use the CDS-bond basis provided by Morgan Markets for investment-grade
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+955
+
+bonds. Both the CDS-CDX basis and CDS-bond basis lead to popular credit
+arbitrage strategies.
+
+REFERENCES
+
+Adrian, Tobias, Erkko Etula, and Tyler Muir, 2014, Financial intermediaries and the cross-section
+
+of asset returns, Journal of Finance 69, 2557–2596.
+
+Akram, Q. Farooq, Dagﬁnn Rime, and Lucio Sarno, 2008, Arbitrage in the foreign exchange market:
+
+Turning on the microscope, Journal of International Economics 76, 237–253.
+
+Amador, Manuel, Javier Bianchi, Luigi Bocola, and Fabrizio Perri, 2017, Exchange rate policies at
+
+the zero lower bound, NBER Working Paper No. 23266.
+
+Arora, Navneet, Priyank Gandhi, and Francis A. Longstaff, 2011, Counterparty credit risk and the
+
+credit default swap market, Journal of Financial Economics 103, 280–293.
+
+Avdjiev, Stefan, Wenxin Du, Catherine Koch, and Hyun Song Shin, 2016, The dollar, bank leverage
+
+and the deviation from covered interest parity, BIS Working Paper No. 592.
+
+Baba, Naohiko, Robert N. McCauley, and Srichander Ramaswamy, 2009, U.S. dollar money market
+
+funds and non-U.S. banks, BIS Quarterly Review March, 65–81.
+
+Baba, Naohiko, and Frank Packer, 2009, Interpreting deviations from covered interest parity
+during the ﬁnancial market turmoil of 2007-08, Journal of Banking and Finance 33, 1953–
+1962.
+
+Baba, Naohiko, Frank Packer, and Teppei Nagano, 2008, The spillover of money market turbulence
+
+to FX swap and cross-currency swap markets, BIS Quarterly Review March, 73–86.
+
+Bahmani-Oskooee, Mohsen, and Satya P. Das, 1985, Transaction costs and the interest parity
+
+theorem, Journal of Political Economy 93, 793–799.
+
+Banegas, Ayelen, and Manjola Tase, 2016, Reserve balances, the federal
+
+funds market
+and arbitrage in the new regulatory framework, Finance and Economics Discussion
+Series 2016-079, Federal Reserve Board. Available at https://www.federalreserve.gov/
+econresdata/feds/2016/ﬁles/2016079pap.pdf.
+
+Bank for International Settlements, 2013, Triennial central bank survey of foreign exchange and
+derivatives market activity in 2013, Technical report, Bank for International Settlements.
+Available at https://www.bis.org/publ/rpfx13.htm.
+
+Bank for International Settlements, 2014, Detailed tables on semiannual OTC derivatives statis-
+tics at end-December 2014, Technical report, Bank for International Settlements. Available at
+https://www.bis.org/statistics/derdetailed.htm.
+
+Basel Committee on Banking Supervision, 2014, Basel III leverage ratio framework and dis-
+closure requirements, Technical report, Bank for International Settlements. Available at
+https://www.bis.org/publ/bcbs270.htm.
+
+Bekaert, Geert, and Robert H. Hodrick, 2012, International Financial Management (Pearson Pren-
+
+tice Hall, Upper Saddle River, NJ).
+
+Bernanke, Ben, and Mark Gertler, 1989, Agency costs, net worth, and business ﬂuctuations, Amer-
+
+ican Economic Review 79, 14–31.
+
+Bottazzi, Jean-Marc, Jaime Luque, Mario Pascoa, and Suresh M. Sundaresan, 2012, Dollar short-
+age, central bank actions, and the cross currency basis, Working paper, Paris School of Eco-
+nomics, Wisconsin School of Business, Nova School of Business and Economics, and Columbia
+Business School.
+
+Brunnermeier, Markus K., and Lasse Heje Pedersen, 2009, Market liquidity and funding liquidity,
+
+Review of Financial Studies 22, 2201–2238.
+
+Brunnermeier, Markus K., and Yuliy Sannikov, 2014, A macroeconomic model with a ﬁnancial
+
+sector, American Economic Review 104, 379–421.
+
+Caballero, Ricardo J., Emmanuel Farhi, and Pierre-Olivier Gourinchas, 2008, An equilibrium
+model of “global imbalances” and low interest rates, American Economic Review 98, 358–393.
+Caballero, Ricardo J., Emmanuel Farhi, and Pierre-Olivier Gourinchas, 2016, Global imbalances
+
+and currency wars at the ZLB, NBER Working Paper No. 21670.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License956
+
+The Journal of Finance R(cid:3)
+
+Callier, Philippe, 1981, One way arbitrage, foreign exchange and securities markets: A note,
+
+Journal of Finance 36, 1177–1186.
+
+Clinton, Kevin, 1988, Transactions costs and covered interest arbitrage: Theory and evidence,
+
+Journal of Political Economy 96, 358–370.
+
+Coffey, Niall, Warren B. Hrung, and Asani Sarkar, 2009, Capital constraints, counterparty risk,
+and deviations from covered interest rate parity, Federal Reserve Bank of New York Staff
+Report 393. Available at https://www.newyorkfed.org/research/staff_reports/sr393.html.
+
+Deardorff, Alan V., 1979, One-way arbitrage and its implications for the foreign exchange markets,
+
+Journal of Political Economy 87, 351–364.
+
+Dooley, Michael P., and Peter Isard, 1980, Capital controls, political risk, and deviations from
+
+interest-rate parity, Journal of Political Economy 88, 370–384.
+
+Du, Wenxin, Salil Gadgil, Michael B. Gordy, and Clara Vega, 2016, Counterparty
+risk and counterparty choice in the credit default swap market, Federal Reserve
+Board Finance and Economics Discussion Series 2016-087. Available at https://www.
+federalreserve.gov/econresdata/feds/2016/ﬁles/2016087pap.pdf.
+
+Du, Wenxin, and Jesse Schreger, 2016, Local currency sovereign risk, Journal of Finance 71,
+
+1027–1070.
+
+Dufﬁe, Darrell, and Arvind Krishnamurthy, 2016, Passthrough efﬁciency in the Fed’s
+new monetary policy setting, Jackson Hole Symposium of the Federal Reserve Bank
+of Kansas City. Available at https://www.kansascityfed.org/ß/media/ﬁles/publicat/sympos/
+2016/econsymposium-dufﬁe-krishnamurthy-paper.pdf.
+
+Frenkel, Jacob A., and Richard M. Levich, 1975, Covered interest arbitrage: Unexploited proﬁts?,
+
+Journal of Political Economy 83, 325–338.
+
+Frenkel, Jacob A., and Richard M. Levich, 1977, Transaction costs and interest arbitrage: Tranquil
+
+versus turbulent periods, Journal of Political Economy 85, 1209–1226.
+
+Gabaix, Xavier, and Matteo Maggiori, 2015, International liquidity and exchange rate dynamics,
+
+Quarterly Journal of Economics 130, 1369–1420.
+
+Garleanu, Nicolae, and Lasse Pedersen, 2011, Margin-based asset pricing and deviations from the
+
+law of one price, Review of Financial Studies 24, 1980–2022.
+
+Goldberg, Linda S., Craig Kennedy, and Jason Miu, 2011, Central bank dollar swap lines and
+overseas dollar funding costs, Federal Reserve Bank of New York Economic Policy Review.
+Available at https://www.newyorkfed.org/research/staff_reports/sr429.html.
+
+Greenwood, Robin, and Dimitri Vayanos, 2014, Bond supply and excess bond returns, Review of
+
+Financial Studies 27, 663–713.
+
+Griffolli, Mancini Tommaso, and Angelo Ranaldo, 2011, Limits to arbitrage during the crisis: Fund-
+ing liquidity constraints and covered interest parity, Working paper, International Monetary
+Fund and University of St. Gallen.
+
+Gromb, Denis, and Dimitri Vayanos, 2010, Limits of arbitrage, Annual Review of Financial Eco-
+
+nomics 2, 251–275.
+
+He, Zhiguo, Bryan Kelly, and Asaf Manela, 2017, Intermediary asset pricing: New evidence from
+
+many asset classes, Journal of Financial Economics 126, 1–35.
+
+He, Zhiguo, and Arvind Krishnamurthy, 2012, A model of capital and crises, Review of Economic
+
+Studies 79, 735–777.
+
+He, Zhiguo, and Arvind Krishnamurthy, 2013, Intermediary asset pricing, American Economic
+
+Review 103, 732–770.
+
+Holmstrom, Bengt, and Jean Tirole, 1997, Financial intermediation, loanable funds, and the real
+
+sector, Quarterly Journal of Economics 1112, 663–691.
+
+Ivashina, Victoria, David S. Scharfstein, and Jeremy C. Stein, 2015, Dollar funding and the lending
+
+behavior of global banks, Quarterly Journal of Economics 130, 1241–1281.
+
+Jermann, Urban J., 2016, Negative swap spreads and limited arbitrage, Working paper, Wharton
+
+School of the University of Pennsylvania.
+
+Keynes, John Maynard, 1923, A Tract on Monetary Reform (Macmillan, London).
+Klee, Elizabeth, Zeynep Senyuz, and Emre Yoldas, 2016, Effects of changing monetary and
+regulatory policy on overnight money markets, Finance and Economics Discussion Series
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseDeviations from Covered Interest Rate Parity
+
+957
+
+2016-084, Federal Reserve Board. Available at https://www.federalreserve.gov/econresdata/
+feds/2016/ﬁles/2016084pap.pdf.
+
+Liao, Gordon Y., 2016, Credit migration and covered interest rate parity, Harvard Business School
+
+Working Paper 2016-07.
+
+Lotz, Walther, 1889, Die W¨ahrungsfrage in ¨Osterreich-Ungarn und Ihre Wirtschaftliche und Poli-
+
+tische Bedeutung (Duncker & Humblot, Berlin).
+
+McGuire, Patrick, and Goetz vonPeter, 2012, The dollar shortage in global banking and the inter-
+
+national policy response, International Finance 15, 155–178.
+
+Munyan, Benjamin, 2015, Regulatory arbitrage in repo markets, Working paper, Ofﬁce of Financial
+
+Research of the U.S. Department of Treasury and Vanderbilt University.
+
+Reserve Bank of Australia, 2016, Operations in ﬁnancial markets, Reserve Bank of Aus-
+tralia Annual Report 2016. Available at https://www.rba.gov.au/publications/annual-reports/
+rba/2016/operations-in-ﬁnancial-markets.html.
+
+Rime, Dagﬁnn, Andreas Schrimpf, and Olav Syrstad, 2016, Segmented money markets and covered
+
+interest parity arbitrage, BIS Working Paper No. 651.
+
+Schwartz, Krista, 2015, Mind the gap: Disentangling credit and liquidity in risk spreads, Working
+
+paper, Wharton School of the University of Pennsylvania.
+
+Shleifer, Andrei, and Robert W. Vishny, 1997, The limits of arbitrage, Journal of Finance 52, 35–55.
+Siriwardane, Emil N., 2016, Concentrated capital losses and the pricing of corporate credit risk,
+
+Working paper, Harvard Business School.
+
+Sushko, Vladyslav, Claudio Borio, Robert N. McCauley, and Patrick McGuire, 2016, The failure
+of covered interest parity: FX hedging demand and costly balance sheets, BIS Working Paper
+No. 590.
+
+Tuckman, Bruce, and Pedro Porﬁrio, 2004, Interest rate parity, money market basis swaps, and
+
+cross-currency basis swaps, Lehman Brothers Fixed Income Liquid Markets Research.
+
+Vayanos, Dimitri, and Jean-Luc Vila, 2009, A preferred-habitat model of the term structure of
+
+interest rates, Working paper, London School of Economics.
+
+Supporting Information
+
+Additional Supporting Information may be found in the online version of this
+article at the publisher’s website:
+Appendix S1: Internet Appendix.
+Replication code.
+
+ 15406261, 2018, 3, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/jofi.12620 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

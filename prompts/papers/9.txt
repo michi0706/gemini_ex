@@ -1,0 +1,5023 @@
+Journal of Public Economics 167 (2018) 105–119
+
+Contents lists available at ScienceDirect
+
+Journal of Public Economics
+
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / j p u b e
+
+Balanced budget rules and ﬁscal outcomes:
+Evidence from historical constitutions夽
+Zareh Asatryan a,*, César Castellón b, Thomas Stratmann c
+aZEW, Germany
+bClemson University, United States of America
+cGeorge Mason University, United States of America
+
+A R T I C L E
+
+I N F O
+
+A B S T R A C T
+
+This paper studies the reduced-form effects of constitutional-level balanced budget rules (BBRs) on ﬁs-
+cal outcomes. Using historical data for a large set of countries dating back to the nineteenth century and
+applying a difference-in-difference design we ﬁnd that the introduction of a constitutional BBR leads to a
+reduced probability of experiencing a sovereign debt crisis. We estimate that debt-to-GDP ratio decreases
+by around eleven percentage points on average, most of these consolidation being explained by decreas-
+ing expenditures rather than increasing tax revenues. Using the same methodology and sample, we do
+not ﬁnd evidence that non-constitutional BBRs included in national legislation affect these variables. Addi-
+tional estimates gained from applying the synthetic control method on nine selected case study countries in
+Africa, Europe, and Latin America are consistent with the main ﬁndings, but also highlight the importance
+of country speciﬁc circumstances when evaluating the success of BBRs.
+
+© 2018 Elsevier B.V. All rights reserved.
+
+Article history:
+Received 8 August 2017
+Received in revised form 24 May 2018
+Accepted 4 September 2018
+Available online 27 September 2018
+
+JEL classiﬁcation:
+H60
+K10
+N40
+
+Keywords:
+Economic effects of constitutions
+Fiscal rules
+Historical public ﬁnances
+Sovereign debt crises
+
+1. Introduction
+
+Average government debt-to-GDP and spending-to-GDP ratios
+around the world roughly doubled in the ﬁfty years after WWII. Com-
+pared to the few data points that we have from the late nineteenth
+century, the spending-to-GDP ratio has roughly quadrupled. In a long
+and heated debate, both academics and policy makers have ques-
+tioned the reasons for the problem of running persistent deﬁcits and
+thereby accumulating debt. The global economic and ﬁnancial crisis
+
+夽 We are grateful to Lusine Badalyan, Thiess Büttner, Christian Bjørnskov, Sebastian
+Blesse, Xavier Debrun, Lars Feld, Jerg Gutmann, Mark Hallerberg, Annika Havlik,
+Friedrich Heinemann, Katarzyna Metelska-Szaniawska, Marc-Daniel Moessinger, Eric
+Snowberg, Michel Strawczynski, Stefan Voigt, Hans-Joachim Voth, Charles Wyplosz,
+Mustafa Yeter, and seminar participants at ZEW Mannheim, Clemson University,
+EPCS Freiburg, National Bank of Denmark and European Central Bank for valuable
+comments. We would also like to thank Jessie Baugher and the Comparative Consti-
+tutions Project for allowing us to use their data on constitutions, and Jan Knuf for
+excellent research assistance.
+
+* Corresponding author at: Centre for European Economic Research (ZEW
+
+Mannheim), Germany.
+
+E-mail address: asatryan@zew.de (Z. Asatryan).
+
+https://doi.org/10.1016/j.jpubeco.2018.09.001
+0047-2727/© 2018 Elsevier B.V. All rights reserved.
+
+of 2008–9 quickly evolved into a sovereign-debt crisis in many coun-
+tries, once again bringing the issue of sustainable public ﬁnances
+to the forefront of policy priorities and motivating policy makers to
+ﬁnd effective and credible institutional solutions. In particular, ﬁscal
+rules have become a popular instrument to constrain ﬁscal policy and
+are currently promoted by national governments and international
+organizations such as the IMF and the EU.
+
+However, the use of ﬁscal rules is not a new idea, as illustrated by
+US states and the Maastricht Treaty in Europe, and the global ﬁnan-
+cial crisis gave prominence to the fact that governments often fail to
+comply with these rules.1 As a response to the crisis and motivated
+by the Fiscal Compact Treaty in Europe, a recent trend has been to
+strengthen the credibility of these ﬁscal rules by enshrining them at
+the highest level of law: national constitutions.2 Austria, Denmark,
+
+1 For example, in the European Union, more than half of member states exceeded
+the three percent maximum budget deﬁcit speciﬁed in the Stability and Growth Pact.
+2 The Fiscal Compact – or formally the Treaty on Stability, Coordination and
+Governance in the Economic and Monetary Union – requires the member states to
+enshrine structurally balanced budget rules into domestic law.
+
+106
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+Italy, and Spain are some of the countries that have passed such leg-
+islation in the post-crisis era,3 joining Switzerland4 and Germany5
+which are the two exceptions among advanced countries that already
+had such constitutional rules.6 Other countries have hotly debated
+but not implemented constitutional ﬁscal rules. For instance, in the
+United States, the House of Representatives approved a balanced bud-
+get amendment in 1995 that fell short by one vote in the Senate. A
+similar attempt failed in 2011 (Azzimonti, 2013).7
+
+On the other hand, about forty-ﬁve countries in the world –
+particularly in Africa, Central America, and South America – have had
+balanced budget rules (BBR) in their constitutions.8 Some of these
+provisions date back to the end of the nineteenth century but most
+were introduced in the ﬁrst and second halves of the twentieth cen-
+tury in the Americas and Africa, respectively, and in Europe following
+the crisis of 2008–9. In this paper, we present the ﬁrst historical
+evidence on the ﬁscal effects of these constitutional ﬁscal rules.
+Studying the effect of BBRs in these countries is appealing because
+provisions written in a country’s constitution might be more binding
+than non-constitutional laws.9 This expectation has been an explicit
+assumption made by many policy makers, such as when design-
+ing the Fiscal Compact Treaty, but for which no empirical evidence
+exists.
+
+This paper contributes to the existing literature on the effects of
+ﬁscal rules by: (a) studying the ﬁscal effect of BBRs that are enshrined
+in national constitutions; (b) analyzing historical data dating back to
+WWII (as our preferred sample) but also to the nineteenth century
+(as our largest sample); and (c) studying the effects of BBRs on gov-
+ernment debt, expenditures and taxes, but also on the incidence of
+sovereign debt crises.
+
+Identifying the effect of (non-randomly distributed) ﬁscal rules on
+ﬁscal outcomes is challenging for several reasons. First, there exists
+the possibility of selection bias such that past ﬁscal outcomes might
+inﬂuence the probability that a government implements a ﬁscal
+rule. Second, biased estimates may arise from the failure to account
+for shocks which simultaneously drive the implementation of ﬁscal
+rules and correlate with ﬁscal outcomes. Third, the adoption of con-
+stitutional BBRs by deﬁnition involves a change in the constitution
+either through amendments or the adoption of a new constitution.
+
+3 Others include: Georgia, Hungary, Latvia, Malta, Serbia, Slovakia, and Slovenia,
+with further ongoing processes in all of the European countries that have signed the
+Fiscal Compact.
+
+4 Switzerland introduced a BBR constraining structurally adjusted balances that has
+been in effect since 2003. For a quantitative case study on Switzerland, see Section 3.
+5 Germany ﬁrst introduced a ﬁscal rule into its constitution in 1871 (reinstating
+it in 1949). In 2009, a major amendment came (“Schuldenbremse”: Article 109.3)
+that caps the level of the federal government’s structural deﬁcits at 0.35% of GDP
+effective in 2016 (and the states’ level at zero, binding from 2020). The pre-2009
+“golden rule” limited net borrowing to the level of gross public investment, which,
+along with further and very general escape clauses, made the rule less effective (see
+Feld, 2010; Ciaglia and Heinemann, 2012; Heinemann et al., 2016). Germany’s reform
+kicked off a debate on whether the eurozone countries should insert a German-style
+BBR into their constitutions (Janeba, 2012).
+
+6 Portugal had a rule in the 1820s, but it was short-lived. Also, Poland (Article 216.5)
+and Singapore (Article 114) have had certain constitutional limitations on borrowing
+since 1997 and 1965, respectively, but it is controversial whether these should be
+considered as BBRs (Lienert, 2010).
+
+7 See Schultze (1995) and Seto (1997) for a discussion of the 1995 proposal, and
+Azzimonti et al. (2016) for a welfare analysis of a 2011-type BBR with a model calibrated
+to the US economy. The debate on introducing a balanced budget amendment continues
+today with around half of state legislatures having passed resolutions calling for such
+an amendment.
+
+8 See Fig. 4 for a map and Table B1 in the online appendix for the list of these
+
+countries.
+
+9 For example, in the United States, expenditure and balanced budget rules in the
+’80s and ’90s were phased out or abandoned as corresponding laws were rewritten.
+Further, supranational deﬁcit caps in the European Union as deﬁned by the Maastricht
+Treaty of 1992 and the original Stability and Growth Pact of 1997 were also often
+exceeded which eventually led to signiﬁcant reforms of the Pact (for example, Six Pack,
+Two Pack, Fiscal Compact, and further ongoing reforms).
+
+Thus, the independent effects on ﬁscal outcomes due to any addi-
+tional changes in constitutions, that occurred at the same time as the
+introduction of BBRs, must be ruled out.
+
+We start our analysis with quantitative case studies for nine coun-
+tries in Africa (Cape Verde, Gabon, and Rwanda), Europe (Switzerland
+and Ukraine), and Latin America (Brazil, Chile, Panama, and Peru)
+employing the synthetic control method (Abadie and Gardeazabal,
+2003; Abadie et al., 2010).10 For each of these countries, we estimate
+the counterfactual levels of ﬁscal policy variables after introducing
+or abolishing a BBR; that is, the ﬁscal outcomes in a hypothetical
+country with or without a BBR. These counterfactual outcomes are
+then compared to the actual ﬁscal variables. In the majority of cases,
+the synthetic control approach provides ﬁrst evidence that BBRs
+constrain the levels of government debt and expenditures.11
+
+Studying countries individually helps to better understand the
+complex endogeneity issues associated with the adoption of these
+rules. The Swiss case described in Section 3 is illustrative in that the
+debt brake introduced in 2003 led to a signiﬁcant episode of ﬁscal
+consolidation which, according to our estimates from the synthetic
+control method, amounts to a large reduction of the debt-to-GDP
+ratio by about 30 percentage points. However, as suggested by the
+case study of Fig. 1, the adoption of the debt brake followed or per-
+haps was a reaction to a period of steady increase of government debt
+in Switzerland. This case would speak in favor of some bias coming
+from the selection of already indebted Switzerland into adopting a
+BBR.
+
+For our baseline estimations, we adopt a generalized difference-
+in-difference design. In its dynamic speciﬁcation, we model the
+timing of the introduction of a BBR, and show that in the years lead-
+ing to the adoption of BBRs the differences in outcome variables
+between treatment and control countries is, on average, close to
+zero. This absence of pre-trends suggests no systematic bias com-
+ing from selection as long as the selection effect is: i) captured by
+the observables, and ii) homogenous across countries so that the
+average effect on the pre-trends does not mask potentially offsetting
+trends. The use of a set of country and continent-speciﬁc year ﬁxed
+effects enables us to control for unobservable factors that do not
+vary within countries or within continents in given years. We also
+control for country-speciﬁc parametric time-trends and capture the
+effect of several time-varying observable variables such as the qual-
+ity of democratic institutions, but are not able to fully account for
+unobservable factors with unknown parametric functions. The case
+studies also suggest that the majority of BBRs were implemented
+by introducing a new constitution, which may be a confounding
+event. However, when using constitutional changes as the treat-
+ment variable in the difference-in-difference speciﬁcation we do not
+ﬁnd evidence that these changes generally matter for our outcome
+variables.
+
+Using our preferred sample of 132 countries from 1945 to 201512
+we show that; ﬁrst, the introduction of a BBR is associated with a
+reduction in the likelihood of experiencing a sovereign debt crises as
+deﬁned by Reinhart and Rogoff (2011). This ﬁnding shows that not
+
+10 Köhler and König (2015), Pfeil and Feld (2016), and Eliason and Lutz (forthcoming)
+use the synthetic control method to study the effects of ﬁscal rules in, respectively,
+euro-area countries, Switzerland, and one US state. Asatryan (2015) presents case
+study evidence on the effects of constitutional changes, and Metelska-Szaniawska
+(2016) applies the method to the analysis of constitutional changes in post Soviet
+countries.
+11 We perform case studies in nine out of thirty-six countries in our baseline sample
+due to the higher data requirements of the synthetic control method. Please refer to
+Section 3 of the Online Appendix for a detailed discussion.
+12 In other speciﬁcation, our largest sample goes back to 1800 and covers at most
+224 countries. While our estimates are robust across these speciﬁcations, BBRs vary
+little in the early years of our sample and, therefore, we focus on the more recent data
+as our preferred sample.
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+107
+
+(a) Debt/GDP (%)
+
+(b) Expenditure/GDP (%)
+
+Fig. 1. Fiscal effects of the Swiss constitutional balanced budget rule of 2003: a synthetic control method.
+Notes: The graph plots debt (a) and expenditure (b) as a percentage of GDP for real Switzerland vs. synthetic Switzerland. The vertical line denotes the year when the BBR was
+introduced. Table C1 reports the covariates used for matching, and their means for the treated and synthetic units. Donor countries (weights) for graph (a) are France (0.6), Papua
+New Guinea (0.151), Finland (0.129), Japan (0.078) and South Korea (0.042). The RMSPE is 1.93. Donor countries (weights) for graph (b) are Bangladesh (0.264), Luxembourg
+(0.205), Uruguay (0.19), Ireland (0.181), Mexico (0.081), Dominican Republic (0.044) and Albania (0.035). The RMSPE is 0.12. For further analysis on Switzerland, see Fig. 2.
+
+only the level of debt matters but also whether debt will eventu-
+ally reach unsustainable levels. To our knowledge, this link between
+BBRs and crises has not been previously established. Second, we
+estimate that BBRs are associated with an average reduction of the
+debt-to-GDP ratio by around eleven percentage points. We show that
+this large ﬁscal consolidation can be mostly explained by decreasing
+expenditures rather than increasing tax revenues. Third, in contrast
+to these substantial evidence on the effectiveness of constitutional
+BBRs, we do not ﬁnd evidence that in the same sample and using
+the same methodology non-constitutional BBRs effectively constrain
+either the probability of crisis or any of our three ﬁscal variables.
+
+The remainder of this paper is structured as follows. After a
+review of the previous literature in Section 2, Section 3 presents a
+quantitative case study on the Swiss debt brake with eight further
+case studies discussed in Section C of the online appendix. Section 4
+presents the data on constitutions and historical public ﬁnances,
+and describes our empirical strategy. Sections 5.1 and 5.2 present
+the main results for the effect of constitutional BBRs on the occur-
+rence of crises and on government ﬁnances, followed by several
+robustness tests in Section 5.3 and the results on the effectiveness of
+non-constitutional BBRs in Section 5.4. Section 6 concludes.
+
+2. Previous literature
+
+The literature on the political economy of government spend-
+ing and debt is vast. It studies the question of why governments
+persistently spend and borrow at levels that may deviate from the
+prescriptions of optimal ﬁscal policies, and focuses on the set of incen-
+tives shaping policy makers’ behavior (Persson and Tabellini, 2000;
+Drazen, 2000). Early work (Buchanan and Tullock, 1962; Brennan
+and Buchanan, 1980) put forward the hypothesis of ﬁscal illusion
+to explain the reason behind persistent government deﬁcits. This
+hypothesis states that voters overvalue current spending relative to
+the cost of future taxation, thus violating the intertemporal budget
+constraint and giving rise to a persistent deﬁcit bias. But even if voters
+put suﬃcient weight on the cost of future taxation, politicians may
+still overspend; for example, due to political business cycles. System-
+atic overspending may also arise when agents can free-ride on the
+common pool of tax contributions. This phenomenon may perhaps
+be most salient in federal settings such as in Europe. In a recent paper,
+Alesina and Passalacqua (2015) provide a review of the theoretical
+literature on persistent deﬁcits.
+
+One of the main policy actions aimed at preventing governments
+from running persistent deﬁcits and ensuring ﬁscal sustainability has
+been the use of ﬁscal rules.13 Researchers have debated the theory
+of the ﬁscal and economic effects of ﬁscal rules. In models of ﬁscal
+policy with a benevolent planner, ﬁscal rules may prevent the plan-
+ner from running optimal ﬁscal policies (Chari et al., 1994; Stockman,
+2001). This could happen if these rules constrain the policy tools
+for running countercyclical ﬁscal policy, inducing suboptimal levels
+of public-goods provision and public investment. Additionally, ﬁscal
+rules could give rise to the use of “creative accounting” in national
+statistics (see for example, Milesi-Ferretti, 2004; Von Hagen and
+Wolff, 2006). In practice, however, governments do not always max-
+imize social welfare as a benevolent planner would. Governments’
+actions result from various political constraints and incentives that
+induce deviations from optimal policies.
+
+When such deviations are large, imperfect or second-best ﬁscal
+rules may increase welfare by acting as an institutional check against
+the government’s bias of running persistent deﬁcits. Thus, there exists
+a trade-off between the potential costs and beneﬁts of ﬁscal rules. The
+general welfare implications of this trade-off have been modeled by
+several recent theoretical papers on the optimality of ﬁscal rules which
+do also take account of political economy considerations. Besley and
+Smart (2007) build a political agency model with moral hazard and
+adverse selection, and show that the desirability of ﬁscal restraints
+is linked to how benevolent governments are. Battaglini and Coate
+(2008) show that constitutional BBRs can improve citizen welfare
+depending on the relative size of an economy’s tax base compared
+to the size of spending. Azzimonti et al. (2016) extend this model
+including to a quantitative calibration. They ﬁnd that BBRs reduce
+debt by increasing the expected cost of taxation, but raise the costs
+of less responsive public good provision in the future. The optimality
+of such discretion in policy making is also studied by Halac and Yared
+(2014) using a dynamic mechanism design approach. Barseghyan
+and Battaglini (2016) develop a theory of endogenous growth which
+
+13 We understand ﬁscal rules as constraints on ﬁscal policy through numerical limits
+or explicit commitments on budgetary aggregates such as budget deﬁcits or govern-
+ment debt (Schaechter et al., 2012). This deﬁnition does not include procedural rules,
+also called ﬁscal institutions, which regulate the drafting, approval, implementation,
+and surveillance of the budget (Von Hagen, 1992; Poterba and von Hagen, 1999; Fab-
+rizio and Mody, 2006; Hallerberg et al., 2007; Debrun et al., 2009). For a comparative
+discussion of these two approaches, see Wyplosz (2005, 2013).
+
+108
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+also has ceilings on ﬁscal policy. Martin (2017) additionally considers
+monetary rules.14
+
+The existence and relative size of these potential costs and bene-
+ﬁts is essentially an empirical question, and a large empirical litera-
+ture attempts to estimate these opposite effects. On the cost side, for
+example, Levinson (1998), Fatas and Mihov (2006), and Clemens and
+Miran (2012) study the effect of ﬁscal rules on the cyclicality of ﬁscal
+policy and whether they ultimately affect business cycles. What the
+empirical literature is most concerned with, however, is whether ﬁs-
+cal rules are effective, and if so, the size of their effect on various ﬁscal
+outcomes such as government debt, budget balances, expenditure, or
+revenue.15
+
+The effectiveness of ﬁscal rules has been studied extensively on
+both subnational (see Poterba, 1994, 1996; Eliason and Lutz, forth-
+coming for the United States; Feld and Kirchgässner (2008) for
+Switzerland; and Grembi et al., 2016; Coviello et al., 2017; Bonfatti
+and Forni, 2017; Alpino et al., 2018 for Italy), national (see Dahan
+and Strawczynski, 2013 and Tapsoba, 2012 for OECD and developing
+countries), and also supranational levels (particularly in Europe, see
+Hallerberg et al., 2007; Debrun et al., 2008; Hallerberg et al., 2009;
+Blume and Voigt, 2013). These are only a few examples from this
+abundant literature which still contains disagreements on whether
+ﬁscal rules effectively constrain ﬁscal policy, as well as on which types
+of rules prevail most often and in which institutional environments.
+Heinemann et al. (2018) provide a meta-analysis of this literature and
+ﬁnd some support for the hypothesis that ﬁscal rules constrain ﬁscal
+policies. However, after controlling for the quality of the identiﬁca-
+tion strategies used in these studies, the statistical signiﬁcance of the
+average result vanishes. Moreover, as discussed above, the effective-
+ness of BBRs that are enshrined in national constitutions has not yet
+been studied.16
+
+The motivation for an analysis of constitutional ﬁscal rules given
+the vast literature on non-constitutional ﬁscal rules is that constitu-
+tional rules are expected to be more binding than non-constitutional
+ones. This is because, relative to non-constitutional rules, constitu-
+tional rules raise the costs associated with changing the rule, as well
+as the costs associated with breaking the rule or infringing on the
+rule. Speciﬁcally, as noted by Drazen (2004), statutory laws are likely
+to be more short-lived compared to constitutional laws. Require-
+ments to change constitutional laws, often include supermajorities in
+legislatures, referendums, waiting periods and ratiﬁcation by states.
+These procedures make constitutional laws more diﬃcult to change
+or to revoke compared to statutory laws.
+
+That constitutional rules are more likely to endure than non-
+constitutional laws does not imply alone that they will be more
+effective in constraining ﬁscal policy. For instance, politicians could
+circumvent constitutional rules through creative accounting (Von
+Hagen and Wolff, 2006). However, giving a law constitutional status
+raises the costs of infringing or tampering with the law. For instance,
+enshrining a ﬁscal rule in the constitution might raise the public
+
+14 The following papers discuss the political economy of BBRs: Brennan and Buchanan
+(1980), Niskanen (1992), Buchanan (1995), andRose (2010) . They do not provide
+frameworks in which to evaluate the costs and beneﬁts of rules.
+15 A related strand studies the constraining effect of ﬁscal rules that operate through
+market mechanisms (see for example, Poterba and Rueben, 2001; Kelemen and Teo,
+2014). The argument is that ﬁscal rules do not necessarily depend on a credible threat
+of judicial enforcement, but may function through the punishment of sovereigns by
+bond markets when debt or deﬁcits exceed some focal point speciﬁed in the ﬁscal rule.
+Relatedly, Hatchondo et al. (2015) use a sovereign default model to show that in such
+settings limiting rules on debt spreads can generate larger welfare gains than more
+conventional rules on debt levels.
+16 Related to constitutional studies, there exists a fairly large literature on the
+economic effects of constitutions (for example, Mueller, 2003), and work that attempts
+to empirically identify these effects (see Persson and Tabellini, 2003; Voigt, 2011;
+Ardanaz and Scartascini, 2014). Our paper is relevant to this literature in that it
+presents evidence on direct policy effects of constitutional provisions.
+
+awareness of the law and expose politicians that break the rule to
+a “negative spotlight” effect (Drazen, 2004). Similarly, constitutional
+laws are often enforced by independent bodies such as constitutional
+courts, raising the costs associated with breaking those laws.17
+
+3. A synthetic case study for Switzerland
+
+This section uses the synthetic control method to analyze the case
+of Switzerland’s adoption of a constitutional BBR in 2001 through a
+referendum.18 The remaining eight case studies along with a more
+thorough discussion of the method are presented in Section C of the
+online appendix.
+
+The constitutional amendment in Switzerland came in 2001, with
+85% approval in a referendum. The amendment became effective in
+2003, with two additional years reserved for a transition period. The
+Swiss rule states that the budget must be in balance after adjusting
+for economic conditions. Thus, the rule calls for a structural balance in
+the short-run and absolute balance over the course of a business cycle
+(see Table B3 of the online appendix for Article 126 describing the
+BBR. For further discussion of the Swiss debt brake, see Danninger,
+2002; Geier, 2011; Pfeil and Feld, 2016).
+
+Fig. 1 shows that following the introduction of the BBR, actual
+levels of both debt and expenditure have been substantially lower
+and have diverged increasingly from their counterfactual levels; that
+is, the hypothetical levels of debt and expenditure had Switzerland
+not passed such an amendment. Given that the assumptions of this
+method hold, these ﬁndings imply that the effect of introducing a
+BBR in Switzerland, at its peak, was a decrease in the debt-to-GDP
+ratio of around 30 percentage points and a two percentage points
+decrease in the government expenditure-to-GDP ratio.
+
+Fig. 2 extends the analysis by restricting the pool of donor coun-
+tries to developed countries only and by generating placebo tests for
+each of these donors (similar to Abadie et al., 2010). The dark lines in
+panels (a) and (b) represent the gap in government debt and expen-
+ditures, respectively, between Switzerland and its synthetic control.
+The gray lines represent gaps in government debt and expenditures
+for other developed countries and their corresponding synthetic con-
+trols. Notice that the gap for Switzerland is unusually large relative
+to the ones observed for the rest of the sample, which lends support
+to our hypothesis that the gap for Switzerland was partially caused
+by the introduction of the BBR in 2003.
+
+The Swiss case presented above suggests a strong and sizable
+association between BBRs and ﬁscal outcomes. However, it may also
+be seen as an illustrative example of the hypothesis that the introduc-
+tion of ﬁscal rules may be triggered by deteriorating ﬁscal positions,
+such as the increasing levels of debt in Switzerland in response to
+the unexpectedly protracted low growth following a severe ﬁnancial
+crisis in the early 1990s. In this context, the Swiss debt brake serves
+as a symbol of the political resolve as driven by the conservative
+ﬁscal preferences of the population. This inherent endogeneity of
+constitutions illustrates the limitations that this and previous papers
+face when trying to identify causal effects of ﬁscal rules.
+
+Regarding the remainder of the case studies presented in Section
+C of the online appendix, seven out of nine broadly support the
+hypothesis that BBRs are negatively associated with government
+
+17 Moreover, constitutional and non-constitutional rules might translate in different
+choice-sets available to politicians. As noted by Vanberg and Buchanan (1991), “con-
+stitutional choices are choices among alternative rules; sub-constitutional choices are
+among alternative strategies available within rules”. Thus, enshrining a ﬁscal rule in
+the constitution might provide a signal that a balanced budget is a fundamental goal
+for the government, restricting politicians’ legislative activities to operate within this
+constraint.
+18 Pfeil and Feld (2016) also present a synthetic control analysis of the Swiss BBR and,
+similar to our results, ﬁnd that the introduction of the BBR improved budget balances
+by 3.6 percentage points on average in a post-intervention period covering ﬁve years.
+
+Z. Asatryan et al.
+
+/ Journal of Public Economics 167 (2018) 105–119
+
+109
+
+(a) Debt/GDP (%)
+
+(b) Expenditure/GDP (%)
+
+150
+
+100
+
+50
+
+0
+
+-50
+
+4
+
+2
+
+0
+
+-2
+
+1985
+
+1990
+
+1995
+
+2000
+
+2005
+
+2010
+
+1990
+
+1995
+
+2000
+
+2005
+
+2010
+
+2015
+
+Fig. 2. Switzerland: introduction of BBR in 2003 — placebo tests.
+Notes: The graph plots government debt (a) and expenditure (b) gaps for Switzerland (dark line) and placebo gaps for other control countries (gray lines). Placebo gaps are
+constructed for other developed countries in the pool of controls: United States, United Kingdom, France, Italy, Netherlands, Norway, Canada, Japan, Finland, Ireland, Portugal,
+Australia, and Israel. See also Fig. 1.
+
+debt and expenditures, while the remaining two cases do not pro-
+vide a clear-cut picture. These effects are substantial in size, but vary
+among countries from roughly 10 to 30% for reductions in debt ratios,
+and from 1 to 7% for reductions in expenditure ratios ten years after
+introducing a BBR.
+
+4. Data and empirical design
+
+4.1. Fiscal rules
+
+4.1.1. Constitutional balanced budget rules
+
+We employ a novel data set that contains information on the
+characteristics of the national constitutions for all
+independent
+states from 1789 to the present. The data set was collected by
+the Comparative Constitutions Project (CCP) (Elkins et al., 2014)
+and has been recently used in the political science and law litera-
+tures (for example, see Elkins, 2010; Cheibub et al., 2013; Ginsburg
+and Versteeg, 2014; Melton and Ginsburg, 2014; Blöchliger and
+Kantorowicz, 2015; Bjørnskov and Voigt, 2015).19
+
+The left panel of Fig. 3 shows that the share of sovereign states
+with constitutions increased steadily from 1816 until 1980. After
+1980, almost all countries had some form of constitution.20 The left
+panel also shows the share of countries that have constitutions and
+have available data on central-government debt or expenditures.
+After 1970, the share of countries with data availability increases
+substantially because this is the starting year for most IMF govern-
+ment ﬁnancial statistics.
+
+We deﬁne a country as having a constitutional balanced budget
+rule if its constitution meets two conditions. First, the constitution
+must allow for the budget to be determined by accompanying legis-
+lation; that is, legislation that lays out the revenues and expenditures
+for the budget period. Second, the constitution must require a bal-
+anced budget. Constitutions state the requirement for a balanced
+budget in various ways. An example of a more precise deﬁnition is
+
+Germany’s constitution of 1949 which states “Revenues and expendi-
+tures shall in principle be balanced without revenue from credits. This
+principle must be satisﬁed when revenue obtained by the borrowing
+of funds does not exceed 0.35 percent in relation to the nominal gross
+domestic product”. An example of a more vague deﬁnition is Ukraine’s
+1999 constitution stating “The State aspires to a balanced budget of
+Ukraine”.
+
+These examples highlight the substantial heterogeneity in our
+measure of constitutional BBRs. Such heterogeneity might be conse-
+quence of constitutional rules being less explicit than statutory rules
+due to the higher cost of changing or vetoing a constitutional rule
+(Kennedy and Robbins, 2003). Additional examples of excerpts from
+constitutions containing BBRs are reported in Table B3 of the online
+appendix.21 Thus, our measure of constitutional BBRs can be under-
+stood as an indicator for a country’s stated constitutional preference
+for a balanced budget.22
+
+In our sample, in the years with most BBR requirements, forty-
+ﬁve countries had BBR requirements. The right-hand panel of Fig. 3
+reports the share of countries with constitutional BBR requirements.
+Fig. 4 maps these countries and Fig. 5 presents the historical time line
+of BBR adoptions. In addition, Table B1 of the online appendix lists
+these countries along with the time intervals with a BBR (column 3).
+That table also lists the time intervals with available data on country
+government debt (column 4).23
+
+4.1.2. Non-constitutional balanced budget rules
+
+To test the hypothesis that constitutional BBRs are more binding
+than non-constitutional (or also called statuary) laws, we com-
+pare the effects of constitutional and non-constitutional BBRs on
+government’s ﬁnancial aggregates. Data on non-constitutional ﬁs-
+cal rules are taken from the IMF’s data set on ﬁscal rules collected
+
+19 CCP deﬁnes a document as a constitution if it meets at least one of the following
+conditions: (a) the document is explicitly referred to as the constitution, fundamental
+law, or basic law; (b) the document contains explicit provisions that establish its
+contents to be the highest level of law, either because the document is entrenched
+or it limits future law; or (c) the document changes the basic pattern of authority
+by establishing or suspending an executive or legislative branch of government.
+20 The data on the number of independent states over time are taken from the 2013
+updated data set of Gleditsch and Ward (1999).
+
+21 These articles were taken from a sub-set of recent constitutions for which the
+Constitute Project provides English translations; see, https://www.constituteproject.
+org/search?lang=en.
+22 Further analysis into the content of these constitutional rules was limited by a
+lack of access to the english translations of all constitutions in the CCP database.
+Speciﬁcally, only the most recent version of a country’s constitution is publicly
+available at the CCP website.
+23 Of our outcome variables, the richer data set is the one on general government
+debt. If we look at periods with BBRs and at data on government expenditures, the
+sample is smaller than the one depicted in the last column of Table B1.
+
+110
+
+Z. Asatryan et al.
+
+/ Journal of Public Economics 167 (2018) 105–119
+
+100
+
+80
+
+60
+
+40
+
+20
+
+15
+
+10
+
+5
+
+0
+1800
+
+1850
+
+1900
+year
+
+1950
+
+2000
+
+0
+1800
+
+1850
+
+1900
+year
+
+1950
+
+2000
+
+Share Countries w/ Constitutions
+
+Share Countries w/ Constitutions & Outcomes
+
+Share Countries w/ BBR
+
+Share Countries w/ BBR & Outcomes
+
+Fig. 3. Evolution of constitutional balanced budget rules over time.
+Notes: Own calculations based on data from the Comparative Constitutions Project and Gleditsch and Ward (1999).
+
+Fig. 4. Constitutional balanced budget rules around the world.
+Notes: Shaded areas represent the countries (45 in total) that had a balanced budget rule sometime between 1800 and 2016. List of these countries by region (year BBR ﬁrst intro-
+duced in parentheses):AFRICA: Angola (2010), Benin (1960), Burkina Faso (1960), Cape Verde (1980), Central African Republic (1959), Chad (1960), Cote d’Ivoire (1960), Republic
+of the Congo (1967), Egypt (2007), Gabon (1975), Guinea (1983), Mali (1960), Mauritania (1961), Niger (1964), Rwanda (1962), Sudan (1973);ASIA: Singapore (1965);CENTRAL
+AMERICA: Costa Rica (1949), Dominican Republic (1955), El Salvador (1939), Haiti (1983), Honduras (1873), Nicaragua (1905), Panama (1983);SOUTH AMERICA: Brazil (1946), Chile
+(1980), Ecuador (1906), Uruguay (1942), Peru (1979);EUROPE: Austria (2008), Denmark (2014), Germany (1871), Georgia (2013), Hungary (2011), Italy (2014), Latvia (2013), Malta
+(2014), Poland (1999), Portugal (1822), Serbia (2006), Spain (2011), Slovakia (2012), Slovenia (2016), Switzerland (1999), Ukraine (1996).
+Source: Own compilation based on data from the CCP (Elkins et al., 2014) and the IMF ﬁscal-rules database (Budina et al., 2012; Bova et al., 2015). See also Tables B1 and B3.
+
+by Schaechter et al. (2012) which records the use and design of ﬁs-
+cal rules across countries since 1985.24 In these data, a ﬁscal rule
+is deﬁned as a rule that imposes a long-lasting constraint on ﬁscal
+policy through numerical limits on budgetary aggregates.25 The data
+concerns only with rules that cover at least the central government
+
+and includes information on ﬁscal rules’ characteristics such as level
+of implementation, legal basis, and the budget aggregate constrained
+by the rule. From these data, we identify as non-constitutional BBRs
+all BBRs with a legal basis other than the country’s constitution.
+
+24 While the data identiﬁes the use and design of rules since 1985, it also provides the
+year of implementation for all ﬁscal rules. We use the implementation year to identify
+rules in effect prior to 1985 to better compare constitutional and non-constitutional
+BBRs in our post-1945 sample.
+25 In addition to rules with numerical targets ﬁxed in legislation, the data also
+considers as ﬁscal rules those ﬁscal arrangements that are binding for at least three
+years (for example, expenditure ceilings).
+
+4.2. Outcome variables and controls
+
+4.2.1. Crises and public ﬁnance data
+
+Our objective is to identify whether there is an association
+between a country’s ﬁscal performance and constitutional bal-
+anced budget provisions. Speciﬁcally, we focus on the occurrence
+of sovereign debt crises using the data from Reinhart and Rogoff
+(2011). A debt crisis is deﬁned as a failure by the government to
+meet an interest or principal payment on the due date, and also
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+111
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+Cote d'Ivoire 
+
+DR Congo
+
+Gabon
+Mali
+
+Mauritania
+Rwanda
+Singapore
+
+Sudan
+
+Brazil
+
+Costa Rica
+El Salvador
+Uruguay
+
+Benin
+
+Cape Verde
+
+Chile
+Gabon
+Niger
+Panama
+
+Peru
+Poland
+Ukraine
+
+Angola
+Austria
+Denmark
+
+Egypt
+Georgia
+Guinea
+Hungary
+
+Italy
+Latvia
+Malta
+Serbia
+Slovakia
+Slovenia
+
+Germany
+Portugal
+
+Honduras
+Nicaragua
+
+Ecuador
+
+1875
+
+1900
+
+1925
+
+1950
+
+1975
+
+2000
+
+2016
+
+Fig. 5. Time line of balanced budget rule introductions since 1850.
+Notes: Figure plots the (noncumulative) number of BBRs by quarter century since 1850. Data labels indicate the countries that have introduced a BBR for the ﬁrst time within the
+period.
+Source: Own compilation based on data from the CCP (Elkins et al., 2014) and the IMF ﬁscal rules database (Budina et al., 2012; Bova et al., 2015).
+
+includes episodes involving the freezing of bank deposits and/or
+forcibly converting such deposits from foreign to local currency.
+
+In addition, we study government’s debt, expenditure, and tax
+revenue (as shares of GDP) as measures of a country’s ﬁscal
+performance. Historical data on government expenditure and tax
+revenue come from Cagé and Gadenne (2014), and data on general
+government debt come from Abbas et al. (2010).26 Both of these
+studies compile historical information from different sources and are
+to the best of our knowledge the most extensive records available.
+Cagé and Gadenne (2014) collect information on government expen-
+ditures as far back as 1830, and Abbas et al. (2010) report data on
+government debt from 1880 onward.
+
+Fig. 6 plots the evolution of average levels of government debt
+(subﬁgure a) and expenditure (subﬁgure b), as a percentage of GDP,
+for countries with and without BBRs. As we will show later in the
+paper, these averages hide a considerable amount of heterogeneity
+across both time and countries. However, this ﬁrst piece of evi-
+dence suggests lower levels of debt (until 1970s) and expenditure
+when constitutions include explicit ﬁscal provisions for balanced
+budgets.
+
+4.2.2. Other data
+
+As control variables in our analysis, we also include population
+size, per capita income, and quality of democracy. We proxy the qual-
+ity of a country’s democracy using the Polity scores from the Center
+for Systemic Peace. The scores originally ranged from −10 to 10, from
+complete autocracy to complete democracy, but for exposition we
+normalize the score to range between zero and one. The population
+and income data come from the Maddison Project database, with per
+capita income measured in 1990 international dollars.27
+
+Table 1 reports information about the central variables in our
+sample. The table shows the number of countries for each variable,
+as well as summary statistics and the sources of these variables.
+
+4.3. Estimation
+
+In our baseline estimates, we use a generalized difference-in-
+differences design to estimate the average treatment effect of BBRs
+(St Clair and Cook, 2015). The model has the following speciﬁcation:
+yit = b0 + b1Dit + Xitb + tt + ki + md × lc + dit + eit
+
+(1)
+
+where i indicates countries and t indicates years. The dependent
+variable yit is either a dummy for crisis years, or a continuous vari-
+able measuring government debt, expenditure, or tax revenue as a
+percentage of GDP. The indicator variable Dit equals one when the
+constitution speciﬁes a BBR and zero otherwise. Thus, the indicators
+coded as zero include country-year observations where a country’s
+constitution allowed for legislation related to the budget but did not
+include a BBR.28 The vector Xi t includes controls for population size,
+per capita GDP, quality of democracy (Polity score normalized to
+be between 0 and 1), and an indicator variable for years when the
+constitution was amended or a new constitution was drafted.29 We
+also control for country-speciﬁc linear time trends (d), country ﬁxed
+effects (k), year ﬁxed effects (t), and for decade speciﬁc continent
+ﬁxed effects (m × l).30 For inference, we cluster the standard errors
+at the level of countries.
+
+4.3.1. Identiﬁcation
+
+Identifying the causal effect of ﬁscal rules on ﬁscal outcomes is
+generally not straightforward because the adoption of such rules is
+likely to be endogenous. One source of endogeneity may come from
+selection bias; for example, if past ﬁscal performance inﬂuences the
+probability that a country implements a rule. Second, selection bias
+could also arise from the failure to account for omitted variables that
+simultaneously drive the implementation of ﬁscal rules and correlate
+with ﬁscal outcomes. Third, because the introduction of a constitu-
+tional BBR by deﬁnition involves a change in the constitution, either
+
+26 Abbas et al. (2010) deﬁne the general government sector as “all government units
+and all non-market nonproﬁt institutions that are controlled and mainly ﬁnanced by
+government units, comprising the central, state, and local governments. The general
+government sector does not include public corporations or quasi-corporations.”
+However, due to data limitations for the earlier years in their sample, they use
+central government debt whenever general government debt was not available.
+27 The Maddison-Project, http://www.ggdc.net/maddison/maddison-project/home.
+htm, 2013 version. International dollars refers to the Geary-Khamis dollar, which is a
+ﬁctional currency set to have the same purchasing power parity as the US dollar.
+
+28 We omit country-year observations with constitutions that did not allow for any
+type of legislation related to the budget. This is because the subset of constitutions
+that allow for legislation on the budget is more comparable. In Section 5.3, we show
+that our results are robust to including all constitutions in the analysis.
+29 The robustness tests of Table A2 in the online appendix additionally control for
+the occurrence of civil wars.
+30 In several robustness tests, we include year speciﬁc continent ﬁxed effects
+(instead of m × l), but because the estimation of these many dummies is computa-
+tionally prohibitive in the baseline regressions we use the decade dummies.
+
+112
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+(a) Debt/GDP (%)
+
+(b) Expenditure/GDP (%)
+
+0
+0
+1
+
+0
+8
+
+0
+6
+
+0
+4
+
+0
+2
+
+0
+
+5
+3
+
+0
+3
+
+5
+2
+
+0
+2
+
+5
+1
+
+0
+1
+
+5
+
+0
+
+1880
+
+1900
+
+1920
+
+1940
+
+1960
+
+1980
+
+2000
+
+2020
+
+1880
+
+1900
+
+1920
+
+1940
+
+1960
+
+1980
+
+2000
+
+2020
+
+With BBR
+
+Without BBR
+
+With BBR
+
+Without BBR
+
+Fig. 6. Evolution of average debt and expenditure with and without balanced budget rules, 1880–2012.
+Notes: Own calculations based on constitutional data from the CCP (Elkins et al., 2014) and ﬁscal data fromCagé and Gadenne (2014) and Abbas et al. (2010) . The sample includes
+countries with population over 1.5 million and excludes outliers at top and bottom 1 %. For a description of the sample, see Section 4.
+
+Table 1
+Summary statistics, sample coverage, and data sources.
+
+Variable
+
+Countries
+
+Obs.
+
+Mean
+
+Balanced budget rule
+Gen. gov. debt (% of GDP)
+Central gov. expenditure (% of GDP)
+Central gov. tax revenue (% of GDP)
+Debt crisis
+Population (million)
+Per capita GDP (ths. USD)
+Polity score (normalized)
+
+193
+177
+128
+130
+70
+193
+157
+187
+
+6689
+7011
+4068
+4157
+14,132
+11,880
+8643
+9249
+
+0.11
+56.3
+25.5
+18.0
+0.12
+23.6
+4.8
+0.5
+
+St.D.
+
+0.32
+60.3
+13.1
+9.3
+0.33
+92
+5.7
+0.4
+
+10th
+pct.
+
+0.0
+12.6
+12.0
+8.2
+0.0
+0.1
+0.7
+0.1
+
+90th
+pct.
+
+1.0
+105.5
+41.8
+31.7
+1.0
+46
+12.8
+1.0
+
+Source
+
+CCP (Elkins et al., 2014)
+Abbas et al. (2010)
+Cagé and Gadenne (2014)
+Cagé and Gadenne (2014)
+Reinhart and Rogoff (2011)
+The Maddison Project
+The Maddison Project
+Center for Systemic Peace
+
+through amendments or through the introduction of a new consti-
+tution, the potential independent effects of these additional changes
+on ﬁscal outcomes must be ruled out.
+
+To test for selection bias, we examine the trends in the outcome
+variables in the periods leading to the introduction of BBR. In a mod-
+iﬁed version of the generalized difference-in-difference design of Eq.
+(1), we follow Autor (2003) and use leads of the treatment variable
+to estimate the effect of BBRs on the outcome variables during the
+ﬁve years leading to their implementation. In event-study graphs of
+Section 5.3, we show that the effect of BBRs on ﬁscal aggregates and
+the probability of observing crises are not statistically different from
+zero during the years leading to the adoption of these rules.
+
+The absence of average pre-trends suggests no systematic bias
+coming from selection subject to two assumptions. First, it assumes
+that selection is correlated with the observable variables on ﬁscal
+outcomes. Second, this test is informative only for the average dif-
+ference between the treatment and control groups which may in
+principle mask potentially offsetting trends. The pre-trends that are
+statistically indistinguishable from zero are estimated with a reason-
+able precision. Therefore, it is unlikely but not fully excludable that
+this average effect hides potentially offsetting effects.
+
+Our estimates would still be biased if shocks that are omitted
+from our speciﬁcation systematically affect both ﬁscal rules and
+ﬁscal outcomes. For this reason, we ﬁrst control for observable vari-
+ables, and secondly show that these observables do not change much
+
+around the introduction years of BBRs. However, a central unob-
+servable candidate which we cannot control for are the voters’ ﬁscal
+preferences.31 To partially address this concern of omitted variable
+bias, we include country ﬁxed effects and country-speciﬁc paramet-
+ric time trends. These ﬁxed effects are likely to be effective with
+omitted unobservable factors that are fairly constant over time, such
+as ﬁscal preferences. But we cannot fully rule out this possibility.
+Given the geographic heterogeneity of our sample, we also include
+continent-speciﬁc decade (or year) ﬁxed effects. To the degree that
+these two-way ﬁxed effects do not capture other time and within-
+continent varying unobservable factors in Section 5.3, we perform
+the selection-on-unobservables test proposed by Altonji et al. (2005).
+In order to control for the simultaneity between constitutional
+BBRs and other changes to the constitution, we introduce indicator
+variables for the occurrence of constitutional reforms to partial out
+changes in ﬁscal outcomes at the time of such events. In addition,
+in Section 5.3 we run the dynamic version of our difference-in-
+difference design on the effects of all constitutional changes and
+amendments on our outcome variables, and do not ﬁnd evidence that
+these changes generally matter for our variables of interest.
+
+31 In an attempt to untangle the endogenous relation between ﬁscal rules and ﬁs-
+cal performance, Heinemann et al. (2014) and Krogstrup and Wälti (2008) develop
+proxies for voter preferences.
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+113
+
+5. Results
+
+5.1. Probability of sovereign debt crises
+
+We ﬁrst study the effect of BBRs on the occurrence of exter-
+nal or domestic crises as measured by Reinhart and Rogoff (2011).
+Table 2 collects the difference-in-difference estimates. All regres-
+sions control for per capita GDP, population, quality of democracy,
+constitutional change, and include country and year ﬁxed effects.
+The main result is that having a BBR in a constitution is associated
+with a reduced probability of observing debt crises. The magnitude of
+this average effect is 16.7%, which increases when controlling for the
+level of government debt-to-GDP ratio in even numbered columns.
+The direction of these effect are robust when controlling for conti-
+nent times year speciﬁc effects in columns 3–4, and when estimating
+the speciﬁcation with a poisson model in columns 5–6 instead of the
+linear OLS model.
+
+5.2. Debt, expenditure, and tax revenue
+
+We now turn to the variables capturing government’s ﬁscal deci-
+sions: the ratio of debt, expenditure, and tax revenue to GDP. Table 3
+reports the difference-in-difference estimates using speciﬁcations
+similar to those estimated in Table 2. Columns 1–3 and 4–6 report
+the regressions on, respectively, levels and growth rates of the three
+ﬁscal variables of interest. Depending on data availability of the
+dependent variable, the sample size varies across speciﬁcations, from
+110 to 132 countries. Given the historical nature of the data with
+potential measurement errors involved, we estimate the equations
+by trimming the outliers of the dependent variables at 1%.32
+
+The main result of Table 3 is a negative, statistically signiﬁ-
+cant, and economically large association between constitutional-
+level BBRs and government debt and expenditure. The effect of BBRs
+on tax revenue is not statistically distinguishable from zero, sug-
+gesting that the BBR-induced reduction in debt is mostly achieved
+by decreasing expenditures rather than by increasing tax revenues.
+These results hold both for the speciﬁcation in levels and growth
+rates. Regarding the magnitude, the introduction of a BBR in a con-
+stitution is associated with an average decrease of debt-to-GDP and
+expenditure-to-GDP ratios of about eleven and three percentage
+points, respectively (columns 1–2).
+
+Regarding the control variables, both per capita GDP and
+population have negative signs when signiﬁcant, indicating that
+richer and more populous countries have lower levels of government
+debt and expenditure. The estimated coeﬃcients on the Polity index
+of democracy are statistically signiﬁcant only in one speciﬁcation,
+and the dummy for constitutional changes is never signiﬁcantly
+different from zero.
+
+5.3. Robustness tests
+
+We add to the above baseline results by testing: (a) whether the
+assumption of parallel trends holds; (b) whether economic variables
+of interest change substantially around the introduction of BBRs;
+(c) whether confounding events around the time of treatment drive
+the results; (d) if the results can be replicated on the total sample
+going back to the year 1800; (e) the sensitivity of estimates to outliers;
+(f) the robustness of results to different estimation techniques; (g) the
+robustness of results to alternative deﬁnitions of BBRs and a wider set
+of control variables; and (h) for the possibility (and potential relative
+
+32 For example, the maximum (99-percentile) value of debt in our sample exceeds
+2000 % (240%) of GDP; the corresponding statistics for expenditure and tax revenue
+ratios are, respectively, 219% (60%) and 122% (45.19%). Table 4 presents robustness
+tests by averaging the data and by Winsorizing the outliers.
+
+size) of selection bias. Finally, we test whether the enforcement of
+BBRs depends on the quality of democratic institutions.
+
+5.3.1. Parallel trends
+
+Fig. 7 presents the results of the dynamic difference-in-difference
+design on the trends in our baseline variables of interest in the ﬁve
+years leading to the introduction of a BBR. Sub-ﬁgures (a), (b) and
+(c) show the estimated effects of BBRs on, respectively, government
+debt, expenditure and tax revenue in GDP, and sub-ﬁgure (d) shows
+the probabilities of observing a crises. The effect of BBRs on ﬁscal
+variables in years leading to their introduction are not signiﬁcantly
+different from zero for any of the four dependent variables.
+
+5.3.2. Changes in economic conditions around the introduction of BBRs
+The introduction of BBRs may be driven by the general economic
+environment or affect it directly. Fig. A1 of the Appendix implements
+the dynamic difference-in-difference design following the baseline
+methodology of Fig. 7 but as dependent variables taking several
+measures of the relevant economic environment as well as showing
+yearly point estimates following a BBR introduction. In Fig. A1, we do
+not ﬁnd evidence of substantial changes in the (a) level of population,
+(b) per capita GDP, (c) polity score of democracy, or (d) structural
+reform activity33 around the time of our treatment.
+
+5.3.3. Confounding events
+
+The introduction of a constitutional BBR by deﬁnition involves a
+change in the constitution. These rules are introduced either through
+an amendment of the existing constitution or by drafting a new
+constitution.34 These confounding treatments could partially drive
+the baseline results if constitutional changes affect the outcome
+variables. Our strategy in the baseline speciﬁcation was to add an
+event indicator variable for constitutional changes. In Fig. A2, we
+further address this concern by running placebo dynamic difference-
+in-difference regressions on the effects of amendments and new
+constitutions on the probability of crises and on the government
+ﬁnance variables. Speciﬁcally, the placebo tests in Fig. A2 do not
+show evidence that constitutional changes have an independent
+effect on our four outcome variables of interest.
+
+5.3.4. Total sample
+
+Some countries introduced BBRs before 1945, the year when our
+preferred sample starts. The pre-1945 variation in constitutional
+BBRs is low with only ﬁve countries having introduced such rules.
+Columns 1–3 of Table 4 report results for the main speciﬁcation
+when using our total sample from 1800 to 2015 and ﬁnd results that
+are similar to the baseline.
+
+5.3.5. Sensitivity to outliers
+
+Several exercises ensure that the main results are not driven by
+inﬂuential outliers. Columns 4–6 of Table 4 estimate the baseline
+speciﬁcation on data averaged over ﬁve year periods.35 Columns 7–
+9 ofTable 4 Winsorize the outliers at the top and bottom 5% of
+the respective distributions. Columns 10–12 of Table 4 control for
+continent speciﬁc decade ﬁxed effects to make sure unusually large
+continent-wide shocks do not drive the results. In addition, Table A3
+of the online appendix reports re-runs of the baseline speciﬁcation
+when dropping each of the countries in the sample one at a time
+
+33 This variable on structural reforms is an index between 0 and 1 where larger num-
+bers represent more deregulation. The data is made available by Prati et al. (2013)
+annually for the period 1973–2006 at the level of several sub-indices (trade, cur-
+rent account, agriculture, network, domestic ﬁnance, and capital account) which we
+average to one index here.
+34 In our sample, about 90% of BBRs are introduced with new constitutions.
+35 The BBR variable in these regressions is the share of years within the period that a
+constitution included a BBR, rather than a dummy as in the baseline case.
+
+114
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+Table 2
+Difference-in-difference: probability of debt crises.
+
+Sample:
+Variables
+
+Method:
+
+Balanced budget rule
+
+Ln per capita GDP
+
+Ln population
+
+Polity2 (normalized)
+
+Constitutional change
+
+Debt/GDP
+Continent× Year FE
+Observations
+(Pseudo)R-squared
+Wald Chi2
+Number of countries
+
+(1)
+Post-1945
+Domestic and/or external debt crises
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+OLS
+−0.156∗∗∗
+(0.041)
+−0.232∗∗∗
+(0.062)
+0.392∗∗∗
+(0.115)
+0.018
+(0.064)
+0.002
+(0.016)
+
+2855
+0.216
+
+58
+
+−0.192∗∗∗
+(0.047)
+−0.243∗∗∗
+(0.083)
+0.216∗∗
+(0.102)
+0.086
+(0.058)
+−0.000
+(0.020)
+0.002∗∗∗
+(0.001)
+
+2288
+0.231
+
+58
+
+OLS
+−0.184∗∗∗
+(0.033)
+−0.401∗∗∗
+(0.106)
+0.407∗∗
+(0.195)
+0.094∗
+(0.055)
+0.007
+(0.016)
+
+Yes
+2855
+0.420
+
+58
+
+−0.273∗∗∗
+(0.046)
+−0.494∗∗∗
+(0.147)
+0.384
+(0.324)
+0.145∗∗∗
+(0.054)
+0.011
+(0.018)
+0.002∗∗
+(0.001)
+Yes
+2288
+0.436
+
+58
+
+Poisson
+−1.074∗∗
+(0.426)
+−2.195∗∗∗
+(0.338)
+3.978∗∗∗
+(0.556)
+−0.040
+(0.289)
+−0.058
+(0.128)
+
+1822
+
+260.1
+38
+
+−1.276∗∗
+(0.553)
+−1.843∗∗∗
+(0.491)
+3.669∗∗∗
+(0.863)
+0.124
+(0.325)
+−0.064
+(0.143)
+0.007∗∗∗
+(0.002)
+
+1367
+
+194.7
+36
+
+Notes: Dependent variable is a dummy taken from Reinhart and Rogoff (2011) for domestic or external debt crisis. All regressions include country and year ﬁxed effects (not
+reported). Standard errors are clustered by country.
+∗∗∗ p < 0.01.
+∗∗ p < 0.05.
+∗ p < 0.1.
+
+Table 3
+Difference-in-difference: Government ﬁnances.
+
+Variables
+
+Balanced budget rule
+
+Ln per capita GDP
+
+Ln population
+
+Polity2 (normalized)
+
+Constitutional change
+
+Observations
+R-squared
+Countries
+
+(1)
+Levels
+
+Debt
+−11.106∗∗
+(5.222)
+−23.911∗∗
+(9.673)
+−9.953
+(15.496)
+−5.194
+(6.147)
+−1.191
+(1.095)
+3797
+0.365
+132
+
+(2)
+
+(3)
+
+Exp
+−3.504∗∗∗
+(0.856)
+−4.177∗
+(2.173)
+−20.261∗∗∗
+(3.771)
+0.268
+(1.204)
+0.202
+(0.389)
+2816
+0.407
+110
+
+Tax
+−0.389
+(0.974)
+1.427
+(1.226)
+−13.516∗∗∗
+(2.625)
+−0.874
+(1.139)
+0.212
+(0.212)
+2850
+0.393
+112
+
+(4)
+Growth rates
+
+Debt
+−0.038*
+(0.023)
+0.014
+(0.023)
+−0.067∗∗∗
+(0.022)
+−0.003
+(0.017)
+0.005
+(0.006)
+3612
+0.136
+132
+
+(5)
+
+Exp
+−0.035∗∗∗
+(0.012)
+0.018
+(0.012)
+−0.003
+(0.018)
+0.012
+(0.014)
+0.007
+(0.005)
+2714
+0.051
+110
+
+(6)
+
+Tax
+−0.006
+(0.026)
+−0.003
+(0.009)
+−0.014
+(0.017)
+0.038∗∗∗
+(0.013)
+0.006
+(0.005)
+2768
+0.040
+112
+
+Notes: The dependent variables are government debt, expenditure and tax revenue, and are measured as a share of GDP in percentage points in columns 1–3 and as annual growth
+rates in columns 4–6. Outliers of the dependent variables are trimmed at the top and bottom percentile of the distribution. All regressions include country and year ﬁxed effects
+(not reported). Standard errors are clustered by country.
+∗∗∗ p < 0.01.
+∗∗ p < 0.05.
+∗ p < 0.1.
+
+and shows that the inclusion of no single country can account for the
+baseline results.
+
+5.3.6. Robustness to estimation techniques
+
+Table A1 of the online appendix replicates the baseline results of
+Table 3, ﬁrst, by controlling for the lagged dependent variable, and
+second, by estimating the latter equation with a difference-GMM
+estimator. The size of the point estimates on BBR decreases in both
+speciﬁcations due to the downward bias introduced by the lagged
+dependent variable (Keele and Kelly, 2006). However, the sign and
+statistical signiﬁcance of all baseline results remain robust.
+
+5.3.7. Robustness to alternative deﬁnitions of BBR and a wider set of
+control variables
+
+Table A2 of the online appendix presents additional tests of the
+baseline results from Table 3 when: (a) including controls for the
+
+occurrence of civil wars (columns 1–2)36; (b) using an alternative
+deﬁnition of BBR (columns 3–4) that leads us to include four addi-
+tional countries (see Table B1 of the online appendix for the sample
+of countries having a BBR according to the baseline and alternative
+deﬁnitions); and (c) including in the sample all country-year obser-
+vations associated with constitutions that did not have a BBR and
+that did not allow for any type of legislation related to the budget.37
+The results from these tests are broadly consistent with our baseline
+results.
+
+36 Information on civil wars was taken from the Intra-state War data set (v.4.0) of
+the Correlates of War project.
+37 See our discussion about the substance of BBR in Section 4.1.
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+115
+
+)
+8
+2
+2
+1
+(
+
+6
+3
+5
+0
+−
+
+.
+
+.
+
+∗
+∗
+
+)
+3
+7
+3
+2
+(
+
+4
+5
+0
+8
+−
+
+.
+
+.
+
+∗
+∗
+∗
+
+7
+0
+6
+2
+5
+−
+
+)
+2
+5
+5
+9
+(
+
+.
+
+.
+
+∗
+∗
+∗
+
+9
+6
+4
+1
+1
+−
+
+)
+1
+3
+2
+1
+(
+
+.
+
+.
+
+∗
+∗
+∗
+
+1
+7
+6
+7
+1
+−
+
+)
+6
+7
+9
+1
+(
+
+.
+
+.
+
+)
+8
+4
+3
+3
+(
+
+2
+4
+3
+0
+−
+
+.
+
+.
+
+)
+2
+3
+9
+0
+(
+
+.
+
+)
+7
+4
+1
+0
+(
+
+.
+
+1
+4
+0
+0
+
+.
+
+3
+9
+8
+2
+
+8
+0
+5
+0
+
+.
+
+2
+1
+1
+
+)
+8
+4
+3
+3
+(
+
+.
+
+)
+3
+4
+1
+1
+(
+
+.
+
+7
+6
+3
+1
+
+.
+
+)
+4
+0
+3
+0
+(
+
+.
+
+4
+1
+1
+0
+
+.
+
+7
+2
+8
+2
+
+4
+8
+4
+0
+
+.
+
+0
+1
+1
+
+)
+8
+9
+3
+7
+1
+(
+
+.
+
+5
+7
+9
+0
+
+.
+
+)
+7
+6
+3
+6
+(
+
+4
+6
+9
+0
+−
+
+.
+
+.
+
+)
+3
+5
+9
+0
+(
+
+.
+
+6
+6
+8
+3
+
+4
+8
+4
+0
+
+.
+
+2
+3
+1
+
+)
+3
+3
+2
+2
+(
+
+5
+6
+5
+0
+−
+
+.
+
+.
+
+)
+8
+8
+0
+1
+(
+
+.
+
+)
+6
+7
+1
+0
+(
+
+.
+
+7
+1
+1
+0
+
+.
+
+3
+9
+8
+2
+
+8
+9
+3
+0
+
+.
+
+2
+1
+1
+
+)
+8
+3
+1
+3
+(
+
+.
+
+)
+4
+1
+1
+1
+(
+
+.
+
+)
+0
+4
+3
+0
+(
+
+.
+
+4
+5
+2
+0
+
+.
+
+2
+8
+8
+0
+
+.
+
+7
+2
+8
+2
+
+0
+1
+4
+0
+
+.
+
+0
+1
+1
+
+)
+0
+5
+8
+3
+1
+(
+
+9
+9
+1
+5
+−
+
+.
+
+.
+
+)
+7
+6
+6
+2
+(
+
+2
+9
+5
+1
+−
+
+.
+
+.
+
+)
+3
+0
+7
+3
+(
+
+2
+2
+1
+0
+−
+
+.
+
+.
+
+)
+8
+6
+6
+5
+(
+
+3
+9
+9
+0
+−
+
+.
+
+.
+
+)
+7
+1
+0
+1
+(
+
+.
+
+6
+6
+8
+3
+
+4
+0
+4
+0
+
+.
+
+2
+3
+1
+
+)
+3
+5
+4
+1
+(
+
+.
+
+)
+6
+8
+8
+0
+(
+
+.
+
+0
+4
+6
+0
+
+.
+
+7
+1
+5
+0
+
+.
+
+3
+1
+1
+
+7
+8
+6
+
+)
+1
+1
+6
+1
+(
+
+.
+
+)
+0
+4
+4
+1
+(
+
+.
+
+9
+3
+7
+0
+
+.
+
+5
+9
+3
+0
+
+.
+
+1
+1
+1
+
+3
+7
+6
+
+)
+5
+7
+9
+5
+1
+(
+
+0
+4
+6
+6
+−
+
+.
+
+.
+
+*
+4
+4
+8
+7
+−
+
+)
+4
+6
+5
+6
+(
+
+.
+
+.
+
+)
+4
+5
+4
+2
+(
+
+2
+3
+1
+0
+−
+
+.
+
+.
+
+)
+4
+2
+0
+1
+(
+
+6
+3
+1
+0
+−
+
+.
+
+.
+
+)
+6
+0
+4
+4
+(
+
+.
+
+5
+7
+3
+0
+
+.
+
+1
+3
+1
+
+2
+0
+9
+
+)
+1
+9
+1
+0
+(
+
+.
+
+6
+3
+0
+3
+
+3
+7
+4
+0
+
+.
+
+3
+1
+1
+
+0
+8
+5
+0
+1
+−
+
+)
+9
+8
+2
+8
+(
+
+.
+
+.
+
+∗
+∗
+∗
+
+4
+2
+7
+6
+1
+−
+
+)
+9
+9
+3
+1
+(
+
+.
+
+.
+
+∗
+∗
+∗
+
+9
+9
+4
+0
+2
+−
+
+)
+0
+3
+1
+2
+(
+
+.
+
+.
+
+)
+4
+9
+1
+2
+1
+(
+
+4
+9
+3
+2
+1
+−
+
+.
+
+.
+
+∗
+∗
+∗
+
+)
+6
+9
+5
+1
+(
+
+3
+1
+8
+7
+−
+
+.
+
+.
+
+∗
+∗
+∗
+
+3
+4
+6
+0
+1
+−
+
+)
+9
+3
+7
+1
+(
+
+.
+
+.
+
+)
+3
+5
+8
+1
+(
+
+.
+
+∗
+∗
+
+)
+8
+4
+9
+0
+(
+
+.
+
+)
+8
+8
+2
+0
+(
+
+.
+
+3
+2
+4
+0
+
+.
+
+4
+5
+9
+2
+
+3
+2
+5
+0
+
+.
+
+1
+1
+1
+
+2
+4
+9
+1
+
+.
+
+2
+6
+7
+0
+
+.
+
+x
+a
+T
+
+∗
+∗
+
+1
+9
+4
+2
+−
+
+.
+
+p
+x
+E
+
+*
+0
+6
+6
+9
+−
+
+.
+
+t
+b
+e
+D
+
+E
+F
+e
+d
+a
+c
+e
+D
+×
+
+t
+n
+e
+n
+i
+t
+n
+o
+C
+
+∗
+∗
+∗
+
+)
+7
+2
+9
+0
+(
+
+.
+
+8
+7
+5
+3
+
+.
+
+)
+0
+6
+9
+0
+(
+
+1
+6
+4
+2
+−
+
+.
+
+.
+
+∗
+∗
+∗
+
+6
+2
+1
+9
+2
+−
+
+)
+2
+9
+3
+5
+(
+
+.
+
+.
+
+5
+5
+2
+0
+−
+
+.
+
+)
+6
+2
+8
+0
+(
+
+.
+
+3
+1
+5
+1
+
+.
+
+x
+a
+T
+
+∗
+∗
+∗
+
+2
+6
+2
+3
+−
+
+.
+
+p
+x
+E
+
+∗
+∗
+
+7
+8
+3
+1
+1
+−
+
+.
+
+t
+b
+e
+D
+
+s
+r
+e
+i
+l
+t
+u
+o
+e
+z
+i
+r
+o
+s
+n
+W
+
+i
+
+*
+4
+4
+6
+3
+−
+
+)
+3
+2
+7
+0
+(
+
+.
+
+.
+
+∗
+∗
+
+3
+2
+2
+0
+2
+−
+
+)
+8
+0
+1
+5
+(
+
+.
+
+.
+
+9
+3
+0
+1
+−
+
+.
+
+)
+4
+3
+2
+1
+(
+
+.
+
+1
+8
+4
+0
+
+.
+
+x
+a
+T
+
+∗
+∗
+
+)
+5
+8
+4
+1
+(
+
+5
+4
+7
+4
+−
+
+.
+
+.
+
+*
+6
+8
+8
+3
+2
+−
+
+)
+7
+5
+7
+5
+(
+
+.
+
+.
+
+)
+6
+8
+8
+0
+(
+
+5
+3
+0
+0
+−
+
+.
+
+.
+
+*
+6
+6
+9
+2
+−
+
+)
+3
+2
+9
+0
+(
+
+.
+
+.
+
+∗
+∗
+
+2
+2
+2
+3
+−
+
+.
+
+p
+x
+E
+
+∗
+∗
+
+9
+9
+3
+2
+1
+−
+
+.
+
+t
+b
+e
+D
+
+0
+1
+3
+0
+−
+
+.
+
+x
+a
+T
+
+∗
+∗
+∗
+
+4
+1
+6
+2
+−
+
+.
+
+p
+x
+E
+
+*
+7
+8
+4
+7
+−
+
+.
+
+t
+b
+e
+D
+
+s
+e
+g
+a
+r
+e
+v
+a
+r
+a
+e
+y
+-
+e
+v
+i
+F
+
+e
+l
+p
+m
+a
+s
+0
+0
+8
+1
+-
+t
+s
+o
+P
+
+)
+9
+8
+3
+4
+(
+
+3
+5
+5
+8
+−
+
+.
+
+.
+
+)
+5
+5
+5
+5
+(
+
+1
+8
+9
+3
+−
+
+.
+
+.
+
+)
+8
+1
+0
+7
+(
+
+5
+0
+2
+0
+−
+
+.
+
+.
+
+)
+2
+1
+0
+6
+(
+
+7
+2
+4
+0
+−
+
+.
+
+.
+
+)
+0
+9
+1
+1
+(
+
+.
+
+1
+2
+1
+4
+
+7
+6
+3
+0
+
+.
+
+2
+3
+1
+
+e
+l
+u
+r
+
+t
+e
+g
+d
+u
+b
+d
+e
+c
+n
+a
+l
+a
+B
+
+P
+D
+G
+a
+t
+i
+p
+a
+c
+
+r
+e
+p
+n
+L
+
+n
+o
+i
+t
+a
+l
+u
+p
+o
+p
+n
+L
+
+)
+d
+e
+z
+i
+l
+a
+m
+r
+o
+n
+(
+2
+y
+t
+i
+l
+o
+P
+
+e
+g
+n
+a
+h
+c
+
+l
+a
+n
+o
+i
+t
+u
+t
+i
+t
+s
+n
+o
+C
+
+:
+n
+o
+i
+t
+a
+c
+ﬁ
+i
+c
+e
+p
+S
+
+s
+e
+l
+b
+a
+i
+r
+a
+V
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+O
+
+d
+e
+r
+a
+u
+q
+s
+-
+R
+
+s
+e
+i
+r
+t
+n
+u
+o
+C
+
+)
+2
+1
+(
+
+)
+1
+1
+(
+
+)
+0
+1
+(
+
+)
+9
+(
+
+)
+8
+(
+
+)
+7
+(
+
+)
+6
+(
+
+)
+5
+(
+
+)
+4
+(
+
+)
+3
+(
+
+)
+2
+(
+
+)
+1
+(
+
+.
+s
+e
+c
+n
+a
+n
+ﬁ
+t
+n
+e
+m
+n
+r
+e
+v
+o
+g
+:
+s
+t
+s
+e
+t
+
+s
+s
+e
+n
+t
+s
+u
+b
+o
+R
+
+4
+e
+l
+b
+a
+T
+
+o
+t
+n
+o
+i
+t
+i
+d
+d
+a
+n
+
+i
+
+s
+t
+c
+e
+f
+f
+e
+d
+e
+x
+ﬁ
+e
+d
+a
+c
+e
+d
+×
+
+e
+v
+ﬁ
+m
+o
+t
+t
+o
+b
+d
+n
+a
+p
+o
+t
+e
+h
+t
+
+t
+a
+d
+e
+m
+m
+
+i
+r
+t
+e
+r
+a
+
+s
+e
+l
+b
+a
+i
+r
+a
+v
+t
+n
+e
+d
+n
+e
+p
+e
+d
+e
+h
+t
+
+f
+o
+s
+r
+e
+i
+l
+t
+u
+o
+
+,
+
+3
+–
+1
+s
+n
+m
+u
+l
+o
+c
+n
+I
+
+.
+s
+t
+n
+i
+o
+p
+e
+g
+a
+t
+n
+e
+c
+r
+e
+p
+n
+
+i
+P
+D
+G
+
+f
+o
+e
+r
+a
+h
+s
+
+a
+
+s
+a
+d
+e
+r
+u
+s
+a
+e
+m
+e
+r
+a
+d
+n
+a
+
+,
+
+e
+u
+n
+e
+v
+e
+r
+x
+a
+t
+d
+n
+a
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+,
+t
+b
+e
+d
+t
+n
+e
+m
+n
+r
+e
+v
+o
+g
+e
+r
+a
+
+s
+e
+l
+b
+a
+i
+r
+a
+v
+t
+n
+e
+d
+n
+e
+p
+e
+d
+e
+h
+T
+:
+s
+e
+t
+o
+N
+
+t
+n
+e
+n
+i
+t
+n
+o
+c
+e
+d
+u
+l
+c
+n
+
+i
+2
+1
+–
+0
+1
+s
+n
+m
+u
+l
+o
+C
+
+.
+
+d
+e
+p
+p
+o
+r
+d
+f
+o
+d
+a
+e
+t
+s
+n
+
+i
+
+i
+d
+e
+z
+i
+r
+o
+s
+n
+W
+e
+r
+a
+s
+r
+e
+i
+l
+t
+u
+o
+
+,
+
+2
+1
+–
+7
+s
+n
+m
+u
+l
+o
+c
+n
+I
+
+.
+s
+d
+o
+i
+r
+e
+p
+r
+a
+e
+y
+-
+5
+r
+e
+v
+o
+d
+e
+g
+a
+r
+e
+v
+a
+e
+r
+a
+s
+e
+l
+b
+a
+i
+r
+a
+v
+t
+n
+e
+d
+n
+e
+p
+e
+d
+
+,
+
+6
+–
+4
+s
+n
+m
+u
+l
+o
+c
+n
+I
+
+.
+
+n
+o
+i
+t
+u
+b
+i
+r
+t
+s
+i
+d
+e
+h
+t
+
+f
+o
+s
+e
+l
+i
+t
+n
+e
+c
+r
+e
+p
+
+.
+
+y
+r
+t
+n
+u
+o
+c
+y
+b
+d
+e
+r
+e
+t
+s
+u
+l
+c
+e
+r
+a
+s
+r
+o
+r
+r
+e
+d
+r
+a
+d
+n
+a
+t
+S
+
+.
+)
+d
+e
+t
+r
+o
+p
+e
+r
+
+t
+o
+n
+(
+
+s
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+l
+l
+a
+n
+
+i
+d
+e
+d
+u
+l
+c
+n
+
+i
+
+s
+t
+c
+e
+f
+f
+e
+d
+e
+x
+ﬁ
+r
+a
+e
+y
+d
+n
+a
+y
+r
+t
+n
+u
+o
+c
+
+.
+
+1
+0
+.
+0
+<
+p
+
+.
+
+5
+0
+.
+0
+<
+p
+
+.
+
+1
+.
+0
+<
+p
+
+∗
+∗
+∗
+
+∗
+∗
+
+∗
+
+5.3.8. Selection on unobservables
+
+Using the method proposed by Altonji et al. (2005), we con-
+struct a measure that allows us to estimate how much stronger the
+selection on unobservables has to be compared to the covariates
+to explain away the treatment’s estimated effect (see also, Nunn
+and Wantchekon, 2011; Oster, 2015; Baskaran, 2015; Hener et al.,
+forthcoming). Table A4 of the online appendix reports the results
+from this test and shows that after controlling for country and year
+ﬁxed effects, the explanatory power of unobserved variables would
+have to be thirty (four) times larger regarding government debt
+(expenditure) for the effect of BBRs to be spurious.
+
+5.3.9. The role of democratic institutions
+
+We extend our baseline results by asking whether democratic
+institutions are one of the mechanisms that translate the effect of
+BBRs into ﬁscal outcomes. To test the hypothesis that the enforce-
+ment of BBRs depends on well-functioning democratic institutions,
+an interaction term between the BBR dummy and the Polity index of
+democracy is included in the baseline speciﬁcation. Fig. 8 plots the
+marginal effects. We do not ﬁnd a statistically signiﬁcant effect for
+government debt. However, for government expenditures, BBRs only
+reduce expenditures when democratic institutions are in place.
+
+5.4. Effectiveness of non-constitutional ﬁscal rules
+
+In this section, we extend the analysis and study the effectiveness
+of national-level non-constitutional balanced budget rules. Non-
+constitutional BBRs are a more recent phenomenon as compared to
+constitutional ones. Most of these rules, particularly those in Europe,
+were introduced starting in the beginning of 1990s following the
+Maastricht Treaty, however others were introduced much earlier, for
+example, by Japan in 1947, Malaysia in 1959, and Indonesia in 1967.
+In 2015, the number of countries with non-constitutional BBRs in
+effect peaked to 75 around the world.
+
+We adopt our baseline difference-in-difference speciﬁcation as
+in Tables 2 (columns 3–4)38 and 3 (columns 1–3) for crisis and
+government ﬁnance variables, respectively. In Table 5, we then
+estimate regressions on the effectiveness of constitutional and non-
+constitutional BBRs, respectively, in even and odd numbered columns,
+using the same speciﬁcation and the same sample. We do not ﬁnd
+evidence that non-constitutional BBRs effectively constrain either the
+probability of crisis or any of our three ﬁscal variables of interest.
+In contrast, the substantial evidence on the effectiveness of con-
+stitutional BBRs that we presented in the main results can be also
+replicated here using the more limited sample for which data on
+non-constitutional rules is available.39
+
+6. Conclusions
+
+In this paper, we estimate the reduced-form effects of constitu-
+tional balanced budget rules (BBRs) on ﬁscal sustainability. Using
+data from the nineteenth, twentieth, and twenty-ﬁrst centuries
+for a large sample of countries, we ﬁnd that the introduction of
+constitutional-level BBRs is, on average, associated with a seven-
+teen percent reduction in the likelihood of experiencing a debt crisis
+and an eleven percentage points decrease in the levels of govern-
+ment debt-to-GDP ratio. We document that this reduction in debt
+is achieved by decreasing expenditures rather than increasing tax
+revenues. In contrast to these ﬁndings, we do not ﬁnd evidence
+
+38 Adopting a speciﬁcation as in columns 1–2 of Table 2, that is not controlling for
+debt-to-GDP, does not change the results.
+39 Note that the statistical tests reported in the last row of Table 5 do not always
+reject the null hypothesis that the estimated coeﬃcients of constitutional and non-
+constitutional rules are not unequal.
+
+116
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+(a) Debt/GDP
+
+(b) Expenditure/GDP
+
+t-5
+
+t-4
+
+t-3
+
+99
+
+95
+
+t-2
+
+90
+
+t-1
+
+80
+
+t
+
+70
+
+(c) Tax/GDP
+
+0
+2
+
+0
+1
+
+0
+
+0
+1
+-
+
+0
+2
+-
+
+4
+
+2
+
+0
+
+2
+-
+
+4
+-
+
+0
+1
+
+5
+
+0
+
+5
+-
+
+5
+
+.
+
+0
+
+5
+.
+-
+
+t-5
+
+t-4
+
+t-3
+
+99
+
+95
+
+t-2
+
+90
+
+t-1
+
+80
+
+t
+
+70
+
+(d) Probability of Crises
+
+t-5
+
+t-4
+
+t-3
+
+99
+
+95
+
+t-2
+
+90
+
+t-1
+
+80
+
+t
+
+70
+
+t-5
+
+t-4
+
+t-3
+
+99
+
+95
+
+t-2
+
+90
+
+t-1
+
+80
+
+t
+
+70
+
+Fig. 7. Trends in ﬁscal variables before the introduction of BBR.
+Notes: Figures plot the yearly point estimates of the dynamic diff-in-diff design of the effect of BBR introduction in year t on share of government (a) debt, (b) expenditure and
+(c) tax revenue in GDP measured in percentage points, and on (d) probability of crises. Each sub-ﬁgure represents one regression on post-1945 data. Outliers of the dependent
+variables are trimmed at the top and bottom percentile of the distribution. All regressions control for log per capita GDP, log population, polity score of democracy, constitutional
+change, country speciﬁc time trends, and include country, year, and continent times decade ﬁxed effects. Standard errors are clustered by country. F-test (p-value in parentheses)
+of no anticipatory effects in leads by sub-ﬁgure (Granger, 1969): (a) 0.40 (0.8510); (b) 1.22 (0.3064); (c) 0.38 (0.8633); (d) 1.96 (0.0966).
+
+that more popular non-constitutional BBRs have signiﬁcant average
+effects on any of these ﬁscal outcomes.
+
+These results may have important policy implications, espe-
+cially for countries that suffer chronic ﬁscal deﬁcits and which
+risk ﬁnding themselves on the verge of sovereign debt crises. Fis-
+cal rules have been and continue to be a popular policy instru-
+ment to solve the issue of persistent deﬁcits. However, as the 2008
+global ﬁnancial crisis has shown, governments do not always com-
+ply with national or supranational ﬁscal rules. As one solution to
+this issue, the European Union – where the common-pool prob-
+lems leading to large deﬁcits can perhaps be most saliently seen –
+adopted the 2012 Fiscal Compact Treaty, which recommends Euro
+area member states to enshrine BBRs into their national constitu-
+tions. Austria, Denmark, Hungary, Italy, and Spain, for example, have
+passed structurally balanced budget rules, joining Switzerland and
+Germany who had passed constitutional BBRs prior to 2012. Our
+evidence of a robust and sizable effect of constitutional-level rules
+on ﬁscal sustainability provides support for this ongoing agenda of
+policy reform.
+
+However, BBRs may have implications beyond ﬁscal sustainabil-
+ity and it is important to understand the desirability of these fairly
+
+rigid rules by also considering general equilibrium effects. This paper
+is not informative about general welfare effects of BBRs, but a num-
+ber of arguments brought up by related papers may be helpful when
+thinking about such effects. First, BBRs may induce sub-optimal lev-
+els of public investment and public goods provisions in the short-run,
+and in theory, these effects may outweigh the long-run beneﬁts
+of consolidation (see Azzimonti et al., 2016). On the other hand,
+Alesina et al. (2002) suggest that some ﬁscal adjustments based
+upon spending cuts may actually positively affect expectations and
+stimulate the economy, for example, by removing the fear of future
+harsher adjustments. Rule-based inﬂexible ﬁscal policy may also
+reduce the desirability of BBRs if ﬁscal policy is especially effective
+during recessions. In line with this logic, recent work shows that
+reduced-form short-run estimates of ﬁscal multipliers may be larger
+during recessions than in times of economic expansion (Auerbach and
+Gorodnichenko, 2012). However, the size of the multiplier remains
+subject of debate. A further argument against the desirability of BBRs
+is that such rules may induce pro-cyclical ﬁscal policy (Clemens
+and Miran, 2012). This concern is addressed by having structural
+components in the rules, though the uncertainty with respect to
+reliably forecasting the business cycle is likely to remain an obstacle.
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+117
+
+(a) Debt/GDP (%)
+
+(b) Expenditure/GDP (%)
+
+R
+B
+B
+
+ 
+f
+o
+ 
+t
+c
+e
+f
+f
+e
+ 
+l
+a
+n
+g
+r
+a
+M
+
+i
+
+0
+1
+
+5
+
+0
+
+5
+-
+
+0
+1
+-
+
+5
+1
+-
+
+0
+2
+-
+
+5
+2
+-
+
+0
+3
+-
+
+5
+3
+-
+
+0
+4
+-
+
+0
+3
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+o
+ 
+f
+o
+ 
+e
+g
+a
+t
+n
+e
+c
+r
+e
+P
+
+0
+2
+
+0
+1
+
+0
+
+R
+B
+B
+
+ 
+f
+o
+ 
+t
+c
+e
+f
+f
+e
+ 
+l
+a
+n
+g
+r
+a
+M
+
+i
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+0
+
+1
+-
+
+2
+-
+
+3
+-
+
+4
+-
+
+5
+-
+
+6
+-
+
+7
+-
+
+8
+-
+
+9
+-
+0
+1
+-
+
+0
+3
+
+5
+2
+
+0
+2
+
+5
+1
+
+0
+1
+
+5
+
+0
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+o
+ 
+f
+o
+ 
+e
+g
+a
+t
+n
+e
+c
+r
+e
+P
+
+0
+
+.1
+
+.2
+
+.3
+
+.4
+
+.5
+
+.6
+
+.7
+
+.8
+
+.9
+
+1
+
+0
+
+.1
+
+.2
+
+.3
+
+.4
+
+.5
+
+.6
+
+.7
+
+.8
+
+.9
+
+1
+
+Fig. 8. Marginal effects of BBRs and the level of democracy.
+Notes: Figures (a) and (b) plot the marginal effects of BBRs on debt and spending (y-axis: percentage of GDP) depending on the Polity index of democracy (x-axis: from autocracy
+to democracy). The histograms in the background present the distribution of the sample according to the democracy index.
+
+Table 5
+Constitutional and non-constitutional BBRs.
+
+Variables
+
+BBR: Non-constitutional
+
+BBR: Constitutional
+
+Ln per capita GDP
+
+ln population
+
+Polity 2
+
+Constitutional change
+
+Maastricht
+
+Debt/GDP
+
+Observations
+R-squared
+Countries
+Chi2 (Prob > chi2)
+
+(1)
+
+Crises
+−0.057
+(0.059)
+
+−0.379∗∗∗
+(0.126)
+0.282∗∗
+(0.130)
+0.050
+(0.061)
+−0.023
+(0.020)
+0.162∗∗
+(0.067)
+0.002∗∗∗
+(0.001)
+1575
+0.209
+37
+7.42 (0.006)
+
+(2)
+
+−0.215∗∗∗
+(0.037)
+−0.382∗∗∗
+(0.126)
+0.234*
+(0.118)
+0.050
+(0.065)
+−0.027
+(0.022)
+0.120∗∗
+(0.059)
+0.002∗∗∗
+(0.001)
+1575
+0.214
+37
+
+(3)
+
+Debt
+−13.178
+(8.005)
+
+−26.459
+(22.289)
+4.742
+(29.389)
+−0.510
+(8.643)
+−1.284
+(1.612)
+19.265
+(14.081)
+
+(4)
+
+−12.540∗∗
+(6.117)
+−26.403
+(22.831)
+−0.573
+(29.737)
+−2.280
+(8.513)
+−1.291
+(1.498)
+12.071
+(12.735)
+
+(5)
+
+Exp
+−1.747
+(2.485)
+
+−4.805
+(2.895)
+−9.231∗∗
+(4.150)
+1.426
+(1.737)
+−0.131
+(0.437)
+12.879∗∗∗
+(3.268)
+
+(6)
+
+−2.659∗∗
+(1.021)
+−5.041*
+(2.975)
+−10.070∗∗
+(3.988)
+1.442
+(1.796)
+−0.156
+(0.441)
+11.747∗∗∗
+(2.684)
+
+(7)
+
+Tax
+
+1.551
+(1.189)
+
+0.766
+(1.843)
+−9.708∗∗
+(3.722)
+−1.538
+(1.185)
+−0.014
+(0.269)
+10.608∗∗∗
+(1.946)
+
+2323
+0.317
+69
+0.00 (0.948)
+
+2323
+0.313
+69
+
+1886
+0.384
+63
+0.12 (0.733)
+
+1886
+0.385
+63
+
+1940
+0.613
+65
+1.16 (0.281)
+
+(8)
+
+0.022
+(1.072)
+0.806
+(1.898)
+−9.266∗∗
+(3.756)
+−1.379
+(1.175)
+−0.022
+(0.261)
+11.474∗∗∗
+(2.008)
+
+1940
+0.611
+65
+
+Notes: The dependent variables are dummy for domestic or external debt crisis (in columns 1–2) and government debt, expenditure and tax revenue, and are measured as a
+share of GDP in percentage points (in columns 3–8). The main independent variables of interest are dummies for the presence of constitutional and non-constitutional BBRs,
+respectively, in even and odd numbered columns. Sample is ﬁxed to be the same in each of these pairs of regressions. The last row, Chi2 (Prob>chi2), tests for the equality of
+these coeﬃcients. All regressions include country and year ﬁxed effects (not reported). Standard errors are clustered by country.
+∗∗∗ p < 0.01.
+∗∗ p < 0.05.
+∗ p < 0.1.
+
+Given the wide set of issues that BBRs are intended to address, as
+well as the different spillover and feedback effects that BBRs need to
+take into account, the design of BBRs is likely to remain fairly com-
+plicated and context-dependent. In this respect, we believe further
+research could advance our understating of the effect of BBRs by pay-
+ing more attention to both their design and the general environment
+in which they operate.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://
+
+doi.org/10.1016/j.jpubeco.2018.09.001.
+
+References
+
+Abadie, A., Diamond, A., Hainmueller, J., 2010. Synthetic control methods for compar-
+ative case studies: estimating the effect of California’s tobacco control program. J.
+Am. Stat. Assoc. 105 (490), 493–505.
+
+Abadie, A., Gardeazabal, J., 2003. The economic costs of conﬂict: a case study of the
+
+Basque country. Am. Econ. Rev. 93 (1), 112–132.
+
+Abbas, S.A., Belhocine, N., Ganainy, A.E., Horton, M., 2010. A historical public debt
+
+database. IMF Working Paper 10/245.
+
+Alesina, A., Ardagna, S., Perotti, R., Schiantarelli, F., 2002. Fiscal policy, proﬁts, and
+
+investment. Am. Econ. Rev. 92 (3), 571–589.
+
+Alesina, A., Passalacqua, A., 2015. The political economy of government debt.
+In preparation for the Handbook of
+
+John, Uhlig, Harald (Eds.),
+
+In: Taylor,
+Macroeconomics. NBER Working Paper No. 21821
+
+Alpino, M., Asatryan, Z., Blesse, S., Wehrhöfer, N., 2018. The distributional incidence of
+
+ﬁscal rules: evidence from Italian municipalities. ZEW, mimeo.
+
+118
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+Altonji, J.G., Elder, T.E., Taber, C.R., 2005. Selection on observed and unobserved
+variables: assessing the effectiveness of catholic schools. J. Polit. Econ. 113 (1),
+151–184.
+
+Ardanaz, M., Scartascini, C., 2014. The economic effects of constitutions: do budget
+institutions make forms of government more alike? Constit. Polit. Econ. 25 (3),
+301–329.
+
+Asatryan, Z., 2015. Some observations on the economic implications of constitutional
+
+reform in Armenia. Caucasus Anal. Dig. 76, 10–14.
+
+Auerbach, A., Gorodnichenko, Y., 2012. Measuring the output responses to ﬁscal policy.
+
+Am. Econ. J. Econ. Pol. 4 (2), 1–27.
+
+Autor, H.D., 2003. Outsourcing at will: the contribution of unjust dismissal doctrine to
+
+the growth of employment outsourcing. J. Labor Econ. 21 (1), 1–42.
+
+Azzimonti, M., 2013. The political economy of balance budget amendments. Business
+
+Review Q1. pp. 11–20.
+
+Azzimonti, M., Battaglini, M., Coate, S., 2016. The costs and beneﬁts of balanced budget
+rules: lessons from a political economy model of ﬁscal policy. J. Public Econ. 136,
+45–61.
+
+Barseghyan, L., Battaglini, M., 2016. Political economy of debt and growth. J. Monet.
+
+Econ. 82, 36–51.
+
+Baskaran, T., 2015. Tax mimicking in the short- and long-run: evidence from German
+reuniﬁcation. Center for European Governance and Economic Development
+Research Discussion Paper No. 230.
+
+Battaglini, M., Coate, S., 2008. A dynamic theory of public spending, taxation and debt.
+
+Am. Econ. Rev. 98 (1), 201–236.
+
+Besley, T., Smart, M., 2007. Fiscal restraints and voter welfare. J. Public Econ. 91,
+
+755–773.
+
+Bjørnskov, C., Voigt, S., 2015. The determinants of emergency constitutions. Working
+
+Paper, SSRN 2697144.
+
+Blöchliger, H., Kantorowicz, J., 2015. Fiscal constitutions: an empirical assessment.
+
+OECD Economics Department Working Papers, No. 1248.
+
+Blume, L., Voigt, S., 2013. The economic effects of constitutional budget institutions.
+
+Eur. J. Polit. Econ. 29, 236–251.
+
+Bonfatti, A., Forni, L., 2017. Fiscal rules to tame the political budget cycle: evidence
+
+form Italian municipalities. CSEF Working Paper No 17/6.
+
+Bova, E., Kinda, T., Muthoora, P., Toscani, F., 2015. Fiscal rules at a glance. Update of
+
+IMF Working Paper 12/273.
+
+Brennan, G., Buchanan, J.M., 1980. The Power to Tax: Analytic Foundations of a Fiscal
+
+Constitution. Cambridge University Press.
+
+Buchanan, J., 1995. Clarifying confusion about the balanced budget amendment. Natl.
+
+Tax J. 48, 347–355.
+
+Buchanan, J.M., Tullock, G., 1962. The Calculus of Consent. vol. 3. University of
+
+Michigan Press, Ann Arbor.
+
+Budina, N., Kinda, T., Schaechter, A., Weber, A., 2012. Fiscal rules at a glance: country
+
+details from a new dataset. IMF Working Paper 12/273.
+
+Cagé, J., Gadenne, L., 2014. Tax revenues, development, and the ﬁscal cost of trade
+
+liberalization, 1792–2006. Working Paper. Harvard University.,
+
+Chari, V.V., Christiano, L.J., Kehoe, P.J., 1994. Optimal ﬁscal policy in a business cycle
+
+model. J. Polit. Econ. 102 (4), 617–652.
+
+Cheibub,
+
+J.A., Elkins, Z., Ginsburg, T., 2013. Beyond presidentialism and
+
+parliamentarism. Br. J. Polit. Sci. 44 (3), 515–544.
+
+Ciaglia, S., Heinemann, F., 2012. Debt rule federalism: the case of Germany. ZEW
+
+Discussion Paper No. 12-067.
+
+Clemens, J., Miran, S., 2012. Fiscal policy multipliers on subnational government
+
+spending. Am. Econ. J. Econ. Pol. 4 (2), 46–68.
+
+Coviello, D., Marino, I., Nannicini, T., Persico, N., 2017. Direct propagation of a ﬁscal
+
+shock: evidence from Italy’s stability pact. CSEF Working Paper No 484.
+
+Dahan, M., Strawczynski, M., 2013. Fiscal
+
+rules and the composition of
+government expenditures in OECD countries. J. Policy Anal. Manage. 32 (2),
+484–504.
+
+Danninger, S., 2002. A new rule: the Swiss debt brake. IMF WP 02-18.
+Debrun, X., Hauner, D., Kumar, M.S., 2009. Independent ﬁscal agencies. J. Econ. Surv.
+
+23 (1), 44–81.
+
+Debrun, X., Moulin, L., Turrini, A., Ayuso-i-Casals, J., Kumar, M.S., 2008. Tied to the
+mast? National ﬁscal rules in the European Union. Econ. Policy 23 (54), 298–
+362.
+
+Drazen, A., 2000. Political Economy in Macroeconomics. Princeton University Press,
+
+Princeton.
+
+Drazen, A., 2004. Fiscal rules from a political economy perspective. Rules-based Fiscal
+
+Policy in Emerging Markets. Springer., pp. 15–29.
+
+Eliason, P., Lutz, B., 2018. Can ﬁscal rules constrain the size of government? An analysis
+of the “crown jewel” of tax and expenditure limitations. J. Public Econ. https://
+doi.org/10.1016/j.jpubeco.2018.07.008. (forthcoming).
+
+Elkins, Z., 2010. Diffusion and the constitutionalization of Europe. Comp. Pol. Stud. 43
+
+(8-9), 969–999.
+
+Elkins, Z., Ginsburg, T., Melton, J., 2014. Characteristics of National Constitutions,
+Version 2.0. Comparative Constitutions Project, Last modiﬁed: April 18, 2014.
+Available at: http://www.comparativeconstitutionsproject.org.
+
+Fabrizio, S., Mody, A., 2006. Can budget institutions counteract political indiscipline?
+
+Econ. Policy 21 (48), 690–739.
+
+Fatas, A., Mihov, I., 2006. The macroeconomic effects of ﬁscal rules in the US states. J.
+
+Public Econ. 90, 101–117.
+
+Feld, L., 2010. Sinnhaftigkeit und Effektivität der deutschen Schuldenbremse. Perspekt.
+
+Wirtsch. 11 (3), 226–245.
+
+Feld, L.P., Kirchgässner, G., 2008. On the effectiveness of debt brakes: the Swiss
+In: Neck, R., Sturm, J.-E. (Eds.), Sustainability of Public Debt. MIT
+
+experience.
+Press, Cambridge, UK, pp. 223–255.
+
+Geier, A., 2011. The debt brake: the Swiss ﬁscal rule at the federal level. Swiss Federal
+
+Finance Department WP No 15.
+
+Ginsburg, T., Versteeg, M., 2014. Why do countries adopt constitutional review? J. Law
+
+Econ. Org. 30 (3), 587–622.
+
+Gleditsch, K.S., Ward, M.D., 1999. Interstate system membership: a revised list of the
+
+independent states since 1816. Int. Interact. 25 (4), 393–413.
+
+Granger, C.W.J., 1969. Investigating causal relations by econometric models and
+
+cross-spectral methods. Econometrica 37 (3), 424–438.
+
+Grembi, V., Nannicini, T., Troiano, U., 2016. Do ﬁscal rules matter? Am. Econ. J. Appl.
+
+Econ. 8 (3), 1–30.
+
+Halac, M., Yared, P., 2014. Fiscal rules and discretion under persistent shocks.
+
+Econometrica 82 (5), 1557–1614.
+
+Hallerberg, M., Strauch, R., Von Hagen, J., 2007. The design of ﬁscal rules and forms of
+
+governance in European Union countries. Eur. J. Polit. Econ. 23 (2), 338–359.
+
+Hallerberg, M., Strauch, R.R., Von Hagen, J., 2009.Fiscal Governance in Europe.
+
+Cambridge University Press.
+
+Hatchondo, J.C., Martinez, L., Roch, F., 2015. Fiscal rules and the sovereign default
+
+premium. CAEPR Working Paper No 010.
+
+Heinemann, F.,
+
+Janeba, E., Schröder, C., Streif, F., 2016. Fiscal
+
+rules and
+compliance expectations: evidence for the German debt brake. J. Public Econ.
+142, 11–23.
+
+Heinemann, F., Moessinger, M.-D., Yeter, M., 2018. Do ﬁscal rules constrain ﬁscal
+
+policy? A meta-regression-analysis. Eur. J. Polit. Econ. 51, 69–92.
+
+Heinemann, F., Osterloh, S., Kalb, A., 2014. Sovereign risk premia: the link between
+
+ﬁscal rules and stability culture. J. Int. Money Financ. 41, 110–127.
+
+Hener, T., Rainer, H., Siedler, T., 2015. Political socialization in ﬂux? Linking
+family non-intactness during childhood to adult civic engagement. J. R. Stat.
+Soc.(forthcoming).
+
+Janeba, E., 2012. Germany’s new debt brake: a blueprint for Europe? FinanzArchiv:
+
+Public Financ. Anal. 68 (4), 383–405.
+
+Keele, L., Kelly, N.J., 2006. Dynamic models for dynamic theories: the ins and outs of
+
+lagged dependent variables. Polit. Anal. 14 (2), 186–205.
+
+Kelemen, R.D., Teo, T., 2014. Law, focal points and ﬁscal discipline in the United States
+
+and the European Union. Am. Polit. Sci. Rev. 108 (2), 355–370.
+
+Kennedy, S., Robbins,
+
+J., 2003. The Role of Fiscal Rules in Determining Fiscal
+
+Performance.
+
+Köhler, S., König, T., 2015. Fiscal governance in the Eurozone: how effectively does the
+stability and growth pact limit governmental debt in the Euro countries? Polit.
+Sci. Res. Methods 3 (2), 329–351.
+
+Krogstrup, S., Wälti, S., 2008. Do ﬁscal rules cause budgetary outcomes? Public Choice
+
+136 (1–2), 123–138.
+
+Levinson, A., 1998. Balanced budgets and business cycles: evidence from the states.
+
+Natl. Tax J. 51 (4), 715–732.
+
+Lienert, I., 2010. Should advanced countries adopt a ﬁscal responsibility law? IMF
+
+WP/10/254.
+
+Martin, F.M., 2017. The value of constraints on discretionary government policy.
+
+Federal Reserve Bank of St. Louis Working Paper 2016-019B.
+
+Melton, J., Ginsburg, T., 2014. Does de jure judicial independence really matter?
+
+A reevaluation of explanations for judicial independence. J. Law Courts 2 (2).
+
+Metelska-Szaniawska, K., 2016. Economic effects of post-socialist constitutions
+
+25 years from the outset of transition. Pol. Stud. Econ. 7,
+
+Milesi-Ferretti, G.M., 2004. Good, bad or ugly? On the effects of ﬁscal rules with
+
+creative accounting. J. Public Econ. 88 (1), 377–394.
+
+Mueller, D.C., 2003. Public Choice III. Cambridge University Press, New York.
+Niskanen, A.W., 1992. The case for a new ﬁscal constitution. J. Econ. Perspect. 6 (2),
+
+13–24.
+
+Nunn, N., Wantchekon, L., 2011. The slave trade and the origins of mistrust in Africa.
+
+Am. Econ. Rev. 101, 3221–3252.
+
+Oster, E., 2015. Unobservable selection and coeﬃcient stability: theory and evidence.
+
+Brown University and NBER (WP19054).
+
+Persson, T., Tabellini, G., 2000. Political Economics: Explaining Public Policy. The MIT
+
+Press, Cambridge, MA.
+
+Persson, T., Tabellini, G.E., 2003. The Economic Effects of Constitutions. MIT Press.
+Pfeil, C.F., Feld, L.P., 2016. Does the Swiss debt brake induce sound federal ﬁnances? A
+
+synthetic control analysis. CESifo WP No 6044.
+
+Poterba, J.M., 1994. State responses to ﬁscal crises: the effects of budgetary institutions
+
+and politics. J. Polit. Econ. 102 (4), 799–821.
+
+Poterba, J.M., 1996. Do budget rules work? WP 5550. National Bureau of Economic
+
+Research.,
+
+Poterba, J.M., Rueben, K.S., 2001. Fiscal news, state budget rules, and tax-exempt bond
+
+yields. J. Urban Econ. 50, 537–562.
+
+Poterba, J.M., von Hagen, J., 1999. Fiscal Institutions and Fiscal Performance. University
+
+of Chicago Press.
+
+Prati, A., Onorato, M.G., Papageorgiou, C., 2013. Which reforms work and under what
+institutional environment? Evidence from a new data set on structural reforms.
+Rev. Econ. Stat. 95 (3), 946–968.
+
+Reinhart, C.M., Rogoff, K.S., 2011. From ﬁnancial crash to debt crisis. Am. Econ. Rev.
+
+101 (5), 1676–1706.
+
+Rose, S., 2010. Institutions and ﬁscal sustainability. Natl. Tax J. 63 (4), 807–838.
+Schaechter, A., Kinda, T., Budina, N.T., Weber, A., 2012. Fiscal rules in response to
+the crisis-toward the next-generation rules: a new dataset. IMF Working paper
+12/187.
+
+Schultze, C.L., 1995. The balanced budget amendment: needed? Effective? Eﬃcient?
+
+Natl. Tax J. 48 (3), 317–328.
+
+Seto, T.P., 1997. Drafting a federal balanced budget amendment that does what it is
+
+supposed to do (and no more). Yale Law J. 106 (5), 1449–1536.
+
+Z. Asatryan et al. / Journal of Public Economics 167 (2018) 105–119
+
+119
+
+St Clair, T., Cook, T.D., 2015. Difference-in-differences methods in public ﬁnance. Natl.
+
+Von Hagen, J., 1992. Budgeting procedures and ﬁscal performance in the European
+
+Tax J. 68 (2), 319–338.
+
+Stockman, R.D., 2001. Balanced-budget rules: welfare loss and optimal policies. Rev.
+
+Econ. Dyn. 4 (2), 438–459.
+
+Tapsoba, R., 2012. Do national numerical ﬁscal rules really shape ﬁscal behaviours
+in developing countries? A treatment effect evaluation. Econ. Model. 29 (4),
+1356–1369.
+
+Vanberg, V.J., Buchanan, J.M., 1991. Constitutional choice, rational ignorance and the
+
+limits of reason. Jahrb. Neue Polit. Ökon. 10 (1), 61–78.
+
+Voigt, S., 2011. Positive constitutional economics II. A survey of recent developments.
+
+Public Choice 146 (1–2), 205–256.
+
+communities. Econ. Pap. (96), 1–79.
+
+Von Hagen, J., Wolff, G.B., 2006. What do deﬁcits tell us about debt? Empirical evi-
+dence on creative accounting with ﬁscal rules in the EU. J. Bank. Financ. 30 (12),
+3259–3279.
+
+Wyplosz, C., 2005. Fiscal policy: institutions versus rules. Natl. Inst. Econ. Rev. 191 (1),
+
+64–78.
+
+Wyplosz, C., 2013. Fiscal rules: theoretical issues and historical experiences.
+
+In:
+Alesina, A., Giavazzi, F. (Eds.), Fiscal Policy after the Financial Crisis. University of
+Chicago Press., pp. 495–525.
+
+

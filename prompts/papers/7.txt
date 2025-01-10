@@ -1,0 +1,5113 @@
+Barriers to Entry in the Airline Industry: A Multi-Dimensional
+
+(cid:3)
+
+Regression-Discontinuity Analysis of AIR-21
+
+y
+
+Connan Snider
+
+UCLA
+
+Jonathan W. Williams
+University of Georgia
+
+z
+
+January 2014
+
+Abstract
+
+We investigate the success of legislation aimed at increasing competition at highly con-
+centrated major US airports, mainly by forcing these airports to increase the availability of
+scarce airport facilities to new entrants. We use a multi-dimensional regression-discontinuity
+approach to exploit a sharp discontinuity in the law’s implementation and identify its ef-
+fects. We ﬁnd a statistically and economically signiﬁcant decrease in fares resulting from
+an airport’s coverage, 13.4% (20.2%) in markets with one (both) endpoint(s) covered. Ap-
+proximately half of the decline in fares is driven by the entry of low-cost carriers. With the
+exception of a small eﬀect on on-time performance, we ﬁnd little evidence that the fare de-
+clines were accompanied by a diminished quality of service. The magnitude of price declines
+relative to delay increases, along with the accompanying increases in passenger volumes,
+suggest the legislation was welfare improving. The results also suggest operating barriers to
+entry have been an important impediment to new low-cost competition.
+
+Keywords: Regression Discontinuity, Treatment Eﬀect, Airline Industry, Barriers to En-
+
+try, Hub Premium. Airport Facilities.
+
+JEL Codes: C14, L50, L13, L93.
+
+This paper has beneﬁted from discussions with Severin Borenstein, Jan Brueckner, Dennis Carlton, Federico
+Ciliberto, Alon Eizenburg, Silke Forbes, Alfred Galichon, Mara Lederman, Yehua Li, Nancy Rose, Nick Rupp,
+Stephen Ryan, and Steven Stern. Seminar participants at Clemson University, London Business School, NYU,
+the Sauder School at the University of British Columbia, and UCLA, as well as conference participants at the 2010
+IIOC and 2011 NBER IO Summer Institute, provided valuable comments. We are grateful to Sharon Glasgow
+and Andrea Toney of the FAA as well as Liying Gu, Deborah McElroy, and A.J. Muldoon of the ACI-NA for
+assistance in collecting the data for this project and providing valuable industry insight. All remaining errors
+are our own.
+
+(cid:3)
+
+y
+z
+
+Department of Economics, UCLA, snider@econ.ucla.edu, ph: (310) 794-7104.
+Department of Economics, University of Georgia, jonwms@uga.edu, ph: (706) 542-3689.
+
+1
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+ Electronic copy available at: http://ssrn.com/abstract=1775924 1 Introduction
+
+One of the most enduring features of the post-deregulation U.S. airline industry has been the
+
+hub premium, the premium over average fares paid by passengers traveling to and from airports
+
+dominated by a single large “hub”carrier. Though this phenomenon has been widely documented
+
+(e.g. Borenstein (1989)), its causes and consequences are still in question. To the extent that
+
+higher fares result from the exercise of market power, they are detrimental to consumer welfare
+
+and eﬃciency. On the other hand, there is substantial evidence that consumers value the large
+
+route network and high frequencies that dominant carriers often provide (e.g. Berry (1990)). To
+
+the extent that high prices derive from these quality factors, they beneﬁt consumers. Airport
+
+facilities, a necessary input for the provision of air service, are increasingly scarce due in large part
+
+to government regulation handicapping airports’ ability to ﬁnance facilities expansion in response
+
+to increasing demand. As a consequence of this increased scarcity, airport-level concentration
+
+and market power go hand in hand with the airline scope and scale that consumers value and
+
+drive down costs. Given this, the relative contribution, and the optimality of the balance, of
+
+these factors is an empirical question.
+
+In 2000, the U.S. Congress enacted the Wendell H. Ford Aviation Investment and Reform
+
+Act for the 21st Century (AIR-21). A primary directive of the bill was to require airports,
+
+above a given level of concentration, to take concrete steps to ensure that new entrants had
+
+ample access to airport facilities.1Airport compliance requires ﬁling a Competition Plan with
+
+the Federal Aviation Administration (FAA), detailing the steps taken. The FAA then reviews
+
+the plan and releases federal funding contingent on a satisfactory plan.
+
+In this paper we empirically evaluate the impact of AIR-21 on prices, passenger volumes,
+
+quality, and market structure to investigate the importance of access to airport facilities as
+
+barriers to entry in the airline industry. The nature of the implementation of AIR-21 is useful
+
+for solving identiﬁcation problems common in industrial organization studies of competition and
+
+market structure and present in our context. The problem is that elements of market structure
+
+(e.g. concentration, low-cost carrier presence, etc.) are determined simultaneously with the
+
+level of competition and usually depend on common, market-speciﬁc unobserved factors (e.g.
+
+demand elasticities or network economies associated with airport geography). We use the design
+
+of AIR-21 to formulate a diﬀerences in diﬀerences (diﬀ-in-diﬀ) and regression discontinuity (RD)
+
+1The law applied to airports in which the top 2 airlines accounted for over 50% of total enplanements at the
+
+airport.
+
+2
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+ Electronic copy available at: http://ssrn.com/abstract=1775924 solution to these problems.
+
+We ﬁrst argue the AIR-21 mandates were enforced and eﬀectively reduced barriers to entry at
+
+covered airports. This generates rarely available variation, with a plausibly known direction, over
+
+time in barriers to entry within markets. This allows us to control for time-invariant, market-
+
+speciﬁc factors using standard panel techniques. Second, having contemporaneous treatment and
+
+control groups allows us to use diﬀ-in-diﬀ to address aggregate and market-speciﬁc variation in
+
+these factors over time.
+
+There are still likely to be selection problems associated with using the full sample for iden-
+
+tiﬁcation. Berry and Jia (2010), observing lower fares and diminished carrier proﬁt margins
+
+between the end of the 1990’s and the middle 2000’s, estimate discrete choice demand systems
+
+separately for 1997 and 2005 and conclude that increased passenger price sensitivity, combined
+
+with increased penetration of low-cost carriers, was responsible for the change. Since airport
+
+concentration itself is likely highly correlated with product quality, the time-varying relative
+
+valuations of quality found by Berry and Jia (2010) likely interact with our determinant of
+
+treatment. This causes diﬀering average trends for treated and untreated markets, invalidating
+
+the simple diﬀ-in-diﬀ approach. We solve this and any similar such problems by arguing that,
+
+while there is likely a selection problem associated with highly concentrated airports, there is
+
+no such problem locally around the 50% two-carrier concentration level speciﬁed by AIR-21.
+
+This allows us to develop a RD estimator for the local average treatment eﬀects associated with
+
+AIR-21. Essentially, we assume the distribution of unobservables for a randomly selected market
+
+just below the cutoﬀ is identical to a randomly selected market just above the cutoﬀ.
+
+The design of AIR-21 also helps us dismiss concerns about manipulation of the predictors of
+
+coverage. Airport coverage is determined by traﬃc data from two years prior to coverage, making
+
+coverage dependent on the past actions of the carriers which are not subject to manipulation.
+
+Given the complexity of airline pricing decisions, it also seems unlikely that carriers would adjust
+
+fare-setting behavior to manipulate enplanements at the airport level. Nevertheless, we design
+
+an informal test of manipulation. The test is based on the observation that, for a given two-ﬁrm
+
+airport concentration level, airports with higher one-ﬁrm concentration levels would be more
+
+likely to see manipulation, since a single carrier has more control over the coverage variable.
+
+This test shows no evidence of manipulation.
+
+Ultimately, we implement two RD estimators. The ﬁrst takes the boundary dummy approach
+
+of Black (1999), using observations from progressively smaller windows around the treatment
+
+3
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+cutoﬀs. The second is a novel, true RD estimator. Since airline markets necessarily involve
+
+both an origin and a destination airport, we naturally have to consider two predictor variables
+
+and four treatment/control groups when deﬁning our treatment eﬀects; both the origin and
+
+destination are treated, just the origin is treated, just the destination is treated, and neither
+
+is treated. Our approach is essentially to estimate the surface for each of these “quadrants”
+
+and look for breaks at the boundaries of those quadrants. Our implementation of the two
+
+dimensional RD estimator is novel in that it allows for substantial heterogeneity by permitting
+
+the average treatment eﬀect of one endpoint to vary, essentially, according to the identity of the
+
+other endpoint airport.
+
+Our relatively clean identiﬁcation strategy represents a contribution to the extant literature
+
+on airline market structure and the importance of barriers to entry more generally. A typical
+
+structural study of entry and market structure in concentrated industries (e.g. Bresnahan and
+
+Reiss (1991), Berry (1992), Mazzeo (2002), Seim (2006), Ciliberto and Tamer (2009)) looks
+
+at ﬁrm choices and uses a revealed preference approach to infer entry barriers. This approach
+
+requires the economist to rely on many restrictions of the empirical model derived from economic
+
+theory.
+
+In the end, barriers to entry are often measured as the “residual”that justiﬁes the cross
+
+market heterogeneity in market structures. Our approach, on the other hand, uses a known
+
+source of exogenous variation in entry barriers to investigate their eﬀects on market outcomes
+
+and requires little necessary theoretical structure. The minimal structural requirements are
+
+useful for an industry as complex as the airline industry, where it is diﬃcult to construct a
+
+model that is simultaneously rich enough to be quantitatively relevant and tractable enough to
+
+be amenable to analysis. Also, our focus on outcomes makes our results directly relevant for
+
+policy.
+
+To preview results, we ﬁnd AIR-21 had substantial, and evidently positive, impact on com-
+
+petition and fares in the airline industry. We ﬁnd that markets for which one of the endpoint
+
+airports was subject to AIR-21 have seen price declines of 13% on average. Markets for which
+
+both endpoints were subject to the mandates have seen price declines of around 20% on average.
+
+These price declines were associated with no economically and statistically signiﬁcant changes
+
+in measures of quality, with one exception. We ﬁnd that the on-time performance of carriers at
+
+covered airports decreased. This is not particularly surprising, as we identify increased low-cost
+
+carrier penetration as a driving force behind the declines in fares, reinforcing the ﬁndings of
+
+Mayer and Sinai (2003) that higher airport concentration leads to better on-time performance
+
+4
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+as large carriers, presumably, internalize more of the congestion costs. We also ﬁnd that the
+
+magnitude of the decline in fares is larger for carriers with a large presence at an airport than for
+
+other carriers. This suggests that AIR-21 was successful at reducing the hub premia identiﬁed
+
+by Borenstein (1989). While the delay results suggest some quality degredation on some dimen-
+
+sions, the magnitudes of the price declines and accompanying increases in passenger volumes
+
+indicate the legislation was, overall, welfare enhancing.
+
+The implications of our ﬁndings are not limited to retrospective policy evaluation. The
+
+competition provisions of AIR-21 address the allocation of a given stock of airport facilities. A
+
+more natural policy prescription might be to encourage the expansion of this stock. However,
+
+since 2001 passenger facility charges (PFCs), the per boarding passenger tax levied by the airport
+
+and a primary source of funding for airport investment projects for large airports and the primary
+
+backing for the external ﬁnance of such projects, have been federally capped at $4.50, in spite
+
+of protest from airport authorities.
+
+In a letter to President Obama dated August 18, 2011,
+
+Greg Pricipatio, president of the trade association Airports Council International-North America
+
+(ACI-NA), urged the president to lift the cap as part of his jobs creation plan, saying “the $2
+
+billion [PFC] raises a year is already committed to paying for recently completed projects or
+
+those currently underway.” Resistance to PFC increases has come from large carriers wishing to
+
+avoid their share of the tax burden and simultaneously prevent expansion of their home airports
+
+and the accompanying increase in competition. The inﬂuence of these carriers is not surprising
+
+given their importance not only to the airport where they operate large hubs, but also to the
+
+communities, where they employ thousands of workers and provide a substantial tax base. While
+
+our results do not speak directly to the eﬀect of airport expansion, they suggest this resistance
+
+may come at the cost of diminished competition and sharply higher fares for air travelers in
+
+those communities, and may warrant more careful study.
+
+The remainder of the paper is organized as follows. In Section 2, we provide some background
+
+on the airline industry and discuss AIR-21 in detail. The data are described in Section 3 and
+
+we document some basic patterns in the data over the policy period.
+
+In Section 4, we discuss
+
+our identiﬁcation strategy and the results of our analysis. Section 5 concludes and discusses
+
+possible extensions of our research.
+
+5
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+2 The Aviation Investment and Reform Act for the 21st Cen-
+
+tury
+
+The Government Accounting Oﬃce (GAO) and Transportation Research Board (TRB) released
+
+a series of reports, see GAO (1989, 1990, 2001) and TRB (1999), bringing attention to the
+
+limited amount of competition at many major US airports. These reports identiﬁed two types
+
+of barriers to entry in the airline industry, operating and marketing, that can limit competition
+
+and result in higher fares.
+
+Marketing barriers include loyalty programs intended to tie consumers to an airline, frequent-
+
+ﬂier programs, corporate incentive agreements, and travel agent commission overrides. A lack of
+
+data has limited the study of these type of barriers, with Lederman (2007, 2008) and Goolsbee
+
+and Syverson (2008) as notable exceptions. Lederman (2007, 2008) ﬁnds evidence that im-
+
+provements in loyalty programs enhance demand and can explain a modest portion of the “hub
+
+premium”. Goolsbee and Syverson (2008) show that national carriers respond to the “threat
+
+of entry”by Southwest Airlines, a low-cost carrier, by lowering fares to strengthen consumer
+
+loyalties prior to entry of Southwest.
+
+Operating barriers include limited access to boarding gates, ticket counters, baggage handling
+
+and storage facilities, and take-oﬀ and landing slots. Ciliberto and Williams (2010) were the
+
+ﬁrst to directly link these operating barriers to the hub premium. Using unique data on
+
+carrier-speciﬁc access to boarding gates, Ciliberto and Williams (2010) show that long-term
+
+exclusive-use leasing agreements for boarding gates limit competition and are a major driver of
+
+the hub premium.
+
+In this paper, we employ a unique identiﬁcation strategy to examine the
+
+success of AIR-21 in reducing these operating barriers and encouraging competition at major US
+
+airports. In the sections to follow, we discuss the details of AIR-21’s design and implementation
+
+2.1 Legislation and Airport Coverage
+
+In response to governmental, public and academic concern with institutional barriers to entry
+
+in the airline industry, President Clinton signed into law AIR-21 on April 5, 2000. Section 155
+
+of AIR-21 begins:
+
+The Congress makes the following ﬁndings:
+
+(1) Major airports must be available on a reasonable basis to all air carriers
+
+wishing to serve those airports.
+
+6
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+(2) 15 large hub airports today are each dominated by one air carrier, with each
+
+such carrier controlling more than 50 percent of the traﬃc at the hub.
+
+(3) The General Accounting Oﬃce has found that such levels of concentration
+
+lead to higher air fares.
+
+(4) The United States Government must take every step necessary to reduce those
+
+levels of concentration.
+
+(5) Consistent with air safety, spending at these airports must be directed at
+
+providing opportunities for carriers wishing to serve such facilities on a commercially
+
+viable basis.
+
+Together (1), (4), and (5) demonstrate Congress’ clear intentions to reduce concentration by
+
+encouraging additional entry at concentrated airports. To encourage airports’ cooperation in
+
+opening up airports to “all air carriers wishing to serve those airports,” Congress made federal
+
+sources of funding contingent on compliance:
+
+“Beginning in ﬁscal year 2001, no passenger facility fee may be approved for a
+
+covered airport under section 40117 and no grant may be made under this subchap-
+
+ter for a covered airport unless the airport has submitted to the secretary a written
+
+competition plan in accordance with this subsection.”
+
+Passenger Facility Fees (commonly called PFCs) and Airport Improvement Program (AIP)
+
+grants are the primary sources of federal funding for the industry and make up a signiﬁcant
+
+portion of capital (including maintenance) budgets for major airports.2 PFCs were ﬁrst au-
+
+thorized by Congress in 1990 and are tied to projects to preserve and enhance safety, reduce
+
+noise pollution, and provide opportunities for enhanced competition between carriers. The
+
+PFC ceiling, the maximum fee allowed by law, was increased from $1 to $4.50 between 1990 to
+
+2001. This ceiling has not been increased since AIR-21 and is not indexed for inﬂation. AIP
+
+grants are part of a federal program to help cover costs for approved capital projects aimed at
+
+increasing safety and capacity as well as reducing environmental concerns.
+
+A 2009 Airport Council International North America (ACI-NA) study found that over 40%
+
+of airports’ capital funding is drawn from PFCs (21.7%) and AIP grants (22.2%).3
+
+PFCs
+
+2PFCs are charged by airlines at the time a ticket is purchased and are then transferred directly to the
+
+appropriate airports.
+
+3A copy of the presentation describing this report is available from the authors upon request.
+
+7
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+alone have funded $50 billion worth of airport capital investments since 1990, including the
+
+addition and maintenance of passenger boarding gates and runways necessary to accommodate
+
+additional entry. An additional 30% of airports’ revenues come from bonds which are often
+
+backed with future PFCs revenues. This substantial and stable revenue base allows airports
+
+to signiﬁcantly lower the cost of borrowing and enjoy investment-grade ratings. While the
+
+quasi-public status of many airports makes it diﬃcult to know their exact objectives, the strong
+
+dependence of airports’ revenues on the federal government’s control over the right to charge
+
+PFCs and distribute AIP grant funding seems to imply strong incentives for compliance. All
+
+airports covered by AIR-21 are forced to ﬁle a competition plan with the FAA and the DOT,
+
+which in turn must certify the plan as acceptable for funding to be released. 4
+
+Congress also made it clear that competition “plans”were to be implemented:
+
+“The Secretary shall review any plan submitted...to ensure that it meets the re-
+
+quirements of this section, and shall review its implementation from time-to-time
+
+to ensure that each covered airport successfully implements its plan.....The Secre-
+
+tary shall ensure that gates and other facilities are made available at costs that are
+
+fair and reasonable to air carriers at covered airports...where a ”majority-in-interest
+
+clause” of a contract or other agreement or arrangement inhibits the ability of the
+
+local airport authority to provide or build new gates or other facilities.”
+
+In conversations with those at the FAA assigned to approve and ensure implementation of
+
+the competition plans, we learned that approval was not a certainty for any plan.
+
+In many
+
+cases, the plans were signiﬁcantly revised after discussions between the FAA, DOT, and airport
+
+authorities to ensure the plans meet the goals of the legislation. After ﬁling the initial compe-
+
+tition plan, airports were required to complete two updates (approximately 18 months apart)
+
+that demonstrate signiﬁcant progress towards implementing the competition plan. There are
+
+no mandatory steps after the second update for covered airports, unless the airport denies a
+
+carrier access to airport facilities or signiﬁcantly amends an existing leasing agreement or enacts
+
+a new master-leasing agreement.
+
+Section 155 continues:
+
+4The 44 airports required by AIR-21 to ﬁle a competition plan include: ABQ,ANC, ATL, AUS, BNA, BUR,
+BWI, CLE, CLT, CVG, DAL, DCA, DEN, DFW, DTW, EWR,HOU, IAD, IAH, JAX, LAS, MDW, MEM, MIA,
+MKE, MSP, OAK, OGG, ONT, ORD, PBI,PHL, PHX, PIT, PVD, RNO, SAT, SDF, SFO, SJC, SJU, SLC,
+SMF, and STL. The majority (43) of the airports were immediately “covered”by the retroactive nature of the
+legislation. The only airport to be covered later was LAS in 2005.
+
+8
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+“A competition plan under this subsection shall include information on the avail-
+
+ability of airport gates and related facilities, leasing and sub-leasing arrangements,
+
+gate-use requirements, patterns of air service, gate-assignment policy, ﬁnancial con-
+
+straints, airport controls over air- and ground-side capacity, whether the airport in-
+
+tends to build or acquire gates that would be used as common facilities, and airfare
+
+levels (as compiled by the Department of Transportation) compared to other large
+
+airports.”
+
+The typical competition plan ranges in length from 75 to 100 pages and contains a vast amount
+
+of information about the airport’s operations. Ciliberto and Williams (2010) use this information
+
+to demonstrate that Congress’ focus on equal access to sunk airport facilities is not completely
+
+misguided. Using cross-sectional variation in gate allocations and leasing terms, Ciliberto and
+
+Williams (2010) can explain an economically signiﬁcant fraction of the hub premium, with this
+
+fraction being larger at congested airports.
+
+In this paper, we focus on measuring any reduction
+
+in fares and the hub premium resulting from coverage of an airport by AIR-21.
+
+To identify the impact of AIR-21 on the hub premium, and fares more generally, we exploit
+
+the sharp discontinuity in the relationship between coverage and concentration:
+
+“.....’covered airport’ means a commercial service airport....that has more than
+
+.25 percent of the total number of passenger boardings each year at all such air-
+
+ports.....at which one or two air carriers control more than 50 percent of the passen-
+
+ger boardings.”
+
+These concentration thresholds create treatment and control groups, airports “very near”either
+
+side of the discontinuity, which can be used to measure the impact of the legislation on compe-
+
+tition.5 An airport is covered by the legislation if it qualiﬁes in both the size and concentration
+
+dimensions.6
+
+In Section 4, we discuss how we exploit this feature of the legislation using a
+
+regression discontinuity approach to measure a (local) treatment eﬀect, or impact from coverage
+
+at the concentration cutoﬀ. Tables 1 and 2 show the two-ﬁrm enplanement concentration and
+
+the fraction of total domestic enplanement at covered and non-covered airports, respectively.
+
+5As with any analysis examining treatment eﬀects, the treatment must be exogenously applied. In the context
+of our study, endogeneity of treatment might arise if airports can lower concentration of enplanements and/or
+total enplanements to avoid being covered by the legislation.
+In Section 4.2.3, we show that there is little or no
+support for the claim that enplanements were strategically manipulated by carriers to avoid coverage.
+
+6The discontinuity along the size dimension also presents an opportunity to identify an eﬀect from coverage,
+
+but the small number of airports near this cutoﬀ limits our ability to exploit this feature of the law.
+
+9
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+While concentration and size are positively correlated, it is far from a perfect relationship. For
+
+example, Newark (EWR) is covered while New York (JFK) is not. Similarly, San Francisco
+
+(SFO) is covered while Los Angeles (LAX) is not.
+
+2.2
+
+Implementation of Competition Plans
+
+Most of the competition plans and subsequent updates are available on each airport’s website.
+
+The details of each competition plan are too vast to review here. However, a 2006 FAA report
+
+highlights speciﬁc actions taken by airports in a variety of areas to increase competition.7
+
+In terms of improving availability of gates and related facilities, airport responses included
+
+asserting control over under-utilized gates, designating Competition Access committees, adopt-
+
+ing more entry-friendly leasing terms, removing speciﬁc access protections for signatory carriers,
+
+and streamlining a forced accommodation process. Speciﬁc actions included Hartsﬁeld-Jackson
+
+Atlanta International Airport (ATL) invoking recapture authority to convert a leased gate to
+
+common use, Cincinnati-Northern Kentucky International Airport (CVG) negotiating conver-
+
+sion of exclusively leased gates to common and preferentially leased gates, and San Francisco
+
+International Airport (SFO) invoking a forced accommodation clause to ensure that temporary
+
+needs of new entrant airlines were met.
+
+In terms of subleasing agreements, covered airports
+
+also began to assert more control and oversight over sublease fees, terms, and conditions, impose
+
+sublease caps on administrative fees, review and/or pre-approve subleases, and notify carriers
+
+of gates available for subleases.
+
+Improving access to passenger boarding gates was clearly the focus of a large proportion of
+
+each competition plan. However, covered airports put forth eﬀort in a variety of other ways to
+
+increase competition. For example, both Charlotte Douglas International Airport (CLT) and
+
+San Antonio International Airport (SAT) implemented a marketing plan to attract additional
+
+low-fare carrier service. To make more eﬃcient use of existing common-use facilities, ATL now
+
+enforces maximum turnaround times. Oakland International Airport (OAK) installed common
+
+use ticketing equipment (CUTE) at ticket counters and gates so that all airlines operating there
+
+will use identical facilities, providing maximum ﬂexibility to airport administrators. CLT re-
+
+duced landing fees for non-signatory and new entrant carriers to the same level as signatory
+
+airlines (i.e. those obligated to repay debt issued by the airport). Nearly all covered airports
+
+implemented measures to record gate utilization, impose minimum-use standards, and notify
+
+7This report is available through the FAA website at
+http://www.faa.gov/airports/aip/guidance letters/media/pgl 04 08b competition highlights 2006.pdf
+
+10
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+airlines of gate availability to make more eﬃcient use of existing gates. Many airports also
+
+amended majority-in-interest (MII) agreements to exempt capital projects necessary for compe-
+
+tition from MII votes.8
+
+3 Data
+
+3.1 Sources
+
+The majority of our data for this study is taken from the Data Bank 1B (DB1B) of the U.S.
+
+Department of Transportation’s Origin and Destination Survey for the years 1993 through 2008.
+
+The DB1B data are a 10 percent random sample of all domestic itineraries. The unit of
+
+observation is the passenger level. The data contain information on the ticketing and operating
+
+carrier, details of any connections made by the passenger, and the fare paid for the itinerary
+
+used by the passenger. Following Evans and Kessides (1994), we consider round-trip tickets
+
+to be two equally priced one-way tickets and drop both inter-line and open-jaw tickets. Due
+
+to key punch errors or redemption of frequent-ﬂier miles, there are some unusually large and
+
+small ticket prices in the DB1B data. For this reason, we drop any fares, measured in 2008
+
+dollars, greater than $2500 and less than $25.9
+
+In addition, we drop itineraries with more than
+
+6 coupons (4 connections) for round-trip itineraries and 3 coupons (2 connections) for one-way
+
+itineraries. Following Borenstein and Rose (1994), we deﬁne a market as directional travel
+
+between a unique airport-pair.
+
+We supplement the DB1B data with information on the frequency and severity of delays from
+
+the DOT’s Airline On-Time Performance database.
+
+We also collected the enplanement data used by the FAA to determine coverage by AIR-21.
+
+There are signiﬁcant diﬀerences between these data and the enplanement data that are publicly
+
+available through the DOT’s T100 database. These diﬀerences arise because the T100 data do
+
+not include on-demand (e.g. charter ﬂights) and in-transit (e.g. plane stops to refuel but does
+
+not deplane) passengers who are a signiﬁcant source of enplanements at many airports. The
+
+diﬀerences are signiﬁcant enough that the determination of coverage for a handful of airports
+
+would change depending on the source of enplanement data.
+
+8MII agreements share the rights to decide on expansion of airport facilities between the airport authority and
+In some cases, airlines even have veto power
+
+the airline controlling the majority of operations at the airport.
+over airport expansions.
+
+9We also drop all itineraries for which the DOT questions the credibility of the reported fare, as indicated by
+
+the tktdollarcred variable.
+
+11
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Our ﬁnal source of data is a survey conducted jointly with the ACI-NA.10 The survey,
+
+completed by 47% of all medium and large hubs, those enplaning more than 0.25% of all en-
+
+planements at primary airports in the US, focused on gathering information on carrier-airport
+
+speciﬁc leasing agreements for boarding gates. For each airport, we observe the total number
+
+of gates, number of gates leased by each carrier on an exclusive and preferential basis, and the
+
+number of gates reserved for common-use by the airport authority. The details regarding the
+
+construction of the data set can be found in the appendix.
+
+3.2 Descriptive Statistics
+
+Tables 1 and 2 summarize the FAA and survey data for medium and large hubs. Column 1 in
+
+Tables 1 and 2 lists the covered and non-covered airports, respectively. The second column of
+
+Table 1 lists the year in which each airport was ﬁrst covered by the legislation. Due to the
+
+lag in data collection, coverage in any particular year is determined by enplanement data from
+
+two years earlier. For example, the set of airports ﬁrst covered by the legislation in 2000 was
+
+determined using enplanement data from 1998. This is important for our purposes, since it
+
+would be very unlikely that an airline could perfectly foresee the details of the legislation two
+
+years in advance and manipulate enplanements to avoid coverage of a particular airport. Of
+
+covered airports, LAS was the only airport not covered retroactively by the legislation.
+
+In
+
+Section 4.2.3, we test whether the lack of a signiﬁcant number of airports ﬁrst covered in later
+
+years is due to potential manipulation of enplanements by carriers.
+
+The next 3 Columns of both Table 1 and 2 report the mean fraction of all US enplanements
+
+performed at the airport, the mean and max share of the top-2 carriers from 1998 to 2006
+
+(determines coverage from 2000 to 2008). The maximum of the top-2 carriers’ shares during this
+
+period serves as the predictor of coverage by the legislation since once an airport’s concentration
+
+exceeds this threshold it is required to ﬁle and execute a competition plan. Thus, for each
+
+airport in Table 1 (2) this variable is greater (less) than .5.
+
+It is also important to note that
+
+coverage is not a proxy for the size of the airport. Examining the means at the bottom of
+
+Tables 1 and 2 for the fraction of all US enplanements, we see little diﬀerence in size between
+
+covered and non-covered airports. This is important, as it alleviates some concerns over the
+
+homogeneity of the treatment and control groups in our analysis.
+
+The ﬁnal columns of Tables 1 and 2 report the fraction of gates reserved by the airport
+
+10See Williams (2012) for more details on this survey.
+
+12
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+authority for common-use, fraction leased on a preferential or exclusive basis by legacy carriers,
+
+and fraction leased on a preferential or exclusive basis by low-cost carriers.11 Examining the
+
+respective means in 2001 and 2008 of these variables at the bottom of Tables 1 and 2, we see
+
+little evidence that gates moved diﬀerentially at covered and non-covered airports. However,
+
+the large amount of missing data makes drawing any strong conclusions diﬃcult. The lack of
+
+a signiﬁcant movement in the allocation of gates for most airports from 2001 to 2008 suggests
+
+that the FAA and DOT largely followed the recommendations put forth by GAO (2001). GAO
+
+(2001) cautioned that AIR-21 should not be used as a means to force the divestiture of assets
+
+(e.g. boarding gates) from dominant carriers at an airport for two reasons. First, the reallocation
+
+of assets among competing carriers might have little to no beneﬁt if the gates were not allocated
+
+to a low-cost competitor; see Brueckner et al. (2011) and Ciliberto and Tamer (2009) for strong
+
+support for this statement. Second, service in smaller markets would likely be the ﬁrst aﬀected
+
+by divestiture of a dominant carrier’s assets. This is intuitive: we expect a ﬁrm to eliminate or
+
+cut service in the least proﬁtable markets, and the presence of any ﬁxed costs associated with
+
+serving a market and signiﬁcant economies of density in the industry (see Brueckner and Spiller
+
+(1994)) ensure a strong correlation between proﬁtability and size.
+
+The lack of a signiﬁcant diﬀerence in the reallocation of gates among carriers at covered and
+
+non-covered airports foreshadows our ﬁnding that coverage by AIR-21 has little eﬀect on the
+
+network of destinations oﬀered out of an airport.
+
+It also suggests that if we are to ﬁnd a signif-
+
+icant eﬀect from coverage by AIR-21 on other dimensions of service, it is due to more eﬃcient
+
+use of existing assets (the focus of most competition plans) rather than to a redistribution of
+
+assets among carriers.
+
+Table 3 summarizes the variables we construct from the DB1B data and other sources, before
+
+and after AIR-21, separately for the set of covered and non-covered airports. Column 3 gives
+
+the means of each variable, for covered and non-covered airports, over the entire sample period.
+
+To motivate our approach in Section 4 and emphasize the importance of controlling for trends in
+
+the data prior to coverage by AIR-21, we summarize the ﬁrst diﬀerence for each variable. More
+
+precisely, for each variable, the diﬀerence before AIR-21 is calculated as the level in the ﬁrst
+
+quarter of 1999 minus the level in the ﬁrst quarter of 1993, while the diﬀerence after AIR-21 is
+
+11Low-cost carriers include B6, FL, F9, G4, J7, KP, KN, N7, NJ, NK, P9, QQ,SY, SX, TZ, U5, VX, W7, W9,
+WN, WV, XP, and ZA. The remaining carriers included in our analysis are AA, AQ, AS, CO, DL, HA, NW,
+UA, US, and YX.
+
+13
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+calculated as the level in the ﬁrst quarter of 2008 minus the level in the ﬁrst quarter of 2002.12
+
+Using the DB1B data, we classify a carrier’s service in each market into one of two types,
+
+nonstop or connecting. For each type of service in a market, Avg.F are is calculated as the
+
+average fare across passengers choosing a type of service. Avg.M kt.F are, 20thP ct.M kt.F are,
+
+50thP ct.M kt.F are, 80thP ct.M kt.F are are constructed similarly for diﬀerent quantiles of the fare
+
+distribution in the market as a whole, aggregating across carriers and types of service. Table 3
+
+shows a signiﬁcant downward trend in fares in both covered and non-covered markets. However,
+
+prior to AIR-21 fares were falling less rapidly at covered airports, while after AIR-21, fares fell
+
+more rapidly at covered airports. These diﬀerential trends are strongest in the upper quantiles
+
+of the fare distribution.
+
+In Section 4, we attempt to identify a causal relationship between
+
+coverage by AIR-21 and these diﬀerential trends in fares, while controlling for a variety of time-
+
+varying covariates. N onstop is an indicator for whether or not a carrier’s service is nonstop.
+
+Distance.T raveled is the average number of miles traveled by passengers purchasing a type of
+
+service from a carrier in a particular market. For nonstop service, Distance.T raveled is equal to
+
+the direct distance between the market endpoints. For connecting service, Distance.T raveled
+
+is strictly greater than the direct distance.
+
+At the airport-carrier level, we construct two variables from the DB1B. F raction.Routes is
+
+the proportion of all the destinations oﬀered out of an originating airport for which a carrier
+
+oﬀers either nonstop or connecting service. For example, suppose that a total of 200 diﬀerent
+
+markets are served out of Atlanta (ATL) by all carriers. Further, suppose Delta and American
+
+serve 180 and 100 markets out of ATL, respectively.
+
+In this example, F raction.Routes is equal
+
+to 0.9 and 0.5 for Delta and American, respectively. Thus, the numerator of F raction.Routes
+
+is the total number of markets served by a carrier out of an airport, N umber.Routes, while
+
+the denominator is the total number of routes served by any carrier out of the airport. This
+
+variable is intended to measure the relative attractiveness of carriers’ networks.
+
+Our measure of the hub premium, similar to the relative price measures used in Borenstein
+
+(1989), in a given market is calculated as the diﬀerence between the fares charged by the carriers
+
+with the largest share of enplanements at the origin and destination airports and the average of
+
+fares charged by all other carriers. For example, in the ATL (Atlanta Hartsﬁeld) to CLE (Cleve-
+
+12Our results are nearly identical if 1993 to 2000 and 2001 to 2008 are used to construct the diﬀerences. Yet
+by not using 2000 and 2001, we reduce the possibility of our results being biased from the disruptions to the
+industry from the events of 9/11, anticipation by airports regarding the components of the law, or delays in its
+implementation.
+
+14
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+land Hopkins) market, Delta and Continental are regarded as the dominant carriers (those with
+
+the largest share of enplanements), and Avg.Dominant.P remium is calculated as the diﬀerence
+
+between the average fare charged by Delta and Continental and the average fare charged by all
+
+other carriers. This variable is summarized in Table 3 and suggests that coverage is associated
+
+with a moderate decline in the premium charged by dominant carriers. To measure the availabil-
+
+ity of nonstop service, an important dimension to service quality, we calculate P ct.N onstop as
+
+the percentage of passengers traveling nonstop in a market. We also construct two measures of
+
+competition in a market, Lcc.P enetration and N umber.F irms. Lcc.P enetration, summarized
+
+in Table 3, is an indicator for whether a low-cost carrier is present in the market. As has been
+
+well documented, low-cost carrier penetration has been steadily increasing over the previous
+
+decade and typically results in intense price competition.
+
+In Section 4, and as the descriptives
+
+suggest, we show that in markets where one or both endpoint airports are covered by AIR-21,
+
+the low-cost penetration rate is signiﬁcantly higher as a result of coverage. N umber.F irms is
+
+the total number of ﬁrms serving the market and is a commonly used measure of competition
+
+in the Industrial Organization literature; see Berry (1992) and Ciliberto and Tamer (2009).
+
+We calculate P (Delay (cid:21) 15), using the Airline On-Time Performance data, as the proportion
+In addition to
+
+of ﬂights delayed 15 minutes or more in a quarter on a particular ﬂight segment.
+
+those variables we construct from the DOT sources, we also collected data on both population
+
+and per-capita income for each MSA from the Bureau of Economic Analysis to serve as controls
+
+throughout our analysis.
+
+4 Empirical Analysis
+
+Our ﬁnal sample includes data from all airports classiﬁed as a medium or large hub by the FAA
+
+(enplaning at least 0.25% of total domestic enplanements), including highly concentrated hubs,
+
+such as Minneapolis and Dallas.13 A legitimate concern here is that these highly concentrated
+
+airports are signiﬁcantly diﬀerent from the control group (non-covered airports) in both observ-
+
+able and unobservable ways. For example, since airport presence is known to be an important
+
+factor in airline quality, cost, and price competition, it is troubling that we have no airports in
+
+the control group comparable to the likes of Dallas and Minneapolis in terms of presence mea-
+
+sures. Similarly, unobserved airport features, such a geographic location, may aﬀect the network
+
+13Smaller airports, below the 0.25% of total domestic enplanements, are not eligible to be covered by AIR-21.
+An analysis including these smaller airports gives nearly identical results. These estimates are available from the
+authors upon request.
+
+15
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Figure 1: Coverage Cutoﬀs
+
+economies of an airport, leading it both to be highly concentrated and to have diﬀerent com-
+
+petitive mechanics than less concentrated airports. The results from Berry and Jia (2010) also
+
+give an important example of the interaction of unobservable changes in consumer preferences,
+
+i.e. decreasing willingness to pay for quality, with observable airport presence diﬀerences.
+
+To get around these problems we exploit AIR-21’s sharp discontinuity at the 50% two-carrier
+
+enplanement level. Essentially, we assume the distribution of market-level unobservables changes
+
+smoothly across the policy discontinuity. That is, the unobservable features of a randomly
+
+chosen market just below the cutoﬀ have the same distribution as the unobservable features
+
+of a randomly chosen market just above the cutoﬀ. Such an identiﬁcation strategy also has
+
+the advantage of lessening concerns that other events, e.g. September 11th, near the time of
+
+the policy intervention are inﬂuencing our results, as the event would have to have a diﬀerential
+
+eﬀect on airports on either side of the treatment cutoﬀ. A local identiﬁcation approach, also has
+
+the advantage of mitigating concerns regarding “mean-reversion”, or the idea that concentrated
+
+airports tend to deconcentrate over time due to high prices and entry.
+
+With this identiﬁcation strategy in mind we estimate the local average treatment eﬀects
+
+(LATEs) of the law using two approaches. First, we proceed in the spirit of Black (1999)
+
+and estimate a series of diﬀerence in diﬀerence regressions using only those observations in
+
+progressively smaller windows around the concentration cutoﬀs determining coverage. Figure 1
+
+demonstrates this approach. We begin by utilizing the complete sample and then examine the
+
+16
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+00.10.20.30.40.50.60.70.80.9100.10.20.30.40.50.60.70.80.91DestTop-2ShareOrigTop-2Share  Within 0.1 of CutoffOrigCoveredBothCoveredNeitherCoveredDestCoveredFigure 2: Distribution of Income and Population of Destinations Served, Covered vs. Non-
+Covered Airports
+
+subset of markets within narrower windows around the coverage cutoﬀs. Using this approach,
+
+we identify market outcomes impacted by coverage in a statistically and economically signiﬁcant
+
+manner. This approach also allows us to use covariates to control for observable diﬀerences in
+
+airports and markets. This is potentially useful because, while we have a large number of
+
+markets, these markets are drawn from a relatively small number of airports, which may create
+
+a small sample problem even if our identifying assumption is correct. For example, New York
+
+(JFK) is always included as a control airport and serves destinations that are larger, richer
+
+and more distant on average than those in the treatment group, and due to the large number
+
+of markets originating or terminating at the airport, it represents a nontrivial fraction of the
+
+sample.
+
+In the top half of Figure 2, we plot the cdf of per-capita income and population of destinations
+
+served out of covered and non-covered airports. Airports covered by AIR-21 tend to serve
+
+destinations with larger populations and higher per-capita incomes.
+
+In the bottom half of
+
+17
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+246800.20.40.60.81DestPer-CapIncome($10,000s)CDFDestIncome,AllAirports−500050010001500200000.20.40.60.81DestPopulation(10,000s)CDFDestPopulation,AllAirports246800.20.40.60.81DestPer-CapIncome($10,000s)CDFDestIncome,Airportswithin.1ofCutoﬀ−500050010001500200000.20.40.60.81DestPopulation(10,000s)CDFDestPopulation,Airportswithin.1ofCutoﬀ  CoveredNon−CoveredFigure 3: Change in Top-2 Concentrations
+
+Figure 2, we plot the cdf of the same observables for destinations served out of airports with
+
+two-ﬁrm concentrations within 0.1 of the treatment cutoﬀ.
+
+In this window, the diﬀerence in
+
+the distribution of population narrows greatly, while the diﬀerence in the right-hand tails of the
+
+distribution of per-capita income also narrows. Figure 3 shows the two-ﬁrm concentration ratios
+
+at each airport in 2000 and 2008, respectively.
+
+In the second step, we employ a true RD approach and allow the window width to collapse to
+
+zero. We ﬁnd that our main conclusions from the ﬁrst step are robust, which one would expect
+
+given the similarity of the distribution of observables in Figure 2.
+
+In addition, our particular
+
+RD implementation allows us to examine variation in the eﬀect of coverage along the cutoﬀs.
+
+We do this by deﬁning treatment eﬀects as functions of an origin’s or destination’s concentration
+
+level, which we describe more fully below, whereas in the ﬁrst step, we identify only an average
+
+eﬀect of coverage, ignoring potential heterogeneity in treatment eﬀects across markets.
+
+In the
+
+case of low-cost entry, we ﬁnd signiﬁcant heterogeneity along the treatment cutoﬀ.
+
+Intuitively,
+
+following implementation of the competition plans and the resulting improvement in access to
+
+airport facilities, we ﬁnd that low-cost carriers enter more concentrated markets with greater
+
+frequency.
+
+18
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.20.30.40.50.60.70.80.910.20.30.40.50.60.70.80.91ABQANCATLAUSbdlBNAbosbufBURBWICLECLTcmhCVGDALDCADENDFWDTWEWRfllhnlHOUIADIAHindJAXjfkLASlaxlgamcimcoMDWMEMMIAMKEMSPmsyOAKOGGomaONTORDPBIpdxPHLPHXPITPVDrduRNOrswsanseaSFOSJCSJUSLCSMFsnaSTLtpaTop-2Share2008Top-2Share19994.1 Boundary Dummy Approach
+
+4.1.1 Fares
+
+Following Black (1999), we begin under the assumption that coverage is exogenous and homoge-
+
+nous in its eﬀect on fares by estimating the following regression:
+
+∆t log(Avg.F areijmt) = ∆txijmtβ+∆tzmtγ+ψN onstopijmt+τ11[1 coverm]+τ21[2 coverm]+∆tϵijmt,
+
+(1)
+
+using the complete sample. The dependent variable is the long second diﬀerence, the change
+
+from 2002 to 2008 minus the change from 1993 to 1999, of the logarithm of average fares
+
+paid by passengers who purchased product j (nonstop or connecting service) from carrier i in
+
+market m.14 The vectors ∆txijmt and ∆tzmt include the second diﬀerences of F raction.Routes,
+Distance.T raveled, and the population and per-capita income at the market endpoint airports.15
+
+In addition, we include an indicator for nonstop service to capture the possibility that fares for
+
+nonstop service changed diﬀerentially relative to connecting service.
+
+To capture the impact of coverage by AIR-21 on the time-path of fares, we include indicators
+
+for whether one or both of a market’s endpoints were covered, 1[1 coverm] and 1[2 coverm],
+
+respectively.16 Under the assumption that coverage is exogenous and homogenous in its eﬀect
+
+on fares, τ1 and τ2 measure the causal eﬀect on the dependent variable in a market with one
+
+and two endpoints covered. To relax these assumptions and ensure a causal interpretation of τ1
+
+and τ2, we estimate the same regression on the subsamples of markets in progressively smaller
+
+windows around the coverage cutoﬀs. For such an approach to give consistent estimates, a
+
+signiﬁcant portion of the data must be located within these windows. Figure 4(a) gives the
+
+relative mass of the number of observations for each combination of the predictors of treatment.
+
+Figure 4(b) provides a contour map of the density and demonstrates that the majority of the
+
+data is in fact immediately around the coverage cutoﬀs. This is of particular importance as we
+
+shrink the window further in the RD analysis.
+
+The estimates of Equation (1) are presented in Columns 1, 3, and 5 of Table 4. For the
+
+regression results presented in Tables 4-9, we calculate robust standard errors using the approach
+
+14The DB1B ﬁrst became publicly available in 1993. The results are insensitive to varying the ﬁrst or last year
+
+of the panel used in the analysis.
+
+15See Berry (1990), Berry et al. (2006), and Berry and Jia (2010) for a discussion of the impact of the size of
+
+a carrier’s network on demand for that carrier’s services.
+
+16In earlier versions of the paper we included speciﬁcations that allowed the 1[1 coverm] treatment eﬀect to
+vary according to whether the origin or destination is treated. The eﬀects were highly symmetric, so we opted
+for the more parsimonious speciﬁcation.
+
+19
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+(a) Density
+
+(b) Contour Map
+
+Figure 4: Mass Over Support of Predictors
+
+of Cameron et al. (2007) to cluster on both the origin and destination, allowing for arbitrary
+
+forms of correlation between observations with either the origin, destination, or both in common.
+
+Our estimates of τ1 and τ2 are negative and statistically and economically signiﬁcant in each
+
+window around the coverage cutoﬀ. From Column 5, where we can reasonably interpret our
+
+coeﬃcients in a causal fashion, the results indicate that coverage of a single endpoint by AIR-
+
+21 results in a 13.4% reduction in average fares,17 while coverage of both endpoints results in
+
+approximately a 20.2% change in average fares. This result is robust across diﬀerent window
+
+widths, suggesting we might safely extrapolate our local eﬀects to more highly concentrated
+
+airports. The remaining results in Column 5 are straightforward to interpret and consistent
+
+across all subsamples.
+
+We interpret the results in Columns 1, 3, and 5 as estimates of the total eﬀect, both direct
+
+and indirect, of AIR-21 on average fares.
+
+Since we typically think of the eﬀect of barriers
+
+to entry on fares as being indirect, barriers to entry aﬀect entry/exit and market structure
+
+which in turn aﬀect prices, it is important to the credibility of our identiﬁcation as well as our
+
+evaluation of the policy to try to understand the direct channels through which fares are aﬀected.
+
+Columns 2, 4, and 6 of Table 4 show speciﬁcations designed to partially get at these channels.
+
+17Following Halvorsen and Palmquist (1980), this is calculated as: (cid:0)13:4 = 100 (cid:3) (exp((cid:0)0:144) (cid:0) 1).
+
+20
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.20.40.60.810.20.40.60.8100.050.10.15DestTop-2ShareOrigTop-2ShareDensity0.20.30.40.50.60.70.80.910.20.30.40.50.60.70.80.91DestTop-2ShareOrigTop-2ShareSpeciﬁcally, we add a very similar set of time-varying regressors to those employed by Borenstein
+
+and Rose (1994) to control for any changes in the competitive environment in a market. The
+
+set of controls includes the number of competitors in the market, an indicator for whether or
+
+not a low-cost carrier serves the market, airport-level Herﬁndahl indices for both endpoints,
+
+market-level Herﬁndahl indices, and an indicator for whether the carrier oﬀers both nonstop
+
+and connecting service.18 Each of these variables enters the regression as a second diﬀerence
+
+as described above. One can then interpret changes in the estimates of τ1 and τ2, when the
+
+controls are included, as evidence that variation in the competitive environment explains some
+
+portion of the estimated eﬀect of coverage. We ﬁnd that these controls explain between 30%
+
+and 50%, depending on the window width, of the eﬀect from coverage we estimated in Columns
+
+1, 3 and 5. Lcc.P enetration has a statistically signiﬁcant and economically meaningful eﬀect
+
+on fares. This suggests the explanation for the large decline in fares caused by AIR-21 have
+
+come, to a large extent, through exactly the channels envisioned by the law. While, under
+
+our identifying assumptions, our treatment eﬀect estimates are consistent in the presence of
+
+potentially endogenous market structure variables, we do not argue the coeﬃcients on these
+
+variables are consistent estimates of the eﬀect of, for example, low-cost entry. However, we note
+
+the substantial 14% declines associated with the Lcc.P enetration variable are consistent with
+
+the range of estimates presented by Brueckner et al. (2011).19
+
+Estimates of Equation (1) provide insight into how fares for a particular type of service in
+
+market changed as a result of AIR-21. It is also of interest to know how the distribution of fares
+
+in a market, as a whole, changed as a result of AIR-21. Speciﬁcally, performing the analysis
+
+on the distribution of fares in the market as a whole serves as an informal test of whether
+
+sample selection, on carriers serving a market over the entire period, is driving our results. If
+
+the estimated eﬀects for coverage are similar to those of Equation (1), we can be conﬁdent that
+
+selection is not driving our results.
+
+For this purpose, we estimate market-level regressions of the form
+
+∆t log(Qtile.M kt.F aremt) = ∆tzmtγ + τ11[1 coverm]+τ21[2 coverm] + ∆tϵmt,
+
+where the dependent variable, Qtile.M kt.F aremt, is a particular quantile (e.g. 20thP ct.M kt.F are)
+
+18We also estimated a speciﬁcation including an interaction of the nonstop indicator and the indicator for
+
+whether the carrier oﬀers both nonstop and connecting service. This interaction was never signiﬁcant.
+
+19Results from estimating slight variations of Equation (1) using the entire panel of data (every year from 1993
+to 2008) and year-on-year ﬁrst diﬀerences are available at http://jonwms.myweb.uga.edu/research.htm. The
+results are nearly identical to those presented in Table 4.
+
+21
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+of the distribution of fares in a market. Table 5 presents these estimates. For conciseness and
+
+due to the similarity of the estimates to those in Table 4, we present only those coeﬃcients
+
+of particular interest. Columns 2, 4, and 6 (1, 3, and 5) present the estimates with(out) the
+
+Borenstein and Rose (1994) controls; the number of competitors in the market, an indicator
+
+for whether or not a low-cost carrier serves the market, airport-level enplanement Herﬁndahl
+
+indices for both endpoints, and market-level enplanement Herﬁndahl indices.
+
+The results for Avg.M kt.F aremt, in the top panel of Table 5, are very similar to those
+
+reported in Table 4, suggesting selection is not a concern. Additionally, consistent with the
+
+descriptive evidence in Table 3, we ﬁnd that the estimated decline in fares resulting from cov-
+
+erage by AIR-21 is increasing in the fare quantile. The coeﬃcients in Column 5, which we can
+
+reasonably interpret in a causal fashion, show that there was little decline at the bottom of the
+
+distribution as a result of coverage, while there were large and statistically signiﬁcant declines
+
+in both 50thP ct.M kt.F are and 80thP ct.M kt.F are. 50thP ct.M kt.F are declines 8.6% (19.0%)
+
+when one (both) endpoint(s) is (are) covered, while 80thP ct.M kt.F are declines 10.1% (21.6%).
+
+Inclusion of the Borenstein and Rose (1994) controls, low-cost carrier entry in particular, again
+
+explains away up to 50% of the estimated eﬀect from coverage. Consistent with low-cost carriers
+
+successfully targeting business travelers, we ﬁnd the eﬀect of low-cost entry to be larger in the
+
+upper quantiles of the fare distribution.
+
+The last measure of the impact of AIR-21 on fares that we examine is the eﬀect on the
+
+dominant carrier premium, Avg.Dominant.P remiummt. We measure the hub premium as the
+
+diﬀerence in the logarithm of the average fare charged in a market by the carriers with the
+
+largest presence at the market’s endpoints with that of its competitors. These premia range
+
+from roughly 15-40% in 1999 and, on average, are sharply increasing in the concentration of an
+
+airport. Table 6 reports the results of these regressions. The magnitudes of the estimates are
+
+similar across diﬀerent window widths, but not always statistically signiﬁcant.
+
+If we focus on
+
+Column 5, the narrowest window, we ﬁnd that these premia have fallen slightly faster in markets
+
+with one or both endpoints covered, although, the coeﬃcient on 1[2 cover] is not statistically
+
+signiﬁcant. These results suggest, at most, AIR-21 had a modest impact on reducing premia
+
+charged by dominant carriers, despite the success of AIR-21 in reducing fares overall.
+
+22
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+4.1.2 Quality
+
+In addition to fares, many other characteristics of service may change as the result of coverage
+
+by AIR-21. GAO (2001) suggests that granting authority to regulators to force dominant
+
+carriers at certain airports to divest critical assets (e.g. boarding gates) introduces uncertainty
+
+and can lead to disinvestment in an airport.
+
+In particular, GAO (2001) suggests service to
+
+smaller airports would be the ﬁrst to be aﬀected, possibly losing service altogether.
+
+If the
+
+fare reductions are accompanied by diminished service quality, then the welfare consequences of
+
+coverage are ambiguous. We focus on three critical dimensions of service quality, the availability
+
+of nonstop service (percentage of passengers ﬂying nonstop in a market), the on-time performance
+
+of carriers (fraction of ﬂights delayed ﬁfteen minutes of more), and the number of markets served
+
+by a carrier out of an airport (number of destinations served on a connecting or nonstop basis
+
+by a carrier out of an airport).
+
+To estimate the impact of coverage on the availability of nonstop service, we estimate the
+
+following regression:
+
+∆tP ct.N onstopmt = ∆tzmtγ + τ11[1 coverm]+τ21[2 coverm] + ∆tϵmt
+
+where ∆tP ct.N onstopmt denotes the second diﬀerence, constructed identically to the dependent
+
+variable in Equation (1), in the fraction of passengers ﬂying nonstop in market m. To examine
+
+the impact of coverage on the frequency of late ﬂights on any nonstop ﬂight segment s, we
+
+estimate the following regression:
+
+∆tP (Delay (cid:21) 15)st = ∆tzstγ + τ11[1 coverm]+τ21[2 coverm] + ∆tϵst,
+
+where P (Delay (cid:21) 15) is the fraction of ﬂights delayed ﬁfteen minutes or more. Finally, to
+capture any potential divestiture by carriers in an airport resulting from coverage by AIR-21,
+
+we estimate the following regression:
+
+∆t log(N umber.Routesiat) = ∆tzatγ + τ 1[1 covera] + ∆tϵiat
+
+where the unit of observation is at the carrier (i)-airport (a) level.
+
+The results of these regressions are presented in Table 7. The GAO (2001) was most con-
+
+cerned that AIR-21 might lead carriers to completely cease operations or reduce the number of
+
+destinations served from covered airports. We do not ﬁnd robust evidence that the range of
+
+destinations oﬀered by carriers was impacted negatively by coverage; however, the large amount
+
+23
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+of noise in these regressions and the variation in the point estimates make it diﬃcult to draw
+
+ﬁrm conclusions. With regard to delays, consistent with the ﬁndings of Forbes (2008), we
+
+ﬁnd weak evidence of an increase in the proportion of late ﬂights, however this result is not
+
+robust across all windows.20 This is an intuitive result. Mayer and Sinai (2003) ﬁnd that
+
+carriers controlling the majority of the operations at an airport have an incentive to internalize
+
+congestion-related delays. At covered airports, a number of gates were seized from dominant
+
+carriers and subsequently operated by the airport authority, a third party with a lesser incentive
+
+to minimize delays of any particular carrier or ﬂight. Besides an increase in delays, we ﬁnd
+
+that the proportion of passengers ﬂying nonstop declines slightly as a result of coverage. While
+
+diﬃcult to test, a likely explanation is a change in the composition of passengers in covered
+
+markets, such that those consumers brought into the market as a result of the large declines in
+
+fares are more price sensitive and prefer cheaper connecting service.
+
+If it were not for such a signiﬁcant decline in fares, conclusions regarding consumer welfare
+
+would be-and to a signiﬁcant degree still are-less clear, as it would require an unreasonably high
+
+opportunity cost of time (associated with increased delays and connections) to completely oﬀset
+
+an 19% reduction in the median fare. However, this ﬁnding speaks to the idea that AIR-21 may
+
+have been suboptimally focused on the reallocation of scarce facilities rather than expansion of
+
+the facilities.
+
+4.1.3 Quantity
+
+For the decrease in fares in covered markets to be welfare improving for consumers, we should not
+
+observe statistically signiﬁcant declines in passenger traﬃc in these markets. We have shown
+
+there are only minor declines in measurable aspects of service quality. Observing declines
+
+in passenger volumes would suggest that other, unobserved, aspects of service (e.g. quality)
+
+declined along with fares in covered markets. To measure the eﬀect of coverage on passenger
+
+volumes, we run the following regression:
+
+∆t log(P assijmt) = ∆txijmtβ +∆tzmtγ +ψN onstopijmt +τ11[1 coverm]+τ21[2 coverm]+∆tϵijmt,
+
+where P assijmt is the number of passengers traveling, either nonstop or connecting, j, with
+
+carrier i in market m, as reported in the DB1B data. The vectors ∆txijmt and ∆tzmt include
+
+20In unreported results, we included a variety of measures to attempt to measure congestion and concentration
+to try to explain the observed increase in the frequency of late ﬂights.
+Interestingly, none of these measures
+explain away any portion of the measured eﬀect of coverage. This leaves very few possible explanations other
+than a change in control over the management of the scarce airport facilities.
+
+24
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+the same controls as in Equation (1).
+
+The results of these regressions are reported in Table 8. Columns 2, 4, and 6 (1, 3, and 5)
+
+report the results with(out) the Borenstein and Rose (1994) controls for diﬀerent window widths.
+
+Column 5 indicates that coverage, on average, had a positive and statistically signiﬁcant eﬀect
+
+on passenger volumes. Passenger volumes rose approximately 20.3% (42.2%) in markets with
+
+one (both) endpoint(s) covered, consistent with the large coverage eﬀect for fares reported in
+
+Table 4. The large increase in passenger volumes suggests that the increase in delays did little
+
+to diminish the beneﬁt to consumers resulting from the large decline in fares. Column 6 shows
+
+that inclusion of the Borenstein and Rose (1994) controls explains away much of the estimated
+
+eﬀect on passenger volumes from coverage. Low-cost entry in covered markets drives nearly all
+
+of the increase in passenger volumes.
+
+4.1.4 Competition
+
+The results in Tables 4, 5, and 8 suggest that increased competition, particularly by low-cost
+
+carriers, explains a signiﬁcant portion of the variation in fares and increases in passenger volumes
+
+in covered markets. However, it is not clear whether this increase in competition is driven by
+
+coverage. To test whether the steps taken by covered airports had a signiﬁcant impact on the
+
+number and identify of ﬁrms, we estimate two regressions:
+
+∆tN umber.F irmsmt = ∆tzmtγ + τ11[1 coverm]+τ21[2 coverm] + ∆ϵmt
+
+and
+
+∆tLcc.P enetrationmt = ∆tzmtγ + τ11[1 coverm]+τ21[2 coverm] + ∆ϵmt
+
+where the dependent variables in these regressions are the number of ﬁrms serving the market
+
+and an indicator for whether a low-cost carrier is present, respectively.
+
+The estimates of the coeﬃcients on the coverage indicators are presented in Table 9. We
+
+ﬁnd that for markets with one (both) endpoint(s) covered there is a 0.11 (0.40) increase in
+
+the probability of a low-cost carrier serving the market. While there are obvious caveats in
+
+interpreting the coeﬃcients of a second diﬀerenced linear probability model, at a minimum, this
+
+corroborates our ﬁnding that variation in the low-cost indicator played a major role in explaining
+
+between 30% and 50% of the reduction in fares as a result of coverage. We ﬁnd AIR-21 has no
+
+signiﬁcant impact on the average number of ﬁrms serving a market.
+
+25
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+4.2 Regression Discontinuity Design
+
+As discussed above there are many strengths associated with the approach of Black (1999). The
+
+results, however, rely on a number of assumptions, including homogeneity of the coverage eﬀect
+
+and exogeneity of coverage, to estimate the eﬀects of coverage by AIR-21. These assumptions
+
+can be troublesome because more concentrated airports (those with two carriers enplaning more
+
+than 50% of the passengers) are treated, while less concentrated airports are not. Therefore,
+
+any covariation between fares and concentration after the ﬁrst quarter of 2001 (the time of
+
+the treatment) would be empirically indistinguishable from a treatment eﬀect due to AIR-21.
+
+While these assumptions are diﬃcult to test formally, it is possible to measure a local-average
+
+treatment eﬀect (LATE) around the treatment cutoﬀ in the absence of these assumptions using a
+
+RD approach. Examining treatment and control groups “very near”either side of the treatment
+
+cutoﬀ allows us to disentangle those movements in fares that result from coverage from those
+
+that are simply due to correlation between fares and concentration. We discuss our approach
+
+below.21
+
+4.2.1 De(cid:12)ning LATEs
+
+Estimation of the LATEs here is complicated by the two-dimensional predictor vector. Instead
+of a point, our LATE estimates are now functions of the predictors or treatment, P orig
+m and
+m . Let Yijmt(o, d), o, d 2 f0, 1g, denote the outcome variable when the origin treatment
+P dest
+
+status is o and the destination treatment status is d. For each observation, we get to observe
+
+one of the four possible values of the variable. When only one endpoint is treated we deﬁne the
+
+LATEs as
+
+τ orig
+1
+
+τ dest
+1
+
+m ) = E[Yimt(1, 0) (cid:0) Yimt(0, 0)jP orig
+(P dest
+m ) = E[Yimt(0, 1) (cid:0) Yimt(0, 0)jP orig
+(P orig
+
+m = .5P dest
+
+m < .5]
+
+m < .5P dest
+
+m = .5]
+
+and when both endpoints are treated,
+
+τ orig
+2
+
+τ dest
+2
+
+m ) = E[Yimt(1, 1) (cid:0) Yimt(0, 1)jP orig
+(P dest
+m ) = E[Yimt(1, 1) (cid:0) Yimt(1, 0)jP orig
+(P orig
+
+m = .5P dest
+
+m > .5]
+
+m > .5P dest
+
+m = .5]
+
+Our deﬁnition of treatment eﬀects is motivated by several considerations. First are identiﬁca-
+
+tion considerations. Our data are lumpy in the sense that the predictors of coverage do not vary
+
+21See Imbens and Lemieux (2008) for an introduction to RD and Hahn, Todd, and Van Der Klaauw (2001) for
+
+a detailed discussion of identiﬁcation of treatment eﬀects within an RD framework.
+
+26
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+within an airport, so for a suﬃciently small window around a given concentration level, all the
+
+markets in that window will be drawn from a single airport. For example, consider Dallas-Fort
+
+Worth (DFW), which has a predictor value of around 0.8, well away from the coverage cutoﬀ.
+
+The estimate of τ 2
+
+dest(0.8) compares the path of fares over the period since the passage of AIR-21
+in markets originating at DFW and terminating at airports just below the coverage cutoﬀ to
+
+those markets originating at DFW and terminating at airports just above the coverage cutoﬀ.
+
+This approach allows us to control, to some extent, for ﬁxed unobserved factors associated with
+
+given airports that are potentially distant from the coverage cutoﬀs. Second, in contrast to
+
+the window regressions, allowing the treatment eﬀect to vary along the treatment cutoﬀ in ad-
+
+dition to the local linear regression implementation, discussed below, we estimate the eﬀect of
+
+coverage more ﬂexibly. Figure 4 shows the majority of the observations are near the treatment
+
+cutoﬀ, making such a ﬂexible approach feasible. Moreover, Berry and Jia (2010) suggest there
+
+is direct evidence that the treatment eﬀects may diﬀer in airport concentration. Of course, the
+
+interpretation of our estimates as a ﬂexible interactive eﬀect is invalid if there is selection inher-
+
+ent in conditioning on the away-from-the-boundary-airport concentration level, which is likely
+
+given that a single airport will dominate any small bin. However, even in the presence of such
+
+selection, we can still interpret the estimates as an estimate of LATE heterogeneity where the
+
+heterogeneity corresponds to interaction with whatever is driving selection.
+
+Our major task in estimation is to adapt the basic RD framework to account for a two-
+
+relates Yimt to fP orig
+
+dimensional predictor vector. This requires ﬂexibly estimating a two-dimensional surface that
+g. Local linear estimators are particularly attractive for this type of
+problem; see Imbens and Lemieux (2008). At boundary points of the support for the predictor
+
+m , P dest
+
+m
+
+vector, local linear estimators do not suﬀer from the inherent bias of kernel estimators and
+
+achieve faster rates of convergence.
+
+In addition, local linear estimators are easily extended to
+
+multiple dimensions. Fan and Gijbels (1996) provide a detailed discussion of the advantages of
+
+local-polynomial modeling.
+
+To demonstrate our approach, suppose we are estimating τ orig
+estimate the conditional expectation, E[Yimt(1, 0) (cid:0) Yimt(0, 0)jP orig
+m < .5. For a particular value of P dest
+P dest
+
+m , P
+
+dest
+
+1
+
+, the estimator is deﬁned as
+
+(P dest
+
+m ). This requires us to
+
+m = .5, P dest
+
+m < .5], for each
+
+) =bαc+ (cid:0)bαc(cid:0)
+
+τ orig
+1
+
+(P
+
+dest
+
+27
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+where
+
+f(cid:11)c(cid:0)
+
+min
+;(cid:12)c(cid:0)
+orig;(cid:12)c(cid:0)
+
+dest
+
+g
+
+and
+
+min
+f(cid:11)c+ ;(cid:12)c+
+orig;(cid:12)c+
+
+dest
+
+g
+
+fP orig
+
+m <:5;P dest
+
+m <:5g
+
+m:
+
+∑
+
+m:
+
+fP orig
+
+m (cid:21):5;P dest
+
+m <:5g
+
+The weights, w+
+
+m, are calculated as
+
+∑
+
+[Yimt(0, 0)(cid:0)αc(cid:0)
+
+0
+
+(cid:0)βc(cid:0)
+
+orig(P orig
+
+m
+
+(cid:0).5)(cid:0)βc(cid:0)
+
+dest(P dest
+
+m
+
+[Yimt(1, 0)(cid:0)αc+
+
+0
+
+(cid:0)βc+
+
+orig(P orig
+
+m
+
+dest(P dest
+
+m
+
+(cid:0).5)(cid:0)βc+
+)
+
+(
+
+ϕ
+
+m (cid:0)0:5
+P orig
+horig
+
+∑
+
+w+
+
+m =
+
+, P dest
+
+m
+
+(cid:0)P
+hdest
+
+dest
+
+(
+
+)
+
+j: P orig
+
+j
+
+(cid:21):5;P dest
+
+j <0:5 ϕ
+
+(cid:0)0:5
+
+P orig
+
+j
+
+horig
+
+,
+
+P dest
+
+j
+
+(cid:0)P
+hdest
+
+dest
+
+(cid:0)P
+
+dest
+
+)]2w
+
+(cid:0)
+m (2)
+
+(cid:0)P
+
+dest
+
+)]2w+
+
+m (3)
+
+where ϕ((cid:1)) is the bivariate standard normal pdf and horig and hdest are bandwidths. The
+weights, w
+to get an estimate of the treatment eﬀect, τ orig
+
+(cid:0)
+m, are deﬁned similarly. This process is then repeated for a range of values for P
+
+m ), along the entire treatment cutoﬀ. The
+
+(P dest
+
+dest
+
+1
+
+estimators of τ dest
+
+1
+
+(P orig
+
+m ), τ orig
+
+1
+
+(P dest
+
+m ), and τ dest
+
+2
+
+(P dest
+
+m ) are deﬁned similarly.
+
+To simplify the choice of bandwidth in multiple dimensions, we transform the predictors of
+
+coverage prior to estimation to have mean zero and identity covariance matrix; see Pagan and
+
+Ullah (1999). This allows us to check the sensitivity of our results by varying a single factor of
+
+proportionality, k, such that both horig and hdest are equal to
+
+(cid:0) 1
+
+4+d
+
+h = kN
+
+where N is the number of observations in the quadrant of interest and d = 2 (dimension of
+
+predictor support). In Equations 2 and 3,
+
+and
+
+N + =
+
+(cid:0)
+
+N
+
+=
+
+1[P orig
+
+m < .5, P dest
+
+m < .5]
+
+1[P orig
+
+m
+
+(cid:21) .5, P dest
+
+m < .5],
+
+∑
+∑
+
+m
+
+, respectively. We ﬁnd our results to be insensitive to the choice of bandwidth, and use k = 2
+
+for all the RD analysis, which allows for a great deal of ﬂexibility, as we will discuss below, yet
+
+m
+
+adequately smooths the surface.22
+
+22We also explored cross-validation methods for choosing k, but we ﬁnd it performs very poorly in our application
+by suggesting a bandwidth near zero that overﬁts the data. A few aspects of our application and the method
+(interdependence of observations, multiple dimensional predictor vector, and the slow convergence rate of the
+cross-validation method) make this an unsurprising result.
+
+28
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Calculating asymptotically valid standard errors for our estimates is a nontrivial computa-
+
+tional exercise for a number of reasons. First, we are estimating a nonparametric surface in
+
+multiple dimensions. Second, we are most interested in the estimates of this nonparametric sur-
+
+face at the coverage cutoﬀs. Finally, we must account for the dependence in our data resulting
+
+from markets having endpoints in common, as was the case in the window regressions. For these
+
+reasons, we appeal to the resampling with dependent data literature to calculate asymptotically
+
+valid point-wise standard errors. For a detailed treatment of resampling techniques for depen-
+
+dent data, see Lahiri (2003). The clear dependence structure in our data makes application
+
+of these techniques straightforward. We treat the sample as representative of the population
+
+and compute jack-knife standard errors where we leave out blocks of markets with a common
+
+endpoint. Precisely, for each airport we ﬁnd all markets with a common endpoint and drop
+
+them from the sample. Using the resulting sub-sample, we then reestimate the model. We
+
+repeat this process for each market and use the distribution of the estimates across subsamples
+
+to infer moments of the asymptotic distribution of our LATEs.
+
+4.2.2 Results
+
+The results and conclusions of our RD analysis are consistent and nearly identical to our ﬁndings
+
+using the window-regression approach. For this reason, we focus the discussion of our RD results
+
+on the impact of coverage on fares and low-cost competition. Figures 5(a) and 5(b) present the
+
+surfaces relating second diﬀerences of the average fare and low-cost penetration, ∆tAvg.F areijmt
+
+and ∆tLcc.P enetrationmt, respectively, to the predictors of treatment, where we smooth over
+
+the policy discontinuity. Foreshadowing the results from our RD analysis, we ﬁnd the gradient
+
+of the surface changes rapidly around the treatment cutoﬀs in a way that is consistent with the
+
+results from the window regressions.
+
+In particular, there are four clearly visible planes in each
+
+of the surfaces, corresponding to the four quadrants in Figure 1.
+
+Figure 6 shows the estimated surface for a representative region of the surface relating the
+
+second diﬀerence of average fares to the predictors of treatment, along with the data used in
+
+estimation in the same region, when we allow for a break at the coverage cutoﬀ. The ﬁgure makes
+
+clear that our RD is not as clear as many in the literature, in the sense that the discontinuity is
+
+not plainly visible. This is not surprising due to the high variability in fares, two-dimensional
+
+support of our predictors, and clumpiness of the data. This motivates our two-dimensional
+
+smoothing procedure.
+
+29
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+(a) Avg. Fare
+
+(b) Lcc Penetration
+
+Figure 5: Smoothed Surfaces, Avg. Fares and Lcc Penetration
+
+Figures 7(a) and 7(b) and Table 10 present the complete results of our RD analysis of fares
+
+and low-cost entry. Figures 7(a) and 7(b) shows the RD surfaces, relating average fares and
+
+low-cost entry to the predictors of treatment, respectively, while allowing for a break in the
+
+surface at the coverage cutoﬀs. Not surprisingly, given the smoothed surfaces in Figures 5(a)
+
+and 5(b), and our ﬁndings from the window regressions, we ﬁnd economically and statistically
+
+signiﬁcant breaks along the coverage cutoﬀs for both market outcomes. Table 10 presents the
+
+point estimates along with standard errors, calculated using the block-bootstrapping procedure
+
+discussed above. Collectively, the results of our RD analysis both corroborate and provide
+
+additional insights to the ﬁndings gleaned from the window regressions.
+
+The RD estimates of the eﬀect on average fares of going from no endpoints treated to one
+
+endpoint treated range from 12 to 15 percent, only slightly larger than our ﬁndings from the
+
+window regressions. The eﬀect of going from no coverage to both endpoints covered, if measured
+
+as the jump right at the vertex of the four surfaces, is about 27 percent (15.8 plus 11.6 or 15.6
+
+plus 11.3). While, strictly speaking, this is the only correct way to measure this eﬀect, averaging
+
+over the surfaces suggests the eﬀect is around 18-21 percent. The reason for this diﬀerences
+
+is that unlike the window regressions we don’t impose symmetric eﬀects for the one-endpoint
+
+treated markets, and, as Figure 7(a) shows, we ﬁnd substantial heterogeneity in the LATEs
+
+30
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.40.450.50.550.60.650.40.450.50.550.60.6500.050.10.150.20.250.30.35DestTop-2ShareOrigTop-2ShareSecondDiﬀerenceofAvg.Fare0.40.450.50.550.60.650.40.450.50.550.60.65−0.5−0.4−0.3−0.2−0.100.1DestTop-2ShareOrigTop-2ShareSecondDiﬀerenceofLccPenetrationFigure 6: Local Coverage Eﬀect on Avg. Fare
+
+for the eﬀect of coverage for the second market endpoint. Speciﬁcally, the eﬀect of coverage
+
+is substantial and statistically signiﬁcant for less-concentrated airports (about 0.5), while not
+
+statistically diﬀerent from zero for more-concentrated airports (0.6 or greater).23
+
+For low-cost penetration, the magnitudes of the estimates are slightly smaller and exhibit
+
+some interesting patterns. As discussed above, one advantage of employing a true RD approach
+
+in our application is the opportunity to look for heterogeneity in the eﬀect of coverage. This
+
+heterogeneity is obvious as one looks at the point estimates of the eﬀect from coverage on low-
+
+cost penetration in Table 10. This heterogeneity is also clearly visible in Figure 7(b). Looking
+at the estimates of τ orig
+
+m ), we ﬁnd a nearly monotonic relationship between concentration
+
+(P dest
+
+1
+
+and the eﬀect of coverage on low-cost entry, ranging from a point estimate of 0.024 to 0.218. As
+
+one would expect, coverage had its largest eﬀect on entry in more concentrated markets. This
+
+explains why we get a statistically insigniﬁcant point estimate for the coeﬃcient on 1[1 coverm]
+
+in the window regressions, where we can identify only an average eﬀect of coverage. The eﬀect
+
+of going from no endpoint to both endpoints being covered, again measured at the jump of the
+
+vertex between the four surfaces, is 0.28 and 0.31. This implies that approximately 3 additional
+
+markets out of every 10, with a two-ﬁrm concentration of above 0.5, have a low-cost presence
+
+as a result of AIR-21. Consistent with the fare estimates, we ﬁnd only a moderate increase
+
+23The symmetry of the surface remains and the results are nearly identical if the return legs of roundtrip tickets
+
+are not used in computing fares. See the online appendix for details.
+
+31
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.420.440.460.480.50.480.490.50.510.52−0.1−0.0500.050.10.150.20.250.30.35OrigTop-2ShareDestTop-2ShareSecondDiﬀerenceofAvg.Fare(a) Avg. Fare
+
+(b) Lcc Penetration
+
+Figure 7: RD Surface, Avg. Fare and Lcc Penetration
+
+in low-cost penetration in the most-concentrated markets when the second endpoint is covered.
+
+Collectively, our results suggest that coverage had the largest eﬀect, fare declines and increased
+
+low-cost penetration, on moderately concentrated airports.
+
+4.2.3 Regression-Discontinuity Validity
+
+Above, we have discussed why we are comfortable assuming there are no (local) selection eﬀects
+
+associated with AIR-21. The validity of our identifying assumption also requires there be no
+
+problem with incentive eﬀects. That is, that carriers do not manipulate enplanement levels to
+
+avoid treatment. There are a number of reasons why we believe this is a valid assumption.
+
+First, coverage is determined at the airport level, not the airline level. Therefore, no individual
+
+airline can manipulate enplanements and entirely determine coverage; rather it would take a
+
+cooperative eﬀort by airlines serving the airport. Second, coverage in each year was determined
+
+using FAA enplanement data from two years earlier. An airline attempting to avoid coverage by
+
+the legislation would have been required to foresee the exact details of the legislation (including
+
+the exact enplanement cutoﬀ) two years in advance of its passage.24 Finally, manipulating
+
+24We also examined enplanements of airports near the coverage cutoﬀ in the years prior to AIR-21, 1998-2000.
+We ﬁnd no evidence that concentration measures changed in a way that would suggest airports or carriers knew
+of the particular value of the coverage cutoﬀ.
+
+32
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.40.450.50.550.60.650.40.450.50.550.60.6500.10.20.30.4DestTop-2ShareOrigTop-2ShareSecondDiﬀerenceofAvg.Fare0.40.450.50.550.60.40.450.50.550.6−0.6−0.5−0.4−0.3−0.2−0.100.1DestTop-2ShareOrigTop-2ShareSecondDiﬀerenceofLccPenetration(a) Density of Observations
+
+(b) Avg. Fare
+
+Figure 8: Test for Strategic Manipulation
+
+enplanements at any one airport, particularly a large airport, has signiﬁcant costs to an airline
+
+in terms of adjusting traﬃc in its entire network.
+
+Extending formal tests to check for the strategic manipulation of enplanements, see McCrary
+
+(2008), with a two-dimensional predictor vector is not immediately clear. However, we develop
+
+an informal test for manipulation of the predictors of treatment and provide evidence that
+
+little or no strategic manipulation of enplanements occurred. The test is based on the simple
+
+observation that those airports just below the coverage cutoﬀ in which one carrier controls a
+
+larger proportion of the traﬃc will be most vulnerable to strategic manipulation of enplanements.
+
+For example, consider two airports where the two largest carriers enplane 49% of the passengers.
+
+Suppose at the ﬁrst airport, the top carrier enplanes 35% of all passengers while the top carrier
+
+at the second airport enplanes 25% of all passengers.
+
+If an airline was attempting to avoid
+
+coverage of an airport by AIR-21 by manipulating enplanements, one would expect this to occur
+
+at the ﬁrst airport. At the ﬁrst airport, the largest carrier would have greater control in ensuring
+
+that the airport was not covered.
+
+One way a carrier can lower enplanements is by raising fares.
+
+If a carrier was seeking to
+
+raise fares and lower its share of enplanements to avoid coverage, one would expect to see less
+
+of a drop in fares in markets near the coverage cutoﬀ where one carrier has a larger share of
+
+33
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+0.260.280.30.320.340.360.460.470.480.490.5−0.500.51DestTop-2ShareOrigTop-2ShareSecondDiﬀerenceofAvg.Fareenplanements. Figures 8(a) and 8(b) show that there is no evidence to support a claim that
+
+enplanements were manipulated.
+
+In Figure 8(a), we plot the joint density of the share of the
+
+two largest carriers and the share of the largest carrier for airports below the cutoﬀ. Given the
+
+high correlation between these two variables, we can plot only the relationship between these
+
+variables and changes in fares (diﬀerence between average fare in the ﬁrst quarter of 2008 and
+
+2001), for a small range of values in Figure 8(b).
+
+If carriers chose to strategically manipulate
+
+enplanements, we would expect to see a surface sloping up in the top carrier’s share at airports
+
+closest to the cutoﬀ. We ﬁnd no evidence to support this claim.
+
+5 Conclusions
+
+High fares at concentrated airports have been a fact of life in U.S. air travel since the deregulation
+
+of the industry in 1979. The welfare implications of these high fares are ambiguous because
+
+consumers value both the size and scope, in the form of frequency and network size, of an airline
+
+when ﬂying out of their home airport. However size and scope lead to market power due to
+
+scarce airport facilities.
+
+In 2000, the U.S. Congress took a stand on the question, deciding
+
+too much market power at highly concentrated airports was generating too much of the fare
+
+diﬀerence and enacted AIR-21. Among other things, AIR-21 required concentrated airports to
+
+take steps to increase competition and make airport facilities available to all carriers wanting to
+
+serve the airport.
+
+We have provided evidence that AIR-21 was successful in encouraging new and intensiﬁed
+
+competition at its targeted airports. Moreover, we have found evidence that Congress was right
+
+in concluding that market power contributed too much to high fares from the perspective of
+
+consumers. That is, we ﬁnd little evidence that increased competition has signiﬁcantly eroded
+
+quality provision, either directly by reducing large incumbent size or indirectly by disincentiving
+
+high frequencies. The only meaningful degradation of service quality we ﬁnd has come in the
+
+on time performance of airlines at treated airports. The magnitude of these changes in service
+
+quality relative to the magnitude of fare declines, along with the fact that we see increases in
+
+passenger volumes suggest AIR-21 had a strongly positive eﬀect on consumer welfare.
+
+Our quasi-experimental approach to analyzing the impact of barriers to entry is somewhat
+
+novel in the Industrial Organization literature, and we think our clean identiﬁcation strategy
+
+represents a signiﬁcant contribution to it. However, our study also highlights some of the
+
+diﬃculties in implementing such a research design. While we can explain between 40% to
+
+34
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+50% of the decline in fares in covered markets, a result of intensiﬁed competition from low-cost
+
+carriers, it remains an open question to identify other determinants. Moreover, if we had arrived
+
+at more nuanced results (e.g. more signiﬁcant declines in quality and no increase in passenger
+
+volumes), we would need more structure to say much about the balance of welfare gains and
+
+losses.
+
+The competition plans and subsequent FAA reports provide at least a subset of the actions
+
+taken by airports and seem to provide a good source for identifying other possible explanations.
+
+A couple candidates that seem likely to have some explanatory power are the reduction of
+
+landing fees for smaller carriers to the levels enjoyed by large presence incumbents as well as
+
+limits on subleasing fees that can be charged by one carrier to another for the use of under-
+
+utilized boarding gates. Both these steps, discussed in the majority of the airports’ competition
+
+plans, could be a signiﬁcant source of cost pass-throughs from carriers to consumers. Carriers
+
+may also simply reduce fares to generate outcomes consistent with the goals of AIR-21 to avoid
+
+additional oversight in the future. We leave more detailed investigation of these channels for
+
+future research.
+
+References
+
+[1] Berry, Steven (1990) ”Airport Presence as Product Diﬀerentiation”, American Economic
+
+Review P&P, 80(2), 394-399.
+
+[2] Berry, Steven (1992) ”Estimation of a Model of Entry in the Airline Industry”, Economet-
+
+rica, 60(4), 889-917.
+
+[3] Berry, Steven, Michael Carnall, and Pablo Spiller (2006) ”Airline Hubs: Costs, Markups,
+and the Implications of Costumer Heterogeneity”, in Darin Lee (ed.), Advances in Airline
+Economics, Competition Policy and Antitrust, Vol. I, Elsevier.
+
+[4] Berry, Steven, and Panle Jia (2010) ”Tracing the Woes: An Empirical Analysis of the
+
+Airline Industry”, American Economic Journal: Microeconomics, 2(3), 1-43.
+
+[5] Black, Sandra (1999) ”Do Better Schools Matter? Parental Valuation of Elementary Edu-
+
+cation”, Quarterly Journal of Economics, 114(2), 577-599.
+
+[6] Borenstein, Severin (1989) ”Hubs and High Fares: Dominance and Market Power in the
+
+U.S. Airline Industry”, Rand Journal of Economics, 20(3), 344-365.
+
+[7] Borenstein, Severin and Nancy Rose (1994) ”Competition and Price Dispersion in the U.S.
+
+Airline Industry”, Journal of Political Economy, 102(4), 653-683.
+
+35
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+[8] Bresnahan, Timothy, and Peter Reiss (1991) ”Entry and Competition in Concentrated
+
+Markets”, Journal of Political Economy, 99(5), 977-1009.
+
+[9] Brueckner, Jan, and Pablo Spiller (1994) ”Economies of Traﬃc Density in the Deregulated
+
+Airline Industry”, Journal of Law and Economics, 37(2), 379-415.
+
+[10] Brueckner, Jan, Darin Lee, and Ethan Singer (2011) ”Airline Competition and Domestic
+
+U.S. Airfares: A Comprehensive Reappraisal”, Working Paper.
+
+[11] Cameron, A. Colin, Jonah Gelbach, and Douglas Miller (2007) ”Robust Inference with
+
+Multi-Way Clustering”, NBER Technical Working Paper #T0327.
+
+[12] Ciliberto, Federico, and Elie Tamer (2009) ”Market Structure and Multiple Equilibria in
+
+the Airline Industry”, Econometrica, 77(6), 1791-1828.
+
+[13] Ciliberto, Federico and Jonathan Williams (2010) ”Limited Access to Airport Facilities and
+
+Market Power in the Airline Industry”, Journal of Law and Economics, 53(3), 467-495.
+
+[14] Evans, William, and Ioannis Kessides (1994) ”Living by the ‘Golden Rule’: Multimarket
+
+Contact in the U.S. Airline Industry”, Quarterly Journal of Economics, 109(2), 341-366.
+
+[15] Fan, Jianqing, and Ir`ene Gijbels (1996) ”Local Polynomial Modelling and Its Applications”,
+
+Monographs on Statistics and Applied Probability, Chapman & Hall.
+
+[16] Forbes, Silke J. (2008) ”The Eﬀect of Air Traﬃc Delays on Airline Prices”, International
+
+Journal of Industrial Organization, 26(5), 1218-1232.
+
+[17] Goolsbee, Austan, and Chad Syverson (2008) ”How Do Incumbents Respond to the Threat
+of Entry? Evidence from the Major Airlines”, Quarterly Journal of Economics, 123(4),
+1611-1633.
+
+[18] Hahn, Jinyong, Petra Todd, and Wilbert Van Der Klaauw (2001) ”Identiﬁcation and Esti-
+mation of Treatment Eﬀects with a Regression-Discontinuity Design”, Econometrica, 69(1),
+201-209.
+
+[19] Halvorsen, Robert, and Raymond Palmquist (1980) ”The Interpretation of Dummy Vari-
+
+ables in Semilogarithmic Equations”, American Economic Review, 70(3), 474-475.
+
+[20] Imbens, Guido, and Thomas Lemieux (2008) ”Regression Discontinuity Designs: A Guide
+
+to Practice”, Journal of Econometrics, 142(2), 615-635.
+
+[21] Lahiri, Soumendra (2003) ”Resampling Methods for Dependent Data”, Springer Series in
+
+Statistics, Springer.
+
+[22] Lederman, Mara (2007) ”Do Enhancements to Loyalty Programs Aﬀect Demand? The
+Impact of International Frequent Flyer Partnerships on Domestic Airline Demand”, Rand
+Journal of Economics, 38(4), 1134-1158.
+
+36
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+[23] Lederman, Mara (2008) ”Are Frequent Flyer Programs a Cause of the ‘Hub Premium’ ?”,
+
+Journal of Economics and Management Strategy, 17(1), 35-66.
+
+[24] Mayer, Christopher, and Todd Sinai (2003) ”Network Eﬀects, Congestion Externalities,
+and Air Traﬃc Delays: Or Why Not All Delays Are Evil”, American Economic Review,
+93(4), 1194-1215.
+
+[25] Mazzeo, Michael (2002) ”Product Choice and Oligopoly Market Structure”, Rand Journal
+
+of Economics, 33(2): 221-242.
+
+[26] McCrary, Justin (2008) ”Testing for Manipulation of the Running Variable in the Regression
+
+Discontinuity Design”, Journal of Econometrics, 142(2), 698-714.
+
+[27] Pagan, Adrian, and Aman Ullah (1999) ”Nonparametric Econometrics”, Themes in Modern
+
+Econometrics, Cambridge University Press.
+
+[28] Seim, Katja (2006) ”An Empirical Model of Firm Entry with Endogenous Product-Type
+
+Choices”, Rand Journal of Economics, 37(3), 619-640.
+
+[29] Transportation Research Board (1999) ”Entry and Competition in the U.S. Airline Industry:
+
+Issues and Opportunities”, Washington, D.C., Transportation Research Board.
+
+[30] U.S. General Accounting Oﬃce (1989) ”Barriers to Competition in the Airline Industry”,
+
+Washington, D.C., U.S. General Accounting Oﬃce.
+
+[31] U.S. General Accounting Oﬃce (1990) ”Airline Competition: Industry Operating and Mar-
+keting Practices Limit Market Entry”, Washington, D.C., U.S. General Accounting Oﬃce.
+
+[32] U.S. General Accounting Oﬃce (2001) ”Challenges in Enhancing Competition in Dominated
+
+Markets”, Washington, D.C., U.S. General Accounting Oﬃce.
+
+[33] Williams, Jonathan (2012) “Capacity Investments, Exclusionary Behavior, and Welfare: A
+Dynamic Model of Competition in the Airline Industry”, SSRN Working Paper # 1375450.
+
+37
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+6 Appendix: Data Description and Construction of Variables
+
+In this appendix, we detail the construction of our sample and calculation of each variable.25
+
+6.1 DB1B Data
+
+Data describing the itinerary and fare paid by each passenger were collected from the Databank
+1B (DB1B) of the DOT’s Origin and Destination Survey for 1993 to 2008. The DB1B is a
+10 percent random sample of all domestic air travel on U.S. carriers. The DB1B data were
+processed as follows:
+
+1. The following itineraries are removed from the sample: those with the ticketing carrier
+missing or an inaccurate fare as reported by the DOT (tktdollarcred equals 1), those
+associated with interline or open-jaw travel, roundtrip (one-way) itineraries with more than
+6 (3) coupons (ﬂight segments), and those with an endpoint that is neither a medium or a
+large hub, as classiﬁed by the FAA (at least 0.25% of domestic enplanements). Itineraries
+booked with a carrier’s subsidiaries or regional aﬃliates are not regarded as interline travel
+and remain in the sample, and are recoded as travel with the parent carrier.
+
+2. Roundtrip itineraries are coded as two separate trips, travel in two separate directional
+markets.26 For example, a roundtrip itinerary, originating in Atlanta (ATL) and termi-
+nating in Cleveland (CLE), is coded as travel in two markets, ATL-CLE and CLE-ATL.
+Roundtrip fares are divided by two and deﬂated to 2008 dollars using the U.S. Bureau of
+Labor Statistics’ consumer price index. Itineraries with fares less than $25 or greater than
+$2500 are regarded as key-punch errors or redemption of frequent-ﬂier miles and removed
+from the sample.
+
+3. Each trip by a passenger is classiﬁed as either nonstop or connecting (at least one connec-
+
+tion) service.
+
+Similar to Berry (1992) and Ciliberto and Tamer (2009), we consider a carrier to oﬀer a
+particular type of service (nonstop or connecting) in a market if the carrier reports at least 10
+passengers in the DB1B (100 passengers due to 10% sampling) purchasing that particular type
+of service. We remove itineraries associated with market-carrier-types of service that do not meet
+this threshold. The ﬁnal sample includes the following carriers; AA, AQ, AS, CO, DL, HA,
+HP, NW, UA, US, YX, B6, FL, F9, G4, J7,KP, KN, N7, NJ, NK, P9, QQ, SY, SX, TZ, U5,
+VX, W7, W9, WN, WV, XP, and ZA,and a total of 2,979 markets.
+
+From this sample of the DB1B data, the variables used in the analysis above are constructed
+
+as follows:
+
+Avg.Fareijmt is calculated as the weighted average (weights are number of passengers paying
+a particular fare) of fares for a type of service, j (nonstop or connecting), across all passengers
+
+25The Stata .do ﬁles used to construct the sample from the raw DOT data are available from the authors upon
+
+request.
+
+26The results and conclusions are virtually identical if the return leg of roundtrip tickets are completely removed
+from the sample. This is not surprising, as airlines nearly always price roundtrip travel in opposite directions
+similarly.
+
+38
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+traveling in a market, m, with a particular carrier i. For example, if Delta oﬀers both nonstop
+and connecting service in the ATL-CLE market, two separate averages are computed.
+
+Passijmt is calculated as the total number of passengers for a type of service, j (nonstop or
+
+connecting), traveling in a market, m, with a particular carrier i.
+
+Qtile.Mkt.Faremt is calculated for various quantiles of the fare distribution across all carriers
+in a market. The number of passengers paying a particular fare are used as weights in computing
+these quantiles, using the fweight option in Stata. We compute 3 quantiles, 20thP ct.M kt.F are,
+50thP ct.M kt.F are, 80thP ct.M kt.F are, and the average, Avg.M kt.F are.
+
+Avg.Dominant.Premiummt is calculated in two steps. For each market, we identify two
+carriers, the carriers with the largest presence at the origin and destination, respectively. A
+carrier’s presence at an airport is measured by the number of enplanements at an airport,
+measured from the DB1B data.27 For each market, we then compute two averages; one is
+the average fare charged by the dominant carriers, while the other is the average fare charged
+by all other carriers. These averages are computed in the same fashion as Qtile.M kt.F aremt,
+where the number of passengers paying a given fare are used as weights. The dominant carrier
+premium is then the diﬀerence between these two averages.
+
+Pct.Nonstopmt is calculated as the fraction of passengers, across all carriers, in a market
+
+that travel nonstop.
+
+Number.Routesiat is calculated as the number of destinations that a carrier serves on either
+a nonstop or connecting basis out of airport, a. A destination out of airport a is considered to
+be served by a carrier if at least one itinerary appears in the DB1B with this destination that
+originates at airport a. For example, if Delta serves 150 markets out of ATL on a nonstop basis
+and 100 markets on a connecting basis, while oﬀering both types of service in 50 markets, then
+the number of routes is equal to 200.
+
+Fraction.Routesiat is calculated as the fraction of all routes served by any carrier on either
+a nonstop or connecting basis that are served by carrier i at airport a. More precisely, the
+fraction of routes is NumberRoutesiat divided by the total number of destinations served out
+of an airport by any carrier. For example, if Delta serves 200 markets out of ATL and the
+total number of destinations served out of ATL by any carrier is 250, then the fraction of routes
+served by Delta is 0.8.
+
+Number.Firmsmt is calculated as the total number of carriers serving a market on either a
+nonstop or connecting basis. A carrier is included in this total if at least one itinerary in the
+DB1B reports this carrier as the ticketing carrier in the market.
+
+Lcc.Penetrationmt is an binary indicator for whether there a low-cost carrier serving a
+market. A low-cost carrier is counted as serving a market if at least one itinerary in the DB1B
+reports this carrier as the ticketing carrier in the market.28 The following carriers are regarded
+as low-cost carriers; B6, FL, F9, G4, J7, KP, KN, N7, NJ, NK, P9, QQ, SY, SX, TZ, U5, VX,
+W7, W9, WN, WV, XP, and ZA.
+
+27More accurate enplanement data from the FAA were not available dating back to 1993.
+28In deﬁning both the N umber:F irmsmt and Lcc:P enetrationmt, we explored diﬀerent thresholds to deﬁne
+whether a carrier ”serves a market”, similar to Berry (1992) and Ciliberto and Tamer (2009), with no diﬀerence
+in our results.
+
+39
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Distance.Traveledijmt is the average distance, in 1000s of miles, traveled by passengers
+purchasing a particular type of service, j, from carrier i in market m. Similar to the calculation
+of Avg.F areijmt, the weights are number of passengers traveling a particular distance.29
+
+6.2 On-Time Performance Data
+
+Data on the on-time performance of carriers were collected from the DOT’s Airline On-Time
+Database. We collapse the raw data to the segment-quarter level, averaging delays across
+carriers within a segment-quarter. We then merge the resulting data set with the DB1B
+sample. Similar to the merge of the T100 database, there are nonstop segments that do not
+appear in the delays data, but correspond to markets served in the DB1B data, explaining the
+smaller sample used in our analysis of delays in the text above. From these data, we construct
+one variable:
+
+P(Delay (cid:21) 15)st is calculated as the fraction of delays greater than or equal to ﬁfteen minutes
+
+across all carriers on a nonstop segment, s.
+
+6.3 FAA Enplanement Data
+
+We collected the exact enplanement data used by the FAA to determine coverage for airports by
+AIR-21. There are a couple important diﬀerences between these data and the publicly available
+data from the DOT; the FAA data include both on-demand (e.g. charter ﬂights) and in-transit
+(e.g. plane stops to refuel but does not deplane) passengers. At many airports, this is not a
+signiﬁcant source of passengers, often less than 1% at most airports. However, these subtle
+diﬀerences are important for our application. First, at some airports these passengers make up
+a signiﬁcant proportion of enplanements and one would incorrectly infer coverage from the DOT
+enplanement data. Second, we need to know each airport’s precise value for the predictors of
+treatment to perform the RD analysis.
+
+We use the enplanement data for two purposes. First, we identify those airports the FAA
+classiﬁes as a medium or large hub, enplaning at least 0.25% of enplanements, as they are the
+Second, we use the data to calculate each
+only airports eligible to be covered by AIR-21.
+market’s predictor of treatment, fP orig
+m are calculated as the maximum
+of the two-ﬁrm concentration from 1998 to 2008 for the origin and destination, respectively.
+It
+is important to note that once an airport is covered, even if subsequent values of the predictor
+falls below the coverage cutoﬀ, it is required to complete and execute a competition plan.
+
+m and P dest
+
+g. P orig
+
+m , P dest
+
+m
+
+6.4 Airport Survey Data
+
+We collected data on access to boarding gates as part of a survey conducted jointly with the
+ACI-NA, a trade organization for airports in North America. The survey was completed by
+47% of all airports classiﬁed by the FAA as a medium or large hub between 1998 and 2008.
+We observe the number of gates leased by each carrier on an exclusive or preferential basis, and
+the number of gates reserved for common-use by the airport authority. We calculated three
+
+29Note that the only variation in Distance:T raveledijmt, for a given market and carrier, is due to a carrier
+
+changing the routing of connecting service.
+
+40
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+variables from these data; the total number of gates leased by low-cost carriers, the number of
+gates leased by other (legacy) carriers, and the number of common-use gates. The sum of these
+three variables equals the total number of gates at the airport. We observe these data for both
+2001 and 2008.
+
+41
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Airport
+ABQ
+ANC
+ATL
+AUS
+BNA
+BUR
+BWI
+CLE
+CLT
+CVG
+DAL
+DCA
+DEN
+DFW
+DTW
+EWR
+HOU
+IAD
+IAH
+JAX
+LAS
+MDW
+MEM
+MIA
+MKE
+MSP
+OAK
+OGG
+ONT
+ORD
+PBI
+PHL
+PHX
+PIT
+PVD
+RNO
+SAT
+SDF
+SFO
+SJC
+SJU
+SLC
+SMF
+STL
+Mean
+
+Yr. Covered
+
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2001
+2000
+2000
+2000
+2000
+2000
+2001
+2000
+2000
+2005
+2000
+2000
+2001
+2001
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2001
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+
+2000.22727
+
+US %
+Mean
+0.45%
+0.36%
+5.85%
+0.51%
+0.64%
+0.36%
+1.42%
+0.84%
+1.82%
+1.52%
+0.48%
+1.09%
+2.82%
+4.06%
+2.47%
+2.41%
+0.61%
+1.42%
+2.50%
+0.37%
+2.68%
+1.11%
+0.80%
+2.29%
+0.47%
+2.44%
+0.88%
+0.42%
+0.48%
+5.01%
+0.46%
+1.92%
+2.72%
+1.22%
+0.39%
+0.38%
+0.48%
+0.27%
+2.44%
+0.82%
+0.74%
+1.42%
+0.65%
+1.53%
+1.45%
+
+Table 1: Enplanements and Gates for Covered Airports
+
+Enplanements
+
+Top‐2 %
+
+Common %
+
+Gates
+
+Legacy %
+
+Lcc %
+
+Mean
+61.24%
+55.23%
+79.17%
+60.32%
+59.02%
+77.98%
+56.59%
+58.97%
+81.43%
+87.47%
+97.79%
+44.06%
+66.04%
+77.14%
+72.71%
+59.77%
+89.23%
+53.70%
+80.91%
+46.52%
+47.81%
+77.90%
+72.17%
+57.22%
+49.87%
+75.89%
+72.26%
+60.00%
+59.52%
+67.79%
+52.29%
+60.61%
+66.85%
+66.85%
+56.71%
+58.91%
+57.94%
+45.50%
+53.42%
+57.53%
+62.30%
+73.60%
+62.66%
+69.14%
+64.77%
+
+Max
+63.97%
+61.74%
+82.18%
+61.80%
+63.03%
+83.54%
+65.95%
+61.29%
+86.84%
+92.87%
+99.82%
+50.10%
+72.44%
+85.12%
+76.32%
+69.90%
+92.19%
+59.91%
+86.12%
+50.19%
+52.40%
+90.37%
+77.10%
+68.95%
+56.49%
+78.75%
+78.52%
+68.59%
+61.44%
+74.12%
+58.64%
+65.66%
+68.95%
+81.65%
+63.55%
+62.61%
+100.00%
+51.64%
+56.29%
+64.18%
+69.04%
+80.12%
+65.90%
+84.04%
+71.46%
+
+2001
+26.09%
+
+•
+
+14.59%
+28.00%
+11.48%
+21.43%
+
+•
+•
+
+2008
+31.82%
+
+•
+
+15.08%
+16.00%
+9.84%
+7.14%
+
+•
+•
+
+2001
+39.13%
+
+•
+
+72.43%
+44.00%
+44.26%
+28.57%
+
+•
+•
+
+2008
+63.64%
+
+•
+
+73.37%
+52.00%
+44.26%
+35.71%
+
+•
+•
+
+44.71%
+
+48.35%
+
+55.29%
+
+51.65%
+
+2001
+34.78%
+
+•
+
+12.97%
+28.00%
+44.26%
+50.00%
+
+•
+•
+
+0.00%
+
+•
+
+2008
+4.55%
+
+•
+
+11.56%
+32.00%
+45.90%
+57.14%
+
+•
+•
+
+0.00%
+
+•
+
+•
+
+18.75%
+
+•
+•
+
+5.47%
+5.47%
+
+•
+
+0.00%
+
+•
+•
+
+17.42%
+5.08%
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+
+•
+
+15.63%
+
+25.00%
+
+65.63%
+
+75.00%
+
+•
+•
+
+•
+•
+
+•
+•
+
+89.06%
+84.38%
+
+80.00%
+88.14%
+
+5.47%
+10.16%
+
+•
+•
+
+2.58%
+6.78%
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+•
+•
+•
+
+21.65%
+17.95%
+9.52%
+12.50%
+
+•
+•
+•
+
+32.04%
+0.00%
+8.66%
+37.93%
+
+•
+•
+•
+
+74.23%
+48.72%
+86.90%
+16.67%
+
+•
+•
+•
+
+64.08%
+21.28%
+90.55%
+3.45%
+
+•
+•
+•
+
+4.12%
+33.33%
+3.57%
+70.83%
+
+•
+•
+•
+
+3.88%
+78.72%
+0.79%
+58.62%
+
+•
+•
+•
+
+50.00%
+
+53.13%
+
+39.29%
+
+34.38%
+
+10.71%
+
+12.50%
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+•
+•
+
+16.67%
+
+17.39%
+
+54.17%
+
+52.17%
+
+29.17%
+
+30.43%
+
+•
+
+•
+
+•
+
+•
+
+36.14%
+
+37.04%
+
+60.24%
+
+59.26%
+
+•
+•
+
+9.64%
+21.43%
+4.55%
+19.79%
+
+•
+•
+
+8.43%
+38.46%
+52.87%
+22.98%
+
+•
+•
+
+80.72%
+32.14%
+79.55%
+55.02%
+
+•
+•
+
+81.93%
+19.23%
+34.48%
+51.29%
+
+•
+
+3.61%
+
+•
+•
+
+9.64%
+46.43%
+15.91%
+25.19%
+
+•
+
+3.70%
+
+•
+•
+
+9.64%
+42.31%
+12.64%
+25.72%
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Table 2: Enplanements and Gates for Non‐Covered Airports
+
+Enplanements
+
+Top‐2 %
+
+Common %
+
+Airport
+
+BDL
+BOS
+BUF
+CMH
+FLL
+HNL
+IND
+JFK
+LAX
+LGA
+MCI
+MCO
+MSY
+OKC
+OMA
+PDX
+RDU
+RSW
+SAN
+SEA
+SNA
+TPA
+Mean
+
+US %
+Mean
+0.49%
+1.87%
+0.32%
+0.49%
+1.27%
+1.51%
+0.57%
+2.50%
+4.22%
+1.79%
+0.81%
+2.16%
+0.67%
+0.24%
+0.28%
+0.97%
+0.63%
+0.43%
+1.15%
+2.04%
+0.62%
+1.20%
+1.19%
+
+Mean
+44.91%
+34.99%
+37.59%
+32.06%
+35.05%
+45.34%
+28.50%
+41.42%
+34.44%
+41.34%
+42.96%
+36.66%
+44.68%
+41.82%
+39.14%
+37.15%
+35.02%
+39.12%
+46.34%
+45.12%
+36.73%
+40.40%
+39.13%
+
+Max
+49.15%
+38.93%
+49.72%
+37.66%
+40.89%
+48.07%
+32.86%
+46.15%
+40.44%
+44.43%
+47.56%
+42.92%
+47.59%
+47.67%
+41.72%
+38.80%
+41.34%
+47.35%
+47.80%
+48.33%
+39.64%
+42.66%
+43.71%
+
+2001
+
+•
+
+11.90%
+6.25%
+19.44%
+
+•
+•
+
+2008
+
+•
+
+10.31%
+21.74%
+22.22%
+
+•
+•
+
+Gates
+
+Legacy %
+
+2001
+
+•
+
+82.14%
+78.13%
+50.00%
+
+•
+•
+
+2008
+
+•
+
+68.04%
+56.52%
+58.33%
+
+•
+•
+
+Lcc %
+
+2001
+
+•
+
+5.95%
+15.63%
+30.56%
+
+•
+•
+
+2008
+
+•
+
+21.65%
+21.74%
+19.44%
+
+•
+•
+
+26.47%
+
+30.00%
+
+52.94%
+
+57.50%
+
+20.59%
+
+12.50%
+
+•
+•
+•
+•
+•
+•
+
+0.00%
+25.00%
+19.57%
+2.08%
+23.53%
+32.50%
+21.62%
+
+•
+
+18.37%
+17.23%
+
+•
+•
+•
+•
+•
+•
+
+23.53%
+35.00%
+39.13%
+19.05%
+39.29%
+22.50%
+35.00%
+
+•
+
+28.81%
+27.21%
+
+•
+•
+•
+•
+•
+•
+
+68.75%
+45.00%
+32.61%
+85.42%
+58.82%
+42.50%
+40.54%
+
+•
+
+63.27%
+58.34%
+
+•
+•
+•
+•
+•
+•
+
+52.94%
+45.00%
+28.26%
+66.67%
+32.14%
+43.75%
+25.00%
+
+•
+
+44.07%
+48.19%
+
+•
+•
+•
+•
+•
+•
+
+31.25%
+30.00%
+47.83%
+12.50%
+17.65%
+25.00%
+37.84%
+
+•
+
+18.37%
+24.43%
+
+•
+•
+•
+•
+•
+•
+
+23.53%
+20.00%
+32.61%
+14.29%
+28.57%
+33.75%
+40.00%
+
+•
+
+27.12%
+24.60%
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Market‐Carrier‐Product
+Avg.Fare
+
+Distance.Traveled
+ (Unit = 1000s of Miles)
+Fraction.Routes
+
+Pass
+
+Market
+Avg.Mkt.Fare
+
+20th Pct.Mkt.Fare
+
+50th Pct.Mkt.Fare
+
+80th Pct.Mkt.Fare
+
+Avg.Dominant.Premium
+
+Lcc.Presence
+
+Number.Firms
+
+P(delay>15)
+
+Pct.Nonstop
+
+Airport‐Carrier
+Number.Routes
+
+Table 3: Means for Covered and Non‐Covered Markets
+
+Covered
+
+Mean, 1993‐2008
+
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+
+234.926
+274.505
+1.660
+1.658
+0.380
+0.359
+
+3049.413
+2688.051
+
+Covered
+
+Mean, 1993‐2008
+
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+yes
+no
+
+240.872
+280.646
+144.692
+168.967
+193.199
+222.056
+312.435
+370.831
+17.604
+14.724
+0.723
+0.494
+6.069
+6.021
+6.127
+6.924
+0.512
+0.459
+
+Covered
+
+Mean, 1993‐2008
+
+yes
+no
+
+67.699
+65.300
+
+# Obs.
+7669
+1353
+7669
+1353
+7669
+1353
+7669
+1353
+# Obs.
+2619
+360
+2619
+360
+2619
+360
+2619
+360
+1360
+163
+2619
+360
+2619
+360
+105
+1372
+2619
+360
+# Obs.
+130
+76
+
+Pre‐AIR21
+1993‐1999
+Mean Diff.
+‐34.004
+‐47.050
+0.012
+0.020
+‐0.014
+‐0.010
+1391.059
+1152.424
+Mean Diff.
+‐55.993
+‐63.127
+‐47.002
+‐51.803
+‐66.638
+‐72.163
+‐79.894
+‐81.410
+17.516
+7.367
+0.337
+0.464
+0.688
+0.804
+‐0.004
+0.018
+0.025
+‐0.012
+
+Mean Diff.
+
+4.683
+4.846
+
+Post‐AIR21
+2002‐2008
+Mean Diff.
+‐21.695
+5.554
+0.014
+0.013
+0.036
+0.044
+448.477
+‐527.022
+Mean Diff.
+‐31.328
+‐9.181
+0.704
+3.960
+‐7.032
+6.032
+‐55.398
+‐13.179
+‐18.576
+‐9.936
+0.183
+0.118
+0.339
+0.624
+0.098
+0.106
+0.041
+0.062
+
+Mean Diff.
+
+3.077
+6.641
+
+Diff. in Diff.
+
+‐40.295
+
+0.009
+
+‐0.004
+
+736.864
+
+Diff. in Diff.
+
+‐29.281
+
+‐8.057
+
+‐18.589
+
+‐43.735
+
+‐18.789
+
+0.192
+
+‐0.169
+
+0.015
+
+‐0.059
+
+Diff. in Diff.
+
+‐3.401
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Log(Avg. Fare)
+1[1 cover]
+
+1[2 cover]
+
+Nonstop
+
+Fraction.Routes
+
+Distance.Traveled
+
+Lcc.Presence
+
+Number.Firms
+
+Origin.HHI
+
+Dest.HHI
+
+Market.HHI
+
+Has.Other.Products
+
+Table 4: Avg. Fare Regressions
+
+All Markets
+
+0.2 of Cutoff
+
+0.1 of Cutoff
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+N=8,996
+
+N=8,453
+
+N=5,813
+
+‐0.147***
+(0.030)
+‐0.210***
+(0.047)
+‐0.191***
+(0.019)
+0.275***
+(0.104)
+0.161***
+(0.047)
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+‐0.145***
+(0.030)
+‐0.202***
+(0.046)
+‐0.195***
+(0.019)
+0.277***
+(0.100)
+0.152***
+(0.049)
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+‐0.106***
+(0.023)
+‐0.133***
+(0.033)
+‐0.189***
+(0.019)
+0.314***
+(0.079)
+0.196***
+(0.041)
+‐0.166***
+(0.020)
+‐0.013***
+(0.005)
+0.142
+(0.183)
+0.046
+(0.167)
+0.067**
+(0.034)
+0.007
+(0.007)
+0.178
+
+‐0.105***
+(0.023)
+‐0.129***
+(0.032)
+‐0.193***
+(0.019)
+0.304***
+(0.078)
+0.184***
+(0.044)
+‐0.164***
+(0.020)
+‐0.013**
+(0.005)
+0.161
+(0.183)
+0.066
+(0.164)
+0.074**
+(0.034)
+0.009
+(0.008)
+0.174
+
+‐0.144***
+(0.030)
+‐0.226***
+(0.050)
+‐0.184***
+(0.019)
+0.291***
+(0.097)
+0.125**
+(0.055)
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+‐0.109***
+(0.024)
+‐0.143***
+(0.034)
+‐0.182***
+(0.019)
+0.310***
+(0.081)
+0.154***
+(0.046)
+‐0.151***
+(0.022)
+‐0.012**
+(0.006)
+0.051
+(0.173)
+‐0.017
+(0.157)
+0.121***
+(0.040)
+0.005
+(0.008)
+0.175
+
+yes
+
+0.096
+
+R2
+Borenstein‐Rose (1994)  
+Controls
+Notes
+1) Additional controls include Population Origin, Population Dest, Per‐Cap Income Origin, Per‐Cap Income Dest.
+
+0.092
+
+0.098
+
+yes
+
+yes
+
+no
+
+no
+
+no
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Log(Avg.Mkt.Fare)
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+R2
+Log(20thPct.Mkt.Fare)
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+R2
+Log(50thPct.Mkt.Fare)
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+R2
+ Log(80thPct.Mkt.Fare)
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+Table 5: Fare Distribution Regressions
+
+All Markets
+
+(1)
+
+(2)
+
+N=2,978
+
+0.2 of Cutoff
+
+(3)
+
+(4)
+
+N=2,746
+
+0.1 of Cutoff
+
+(5)
+
+(6)
+
+N=1,825
+
+‐0.116***
+(0.034)
+‐0.213***
+(0.054)
+
+•
+
+•
+
+0.050
+
+‐0.090***
+(0.026)
+‐0.139***
+(0.039)
+‐0.257***
+(0.026)
+‐0.009
+(0.007)
+0.287
+
+‐0.117***
+(0.034)
+‐0.198***
+(0.054)
+
+•
+
+•
+
+0.047
+
+‐0.089***
+(0.026)
+‐0.128***
+(0.040)
+‐0.253***
+(0.027)
+‐0.009
+(0.007)
+0.277
+
+‐0.115***
+(0.032)
+‐0.238***
+(0.064)
+
+•
+
+•
+
+0.071
+
+‐0.092***
+(0.027)
+‐0.152***
+(0.050)
+‐0.227***
+(0.027)
+‐0.003
+(0.008)
+0.264
+
+N=2,978
+
+N=2,746
+
+N=1,825
+
+‐0.063*
+(0.034)
+‐0.088*
+(0.049)
+
+•
+
+•
+
+0.008
+
+‐0.052*
+(0.029)
+‐0.058
+(0.041)
+‐0.120***
+(0.021)
+‐0.022***
+(0.006)
+0.109
+
+‐0.063*
+(0.034)
+‐0.089*
+(0.051)
+
+•
+
+•
+
+0.009
+
+‐0.051*
+(0.029)
+‐0.061
+(0.043)
+‐0.118***
+(0.021)
+‐0.022***
+(0.006)
+0.110
+
+‐0.068**
+(0.033)
+‐0.078
+(0.065)
+
+•
+
+•
+
+0.014
+
+‐0.058**
+(0.028)
+‐0.032
+(0.057)
+‐0.108***
+(0.023)
+‐0.019***
+(0.007)
+0.096
+
+N=2,978
+
+N=2,746
+
+N=1,825
+
+‐0.092***
+(0.032)
+‐0.199***
+(0.049)
+
+•
+
+•
+
+0.031
+
+‐0.072***
+(0.025)
+‐0.145***
+(0.037)
+‐0.208***
+(0.028)
+‐0.030***
+(0.008)
+0.184
+
+‐0.091***
+(0.032)
+‐0.186***
+(0.051)
+
+•
+
+•
+
+0.028
+
+‐0.073***
+(0.025)
+‐0.139***
+(0.040)
+‐0.197***
+(0.029)
+‐0.031***
+(0.008)
+0.177
+
+‐0.090***
+(0.033)
+‐0.211***
+(0.070)
+
+•
+
+•
+
+0.037
+
+‐0.076***
+(0.028)
+‐0.143**
+(0.060)
+‐0.166***
+(0.030)
+‐0.023**
+(0.009)
+0.151
+
+N=2,978
+
+N=2,746
+
+N=1,825
+
+‐0.113**
+(0.044)
+‐0.242***
+(0.071)
+
+•
+
+•
+
+‐0.114***
+(0.044)
+‐0.213***
+(0.070)
+
+•
+
+•
+
+‐0.077**
+(0.035)
+‐0.144***
+(0.053)
+‐0.340***
+(0.030)
+‐0.011
+(0.007)
+0.251
+yes
+
+‐0.077**
+(0.034)
+‐0.118**
+(0.051)
+‐0.336***
+(0.031)
+‐0.011
+(0.007)
+0.242
+yes
+
+‐0.107**
+(0.042)
+‐0.243***
+(0.083)
+
+•
+
+•
+
+‐0.077**
+(0.034)
+‐0.124*
+(0.064)
+‐0.302***
+(0.033)
+‐0.004
+(0.008)
+0.242
+yes
+
+R2
+Borenstein‐Rose (1994)  Controls
+Notes
+1) The coefficients of the remaining Borenstein‐Rose (1994) controls, Origin HHI, Dest HHI, and Market HHI, are not displayed for 
+space considerations and are available from the authors upon request.  Additional controls include Population Origin, Population 
+Dest, Per‐Cap Income Origin, Per‐Cap Income Dest.
+
+0.046
+no
+
+0.041
+no
+
+0.062
+no
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Avg.Dominant.Premium
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+Table 6: Dominant Carrier Premium Regressions
+
+All Markets
+
+(1)
+
+(2)
+
+N=1,487
+
+0.2 of Cutoff
+
+(3)
+
+(4)
+
+N=1,343
+
+0.1 of Cutoff
+
+(5)
+
+(6)
+
+N=899
+
+‐0.070*
+(0.037)
+‐0.063
+(0.048)
+
+•
+
+•
+
+‐0.064*
+(0.038)
+‐0.049
+(0.049)
+‐0.029
+(0.026)
+0.002
+(0.008)
+0.014
+yes
+
+‐0.068*
+(0.036)
+‐0.070
+(0.051)
+
+•
+
+•
+
+‐0.062
+(0.038)
+‐0.054
+(0.052)
+‐0.036
+(0.026)
+0.005
+(0.009)
+0.017
+yes
+
+‐0.076**
+(0.037)
+‐0.038
+(0.064)
+
+•
+
+•
+
+‐0.072*
+(0.039)
+‐0.026
+(0.061)
+‐0.021
+(0.023)
+0.005
+(0.009)
+0.026
+yes
+
+R2
+Borenstein‐Rose (1994)  Controls
+Notes
+1) The coefficients of the remaining Borenstein‐Rose (1994) controls, Origin HHI, Dest HHI, and Market HHI, are not displayed for 
+space considerations and are available from the authors upon request.  Additional controls include Population Origin, Population 
+Dest, Per‐Cap Income Origin, Per‐Cap Income Dest.
+
+0.004
+no
+
+0.005
+no
+
+0.011
+no
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Pct.Nonstop
+1[1 cover]
+
+1[2 cover]
+
+R2
+P(Delay>15)
+1[1 cover]
+
+1[2 cover]
+
+R2
+Log(Number.Routes)
+1[cover]
+
+Table 7: Quality Regressions
+
+All Markets
+
+0.2 of Cutoff
+
+0.1 of Cutoff
+
+(1)
+
+(2)
+
+(3)
+
+N=2,978
+‐0.052**
+(0.026)
+‐0.063**
+(0.030)
+0.007
+N=1,420
+0.038*
+(0.020)
+0.067**
+(0.027)
+0.074
+N=419
+‐0.069
+(0.054)
+0.008
+
+N=2,746
+‐0.052**
+(0.026)
+‐0.064**
+(0.030)
+0.007
+N=1,263
+0.039*
+(0.020)
+0.064**
+(0.027)
+0.083
+N=312
+‐0.092*
+(0.055)
+0.017
+
+N=1,825
+‐0.045*
+(0.024)
+‐0.038
+(0.032)
+0.009
+N=814
+0.035*
+(0.020)
+0.045
+(0.031)
+0.097
+N=181
+‐0.010
+(0.082)
+0.011
+
+R2
+Notes
+1) Additional controls include Population Origin, Population Dest, Per‐Cap Income 
+Origin, Per‐Cap Income Dest.  
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Log(Pass)
+1[1 cover]
+
+1[2 cover]
+
+Lcc.Presence
+
+Number.Firms
+
+Table 8: Quantity Regressions
+
+All Markets
+
+0.2 of Cutoff
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+N=8,724
+
+N=8,194
+
+0.1 of Cutoff
+
+(5)
+
+(6)
+
+N=5,650
+
+0.199***
+(0.044)
+0.267***
+(0.081)
+
+•
+
+•
+
+0.076
+(0.047)
+0.027
+(0.076)
+0.268***
+(0.030)
+0.032***
+(0.011)
+0.267
+
+0.200***
+(0.044)
+0.264***
+(0.085)
+
+•
+
+•
+
+0.074
+(0.047)
+0.022
+(0.078)
+0.271***
+(0.032)
+0.031***
+(0.011)
+0.270
+
+0.185***
+(0.043)
+0.352***
+(0.115)
+
+•
+
+•
+
+0.059
+(0.050)
+0.138
+(0.103)
+0.254***
+(0.030)
+0.029***
+(0.010)
+0.280
+
+0.060
+
+0.059
+
+R2
+Borenstein‐Rose (1994)  
+Controls
+Notes
+1) The coefficients of the remaining Borenstein‐Rose (1994) controls, Origin HHI, Dest HHI, and Market HHI, are 
+not displayed for space considerations and are available from the authors upon request.  Additional controls 
+include Population Origin, Population Dest, Per‐Cap Income Origin, Per‐Cap Income Dest.
+
+0.061
+
+yes
+
+yes
+
+yes
+
+no
+
+no
+
+no
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Lcc.Presence
+1[1 cover]
+
+1[2 cover]
+
+R2
+Log(Number.Firms)
+1[1 cover]
+
+1[2 cover]
+
+Table 9: Competition Regressions
+
+All Markets
+
+0.2 of Cutoff
+
+0.1 of Cutoff
+
+(1)
+
+(2)
+
+(3)
+
+N=2,978
+0.114***
+(0.043)
+0.305***
+(0.084)
+0.008
+N=2,978
+‐0.142
+(0.214)
+‐0.351
+(0.325)
+0.006
+
+N=2,746
+0.117***
+(0.044)
+0.298***
+(0.084)
+0.008
+N=2,746
+‐0.137
+(0.215)
+‐0.377
+(0.313)
+0.007
+
+N=1,825
+0.108**
+(0.043)
+0.404***
+(0.106)
+0.020
+N=1,825
+‐0.105
+(0.223)
+‐0.053
+(0.330)
+0.007
+
+R2
+Notes
+1) Additional controls include Population Origin, Population Dest, Per‐Cap Income 
+Origin, Per‐Cap Income Dest.
+
+2)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+Table 10: RDD Coverage Estimates, Avg. Fare and Lcc.Presence
+τ(Porig<0.5,Pdest=0.5)
+
+Predictor
+(Porig,Pdest)
+(0.4,0.50)
+
+(0.42,0.50)
+
+(0.44,0.50)
+
+(0.46,0.50)
+
+(0.48,0.50)
+
+(0.50,0.50)
+
+Predictor
+(Porig,Pdest)
+(0.50,0.50)
+
+(0.52,0.50)
+
+(0.54,0.50)
+
+(0.56,0.50)
+
+(0.58,0.50)
+
+(0.60,0.50)
+
+(0.62,0.50)
+
+(0.64,0.5)
+
+Log(Avg.Fare)
+
+Lcc.Presence
+
+‐0.128***
+(0.019)
+‐0.153***
+
+(0.02)
+
+‐0.168***
+(0.021)
+‐0.153***
+(0.019)
+‐0.144***
+(0.017)
+‐0.17***
+(0.019)
+
+0.024
+(0.033)
+0.017
+(0.03)
+0.046*
+(0.026)
+0.112***
+(0.022)
+0.158***
+(0.023)
+0.197***
+(0.028)
+
+τ(Porig>0.5,Pdest=0.5)
+
+Log(Avg.Fare)
+
+Lcc.Presence
+
+‐0.12***
+(0.014)
+‐0.09***
+(0.012)
+‐0.063***
+(0.012)
+‐0.039***
+(0.011)
+‐0.021***
+(0.011)
+‐0.007
+(0.011)
+0.004
+(0.011)
+0.013
+(0.011)
+
+0.07***
+(0.024)
+0.053***
+(0.023)
+0.041*
+(0.023)
+0.034
+(0.023)
+0.032
+(0.023)
+0.034
+(0.023)
+0.039*
+(0.023)
+0.048***
+(0.023)
+
+Predictor
+(Porig,Pdest)
+(0.50,0.40)
+
+(0.50,0.42)
+
+(0.50,0.44)
+
+(0.50,0.46)
+
+(0.50,0.48)
+
+(0.50,0.50)
+
+Predictor
+(Porig,Pdest)
+(0.50,0.50)
+
+(0.50,0.52)
+
+(0.50,0.54)
+
+(0.50,0.56)
+
+(0.50,0.58)
+
+(0.50,0.60)
+
+(0.50,0.62)
+
+(0.50,0.64)
+
+τ(Porig=0.5,Pdest<0.5)
+
+Log(Avg.Fare)
+
+Lcc.Presence
+
+‐0.136***
+
+(0.02)
+
+‐0.168***
+
+(0.02)
+
+‐0.177***
+(0.019)
+‐0.151***
+(0.017)
+‐0.143***
+(0.016)
+‐0.173***
+(0.018)
+
+0.038
+(0.032)
+0.048*
+(0.03)
+
+0.085***
+(0.027)
+0.145***
+(0.024)
+0.183***
+(0.026)
+0.218***
+(0.031)
+
+τ(Porig=0.5,Pdest>0.5)
+
+Log(Avg.Fare)
+
+Lcc.Presence
+
+‐0.124***
+(0.014)
+‐0.094***
+(0.013)
+‐0.066***
+(0.013)
+‐0.043***
+(0.012)
+‐0.024***
+(0.012)
+0.011
+(0.011)
+0.011
+(0.011)
+0.011
+(0.011)
+
+0.092***
+(0.021)
+0.081***
+(0.021)
+0.074***
+(0.022)
+0.071***
+(0.022)
+0.07***
+(0.022)
+0.072***
+(0.022)
+0.076***
+(0.022)
+0.082***
+(0.022)
+
+Notes
+1)  Statistical Significance:  1% (***), 5% (**), 10% (*).
+
+Electronic copy available at: https://ssrn.com/abstract=1775924
+
+

@@ -1,0 +1,11041 @@
+Credit Ratings and the Cost of Municipal
+Financing
+
+Jess Cornaggia
+Smeal College of Business, Pennsylvania State University
+
+Kimberly J. Cornaggia
+Smeal College of Business, Pennsylvania State University
+
+Ryan D. Israelsen
+Eli Broad College of Business, Michigan State University
+
+A common belief held among researchers and policy makers is that regulatory reliance
+has inﬂated market demand for credit ratings, despite their decreasing informational
+value. Advances in information technology, coupled with reputation losses following the
+subprime crisis, renew the question of whether investors still rely on ratings to assess
+credit risk. Using Moody’s 2010 scale recalibration, which was unrelated to changing issuer
+fundamentals, we ﬁnd that ratings still matter to investors and to issuers—apart from any
+regulatory implications. Our results commend improved disclosure to mitigate mechanistic
+reliance on ratings and inefﬁciencies due to rating standards that vary across asset classes.
+(JEL G24, G28)
+
+Received October 9, 2015; editorial decision June 7, 2017 by Editor Andrew Karolyi.
+
+The purpose of this paper is to test whether credit rating agencies (CRAs) remain
+relevant as information intermediaries in the modern information environment.
+There is a massive literature documenting correlation between credit ratings
+and securities prices; however, these papers commonly suffer an endogeneity
+problem.1 Speciﬁcally, it is difﬁcult to determine whether investors respond
+
+We thank two anonymous referees, Matt Billett, Alex Butler, Richard Cantor, Igor Cunha, Jennifer Dlugosz,
+Miguel Ferreira, Rick Green, John Grifﬁn, Andrew Karolyi, Laura Levenstein, Alfred Medioli, Michael Piwowar,
+Matt Spiegel, Merxe Tudela, Anjan Thakor, Charles Trzcinka, and audience members at American University,
+Bank of Canada, George Mason University, George Washington University, Georgetown University, Indiana
+University, Penn State University, Texas Tech University, the University of Amsterdam, the University of Georgia,
+University of Southern California, the 2013 Bond Buyer Brandeis University Municipal Finance conference, the
+2014 NBER Workshop on Credit Rating Agencies, and the 2016 Chicago Financial Institutions Conference
+for helpful comments. Any errors belong to the authors. Supplementary data can be found on The Review of
+Financial Studies web site. Send correspondence to Jess Cornggia, Smeal College of Business, Pennsylvania
+State University, University Park, PA 16802; telephone: (814) 863–2390. E-mail: jcornaggia@psu.edu.
+
+1 Prior papers documenting a correlation between credit ratings and security prices include Hettenhouse and
+Sartoris (1976), Weinstein (1977), Pinches and Singleton (1978), Ingram, Brooks, and Copeland (1983),
+
+© The Author(s) 2017. Published by Oxford University Press on behalf of The Society for Financial Studies.
+All rights reserved. For Permissions, please e-mail: journals.permissions@oup.com.
+doi:10.1093/rfs/hhx094
+
+Advance Access publication October 3, 2017
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2038 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+directly to credit ratings, or if investors and CRAs merely observe and react to
+the same information about issuer fundamentals.2
+
+Kliger and Sarig (2000) address this problem by showing that markets reacted
+when Moody’s Investors Service (Moody’s) added modiﬁers to its ratings scale
+in 1982. Much has changed since 1982. The speed and cost of information
+processing have exponentially increased and decreased, respectively, because
+of advancements in information technology and the advent of the internet. These
+developments have likely resulted in at least some investors who previously
+relied on CRAs to begin performing their own credit risk analyses. Even the less
+ambitious investors now have alternative sources of information—including
+market prices of credit default swaps (CDS)—that were not available in 1982.
+Further, both Moody’s and Standard and Poor’s (S&P) suffered signiﬁcant loss
+of reputation capital as a result of the inaccurate ratings they produced in the
+run-up to the recent ﬁnancial crisis. Although the ratings most relevant during
+the ﬁnancial crisis were those of structured ﬁnance products, some question
+CRA viability more broadly. For example, during a post-crisis congressional
+hearing, Congressman Christopher Shays argued, “They have no brand, they
+have no credibility whatsoever. I can’t imagine any investor trusting them.”3
+For these reasons, we revisit the question of whether credit rating agencies still
+matter.
+
+There are several more recent papers (reviewed in Section 1) indicating that
+credit ratings continue to have real economic effects. However, the evidence in
+these papers suggests that ratings now matter primarily (if not exclusively) due
+to their regulatory implications. Because ratings affect investment standards
+and capital requirements, they affect the value of securities to institutional
+investors, even if these investors do not rely on ratings to evaluate credit risk. The
+regulatory implications of ratings are particularly acute in markets dominated
+by regulated investors, including the more commonly studied corporate bond
+market. The unanswered research question we tackle here is whether investors
+continue to rely on credit ratings for information about credit risk, apart from
+the confounding effects of ratings’ regulatory implications. We ﬁnd robust
+evidence that they do.
+
+We examine the impact of Moody’s recalibration of its municipal bond
+(muni) rating scale in the spring of 2010, after the dust of the recent ﬁnancial
+crisis had settled. Historically, the criteria Moody’s used to assign municipal
+
+Holthausen and Leftwich (1986), Hand, Holthausen, and Leftwich (1992), Goh and Ederington (1993), Hite
+and Warga (1997), Ederington and Goh (1998), Dichev and Piotroski (2001), Alp (2013), and Cornaggia and
+Cornaggia (2013).
+
+2 Liu and Thakor (1984, 345) are the ﬁrst to recognize this problem: “Unfortunately, few ‘clean’ empirical tests
+have been performed. The problem is obvious. A state bond’s yield is likely to depend on its rating as well as the
+state’s economic characteristics. But the rating itself is related to these characteristics” More recently, regarding
+mortgage-backed securities’ ratings, Ashcraft et al. (2011, 116) explain, “The main empirical challenge to be
+overcome is identifying the causal effect of ratings on security prices, holding security fundamentals ﬁxed.”
+
+3 House Hearing “Credit Rating Agencies and the Financial Crisis,” transcript available from the U.S. Government
+
+Printing Ofﬁce at https://www.gpo.gov/fdsys/pkg/CHRG–110hhrg51103/html/CHRG–110hhrg51103.htm.
+
+2039
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2039 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+bond ratings was based on how likely the municipality was to require ﬁnancial
+support from higher levels of government. These criteria were unique to
+municipal bonds; bonds in all other asset classes are rated according to their
+expected losses. When Moody’s recalibrated its ratings for municipal debt, it
+applied the expected loss criteria it uses for all other asset classes. This change in
+criteria resulted in upgrades of zero to four notches on $2.2 trillion of municipal
+debt. Importantly, Moody’s designed the recalibration to be uncorrelated with
+changes in issuer fundamentals. By changing the criteria, Moody’s provided a
+new perspective on the bonds’ credit risk, but the fundamentals of the bonds
+did not change. This event allows us to overcome the endogeneity challenge
+faced by most prior studies.
+
+Unlike the corporate bond market studied previously, the muni market is
+dominated by unregulated retail investors.4 By focusing on retail trades in the
+muni market, we avoid confounding regulatory effects. Because our setting
+involves rating changes that do not result from changes in fundamentals, and
+because the transactions in our sample are not executed by regulated investors,
+we are able to cleanly identify investor reliance on ratings to assess credit risk.
+An important feature of the recalibration is that not all munis were upgraded.
+Municipal issuers that were already “well calibrated” to the global scale for
+other asset classes serve as our control group in a difference-in-differences
+framework. These bonds provide reasonable benchmarks for how the prices on
+upgraded bonds would have behaved in the absence of Moody’s recalibration.
+Because credit ratings on insured bonds reﬂect the credit quality of the insurer,
+we include only uninsured bonds in our analyses. (Roughly 60% of the
+$2.2 trillion sample munis are uninsured.) Our sample consists of roughly
+equally-sized treatment and control groups: $640 billion of uninsured munis
+experienced upgrades due to recalibration, and $601 billion did not.
+
+We ﬁnd robust evidence that investors reacted to this event. Controlling for
+bond characteristics and a host of ﬁxed effects, we ﬁnd that upgraded bonds
+experience a decrease in credit spreads of 19 to 33 basis points (bp) relative
+to non-upgraded bonds. This is the main result in the paper. This reliance
+is economically meaningful, and our results are robust to a wide variety of
+alternative speciﬁcations.
+
+Although the municipal bond market is a natural setting to test whether
+investors rely on ratings to assess risk, we take seriously the possibility that
+our results could still reﬂect some regulation-based demand. Although our
+secondary market results focus exclusively on retail-size trades, we impose as
+a robustness check an additional ﬁlter that removes retail transactions for issues
+with any level of holdings by insurance companies facing ratings-based capital
+charges. Results and conclusions are unchanged.
+
+4 In 2010, households held $1.87 trillion of the $3.77 trillion municipal debt market. Mutual funds are a distant
+second, holding 14%, followed by money market funds (10%), property-casualty insurance companies (9%),
+and U.S.-chartered depository institutions (7%) (www.federalreserve.gov/releases/z1/current/z1.pdf).
+
+2040
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2040 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+We make use of various institutional features to further test for regulation-
+based demand. For example, most ratings-based regulations distinguish
+between broad rating categories rather than individual notches within those
+categories. We exploit this feature by comparing results among bonds with
+equal-sized upgrades that do and do not cross into new broad rating categories.
+These tests provide at most limited evidence of regulation-based demand.
+Some regulations also use a “lowest rating binds” criterion, which employs
+the lower of Moody’s and Standard & Poor’s (S&P) ratings. We exploit this
+feature by comparing the impact of the recalibration among upgraded bonds
+with ratings from S&P that remain, versus become, lower than ratings from
+Moody’s. If the rating from S&P was lower than the rating from Moody’s
+before the recalibration and remained lower after Moody’s upgrades, then the
+recalibration should have no regulatory bite. However, if the Moody’s rating
+leapfrogged the S&P rating (and thus the S&P rating becomes the lower rating),
+then this upgrade should have regulatory implications. However, we ﬁnd no
+differential impact of the recalibration on these two groups of upgraded bonds.
+Overall, the cross-sectional analysis of upgrades based on their likely regulatory
+effects provides corroborating evidence that investors’ reaction to Moody’s
+recalibration reﬂects primarily a reliance on ratings to price risk rather than an
+increase in regulation-based demand.
+
+We explore several other alternative explanations for our results. For
+example, Harris and Piwowar (2006) show that municipal bond liquidity
+increases with credit quality. If investor perception of bonds’ credit quality
+increases when ratings are upgraded, then the price changes we observe could
+reﬂect lower liquidity premiums. A consequence of this hypothesis is that
+upgraded bonds should experience permanent increases in liquidity. This is not
+what we ﬁnd. Although upgraded bonds’ trading volume increases immediately
+after the recalibration relative to non-upgraded bonds, this increase is transitory.
+We ﬁnd that upgraded bonds’ trading volume in the period three to six months
+after the recalibration is statistically indistinguishable from that prior to the
+recalibration. This ﬁnding indicates that upgraded bonds do not experience
+permanent increases in liquidity, despite their permanently higher ratings.
+
+Another possible explanation for our results is that the control group, the
+non-upgraded bonds, coincidentally experienced a decrease in returns around
+the time of the recalibration. If this is true, then our results could still obtain
+even if the market did not bid up the prices of the upgraded bonds. We ﬁnd
+no evidence of this effect. If anything, the returns of the non-upgraded group
+are slightly higher (although not signiﬁcantly so) around the recalibration in
+comparison to their own returns in a 180-day period preceding the recalibration.
+Next, we examine the possibility that our results could reﬂect shifts in
+demand for particular levels of governments’ bonds around the recalibration.
+For example, state-level issuers received some of the largest upgrades. If
+investors happened to experience an increase in demand for state-level (as
+opposed to county, city, or other levels of government) bonds around the time
+
+2041
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2041 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+of the recalibration, then our results could reﬂect that demand shift instead of a
+response to the rating changes. We address this possibility by including in our
+regressions issuer-level-of-government ﬁxed effects that vary before and after
+the recalibration. Our results are fully robust.
+
+Finally, we consider the possibility that our results could reﬂect differential
+changes in the fundamentals of the upgraded and non-upgraded groups.
+Moody’s (2010) states that the recalibration does not reﬂect changes in credit
+risk and that any ratings under review prior to the recalibration remained under
+review. Still, we address this potential concern by comparing S&P’s ratings to
+Moody’s ratings around the time of the recalibration. If the recalibration did
+indeed reﬂect changes in fundamentals, then we should observe S&P eventually
+change its ratings in a pattern similar to Moody’s. We start by constructing
+ratings transition matrices for bonds rated by both Moody’s and S&P around
+the recalibration. We ﬁnd little similarity in the shape of S&P’s and Moody’s
+transition matrices. We also examine a time series of the two raters’ average
+muni ratings. We observe a sharp increase in Moody’s ratings relative to S&P
+in 2010 that remains fully intact through the end of our data availability.
+Overall, although we cannot disprove the possibility that the upgraded and
+non-upgraded bonds’ fundamentals were changing differently around the time
+of the recalibration, we ﬁnd no evidence to support this possibility.
+
+We turn next to the primary market to test whether market reliance on ratings
+has real economic effects. We conduct this analysis at the issuer level, sorting
+issuers by whether their outstanding bonds were upgraded as a result of Moody’s
+recalibration. Using a multivariate difference-in-differences approach, we ﬁnd
+that spreads on new issues by upgraded issuers decrease by 15 to 22 bp,
+relative to the control group. This magnitude is comparable to what we ﬁnd
+in the secondary market, and it indicates that our ﬁndings are economically
+meaningful. The product of $640 billion (the face value of uninsured municipal
+debt upgraded during recalibration) and 15 bp (our most conservative estimate
+of the recalibration effect on offer yields) is $960 million. This back-of-the-
+envelope calculation provides an estimate of aggregate excess interest paid
+annually (in 2010 dollars) by U.S. taxpayers due to Moody’s previous dual-
+class rating system. We also observe that upgraded issuers see a larger increase
+in issuance volume than non-upgraded issuers in the years following the
+recalibration. This ﬁnding demonstrates that ratings have real economic effects;
+lower borrowing costs increase municipal borrowing (and presumably increase
+municipal investment).5
+
+We extend our primary market analysis to test whether investors rely more
+heavily on credit ratings when the amount and quality of alternative sources of
+information are low. For example, we employ the issuer level of government as
+a proxy for issuer size and opacity. Consistent with an information effect, we
+
+5 Adelino, Cunha, and Ferriera (Forthcoming) document an increase in government employment along with other
+
+real effects of this shock to the supply of municipal credit.
+
+2042
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2042 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+ﬁnd the results of the recalibration are weakest among state-level issuers and
+strongest among cities. The recalibration effect is also stronger among issuers
+in states with more opaque accounting practices, in states identiﬁed as more
+corrupt, and among municipalities without ratings from S&P. Combined, these
+additional results indicate that ratings are more inﬂuential when investors have
+less alternative information.
+
+Overall, our contribution to the literature is original evidence that investors
+rely on credit ratings to assess risk, and that this reliance is greatest among
+opaque issuers for which investors lack alternative sources of information. Our
+results bring new evidence to bear regarding the classic question of whether
+and how security prices depend on credit ratings. The results also shed light
+on how investors process information in the municipal bond market, a multi-
+trillion-dollar market that is relatively opaque and is beginning to receive greater
+attention from researchers.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+1. Institutional Background and Literature Review
+
+1.1 Moody’s dual class ratings
+Moody’s uses its Global Scale when rating corporate bonds, sovereign debt, and
+structured ﬁnance products. These bonds are rated according to their expected
+losses. Expected loss is the product of probability of default and loss given
+default. Historically, Moody’s rated municipal bonds according to separate
+criteria. Moody’s assigned municipal ratings based on how likely a municipality
+is to require extraordinary support from a higher level of government in order
+to avoid default; Moody’s (2007, 2). This changed in the spring of 2010, when
+Moody’s recalibrated its municipal bond rating criteria to match that of the
+Global Scale.
+
+Moody’s (2010, 1) clariﬁes that the recalibration is intended to enhance the
+comparability of ratings across asset classes, not to indicate a change in credit
+quality:
+
+Our benchmarking ... will result in an upward shift for most state and
+local government long-term municipal ratings by up to three notches. The
+degree of movement will be less for some sectors ... which are largely already
+aligned with ratings on the global scale. Market participants should not view
+the recalibration of municipal ratings as ratings upgrades, but rather as a
+recalibration of the ratings to a different scale. ... [The recalibration] does
+not reﬂect an improvement in credit quality or a change in our opinion.
+
+Importantly for our study, Moody’s (2010) indicates that any ratings under
+review for upgrade or downgrade prior to recalibration would remain under
+review—not lumped into these massive ratings changes. As such, our sample
+does not include any natural upgrades associated with improving issuer
+fundamentals that would contaminate the estimates generated by our tests.
+
+2043
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2043 2038–2079
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+The timeline of Moody’s recalibration is as follows. In 2008, Moody’s
+revealed its intention to recalibrate its municipal bond rating scale.6 This
+announcement, however, contained no information regarding which bonds’
+ratings would change or by how much. On March 16, 2010, Moody’s
+announced the particulars of the recalibration. On this date, Moody’s published
+a white paper containing its Primary Algorithm. The Primary Algorithm
+indicated which bonds’ ratings would be upgraded and by how much. The two
+characteristics that Moody’s used to recalibrate muni ratings were preexisting
+ratings and sectors. Moody’s categorizes bonds into four sectors. Figure A.1
+in the Internet Appendix reproduces the Primary Algorithm. The actual
+recalibration was enacted on four dates. The ﬁrst recalibration date was April
+16, 2010, one month after the publication of the Primary Algorithm. The second,
+third, and fourth recalibration dates were April 23, May 1, and May 7, 2010,
+respectively. We provide details in Section 2 on the number and par values of
+bonds that were upgraded (and not upgraded) on each date.
+
+We test whether the market reacted to this event. If the market does not rely
+on Moody’s ratings to assess risk, then we should see no reaction. However,
+the change in criteria applied by Moody’s potentially allows the market to learn
+new information about the bonds. Consider the following analogy. Imagine a
+student who earns a B on a mostly qualitative exam. If the student soon after
+earns an A on a mostly quantitative exam in the same class, then the professor
+will update her opinion on the student’s aptitude. Yet the student’s aptitude
+does not change from one exam to the next. What changes are the criteria
+used to evaluate aptitude. In the same way, the market might react to Moody’s
+recalibration even though the bonds’ fundamentals do not change around the
+time of the recalibration. What changes are the criteria used to evaluate credit
+risk. Credit risk is not one-dimensional. If we ﬁnd a response to the recalibration,
+then we can infer that investors updated their views about the bonds’ credit risk
+after Moody’s evaluated the bonds under the new criteria. Just as the professor
+takes a more favorable view of the student’s aptitude when using criteria that
+reward quantitative ability, the market might change its view of munis when
+Moody’s uses criteria based on expected losses.
+
+1.2 Credit ratings and ﬁnancial regulation
+Financial regulators have historically relied on credit ratings to establish capital
+requirements and prudent investment guidelines. This regulatory reliance on
+ratings dates to at least a ruling by the U.S. Comptroller of the Currency in 1931.
+Under Rule 5b-3 of the Investment Company Act, the United States Securities
+and Exchange Commission (SEC) treated Aaa-rated bonds as equivalent to
+Treasuries. Pension fund investment guidelines established by the Employee
+Retirement Income Security Act (ERISA) and bank capital requirements
+
+6 See “Moody’s to Recalibrate Its U.S. Municipal Bond Ratings to the Company’s Global Rating Scale,” September
+
+2, 2008.
+
+2044
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2044 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+established by the Basel Committee on Banking Supervision have likewise been
+ratings-based. Under the Standardized Approach in Basel II, single A-rated
+munis carry a higher charge (20% risk weight) than Aa- or Aaa-rated munis
+(0% risk weight).7 Capital charges established by the National Association of
+Insurance Commissioners (NAIC) range from 3.39% to 19.5% for speculative
+grade (SG) bonds compared with 0.30% to 0.96% for investment grade (IG)
+bonds. This body of regulation creates incentives for regulated investors to
+respond to ratings, irrespective of whether they rely on ratings to evaluate risk.
+Indeed, the state of the credit ratings literature suggests that ratings matter
+primarily due to their regulatory implications. For example, Ellul, Jotikasthira,
+and Lundblad (2011) document ﬁre sales by insurance companies when
+bonds in their portfolios are downgraded from IG to SG. The liquidity
+premiums associated with these sales indicate that the sales were attributable to
+capital charges rather than any information communicated by the downgrade.
+Becker and Ivashina (2015) further document regulatory arbitrage by insurance
+companies chasing yield in a ratings-based regulatory environment. Because
+the NAIC sets capital charges based on ratings, savvy insurance companies
+circumvent their regulatory capital charges by over-allocating capital to the
+bonds with the highest credit risk within a particular credit rating category.
+Stanton and Wallace (2013) similarly conclude that overinvestment in high-
+risk commercial mortgage-backed securities (CMBS) is attributable to such
+regulatory arbitrage in a ratings-based environment, and Cornaggia, Cornaggia,
+and Hund (2017) simulate potential regulatory arbitrage among banks subject
+to Basel II capital requirements. Opp, Opp, and Harris (2013) provide a
+formal model and conclude that regulatory implications of ratings are of
+ﬁrst-order concern for marginal investors. In addition to ofﬁcial regulation,
+Chen et al. (2014) document the reliance on credit ratings in private investment
+mandates, asset management policies, and informal procedures that employ
+ratings to restrict holdings by mutual funds and investment advisors. Perhaps
+Ekins and Calabria (2012, 1) summarize the evolution of CRA relevance
+most succinctly in their conclusion: “Government regulatory use of credit
+ratings inﬂated the market demand for NRSRO ratings, despite the decreasing
+informational value of credit ratings.”8
+
+Because of the regulation-based demand for ratings, recent studies that
+document market reaction to ratings changes or other real economic effects
+(e.g., Kisgen 2012; Almeida et al. 2017; and Begley 2015) cannot conclude
+that investors rely on ratings for information. Results from these studies may
+instead reﬂect changes in regulatory compliance costs. In fact, Almeida et al.
+(2017) speciﬁcally focus on ratings-based Basel II capital requirements in their
+study of the real effects of sovereign debt downgrades.
+
+7 See paragraphs 53 and 58 of the Basel Capital Standards, available at http://www.bis.org/publ/bcbs128.pdf.
+8 The SEC certiﬁes certain credit rating agencies whose ratings are useful for regulatory compliance as Nationally
+
+Recognized Statistical Rating Organizations (NRSROs).
+
+2045
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2045 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+One beneﬁt of our setting is that the retail investors who dominate the muni
+market are subject to none of the aforementioned regulations. Any reaction
+among retail investors must therefore reﬂect an information effect. We are the
+ﬁrst, to our knowledge, to directly test the extent to which market participants
+rely on ratings to assess credit risk apart from their need to manage regulatory
+capital charges and comply with other ratings-based regulations.
+
+1.3 Modern relevance of CRAs as information intermediaries
+It is not obvious that modern investors rely on credit ratings to assess risk. For
+one thing, ratings are too coarse to fully reﬂect differences in credit quality
+across all rated securities; see Goel and Thakor (2015). Second, traditional
+ratings are designed to be stable over time and not to reﬂect real-time changes
+in credit quality (Moody’s 2006). Third, the conﬂicts of interest in the issuer-
+pays CRA compensation structure are well known.9 Fourth, improvements
+in information technology provide investors more-granular and more-timely
+credit risk metrics than traditional credit ratings (e.g., Cornaggia and Cornaggia
+2013). Finally, the CRAs lost signiﬁcant reputation capital due to their role in
+the subprime crisis.
+
+Finally, although Kliger and Sarig (2000) demonstrate a causal impact of
+ratings on security prices, these authors use an event from 1982. In 1982,
+investors lacked internet access, paid for long-distance telephone service, and
+received hard copies of Moody’s investment manuals in the mail. As such, it is
+unclear whether traditional CRAs matter as much as they did in 1982. We are
+the ﬁrst, to our knowledge, to disentangle both the regulatory and endogeneity
+problems faced by existing literature in the modern information era.
+
+1.4 Muni market information environment
+Another novel feature of our paper is the ability to exploit cross-sectional
+variation in the quality of information available to investors in municipal bonds.
+Other papers focus primarily on corporate securities that trade in relatively
+liquid, transparent markets and therefore may not be generalized to markets
+with less transparent issuers. Although the municipal ﬁnance market is large
+($3.77 trillion in March 2014), this market is opaque and decentralized. Unlike
+corporations, state and local governments are not subject to the registration
+and reporting requirements of the SEC. Therefore, ﬁnancial disclosure by
+municipalities is often less reliable, less comparable, and less timely than
+information released by corporations; however, the information quality varies
+widely across municipal issuers (see Ingram, Brooks, and Copeland 1983;
+Gore 2004; and Cuny 2016). This cross-sectional variation in the information
+
+9 See Partnoy (1999), Skreta and Veldkamp (2009), Bolton, Freixas, and Shapiro (2012), Grifﬁn and Tang (2012),
+He, Qian, and Strahan (2012), Bar-Isaac and Shapiro (2013), Bongaerts (2013), Grifﬁn, Nickerson, and Tang
+(2013), Fulghieri, Strobl, and Xia (2014), Xia (2014), Bruno, Cornaggia, and Cornaggia (2016), Cornaggia,
+Cornaggia, and Xia (2016), and Cornaggia, Cornaggia, and Hund (2017).
+
+2046
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2046 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+Table 1
+Number and par values of recalibrated bonds
+
+Panel A: All bonds
+
+All “Change in Scale”
+
+“Change in Scale” results
+
+“Change in Scale” results in
+
+rating actions
+
+in an upgrade
+
+no change in rating
+
+Recalibration date N bonds
+
+Total par
+
+N bonds
+
+Total par
+
+N bonds
+
+Total par
+
+April 16, 2010
+April 23, 2010
+May 1, 2010
+May 7, 2010
+Sum
+
+213,260
+201,962
+124,053
+105,855
+645,130
+
+$932.8 billion
+$312.9 billion
+$249.9 billion
+$715.2 billion
+$2,210.8 billion
+
+190,144
+186,946
+108,046
+24,221
+509,357
+
+$812.5 billion
+$281.2 billion
+$199.4 billion
+$67.4 billion
+$1,360.5 billion
+
+23,116
+15,016
+16,007
+81,634
+135,773
+
+Panel B: Uninsured bonds
+
+April 16, 2010
+April 23, 2010
+May 1, 2010
+May 7, 2010
+Sum
+
+90,621
+55,891
+54,021
+65,510
+266,043
+
+$566.3 billion
+$96.8 billion
+$117.2 billion
+$461.2 billion
+$1,241.5 billion
+
+72,213
+42,769
+40,550
+8,944
+164,476
+
+$466.0 billion
+$70.5 billion
+$72.3 billion
+$31.5 billion
+$640.3 billion
+
+18,408
+13,122
+13,471
+56,566
+101,567
+
+$120.4 billion
+$31.7 billion
+$50.6 billion
+$647.8 billion
+$850.5 billion
+
+$100.3 billion
+$26.4 billion
+$44.9 billion
+$429.6 billion
+$601.2 billion
+
+This table displays the number and total par value of municipal bonds for which Moody’s issued a “Change in
+Scale” rating action between April 16, 2010, and May 7, 2010. Panel A includes all bonds rated by Moody’s.
+Panel B restricts the sample in Panel A to uninsured bonds. We collect ratings data on bonds issued by state or
+local governments from Moody’s.
+
+environment across muni markets allows for additional tests of investor reliance
+on ratings to assess credit risk.
+
+2. Data Collection and Sample Description
+
+2.1 The recalibration event
+Our data consist of ratings from Moody’s and S&P, bond market transaction
+prices and volume from the Municipal Securities Rulemaking Board (MSRB),
+and issue/issuer characteristics from Ipreo. From Moody’s, we collect ratings
+data on every bond issue by a state or local government that had a “Change
+in Scale” rating action on April 16, April 23, May 1, or May 7 in 2010, as
+well as the ratings on all past and future issues by the same issuers. Because
+market perception of insured bonds reﬂects the credit quality of the monolines,
+we focus on uninsured bonds in our empirical analyses. Table 1 presents the
+number of issues and cumulative par value of recalibrated investment-grade
+munis.10 Panel A contains all bonds with a “Change in Scale” rating action.
+Panel B contains the uninsured bonds from which we draw our sample.
+
+The recalibration event of 2010 followed the monolines’ loss of their Aaa
+ratings in June 2008.11 We thus consider the extent to which the composition of
+
+10 Less than 1% of “Change in Scale” actions were associated with bonds that had speculative grade ratings, and
+none of these actions resulted in an upgrade. We discard these bonds for ease of presentation of the transition
+matrices and other results reported by rating. Including these observations does not alter any of our results.
+
+11 S&P downgraded MBIA, Inc., and Ambac Financial Group, Inc., two notches to AA on June 6, 2008.
+Moody’s downgraded MBIA (Ambac) ﬁve (three) notches to A2 (Aa3) on June 19, 2008; Reuter’s
+(http://www.reuters.com/article/2008/06/05/bonds-insurers-sandp-idUSN0519442220080605) and Dow Jones
+(http://www.marketwatch.com/story/moodys-downgrades-aaa-rating-of-ambac-mbia).
+
+2047
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2047 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Table 2
+Ratings migration matrix for Moody’s “Change in Scale” rating actions
+
+Panel A: All bonds
+
+Rating before recalibration
+
+Aaa
+
+Aa1
+
+Aa2
+
+Aa3
+
+A1
+
+A2
+
+A3
+
+Baa1
+
+Baa2 Baa3
+
+Sum
+
+Rating after recalibration Aaa 47,917 27,164
+
+45
+
+50
+
+11,802
+
+20,412 70,503
+
+19,405 114,519 74,029
+23,403
+10,997
+
+75,081
+91,010
+Aa1
+207,964
+Aa2
+114,579
+Aa3
+104,159
+A1
+29,647
+A2
+11,883
+A3
+5,630
+Baa1
+3,225
+Baa2
+Baa3
+1,952
+Sum 47,917 47,576 89,908 126,366 108,479 101,572 72,357 27,934 15,818 7,203 645,130
+
+79,338
+12,304 58,818 22,040
+9,930
+
+1,570 12,246
+1,617
+2,707
+
+2,334
+2,764
+153
+1,952
+
+341
+159
+3,072
+
+5,901
+7,591
+
+11
+36
+
+Panel B: Uninsured bonds
+
+Rating after recalibration Aaa 46,828 20,404
+
+5
+
+17,579 40,536
+
+14,204 43,229
+6,413
+
+Aa1
+Aa2
+Aa3
+A1
+A2
+A3
+Baa1
+Baa2
+Baa3
+Sum 46,828 37,983 54,740 49,647
+
+29
+
+14,620
+7,009
+4,321
+
+14,098
+3,560
+4,333
+
+11
+16
+
+9,838
+1,418
+3,575
+
+4,525
+598
+449
+1,502
+
+25,979
+
+21,991 14,858 7,074
+
+2,245
+
+67,232
+58,149
+72,064
+27,536
+22,244
+8,594
+5,153
+2,197
+1,832
+1,042
+4,171 2,772 266,043
+
+1,042
+614
+74
+
+1,042
+
+1,758
+
+87
+81
+
+This table displays migration matrices on underlying ratings for municipal bonds for which Moody’s issued a
+“Change in Scale” rating action. Panel A includes all bonds rated by Moody’s. Panel B restricts the sample in
+Panel A to uninsured bonds. The horizontal axis represents bonds’ ratings before the ﬁrst recalibration date (April
+16, 2010), and the vertical axis represents the bonds’ ratings after the fourth and ﬁnal recalibration date (May 7,
+2010). We collect ratings data on bonds issued by state or local governments from Moody’s.
+
+the muni market (insured versus uninsured issues) may have changed around the
+time of the recalibration. We ﬁnd that the resulting change in the proportion of
+insured/uninsured munis occurred more than two years prior to the recalibration
+event. We report this evidence in the Internet Appendix; see Figure A.1.
+
+In March 2010, Moody’s Primary Algorithm advertised a zero- to three-
+notch upgrade associated with the recalibration. Table 2 reports the actual
+migration matrix. As in Table 1, Panel A contains all bonds and Panel B contains
+only the uninsured bonds from which we draw our sample. The proportion of
+bonds upgraded varies by initial rating. Other than Aaa-rated bonds, which by
+deﬁnition cannot upgrade, no initial rating level retained more than 50% of
+its original bonds. Among uninsured bonds, 54% rated Aa1 upgraded to Aaa.
+No other bonds reached the Aaa level. Approximately 57% of bonds originally
+in the A categories migrated into Aa categories, and 64% of bonds in Baa
+categories migrated into the A range. Only 11 bonds were upgraded more than
+three notches (from A3 to Aa2). For the 9,714 issuers with multiple bonds
+outstanding at the time of recalibration, we examine (but do not tabulate) the
+within-issuer ratings distributions before and after the recalibration and ﬁnd
+that these distributions remain largely intact.12
+
+12 The within-issuer standard deviation of bond ratings averages 0.202 notches (0.206 notches) prior to (following)
+recalibration. The similarity of these standard deviations indicates that Moody’s did not, for example, upgrade
+
+2048
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2048 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+Table 3
+Subsequent rating actions after recalibration
+
+Panel A: Rating differences
+
+All bonds with rating updates after recalibration
+Bonds with rating updates within one year
+
+after recalibration
+
+SD Min 25% Median 75% Max
+
+N bonds Mean
+22,788 −0.021 0.217 −3
+20,469 −0.019 0.200 −3
+
+Panel B: Rating differences split by size of upgrade due to recalibration
+
+All bonds with rating updates after recalibration
+
+No change
+1 notch
+2 notch
+3 notch
+
+Bonds with rating updates within one year after recalibration
+
+0.006 0.172 −2
+9,077
+10,160 −0.018 0.188 −3
+−0.098 0.329 −2
+2,909
+−0.112 0.391 −2
+642
+0.006 0.144 −2
+−0.011 0.165 −3
+−0.098 0.319 −2
+−0.113 0.393 −2
+
+7,761
+9,391
+2,688
+629
+
+No change
+1 notch
+2 notch
+3 notch
+
+0
+0
+
+0
+0
+0
+0
+
+0
+0
+0
+0
+
+0
+0
+
+0
+0
+0
+0
+
+0
+0
+0
+0
+
+0
+0
+
+0
+0
+0
+0
+
+0
+0
+0
+0
+
+3
+2
+
+3
+1
+1
+2
+
+2
+1
+1
+2
+
+This table displays summary statistics on the rating actions (upgrades, downgrades, or afﬁrmations) subsequent
+to recalibration for uninsured municipal bonds. A bond’s rating must update again after a “Change in Scale”
+rating action for inclusion in this table. We report the difference in the new rating and the rating produced by the
+recalibration, measured in notches. A positive (negative) difference indicates a subsequent upgrade (downgrade).
+Zero difference indicates that the recalibrated rating was subsequently afﬁrmed. The sample ends in October
+2012. We translate Moody’s 21-point alphanumeric scale into a numeric scale such that Aaa = 21, Aa1 = 20, ...,
+C = 1. We collect ratings data on bonds issued by state or local governments from Moody’s.
+
+In Table 3, we track post-recalibration rating actions (upgrades, downgrades,
+or afﬁrmations) for uninsured bonds through the ﬁrst year after recalibration
+and, for completeness, through the end of our data collection. The summary
+statistics in this table shed light on the permanence of Moody’s recalibration.
+Recalibrated bonds in our sample are subsequently upgraded (downgraded)
+at most two (three) notches in the year following recalibration. The average
+recalibrated bond is downgraded 0.019 notches in the subsequent year. We see
+some evidence that bonds with larger upgrades during recalibration experience
+larger subsequent downgrades. Among the bonds upgraded three notches, the
+average recalibrated bond is downgraded 0.113 notches in the subsequent year.
+Because the vast majority of recalibrated bonds had no subsequent rating action
+(and thus do not appear in Table 3), the majority of subsequent rating actions
+are afﬁrmations, and the magnitudes of any downgrades are small relative to
+the preceding upgrades due to recalibration, we conclude that the recalibration
+event was permanent.
+
+We further examine the permanence of Moody’s recalibration by testing
+whether new bonds issued after recalibration have the same, higher ratings
+generated by the recalibration.13 Of upgraded municipalities that issue bonds
+in both the year before and the year after their recalibrations, the average rating
+
+the lowest- or highest-rated bonds for each municipality. Rather, it indicates Moody’s generally shifted upward
+the entire distribution of ratings for each issuer.
+
+13 We numerically transform Moody’s rating scale ascending in credit quality (Aaa = 21, Aa1 = 20, … , C = 1).
+
+2049
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2049 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+on their outstanding bonds changed from 17.8 (≈Aa3) to 19.2 (≈Aa2) as a
+result of the recalibration. The standard deviation of these ratings declined
+from 1.4 notches to 1.1 notches. These numbers appear in Table A.4 in
+the Internet Appendix. Importantly, the ratings on new bonds (issued in the
+year after recalibration) exhibit a similar average (19.1 ≈ Aa2) and standard
+deviation (1.9 notches) as the recalibrated bonds. We thus conclude that
+Moody’s applied its recalibrated ratings standards to new issues going forward
+after the recalibration, not just to bonds outstanding at that time.
+
+2.2 Secondary market data
+We examine bond returns and trading volume in secondary markets around
+recalibration. We gather secondary market trading data from the MSRB
+Electronic Municipal Market Access (EMMA) database. The MSRB reports
+all trades of municipal bonds in the EMMA database, excluding both reversals
+and cancellations from historical data. The transaction data include prices,
+dollar volume, trade time, and whether the transaction was “Customer bought,”
+“Customer sold,” or “Inter-dealer trade.” The database does not distinguish
+between retail and institutional customers. In order to focus on retail investors,
+we restrict the sample based on trade size. Following Dick-Nielsen, Feldhutter,
+and Lando (2012), we attribute trade sizes less than or equal to $100,000 to retail
+investors. (All results are robust to an alternative $50,000 cutoff.) Because retail
+investors dominate the muni market, this restriction reduces the sample size by
+only 30%. For transactions involving a “Customer,” the yield is also reported.
+The reported yield is the lower of the yield-to-call and the yield-to-maturity.
+Municipal bond dealers include discount brokerages, full service brokerages,
+municipal advisers, and investment banks.14 Finally, we measure the percentage
+of each bond’s principal held by insurance companies at the time of Moody’s
+recalibration using Annual Fraternal, Life, Property, Separate Accounts, and
+Title & Health Data from the National Association of Insurance Commissioners
+(NAIC).
+
+2.3 New issues data
+We gather data on new issues from the Ipreo i-Deal database including offer
+yield, sale date, maturity date, par value, coupon rate, as well as information on
+insurance and other support. For the same reason we exclude insured bonds
+in tests that use secondary market data, we exclude new issues that carry
+insurance in our tests based on primary market data. Panel B of Figure A.2
+(Internet Appendix) displays the dollar volume of insured and uninsured
+municipal bond issues by month from April 2009 to April 2011. We focus
+on this time period for two reasons. First, our multivariate regressions, which
+we explain below, use data from this time period. Second, it spans the Build
+
+14 See http://www.msrb.org/BDRegistrants.aspx for a current list of MSRB registered broker-dealers.
+
+2050
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2050 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+America Bonds (BAB) program, which ran from April 2009 to December
+2010.15. Uninsured bonds dominate this market over this time period.
+
+2.4 Matching treasury securities
+We measure credit spreads in several ways for completeness. We calculate
+spreads by subtracting duration-matched Treasury yields.16 For robustness, we
+calculate duration two ways. We estimate Spread to Treasury1 with duration
+calculated using each bond’s time to maturity, regardless of whether the bond
+is callable. We estimate Spread to Treasury2 with duration calculated by
+substituting the callable bonds’ call dates in lieu of their maturity dates.
+
+Because munis are generally tax exempt, we also examine after-tax spreads.
+Spread to after-tax Treasury1 (Spread to after-tax Treasury2) is similar to Spread
+to Treasury1 (Spread to Treasury2) except we use an after-tax yield on the
+duration-matched Treasury security. Because BABs are generally taxable, we
+employ after-tax yields of BABs (rather than raw yields) for both after-tax
+spread variables. We assume a marginal tax rate of 35%.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+3. Empirical Results
+
+3.1 Price impact of ratings recalibration
+We begin by studying the secondary market return behavior for outstanding
+munis. This analysis allows us to focus on a narrow window around recalibration
+dates, which should limit the inﬂuence of other contemporaneous events.17
+We estimate market impact in two ways. First, for each recalibration date,
+we calculate CARs from 60 trading days prior to the recalibration date to 60
+trading days after, using our control group (i.e., zero-notch “Change in Scale”
+upgrades) as the benchmark. Second, we examine changes in secondary market
+yields (and credit spreads), controlling for a host of issue characteristics in a
+multivariate difference-in-differences regression framework. We supplement
+this second set of tests with placebo analyses that use alternative event dates.
+We employ all observations for which we have sufﬁcient data in each analysis.
+Details on sample construction and number of observations employed in each
+ﬁgure and table are available in the Internet Appendix (Table A.1).
+
+15 See http://money.cnn.com/2010/12/22/news/economy/build_america_bonds/.
+16 All results are robust to matching Treasuries based on maturity rather than duration. We match by duration
+because munis often have partial amortization or call provisions that reduce the effective maturity. We compute
+benchmark Treasury yields as follows. First, we gather STRIPS data from Bloomberg. We keep coupon STRIPS
+and discard principal STRIPS, because unlike coupon STRIPS, which derive their prices from a wide range of
+securities, principal STRIPS are identiﬁed with a single security (and thus may be inﬂuenced by idiosyncratic
+factors such as premiums for cheapest-to-deliver bonds). For each sample bond, we select the two STRIPS with
+the closest durations (one above and one below) and linearly interpolate to determine the benchmark. Because
+these zero-coupon yields are determined by no-arbitrage conditions, they can be directly observed and are not
+model-speciﬁc.
+
+17 Illiquidity in ﬁxed income markets typically complicates abnormal bond return calculations. However, during
+April and May of 2010, more than $300 billion of munis changed hands in more than one million transactions.
+
+2051
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2051 2038–2079
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Panel A: First recalibration date, April 16, 2010
+
+Panel C: Third recalibration date, May 1, 2010 
+
+)
+
+%
+
+(
+ 
+n
+r
+u
+t
+e
+R
+
+ 
+l
+a
+m
+r
+o
+n
+b
+A
+ 
+e
+v
+i
+t
+a
+l
+u
+m
+u
+C
+
+3
+
+2.5
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+-0.5
+
+)
+
+%
+
+(
+ 
+n
+r
+u
+t
+e
+R
+
+ 
+l
+a
+m
+r
+o
+n
+b
+A
+ 
+e
+v
+i
+t
+a
+l
+u
+m
+u
+C
+
+2
+
+1.5
+
+1
+
+0.5
+
+0
+
+-0.5
+
+-56 -52 -48 -44 -40 -36 -32 -28 -24 -20 -16 -12 -8 -4 0
+
+4
+
+8 12 16 20 24 28 32 36 40 44 48 52 56
+
+Days relative to April 16, 2010
+
+1 notch
+
+2 notches
+
+3 notches
+
+Panel B: Second recalibration date, April 23, 2010
+
+-56 -52 -48 -44 -40 -36 -32 -28 -24 -20 -16 -12 -8 -4 0
+
+4
+
+8 12 16 20 24 28 32 36 40 44 48 52 56
+
+Days relative to April 23, 2010
+
+1 notch
+
+2 notches
+
+)
+
+%
+
+(
+ 
+n
+r
+u
+t
+e
+R
+
+ 
+l
+a
+m
+r
+o
+n
+b
+A
+ 
+e
+v
+i
+t
+a
+l
+u
+m
+u
+C
+
+1.4
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+-0.2
+-0.4
+-0.6
+
+)
+
+%
+
+(
+ 
+n
+r
+u
+t
+e
+R
+
+ 
+l
+a
+m
+r
+o
+n
+b
+A
+ 
+e
+v
+i
+t
+a
+l
+u
+m
+u
+C
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+-0.1
+
+-0.2
+
+-0.3
+
+-0.4
+
+-0.5
+
+-56 -52 -48 -44 -40 -36 -32 -28 -24 -20 -16 -12 -8 -4 0
+
+4
+
+8 12 16 20 24 28 32 36 40 44 48 52 56
+
+Days relative to May 1, 2010
+
+1 notch
+
+2 notches
+
+ 
+
+Panel D: Fourth recalibration date, May 7, 2010 
+
+-56 -52 -48 -44 -40 -36 -32 -28 -24 -20 -16 -12 -8 -4 0
+
+4
+
+8 12 16 20 24 28 32 36 40 44 48 52 56
+
+Days relative to May 7, 2010
+
+1 notch
+
+Figure 1
+Cumulative abnormal returns around recalibration dates
+This ﬁgure displays cumulative abnormal returns of outstanding, uninsured municipal bonds with ratings
+recalibrated by Moody’s. We include only bonds purchased by customers (as opposed to dealers) on at least
+six days during 120-day trading windows centered on the bonds’ recalibration dates. Panel A (B, C, D) shows
+cumulative abnormal returns for bonds recalibrated on April 16 (April 23, May 1, May 7), 2010. In each panel,
+the solid vertical bar indicates March 16, 2010, the day the recalibration was announced, and the dashed vertical
+bar indicates the respective implementation date. We split the bonds by the size of the upgrade (one, two, or
+three notches). The comparison group in each panel consists of municipal bonds that were recalibrated on the
+indicated recalibration date, but not upgraded (i.e., the zero-notch group). Dotted lines represent 95% conﬁdence
+intervals. We gather secondary market trading data from the MSRB Electronic Municipal Market Access (EMMA)
+database.
+
+3.1.1 CARs.
+In Figure 1, we plot CARs for portfolios of upgraded bonds
+with 95% conﬁdence intervals around each recalibration date. April 16 is the
+cleanest event of the four, as there is no overlap with the other three dates until
+trading day +5. This date also features the most upgrades of the four, giving the
+tests the most power. We calculate returns by trade-weighting as described by
+Bessembinder et al. (2009).18 In particular, we calculate the daily price, Pt , as:
+
+Pt =
+
+N(cid:2)
+
+i=1
+
+(cid:3)N
+
+tradesize
+j=1tradesizej
+
+pricei
+
+(1)
+
+18 Using corporate bond trading data, these authors show that calculating abnormal returns using trade-weighted
+
+prices increases the power of the test and reduces Type 1 errors relative to using end-of-day prices.
+
+2052
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2052 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+on days with at least one trade, and the most recent daily price on days with no
+trades. After trade-weighting the prices, we deﬁne returns, Rt , as:
+
+Pt+1−Pt
+
+Pt
+
+Rt =
+
+(2)
+
+We form equal-weighted portfolios for zero-, one-, two-, and three-notch
+upgrades and calculate cumulative returns over the 120-trading-day window
+for each portfolio. We then calculate CARs for each upgraded portfolio by
+subtracting the zero-notch portfolio’s cumulative return.
+
+We observe signiﬁcant positive CARs in Figure 1 for portfolios of upgraded
+bonds for each of the ﬁrst three recalibration dates. In each panel, post-
+recalibration CARs are around 50 bp for munis upgraded one notch. This effect
+generally increases in the magnitude of the recalibration, with larger CARs for
+munis upgraded two or three notches. Only the fourth and ﬁnal recalibration
+date shows no signiﬁcant effect. This non-result is not surprising, given that
+most of the rating recalibrations on the fourth date were zero-notch changes,
+as shown in Table 1. Relative to the earlier three dates, only a small percentage
+of bonds received upgrades, thus limiting the power of the test.
+
+Figure 1 also reveals abnormal returns between the release of the Primary
+Algorithm and the ﬁrst recalibration date. The goal of our paper is to establish
+whether investors rely on ratings to assess credit risk. The abnormal returns
+preceding the ﬁrst recalibration date shed some light on the reasons why they
+might do so. Because CRAs are exempt from Regulation Fair Disclosure (FD),
+it is possible that credit ratings contain nonpublic information. However, even if
+CRAs merely compile public information, it may be rational for investors to rely
+on ratings—depending on the costs associated with analyzing this information.
+Figure 1 suggests that at least some portion of investor reliance reﬂects the
+costs associated with credit analysis.
+
+Finally, we consider that the drift in returns following the recalibration dates
+in Figure 1 may reﬂect illiquidity since these are averages across bonds and
+many do not trade on a given day. To focus more precisely on trades around
+the recalibrations, we perform univariate tests after calculating bond returns
+using the change in price from the last trade in the 30 days before Moody’s
+published the Primary Algorithm to the ﬁrst trade in the 30 days after the
+bonds’ ratings change. (Results are robust to using the ﬁrst trade on or after
+the recalibration dates.) As in Figure 1, we sort recalibrated bonds into equal-
+weighted portfolios based on upgrade magnitude. We then compare the average
+return to the portfolios of upgraded bonds to the control group (the portfolio
+of zero-notch upgrades). We perform this analysis across each of the four
+recalibration dates. As in Figure 1, we observe signiﬁcant increases in returns of
+upgraded bonds relative to non-upgraded bonds for the ﬁrst three recalibration
+dates.19 We do not tabulate these results to conserve space.
+
+19 These results are further robust to controlling for the length of time prior to and following the recalibration dates
+that the bonds trade. For example, the return for a bond that trades on days immediately before Moody’s published
+
+2053
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2053 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Post
+
+Post
+
+Post
+
+Post
+
+M
+
+a
+r
+c
+h
+
+ 
+
+1
+6
+
+,
+ 
+
+2
+0
+1
+0
+
+A
+p
+r
+i
+l
+ 
+1
+6
+
+,
+ 
+
+2
+0
+1
+0
+
+A
+p
+r
+i
+l
+ 
+2
+3
+
+,
+ 
+
+2
+0
+1
+0
+
+M
+
+a
+y
+
+ 
+
+1
+
+,
+ 
+
+2
+0
+1
+0
+
+M
+
+a
+y
+
+ 
+
+7
+
+,
+ 
+
+2
+0
+1
+0
+
+Pre
+Pre
+Pre
+Pre
+
+Figure 2
+Event timeline
+
+3.1.2 Multivariate regressions. We expand our analysis of credit rating
+price impact to a multivariate difference-in-differences setting in Table 4. This
+approach provides a more rigorous test of the patterns observed in Figure 1.
+These ordinary least squares (OLS) regressions employ yields and credit
+spreads as dependent variables, averaged across transactions by bond during
+either the 30 days before Moody’s published the Primary Algorithm or the 30
+days after the bond’s rating was recalibrated. We include in the regressions
+uninsured bonds with trading in both periods. We omit data in the intermediate
+period between when Moody’s published the Primary Algorithm and when the
+bonds’ ratings were actually recalibrated, inclusive of the rating change dates.
+Graphically, we deﬁne the pre- and post-event periods for the four recalibration
+dates as seen in Figure 2. This approach allows us to sidestep the issue of whether
+investors responded to the publication of the Primary Algorithm versus the
+actual rating changes. Moody’s white papers (such as the publication containing
+the Primary Algorithm) are obscure sources of information for most retail
+investors. Investors may not know when Moody’s publishes a white paper,
+let alone digest it promptly upon release. They may only become aware of
+rating changes after they actually take place. Either way, omitting data from the
+intermediate period allows a clean comparison of prices before the recalibration
+was detailed to after it took effect.
+
+In Table 4, Raw yield is the lower of the yield-to-call and the yield-to-
+maturity. Each of the credit spread variables is deﬁned in Section 2.4. Panel
+A captures the effect of recalibration on bond yields and credit spreads with
+Upgrade, an indicator variable taking a value of one if the issuer of the bond
+experienced an upgrade on any of its outstanding bonds during any of the
+recalibration events and zero if the issuer’s bonds experienced only zero-notch
+
+the Primary Algorithm and immediately after its rating changes reﬂects fewer general, systematic changes in the
+muni market than a bond that trades on days 30 days before Moody’s published the Primary Algorithm and 30
+days after its rating changes. We address this concern by replicating the analysis after adjusting bond returns by
+a municipal bond index. Speciﬁcally, we subtract from the return of each bond the return on the S&P Municipal
+Bond Index over the same time horizon. For example, we subtract the index return from day −1 to +1 (−30 to
++30) for bonds that trade on days –1 and +1 (−30 and +30). We then test for differences in these adjusted returns
+among upgraded versus non-upgraded bonds. The results do not change.
+
+2054
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2054 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+“Change in Scale” upgrades. Post recalibration is an indicator variable taking a
+value of one if the observation is from the 30 days after the bond’s recalibration
+date. This variable takes a value of zero if the observation is from the 30 days
+prior to the publication of Moody’s Primary Algorithm.
+
+We control for issue characteristics including par value, duration, coupon
+rate, and dummy variables indicating whether the issues are callable, BABs,
+issued through a negotiated process, and whether the bonds are General
+Obligation (GO) or revenue bonds. We deﬁne all variables and report summary
+statistics in the Internet Appendix (Table A.2). Issue rating pre-recalibration FE
+are ﬁxed effects based on ratings before recalibration. Issuer state FE control
+for unobserved heterogeneity at the state level. Issuer level of government FE
+
+Table 4
+Secondary market regressions
+
+Panel A: Recalibration effect captured with upgrade indicator (upgrade)
+
+Raw
+yield
+
+Spread to
+Treasury1
+
+Spread to
+Treasury2
+
+Spread to
+after-tax
+Treasury1
+
+Spread to
+after-tax
+Treasury2
+
+Spread to
+after-tax
+Treasury2
+
+Post recalibration × Upgrade
+
+Post recalibration
+
+Upgrade
+
+Par
+
+Duration1
+
+Duration2
+
+Coupon
+
+Outstanding bonds
+
+GO
+
+BAB
+
+Callable
+
+Negotiated
+
+Issue rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Moody’s sector FE?
+NAIC ﬁlter?
+Adjusted R2
+N
+Post recalibration × Notches
+
+Post recalibration
+
+∗∗∗
+
+(1)
+−0.06
+(0.07)
+−0.13
+(0.02)
+−0.16
+(0.17)
+0.07
+∗
+(0.04)
+0.18
+∗∗∗
+(0.02)
+
+∗∗∗
+
+0.01
+(0.06)
+−0.03
+(0.04)
+0.23
+(0.47)
+1.47
+(0.17)
+0.05
+(0.13)
+0.00
+(0.15)
+Yes
+Yes
+Yes
+Yes
+No
+
+(2)
+−0.33
+(0.08)
+0.27
+(0.02)
+−0.03
+(0.16)
+0.08
+(0.04)
+−0.03
+(0.01)
+
+∗∗∗
+∗∗∗
+
+∗∗
+∗∗∗
+
+∗∗∗
+∗
+
+−0.01
+(0.04)
+−0.05
+(0.04)
+0.10
+(0.35)
+1.28
+(0.14)
+−0.24
+(0.13)
+0.05
+(0.12)
+Yes
+Yes
+Yes
+Yes
+No
+
+∗∗∗
+∗∗∗
+
+(3)
+−0.28
+(0.08)
+0.15
+(0.02)
+−0.33
+(0.22)
+0.06
+(0.04)
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+−0.13
+(0.02)
+−0.01
+(0.04)
+0.00
+(0.05)
+−0.11
+(0.53)
+1.25
+(0.19)
+0.59
+(0.16)
+−0.16
+(0.17)
+Yes
+Yes
+Yes
+Yes
+No
+
+(4)
+−0.23
+(0.08)
+0.13
+(0.02)
+−0.10
+(0.16)
+0.08
+(0.04)
+0.04
+(0.01)
+
+∗∗∗
+∗∗∗
+
+∗∗
+∗∗∗
+
+∗∗∗
+
+−0.01
+(0.05)
+−0.04
+(0.04)
+0.14
+(0.40)
+−0.64
+(0.12)
+−0.12
+(0.11)
+0.05
+(0.12)
+Yes
+Yes
+Yes
+Yes
+No
+
+∗∗∗
+∗∗
+
+(5)
+−0.19
+(0.07)
+0.06
+(0.02)
+−0.37
+(0.23)
+0.06
+(0.04)
+
+∗∗
+
+∗∗∗
+∗∗∗
+
+−0.04
+(0.02)
+−0.01
+(0.05)
+0.01
+(0.05)
+−0.05
+(0.56)
+−0.74
+(0.14)
+0.69
+(0.15)
+−0.14
+(0.15)
+Yes
+Yes
+Yes
+Yes
+No
+
+0.48
+1,910
+−0.07
+(0.03)∗∗
+−0.10
+∗∗∗
+(0.02)
+
+0.45
+1,910
+−0.18
+(0.02)
+0.27
+(0.02)
+
+∗∗∗
+∗∗∗
+
+0.46
+1,910
+−0.16
+(0.02)
+0.16
+(0.02)
+
+∗∗∗
+∗∗∗
+
+0.41
+1,910
+−0.14
+(0.02)
+0.15
+(0.02)
+
+∗∗∗
+∗∗∗
+
+0.47
+1,910
+−0.12
+(0.02)
+0.08
+(0.02)
+
+∗∗∗
+∗∗
+
+(6)
+−0.21
+(0.07)
+0.07
+(0.02)
+−0.26
+(0.34)
+0.14
+(0.05)
+
+−0.04
+(0.04)
+−0.02
+(0.07)
+−0.02
+(0.06)
+−0.09
+(0.72)
+−1.43
+(0.22)
+0.16
+(0.50)
+0.00
+(0.17)
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.49
+852
+−0.12
+(0.07)
+0.07
+(0.02)
+
+∗∗∗
+∗∗
+
+∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗
+
+(continued)
+
+2055
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2055 2038–2079
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Table 4
+Continued
+Panel B: Recalibration effect captured with upgrade magnitude (notches)
+
+Raw
+yield
+
+Spread to
+Treasury1
+
+Spread to
+Treasury2
+
+Spread to
+after-tax
+Treasury1
+
+Spread to
+after-tax
+Treasury2
+
+Spread to
+after-tax
+Treasury2
+
+Notches
+
+Par
+
+Duration1
+
+Duration2
+
+Coupon
+
+Outstanding bonds
+
+GO
+
+BAB
+
+Callable
+
+Negotiated
+
+Issue rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Moody’s sector FE?
+NAIC ﬁlter?
+Adjusted R2
+N
+
+(1)
+−0.09
+(0.09)
+0.07
+(0.04)
+0.18
+(0.02)
+
+∗∗∗
+
+(2)
+
+0.00
+(0.08)
+0.08
+(0.04)
+−0.03
+(0.01)
+
+∗∗
+∗∗∗
+
+∗∗∗
+
+0.02
+(0.07)
+−0.03
+(0.04)
+0.24
+(0.47)
+1.45
+(0.17)
+0.04
+(0.13)
+0.00
+(0.14)
+Yes
+Yes
+Yes
+Yes
+No
+
+∗∗∗
+∗
+
+0.00
+(0.05)
+−0.05
+(0.04)
+0.10
+(0.35)
+1.27
+(0.14)
+−0.24
+(0.13)
+0.05
+(0.12)
+Yes
+Yes
+Yes
+Yes
+No
+
+(3)
+−0.11
+(0.10)
+0.06
+(0.04)
+
+−0.13
+(0.02)
+0.00
+(0.05)
+0.00
+(0.06)
+−0.11
+(0.51)
+1.22
+(0.19)
+0.59
+(0.16)
+−0.18
+(0.17)
+Yes
+Yes
+Yes
+Yes
+No
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+(4)
+−0.05
+(0.08)
+0.08
+(0.04)
+0.04
+(0.01)
+
+∗∗
+∗∗∗
+
+∗∗∗
+
+−0.01
+(0.05)
+−0.04
+(0.04)
+0.14
+(0.39)
+−0.66
+(0.13)
+−0.13
+(0.11)
+0.04
+(0.12)
+Yes
+Yes
+Yes
+Yes
+No
+
+(5)
+−0.13
+(0.10)
+0.06
+(0.04)
+
+−0.03
+(0.02)
+0.00
+(0.05)
+0.00
+(0.06)
+−0.05
+(0.55)
+−0.77
+(0.14)
+0.69
+(0.15)
+−0.16
+(0.15)
+Yes
+Yes
+Yes
+Yes
+No
+
+∗∗
+
+∗∗∗
+∗∗∗
+
+0.58
+1,910
+
+0.45
+1,910
+
+0.46
+1,910
+
+0.42
+1,910
+
+0.58
+1,910
+
+∗∗
+
+∗∗∗
+
+(6)
+−0.12
+(0.13)
+0.14
+(0.05)
+
+−0.04
+(0.04)
+−0.01
+(0.08)
+−0.03
+(0.07)
+−0.12
+(0.67)
+−1.48
+(0.24)
+0.16
+(0.48)
+−0.03
+(0.18)
+Yes
+Yes
+Yes
+Yes
+Yes
+
+0.49
+852
+
+This table displays OLS regression results with various measures of secondary market yields and spreads as
+the dependent variable. The dependent variables appear at the top of each column. The dependent variables
+are deﬁned in the legend of Table A.2 and are averaged across transactions by bond either during the 30-day
+window before Moody’s published the Primary Algorithm or after the bond’s recalibration date. We include
+in the regressions uninsured bonds with trading in both 30-day periods before Moody’s published the Primary
+Algorithm and after the bond’s recalibration date. Panel A captures the effect of recalibration on bond yields and
+spreads with Upgrade, an indicator variable taking a value of one if the bond experienced an upgrade as a result of
+its recalibration and zero if the bond experienced no change in ratings. Post recalibration is an indicator variable
+taking a value of one if the observation is from the 30-day window after the bond’s recalibration date and zero
+if the observation is from the 30-day period prior to the publication of Moody’s Primary Algorithm. We exclude
+data from the day of the bond’s recalibration. Other control variables are deﬁned in the legend of Table A.2. Issue
+rating pre-recalibration FE are ﬁxed effects based on the bond’s rating before the bond’s recalibration. Notches
+represents the change in the rating around the recalibration in terms of number of notches. Panel B captures the
+effect of recalibration on changes in average yields and spreads with Notches. Issuer level of government FE
+are ﬁxed effects based on whether the issuer is a state, county, city, or other. Issuer state FE are ﬁxed effects
+based on the issuer’s state. Moody’s sector FE are ﬁxed effects based on the four sectors into which Moody’s
+classiﬁes bonds in its Primary Algorithm. We measure the percentage of each bond’s principal held by insurance
+companies at the time of Moody’s recalibration using Annual Fraternal, Life, Property, Separate Accounts, and
+Title & Health Data from the National Association of Insurance Commissioners (NAIC). Column (6) replicates
+column (5) after excluding bonds with any nonzero holdings by insurance companies. Standard errors are in
+parentheses below coefﬁcient estimates. We cluster standard errors by issuer. *, **, and *** indicate statistical
+signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+
+2056
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2056 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+are ﬁxed effects based on Moody’s classiﬁcation.20 Moody’s sector FE are
+ﬁxed effects based on the four sectors into which Moody’s classiﬁes bonds in
+its Primary Algorithm.21 We cluster standard errors by issuer.
+
+The coefﬁcients on Post recalibration in Panel A indicate that the average
+Raw yield is lower (13 bp, signiﬁcant at 5%) and the average credit spreads
+are higher (6 to 27 bp, signiﬁcant at 5% or 1%) in the later time period.
+Because yields and spreads are time varying, we cannot infer any impact of the
+recalibration from this observation. The interaction term reported in the top row
+captures the important difference-in-differences. The treatment group’s yields
+declined by 6 bp, and credit spreads declined by 19 to 33 bp (signiﬁcant at 5%
+or 1%) relative to the control group.
+
+Because we focus on retail-size trades, we believe that we have a clean
+test of the muni market reaction to new information communicated by the
+recalibrated ratings, free from any confounding regulatory compliance effects.
+As a robustness test, we replicate Table 4 after excluding issues with any
+holdings by insurance companies. We believe that excluding retail transactions
+for bonds that have any level of insurance company holdings is a very stringent
+ﬁlter.22 However, despite the reduction in sample size, Table 4 results remain
+signiﬁcant across each of the dependent variables. To conserve space, we
+tabulate this robustness test in column (6) only for the dependent variable
+employed in column (5).
+
+In lieu of the binary indicator Upgrade, Table 4, Panel B, captures the effect of
+rating recalibration on average yields and credit spreads with a discrete variable.
+Notches is the difference between Rating post-recalibration and Rating pre-
+recalibration. As suggested by Figure 1, we ﬁnd that the recalibration effect
+is larger in magnitude for municipalities whose bonds experienced larger
+upgrades. For each notch outstanding bonds are upgraded during recalibration,
+ex post Raw yield is 7 bp lower compared with the control group. For each notch
+of upgrade, spreads are lower by 12 to 18 bp. This result implies that spreads
+fall 36 to 54 bp for bonds upgraded three notches. As in Panel A, results are
+robust in column (6) to the highly stringent exclusion of transactions for bonds
+with any level of insurance company holdings.
+
+We replicate Table 4 under a wide variety of alternative speciﬁcations. We
+do not tabulate these results in the interest of conserving space. We ﬁnd
+the results are fully robust to including ﬁxed effects for rating levels in the
+
+20 Moody’s classiﬁes municipal issuers into four groups: states, counties, cities, and other. The “state” category
+includes state agencies such as the California Housing Authority. The “other” category includes school districts
+and other special tax districts. Some examples from this category are the Birmingham Waterworks Sewer Board
+in Alabama, the City of Columbus School District in Ohio, and the Las Vegas Valley Water District in Nevada.
+
+21 We sort bonds into sectors based on the ﬁeld “Sector” in Moody’s data.
+22 For example, this ﬁlter would screen out a retail-sized trade for an issue held 99% by retail investors and 1% by
+institutional investors and for which there were no institutional trades. Because we have no reason to believe that
+institutional holdings create any regulatory-based demand among retail investors, this robustness test imposes a
+very conservative hurdle for sample inclusion.
+
+2057
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2057 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+post-recalibration period instead of the pre-recalibration period. The results
+are also fully robust to clustering standard errors by a host of alternative
+dimensions, such as by bond, issuer’s state, the four recalibration dates, pre-
+or post-recalibration period, issuer’s state × pre- or post-recalibration period,
+issuer’s state × the bond’s rating in the pre- or post-recalibration period, the
+four recalibration dates × the bond’s rating in the pre- or post-recalibration
+period, and the four recalibration dates × the issuer’s state. We further replicate
+each of these speciﬁcations using Notches instead of Upgrade to capture the
+recalibration effect and obtain results similar to those reported in Table 4,
+Panel B.
+
+3.2 Alternative hypotheses
+The results thus far indicate that investors reacted to Moody’s recalibration.
+This section considers several alternative explanations for this ﬁnding.
+
+3.2.1 Do the results reﬂect differences in returns that already existed before
+the recalibration? A potential concern regarding the analysis thus far is that
+our results may reﬂect differences in returns that already existed before Moody’s
+recalibration. We address this concern with a placebo analysis. We replace
+each of the four recalibration dates with false dates drawn randomly from the
+period 180 to 30 days before the ﬁrst actual recalibration date. If the spreads on
+the upgraded bonds were already drifting upward relative to the non-upgraded
+bonds prior to the recalibration, then we should see results similar to our baseline
+when using event dates in the year prior to implementation. We replicate the
+regression in Table 4, Panel A, column (5), using the false dates. We complete
+this process a total of 10,000 times. Each time, we collect the t−statistic for
+the coefﬁcient on Post recalibration × Upgrade. Figure 3 plots a distribution
+of these t−statistics. The t-statistic from Table 4, Panel A, column (5), is –2.6
+and lies in the lower 1% of the placebo distribution. This analysis demonstrates
+the uniqueness of the market reaction to the actual implementation dates.
+
+3.2.2 Do the results reﬂect changes in liquidity?
+Harris and Piwowar
+(2006) show that municipal bond liquidity increases with credit quality. If
+rating upgrades resulting from the recalibration are associated with perceived
+improvements in credit quality, then liquidity for upgraded bonds should
+increase, leading to lower returns due to lower liquidity premiums. We test
+this possibility in Table 5. Table 5 regressions employ Daily volume as the
+dependent variable, deﬁned as the natural logarithm of the average daily trading
+volume for customers buying munis during the period before or after the bond’s
+recalibration date. Control variables are the same as those employed in Table 4.
+The sample in Table 5 consists of 7,341 bonds with at least one customer
+transaction in the 90 days before the publication of Moody’s Primary Algorithm
+and the 90 days after the recalibration dates, resulting in 14,682 observations.
+(See Table A.1 for sample reconciliation.)
+
+2058
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2058 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+y
+c
+n
+e
+u
+q
+e
+r
+F
+
+500
+
+450
+
+400
+
+350
+
+300
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+
+0
+
+.
+
+4
+-
+
+6
+
+.
+
+3
+-
+
+2
+
+.
+
+3
+-
+
+8
+
+.
+
+2
+-
+
+4
+
+.
+
+2
+-
+
+0
+
+.
+
+2
+-
+
+6
+
+.
+
+1
+-
+
+2
+
+.
+
+1
+-
+
+8
+
+.
+
+0
+-
+
+4
+
+.
+
+0
+-
+
+0
+0
+
+.
+
+4
+0
+
+.
+
+8
+0
+
+.
+
+2
+1
+
+.
+
+6
+1
+
+.
+
+0
+2
+
+.
+
+4
+2
+
+.
+
+8
+2
+
+.
+
+2
+3
+
+.
+
+6
+3
+
+.
+
+0
+4
+
+.
+
+4
+4
+
+.
+
+8
+4
+
+.
+
+2
+5
+
+.
+
+6
+5
+
+.
+
+0
+6
+
+.
+
+4
+6
+
+.
+
+t-statistic
+
+Figure 3
+Histogram of placebo test results
+This ﬁgure displays a histogram of t-statistics from 10,000 placebo regressions in which we replicate the
+regression in Table 4, Panel A, column (5), after randomly replacing each of the four implementation dates
+with false dates drawn randomly from the period 180 to 30 days before the announcement date, March 16, 2010.
+The t-statistics come from the coefﬁcient on Post recalibration × Upgrade. The vertical dashed line represents
+the t-statistic from the true regression in Table 4, Panel A, column (5).
+
+The interaction term Upgrade × Post recalibration reported in the top row
+of column (1) indeed indicates an increase in trading volume after the ratings
+changes. Signiﬁcant at 1%, this result adds further evidence that muni investors
+responded to Moody’s scale recalibration.
+
+Column (1) indicates that the liquidity of the upgraded bonds improved
+relative to the non-upgraded bonds. In light of this ﬁnding, one might infer
+that the results in Figure 1 and Table 4 reﬂect changes in liquidity, rather than
+investors responding to credit ratings for information purposes. However, this
+interpretation implies that upgraded bonds exhibit a permanent increase in
+liquidity relative to non-upgraded bonds. We test this possibility in column
+(2) after substituting Post recalibration with delay for Post recalibration.
+Post recalibration with delay is an indicator variable taking a value of one
+if the observation is from the window [90,179] days relative to the bond’s
+recalibration date and zero if the observation is from the window [–90,–1] days
+prior to the publication of Moody’s Primary Algorithm. This approach allows
+us to test whether average daily trading volume remains elevated for upgraded
+
+2059
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2059 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Table 5
+The effect of recalibrated ratings on secondary market trading volume
+
+Upgrade × Post recalibration
+Upgrade × Post recalibration with delay
+
+Upgrade
+
+Post recalibration
+
+Post recalibration with delay
+
+Par
+
+Duration2
+
+Coupon
+
+Outstanding bonds
+
+GO
+
+BAB
+
+Callable
+
+Negotiated
+
+Issue rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Moody’s sector FE?
+Adjusted R2
+N
+
+(1)
+
+3.34
+(0.29)
+
+∗∗∗
+
+−0.15
+(0.17)
+−5.40
+(0.24)
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+−0.12
+(0.04)
+0.11
+(0.01)
+−0.02
+(0.04)
+0.03
+(0.07)
+0.91
+∗∗∗
+(0.15)
+0.53
+∗∗∗
+(0.17)
+−0.26
+(0.12)∗∗
+0.15
+(0.13)
+Yes
+Yes
+Yes
+Yes
+
+0.35
+14,682
+
+(2)
+
+0.14
+(0.20)
+−0.14
+(0.14)
+
+−6.88
+(0.07)
+−0.11
+(0.02)
+0.10
+(0.01)
+0.05
+(0.02)
+0.06
+(0.03)
+0.04
+(0.06)
+0.10
+(0.09)
+−0.18
+(0.07)
+0.17
+(0.06)
+Yes
+Yes
+Yes
+Yes
+
+0.75
+14,682
+
+∗∗∗
+∗∗
+∗∗∗
+∗∗
+∗∗
+
+∗∗∗
+∗∗∗
+
+This table displays OLS regression results with Daily volume as the dependent variable. This variable is the
+natural logarithm of the average daily trading volume for customers buying municipal bonds during the 90-day
+window centered on the bond’s recalibration date. We calculate trading volume using secondary market trading
+data from the Municipal Securities Rulemaking Board (MSRB). The sample consists of 7,341 uninsured bonds
+with at least one transaction by a customer in the 90 days prior to the publication of Moody’s Primary Algorithm
+and the 90 days after the recalibration date (resulting in 14,682 observations). Upgrade is an indicator variable
+taking a value of one if the bond experienced an upgrade during the recalibration event and zero if the bond
+experienced no change in ratings. Post recalibration is an indicator variable taking a value of one if the observation
+is from the window [0,89] days relative to the bond’s recalibration date and zero if the observation is from the
+window [–90,–1] days prior to the publication of Moody’s Primary Algorithm. Post recalibration with delay is
+an indicator variable taking a value of one if the observation is from the window [90,179] days relative to the
+bond’s recalibration date and zero if the observation is from the window [–90,-1] days prior to the publication
+of Moody’s Primary Algorithm. Issue rating pre-recalibration FE are ﬁxed effects based on the rating of the
+bond before its recalibration date. Issuer level of government FE are ﬁxed effects based on whether the issuer is
+a state, county, city, or other. Issuer state FE are ﬁxed effects based on the issuer’s state. Moody’s sector FE are
+ﬁxed effects based on the four sectors into which Moody’s classiﬁes bonds in its Primary Algorithm. Standard
+errors. We cluster standard errors by issuer. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and
+1% levels, respectively.
+
+bonds over the long term. We ﬁnd it does not. The coefﬁcient on Upgrade
+× Post recalibration with delay is insigniﬁcant, indicating the trading volume
+of upgraded bonds is statistically indistinguishable from its pre-recalibration
+level.
+
+2060
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2060 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+3.2.3 Are the results driven by a sudden decline in returns for non-
+upgraded bonds? Our results could obtain if the returns for the non-upgraded
+bonds happened to be abnormally low around the time of the recalibration. We
+address this possibility two ways. First, we provide more detail regarding the
+cumulative returns of the non-upgraded bonds underlying Figure 1. Figure A.2
+in the Internet Appendix displays separate plots for bonds upgraded zero, one,
+two, and three notches for each of the four recalibration dates. These plots
+generally show that the cumulative returns for the non-upgraded bonds behave
+very similarly to those of the upgraded bonds in the days leading up to the
+publication of Moody’s Primary Algorithm. In some cases, the cumulative
+returns for the non-upgraded bonds are actually higher than those of the
+soon-to-be-upgraded bonds.
+
+Second, we compare the changes in spreads of the non-upgraded bonds
+around the time of the recalibration and in the period preceding Moody’s
+publication of its Primary Algorithm. Figure 4 displays a histogram of placebo
+average changes in spreads for the non-upgraded bonds drawing random dates
+from the 180-day period prior to when the bonds’ ratings were recalibrated.
+This ﬁgure effectively reproduces the dependent variable from Table 4, Panel A,
+column (5), for the non-upgraded bonds many times with placebo recalibration
+dates. If the returns of the non-upgraded bonds were abnormally low around the
+time of the recalibration, then we should see the true change in Spread to after-
+tax Treasury2 lie outside the placebo distribution. This is not what we observe.
+If anything, the changes in spreads for the non-upgraded bonds are slightly
+higher (although not signiﬁcantly so) around the time of the recalibration in
+comparison to their own recent history.
+
+3.2.4 Are the results driven by shifts in demand for certain levels of
+governments’ bonds? Table A.3 in the Internet Appendix replicates the
+speciﬁcation in Table 4, Panel A, column (5), after splitting the sample by issuer
+level of government. This table shows that the secondary market results are
+driven primarily by state-level issuers and issuers at other levels of government.
+The results are weaker for county- and city-level issuers. We dig deeper into
+these patterns to investigate whether the main results in Table 4 could be driven
+by shifts in demand for bonds issued by certain levels of government, rather
+than investors responding to changes in ratings.
+
+We control for this possibility directly in Table A.4 in the Internet Appendix.
+Here, we replicate Table 4 after including the issuer level of government ﬁxed
+effects that vary by pre- and post-treatment ﬁgures. For example, instead of
+including a ﬁxed effect for the state of California, as we do in Table 4, Table A.4
+includes one ﬁxed effect for California in the pre-treatment period and another
+for California in the post-treatment period. Under this speciﬁcation, our main
+results are virtually unchanged, indicating our results do not reﬂect a change
+in taste among investors for bonds from different levels of government during
+the time of the recalibration.
+
+2061
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2061 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+y
+c
+n
+e
+u
+q
+e
+r
+F
+
+800
+
+700
+
+600
+
+500
+
+400
+
+300
+
+200
+
+100
+
+0
+
+6
+2
+.
+0
+-
+
+4
+2
+.
+0
+-
+
+2
+2
+.
+0
+-
+
+2
+.
+0
+-
+
+8
+1
+.
+0
+-
+
+6
+1
+.
+0
+-
+
+4
+1
+.
+0
+-
+
+2
+1
+.
+0
+-
+
+1
+.
+0
+-
+
+8
+0
+.
+0
+-
+
+6
+0
+.
+0
+-
+
+4
+0
+.
+0
+-
+
+2 0
+0
+.
+0
+-
+
+2
+0
+.
+0
+
+4
+0
+.
+0
+
+6
+0
+.
+0
+
+8
+0
+.
+0
+
+1
+.
+0
+
+2
+1
+.
+0
+
+4
+1
+.
+0
+
+6
+1
+.
+0
+
+8
+1
+.
+0
+
+2
+.
+0
+
+Change in spread for control group
+
+Figure 4
+Histogram of placebo average change in spread for the control group
+Each of the four recalibration events include zero-notch upgrades, and these non-upgraded bonds compose our
+control group. Comparing spreads in the 30 days before versus 30 days after the bonds are recalibrated, we
+observe an average change in spread of 0.07139%. The vertical dashed line indicates this amount. This ﬁgure
+reﬂects similar calculations after we randomly draw placebo dates from the 180-day period prior to when the
+bonds were recalibrated. For example, for a bond that received a zero-notch upgrade on April 16, 2010, we
+randomly draw a placebo date from the 180-day period before the publication of Moody’s Primary Algorithm
+(March 16, 2010) and compute the change in spread from the 30-day window before the placebo date to the
+spread during the window 31 to 60 days after the placebo date. This gap between the two periods accounts for the
+30-day gap between the publication of Moody’s Primary Algorithm and April 16, 2010. For a bond that received
+a zero-notch upgrade on April 23, 2010, we randomly draw a placebo date from the 180-day period before the
+publication of Moody’s Primary Algorithm (March 16, 2010) and compute the change in spread from the 30-day
+window before the placebo date to the spread in the window 38 to 67 days after the placebo date. We do this
+for all non-upgraded bonds across the four recalibration dates and compute the average. We repeat this process
+10,000 times and construct the displayed histogram.
+
+3.2.5 Are the results driven by differential changes in fundamentals for the
+upgraded and non-upgraded bonds? Moody’s claims that the recalibration
+was intentionally uncorrelated with changes in issuer fundamentals. However,
+it is possible that Moody’s selected bonds for upgrades that were experiencing
+strengthening fundamentals. We believe this explanation is unlikely for two
+reasons. First, as mentioned above, Moody’s indicated that any bonds under
+review going into the recalibration would remain under review after the
+recalibration. In other words, bonds that Moody’s believed were due for natural
+rating changes would receive proper consideration for those changes after the
+recalibration had concluded.
+
+Second, we examine the behavior of S&P’s ratings around the time
+of Moody’s recalibration. If Moody’s recalibration reﬂects changes in
+
+2062
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2062 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+ 
+
+)
+1
+=
+C
+C
+
+/
+
+ 
+
+ 
+,
+.
+.
+.
+ 
+,
+
+ 
+
+ 
+
+0
+2
+=
++
+A
+A
+/
+1
+a
+A
+
+ 
+,
+
+ 
+
+ 
+
+1
+2
+=
+A
+A
+A
+/
+a
+a
+A
+
+(
+ 
+g
+n
+i
+t
+a
+r
+ 
+e
+g
+a
+r
+e
+v
+A
+
+20
+
+19.5
+
+19
+
+18.5
+
+18
+
+17.5
+
+17
+
+16.5
+
+4
+0
+8
+0
+0
+2
+
+6
+0
+8
+0
+0
+2
+
+8
+0
+8
+0
+0
+2
+
+0
+1
+8
+0
+0
+2
+
+2
+1
+8
+0
+0
+2
+
+2
+0
+9
+0
+0
+2
+
+4
+0
+9
+0
+0
+2
+
+6
+0
+9
+0
+0
+2
+
+8
+0
+9
+0
+0
+2
+
+0
+1
+9
+0
+0
+2
+
+2
+1
+9
+0
+0
+2
+
+2
+0
+0
+1
+0
+2
+
+4
+0
+0
+1
+0
+2
+
+6
+0
+0
+1
+0
+2
+
+8
+0
+0
+1
+0
+2
+
+0
+1
+0
+1
+0
+2
+
+2
+1
+0
+1
+0
+2
+
+2
+0
+1
+1
+0
+2
+
+4
+0
+1
+1
+0
+2
+
+6
+0
+1
+1
+0
+2
+
+8
+0
+1
+1
+0
+2
+
+0
+1
+1
+1
+0
+2
+
+2
+1
+1
+1
+0
+2
+
+2
+0
+2
+1
+0
+2
+
+4
+0
+2
+1
+0
+2
+
+S&P rating (Moody's did not upgrade)
+
+S&P rating (Moody's upgraded)
+
+Moody's rating (Moody's did not upgrade)
+
+Moody's rating (Moody's upgraded)
+
+Figure 5
+Average Moody’s and Standard & Poor’s credit ratings through time
+This ﬁgure displays average credit ratings for uninsured municipal bonds rated by Moody’s and Standard &
+Poor’s from a four-year period centered on Moody’s recalibration. We separate the bonds by whether their
+ratings were upgraded as a result of Moody’s recalibration. The vertical dashed line represents April 2010. We
+convert Moody’s and Standard & Poor’s 21-point alphanumeric scales into numbers. Ratings are increasing in
+credit quality, such that Aaa/AAA = 21, Aa1/AA+= 20,…, C/C = 1. We collect credit ratings from Moody’s
+website and Standard & Poor’s RatingsDirect.
+
+fundamentals, then we should expect S&P to eventually enact rating changes
+that correlate with those of Moody’s. Table A.7 in the Internet Appendix
+provides detailed transition matrices of S&P’s ratings from before the
+recalibration to a year after. We observe no clear evidence that S&P responded to
+Moody’s recalibration. Most bonds rated by S&P retain their ratings at least one
+year after the recalibration. For example, of the 26,582 bonds with AA+ ratings
+from S&P, 25,155 of them still have AA+ ratings a year after the recalibration.
+A similar, consistent pattern appears at each rating level.
+
+Further, we examine the long-run behavior of Moody’s and S&P’s ratings
+in Figure 5. In this ﬁgure, we compute average ratings on uninsured bonds
+with ratings from both Moody’s and S&P over a four-year period centered on
+Moody’s recalibration. We separate these bonds based on whether they were
+upgraded as a result of Moody’s recalibration and report average ratings by
+month for these subgroups of bonds.
+
+Among upgraded bonds (plotted with solid lines in Figure 5), we observe
+that Moody’s ratings are lower than S&P’s in 2008 and 2009 but then converge
+
+2063
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2063 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+due to recalibration and remain comparable to S&P’s ratings through the end
+of our data availability. Among the control group that did not upgrade due to
+recalibration (plotted with dashed lines), we observe that Moody’s ratings are
+higher than S&P’s by approximately one notch over the entire four-year period.
+The stability in Moody’s ratings after recalibration afﬁrms our conclusion that
+the recalibration was a permanent change in ratings.
+
+3.3 Evidence from new issues
+We consider next the extent to which market reliance on credit ratings has
+real economic effects. Speciﬁcally, we examine the impact on new debt
+pricing and new debt issuance. In light of the secondary market results
+above, we predict that upgraded municipalities face lower borrowing costs
+in the primary market as a result of their higher ratings. To the extent
+that previously higher borrowing costs (associated with the more stringent
+rating standards) discouraged municipal investment, we predict an increase
+in borrowing among the upgraded municipalities. We test both predictions in a
+difference-in-differences framework.
+
+In the preceding tests of secondary market prices and trading volume, our
+treatment and control groups consist of recalibrated bonds. In this section, we
+deﬁne treatment and control groups at the municipality level.23 Speciﬁcally,
+the treatment group contains municipalities whose outstanding bonds were
+recalibrated up at least one notch. The control group contains municipalities
+whose outstanding bonds had a “Change in Scale” rating action of zero notches.
+In order to analyze effects at the issuer level, we calculate the average ratings
+of all outstanding bonds for each issuer before and after recalibration dates.
+(The modal within-issuer standard deviation of credit ratings is zero notches.)
+We refer to these averages as Issuer rating pre-recalibration and Issuer rating
+post-recalibration, respectively.
+
+We examine ﬁrst the impact on new issue pricing in multivariate regressions,
+with results reported in Table 6. We calculate the average characteristics of
+new, uninsured issues for each issuer in the year before and, separately, the
+year after the issuer’s outstanding bonds were recalibrated. We compute the
+change in each bond characteristic for each issuer. This approach results in one
+observation per issuer. Dependent variables are changes in yields and spreads.
+Raw yield is the offer yield in all analyses of new issues. Each of the credit
+spread variables is deﬁned in Section 2.4. We control for changes in issue
+characteristics and report summary statistics for this issuer-level sample in
+Table A.5.24 In order to capture variation in the liquidity of issuers’ bonds, we
+
+23 Untabulated results at the bond level produce qualitatively similar results to the issuer-level analysis that follows.
+By distilling the bond-level observations into one observation per issuer, we avoid the concern that oversampling
+could prop up the statistical signiﬁcance of the results.
+
+24 The Internet Appendix also contains a detailed sample reconciliation in Table A.20.
+
+2064
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2064 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+also control for the change in the number of bonds outstanding. Fixed effects
+are similar to those in Table 4.
+
+As in Panel A of Table 4, Panel A of Table 6 captures the effect of
+recalibration on changes in new issue pricing with the indicator variable
+Upgrade. Controlling for pre-recalibration rating level, issuer state, and level of
+government, along with average changes in new issue characteristics, we ﬁnd
+that upgraded municipalities face lower ﬁnancing costs, relative to the control
+group, following recalibration. Differences in Raw yield average 15 bp, and
+differences in credit spreads range 18 to 22 bp. Each of these differences is
+signiﬁcant at 5% or 1%.
+
+Panel B employs the discrete variable Notches, deﬁned here as the
+difference between the Issuer rating post-recalibration and Issuer rating pre-
+recalibration. Controlling for the same factors—including rating level—we
+ﬁnd that each notch of upgrade results in a reduction in yield (spread) of 11
+bp (11 to 14 bp). This result implies that a municipality whose bonds were
+upgraded three notches would enjoy spreads on new issues that are 33 to 42 bp
+lower than a similar municipality whose ratings were not upgraded.
+
+Table 6
+Issuer-level primary market regressions
+
+Panel A: Recalibration effect captured with upgrade indicator (upgrade)
+
+ Spread
+
+ Spread
+
+to
+
+to
+
+Treasury1
+
+Treasury2
+
+ Spread
+to after-tax
+Treasury1
+
+ Spread
+to after-tax
+Treasury2
+
+Upgrade
+
+ Par
+
+ Duration1
+
+ Duration2
+
+ Coupon
+
+ Outstanding bonds
+
+ GO
+
+ BAB
+
+ Callable
+
+ Negotiated
+
+Issuer rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Adjusted R2
+N
+
+ Raw
+yield
+
+(1)
+−0.15
+(0.06)∗∗
+0.04
+(0.04)
+0.20
+(0.01)
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗
+
+0.46
+(0.03)
+−0.15
+(0.13)
+−0.33
+(0.09)
+0.62
+(0.06)
+0.11
+(0.06)
+−0.06
+(0.07)
+Yes
+Yes
+Yes
+
+(2)
+−0.19
+(0.06)
+0.15
+(0.04)
+−0.06
+(0.01)
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+0.29
+(0.03)
+−0.09
+(0.14)
+−0.36
+(0.09)
+0.63
+(0.06)
+0.01
+(0.06)
+0.02
+(0.07)
+Yes
+Yes
+Yes
+
+(3)
+−0.22
+(0.06)
+0.21
+(0.04)
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+∗∗∗
+
+−0.09
+(0.02)
+0.35
+(0.03)
+−0.04
+(0.14)
+−0.36
+(0.09)
+0.66
+(0.06)
+0.23
+(0.06)
+0.35
+(0.03)
+Yes
+Yes
+Yes
+
+∗∗∗
+
+(4)
+−0.18
+(0.05)
+0.03
+(0.03)
+0.02
+∗
+(0.01)
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+
+0.31
+(0.03)
+−0.09
+(0.12)
+−0.32
+(0.08)
+−0.70
+(0.05)
+0.06
+(0.05)
+0.31
+(0.03)
+Yes
+Yes
+Yes
+
+0.69
+865
+
+0.40
+865
+
+0.41
+865
+
+0.37
+865
+
+(5)
+−0.21
+(0.06)
+0.08
+(0.04)
+
+∗∗∗
+∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.00
+(0.01)
+0.36
+(0.03)
+−0.03
+(0.13)
+−0.32
+(0.09)
+−0.68
+(0.06)
+0.27
+(0.05)
+0.36
+(0.03)
+Yes
+Yes
+Yes
+
+0.37
+865
+
+(continued)
+
+2065
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2065 2038–2079
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Table 6
+Continued
+Panel B: Recalibration effect captured with upgrade magnitude (notches)
+
+ Raw
+yield
+
+ Spread
+
+ Spread
+
+to
+
+to
+
+Treasury1
+
+Treasury2
+
+ Spread
+to after-tax
+Treasury1
+
+ Spread
+to after-tax
+Treasury2
+
+Notches
+
+ Par
+
+ Duration1
+
+ Duration2
+
+ Coupon
+
+ Outstanding bonds
+
+ GO
+
+ BAB
+
+ Callable
+
+ Negotiated
+
+Issuer rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Adjusted R2
+N
+
+(1)
+−0.11
+(0.04)
+0.04
+(0.04)
+0.20
+(0.01)
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+0.46
+(0.03)
+−0.16
+(0.13)
+−0.30
+∗∗∗
+(0.09)
+0.61
+∗∗∗
+(0.06)
+0.11
+(0.06)∗
+−0.06
+(0.07)
+Yes
+Yes
+Yes
+0.69
+865
+
+(2)
+−0.13
+(0.04)
+0.15
+(0.04)
+−0.06
+(0.01)
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+0.29
+(0.03)
+−0.10
+(0.14)
+−0.33
+(0.09)
+0.61
+(0.06)
+0.01
+(0.06)
+0.02
+(0.07)
+Yes
+Yes
+Yes
+0.40
+865
+
+(3)
+−0.14
+(0.04)
+0.21
+(0.04)
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+−0.09
+(0.02)
+0.35
+(0.03)
+−0.05
+(0.14)
+−0.32
+(0.10)
+0.64
+(0.06)
+0.23
+(0.06)
+−0.07
+(0.08)
+Yes
+Yes
+Yes
+0.41
+865
+
+∗∗∗
+
+(4)
+−0.11
+(0.04)
+0.03
+(0.03)
+0.02
+(0.01)
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+0.31
+(0.03)
+−0.10
+(0.12)
+−0.29
+(0.08)
+−0.71
+(0.05)
+0.06
+(0.05)
+0.05
+(0.07)
+Yes
+Yes
+Yes
+0.37
+865
+
+(5)
+−0.13
+(0.04)
+0.09
+(0.04)
+
+∗∗∗
+∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+−0.00
+(0.01)
+0.36
+(0.03)
+−0.04
+(0.13)
+−0.28
+(0.09)
+−0.70
+(0.06)
+0.28
+(0.05)
+−0.03
+(0.07)
+Yes
+Yes
+Yes
+0.36
+865
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+This table displays OLS regression results with changes in various measures of offer yields and spreads as the
+dependent variable. The dependent variables appear at the top of each column. The dependent variables are
+deﬁned in the legend of Table A.5. Panel A captures the effect of recalibration on changes in issuers’ yields and
+credit spreads with Upgrade, an indicator variable taking a value of one if the issuer experienced an upgrade
+on its outstanding bonds during any of the recalibration events and zero if the issuer’s bonds experienced no
+change in ratings. Other control variables are deﬁned in the legend of Table A.5. We calculate the average rating
+of all outstanding bonds for each issuer before (Issuer rating pre-recalibration) and after (Issuer rating post-
+recalibration) the recalibration dates. Notches represents the change in this number rounded to the nearest whole
+number. Panel B captures the effect of recalibration on changes in issuers’ yields and credit spreads with Notches.
+Issuer rating pre-recalibration FE are ﬁxed effects based on the average rating of all outstanding bonds for each
+issuer before its recalibration date. Issuer level of government FE are ﬁxed effects based on whether the issuer is
+a state, county, city, or other. Issuer state FE are ﬁxed effects based on the issuer’s state. Standard errors are in
+parentheses below coefﬁcient estimates. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1%
+levels, respectively.
+
+Overall, we conclude from Table 6 that investors’ reliance on ratings to price
+bonds, combined with Moody’s dual-class rating system, was costly for U.S.
+taxpayers. Over $640 billion in uninsured municipal debt was upgraded during
+the recalibration (Table 1), and our most conservative estimate of the average
+impact on new issue yields is 15 bp. The product of $640 billion and 15 bp is
+$960 million. This ﬁgure is an estimate of aggregate annual excess interest (in
+2010 dollars). For context, the average cost to build a new elementary school
+is approximately $7 million (in 2013 dollars).25
+
+25 Reed Construction Data (http://www.reedconstructiondata.com/rsmeans/models/elementary-school/).
+
+2066
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2066 2038–2079
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+Table 6 results are robust to a wide variety of untabulated alternative
+speciﬁcations. These speciﬁcations include employing ﬁxed effects for rating
+levels in the post-recalibration period instead of the pre-recalibration period. We
+also cluster standard errors by issuer state, Issuer rating pre-recalibration, and
+Issuer rating post-recalibration. We include linear controls for Issuer rating
+pre-recalibration and Issuer rating post-recalibration in lieu of rating ﬁxed
+effects. Results in all of these speciﬁcations are similar in signiﬁcance and
+magnitude to those reported in Table 6. In Table A.6, we split the sample based
+on rating categories in the pre- and post-recalibration periods. We ﬁnd the
+results are robust across most categories. The noteworthy exception is the group
+recalibrated out of the Baa-range, for which we lack sufﬁcient observations to
+estimate the model. (See the Internet Appendix for details.)
+
+We examine next the extent to which upgraded municipalities capitalized on
+their lower borrowing costs. We ﬁnd evidence that the recalibration expanded
+municipal debt capacity. Figure 6 shows that, relative to issuance levels in the
+year before the recalibration, issuers of both upgraded and non-upgraded bonds
+actually issue less debt in the year after the recalibration. However, this decline
+in issuance activity is less pronounced for the upgraded issuers. Panel A shows
+that upgraded issuers experience a signiﬁcantly higher increase in issuance
+volume compared with non-upgraded issuers two years after the recalibration.
+Panels B and C split the sample in Panel A by whether the bonds are GO (Panel
+B) or revenue bonds (Panel C). Panel B shows broadly similar patterns to those
+in Panel A. After two years, upgraded issuers of GO bonds issue marginally
+signiﬁcantly more bonds than non-upgraded issuers. A stronger pattern emerges
+in Panel C. This panel shows that upgraded issuers of revenue bonds experience
+a signiﬁcantly larger increase in their issuance activity compared with non-
+upgraded bonds in the ﬁrst year after the recalibration. Overall, to the extent
+that increased municipal borrowing results in increased municipal investment,
+our results show that market reliance on credit ratings effects real investment
+as well as taxpayer ﬁnancing costs.
+
+3.4 Variation in information environment
+The SEC Ofﬁce of Investor Education and Advocacy warns, “While some
+investors ﬁnd it helpful to consider credit ratings when making an investment
+decision, it is important that you not rely solely on credit ratings when
+deciding whether to purchase municipal bonds.”26 To test the extent to which
+muni investors consider other sources of information, we employ a variety
+of proxies that capture cross-sectional variation in municipalities’ information
+environments. We further examine proxies for issuer opacity and corruption,
+assuming that information provided by corrupt municipalities is less reliable.
+We also consider whether S&P rated the bonds. If markets rely exclusively on
+
+26 SEC Pub. No. 134 is available at https://www.sec.gov/investor/alerts/municipalbondsbulletin.pdf.
+
+2067
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2067 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Panel A: All bonds
+
+Year  -1
+
+Year  +1
+
+Year  +2
+
+Non-upgraded issuers
+
+Upgraded issuers
+
+Panel B: General Obligation bonds
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+Year  -1
+
+Year  +1
+
+Year  +2
+
+Non-upgraded issuers
+
+Upgraded issuers
+
+Panel C: Revenue bonds
+
+ 
+
+ 
+
+y
+b
+d
+e
+d
+i
+v
+i
+d
+ 
+e
+c
+n
+a
+u
+s
+s
+I
+
+ 
+
+1
+-
+ 
+ 
+r
+a
+e
+Y
+n
+i
+ 
+e
+c
+n
+a
+u
+s
+s
+i
+
+1.4
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+
+ 
+
+ 
+
+y
+b
+d
+e
+d
+i
+v
+i
+d
+ 
+e
+c
+n
+a
+u
+s
+s
+I
+
+1
+-
+ 
+ 
+r
+a
+e
+Y
+ 
+n
+i
+ 
+e
+c
+n
+a
+u
+s
+s
+i
+
+1.4
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+
+ 
+y
+b
+ 
+d
+e
+d
+i
+v
+i
+d
+ 
+e
+c
+n
+a
+u
+s
+s
+I
+
+1
+-
+ 
+ 
+r
+a
+e
+Y
+ 
+n
+i
+ 
+e
+c
+n
+a
+u
+s
+s
+i
+
+1.5
+
+1
+
+0.5
+
+0
+
+Year  -1
+
+Year  +1
+
+Year  +2
+
+Non-upgraded issuers
+
+Upgraded issuers
+
+Figure 6
+Bond issuance for upgraded and non-upgraded issuers
+This ﬁgure displays average issue volume of upgraded and non-upgraded issuers before and after the recalibration.
+For each issuer, we compute the total par value of bonds issued in the year before the recalibration. We normalize
+this value to one and compute total par value of new issues relative to this amount in the years after recalibration.
+The sample includes only municipalities that issue at least one bond in the year before, the year after, and two
+years after recalibration. Panel A displays issuance of all bond types. Panels B and C restrict the sample to
+General Obligation bonds and Revenue bonds, respectively. Dotted lines represent 95% conﬁdence intervals.
+The data come from the Ipreo i-Deal new issues database.
+
+2068
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2068 2038–2079
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+ratings, then the price reaction to an upgrade should not vary by the availability
+of other information.
+
+In Table 7, we revisit the multivariate regression model reported in column
+(5) of Table 6, Panel A, using Spread to after-tax Treasury2 as the dependent
+variable. (Results below are robust to using Raw yield or the other three
+measures of spreads. We report results with Spread to after-tax Treasury2
+because we believe it is our most precise measure of muni pricing.) Here,
+we include proxies for issuer opacity and corruption as independent variables.
+We include summary statistics for these variables in Table A.5. In Table 7,
+we include in columns (1) through (3) indicator variables for the issuer level
+of government. We conjecture that investors have better information about the
+ﬁnancial health of larger, more transparent issuers (states) than they have for
+counties and cities. The variable State in column (1) compares states to the
+combined set of counties, cities, and other municipal issuers. The interaction
+term Upgrade × State indicates that the recalibration effect documented in
+Table 6 is muted by 27 bp among state issuers relative to non-state issuers. In
+contrast, the interaction term Upgrade × City in column (3) indicates that the
+recalibration effect is exacerbated among cities by an average of 17 bp relative
+to non-city issuers. To the extent that states (cites) are relatively transparent
+(opaque), these results suggest that muni market reliance on credit ratings is
+greatest in the weakest information environments.
+
+Column (4) employs the indicator variable Opaque, which takes the value of
+one if the issuer is, or is located in, a state with above-median opacity according
+to a state-level index developed by U.S. Public Interest Research Group.27 Con-
+sistent with variation in market reliance on ratings across information environ-
+ments, the interaction term Upgrade × Opaque indicates that the recalibration
+effect is stronger among issuers from states with below-median disclosure.
+
+We consider in column (5) whether the upgraded issuers are also rated by
+S&P. Butler (2008) argues that nonrated bonds are harder for underwriters
+to sell. Although all of the bonds in our sample are rated by Moody’s, the
+information provided by Moody’s should be especially important when S&P
+does not provide a rating. Indeed, the interaction term Upgrade × Not rated by
+S&P indicates that the market reliance on Moody’s ratings is stronger (15 bp
+signiﬁcant at 10%) among the set for which no guidance is provided by S&P.
+Columns (6) through (8) bifurcate the sample based on measures of
+corruption risk. Butler, Fauver, and Mortal (2009) document that higher state
+corruption is associated with greater credit risk and bond yields. Ang et al.
+(Forthcoming) further document that higher state corruption is associated with
+
+27 The U.S. PIRG ranks the 50 states according to the extent to which they provide online access to government
+spending data. The opacity index is from the year of Moody’s recalibration (2010). Although we use new issue
+data from one year before to one year after recalibration, we assume this measure of opacity for any particular state
+is similar through the sample period. Opacity scores are available at http://www.uspirg.org/reports/usp/following-
+money-2011.
+
+2069
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2069 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[
+
+1
+0
+
+:
+
+0
+4
+
+1
+2
+
+/
+
+5
+
+/
+
+2
+0
+1
+8
+
+-
+
+-
+
+R
+F
+S
+O
+P
+R
+E
+V
+F
+1
+7
+0
+1
+8
+2
+
+.
+t
+
+e
+x
+]
+
+P
+a
+g
+e
+
+:
+
+2
+0
+7
+0
+
+2
+0
+3
+8
+–
+2
+0
+7
+9
+
+2
+0
+7
+0
+
+Table 7
+Issuer-level primary market regressions with information environment analysis
+
+Level of government comparison
+
+(1)
+
+0.27
+(0.13)
+
+∗∗
+
+(2)
+
+0.07
+(0.13)
+
+∗∗∗
+
+−0.33
+(0.08)
+−0.15
+(0.09)
+
+−0.26
+(0.07)
+
+∗∗∗
+
+0.03
+(0.11)
+
+Upgrade × State
+Upgrade × County
+Upgrade × City
+Upgrade × Opaque
+Upgrade × Not rated by S&P
+Upgrade × CorruptRisk index from SII
+Upgrade × CorruptConvictions 2010
+Upgrade × CorruptConvictions 2010−2012
+Upgrade
+
+State
+
+County
+
+City
+
+Opaque
+
+Not rated by S&P
+
+CorruptRisk index from SII
+
+CorruptConvictions 2010
+CorruptConvictions 2010−2012
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+−0.17
+(0.10)
+
+∗
+
+−0.16
+(0.09)
+
+∗
+
+−0.15
+(0.08)
+
+∗
+
+−0.06
+(0.11)
+
+−0.17
+(0.06)
+
+∗∗∗
+
+−0.16
+(0.06)
+
+∗∗∗
+
+−0.17
+(0.06)
+
+∗∗∗
+
+−0.22
+(0.09)
+
+∗∗
+
+−0.04
+(0.10)
+
+−0.04
+(0.09)
+
+0.10
+(0.07)
+
+0.02
+(0.09)
+
+−0.10
+(0.05)∗∗
+
+−0.22
+(0.05)
+
+∗∗∗
+
+−0.11
+(0.05)
+−0.21
+(0.05)
+
+∗∗
+∗∗∗
+
+0.08
+(0.04)∗∗
+
+0.08
+(0.04)
+
+∗∗
+
+(continued)
+
+T
+h
+e
+R
+e
+v
+i
+e
+w
+o
+f
+
+F
+i
+n
+a
+n
+c
+i
+a
+l
+
+S
+t
+u
+d
+i
+e
+s
+
+/
+
+v
+
+3
+1
+
+n
+
+6
+
+2
+0
+1
+8
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[
+
+1
+0
+
+:
+
+0
+4
+
+1
+2
+
+/
+
+5
+
+/
+
+2
+0
+1
+8
+
+-
+
+-
+
+R
+F
+S
+O
+P
+R
+E
+V
+F
+1
+7
+0
+1
+8
+2
+
+.
+t
+
+e
+x
+]
+
+P
+a
+g
+e
+
+:
+
+2
+0
+7
+1
+
+2
+0
+3
+8
+–
+2
+0
+7
+9
+
+Table 7
+Continued
+
+ Par
+
+ Duration2
+
+ Coupon
+
+ Outstanding bonds
+
+ GO
+
+ BAB
+
+ Callable
+
+ Negotiated
+
+Issuer rating pre-recal. FE?
+Issuer level of govt. FE?
+Issuer state FE?
+Adjusted R2
+N
+
+Level of government comparison
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+∗∗∗
+
+∗∗∗
+
+0.11
+(0.04)
+−0.00
+(0.01)
+0.30
+(0.03)
+0.01
+(0.15)
+−0.21
+∗∗∗
+(0.08)
+−0.52
+∗∗∗
+(0.05)
+0.12
+(0.05)∗∗
+−0.10
+(0.07)
+Yes
+No
+Yes
+
+∗∗∗
+
+∗∗∗
+
+0.10
+(0.04)
+−0.00
+(0.01)
+0.30
+(0.03)
+−0.00
+(0.15)
+−0.22
+∗∗∗
+(0.08)
+−0.52
+∗∗∗
+(0.05)
+0.12
+(0.05)∗∗
+−0.09
+(0.07)
+Yes
+No
+Yes
+
+0.27
+865
+
+0.26
+865
+
+∗∗∗
+
+∗∗∗
+
+0.11
+(0.04)
+−0.00
+(0.01)
+0.29
+(0.03)
+0.01
+(0.15)
+−0.23
+∗∗∗
+(0.08)
+−0.53
+∗∗∗
+(0.05)
+0.13
+(0.05)∗∗
+−0.10
+(0.07)
+
+Yes
+No
+Yes
+
+865
+
+0.27
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.09
+(0.03)
+−0.01
+(0.01)
+0.28
+(0.03)
+−0.06
+(0.14)
+−0.28
+(0.08)
+−0.49
+(0.05)
+0.17
+(0.05)
+−0.08
+(0.07)
+Yes
+Yes
+Yes
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.08
+(0.03)
+0.00
+(0.01)
+0.24
+(0.02)
+0.01
+(0.11)
+−0.21
+(0.06)
+−0.46
+(0.04)
+0.13
+(0.04)
+−0.07
+(0.05)
+Yes
+Yes
+No
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.09
+(0.03)
+−0.01
+(0.01)
+0.29
+(0.03)
+−0.07
+(0.14)
+−0.29
+(0.08)
+−0.48
+(0.05)
+0.18
+(0.05)
+−0.08
+(0.07)
+Yes
+Yes
+No
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+0.09
+(0.03)
+−0.01
+(0.01)
+0.29
+(0.03)
+−0.06
+(0.14)
+−0.29
+(0.08)
+−0.48
+(0.05)
+0.18
+(0.05)
+−0.08
+(0.07)
+Yes
+Yes
+No
+
+0.24
+865
+
+0.31
+865
+
+0.24
+865
+
+0.24
+865
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+∗∗∗
+
+(8)
+
+0.09
+(0.03)
+−0.01
+(0.01)
+0.29
+(0.03)
+−0.06
+(0.15)
+−0.29
+(0.08)
+−0.48
+(0.05)
+0.18
+(0.05)
+−0.08
+(0.07)
+Yes
+Yes
+No
+
+0.24
+865
+
+This table displays OLS regression results with  Spread to after-tax Treasury2 as the dependent variable. This variable is deﬁned in the legend of Table A.5. Upgrade is an indicator
+variable taking a value of one if the issuer experienced an upgrade on its outstanding bonds during any of the recalibration events and zero if the issuer’s bonds experienced no change
+in ratings. State (County, City) is an indicator variable taking a value of one if the issuer is a state (county, city) and zero if the issuer is any other level of government. Opaque
+is an indicator taking a value of one if the issuer is, or is located in, a state with above-median opacity. We measure opacity with a state-level index developed by U.S. PIRG that
+evaluates the 50 states by the extent to which they provide online access to government spending data. The opacity index is from 2010. Not rated by S&P is an indicator variable taking
+a value of one if none of the issuer’s bonds were rated by S&P in the year prior to Moody’s recalibration and zero otherwise. CorruptRisk index f rom SI I is an indicator variable
+taking a value of one if the issuer is, or is located within, a state with above-median corruption risk. We measure corruption risk with a state-level corruption risk index developed by
+the State Integrity Investigation. The corruption risk index is a snapshot from 2013. CorruptConvict ions 2010 is the number of public ofﬁcials convicted of corruption in the issuer’s
+state in 2010 divided by the state’s population in the same year, standardized to follow a mean-zero, unit-variance distribution. CorruptConvict ions 2010−2012 is the average number
+of public ofﬁcials convicted of corruption in the issuer’s state from 2010 to 2012 divided by the state’s average population over the same time period, standardized to follow a mean-
+zero, unit-variance distribution. Convictions data are available on an annual basis from the U.S. Department of Justice’s website. Control variables are deﬁned in the legend of Table
+A.5. Issuer rating pre-recalibration FE and Issuer rating post-recalibration FE are ﬁxed effects based on the average rating of all outstanding bonds for each issuer before and after
+the recalibration dates, respectively. Issuer level of government FE are ﬁxed effects based on whether the issuer is a state, county, city, or other. Issuer state FE are ﬁxed effects
+based on the issuer’s state. Standard errors are in parentheses below coefﬁcient estimates. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% levels, respectively.
+
+2
+0
+7
+1
+
+C
+r
+e
+d
+i
+t
+
+R
+a
+t
+i
+n
+g
+s
+
+a
+n
+d
+
+t
+h
+e
+C
+o
+s
+t
+
+o
+f
+
+M
+u
+n
+i
+c
+i
+p
+a
+l
+
+F
+i
+n
+a
+n
+c
+i
+n
+g
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+greater value destruction by advanced refunding. We posit that corrupt states
+have less reliable disclosure and test whether market participants therefore rely
+more heavily on ratings when pricing new issues from these states. Column
+(6) employs a measure of corruption risk provided by the State Integrity
+Investigation (SII).28 Columns (7) and (8) consider the number of public
+ofﬁcials convicted of corruption, obtained from the U.S. Department of Justice.
+In column (7), we focus on corruption convictions in the year of the recalibration
+event. In column (8), we consider the conviction rate over the 2010–12 window.
+We use convictions data from years shortly after the recalibration event because
+convictions represent the culmination of the legal process (e.g., arrests and
+indictments that occurred in earlier years). Therefore, convictions from 2010
+to 2012 may reﬂect corruption that came to light around the time of the
+recalibration. We standardize each proxy to follow a mean-zero, unit-variance
+distribution.
+
+The direct effect of corruption risk in columns (7) and (8) is an 8-bp increase
+in credit spreads, signiﬁcant at 5%. The interaction terms in these speciﬁcations
+indicate that Moody’s recalibration effect is stronger (signiﬁcant at 5%) among
+municipal issuers from corrupt states. This result suggests a certiﬁcation role
+of the CRA in a manner similar to the underwriter certiﬁcation role in an initial
+public offering (IPO) of a previously private and therefore opaque ﬁrm. Overall,
+results from Table 7 support the conclusion that market reliance on credit
+ratings appears greatest in the weakest information environments. Because bond
+prices reﬂect information not captured in the credit rating, our results suggest
+some level of investor due diligence even in a market dominated by retail
+investors.
+
+3.5 Regulatory effects of credit ratings
+Because our research setting is the municipal bond market, a market dominated
+by unregulated investors, we conclude that the market reaction to Moody’s
+recalibration cannot be attributed to an increase in demand for highly rated
+securities among regulated investors. However, many observers feel that
+ratings matter primarily, if not only, because of their regulatory implications.
+We attempt to provide direct tests for this explanation in this section. We
+start by categorizing upgrades based on their likely regulatory implications.
+Speciﬁcally, reserve requirements and other ratings-based regulations are
+typically written around broad rating categories (e.g., Aaa, Aa, A, Baa) rather
+than notches (e.g., Aa1, Aa2, Aa3).
+
+In order to isolate the effect of a regulatory threshold from magnitude
+of upgrade, we examine one-notch upgrades separately from two-notch
+
+28 The corruption risk index is a snapshot from 2013. We assume the corruption risk in 2013 is correlated with such
+risk over our sample period. Corruption risk measures are available at http://www.stateintegrity.org/your_state.
+
+2072
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2072 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+upgrades.29 We ﬁrst restrict our treatment group to one-notch upgrades and
+separate bonds upgraded into a new broad rating category (e.g., from A1 to
+Aa3) from those remaining in the original broad category (e.g., A2 to A1).
+Separately, we restrict our treatment group to two-notch upgrades and separate
+bonds upgraded into a new broad rating category (e.g., from A2 to Aa3) from
+those that remain in the original broad rating category (e.g., A3 to A1). In
+either case, the upgrades crossing a broad rating category should have greater
+regulatory implications than upgrades of the same magnitude that do not cross
+a threshold.
+
+We test the regulatory hypothesis in Table 8. In Panel A, we compare changes
+in secondary market spreads (relative to the control group) in a multivariate
+framework with ﬁxed effects (as in Table 4). We ﬁnd no differential impact
+of the recalibration among upgraded bonds that do and do not cross into new
+broad rating categories. These non-results corroborate the idea that our main
+results do not reﬂect changes in regulation-based demand.
+
+In Panel B, we compare the primary market credit spreads at the issuer
+level (relative to the control group with zero-notch upgrades) in a multivariate
+framework, as in Table 6. The direct effect Regulatory status change drops
+from the regressions because this variable does not vary by issuer from the pre-
+recalibration period to the post-recalibration period. We also exclude Issuer
+rating pre-recalibration FE because this characteristic correlates with whether
+upgraded issuers change regulatory status. (For example, upgraded issuers with
+pre-recalibration ratings of Aa1, Moody’s highest rating in the Aa category,
+necessarily change regulatory status.) In this panel, column (1) shows a greater
+impact of Moody’s recalibration among issuers whose bonds were upgraded
+one notch across a regulatory threshold relative to those with one notch upgrades
+that remained within a broad rating category. This 15-bp difference is signiﬁcant
+at 5% and is the only evidence we have to support a regulatory channel by which
+credit ratings impact muni prices. Column (2) shows no signiﬁcant result among
+the two-notch upgrades.
+
+Given (limited) evidence to support the regulatory channel in column (1),
+we further test for regulatory effects among this sample. Speciﬁcally, some
+ratings-based regulations include “lowest rating binds” provisions. We test for
+effects of such regulations by adjusting the criteria for Regulatory status change.
+We refer to the criteria used thus far as “criteria i.” Under “criteria ii,” the
+variable Regulatory status change takes a value of one if the issuer’s bonds
+had more pessimistic ratings from Moody’s than S&P prior to recalibration
+and equal to or more optimistic than S&P after recalibration. Regulatory status
+change takes a value of zero for issuers whose bonds were not upgraded as a
+result of recalibration, upgraded issuers whose bonds still have more pessimistic
+ratings from Moody’s than S&P after recalibration, or upgraded issuers whose
+
+29 All else equal, a two-notch upgrade is more likely to cross into a new broad rating category than a one-notch
+upgrade. We discard upgrades greater than two notches because they necessarily cross into new broad categories.
+
+2073
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2073 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+bonds had equal or more optimistic ratings from Moody’s than S&P before
+recalibration.
+
+We introduce Regulatory status change under criteria ii to our baseline
+regression and interact it with Upgrade. We focus on issuers whose bonds were
+upgraded zero notches or one notch because this sample has more observations
+than the sample of issuers upgraded zero or two notches. If the effect of the
+recalibration is stronger among upgraded issuers whose bonds experienced
+a change in regulatory status, then the coefﬁcient on this interaction term
+should be negative. Although the sign is negative, the coefﬁcient on Upgrade
+× Regulatory status change is insigniﬁcant. The result appears in column (3)
+in Panel B.
+
+We conduct two additional tests to address the possibility that criteria i
+and criteria ii overlap. First, we redeﬁne Regulatory status change as the
+intersection of criteria i and ii. This approach allows us to test for regulatory
+effects among a select group of issuers whose bonds almost certainly changed
+
+Table 8
+The effect of recalibrated ratings on regulation-based demand
+
+Panel A: Secondary market regressions
+
+0 or 1 notches
+
+0 or 2 notches
+
+Post recal. × Upgrade × Reg. status change
+Post recalibration × Upgrade
+Upgrade × Regulatory status change
+
+Post recalibration
+
+Upgrade
+
+Par
+
+Duration2
+
+Coupon
+
+Outstanding bonds
+
+GO
+
+BAB
+
+Callable
+
+Negotiated
+
+Issue rating pre-recalibration FE?
+Issuer level of government FE?
+Issuer state FE?
+Moody’s sector FE?
+Adjusted R2
+N
+
+2074
+
+∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+∗∗∗
+
+(1)
+
+0.02
+(0.04)
+−0.07
+(0.03)
+−0.05
+(0.17)
+0.10
+(0.01)
+−0.26
+(0.15)
+0.07
+(0.04)
+0.11
+(0.01)
+0.05
+(0.04)
+−0.03
+(0.04)
+−0.18
+(0.14)
+−1.11
+(0.11)
+0.49
+(0.11)
+0.18
+(0.12)
+Yes
+Yes
+Yes
+Yes
+
+0.60
+2,356
+
+∗∗∗
+
+∗
+∗∗∗
+
+∗∗
+∗∗∗
+
+(2)
+
+0.03
+(0.08)
+0.02
+(0.06)
+−0.26
+(0.34)
+0.10
+(0.01)
+0.47
+(0.28)
+0.08
+(0.04)
+0.10
+(0.01)
+0.09
+(0.07)
+0.00
+(0.05)
+−0.41
+(0.19)
+−1.18
+(0.16)
+0.34
+(0.14)
+0.09
+(0.13)
+Yes
+Yes
+Yes
+Yes
+
+0.60
+1,618
+
+(continued)
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2074 2038–2079
+
+Credit Ratings and the Cost of Municipal Financing
+
+Table 8
+Continued
+Panel B: Issuer-level primary market regressions
+
+Criteria used to deﬁne Regulatory status change:
+Number of notches issuers are upgraded:
+
+i.
+
+0 or 1
+
+Upgrade × Reg. status change
+
+Upgrade
+
+ Par
+
+ Duration2
+
+ Coupon
+
+ Outstanding bonds
+
+ GO
+
+ BAB
+
+ Callable
+
+ Negotiated
+
+Constant
+
+Issuer level of govt. FE?
+Issuer state FE?
+Adjusted R2
+N
+
+i.
+
+0 or 2
+
+(2)
+
+0.11
+(0.14)
+−0.24
+∗
+(0.14)
+0.13
+(0.05)
+−0.03
+(0.02)
+0.45
+(0.04)
+−0.06
+(0.18)
+−0.21
+∗
+(0.12)
+−0.76
+(0.09)
+0.32
+(0.08)
+0.01
+(0.10)
+0.38
+(0.08)
+Yes
+Yes
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+ii.
+
+0 or 1
+
+(cid:4)
+
+ii.
+i.
+0 or 1
+
+(cid:5)
+
+ii.
+i.
+0 or 1
+
+(3)
+−0.04
+(0.08)
+−0.17
+(0.08)
+0.01
+(0.05)
+0.06
+(0.02)
+0.29
+(0.04)
+−0.13
+(0.26)
+−0.35
+(0.12)
+−0.70
+(0.08)
+0.25
+(0.08)
+−0.08
+(0.11)
+0.53
+(0.08)
+Yes
+Yes
+
+∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+(4)
+−0.27
+(0.16)
+−0.15
+∗
+(0.09)
+−0.03
+(0.06)
+0.04
+∗
+(0.02)
+0.43
+(0.06)
+−0.59
+∗
+(0.33)
+−0.23
+(0.16)
+−0.64
+(0.10)
+0.34
+(0.10)
+−0.04
+(0.14)
+0.60
+(0.10)
+Yes
+Yes
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+(5)
+−0.10
+(0.06)
+−0.11
+∗
+(0.06)
+0.08
+(0.04)
+0.00
+(0.02)
+0.36
+(0.03)
+−0.01
+(0.14)
+−0.36
+(0.10)
+−0.69
+(0.06)
+0.28
+(0.06)
+−0.04
+(0.08)
+0.44
+(0.06)
+Yes
+Yes
+
+∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗
+
+∗∗∗
+
+∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+∗∗∗
+
+(1)
+−0.15
+(0.07)
+−0.14
+(0.05)
+0.08
+(0.04)
+−0.02
+(0.02)
+0.40
+(0.03)
+−0.02
+(0.14)
+−0.29
+(0.11)
+−0.69
+(0.06)
+0.31
+(0.06)
+−0.04
+(0.08)
+0.44
+(0.06)
+Yes
+Yes
+
+0.38
+704
+
+0.40
+428
+
+0.32
+500
+
+0.38
+318
+
+0.35
+773
+
+Panel A displays OLS regression results with Spread to after-tax Treasury2 as the dependent variable. This variable is
+deﬁned in the legend of Table A.2 and is averaged across transactions by bond either during the 30-day window before
+Moody’s published the Primary Algorithm or after the bond’s recalibration date. We require the bonds to have trading
+in both 30-day periods before Moody’s published the Primary Algorithm and after the bond’s recalibration date to be
+included in the regressions. Post recalibration is an indicator variable taking a value of one if the observation is from
+the 30-day window after the bond’s recalibration date and zero if the observation is from the 30-day period prior to
+Moody’s publication of the Primary Algorithm. We exclude data from the day of the bond’s recalibration. Upgrade is
+an indicator variable taking a value of one if the bond experienced an upgrade during the recalibration event and zero if
+the bond experienced no change in ratings. Regulatory status change is an indicator variable taking a value of zero for
+bonds that were not upgraded as a result of recalibration or were upgraded but remained within the same broad rating
+category. Other control variables are deﬁned in the legend of Table A.2. Issue rating pre-recalibration FE are ﬁxed effects
+based on the bond’s rating before the bond’s recalibration. Issuer level of government FE are ﬁxed effects based on
+whether the issuer is a state, county, city, or other. Issuer state FE are ﬁxed effects based on the issuer’s state. Moody’s
+sector FE are ﬁxed effects based on the four sectors into which Moody’s classiﬁes bonds in its Primary Algorithm. We
+obtain municipal bond prices from the Municipal Securities Rulemaking Board (MSRB). We cluster standard errors by
+issuer.
+Panel B displays OLS regression results with  Spread to after-tax Treasury2 as the dependent variable. This variable
+is deﬁned in the legend of Table A.5. For this panel, Upgrade is an indicator variable taking a value of one if the issuer
+experienced an upgrade on its outstanding bonds during any of the recalibration events and zero if the issuer’s bonds
+experienced no change in ratings. In column 1 (column 2) Regulatory status change is an indicator variable taking a value
+of one if the issuer’s bonds changed regulatory status as a result of recalibration and zero if not. We use two criteria to
+identify issuers whose bonds change regulatory status. For criteria i., Regulatory status change is an indicator variable
+taking a value of one if the issuer’s bonds were upgraded one notch as a result of recalibration and the rating change
+crossed into a new broad rating category. Under criteria i, Regulatory status change takes a vale of zero for issuers whose
+bonds were not upgraded as a result of recalibration or whose bonds were upgraded one notch but remained within the
+same broad rating category. For criteria ii, Regulatory status change is an indicator variable taking a value of one if the
+issuer’s bonds had more pessimistic ratings from Moody’s than S&P prior to recalibration and equal to or more optimistic
+than S&P after recalibration. Under criteria ii, Regulatory status change takes a value of zero for issuers whose bonds
+were not upgraded as a result of recalibration, upgraded issuers whose bonds have more pessimistic ratings from Moody’s
+than S&P after recalibration, or upgraded issuers whose bonds had equal or more optimistic ratings from Moody’s than
+S&P before recalibration. The regression in column (4) deﬁnes Regulatory status change as the intersection of criteria i
+and ii. The regression in column (5) deﬁnes Regulatory status change as the union of criteria i and ii. Control variables
+are deﬁned in the legend of Table A.5. *, **, and *** indicate statistical signiﬁcance at the 10%, 5%, and 1% levels,
+respectively.
+
+2075
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2075 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+regulatory status. Column (4) in Panel C contains the results. The coefﬁcient on
+Upgrade × Regulatory status change is large (–27 bp) but insigniﬁcant. Next,
+we redeﬁne Regulatory status change as the union of criteria i and ii. This
+approach liberalizes the deﬁnition of which issuers’ bonds changed regulatory
+status. The coefﬁcient on Upgrade × Regulatory status change is negative but
+insigniﬁcant. Overall, Table 8 provides at most limited support for a regulatory
+effect of the recalibration, no matter how we deﬁne a change in regulatory
+status.
+
+4. Conclusion
+
+Our contribution to the literature is evidence that credit ratings affect securities
+prices because investors rely on them to assess credit risk, not just because
+ratings affect regulatory compliance costs. This is the core and classic function
+of credit ratings. Despite advances in information technology and a rise in
+alternative sources for credit risk analysis, we show that investors still rely on
+ratings in the modern era. However, in contrast to an exclusive reliance on
+ratings, we also ﬁnd that investors rely most heavily on credit ratings in the
+poorest information environments. Finally, we document that investor reliance
+on credit ratings has real economic effects for issuers and taxpayers.
+
+This evidence is important for several reasons. First, the premise that
+investors take ratings at face value underlies a host of high-proﬁle lawsuits
+following the recent ﬁnancial crisis, including cases brought against Moody’s
+and S&P by the U.S. Department of Justice. Second, our results indicate
+that efforts to reduce regulatory reliance on ratings (FSB Principle I and
+Dodd-Frank Section 939A) will not negate the role of credit rating agencies
+in the economy. We conclude that regulators concerned about mechanistic
+reliance on ratings—and municipal issuers concerned about the fairness of
+rating standards that vary across asset classes—should focus on increasing
+and standardizing disclosure requirements across state and local governments.
+Such disclosure improvements should further support regulatory efforts to
+protect retail investors participating in muni markets.30 Our results from the
+municipal market suggest similar beneﬁts to increased transparency among
+currently opaque special-purpose entities issuing structure ﬁnance products.
+
+Finally, we estimate that Moody’s more stringent municipal rating scale,
+coupled with investor reliance on ratings to price risk, cost taxpayers an
+aggregate $960 million annually in excess interest. This estimate is conservative
+as it reﬂects only the aggregate excess interest of our sample of uninsured
+bonds. A more comprehensive estimate would include any excess insurance
+premiums paid by municipalities choosing to purchase bond insurance
+rather than pay higher interest rates. This estimate is timely as the U.S.
+
+30 See SEC Commissioner Aguilar’s February 2015 comments at http://www.sec.gov/news/statement/making-
+
+municipal-securities-market-more-transparent-liquid-fair.html.
+
+2076
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2076 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+U.S. Securities and Exchange Commission (2011) considers the Dodd-Frank
+mandate to standardize credit ratings across all rated securities (see §938). This
+estimate should also be of interest to the states, cities, and public agencies that
+have called for an end to the dual-class rating system. For example, the State
+of Connecticut recently ﬁled (and settled) a lawsuit against the rating agencies,
+stating, “The credit rating agencies and bond insurers have enjoyed enormous
+proﬁts, at the expense of taxpayers, as a result of this deceptive dual rating
+system. The harm to taxpayers across the country is real and substantial.”31
+
+References
+
+Adelino, M., I. Cunha, and M. A. Ferriera. Forthcoming. The economic effects of public ﬁnancing: Evidence
+from municipal bond ratings recalibration. Review of Financial Studies. doi: https://doi.org/10.1093/rfs/hhx049.
+
+Almeida, H., I. Cunha, M. A. Ferreira, and F. Restrepo. 2017. The real effects of credit ratings: Using sovereign
+downgrades as a natural experiment. Journal of Finance 72:249–90.
+
+Alp, A. 2013. Structural shifts in credit ratings. Journal of Finance 68:2435–70.
+
+Ang, A., R. C. Green, F. A. Longstaff, and Y. Xing. Forthcoming. Advance refunding of municipal bonds. Journal
+of Finance.
+
+Ashcraft, A., P. Goldsmith-Pinkham, P. Hull, and J. Vickery. 2011. Credit ratings and security prices in the
+subprime MBS market. American Economic Review: Papers & Proceedings 101:115–19.
+
+Bar-Isaac, H., and J. Shapiro. 2013. Ratings quality over the business cycle. Journal of Financial Economics
+108:62–78.
+
+Becker, B., and V. Ivashina, 2015. Reaching for yield in the bond market. Journal of Finance 70:1863–1902.
+
+Begley, T. A., 2015. The real costs of corporate credit ratings. Working paper, Washington University.
+
+Bessembinder, H., K. M. Kahle, W. F. Maxwell, and D. Xu. 2009. Measuring abnormal bond performance.
+Review of Financial Studies 22:4219–58.
+
+Bolton, P., X. Freixas, and J. Shapiro. 2012. The credit ratings game. Journal of Finance 67:85–112.
+
+Bongaerts, D. 2013. Can alternative business models discipline credit rating agencies? Working Paper, Erasmus
+University.
+
+Bruno, V., J. Cornaggia, and K. J. Cornaggia. 2016. Does regulatory certiﬁcation affect the information content
+of credit ratings? Management Science 62:1578–97.
+
+Butler, A. W. 2008. Distance still matters: Evidence from municipal bond underwriting. Review of Financial
+Studies 21:763–84.
+
+Butler, A. W., L. Fauver, and S. Mortal. 2009. Corruption, political connections, and municipal ﬁnance. Review
+of Financial Studies 22:2673–2705.
+
+Chen, Z., A. A. Lookman, N. Schürhoff, and D. J. Seppi. 2014. Rating-based investment practices and bond
+market segmentation. Review of Asset Pricing Studies 4:162–205.
+
+Cornaggia, J., and K. J. Cornaggia. 2013. Estimating the costs of issuer-paid credit ratings. Review of Financial
+Studies 26:2229–69.
+
+31 See “House’s Frank says municipal ratings add unfair costs,” Bloomberg, March 12, 2008: http://www.
+bloomberg.com/apps/news?pid=newsarchive&sid=a2Mx_BNUsDZA&refer=home. See also press release from
+the Connecticut Attorney General’s Ofﬁce, July 30, 2008, available at http://www.ct.gov/ag/cwp/view.
+asp?a=2795&q=420390.
+
+2077
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2077 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+The Review of Financial Studies / v 31 n 6 2018
+
+Cornaggia, J., K. J. Cornaggia, and J. Hund. 2017. Credit ratings across asset classes. Review of Finance 21:465–
+509.
+
+Cornaggia, J., K. J. Cornaggia, and H. Xia. 2016. Revolving doors on Wall Street. Journal of Financial Economics
+120:400–419.
+
+Cuny, C. 2016. Voluntary disclosure incentives: Evidence from the municipal bond market. Journal of Accounting
+and Economics 62:87–102.
+
+Dichev, I. D., and J. D. Piotroski. 2001. The long-run stock returns following bond ratings changes. Journal of
+Finance 41:173–203.
+
+Dick-Nielsen, J., P. Feldhutter, and D. Lando. 2012. Corporate bond liquidity before and after the onset of the
+subprime crisis. Journal of Financial Economics 103:471–92.
+
+Ederington, L. H., and J. C. Goh. 1998. Bond rating agencies and stock analysts: Who knows what when? Journal
+of Financial and Quantitative Analysis 33:569–85.
+
+Ekins, E. M., and M. A. Calabria. 2012. Regulation, market structure, and role of the credit rating agencies.
+Policy Analysis 704:1–36.
+
+Ellul, A., C. Jotikasthira, and C. Lundblad. 2011. Regulatory pressure and ﬁre sales in the corporate bond markets.
+Journal of Financial Economics 101:96–620.
+
+Financial Stability Board. 2010. Principles for reducing reliance on CRA ratings. www.ﬁnancialstabilityboard.
+org/publications/r_121105b.pdf.
+
+———. 2012. Roadmap and workshop for reducing reliance on CRA ratings. www.ﬁnancialstabilityboard.
+org/wp-content/uploads/r_121105b.pdf.
+
+Fulghieri, P., G. Strobl, and H. Xia. 2014. The economics of solicited and unsolicited credit ratings. Review of
+Financial Studies 27:484–515.
+
+Goel, A. M., and A. V. Thakor. 2015. Information reliability and welfare: A theory of coarse credit ratings.
+Journal of Financial Economics 115:541–57.
+
+Goh, J. C., and L. H. Ederington. 1993. Is a bond rating downgrade good news, bad news or no news to
+stockholders? Journal of Finance 48:2001–8.
+
+Gore, A. K. 2004. The effects of GAAP regulation and bond market interaction on local government disclosure.
+Journal of Accounting and Public Policy 23:23–52.
+
+Grifﬁn, J. M., J. Nickerson, and D. Y. Tang. 2013. Rating shopping or catering? An examination of the response
+to competitive pressure for CDO ratings. Review of Financial Studies 26:2270–2310.
+
+Grifﬁn, J. M., and D. Tang. 2012. Did subjectivity play a role in CDO credit ratings? Journal of Finance
+67:1293–1328.
+
+Hand, J. R. M., R. W. Holthausen, and R. W. Leftwich. 1992. The effect of bond rating agency announcements
+on bond and stock prices. Journal of Finance 47:733–52.
+
+Harris, L., and M. Piwowar. 2006. Secondary trading costs in the municipal bond market. Journal of Financial
+Economics 61:1361–97.
+
+He, J., J. Qian, and P. E. Strahan. 2012. Are all ratings created equal? The impact of issuer size on the pricing of
+mortgage-backed securities. Journal of Finance 67:2097–2137.
+
+Hettenhouse, G. W., and W. L. Sartoris. 1976. An analysis of the information value of bond rating changes.
+Quarterly Review of Economics and Business 16:65–78.
+
+Hite, G., and A. Warga. 1997. The effect of bond-rating changes on bond price performance. Financial Analysts
+Journal 53:35–51.
+
+Holthausen, R. W., and R. W. Leftwich. 1986. The effect of bond rating changes on common stock prices. Journal
+of Financial Economics 17:57–89.
+
+2078
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2078 2038–2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+Credit Ratings and the Cost of Municipal Financing
+
+Ingram, R. W., L. E. Brooks, and R. M. Copeland. 1983. The information content of municipal bond rating
+changes: A note. Journal of Finance 38:997–1003.
+
+Kisgen, D. J. 2012. The real and ﬁnancial effects of credit ratings: Evidence from Moody’s adjustments. Working
+Paper, Boston College.
+
+Kliger, D., and O. Sarig. 2000. The information value of bond ratings. Journal of Finance 55:2879–2903.
+
+Liu, P., and A. V. Thakor. 1984. Interest yields, credit ratings, and economic characteristics of state bonds: An
+empirical analysis: Note. Journal of Money, Credit, and Banking 16:344–51.
+
+Moody’s Investors Service. 2006. Analyzing the tradeoff between ratings accuracy and stability.
+
+———. 2007. The U.S. municipal bond rating scale: Mapping to the global rating scale and assigning global
+scale ratings to municipal obligations.
+
+———. 2010. Recalibration of Moody’s U.S. municipal ratings to its global rating scale.
+
+Opp, C., M. Opp, and M. Harris. 2013. Rating agencies in the face of regulation. Journal of Financial Economics
+108:46–61.
+
+Partnoy, F. 1999. The Siskel and Ebert of ﬁnancial markets: two thumbs down for the credit rating agencies.
+Washington University Law Quarterly 77:619–712.
+
+Pinches, G. E., and J. C. Singleton. 1978. The adjustment of stock prices to bond rating changes. Journal of
+Finance 33:29–44.
+
+Skreta, V., and L. Veldkamp. 2009. Ratings shopping and asset complexity: A theory of ratings inﬂation. Journal
+of Monetary Economics 56:678–95.
+
+Stanton, R., and N. Wallace. 2013. CMBS subordination, ratings inﬂation, and regulatory-capital arbitrage.
+Working Paper, University of California at Berkeley.
+
+Thakor, A. V., and P. Liu. 1984. Interest yields, credit ratings, and economic characteristics of state bonds: An
+empirical analysis: Note. Journal of Money, Credit, and Banking 16:344–51.
+
+U.S. Securities and Exchange Commission. 2011. Summary report of commission staff’s examinations of each
+NRSRO as required by Section 15E(p)(3)(c) of the Securities Exchange Act of 1934.
+
+Weinstein, M. I. 1977. The effect of a rating change announcement on bond price. Journal of Financial Economics
+5:329–50.
+
+Xia, H. 2014. Can investor-paid credit rating agencies improve the information quality of issuer-paid rating
+agencies? Journal of Financial Economics 111:450–68.
+
+[10:04 12/5/2018 RFS-OP-REVF170182.tex]
+
+Page: 2079 2038–2079
+
+2079
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+i
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+
+l
+
+ 
+
+/
+
+/
+
+/
+
+/
+
+/
+r
+f
+s
+/
+a
+r
+t
+i
+c
+e
+3
+1
+6
+2
+0
+3
+8
+4
+3
+1
+8
+8
+3
+3
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+

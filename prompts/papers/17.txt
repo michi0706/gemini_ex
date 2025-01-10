@@ -1,0 +1,2985 @@
+Journal of Development Economics 116 (2015) 74–88
+
+Contents lists available at ScienceDirect
+
+Journal of Development Economics
+
+j o u r n a l h o me p a g e : ww w . e l s e v i e r . c o m / l o c a t e / d e v e c
+
+Child mortality risk and fertility: Evidence from prevention of
+mother-to-child transmission of HIV☆
+Nicholas Wilson ⁎
+
+Department of Economics, Reed College, Portland, OR 97202, United States
+
+a r t i c l e
+
+i n f o
+
+a b s t r a c t
+
+A fundamental question in development and growth is whether and how fast fertility responds to reductions in
+child mortality risk. I use the expansion of prevention of mother-to-child transmission of HIV (PMTCT) in Zambia
+to provide some of the ﬁrst quasi-experimental evidence on this question. My results suggest that the local intro-
+duction of PMTCT reduced pregnancy rates by approximately 10%, particularly among likely HIV positive women
+and women in locations where PMTCT was available for a longer duration, and that PMTCT substantially in-
+creased breastfeeding rates.
+
+© 2015 Elsevier B.V. All rights reserved.
+
+Article history:
+Received 24 June 2013
+Received in revised form 27 January 2015
+Accepted 29 January 2015
+Available online 17 March 2015
+
+Keywords:
+Child mortality risk
+Demographic transition
+Fertility
+HIV/AIDS
+PMTCT
+Zambia
+
+1. Introduction
+
+A fundamental question in development and growth is whether
+and how fast fertility responds to reductions in child mortality risk. As
+
+☆ I would like to thank two anonymous referees, Richard Akresh, Quamrul Ashraf,
+Marianne Bitler, Alfredo Burlando, Raluca Buzdugan, Christopher Carpenter, Joseph
+Cummins, Carlos Dobkin, William Dow, Frederico Finan, Günther Fink, Jane Fortson,
+Andrew Foster, Willa Friedman, Paul Gertler, Erick Gong, Denise Hare, Robert Jensen,
+Patrick Kline, Sara Lalumia, Ronald Lee, Gianmarco Leon, Ethan Ligon, Adrienne Lucas,
+Jeremy Magruder, Zoë McClaren, Sandra McCoy, Edward Miguel, Nancy Padian, Gabriel
+Picone, Claus Pörtner, Jonathan Robinson, David Sahn, Lucie Schmidt, T. Paul Schultz,
+Manisha Shah, Lara Shore-Sheppard,
+Jeffrey Stringer, Anand Swamy, Harsha
+Thirumurthy, Waly Wane, Tara Watson, David Weil, Joshua Wilde, and the seminar partic-
+ipants at the 2013 Annual Conference on Economic Development in Africa at the Centre
+for the Study of African Economies (CSAE) at the University of Oxford, the NBER Africa
+Project Zanzibar Conference, NEUDC 2012 at Yale University, the 1st NOVAFRICA
+Conference on Economic Development in Africa at the NOVA School of Business and
+Economics, the 2012 Population Association of America (PAA) Annual Meeting in San
+Francisco, California, the 6th Annual PopPov Conference on Population, Reproductive
+Health, and Economic Development in Accra, Ghana, Reed College, the University of
+California, Berkeley, the University of California, Irvine, the University of California, Santa
+Cruz, the University of Oregon, the University of South Florida, and Williams College for
+the many excellent comments. Madeleine Watson and Wentao Xiong provided superb re-
+search assistance. The NBER Africa Project provided generous ﬁnancial and institutional
+support. This research would not be possible without the assistance of the Network of
+Zambian People Living with HIV/AIDS (NZP+), the Zambia Central Statistical Ofﬁce, and
+the Zambia Ministry of Health. All errors are my own. The ﬁndings, interpretations, and
+conclusions expressed in this paper are those of the author and do not necessarily repre-
+sent the views of the aforementioned individuals or agencies.
+
+⁎ Tel.: +1 503 517 7733; fax: +1 503 777 7776.
+
+E-mail address: nwilson@reed.edu.
+
+http://dx.doi.org/10.1016/j.jdeveco.2015.01.007
+0304-3878/© 2015 Elsevier B.V. All rights reserved.
+
+standards of living rise and public health efforts improve, poor countries
+have experienced large reductions in child mortality.1 Standard eco-
+nomic models of fertility suggest that fertility may fall in response to in-
+creases in child survival and household investment in children's human
+capital may increase (Becker and Gregg Lewis, 1973; Lee, 2003; Schultz,
+1997).2 However, other theories of fertility do not necessarily generate
+this prediction and there is a classic concern that fertility may not re-
+spond to child mortality reductions, leading to rapid population growth
+and possibly reducing income per capita (Acemoglu and Johnson, 2007;
+Malthus, 1798; Preston, 1975).
+
+A major obstacle to answering this question is the lack of experimen-
+tal evidence on the effects of child mortality risk (Schultz, 1997). Many
+studies are purely theoretical (e.g., Becker and Gregg Lewis, 1973;
+Sah, 1991; Soares, 2005) or rely solely on non-experimental varia-
+tion in child mortality and fertility (e.g., Angeles, 2010; Ben-Porath,
+1976; Boucekkine et al., 2009; Hossain et al., 2007; Kalemli-Ozcan,
+2002; Wolpin, 1984). Other studies that exploit quasi-experimental var-
+iation in disease risk (e.g., Acemoglu and Johnson, 2007; Durevall and
+Lindskog, 2011; Fortson, 2009; Juhn et al., 2013; Kalemli-Ozcan, 2012;
+
+1 For example, consider countries in the two poorest regions of the world over the past
+20 years. Between 1990 and 2010, under-5 child mortality (per 1000 live births) fell from
+116 to 63 in Southern Asia and from 178 to 112 in Sub-Saharan Africa (UNICEF, 2012).
+
+2 Bleakley and Lange (2009) provide evidence from hookworm eradication in the
+American South that the reduction in child morbidity increased household investment
+in children's schooling.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+75
+
+Kalemli-Ozcan and Turan, 2011; Lucas, 2013) are unable to isolate the ef-
+fect of child mortality risk from adult mortality and morbidity risk.
+
+I exploit the rapid expansion of a critical reproductive health tech-
+nology in Zambia designed to reduce child mortality risk by reducing
+mother-to-child transmission (MTCT) of HIV.3 Antiretroviral drugs for
+the prevention of mother-to-child transmission of HIV (PMTCT) reduce
+the cumulative probability of transmission from mother-to-child by as
+much as 45% in the absence of PMTCT to as little as 3% (Canning,
+2006; Dabis and Ekpini, 2002). As shown in Fig. 1, between 2000
+and 2007, the number of health facilities in Zambia offering PMTCT
+increased from fewer than 6 to nearly 600 (or 40% of facilities).4 In a
+country where the representative woman should expect to experience
+roughly 0.4 child deaths due to HIV over the course of her adult lifetime,
+this expansion should have generated large reductions in expected
+child mortality risk. 5Approximately 8% of children in Zambia are born
+HIV positive or acquire HIV through breastfeeding in the absence
+of PMTCT (Ministry of Health, Zambia, 2008; Torpey et al, 2010), of
+whom it is estimated that nearly 50% die by age 1 (Dabis and Ekpini,
+2002).6 A total fertility rate (TFR) in Zambia of 5.91 (Fortson, 2009)
+means that the representative woman in Zambia should expect to expe-
+rience roughly 0.4 child deaths due to HIV over the course of her child-
+bearing years.7 Although PMTCT generally refers to a package of
+interventions including HIV testing and breastfeeding advice, during
+the period I examine in the current analysis (i.e., 2007 and before), the
+national PMTCT program in Zambia focused primarily on providing
+antiretrovirals for PMTCT.8 Because the short course of antiretrovirals
+for PMTCT does not directly affect adult mortality risk and few women
+in Zambia who received PMTCT during the period I examine also re-
+ceived antiretrovirals as part of an ART program for adults (UNICEF,
+2010), PMTCT plausibly reduced child mortality risk without directly
+affecting adult mortality risk.
+
+My empirical strategy is a difference-in-differences approach.
+I augment the Japanese International Cooperation Agency 2006 Health
+Facilities Census, which includes the GPS coordinates of each health fa-
+cility in Zambia, with newly assembled data on the month and year
+each facility began offering PMTCT. Data on reproductive behavior and
+fertility outcomes come from repeated cross-sectional national house-
+hold surveys conducted before, during, and after the scale-up, where
+each survey year includes respondents from multiple interview
+months. Combined with detailed geographic information on the loca-
+tion of survey households, I use these data to measure how reproduc-
+tive behavior changes when PMTCT is introduced at a local health
+clinic. Multiple rounds of survey data before the introduction of
+PMTCT, as well as multiple rounds after the introduction PMTCT,
+mean that I am able to identify the effect of PMTCT on fertility while
+controlling for unobserved time-invariant characteristics of locations
+receiving PMTCT and differential trends between PMTCT and non-
+PMTCT locations.
+
+3 Several facts make Zambia an interesting case study. Adult HIV prevalence in Zambia is
+approximately 15% (Central Statistical Ofﬁce et al., 2009), making it the 5th highest HIV
+prevalence country in the world (UNAIDS, 2010). With a total fertility rate (TFR) of ap-
+proximately 6, Zambia is the 10th highest fertility country in the world (World Bank,
+2013).
+
+4 This paralleled a broader scale-up of PMTCT throughout much of Sub-Saharan Africa.
+Between 2005 and 2008, the proportion of HIV positive pregnant women receiving PMTCT
+increased from 15% to 45% and the proportion of infants born to HIV positive mothers re-
+ceiving PMTCT increased from 11% to 31% (WHO, 2010a).
+
+5 Adult HIV prevalence in Zambia is nearly 15% (Central Statistical Ofﬁce et al., 2009).
+6 There appears to be limited evidence on the mortality-age proﬁle for HIV positive in-
+fants who live past the age of 2 (Dabis and Ekpini, 2002). Presumably in this study setting
+the vast majority do not survive into adolescence.
+
+7 HIV/AIDS accounts for 12% of under-5 child mortality in Zambia (WHO, 2010b). Al-
+though data do not appear to be available for mortality shares at younger ages, HIV/AIDS
+likely accounts for a higher fraction of under-2 mortality than under-5 mortality because
+roughly one-half of HIV positive infants die by age 2 (Dabis and Ekpini, 2002).
+
+8 In Section 2 and in Section 6.5, I describe in more detail the evidence supporting this
+
+claim.
+
+I ﬁnd evidence that the local introduction of PMTCT may have re-
+duced pregnancy rates, particularly among demographic subgroups
+for whom theory predicts that we might observe a larger response.
+Point estimates from a variety of empirical speciﬁcations suggest that
+local PMTCT availability reduced pregnancy rates by approximately 2
+to 4 percentage points, or roughly 10% relative to the mean pregnancy
+rate. Consistent with a causal effect of local PMTCT introduction on
+fertility, I ﬁnd evidence suggesting that the fertility reduction was con-
+centrated among women who were more likely to be HIV positive and
+among women closer to the health facility where PMTCT was locally in-
+troduced. Likewise, a semi-parametric difference-in-differences analy-
+sis suggests the absence of a pre-local introduction “effect” and that
+the medium term response to local PMTCT introduction was larger
+than the short term response. I also ﬁnd that local PMTCT availability
+increased breastfeeding rates, an important input into child quality, by
+between roughly 5 and 20 percentage points, or approximately 10%
+relative to the mean breastfeeding rate.9
+
+There are at least two important caveats about these ﬁndings.
+First, in the full sample of respondents (i.e., including likely HIV
+negative women and women in locations where PMTCT has only
+been available a short period of time) simultaneously controlling
+for the availability of the two other main HIV/AIDS services
+(i.e., VCT and ART) and for two other major determinants of child
+mortality (i.e., piped water and bed nets) reduces the magnitude of
+the point estimate and increases the estimated standard error. This
+makes the fertility response statistically insigniﬁcant from zero in
+the full sample. Of course the results indicate a large and statistically
+signiﬁcant reduction in fertility among the two subgroups for whom
+theory suggests we should observe the largest responses to local
+PMTCT introduction (i.e., likely HIV positive women and women in
+locations where PMTCT has been available longer). Moreover, VCT,
+ART, and PMTCT expansion in Zambia was highly correlated, making
+it difﬁcult to separately identify the effect of PMTCT while condition-
+ing simultaneously on ART and VCT availability.10 Notably, control-
+ling for either ART or VCT alone does not dramatically affect the
+estimated effect of local PMTCT availability.
+
+Second, although pregnancy rates appear to have fallen in response
+to local PMTCT availability, population growth may have increased, par-
+ticularly in the short term. As I discuss in Section 6.5, the fertility reduc-
+tion implied by the estimated average effect of local PMTCT availability
+on pregnancy rates (i.e., equivalent to a 0.4 child reduction in TFR) is ap-
+proximately equal to the expected child mortality reduction if PMTCT
+were to eliminate MTCT of HIV.
+
+Although there is little quasi-experimental evidence on the effect of
+child mortality risk on fertility, this paper contributes to several related
+bodies of empirical literature. First, numerous studies (e.g., Aksan and
+Chakraborty, 2012; Angeles, 2010; Ben-Porath, 1976; Boucekkine et al.,
+2009; Hossain et al., 2007; Kalemli-Ozcan, 2002; Wolpin, 1984; Young,
+2005, 2007) examine the effect of child mortality risk on fertility using
+non-experimental data. Second, other research (e.g., Bleakley and Lange,
+2009) examines the effect of child morbidity risk on fertility.
+Third, there is research (e.g., Lucas, 2013) that examines the effects of dis-
+eases (e.g., malaria) that simultaneously affect child mortality/morbid-
+ity risk and adult mortality/morbidity risk or examine the effects of
+
+9 This is consistent with the predictions of a quantity–quality model, in which a de-
+crease in child quantity should be associated with an increase in child quality (Becker
+and Gregg Lewis, 1973). However, there exist at least three alternative interpretations.
+First, the increase in breastfeeding could be a response to the decreased risk of infecting
+one's child through breastfeeding. Second, widespread use of lactational amenorrhea as
+a contraceptive method in the developing world means that breastfeeding may simply
+be the mechanism by which women are decreasing pregnancy rates. Third, PMTCT ser-
+vices may include recommendations to breastfeed.
+10 Among female respondents in the 2007 Demographic Health Survey (i.e., the latest
+survey round I use in the analysis), the correlation between access to PMTCT, ART, and
+VCT (i.e., living with 20 km) is as follows. The correlation between PMTCT and VCT access
+is 0.80. The correlation between PMTCT and ART access is 0.68. The correlation between
+VCT and ART access is 0.59.
+
+76
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+600 
+
+500 
+
+400 
+
+300 
+
+200 
+
+100 
+
+0 
+
+2000 
+
+2001 
+
+2002 
+
+2003 
+
+2004 
+
+2005 
+
+2006 
+
+2007 
+
+cumulative number of PMTCT sites 
+
+Fig. 1. PMTCT availability in Zambia, 2000–2007.
+
+general mortality risk (e.g., life expectancy at birth) (e.g., Angeles,
+2010). Finally, a recent body of literature examines the effect of HIV/
+AIDS, a disease also simultaneously affecting child mortality risk and
+adult mortality risk, on fertility (e.g., Ahuja et al., 2008; Aksan and
+Chakraborty, 2012; Durevall and Lindskog, 2011; Fink and Linnemayr,
+2009; Fortson, 2009;
+Juhn et al., 2013; Kalemli-Ozcan, 2012;
+Kalemli-Ozcan and Turan, 2011; Young, 2005, 2007).
+
+Broadly speaking, these studies suggest that the fertility response to
+mortality/morbidity risk may not be uniform. Many studies (e.g., Aksan
+and Chakraborty, 2012; Angeles, 2010; Ben-Porath, 1976; Bleakley
+and Lange, 2009; Boucekkine et al., 2009; Hossain et al., 2007;
+Kalemli-Ozcan, 2002, 2012; Kalemli-Ozcan and Turan, 2011; Wolpin,
+1984; Young, 2005, 2007) ﬁnd evidence suggesting that fertility may
+fall in response to decreased mortality/morbidity risk. Other studies
+(e.g., Ahuja et al., 2008; Durevall and Lindskog, 2011; Fink and
+Linnemayr, 2009; Juhn et al., 2013; Lucas, 2013) ﬁnd evidence suggest-
+ing that fertility may rise in response to decreased mortality/morbidity
+risk.11 Finally, there is some published evidence (e.g., Durevall and
+Lindskog, 2011; Fortson, 2009; Juhn et al., 2013; Kalemli-Ozcan, 2012)
+indicating that fertility does not respond to mortality/morbidity
+risk.12,13,14
+
+One approach to reconciling these ﬁndings is to distinguish between
+the fertility response to child mortality risk and the fertility response to
+adult mortality risk. Young (2005) and Boucekkine et al. (2009) provide
+a mechanism by which adult mortality affects fertility and child mortal-
+ity has minimal effects on fertility. Namely, adult mortality is associated
+with reduced labor supply, which should raise wages and, in turn, the
+shadow price of child quantity (Becker and Gregg Lewis, 1973).15 The
+empirical evidence in Boucekkine et al. (2009), Angeles (2010), and
+Aksan and Chakraborty (2012) supports this distinction between
+the competing effects of child and adult mortality risk. This perspective
+
+11 Two caveats are in order. First, Fink and Linnemayr (2009) and Durevall and Lindskog
+(2011) only ﬁnd this negative association for speciﬁc demographic subgroups
+(i.e., educated women and older women, respectively). Second, Lucas (2013) concludes
+that the estimated fertility response to malaria eradication in Sri Lanka was due primarily
+to the relaxation of a biological fecundity constraint associated with malaria, not a behav-
+ioral response to malaria eradication.
+12 Durevall and Lindskog (2011) present evidence that: (i) on average, fertility in Sub-
+Saharan has not responded to the HIV/AIDS pandemic, (ii) among young women, fertility
+has increased in response to HIV/AIDS, and (iii) among older women, fertility has fallen in
+response to HIV/AIDS.
+13 The evidence in Juhn et al. (2013) suggests that: (i) average fertility has not responded
+to HIV/AIDS in Sub-Saharan Africa, and (ii) HIV positive women in Sub-Saharan Africa
+have lower fertility than HIV negative women.
+14 Kalemli-Ozcan (2012) presents: (i) cross-sectional evidence indicating a positive as-
+sociation between HIV/AIDS risk and fertility, and (ii) longitudinal evidence suggesting lit-
+tle association between change in HIV/AIDS risk and change in fertility.
+15 Boucekkine et al. (2009) provide another mechanism linking adult mortality to fertil-
+ity: adult mortality induces a positive income effect among surviving adults on quantity of
+children demanded.
+
+also reconciles the evidence on the negative fertility response (Durevall
+and Lindskog, 2011) (or no fertility response (Fortson, 2009)) to the
+HIV/AIDS pandemic in Sub-Saharan Africa as a whole and the negative
+fertility response to local PMTCT introduction in Zambia documented
+in the current analysis.
+
+My analysis makes at least two major contributions to our under-
+standing of the fertility response to mortality risk. First, these results ap-
+pear to be the ﬁrst quasi-experimental evidence that attempts to
+separately identify the fertility response to child mortality risk.16 Sec-
+ond, my analysis is the ﬁrst economic analysis to examine the fertility
+response to HIV/AIDS service expansion instead of the HIV/AIDS
+pandemic.17 Because each HIV/AIDS service tends to target one compo-
+nent of the HIV/AIDS pandemic (e.g., child mortality due to MTCT of HIV,
+or mortality among HIV positive adults), recent HIV/AIDS service expan-
+sion in Sub-Saharan Africa offers a scarce opportunity to study fertility
+and human capital responses to shocks plausibly isolated to directly af-
+fecting either child mortality or adult mortality.
+
+The paper is organized as follows. Section 2 describes the transmis-
+sion of HIV from mother-to-child in Zambia, the medical effects of
+PMTCT, and the expansion of PMTCT in Zambia. Section 3 provides a
+conceptual framework for thinking about the behavioral response to
+PMTCT scale-up. Section 4 describes the household survey and health
+facilities census data. Section 5 explains the empirical strategy I use to
+identify the fertility response to PMTCT scale-up. Section 6 presents
+and discusses the results. Section 7 concludes.
+
+2. PMTCT
+
+MTCT of HIV is one of the primary sources of new HIV infections. Ap-
+proximately 10% of new HIV infections are due to MTCT (De Cock et al.,
+2000). During the ﬁrst decade of the twenty-ﬁrst century, there were
+roughly 400,000 to 500,000 new perinatal and infant HIV infections
+each year (UNAIDS, 2010). The vast majority of MTCT is in Sub-
+Saharan Africa. More than 90% of pediatric HIV infections and 94% of pe-
+diatric AIDS deaths occur in this region (Foster and Williamson, 2000).
+Among pregnant women who are HIV positive, the likelihood of trans-
+mission of HIV in the absence of PMTCT is quite high. There are three ways
+in which a HIV positive woman may transmit the virus to her child: in
+utero, during childbirth, and through breastfeeding. The cumulative prob-
+ability of transmission in the absence of PMTCT is between 25 and 45% de-
+pending on breastfeeding behavior (Dabis and Ekpini, 2002). Children
+
+16 The aforementioned studies examining the fertility response to child mortality risk do
+not use experimental methods. Those fertility studies that do use quasi-experimental
+methods do not attempt to separate the effects of child mortality risk from the effects of
+adult mortality risk.
+17 de Walque et al. (2010) and Friedman (2012) examine the effects of antiretroviral
+therapy (ART) expansion on risky sexual behavior in Mozambique and Kenya,
+respectively.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+77
+
+who acquire HIV from their mother are very likely to die before reaching
+age ﬁve. Between 25 and 50% of HIV positive infants die by age 1. This ﬁg-
+ure rises to between 35 and 60% by age 2 (Brahmbhatt et al., 2001; Dabis
+et al, 2001; Spira et al., 1999; Taha et al., 1999).18
+
+PMTCT of HIV generally refers to a package of interventions designed
+to reduce MTCT of HIV. These interventions include counseling and test-
+ing for HIV, antiretroviral drugs to reduce vertical transmission,
+breastfeeding advice, and family planning.
+
+In high HIV prevalence environments, PMTCT should be highly effec-
+tive at reducing child mortality. Antiretroviral drugs appear to be partic-
+ularly important. Combination therapy (i.e., zidovudine (ZDV) and
+nevirapine (NVP)) administered at the three stages at which MTCT
+may occur virtually eliminates MTCT (Canning, 2006; Dabis and
+Ekpini, 2002). Single-dose NVP administered at these three stages re-
+duces MTCT by 10 to 25 percentage points (Guay et al., 1999; Jackson
+et al., 2003).19
+
+The exact mix of interventions has changed over time with new
+medical evidence and increased global funding for HIV/AIDS. Early
+PMTCT efforts in Zambia appear to have focused on counseling and test-
+ing. As early as May 2000 several clinics in Ndola city provided counsel-
+ing and testing for PMTCT as part of routine antenatal and postnatal care
+(Kalibala et al., 2003). Later, many clinics introduced prophylactic
+antiretrovirals, primarily single-dose NVP initially and then combina-
+tion therapy (i.e., zidovudine (ZDV) and NVP). By 2007, the National
+Protocol Guidelines stated an opt-out approach to HIV testing for preg-
+nant women at antenatal clinics and ﬁrst codiﬁed ofﬁcial breastfeeding
+advice (Ministry of Health, 2007). The 2010 National Protocol Guide-
+lines added family planning and condom promotion as part of ongoing
+postnatal care (Ministry of Health, 2010).
+
+The expansion of antiretrovirals for PMTCT began in the early 2000s.
+In the capital city, Lusaka, nine antenatal clinics offered PMTCT drugs in
+2002 and by January 2004 all twenty-four antenatal clinics in Lusaka
+city offered PMTCT drugs (Stringer et al., 2005). The Center for Infectious
+Disease Research in Zambia (CIDRZ), in collaboration with the Elizabeth
+Glaeser Pediatric AIDS Foundation (EGPAF), has supported PMTCT in
+four of Zambia's nine provinces: Eastern, Lusaka, Southern, and Western
+(Elizabeth Glaser Pediatric AIDS Foundation, 2011). Through the Zambia
+Prevention, Care, and Treatment Partnership (ZPCT), Family Health Inter-
+national (FHI) has supported PMTCT in the other ﬁve provinces: North-
+ern, Luapula, Copperbelt, Central, and Northwestern (Torpey et al.,
+2010). Single-dose NVP was the main prophylaxis in the early years of
+the Zambian PMTCT program and zidovudine (ZDV) (also known as azi-
+dothymidine (AZT)) and NVP in the later years of the program (Ministry
+of Health, 2007, 2010; Stringer et al., 2003, 2005).20,21
+
+18 There appears to be limited evidence on the mortality-age proﬁle for HIV positive in-
+fants who live past the age of 2 (Dabis and Ekpini, 2002). Presumably in this study setting
+the vast majority do not survive into adolescence.
+19 Although PMTCT and ART use roughly the same antiretroviral drugs, the complete
+regimen provided to the mother for PMTCT is approximately equal to the daily regimen
+provided to adults for ART. The World Health Organization guidelines for the period I ex-
+amine indicate a few main PMTCT regimen choices (WHO, 2006a). Broadly speaking, a
+standard PMTCT regimen would include: (i) antenatal doses of 300 mg of AZT (i.e., ZDV)
+twice a week starting at 28 weeks of pregnancy, (ii) intrapartum doses of 200 mg of
+NVP and 600 mg of AZT for mother at onset of labor, and (iii) intrapartum doses of
+150 mg of 3TC for mother at onset of labor and 150 mg of 3TC every 12 h until delivery
+(WHO, 2006a). In contrast, World Health Organization guidelines for ART during the peri-
+od I examine indicate that the standard ART regimen would include: (i) daily doses of
+300 mg of 3TC, (ii) daily doses of 400 mg of NVP, and (iii) daily doses of 500–600 mg of
+ZDV (i.e., AZT) (or, alternatively to ZDV, daily doses of 60–80 mg of d4T) (WHO, 2006b).
+Moreover, there does not appear to be any evidence that the short course of antiretroviral
+drugs provided for PMTCT affects adult mortality or morbidity.
+20 During the period examined in this analysis, single-dose NVP was a common prophy-
+laxis: among HIV positive pregnant women receiving PMTCT in low-and-middle-income
+countries in 2007, 49% received single-dose NVP (WHO, 2010a).
+21 There does not appear to be any evidence of a biochemical pathway linking these
+drugs to fecundity.
+
+Fig. 2 shows the expansion of antiretroviral drugs for PMTCT in
+Zambia by year of introduction.22 The ﬁgure also displays district-level
+population density and the main transportation routes. Higher HIV
+prevalence and higher population densities in urban areas mean that
+the average total cost of preventing MTCT should be lower in urban
+areas. Consistent with this observation, PMTCT expansion was initially
+concentrated in the main urban areas in Zambia (e.g., Kitwe, Lusaka,
+and Ndola) and later grew to rural areas along the main transportation
+network.
+
+The vast majority of pregnant women in Zambia visit an antenatal
+clinic at least once during their pregnancy, helping ensure that the
+scale-up of access to PMTCT translated into use of PMTCT. Among the
+respondents in the nationally representative survey data used in the
+current analysis, more than 93% of women who report being pregnant
+at any point during the 12 months prior to the survey date reported at
+least one visit to an antenatal clinic during that pregnancy. Perhaps sur-
+prisingly, this probability is remarkably ﬂat across the survey rounds,
+varying no more than two percentage points between any 2 years
+among the four survey rounds (i.e., 2001, 2003, 2005, and 2007). Simi-
+larly, the likelihood of visiting an antenatal clinic at least once during
+pregnancy is greater than 90% in urban areas and greater than 90% in
+rural areas. As of 2007, the modal visit to an antenatal clinic occurred
+during the fourth to ﬁfth month of pregnancy (Central Statistical
+Ofﬁce et al., 2009).
+
+Although most pregnant women visit an antenatal clinic, there are
+two additional possible constraints to ensuring effective PMTCT cover-
+age. First, most births occur at home and not in a health facility. For ex-
+ample, in the 2007 Demographic Health Survey (DHS), 52% of births
+during the 5 years preceding the survey date occurred in the home
+(Central Statistical Ofﬁce et al., 2009). However, NVP is provided to
+pregnant women upon diagnosis to be taken at home at the onset of
+labor and during the ﬁrst few weeks of breastfeeding (Stringer et al.,
+2003, 2005). Thus, home births do not appear to be a major constraint
+unless adherence is low among pregnant women conditional on receiv-
+ing the NVP to be taken at home.
+
+Second, evidence from Sub-Saharan Africa and elsewhere in the de-
+veloping world (Chaudhury et al., 2006; Goldstein et al., 2013) reveals
+substantial absenteeism rates among public sector health workers. Al-
+though there do not appear to be data on health worker absence in
+Zambian antenatal clinics, there is information on HIV testing during an-
+tenatal clinic visits. Among female respondents in the 2003 Zambia Sex-
+ual Behavior Survey (ZSBS) reporting an antenatal clinic visit during a
+pregnancy in the 12 months proceeding the survey date, 15% report
+being offered a HIV test during the visit and 45% of these report
+accepting the HIV test. By the 2005 ZSBS, these ﬁgures had increased
+to 27% and 60%, respectively. In the 2007 Demographic Health Survey
+(DHS), 64% of women received a HIV test during an antenatal clinic.
+
+The rapid increase in the proportion of women receiving a HIV test at
+an antenatal clinic visit, combined with the relatively high acceptance
+rate, indicates that the physical expansion of PMTCT generated a large
+increase in effective coverage of HIV positive pregnant women and at-
+risk infants. UNICEF (2010) reports that 20% of HIV positive pregnant
+women in Zambia received antiretroviral drugs for PMTCT in 2004
+and 8% of infants born to HIV positive women received antiretroviral
+drugs for PMTCT at birth. By 2007, these proportions had increased to
+52% and 23%, respectively.23
+
+Although there was a large expansion in antiretroviral coverage for
+PMTCT during this period, there does not appear to have been an asso-
+ciated increase in breastfeeding advice for PMTCT. During the period I
+examine in the current analysis (i.e., the beginning of PMTCT availability
+
+22 In Section 4.2, I describe in more detail the data I use to construct this ﬁgure.
+23 An individual coverage rate that is higher than the facilities coverage rate is consistent
+with the higher population densities in the locations that were more likely to receive
+PMTCT (i.e., urban areas).
+
+78
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+Fig. 2. PMTCT sites by year of service initiation. Notes: Data on the latitude and longitude of health facilities come from the 2006 Japanese International Cooperation Agency (JICA) Health
+Facilities Census (HFC). Data on the month and year PMTCT was introduced at a given facility come from the augmented 2006 JICA HFC. Data on transportation routes come from the
+Zambia Central Statistical Ofﬁce (CSO). Data on district population levels come from the 2000 Zambia Census of Population and Housing.
+
+in Zambia through October of 2007), the national PMTCT program ap-
+pears to have placed little emphasis on breastfeeding advice (Chopra
+et al., 2009; Mugode et al., 2008). In those instances where a clinic
+chose to provide infant feeding advice for PMTCT, it appears to have
+been haphazard and often conﬂicting (Chopra et al., 2009; Mugode
+et al., 2008; Rutenberg et al., 2003).24 It was not until 2007 that national
+PMTCT guidelines codiﬁed ofﬁcial breastfeeding advice (Ministry of
+Health, Zambia, 2007). One reason for the slow evolution of
+breastfeeding advice during this period may have been the existence
+of the United Nations' infant formula for PMTCT subsidy program
+(Chopra et al., 2009).
+
+3. Conceptual framework
+
+3.1. Mechanisms
+
+PMTCT interventions reduce the likelihood of a HIV positive woman
+transmitting HIV in utero, during childbirth, or to her child through
+breastfeeding. Antiretroviral drugs for PMTCT reduce the cumulative
+
+24 Goldstein et al. (2013) report a similar ﬁnding at an antenatal clinic in Western Kenya.
+
+probability from between 25–45% in the absence of PMTCT to as little
+as 3% (Canning, 2006; Dabis and Ekpini, 2002). Between 25 and 50%
+of HIV positive children die by age 1 and between 35 and 60% of HIV
+positive children die by age 2 (Brahmbhatt et al., 2001; Dabis et al.,
+2001; Spira et al., 1999; Taha et al., 1999). Thus, PMTCT should increase
+life expectancy at birth for children born to HIV positive mothers, condi-
+tional on fertility seeking behavior and child human capital investment
+behavior remaining unchanged. Because PMTCT reduces child mortality
+risk for future (and not just current) births, local PMTCT introduction
+may have large effects on reproductive behavior.
+
+A simple quantity–quality model of fertility and household invest-
+ment in children's human capital (Becker and Gregg Lewis, 1973) gen-
+erates an ambiguous prediction about the net effect of PMTCT on
+fertility. The decrease in child mortality caused by PMTCT reduces the
+cost of child quantity. That is, PMTCT reduces the number of births
+that the household requires to achieve a given number of surviving chil-
+dren. Thus, PMTCT reduces the shadow price of child quantity, leading
+to an increase in fertility.
+
+Conversely, PMTCT means that infants are more likely to live on to
+older ages. This increases the expected return to household investments
+in child quality, or in other words, reduces the shadow price of child
+quality. This should lead to an increase in the quality of children and,
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+79
+
+under the quantity–quality tradeoff in this model, reduce the quantity of
+children, leading to a decrease in fertility.
+
+Not only does PMTCT change the shadow prices of child quantity
+and child quality, but PMTCT also reduces the need for replacement fer-
+tility. Because PMTCT reduces child mortality, PMTCT will reduce fertil-
+ity because the household will need to “replace” fewer births (i.e., births
+that result in child death).25 Thus, even holding the shadow prices of
+child quantity and child quality constant, we would still expect PMTCT
+to affect fertility.
+
+In addition to reducing the likelihood of MTCT, receiving PMTCT may
+provide information to pregnant women about their HIV status. To re-
+ceive PMTCT, a pregnant woman must test HIV positive. After receiving
+the result of this test, she may revise her belief about her HIV status. Al-
+though evidence on the behavioral response to learning one's HIV status
+is mixed (Allen et al., 1993; Bonnenfant et al., 2012; Boozer and Philipson,
+2000; Gong, 2012; Kalemli-Ozcan, 2012; Noel-Miller, 2003; Temmerman
+et al., 1990; Thornton, 2008; Wilson, 2010), the change in her beliefs may
+change her subsequent reproductive decisions.
+
+3.2. Timing
+
+To understand the timing of the fertility response to the local intro-
+duction of PMTCT, consider the following timeline. Let t denote the
+month at which a woman is surveyed about her pregnancy status dur-
+ing the 12 months leading up to the interview date, inclusive. For
+women who report being pregnant at some point between t and t-11,
+the likely range of possible conception dates is t-1 to t-20. Assuming
+that individuals are perfectly informed about local PMTCT availability
+on the date that it is introduced, the local introduction of PTMCT by pe-
+riod t-2 or before may affect fertility behavior as measured at period t.
+If conceptions are evenly distributed across months, then the repre-
+sentative pregnancy measured during the interval t to t-11 would have
+begun in approximately period t-10. That is, the representative pregnan-
+cy would have been conceived midway through the possible conception
+interval, t-1 to t-20. Assuming that individuals are not changing their fer-
+tility behavior in anticipation of the local introduction of PMTCT, this sug-
+gests that we are unlikely to see an effect of local PMTCT availability on
+pregnancy rates that are measured during the interval t to t-11 until
+PMTCT has been locally available for approximately 11 months.
+
+The lag between local PMTCT introduction and the fertility response
+may be even greater than this. PMTCT may affect fertility not just
+through decreased risk of death of future births, but also through de-
+creased mortality among recent births. Under this latter mechanism, a
+decrease in pregnancy, either through lactational amenorrhea due to
+breastfeeding a child who is still alive or through a decrease in replace-
+ment fertility, would take longer to appear.
+
+4. Data
+
+4.1. Individual-level data
+
+Table 1
+Reproductive behavior among female DHS and ZSBS respondents.
+
+Pregnant
+
+Number of children
+ever born
+
+Currently
+breastfeeding*
+
+HIV
+positive
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.22
+0.42
+0.43
+0.38
+0.29
+0.15
+0.04
+0.31
+
+0.31
+1.55
+2.87
+4.19
+5.50
+6.44
+6.95
+3.01
+
+0.84
+0.81
+0.78
+0.82
+0.82
+0.82
+0.76
+0.81
+
+0.06
+0.13
+0.21
+0.25
+0.25
+0.19
+0.14
+0.17
+
+17,820
+
+17,805
+
+5507
+
+5698
+
+Age
+15–19
+20–24
+25–29
+30–34
+35–39
+40–44
+45–49
+All females
+Observations
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and
+2005 ZSBS survey rounds. Number of children ever born and breastfeeding data come
+from the 2001 and 2007 DHS survey rounds. HIV positive comes from HIV testing module
+in 2007 DHS. Pregnant is an indicator variable equal to one if the respondent reported
+being pregnant at any time in the past 12 months. Currently breastfeeding is a child
+level indicator variable equal to one a child age 24 months or younger is currently
+breastfeeding. HIV positive is an indicator variable equal to one if the respondent tested
+positive. *Currently breastfeeding is measured per child age 24 months or younger; all
+other variables measured per adult female respondent.
+
+surveys. Administrative records on the primary sampling units in these
+surveys allow me to calculate the approximate latitude and longitude of
+each survey household.26 This process yields 7683 adult females
+(i.e., ages 15–49) in the 2001 DHS, 2296 adult females in the 2003 ZSBS,
+2072 adult females in the 2005 ZBS, and 7146 adult females in the 2007
+DHS.27
+
+The main fertility measure I use in this analysis is an indicator vari-
+able for whether the female respondent reported being pregnant in
+the 12 months leading up to the survey date. To augment the pregnancy
+regressions, I examine breastfeeding behavior among children age
+24 months or younger.
+
+Table 1 reports the age proﬁles among the DHS and ZSBS respon-
+dents for several of the key variables in this analysis. Several important
+facts emerge from this analysis. First, the main childbearing ages in
+Zambia are ages 20–29 and, to a slightly lesser extent, ages 30–39. Sec-
+ond, as in most high HIV prevalence countries, the HIV prevalence-age
+proﬁle takes an inverted U-shape and peaks among ages 30–39. Third,
+the majority of children age 0–24 months breastfeed.
+
+In Table 2, I provide mean characteristics of respondents residing in
+locations that ever received PMTCT and in locations that never received
+PMTCT. Partly because of the non-random placement of PMTCT sites, re-
+spondents in locations receiving PMTCT appear to be more educated,
+less likely to be married, and more likely to be HIV positive. They also
+have lower levels of fertility and lower breastfeeding rates for children
+age 0–24 months.
+
+Data on fertility come from the 2001 and 2007 Zambia Demographic
+Health Surveys (DHS) and the 2003 and 2005 Zambia Sexual Behavior
+Surveys (ZSBS). These are repeated cross-sectional national household
+
+25 Doepke (2005) examines “replacement fertility” (i.e., a mechanism where households
+increase fertility ex post in response to child mortality when birth choice is sequential)
+and “hoarding” (or precautionary fertility) (i.e., a mechanism where households increase
+fertility ex ante in response to expected child mortality). Doepke (2005) demonstrates
+that because households may accidentally have “too many” children if realized child mor-
+tality is low, replacement fertility dominates precautionary fertility as a fertility strategy in
+the face of child mortality. In contrast, Ben-Porath (1976) notes that hoarding (or precau-
+tionary fertility) may be important if there exists substantial risk of child mortality after a
+woman's childbearing years are over (e.g., if children are likely to die as adults). Because
+HIV positive infants die with high probability within 2 years, whereas mortality rates
+among adults who acquire HIV do not begin to rise until 8–10 years after the infection
+date, the main risk of child mortality appears to be during the woman's childbearing years.
+
+26 The nature of the spatial information in these surveys likely introduces attenuation bi-
+as in the estimates of the fertility response to local PMTCT availability. For the ZSBS and the
+2001 DHS, I use information on the respondent's Standard Enumeration Area (SEA) of res-
+idence to deﬁne the precise location of the respondent as the centroid of this SEA. These
+administrative units were designed to capture approximately 1000 individuals, so al-
+though they tend to be quite small in urban areas they may be relatively large in rural
+areas. The 2007 DHS contains slightly different spatial information. Instead of revealing
+the respondent's SEA of residence, the 2007 DHS provides GPS data points that are inten-
+tionally measured with error for each respondent to address privacy concerns associated
+with the HIV testing module in this DHS. In the Zambia 2007 DHS, these data points were
+generated by adding a random vector with length drawn from a uniform distribution on 0
+to 10 km to the latitude and longitude of the centroid of the SEA of residence.
+27 The digitized census map provided by the Zambia Central Statistical Ofﬁce, which I use
+to identify the location of the primary sampling units for the respondents in the 2001–
+2005 survey rounds, is missing approximately seven percent of the Statistical Enumera-
+tion Areas (SEAs) in Zambia. Thus, I am unable to identify the precise location of approx-
+imately seven percent of the 2001–2005 survey respondents and exclude these
+respondents from the empirical analysis.
+
+80
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+Table 2
+Characteristics of female DHS and ZSBS respondents by proximity to PMTCT site.
+
+5. Empirical strategy
+
+Sample:
+
+Within 20 km of
+eventual PMTCT site
+
+Greater than 20 km from
+eventual PMTCT site
+
+(1)
+
+(2)
+
+Panel A: Females age 15–49
+Age
+Completed primary
+Completed secondary
+Married
+Any partner
+Proportion unprotected sex
+Pregnant
+Number of children ever born
+HIV positive
+Piped water
+Bed net
+Observations
+
+27.6
+0.56
+0.11
+0.59
+0.73
+0.86
+0.30
+2.89
+0.18
+0.42
+0.53
+
+28.4
+0.30
+0.02
+0.67
+0.78
+0.92
+0.37
+3.41
+0.09
+0.03
+0.44
+
+13,747
+
+4073
+
+Panel B: Children age 0–24 months
+Breastfeeding
+Observations
+
+0.80
+
+3996
+
+0.84
+
+1511
+
+Notes: Data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 DHS
+survey rounds. Completed primary and completed secondary are indicator variables for
+primary and secondary school completion, respectively. Data on sexual behavior come
+from the 2003 and 2005 DHS survey rounds. Any partner is an indicator variable for any
+sexual partner in past twelve months. Proportion unprotected sex is proportion of report-
+ed sex acts in which a condom was used. HIV data come from the HIV testing module in
+the 2007 DHS. Pregnant is an indicator variable equal to one if the respondent reported
+being pregnant at any time in the past twelve months. HIV positive is an indicator variable
+equal to one if the respondent tested positive. Piped water and bed net are indicator
+variables for household access to piped water and household bed net ownership, respec-
+tively. Currently breastfeeding is a child level indicator variable equal to one a child age 24
+months or younger is currently breastfeeding.
+
+4.2. Health facilities data
+
+We collected retrospective data on the month and year each health
+facility began offering each of the three main HIV/AIDS services:
+PMTCT, antiretroviral therapy (ART), and voluntary counseling and test-
+ing (VCT). The 2006 Japanese International Cooperation Agency (JICA)
+Health Facility Census (HFC) surveyed each health facility in Zambia
+and recorded the exact latitude and longitude of each health site. To
+augment these data, we re-surveyed these clinics to collect information
+on the month and year (if any) they began offering each of the three
+main HIV/AIDS services. This process effectively began in June of 2008
+so this retrospective panel provides comprehensive information on
+the expansion of HIV/AIDS services in Zambia through the middle of
+2008.28,29
+
+28 Service interruptions (e.g., because of ARV shortages or health worker absence) mean
+that PMTCT may not have been continuously available at all of these clinics from the local
+introduction date onward. However, this should only work against the regression analysis
+yielding any estimate effect of local PMTCT availability on pregnancy rates. The fact that I
+ﬁnd a large and statistically signiﬁcant effect suggests that the behavioral response to any
+service interruptions was not large enough to outweigh the effect of the documented ser-
+vice availability.
+29 Existing national level data from other sources do not offer a precise account of aggre-
+gate PMTCT expansion in Zambia. Ministry of Health and National AIDS Council, Zambia
+(2008) state, “Overall, PMTCT services have been rolled out to all the 72 districts of
+Zambia, representing an increase from 67 in 2005, 307 in 2006, and 678 as of September
+2007. This scaling up of PMTCT services resulted in an increase in pregnant women who
+completed prophylaxis from 14,071 in 2005 to 25,578 in 2006, and by September 2007
+this ﬁgure had reached 35,314.” In contrast, the National AIDS Council (2006) reports that
+there were 270 PMTCT sites in Zambia by mid-2005. PEPFAR reports supporting PMTCT
+services in Zambia at 95 clinics in ﬁscal year 2004 (PEPFAR, 2005), 200 clinics in Zambia
+in ﬁscal year 2005 (PEPFAR, 2006), and 284 clinics in ﬁscal year 2006 (PEPFAR, 2007).
+Bweupe (2006) reports other data from the Ministry of Health indicating that the number
+of PMTCT sites in Zambia increased from 6 in 2001, to 64 in 2003, to 265 sites in 2005.
+Using data from the UNICEF country ofﬁce, Ngashi et al. (2006) report that the number
+of PMTCT sites in Zambia increased from 80 to 254 in a single year.
+
+The main empirical strategy in this paper is to measure the change in
+fertility associated with the local introduction of PMTCT while control-
+ling for a host of time and geographic ﬁxed effects and linear trends.
+To implement this strategy, I use the detailed spatial information in
+the JICA 2006 HFC and the household survey data to calculate the dis-
+tance from each survey respondent to each health facility and measure
+fertility among respondents who reside near health facilities currently
+offering PMTCT. Because I have information on fertility in locations
+receiving PMTCT before they received PMTCT, I am able to control for
+unobservable characteristics (both time-invariant and time-varying) af-
+fecting fertility that are associated with the placement of PMTCT sites.
+PMTCT was not introduced everywhere simultaneously, so instead of
+including a “post” indicator as in a standard difference-in-differences
+speciﬁcation I include survey month times survey year ﬁxed effects.
+This controls for unobserved time-speciﬁc shocks to fertility. I also
+include province ﬁxed effects to control for additional time-invariant
+spatial heterogeneity.30
+
+There remain at least four potential threats to identifying the causal
+effect of local PMTCT availability on fertility. First, PMTCT may have
+been introduced in locations that were following a different time trend
+than those locations that did not receive PMTCT.31 To address this con-
+cern, I include province-speciﬁc linear time trends and a linear time
+trend for locations ever receiving PMTCT. Second, the expansion of ART
+and VCT was correlated with the expansion of PMTCT.32 Although
+existing evidence on the fertility response to learning one's HIV status is
+mixed (Allen et al., 1993; Bonnenfant et al., 2012; Kalemli-Ozcan, 2012;
+Noel-Miller, 2003; Temmerman et al., 1990), there is evidence from else-
+where in Sub-Saharan Africa (i.e., Kenya, another high HIV prevalence
+country) that sexual behavior responds to local ART availability
+(Friedman, 2012). Thus, I use information from the augmented-HFC to
+control for proximity to ART and VCT.33 Third, the expansion of PMTCT
+may have been correlated with the expansion during this period of two
+important inputs into child health, household bed net ownership
+(Ashraf et al., 2010) and household access to piped water (Fewtrell
+et al., 2005).34 I address this concern by controlling for household access
+to piped water and household bed net ownership as reported in the DHS
+and ZSBS.35 Fourth, locations receiving PMTCT early may have had funda-
+mentally different fertility behavior than those locations receiving PMTCT
+later. This is a concern because respondents in locations ultimately re-
+ceiving PMTCT but where PMTCT was not available around the time of
+conception are a control group for early PMTCT recipients. Thus, I include
+an indicator variable equal to one if the respondent resides in a location
+that was an early PMTCT recipient.36
+
+30 This is a concern because I do not observe fertility before and after local PMTCT intro-
+duction in every location where I have household survey respondents. There are nine
+provinces in Zambia.
+31 The rural–urban difference in fertility trends during the period spanned by the house-
+hold survey data support this hypothesis. Between 2001 and 2007, rural fertility increased
+from 6.9 births per woman to 7.5 births per woman, whereas urban fertility remained con-
+stant at 4.3 births per woman Central Statistical Ofﬁce et al., 2009.
+32 Among female respondents in the 2007 Demographic Health Survey (i.e., the latest
+survey round I use in the analysis), the correlation between access to PMTCT, ART, and
+VCT (i.e., living with 20 km) is as follows. The correlation between PMTCT and VCT access
+is 0.80. The correlation between PMTCT and ART access is 0.68. The correlation between
+VCT and ART access is 0.59.
+33 In the speciﬁcations in which I control for ART and VCT availability, I include the ART
+(and VCT) analogues of PMTCTij(mt-11) and PMTCTeverij.
+34 Between 2002 and 2007, the government of Zambia and collaborators distributed
+nearly 5 million bed nets (Ashraf et al., 2010). Between 2001 and 2007, the proportion
+of Zambia Demographic Health Survey respondents reporting household access to piped
+water increased from 31% to 34%.
+35 The 2003 ZSBS does not include information on household bed net ownership.
+36 As shown in Fig. 2, early PMTCT expansion was concentrated near the larger urban
+areas in Zambia (i.e. Kitwe, Livingstone, Lusaka, and Ndola). The main regression speciﬁca-
+tion deﬁnes a location as an early PMTCT recipient if it received PMTCT before January
+2005. Alternative speciﬁcations for this threshold (e.g., January 2003, January 2004, and
+January 2006) yield similar results.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+81
+
+Thus, the primary regression equation is:
+
+fertilityijmt ¼ α1PMTCTi j mt−11
+
+ð
+
+Þ þ α2PMTCTeveri j þ α3PMTCTearlyi j þ X
+
+þη
+
+j
+
+þ δmt þ mt  PMTCTeveri j þ ijmt
+
+0
+ijmtΓ
+ð1Þ
+
+where fertilityijmt denotes the reproductive behavior of female respon-
+dent i residing in province j in month m in year t, PMTCTij(mt-11) is an in-
+dicator variable equal to one if a health clinic offering PMTCT at least
+11 months prior to the survey date is located near respondent i,
+PMTCTeverij is an indicator variable equal to one if a health clinic located
+near respondent i ever offered PMTCT even if it was subsequent to the
+interview date for respondent i, PMTCTearlyij is an indicator variable
+for early PMTCT recipient, Xijt is a vector of individual and household
+level demographic controls (i.e., indicator variables for ﬁve year age
+group, primary school completion, secondary school completion, mari-
+tal status, local ART availability, local VCT availability, household bed net
+ownership, and piped water access), ηj are province ﬁxed effects, δmt are
+survey month times survey year ﬁxed effects, mt × μj are province-
+speciﬁc linear trends, and mt × PMTCTeverij is a linear trend for locations
+ever receiving PMTCT.37 I estimate the parameters of Eq. (1) in a linear
+probability model (i.e., using ordinary least squares (OLS) regression).
+As in a standard difference-in-differences empirical strategy, I interpret
+α1 as the causal effect of local PMTCT availability on fertility.38
+
+I measure fertility using an indicator variable equal to one if the
+respondent reported being pregnant at some point during the twelve
+months prior to the survey month, inclusive. During the period I examine
+in this analysis, the representative location with PMTCT in Zambia re-
+ceived it around 2005. Birth spacing in Zambia is roughly 3 to 4 years.
+Thus, the representative woman exposed to PMTCT in Zambia only
+faced one (or fewer) likely births after the local introduction of PMTCT.
+Because very few women were at risk of having more than one birth dur-
+ing this period, I focus on pregnancy rates as my primary measure of fer-
+tility behavior. I also examine breastfeeding behavior among a sample of
+children age 0–24 months in a child level regression analogous to Eq. (1)
+with mother's demographic characteristics as the individual level con-
+trols, as well as an indicator variable for child age 13–24 months.
+
+The baseline speciﬁcation deﬁnes a respondent as being near a
+health clinic if the respondent lives within 20 km of the nearest health
+clinic. In an analysis of the correlates of maternal health care usage in
+Kalabo District in Zambia, Steckelenburg et al. (2004) ﬁnd that usage
+rates decline substantially for women residing more than a two-hour
+walk from a maternal health care site. Similarly, female respondents in
+the 2007 DHS indicate that distance is one of the primary barriers to
+seeking health care (Central Statistical Ofﬁce et al., 2009). In alternative
+speciﬁcations I relax the restriction that the local introduction of PMTCT
+has the same effect on behavior invariant of distance conditional on
+whether distance was greater or less than 20 km.
+
+Standard errors are clustered at the Statistical Enumeration Area
+(SEA) level. My distance based measure of PMTCT availability varies at
+the level of the SEA. As indicated in Cameron et al. (2008), the more
+than 300 SEAs in the 2001 DHS and more than 300 SEAs in the 2007
+DHS mean that standard asymptotic tests are appropriate.
+
+6. Results
+
+6.1. Effect of local PMTCT on pregnancy and breastfeeding
+
+The main regression results suggest that the local introduction of
+PMTCT may have reduced pregnancy and increased breastfeeding
+
+37 In the breastfeeding regressions, the individual level controls also include an indicator
+variable for child age 13–24 months.
+38 In a difference-in-differences interpretation of this regression speciﬁcation,
+PMTCTij(mt-11) is “treatment” interacted with “post”, PMTCTeverij is the “treatment” indica-
+tor variable, and the survey month times survey year ﬁxed effects correspond to the stan-
+dard “post” variable.
+
+rates. Estimates of the effect of local PMTCT availability on pregnancy
+and breastfeeding appear in Panels A and B, respectively, of Table 3.
+All speciﬁcations include an indicator variable equal to one if a clinic
+within 20 km of the respondent ever offered PMTCT. Standard errors
+are clustered by Standard Enumeration Area (SEA).
+
+Panel A examines the effect of local PMTCT availability on the likeli-
+hood the respondent was pregnant at any point in the 12 months pre-
+ceding the survey date. In Column (1), I present the results of a simple
+speciﬁcation that only controls for whether a health facility within
+20 km of the respondent ever offered PMTCT. The point estimate indi-
+cates that local PMTCT availability (i.e., at a clinic located within
+20 km of the respondent) reduced the likelihood that the respondent
+was pregnant by 4.6 percentage points. This effect is fairly large not
+only in absolute terms, but also in relative terms and is statistically
+signiﬁcant at the 1% level. Compared to the mean pregnant rate of
+0.31 in the entire sample, a 4.6 percentage point reduction corresponds
+to approximately a 15% reduction in pregnancy rates.39
+
+In general, the estimated effect of local PMTCT availability on preg-
+nancy is relatively robust to including additional controls. The main ex-
+ception to this pattern is in Column (6), where the point estimate falls to
+−0.020 and is no longer statistically signiﬁcant at conventional levels
+(p-value = 0.241). One interpretation of this ﬁnding is that local
+PMTCT introduction did not generate a statistically signiﬁcant effect
+on pregnancy rates on average in the full sample.40 An alternative inter-
+pretation is that it is difﬁcult to separately identify the effects of local
+PMTCT from other HIV/AIDS services and two other important inputs
+(i.e., piped water and bed nets) affecting child health.
+
+Panel B examines the effect of
+
+local PMTCT availability on
+breastfeeding. Among HIV positive women in the absence of PMTCT,
+avoiding breastfeeding reduces the probability of MTCT by roughly
+15–20 percentage points (Newell et al., 2004). However, breastfeeding
+is an important nutritional input for infants, particularly in resource-
+constrained settings. Thus, current World Health Organization (WHO)
+guidelines in resource-poor settings recommend breastfeeding for
+women who have unknown HIV status and even for women who are
+known to be HIV positive (WHO, 2009). Data on breastfeeding come
+from the 2001 and 2007 DHS survey years. These regressions use the
+child age 0–24 months as the unit of observation instead of the mother
+and restrict the sample of children to those born January 1999 or later.41
+Throughout, the estimates presented in Panel B suggest that the local
+introduction of PMTCT substantially increased breastfeeding.42 For exam-
+ple, in Column (1), local PMTCT availability is associated with a 3.7 per-
+centage point increase in the likelihood of breastfeeding, an estimate
+that is statistically signiﬁcant at the 5% level. The estimated positive effect
+of local PMTCT availability is highly robust to including additional
+
+39 An alternative explanation for the effect of local PMTCT availability on pregnancy is
+that PMTCT may be bundled with additional emphasis on family planning services. How-
+ever, empirical evidence does not support this hypothesis. The 2001 and 2007 DHS ask re-
+spondents whether a health worker discussed family planning with the respondent
+during a visit during a pregnancy in the 12 months leading up to the survey date. Using
+the same speciﬁcation as in Column (6) of Table 3, OLS regression results suggest that local
+PMTCT introduction did not generate a substantial increase in the likelihood a health
+worker discussed family planning with the respondent. The coefﬁcient on local PMTCT
+availability is virtually zero (i.e., −0.00016, p-value = 0.997.)
+40 As discussed in Sections 6.3 and 6.4, the regression estimates suggest statistically sig-
+niﬁcant reductions in pregnancy rates in the medium term (i.e., at least 36 months after
+local introduction) and among respondents more likely to be HIV positive.
+41 The median breastfeeding duration in Zambia is approximately 20 months (Central
+Statistical Ofﬁce et al., 2009).
+42 In an analysis of the effect of health worker absence at a single antenatal clinic in
+Western Kenya on health outcomes, Goldstein et al. (2013) ﬁnd that the presence of a
+PMTCT nurse when a pregnant woman visits an antenatal clinic is associated with no
+change in the probability of receiving PMTCT or in the probability of breastfeeding. How-
+ever, among the subset of pregnant women who believe they are HIV positive the pres-
+ence of a PMTCT nurse increases the probability that they receive PMTCT by 7.4
+percentage points and decreases the probability that they breastfeed by 9 percentage
+points. The seemingly divergent effects documented in Goldstein et al. (2013) and in the
+current analysis suggest that there is heterogeneity across locations in the advice and care
+that antenatal clinics provide clients.
+
+82
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+Table 3
+Effect of local PMTCT on reproductive behavior.
+
+Panel A: Pregnant
+PMTCT within 20 km
+
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+Panel B: Breastfeeding
+PMTCT within 20 km
+
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.046***
+(0.011)
+No
+No
+No
+No
+No
+17,820
+
+0.037**
+(0.015)
+No
+No
+No
+No
+No
+5507
+
+−0.089***
+(0.012)
+Yes
+No
+No
+No
+No
+17,819
+
+0.095***
+(0.018)
+Yes
+No
+No
+No
+No
+5507
+
+−0.063***
+(0.014)
+Yes
+Yes
+No
+No
+No
+17,819
+
+0.141***
+(0.020)
+Yes
+Yes
+No
+No
+No
+5507
+
+−0.038***
+(0.010)
+Yes
+Yes
+Yes
+No
+No
+17,817
+
+0.144***
+(0.020)
+Yes
+Yes
+Yes
+No
+No
+5507
+
+−0.039***
+(0.013)
+Yes
+Yes
+Yes
+Yes
+No
+17,817
+
+0.211***
+(0.025)
+Yes
+Yes
+Yes
+Yes
+No
+5507
+
+−0.020
+(0.017)
+Yes
+Yes
+Yes
+Yes
+Yes
+15,736
+
+0.236***
+(0.026)
+Yes
+Yes
+Yes
+Yes
+Yes
+5507
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 ZSBS survey rounds. Breastfeeding data come from the 2001 and 2007 DHS survey rounds.
+Pregnant is an indicator variable for being pregnant sometime in the 12 months prior to the survey date, inclusive. Breastfeeding is an indicator variable equal to one if the respondent is
+breastfeeding conditional on having a child age 0–24 months. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at
+least 12 months prior to the survey date. All speciﬁcations include an indicator variable for whether PMTCT was ever introduced within 20 km of the respondent. Parameters estimated
+using ordinary least squares (OLS) regressions. Standard errors are in parentheses and are clustered by Standard Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level, ** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+controls. However, the magnitude of the effect is quite sensitive to which
+controls are included. For example, in the speciﬁcation with the full set of
+controls (i.e., Column (6)), the estimated effect of local PMTCT availability
+is 23.6 percentage points (signiﬁcant at the 1% level).
+
+To unpack the effects of controlling for the two other HIV/AIDS ser-
+vices and piped water/bed nets, Table 4 presents a detailed sensitivity
+analysis. Column (1) replicates the speciﬁcation with the full set of con-
+trols excluding ART, VCT, bed nets, and piped water. In Column (2), I con-
+trol for local ART availability and in Column (3) I replace that control with
+a control for local VCT availability. Column (4) controls simultaneously
+for both of these HIV/AIDS services and Column (5) replaces these con-
+trols with controls for bed net ownership and household access to
+piped water. Column (6) replicates the speciﬁcation with the full set of
+controls. As shown in Panel A, the estimated effect of local PMTCT avail-
+ability on pregnancy is robust to separately controlling for local ART avail-
+ability, for local VCT availability, and for household bed net ownership/
+access to piped water. It is when I control simultaneously for local ART
+availability and local VCT availability (i.e., Column (4)), that the point es-
+timate on local PMTCT falls below 0.030 and the associated standard error
+increases, making the point estimate on local PMTCT no longer statistical-
+ly signiﬁcant at conventional levels (p-value = 0.13). As shown in Panel
+B, the estimated effect of local PMTCT availability on breastfeeding is
+robust to any of the aforementioned permutations in the controls.
+
+6.2. Spatial heterogeneity
+
+points (for F-test of joint signiﬁcance, p-value = 0.153). PMTCT introduc-
+tion within 11–20 km was only weakly associated with a 0.6 percentage
+point reduction (statistically insigniﬁcant at conventional levels) and
+PMTCT introduction within 21–30 km was actually associated with a
+0.7 percentage point increase (albeit statistically insigniﬁcant) in the like-
+lihood of pregnancy.
+
+Panel B repeats this exercise for the breastfeeding regressions. In
+contrast to the pregnancy regressions, PMTCT availability appears to
+have increased breastfeeding rates equally among respondents residing
+within 10 km and those residing 11–20 km from local introduction.
+Similar to the pregnancy regressions, PMTCT availability appears
+to have had no effect on breastfeeding among respondents residing
+21–30 km from local introduction.
+
+6.3. Effect dynamics
+
+The longitudinal dimension of these data enables several additional
+analyses that support a causal interpretation of the baseline results.
+Fig. 3 provides a semi-parametric difference-in-differences analysis of
+the effect of local PMTCT availability on pregnancy.43 This ﬁgure plots
+the estimates of βk from the following regression equation:
+
+fertilityijmt ¼
+
+X84
+k¼−96
+þ η
+
+
+
+
+βk1 τijmt ¼ k
+þ δmt þ mt  PMTCTeveri j þ εijmt
+
+j
+
+þ γ1PMTCTeveri j þ γ2PMTCTearlyi j þ X
+
+0
+ijmtΓ
+ð2Þ
+
+The results in Tables 3 and 4 suggest that the local introduction of
+PMTCT may have reduced pregnancy rates and increased breastfeeding
+rates. If this is true, then we would expect to see larger effects closer to
+the location where PMTCT was introduced and smaller effects in the
+periphery of this location. Table 5 explores this question by allowing
+the effect of local PMTCT introduction to vary by the respondent's
+distance to the location where PMTCT was introduced.
+
+Panel A examines spatial heterogeneity in the effect of local PMTCT in-
+troduction on pregnancy rates. The point estimates suggest that the re-
+duction in pregnancy rates was greater for individuals residing within
+10 km of local introduction than for individuals residing at greater dis-
+tances. To ﬁx ideas, consider the speciﬁcation with the full set of controls
+(i.e., Column (6)). These estimates suggest that PMTCT introduction
+within 10 km reduced the likelihood of being pregnant by 2.7 percentage
+
+where τijmt denotes the twelve (or eleven) month event window and is
+deﬁned such that τ = 0 for respondents surveyed 0 to 10 months after
+the local introduction of PMTCT, τ = 1 for respondents surveyed 11 to
+23 months after the local introduction of PMTCT, τ = 2 for respondents
+surveyed 24 to 35 months after the local introduction of PMTCT, and so
+forth. For τ b 0, respondents were surveyed prior to the local introduc-
+tion of PMTCT. Aside from the event study parameters, this speciﬁcation
+is identical to the speciﬁcation in Eq. (1). As with Eq. (1), I estimate the
+parameters of Eq. (2) in a linear probability model (i.e., using ordinary
+
+43 Unlike an event study, I include “untreated” respondents (i.e., individuals residing fur-
+ther than 20 km from an eventual PMTCT site) in these regressions. A pure event study anal-
+ysis that omits these respondents yields qualitatively similar results: little evidence of a pre-
+introduction trend and a clear downward trend beginning shortly after local introduction.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+83
+
+Table 4
+Sensitivity analysis of effect of local PMTCT on reproductive behavior.
+
+Panel A: Pregnant
+PMTCT within 20 km
+
+Full set of controls excluding ART, VCT, bed nets, and piped water
+Control for local ART
+Control for local VCT
+Controls for bed nets and piped water
+Observations
+
+Panel B: Breastfeeding
+PMTCT within 20 km
+
+Full set of controls excluding ART, VCT, bed nets, and piped water
+Control for local ART
+Control for local VCT
+Controls for bed nets and piped water
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.039***
+(0.013)
+Yes
+No
+No
+No
+17,820
+
+0.211***
+(0.025)
+Yes
+No
+No
+No
+5507
+
+−0.032**
+(0.015)
+Yes
+Yes
+No
+No
+17,819
+
+0.227***
+(0.025)
+Yes
+Yes
+No
+No
+5507
+
+−0.033**
+(0.014)
+Yes
+No
+Yes
+No
+17,819
+
+0.218***
+(0.025)
+Yes
+No
+Yes
+No
+5507
+
+−0.025
+(0.016)
+Yes
+Yes
+Yes
+No
+17,817
+
+0.232***
+(0.026)
+Yes
+Yes
+Yes
+No
+5507
+
+−0.033**
+(0.013)
+Yes
+No
+No
+Yes
+15,736
+
+0.216***
+(0.024)
+Yes
+No
+No
+Yes
+5507
+
+−0.020
+(0.017)
+Yes
+Yes
+Yes
+Yes
+15,736
+
+0.236***
+(0.026)
+Yes
+Yes
+Yes
+Yes
+5507
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 ZSBS survey rounds. Breastfeeding data come from the 2001 and 2007 DHS survey rounds.
+Pregnant is an indicator variable for being pregnant sometime in the twelve months prior to the survey date, inclusive. Breastfeeding is an indicator variable equal to one if the respondent
+is breastfeeding conditional on having a child age 0–24 months. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT
+at least 12 months prior to the survey date. All speciﬁcations include an indicator variable for whether PMTCT was ever introduced within 20 km of the respondent. Parameters estimated
+using ordinary least squares (OLS) regressions. Standard errors are in parentheses and are clustered by Standard Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level, ** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+Table 5
+Spatial heterogeneity in effect of local PMTCT on reproductive behavior.
+
+Panel A: Pregnant
+PMTCT within 10 km
+
+PMTCT within 20 km
+
+PMTCT within 30 km
+
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+Panel B: Breastfeeding
+PMTCT within 10 km
+
+PMTCT within 20 km
+
+PMTCT within 30 km
+
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.049***
+(0.017)
+0.000
+(0.029)
+0.000
+(0.026)
+No
+No
+No
+No
+No
+17,820
+
+−0.011
+(0.027)
+0.051**
+(0.022)
+−0.009
+(0.037)
+No
+No
+No
+No
+No
+5507
+
+−0.064***
+(0.017)
+−0.001
+(0.029)
+−0.040
+(0.027)
+Yes
+No
+No
+No
+No
+17,819
+
+0.005
+(0.027)
+0.103***
+(0.023)
+0.011
+(0.034)
+Yes
+No
+No
+No
+No
+5507
+
+−0.061***
+(0.017)
+0.009
+(0.028)
+−0.031
+(0.027)
+Yes
+Yes
+No
+No
+No
+17,819
+
+0.005
+(0.026)
+0.143***
+(0.024)
+0.014
+(0.035)
+Yes
+Yes
+No
+No
+No
+5507
+
+−0.021
+(0.014)
+−0.012
+(0.021)
+−0.014
+(0.019)
+Yes
+Yes
+Yes
+No
+No
+17,817
+
+0.010
+(0.025)
+0.141***
+(0.024)
+0.012
+(0.034)
+Yes
+Yes
+Yes
+No
+No
+5507
+
+−0.028**
+(0.014)
+−0.027
+(0.021)
+0.008
+(0.020)
+Yes
+Yes
+Yes
+Yes
+No
+17,817
+
+0.013
+(0.024)
+0.206***
+(0.026)
+−0.006
+(0.034)
+Yes
+Yes
+Yes
+Yes
+No
+5507
+
+−0.021
+(0.015)
+−0.013
+(0.022)
+0.007
+(0.019)
+Yes
+Yes
+Yes
+Yes
+Yes
+15,736
+
+0.024
+(0.025)
+0.223***
+(0.027)
+−0.012
+(0.030)
+Yes
+Yes
+Yes
+Yes
+Yes
+5507
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 ZSBS survey rounds. Breastfeeding data come from the 2001 and 2007 DHS survey rounds.
+Pregnant is an indicator variable for being pregnant sometime in the 12 months prior to the survey date, inclusive. Breastfeeding is an indicator variable equal to one if the respondent is
+breastfeeding conditional on having a child age 0–24 months. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at
+least 12 months prior to the survey date. “PMTCT within 10 km” and “PMTCT within 30 km” are deﬁned similarly. All speciﬁcations include an indicator variable for whether PMTCT was
+ever introduced within 20 km of the respondent. Parameters estimated using ordinary least squares (OLS) regression. Standard errors are in parentheses and are clustered by Standard
+Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level, ** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+least squares (OLS) regression). Fig. 3 also reports the results from esti-
+mating the quasi-event study parameters of a version of Eq. (2) that in-
+cludes no controls.
+
+The coefﬁcient estimates plotted in Fig. 3 are broadly consistent with
+a causal interpretation of the baseline pregnancy results. There appears
+to have been a reduction in pregnancy rates in locations receiving
+PMTCT 6 to 8 years prior to local PMTCT introduction. However, during
+the 5 years prior to local PMTCT introduction, there is no evidence a pre-
+local introduction trend in pregnancy in locations ultimately receiving
+
+PMTCT. Furthermore, there is evidence of a clear downward trend in
+the point estimates that begin shortly after the local introduction of
+PMTCT.44
+
+44 In Fig. 3, “0” on the X-axis denotes 0–11 months after local PMTCT introduction. “12”
+on the X-axis denotes 12–23 months after local PMTCT introduction and corresponds to
+the ﬁrst period I include in the main measure of PMTCT availability in main regression
+speciﬁcation (i.e., Eq. (1)).
+
+84
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+-96 
+
+0.1 
+0.09 
+0.08 
+0.07 
+0.06 
+0.05 
+0.04 
+0.03 
+0.02 
+0.01 
+0 
+-0.01 
+-0.02 
+-0.03 
+-0.04 
+-0.05 
+-0.06 
+-0.07 
+-0.08 
+-0.09 
+-0.1 
+-0.11 
+-0.12 
+-0.13 
+-0.14 
+-0.15 
+
+-84 
+
+-72 
+
+-60 
+
+-48 
+
+-36 
+
+-24 
+
+-12 
+
+0 
+
+12 
+
+24 
+
+36 
+
+48 
+
+60 
+
+72 
+
+84 
+
+with 
+
+controls 
+
+no controls
+
+event time in months 
+
+Fig. 3. Semi-parametric difference-in-differences analysis of effect of local PMTCT on pregnancy rates.
+
+Table 6 continues this dynamic analysis by estimating a version of
+Eq. (1) that allows the fertility response to vary by the length of time
+it has been available. In particular, I allow for an additional effect of
+PMTCT on fertility in locations in which PMTCT was available for at
+least 36 months. The coefﬁcient estimates in Panel A suggest that al-
+though pregnancy may have responded in the short term, it was only
+after PMTCT had been available for at least 36 months that the full sam-
+ple of respondents demonstrated a statistically signiﬁcant and robust
+reduction in the likelihood of pregnancy.45 Moreover, the point esti-
+mates suggest that the medium term response was approximately
+twice as large as the short term response. In contrast, the coefﬁcient es-
+timates in Panel B suggest that the breastfeeding response may have
+been insensitive to the duration PMTCT was locally available.
+
+6.4. Heterogeneity by HIV prevalence
+
+Presumably, women who were more likely to have been HIV posi-
+tive should have demonstrated a greater fertility response to the local
+availability of PMTCT. Because the 2007 DHS is the only survey round
+that includes information on HIV status that is linked to information
+on fertility decisions, I cannot examine how the response varied by
+the respondents' actual HIV status. However, I can examine how it var-
+ied by HIV prevalence across demographic group as deﬁned by the in-
+teraction of gender, ﬁve-year age group, and province of residence.46
+
+Table 7 presents the results of pregnancy regressions that allow the
+fertility response to vary by HIV prevalence among the respondent's de-
+mographic group. Because HIV prevalence is deﬁned using geographic
+and demographic characteristics, caution should be used in interpreting
+results from speciﬁcations that do not include these controls
+(i.e., Columns (1)–(4)). Panel A uses the continuous measure of HIV
+prevalence in the respondent's demographic group. Although the sign
+on the HIV prevalence interaction term is negative, it is very imprecisely
+estimated and usually is not statistically signiﬁcant. Panel B uses an in-
+dicator variable equal to one if the respondent was in a demographic
+group with HIV prevalence at or above the median level. In these regres-
+sions, the estimated fertility response appears to have been twice as
+
+45 For example, the point estimates in Column (6) in Table 6 suggest a 3.6 percentage
+point reduction (statistically signiﬁcant at the 10% level) in pregnancy rates in locations
+where PMTCT had been available at least 36 months.
+46 There is substantial variation in HIV prevalence across age groups and provinces. For
+example, as shown in Table 2, HIV prevalence is approximately four times as high among
+women age 30–34 and 35–39 than among women age 15–19. Similarly, HIV prevalence in
+Lusaka Province is nearly three times as high as in Northern Province. In addition, aggre-
+gate HIV prevalence in Zambia has been relatively ﬂat during the period 2001–2007 Cen-
+tral Statistical Ofﬁce et al., 2009.
+
+large among women in high HIV prevalence groups, consistent with a
+causal interpretation of the estimated effects.
+
+Table 8 reports the analogous breastfeeding regressions. As in
+Table 7, I explore two speciﬁcations. Throughout, there is little evidence
+that the breastfeeding response was larger among women who were
+more likely to be HIV positive. In fact, the coefﬁcient estimate on the
+HIV prevalence interaction term tends to be close to zero, although it
+is imprecisely estimated.
+
+6.5. Discussion
+
+These results suggest three main inferences about the fertility re-
+sponse to local PMTCT availability. First, local PMTCT introduction ap-
+pears
+to have reduced pregnancy rates, particularly among
+demographic subgroups for whom theory suggests may exhibit a larger
+response. Whether this reﬂects a reduction in the desired number of
+children due to a quantity–quality shift or is part of a reduction in pre-
+cautionary/replacement fertility is unclear.47 However, a simple calcula-
+tion suggests that we cannot rule out a pure precautionary or
+replacement fertility explanation. The representative woman in
+Zambia should expect to experience roughly 0.4 child deaths due to
+HIV over the course of her childbearing years.48 If PMTCT expansion is
+expected to eliminate these deaths, then there should be a 0.4 child re-
+duction in number of expected child deaths. A 0.4 child (or 6.76%) re-
+duction in TFR would compensate for this reduction and leave the
+number of surviving children unchanged. The baseline estimate from
+the speciﬁcation with the full set of controls (i.e., Column (6) of
+Table 3, Panel A) is a 2.1 percentage point (or 6.76%) reduction in preg-
+nancy rates, consistent with no change in the quantity of surviving chil-
+dren. On the other hand, the estimated change in locations where
+PMTCT has been available at least 36 months was a 4 percentage point
+(or approximately 13%) reduction in pregnancy rates. A 13% reduction
+in TFR is a reduction of approximately 0.76 children, or nearly twice
+the expected reduction in child mortality.
+
+Second,
+
+local PMTCT availability appears to have increased
+breastfeeding rates. Again, these data are not rich enough to fully
+
+47 A larger estimated response in the medium term than in the short term provides some
+support for the replacement fertility hypothesis. However, this dynamic effect is also con-
+sistent with social learning about PMTCT availability or a relaxation of supply side con-
+straints (e.g., interruptions in antiretroviral supply possibly associated with early
+expansion).
+48 Of the roughly 8% of children born HIV positive or who acquire HIV through
+breastfeeding (Ministry of Health, Zambia, 2008; Torpey et al., 2010), nearly one-half die
+by age 1 (Dabis and Ekpini, 2002). Given a total fertility rate (TFR) of 5.91 in Zambia
+(Fortson, 2009), the representative woman should expect to experience approximately
+0.4 child deaths due to HIV over the course of her childbearing years.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+85
+
+Table 6
+Dynamic effects of local PMTCT on reproductive behavior.
+
+Panel A: Pregnant
+PMTCT within 20 km
+
+PMTCT within 20 km at least 36 months
+
+P N F(PMTCT + PMTCT at least thirty-six months = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+Panel B: Breastfeeding
+PMTCT within 20 km
+
+PMTCT within 20 km at least 36 months
+
+P N F(PMTCT + PMTCT at least thirty-six months = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.030**
+(0.013)
+−0.035**
+(0.014)
+0.000
+No
+No
+No
+No
+No
+17,820
+
+0.051***
+(0.018)
+−0.037
+(0.023)
+0.498
+No
+No
+No
+No
+No
+5507
+
+−0.072***
+(0.013)
+−0.044***
+(0.014)
+0.000
+Yes
+No
+No
+No
+No
+17,819
+
+0.106***
+(0.019)
+−0.032
+(0.024)
+0.003
+Yes
+No
+No
+No
+No
+5507
+
+−0.058***
+(0.014)
+−0.024*
+(0.014)
+0.000
+Yes
+Yes
+No
+No
+No
+17,819
+
+0.140***
+(0.020)
+0.001
+(0.025)
+0.000
+Yes
+Yes
+No
+No
+No
+5507
+
+−0.035***
+(0.011)
+−0.017
+(0.011)
+0.000
+Yes
+Yes
+Yes
+No
+No
+17,817
+
+0.144***
+(0.020)
+0.001
+(0.025)
+0.000
+Yes
+Yes
+Yes
+No
+No
+5507
+
+−0.036***
+(0.013)
+−0.021
+(0.013)
+0.001
+Yes
+Yes
+Yes
+Yes
+No
+17,817
+
+0.209***
+(0.024)
+0.015
+(0.034)
+0.000
+Yes
+Yes
+Yes
+Yes
+No
+5507
+
+−0.018
+(0.016)
+−0.018
+(0.015)
+0.086
+Yes
+Yes
+Yes
+Yes
+Yes
+15,736
+
+0.233***
+(0.025)
+0.030
+(0.036)
+0.000
+Yes
+Yes
+Yes
+Yes
+Yes
+5507
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 ZSBS survey rounds. Breastfeeding data come from the 2001 and 2007 DHS survey rounds.
+Pregnant is an indicator variable for being pregnant sometime in the 12 months prior to the survey date, inclusive. Breastfeeding is an indicator variable equal to one if the respondent is
+breastfeeding conditional on having a child age 0–24 months. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at
+least 12 months prior to the survey date. “PMTCT within 20 km at least 36 months” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at
+least 36 months prior to the survey date. All speciﬁcations include an indicator variable for whether PMTCT was ever introduced within 20 km of the respondent. Parameters estimated
+using ordinary least squares (OLS) regression. Standard errors are in parentheses and are clustered by Standard Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level, ** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+adjudicate between three competing hypotheses: (i) breastfeeding in-
+creased because breastfeeding (i.e., the lactational amenorrhea method
+(LAM)) is an important contraceptive method in Zambia and women
+
+increased breastfeeding to reduce fertility, (ii) breastfeeding increased
+because of a quantity–quality shift associated with the reduction in
+the likelihood of child death, or (iii) breastfeeding increased because
+
+Table 7
+Heterogeneity by HIV prevalence in effect of local PMTCT on pregnancy.
+
+Panel A: Continuous measure of HIV prevalence
+PMTCT within 20 km
+
+PMTCT within 20 km * HIV prevalence
+
+P N F(PMTCT + PMTCT*HIV prevalence = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services,
+
+piped water, and bed net ownership
+
+Observations
+
+Panel B: Binary measure of HIV prevalence
+PMTCT within 20 km
+
+PMTCT within 20 km * HIV prevalence at median or above
+
+P N F(PMTCT + PMTCT*HIV prev median above = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+−0.039**
+(0.018)
+−0.063
+(0.086)
+0.152
+No
+No
+No
+No
+No
+
+−0.089***
+(0.019)
+−0.031
+(0.084)
+0.087
+Yes
+No
+No
+No
+No
+
+−0.063***
+(0.021)
+−0.025
+(0.084)
+0.210
+Yes
+Yes
+No
+No
+No
+
+−0.011
+(0.016)
+−0.149**
+(0.069)
+0.006
+Yes
+Yes
+Yes
+No
+No
+
+−0.023
+(0.017)
+−0.092
+(0.076)
+0.079
+Yes
+Yes
+Yes
+Yes
+No
+
+−0.006
+(0.020)
+−0.078
+(0.082)
+0.253
+Yes
+Yes
+Yes
+Yes
+Yes
+
+17,818
+
+17,817
+
+17,817
+
+17,817
+
+17,817
+
+15,736
+
+−0.052***
+(0.014)
+0.009
+(0.016)
+0.001
+No
+No
+No
+No
+No
+17,818
+
+−0.101***
+(0.015)
+0.017
+(0.016)
+0.000
+Yes
+No
+No
+No
+No
+17,818
+
+−0.080***
+(0.016)
+0.021
+(0.016)
+0.000
+Yes
+Yes
+No
+No
+No
+17,817
+
+−0.021*
+(0.012)
+−0.032**
+(0.013)
+0.000
+Yes
+Yes
+Yes
+No
+No
+17,817
+
+−0.025*
+(0.013)
+−0.027*
+(0.014)
+0.000
+Yes
+Yes
+Yes
+Yes
+No
+17,817
+
+−0.004
+(0.018)
+−0.025*
+(0.015)
+0.114
+Yes
+Yes
+Yes
+Yes
+Yes
+15,736
+
+Notes: Pregnancy data come from the 2001 and 2007 DHS survey rounds and the 2003 and 2005 ZSBS survey rounds. Pregnant is an indicator variable for being pregnant sometime in the
+twelve months prior to the survey date, inclusive. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at least 12
+months prior to the survey date. “HIV prevalence” is measured as the HIV prevalence in the respondent's demographic group, deﬁned as the interaction of gender, ﬁve year age group, and
+province of residence. “HIV prevalence at median or above” is an indicator variable equal to one if HIV prevalence in the respondent's demographic group is equal to or greater than median
+HIV prevalence in Zambia. All speciﬁcations include an indicator variable for whether PMTCT was ever introduced within 20 km of the respondent. Parameters estimated using ordinary
+least squares (OLS) regression. Standard errors are in parentheses and are clustered by Standard Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level, ** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+86
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+Table 8
+Heterogeneity by HIV prevalence in effect of local PMTCT on breastfeeding.
+
+Panel A: Continuous measure of HIV prevalence
+PMTCT within 20 km
+
+PMTCT within 20 km * HIV prevalence
+
+P N F(PMTCT + PMTCT*HIV prevalence = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+Panel B: Binary measure of HIV prevalence
+PMTCT within 20 km
+
+PMTCT within 20 km * HIV prevalence at median or above
+
+P N F(PMTCT + PMTCT*HIV prev median above = 0)
+Month times year ﬁxed effects
+Control for PMTCT expansion stage
+Individual level controls
+Province ﬁxed effects and linear trends
+Controls for other HIV/AIDS services, piped water, and bed net ownership
+Observations
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+0.031
+(0.028)
+0.058
+(0.137)
+0.437
+No
+No
+No
+No
+No
+5507
+
+0.047**
+(0.021)
+−0.011
+(0.026)
+0.065
+No
+No
+No
+No
+No
+5507
+
+0.096***
+(0.030)
+0.02
+(0.137)
+0.315
+Yes
+No
+No
+No
+No
+5507
+
+0.108***
+(0.023)
+−0.016
+(0.026)
+0.000
+Yes
+No
+No
+No
+No
+5507
+
+0.139***
+(0.030)
+0.015
+(0.135)
+0.179
+Yes
+Yes
+No
+No
+No
+5507
+
+0.149***
+(0.023)
+−0.014
+(0.026)
+0.000
+Yes
+Yes
+No
+No
+No
+5507
+
+0.154***
+(0.030)
+−0.048
+(0.136)
+0.359
+Yes
+Yes
+Yes
+No
+No
+5507
+
+0.153***
+(0.023)
+−0.015
+(0.026)
+0.000
+Yes
+Yes
+Yes
+No
+No
+5507
+
+0.215***
+(0.037)
+−0.023
+(0.155)
+0.142
+Yes
+Yes
+Yes
+Yes
+No
+5507
+
+0.217***
+(0.028)
+−0.009
+(0.028)
+0.000
+Yes
+Yes
+Yes
+Yes
+No
+5507
+
+0.238***
+(0.038)
+−0.012
+(0.155)
+0.081
+Yes
+Yes
+Yes
+Yes
+Yes
+5507
+
+0.242***
+(0.030)
+−0.009
+(0.027)
+0.000
+Yes
+Yes
+Yes
+Yes
+Yes
+5507
+
+Notes: Breastfeeding data come from the 2001 and 2007 DHS survey rounds. Breastfeeding is an indicator variable equal to one if the respondent is breastfeeding conditional on having a
+child age 0–24 months. “PMTCT within 20 km” is an indicator variable equal to one if a health clinic within 20 km of the respondent offered PMTCT at least 12 months prior to the survey
+date. “HIV prevalence” is measured as the HIV prevalence in the respondent's demographic group, deﬁned as the interaction of gender, ﬁve year age group, and province of residence. “HIV
+prevalence at median or above” is an indicator variable equal to one if HIV prevalence in the respondent's demographic group is equal to or greater than median HIV prevalence in Zambia.
+All speciﬁcations include an indicator variable for whether PMTCT was ever introduced within 20 km of the respondent. Parameters estimated using ordinary least squares (OLS) regres-
+sion. Standard errors are in parentheses and are clustered by Standard Enumeration Area (SEA).
+*** Signiﬁcant at the 1% level,** Signiﬁcant at the 5% level, * Signiﬁcant at the 10% level.
+
+the risk of transmission through breastfeeding fell.49,50 The lack of
+breastfeeding guidance in the national PMTCT program (Chopra et al.,
+2009; Mugode et al., 2008) and conﬂicting advice offered at clinics
+(Chopra et al., 2009; Mugode et al., 2008; Rutenberg et al., 2003) suggest
+that breastfeeding advice was not the mechanism by which local PMTCT
+availability affected reproductive behavior.
+
+Third, it is likely that the overall fertility response was due to the re-
+duction in child mortality risk associated with local PMTCT introduction.
+The main components of PMTCT in Zambia during this period (i.e., HIV
+testing and antiretroviral drugs for PMTCT) are designed to reduce child
+mortality risk due to MTCT. If women were informed about the basic
+reasoning behind the behavioral change component (i.e., HIV testing),
+then it is likely that the observed fertility change was a response to
+the reduction in child mortality risk. Moreover, existing evidence on
+the fertility response to learning one's HIV status is mixed (Allen et al.,
+1993; Bonnenfant et al., 2012; Kalemli-Ozcan, 2012; Noel-Miller,
+2003; Temmerman et al., 1990) and the estimated effect of local
+PMTCT on fertility is robust to controlling for VCT availability.
+
+49 Sixteen percent of all adult women have ever used LAM and twenty-two percent of
+married women have ever used LAM (Central Statistical Ofﬁce et al., 2009).
+50 To examine the role of a lactational amenorrhea response in explaining the fertility re-
+duction, I estimated a regression using the full of controls where I allow the fertility re-
+sponse to local PMTCT to vary by whether the respondent has a child age 0–24 months.
+When I do this, I ﬁnd that the fertility reduction was in fact concentrated among women
+without a child age 0–24 months. In this regression, the point estimate on local PMTCT
+availability is −0.035 (p-value = 0.02) and the point estimate on the interaction term is
+0.059 (p-value = 0.00). A test of joint signiﬁcance fails to reject that the estimated effect
+among women with a child age 0–24 months is zero (Prob N F = 0.19). These results sug-
+gest that an increase in lactational amenorrhea was not driving the fertility response to lo-
+cal PMTCT. However, caution should be used when interpreting this result because the
+regression includes a regressor that is determined simultaneously with the outcome of
+interest.
+
+7. Conclusion
+
+This paper examines fertility responses to a dramatic change in the
+availability of a critical reproductive health technology, PMTCT of HIV
+that dramatically reduces child mortality risk (Canning, 2006; Dabis
+and Ekpini, 2002). The quasi-experimental evidence I present suggests
+that PMTCT scale-up in Zambia, one of the highest fertility and highest
+HIV prevalence countries in the world, generated a reduction in preg-
+nancy rates for respondents residing near health facilities offering
+PMTCT.51 As a whole, my estimates suggest that local PMTCT availability
+(i.e., at a clinic within 20 km of a respondent) reduced the likelihood
+that the respondent was pregnant by approximately 2 to 4 percentage
+points (i.e., roughly a 10% reduction). Larger estimated responses
+among women who were more likely to be HIV positive, closer to the fa-
+cility where PMTCT was locally introduced, and in the medium term
+than in the short term support a causal interpretation of this estimated
+effect. In addition to these ﬁndings, the results suggest that local PMTCT
+availability increased breastfeeding rates by approximately 10%, indi-
+cating that PMTCT may have generated increased investment in child
+quality.
+
+These results suggest that the continued expansion of PMTCT in Sub-
+Saharan Africa may reduce pregnancy rates by reducing child mortality
+risk, as well as increase investments in child quality at a critical age. Be-
+cause women and households likely will spend fewer resources in the
+pursuit of child quantity, this may release resources (including female
+labor) previously allocated to the production of child quantity for
+
+51 Notably, the estimated effect of local PMTCT availability in the baseline speciﬁcation
+with the full set of controls (i.e., Column (6) of Table 3) is not statistically signiﬁcant at
+conventional levels. However, the regression speciﬁcations that allow for heterogeneous
+effects reveal statistically signiﬁcant reductions in the medium term (i.e., after PMTCT
+had been locally available at least 36 months) and among women who were more likely
+be HIV positive.
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+87
+
+alternative uses. This suggests that PMTCT scale-up is not just a human-
+itarian success, but may also promote economic development and
+growth by accelerating the demographic transition in high HIV preva-
+lence, high fertility countries. Future research should examine the fertil-
+ity response to PMTCT in other countries and the long-term fertility
+response to PMTCT.
+
+References
+
+Acemoglu, Daron, Johnson, Simon, 2007. Disease and development: the effect of life ex-
+
+pectancy on economic growth. J. Polit. Econ. 115 (6), 925–985.
+
+Ahuja, Amrita, Brian Wendell, and Eric Werker. 2008. Male circumcision and AIDS: The
+
+macroeconomic impact of a health crisis. Unpublished manuscript.
+
+Aksan, Anna-Maria, Chakraborty, Shanka, 2012. Childhood disease and the precautionary
+
+demand for children. J. Popul. Econ. 26, 855–885.
+
+Allen, S., Seruﬁlira, A., Gruber, V., Kegeles, S., Van de Perre, P., Carael, M., Coates, T.J., 1993.
+Pregnancy and contraception use among urban Rwandan women after HIV testing
+and counseling. Am. J. Public Health 83 (5), 705710.
+
+Angeles, Luis, 2010. Demographic transitions: analyzing the effects of mortality on fertil-
+
+ity. J. Popul. Econ. 23, 99–120.
+
+Ashraf, Nava, Fink, Günther, Weil, David N., 2010. Evaluating the effects of large scale
+health interventions in developing countries: the Zambian malaria initiative. NBER
+Working Paper Series, No. 16069.
+
+Becker, Gary, Gregg Lewis, H., 1973. On the interaction between the quantity and quality
+
+of children. J. Polit. Econ. 81 (2, Part 2), S279–S288.
+
+Ben-Porath, Yoram, 1976. Fertility response to child mortality: micro data from Israel.
+
+J. Polit. Econ. 84 (4), S163–S178 (Part 2).
+
+Bleakley, Hoyt, Lange, Fabian, 2009. Chronic disease burden and the interaction of educa-
+
+tion, fertility, and growth. Rev. Econ. Stat. 91 (1), 52–65.
+
+Bonnenfant, Yung-Ting, Hindin, Michelle, Gillespie, Duff, 2012. HIV diagnosis and fertility
+
+intentions among couple VCT clients in Ethiopia. AIDS Care 24 (11), 1407–1415.
+
+Boozer, Michael, Philipson, Tomas, 2000. The impact of public testing for Human Immu-
+
+nodeﬁciency Virus. J. Hum. Resour. 35 (3), 419–446.
+
+Boucekkine, Rauof, Desbordes, Rodolphe, Latzer, Helen, 2009. How do epidemics induce
+
+behavioral changes? J. Econ. Growth 14, 233–264.
+
+Brahmbhatt, Heena, Wabwire-Mangen, Fred, Kigozi, Godfrey, Gray, Ronald, 2001. Associ-
+ations of maternal HIV and child survival in Rakai, Uganda. 3rd Conference on Global
+Strategies for the Prevention of HIV Transmission from Mothers to Infants. September
+9–13, 2001, Kampala, Uganda (abstract 59).
+
+Bweupe, Max, 2006. Successful scaling up approaches to PMTCT in resource limited settings:
+
+the Zambian experience. The XVI International AIDS Conference, Toronto, Canada.
+
+Cameron, A. Colin, Gelbach, Jonah, Miller, Douglas, 2008. Bootstrap-based improvements
+
+for inference with clustered errors. Rev. Econ. Stat. 90 (3), 414–427.
+
+Canning, David, 2006. The economics of HIV/AIDS in low-income countries: the case for
+
+prevention. J. Econ. Perspect. 20 (3), 121–142.
+
+Central Statistical Ofﬁce, Ministry of Health, Tropical Diseases Research Centre, University
+of Zambia, Macro International Inc., 2009. Zambia Demographic and Health Survey
+2007. CSO and Macro International Inc., Calverton, Maryland, USA.
+
+Chaudhury, Nazmul, Hammer, Jeffrey, Kremer, Michael, Muralidharan, Karthik, Halsey
+Rogers, F., 2006. Missing in action: teacher and health worker absence in developing
+countries. J. Econ. Perspect. 20 (1), 91–116.
+
+Chopra, Mickey, Doherty, Tanya, Mehatru, Saba, Tomlinson, Mark, 2009. Rapid assess-
+ment of infant feeding support to HIV-positive women accessing prevention of
+mother-to-child transmission services in Kenya, Malawi, and Zambia. Public Health
+Nutr. 12 (12), 2323–2328.
+
+Dabis, Francois, Ekpini, Ehounou Rene, 2002. HIV-1/AIDS and maternal and child health in
+
+Africa. Lancet 359, 2097–2104.
+
+Dabis, Francois, Elenga, Narcisse, Meda, Nicolasc, Leroy, Valeriane, Viho, Ida, Manigart,
+Olivier, Dequae-Merchadou, Laurence, Msellati, Phillipe, Sombie, Issiaka, 2001.
+18-month mortality and perinatal exposure to Zidovudine in West Africa. AIDS 15,
+771–779.
+
+De Cock, Kevin, Fowler, Mary Glenn, Mercier, Eric, de Vincenzi, Isabelle, Saba, Joseph, Hoff,
+Elizabeth, Alnwick, David, Rogers, Martha, Shaffer, Nathan, 2000. Prevention of
+mother-to-child HIV transmission in resource-poor countries: translating research
+into policy and practice. J. Am. Med. Assoc. 283 (9), 1175–1182.
+
+de Walque, Damien, Kazianga, Harounan, Over, Mead, 2010. Antiretroviral therapy
+awareness and risky sexual behaviors: Evidence from Mozambique. University work-
+ing paper, Oklahoma State.
+
+Doepke, Matthias, 2005. Child mortality and fertility decline: does the Barro–Becker
+
+model ﬁt the facts? J. Popul. Econ. 18, 337–366.
+
+Durevall, Dick, Lindskog, Annik, 2011. Uncovering the impact of the HIV epidemic on fer-
+
+tility in Sub-Saharan Africa: the case of Malawi. J. Popul. Econ. 24, 629–655.
+
+Elizabeth Glaser Pediatric AIDS Foundation, 2011. www.pedaids.org.
+Fewtrell, Lorna, Kaufmann, Rachel, Kay, David, Enanoria, Wayne, Colford Jr., John, 2005.
+Water, sanitation, and hygiene interventions to reduce diarrhoea in less developed
+countries: a systematic review and meta-analysis. Lancet Infect. Dis. 5 (1), 42–52.
+
+Fink, Günther, Linnemayr, Sebastian, 2009. HIV does matter for fertility: human capital,
+
+mortality, and family size. Harvard University Working Paper.
+
+Fortson, Jane, 2009. HIV/AIDS and fertility. Am. Econ. J. Appl. Econ. 1 (3), 170–194.
+Foster, Geoff, Williamson, John, 2000. A review of current literature of the impact of HIV/
+
+AIDS on children in Sub-Saharan Africa. AIDS 14 (Supplement 3), S275–S284.
+
+Friedman, Willa, 2012. Antiretroviral drug access and behavior change. University of
+
+California, Berkeley Working Paper.
+
+Goldstein, Markus, Graff Zivin, Joshua, Habyarimana, James, Pop-Eleches, Cristian,
+Thirumurthy, Harsha, 2013. The Effect of Absenteeism and Clinic Protocol on Health
+Outcomes: The Case of Mother-to-Child Transmission of HIV in Kenya.
+
+Gong, Erick, 2012. HIV testing and risky sexual behavior. Middlebury College Working
+
+Paper.
+
+Guay, Laura, Musoke, Philippa, Fleming, Thomas, Bagenda, Danstan, Allen, Melissa,
+Nakabiito, Clemensia, Sherman, Joseph, Bakaki, Paul, Ducar, Constance, Deseyve,
+Martina, Emel, Lynda, Mirochnick, Mark, Fowler, Mary Glenn, Mofenson, Lynne,
+Miotti, Paolo, Dransfeld, Kevin, Bray, Dorothy, Mmiro, Francis, Brooks Jackson, J.,
+1999. Intrapartum and neonatal single-dose nevirapine compared with zidovudine
+for prevention of mother-to-child transmission of HIV-1 in Kampala, Uganda:
+HIVNET 012 randomised trial. Lancet 354, 795–802 (September 4).
+
+Hossain, Mian Bazle, Phillips, James, Legrand, Thomas, 2007. The impact of childhood
+mortality on fertility in six rural thanas of Bangladesh. Demography 44 (4), 771–784.
+Jackson, J. Brooks, Musoke, Philippa, Fleming, Thomas, Laura, A., Guay, Danstan Bagenda,
+Allen, Melissa, Nakabiito, Clemensia, Sherman, Joseph, Bakaki, Paul, Owor, Maxensia,
+Ducar, Constance, Deseyve, Martina, Mwatha, Anthony, Emel, Lynda, Duefeld, Corey,
+Mirochnick, Mark, Fowler, Mary Glenn, Mofenson, Lynne, Miotti, Paolo, Gigliotti,
+Maria, Bray, Dorothy, Mmiro, Francis, 2003. Intrapartum and neonatal single-dose ne-
+virapine compared with zidovudine for prevention of mother-to-child transmission
+of HIV-1 in Kampala, Uganda: 18-month follow-up of the HIVNET 012 randomised
+trial. Lancet 362, 859–868 (September 13).
+
+Juhn, Chinhui, Kalemi-Ozcan, Sebnem, Turan, Belgi, 2013. HIV and fertility in Africa: ﬁrst
+
+evidence from population-based surveys. J. Popul. Econ. 26 (3), 835–853.
+
+Kalemli-Ozcan, Sebnem, 2002. Does the mortality decline promote economic growth?
+
+J. Econ. Growth 7, 411–439.
+
+Kalemli-Ozcan, Sebnem, 2012. AIDS, “reversal” of the demographic transition and
+
+economic development: evidence from Africa. J. Popul. Econ. 25 (3), 871–897.
+
+Kalemli-Ozcan, Sebnem, Turan, Belgi, 2011. HIV and fertility revisited. J. Dev. Econ. 96 (1),
+
+6165.
+
+Kalibala, S., et al., 2003. Empowering Communities to Respond to HIV/AIDS: Ndola Dem-
+onstration Project on Maternal and Child Health. Population Council, Washington, DC.
+Lee, Ronald, 2003. The demographic transition: three centuries of fundamental change.
+
+J. Econ. Perspect. 17 (4), 167–190.
+
+Lucas, Adrienne, 2013. The impact of malaria eradication on fertility. Econ. Dev. Cult.
+
+Chang. 61 (3), 607–631.
+
+Malthus, Thomas, 1798. An Essay on the Principle of Population. J. Johnson, St. Paul's
+
+Churchyard, London.
+
+Ministry of Health and National AIDS Council, Zambia, 2008. Zambia Country Report,
+Multi-Sectoral AIDS Response Monitoring and Evaluation Biennial Report, 2006–
+2007 (Lusaka, Zambia).
+
+Ministry of Health, Zambia, 2007. PMTCT National Protocol Guidelines (Lusaka, Zambia).
+Ministry of Health, Zambia, 2008. PMTCT National Protocol Guidelines (Lusaka, Zambia).
+Ministry of Health, Zambia, 2010. PMTCT National Protocol Guidelines (Lusaka, Zambia).
+Mugode, Habulembe, Raider, Nthani, Dorothy, Chitanda, Jane, Bupe Bwalya, Bwalya,
+Amanzi, Patrick, 2008. Zambia Country Assessment Report. The World Breastfeeding
+Trends Initiative. NFNC/IBFAN Africa.
+
+National AIDS Council, 2006. National HIV and AIDS Strategic Framework. Republic of
+
+Zambia (May).
+
+Newell, Marie-Louise, Brahmbhatt, Heena, Ghys, Peter D., 2004. Child mortality and HIV
+
+infection in Africa: a review. AIDS 18 (Supplement 2), S27–S34.
+
+Ngashi, N., Luo, C., Mulenga, D., Gass, R., 2006. Innovative bottleneck-solving strategies for
+taking PMCT programs to scale: learning from proven country experiences. The XVI
+International AIDS Conference, Toronto, Canada.
+
+Noel-Miller, Claire Marie, 2003. Concern regarding the HIV/AIDS epidemic and individual
+childbearing, evidence from rural Malawi. Demographic Research, Special Collection
+1pp. 319–348 (Article 10).
+
+PEPFAR, 2005. Engendering Bold Leadership: The President's Emergency Plan for AIDS
+Relief, First Annual Report to Congress. Ofﬁce of the United States Global AIDS
+Coordinator, Washington, DC.
+
+PEPFAR, 2006. Action Today, A Foundation for Tomorrow: The President's Emergency
+Plan for AIDS Relief, Second Annual Report to Congress. Ofﬁce of the United States
+Global AIDS Coordinator, Washington, DC.
+
+PEPFAR, 2007. The Power of Partnerships: The President's Emergency Plan for AIDS Relief,
+Third Annual Report to Congress. Ofﬁce of the United States Global AIDS Coordinator,
+Washington, DC.
+
+Preston, Samuel, 1975. Health programs and population growth. Popul. Dev. Rev. 1 (2),
+
+189–199.
+
+Rutenberg, Naomi, Geibel, Scott, Kalibala, Sam, Kankasa, Chipepo, Nduati, Ruth,
+Ngacha, Dorothy Mbori, Oyieke, Jennifer, Siwale, Margaret, 2003. Infant Feeding
+Counseling within Kenyan and Zambian PMTCT Services: How Well Does it Pro-
+mote Good Feeding Practices? Horizons Research Summary. Population Council,
+Washington, DC.
+
+Sah, Raaj, 1991. The effects of child mortality changes on fertility choice and parental
+
+welfare. J. Polit. Econ. 99 (3), 582–606.
+
+Schultz, T. Paul, 1997. Demand for children in low income countries. In: Rosenzweig, M.R.,
+
+Stark, O. (Eds.), Chapter 8 in Handbook of Population and Family Economics.
+
+Soares, Rodrigo, 2005. Mortality reductions, educational attainment, and fertility choice.
+
+Am. Econ. Rev. 95 (3), 580–601.
+
+Spira, Rosemary, Lepgage, Phillipe, Msellati, Phillipe, Van d Perre, Phillipe, Leroy,
+Valeraine, Simonon, Arlette, Karita, Etienee, Dabis, Francois, 1999. Natural history of
+HIV type 1 infection in children: a ﬁve-year prospective study in Rwanda. Pediatrics
+104, D1–D9.
+
+Steckelenburg, J., Kyanamina, S., Mukelabai, M., Wolffers, I., van Roosmalen, J., 2004.
+Waiting too long: low use of maternal health services in Kalabo, Zambia. Trop.
+Med. Int. Health 9 (3), 390–398.
+
+88
+
+N. Wilson / Journal of Development Economics 116 (2015) 74–88
+
+Stringer, Elizabeth, Sinkala, Moses, Stringer, Jeffrey, Mzyece, Elizabeth, Makuka, Ida,
+Goldenberg, Robert, Kwane, Pascal, Chilufya, Martha, Vermund, Sten, 2003.
+Prevention of mother-to-child transmission of HIV in Africa: successes and chal-
+lenges in scaling-up a nevirapine-based program in Lusaka, Zambia. AIDS 17 (9),
+1377–1382.
+
+Stringer, Jeffrey, Sinkala, Moses, Maclean, Courtney, Levy, Jens, Kankasa, Chipepo,
+DeGroot, Alain, Stringer, Elizabeth, Acosta, Edward, Goldenberg, Robert, Vermund,
+Sten, 2005. Effectiveness of a city-wide program to prevent mother-to-child HIV
+transmission in Lusaka, Zambia. AIDS 19 (12), 1309–1315.
+
+Taha, Taha, Kumwenda, Newton, Broadhead, Robin, Hoover, Donald, Markakis, Diane, van
+der Hoeven, Len, Liomba, George, Chiphangwi, John, Miotti, Paolo, 1999. Mortality
+after the ﬁrst year of life among human immunodeﬁciency virus type 1-infected
+and uninfected children. Pediatr. Infect. Dis. J. 18, 689–694.
+
+Temmerman, M., Moses, S., Kiragu, D., Fusallah, S., Wamola, I.A., Piot, P., 1990. Impact of
+single session post-partum counselling of HIV infected women on their subsequent
+reproductive behavior. AIDS Care 2, 247252.
+
+Thornton, Rebecca, 2008. The demand for, and impact of, learning HIV status. Am. Econ.
+
+Rev. 98 (5), 1829–1863.
+
+Torpey, Kwasi, Kabaso, Mushota, Kasonde, Prisca, Dirks, Rebecca, Bweupe, Maxmillian,
+Thompson, Catherine, Mukadi, Ya Diul, 2010. Increasing the uptake of prevention of
+mother-to-child transmission of HIV services in a resource-limited setting. BMC
+Health Serv. Res. 10, 29.
+
+UNAIDS, 2010. UNAIDS Report on the Global AIDS Epidemic. Joint United Nations
+
+Programme on HIV/AIDS.
+
+UNICEF, 2010. Zambia: PMTCT Factsheet. United Nations Children's Fund.
+UNICEF, 2012. Levels & Trends in Child Mortality: Report 2012. UNICEF/WHO/The World
+
+Bank/United Nations.
+
+WHO, 2006a. Antiretroviral Drugs for Treating Pregnant Women and Preventing HIV
+Infection in Infants: Towards Universal Access, Recommendations for a Public Health
+Approach. World Health Organization.
+
+WHO, 2006b. Antiretroviral Therapy for HIV Infection in Adults and Adolescents in
+Resource-Limited Settings: Towards Universal Access, Recommendations for a Public
+Health Approach. World Health Organization.
+
+WHO, 2009. HIV and Infant Feeding: Revised Principles and Recommendations. World
+
+Health Organization.
+
+WHO, 2010a. Toward Universal Access: Scaling up Priority HIV/AIDS Interventions in the
+
+Health Sector. World Health Organization.
+
+WHO, 2010b. World Health Statistics 2010. World Health Organization.
+Wilson, Nicholas, 2010. Antiretroviral Therapy and Demand for HIV Testing: Evidence
+
+from Zambia. Williams College Working Paper.
+
+Wolpin, Kenneth, 1984. An estimable dynamic stochastic model of fertility and child
+
+mortality. J. Polit. Econ. 92 (5), 852–874.
+
+World Bank, 2013. World Development Indicators. The World Bank Group.
+Young, Alwyn, 2005. The gift of the dying: the tragedy of AIDS and the welfare of future
+
+African generations. Q. J. Econ. 120 (2), 423–466.
+
+Young, Alwyn, 2007. In sorrow to bring forth children. J. Econ. Growth 12, 283–327.
+
+

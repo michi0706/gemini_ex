@@ -1,0 +1,11675 @@
+DO ENERGY EFFICIENCY INVESTMENTS DELIVER?
+
+EVIDENCE FROM THE WEATHERIZATION ASSISTANCE
+
+PROGRAM∗
+
+MEREDITH FOWLIE
+
+MICHAEL GREENSTONE
+CATHERINE WOLFRAM
+
+A growing number of policies and programs aim to increase investment in
+energy efﬁciency, because conventional wisdom suggests that people fail to take
+up these investments even though they have positive private returns and gener-
+ate environmental beneﬁts. Many explanations for this energy efﬁciency gap have
+been put forward, but there has been surprisingly little ﬁeld testing of whether
+the conventional wisdom is correct. This article reports on the results of an exper-
+imental evaluation of the nation’s largest residential energy efﬁciency program—
+the Weatherization Assistance Program—conducted on a sample of approximately
+30,000 households in Michigan. The ﬁndings suggest that the upfront investment
+costs are about twice the actual energy savings. Furthermore, the model-projected
+savings are more than three times the actual savings. Although this might be
+attributed to the “rebound” effect—when demand for energy end uses increases
+as a result of greater efﬁciency—the article fails to ﬁnd evidence of signiﬁcantly
+higher indoor temperatures at weatherized homes. Even when accounting for the
+broader societal beneﬁts derived from emissions reductions, the costs still substan-
+tially outweigh the beneﬁts; the average rate of return is approximately −7.8%
+annually. JEL Codes: Q4, Q48, Q5.
+
+∗We received many helpful comments from seminar participants at Carnegie
+Mellon, Columbia University, ETH Zurich, National University of Singapore,
+NBER Summer Institute, Resources for the Future, the University of Basel, the
+University of Maryland, the University of Michigan, and the University of Wis-
+consin. The authors gratefully acknowledge the ﬁnancial support of the Alfred P.
+Sloan Foundation, the MacArthur Foundation, the Rockefeller Foundation, and
+the UC Berkeley Energy and Climate Institute and institutional support from the
+Poverty Action Lab (JPAL) at MIT, the Center for Local, State, and Urban Policy
+(CLOSUP) at the University of Michigan, and the Energy Institute at Haas. We
+thank James Gillan, Brian Goggin, Walter Graf, Erica Myers, Patrick Schwarz,
+Daniel Stuart, and Matthew Woerman for excellent research assistance. We are
+indebted to Jesse Worker for outstanding management of a challenging project.
+Finally, we thank our contacts at our partner utility and the community action
+agencies, without whom this project would not have been possible.
+
+C(cid:3) The Author(s) 2018. Published by Oxford University Press on behalf of
+the
+President and Fellows of Harvard College. All rights reserved. For Permissions, please email:
+journals.permissions@oup.com
+The Quarterly Journal of Economics (2018), 1597–1644. doi:10.1093/qje/qjy005.
+Advance Access publication on January 29, 2018.
+1597
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1598
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+I. INTRODUCTION
+
+Energy efﬁciency investments are widely believed to offer
+a rare win-win opportunity. Detailed engineering projections,
+such as those summarized by the well-known McKinsey curves
+(McKinsey & Company 2009), routinely project that investments
+pay for themselves through the energy saved alone (win 1). More-
+over, by reducing the energy necessary to achieve a given level of
+energy services (e.g., indoor heating), these investments promise
+to decrease the greenhouse gas emissions causing climate change
+and other pollutants that compromise human health (win 2).
+
+Despite these apparent opportunities, there is a large and
+persistent difference between the levels of investment in energy
+efﬁciency that are projected to save consumers money and the
+investments that individuals actually pursue. This has become
+known as the “efﬁciency gap.” Over the past three decades, a wide
+variety of explanations have been offered for this apparent failure
+of consumers to avail themselves of proﬁtable investment oppor-
+tunities. The most popular explanations have emphasized the pos-
+sibility of market failures, such as imperfect information, capital
+market failures, split incentive problems, and behavioral explana-
+tions, including myopia, inattentiveness, and prospect theory and
+reference-point phenomena (see, for example, Allcott and Green-
+stone 2012; Gillingham and Palmer 2014; Gerarden, Newell, and
+Stavins 2015). In contrast, relatively little attention has been paid
+to the more pedestrian possibility that the real-world returns on
+energy efﬁciency investments are lower than the engineering mod-
+els indicate.1
+
+Mounting concern about climate change has increased the ur-
+gency of understanding this phenomenon. Governments around
+the world are pursuing a wide range of policies designed to narrow
+or close the energy efﬁciency gap. For example, the International
+Energy Administration (IEA) has outlined a suite of policies that
+do not harm economic growth and limit warming to the 2◦C rec-
+ommended by climate scientists; in this scenario, end-use energy
+efﬁciency improvements account for 49% of the greenhouse gas
+emissions abatement in 2020 (IEA 2013).2 U.S. electric utilities
+
+1. Early work by Joskow and Marron (1992) raised concerns about overstated
+efﬁciency potential and underscored the importance of using ex post measures of
+consumer behavior to estimate energy savings.
+
+2. Indeed, energy efﬁciency is a central plank for virtually all serious climate
+
+mitigation plans (Loftus et al. 2015).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1599
+
+are rapidly expanding their energy efﬁciency programs (Barbose
+et al. 2013), and federal and state regulators routinely tighten
+energy efﬁciency building codes, appliance standards, and fuel
+economy standards for automobiles and trucks.
+
+This article provides the ﬁrst large-scale ﬁeld evidence on
+the returns to energy efﬁciency investments from a random-
+ized controlled trial. Speciﬁcally, we use experimental and quasi-
+experimental variation in participation in the federal Weath-
+erization Assistance Program (WAP) to identify the returns to
+these investments. WAP is the nation’s largest residential en-
+ergy efﬁciency program and has provided more than 7 million
+low-income households with weatherization assistance since its
+inception in 1976. Recipient households in our study received ap-
+proximately $5,150 worth of home improvements on average, with
+zero out-of-pocket costs. The most common measures included fur-
+nace replacement, attic and wall insulation, and inﬁltration reduc-
+tion. Importantly, WAP only pays for energy efﬁciency measures
+that pass a cost-beneﬁt test, based on ex ante engineering projec-
+tions, with the aim of ensuring that only beneﬁcial investments
+are undertaken.
+
+The randomized-encouragement design experiment was con-
+ducted on a sample of approximately 30,000 Michigan households
+that were presumptively eligible for participation in WAP. Approx-
+imately one quarter of these households were randomly assigned
+to a treatment group that was encouraged to apply for the pro-
+gram and received signiﬁcant application assistance. The control
+households were free to apply for WAP but were not contacted or
+assisted in any way by our team.
+
+There are three primary ﬁndings. First, an aggressive encour-
+agement intervention increased WAP participation from less than
+1% in the control group to about 6% in the encouraged group. The
+encouragement was implemented by a ﬁrm with extensive experi-
+ence managing outreach campaigns and neighborhood canvassing
+operations, including among low-income populations. The ﬁeld ac-
+tivities included almost 7,000 home visits, more than 32,000 phone
+calls, and 2,700 follow-up appointments. Ultimately, these exten-
+sive efforts only managed to increase the participation rate by 5
+percentage points at a cost of more than $1,000 per weatherized
+household (Fowlie, Greenstone, and Wolfram 2015), revealing low
+demand in the eligible population for a program with considerable
+potential beneﬁts.
+
+Second, the ﬁndings suggest that the beneﬁts of these invest-
+ments are substantially less than the upfront costs. We estimate
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1600
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+that the WAP energy efﬁciency investments reduce monthly en-
+ergy consumption by 10–20% on average. Although this surely
+provides a substantial assist to participating low-income house-
+holds in the form of reduced energy bills, the upfront investment
+costs are about twice the realized energy savings. Furthermore,
+the ex post estimated savings are roughly 30% of the model-
+projected savings.3
+
+Third, while the modest energy savings might be attributed
+to the “rebound” effect, when demand for energy end uses in-
+creases as a result of greater efﬁciency, the article fails to ﬁnd
+evidence of signiﬁcantly higher indoor temperatures at weather-
+ized homes. This ﬁnding comes from a novel survey of measured
+indoor temperatures and thermostat set points that we conducted
+in the study population. Across a variety of metrics, the WAP
+energy efﬁciency investments appear to be poor performers on
+average. Although these investments were free to participating
+households, we can nevertheless estimate the private returns if
+households had been responsible for the upfront costs, which is
+the case for households that do not qualify for WAP. Counting pri-
+vate returns—a household’s reductions in energy bills and will-
+ingness to pay for any change in indoor temperatures—the annual
+internal rate of return that would rationalize these efﬁciency in-
+vestments is −2.3%. This ﬁnding of low, indeed negative, returns
+suggests that at least for residential home retroﬁts, there may
+not be much of an efﬁciency gap to explain. Rather, just like in
+all other sectors of the economy, investments with low returns
+are not taken up frequently. Importantly, the engineering model
+used by WAP is similar, and in some cases identical, to those used
+to develop recommended residential efﬁciency investments in the
+broader population (i.e., not just low-income households).
+
+In principle these investments could still be beneﬁcial socially,
+but on average, this is not the case with the measures we evalu-
+ate. In contrast to the private calculation, the social one accounts
+for the beneﬁts of reduced greenhouse gas and local pollutant
+emissions and the fact that part of households’ energy savings
+is a transfer from other energy consumers, rather than genuine
+
+3. Allcott and Greenstone (2017) evaluate the returns to residential efﬁciency
+investments in a different setting using a nonexperimental approach to measure
+energy savings (although they exploit experimental variation in energy efﬁciency
+audit take up). They ﬁnd that the returns to investments are negative socially.
+Measured natural gas savings amount to only 29% of the savings predicted by the
+engineering model.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1601
+
+social savings. When we account for these factors, the annual so-
+cial internal rate of return that would justify these investments
+is −7.8%. Finally, we also calculate the average cost per ton of
+avoided CO2 under a range of assumptions. The most plausible
+estimates are $200/ton, which is signiﬁcantly larger than the U.S.
+government’s estimate of the social cost of carbon of roughly $38
+(Greenstone, Kopits, and Wolverton 2013).
+
+This article makes three primary contributions to the liter-
+ature on energy efﬁciency. First and most important, it is one
+of the ﬁrst studies to provide causal evidence on the returns to
+residential energy efﬁciency investments from a large-scale ﬁeld
+test. The closest paper methodologically is Dubin, Miedema, and
+Chandran (1986), which reports results from an experiment con-
+ducted more than three decades ago on fewer than 400 households.
+There have been a series of other important academic papers
+that have taken on issues related to residential energy efﬁciency
+using various sources of nonexperimental variation, including
+Metcalf and Hassett (1999) on returns to insulation improve-
+ments; Davis, Fuchs, and Gertler (2014) about appliance replace-
+ment programs in Mexico; Jacobsen and Kotchen (2013), Kotchen
+(2017), and Levinson (2016) on the energy savings associated
+with building code standards; and Allcott and Greenstone (2017),
+who use experimental and nonexperimental variation to esti-
+mate the welfare consequences of residential energy efﬁciency
+programs that are not means tested. There is also a large (mea-
+sured in the many hundreds) “gray” literature that is often com-
+missioned by agents with a stake in the outcome (e.g., utilities that
+could face regulatory sanctions if their energy efﬁciency programs
+fail to deliver promised savings). These studies generally do not
+meet modern standards of evidence, often relying on simulations,
+rather than real-world data, failing to specify clear counterfactu-
+als/control groups, or not reporting standard statistical tests.4
+
+4. A survey by the American Council for an Energy Efﬁcient Economy revealed
+that in 81% of U.S. states with signiﬁcant energy efﬁciency activities, regulators
+use ex ante engineering estimates to measure the savings from the programs
+(Kushler, Nowak, and Witte 2012). Reports that do endeavor to develop ex post
+estimates of savings vary in terms of analytical rigor, rarely meeting standards
+applied in refereed journals (e.g., key details necessary to follow the approach to
+evaluation are often missing). Furthermore, many do not use modern approaches
+to statistical inference; it is not uncommon, for example, for these studies to simply
+report differences without an accompanying statistical test of signiﬁcance. See, for
+example, CPUC (2015) for a summary of gray literature evaluations of California
+efﬁciency programs implemented from 2010 to 2012.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1602
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+Second, this article is the ﬁrst effort to directly measure the
+rebound effect and develop a framework or method that allows
+for rebound behavior to count as a beneﬁt or part of the re-
+turns to efﬁciency investments. The previous literature has gen-
+erally had to rely on methods of detecting rebound that place
+great faith in the validity of the engineering predictions of sav-
+ings. For example, Dubin, Miedema, and Chandran (1986) as-
+sume that the engineering estimates are correct and use them
+to model demand for energy services. Because they ﬁnd elastic
+demand for energy services, the paper concludes that there is a
+rebound effect. Though the existence of the rebound effect has
+been the subject of much debate (Gillingham et al. 2013), our
+study is the ﬁrst to provide a direct ﬁeld test of this phenomenon
+across a broad spectrum of residential energy efﬁciency invest-
+ments.
+
+Third, the article provides a demanding and credible test of
+the validity of engineering models’ predictions about the returns
+to residential energy efﬁciency investments. This test is impor-
+tant because the case for the energy efﬁciency gap—the motiva-
+tion for almost all energy efﬁciency policy—is derived from the
+promise of abnormally high returns to these investments; yet the
+promises are derived from engineering models that have largely
+been untested in the ﬁeld. Furthermore, the article’s compari-
+son of actual and modeled savings is conducted among the most
+frequent residential efﬁciency investments. Finally, WAP’s engi-
+neering model is used extensively in other contexts, and there is
+considerable similarity between its underlying assumptions that
+generate ex ante predictions in the returns to efﬁciency invest-
+ments and the assumptions in competing engineering models.
+Thus, it seems that the pedestrian explanation for the energy
+efﬁciency gap (that low take-up is due to low returns) deserves
+greater consideration.
+
+The article proceeds as follows. Section II introduces a con-
+ceptual framework useful for deriving the private value of energy
+efﬁciency investments, including any behavioral adjustments they
+may cause. Section III outlines key details on the WAP and de-
+scribes our study design. Section IV describes the data sources
+and provides summary statistics. Section V reports the main re-
+sults on actual savings and on observed rebound effects. Section
+VI develops measures of both the private and social returns to
+energy efﬁciency investments and discusses the results’ external
+validity to other settings. Section VII concludes.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1603
+
+II. CONCEPTUAL FRAMEWORK FOR MEASURING PRIVATE RETURNS
+
+Private gains from an investment in energy efﬁciency are
+realized through two main channels: reduced energy consump-
+tion and increased consumption of energy services (e.g., lighting,
+space heating, air conditioning) due to reductions in the price
+of energy services. With respect to the ﬁrst channel, any reduc-
+tion in dollars spent on energy can be allocated to other forms of
+welfare-enhancing consumption. The second channel becomes im-
+portant when an efﬁciency-induced reduction in energy end-use
+costs leads to an increase or “rebound” in the demand for the en-
+ergy service. For utility-maximizing agents, any reoptimization of
+consumption that occurs in response to an efﬁciency improvement
+will be (weakly) welfare improving.
+
+These basic ideas are illustrated in the upper quadrant of
+Figure I, which plots consumption of a particular energy ser-
+vice, home heating, on the horizontal axis and consumption of
+the numeraire (i.e., all other goods), X, on the vertical axis. This
+framework focuses on home heating because it is a particularly
+important end use in our empirical setting; over 90% of projected
+energy savings from the weatherization investments we analyze
+are heating related.
+
+The two downward-sloping lines in the upper quadrant of the
+ﬁgure reﬂect budget constraints, the lower before the efﬁciency
+improvement (i.e., the status quo) and the higher after weather-
+ization. The budget constraint pivots postweatherization because
+the price of heating services (e.g., the price of keeping the house
+at a certain indoor temperature in winter) has fallen; energy ef-
+ﬁciency improvements reduce the cost of purchasing any given
+level of thermal comfort.
+
+The ﬁgure also illustrates a family of indifference curves for
+a representative consumer, each of which trace out the bundles of
+the numeraire, X, and heating services, H, that deliver the same
+level of utility. The U-shape of the indifference curves reﬂects
+that households do not like to be too hot or too cold. In the status
+quo (i.e., absent an efﬁciency improvement), the representative
+agent will maximize utility through the choice of H0 and X0. The
+weatherization-induced expansion of the budget constraint allows
+the agent to move to a higher level of utility associated with the
+bundle of H1 and X1. In the ﬁgure, status quo consumption oc-
+curs below the satiation point for thermal comfort. Thus, when
+the price falls, demand for heating services increases by H1 − H0.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1604
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+FIGURE I
+
+Effect of Encouragement on Participation and Energy Consumption
+
+Budget constraints and indifference curves of a representative consumer are
+plotted in the top quadrant. A linear relationship between heating services and
+building energy consumption (over a range where heating demand is strictly pos-
+itive, and heating technology constraints do not bind) is plotted in the bottom
+quadrant. See text for details.
+
+The positive income effect also increases consumption of the nu-
+meraire by X1 − X0.
+
+The article’s empirical challenge is to measure the welfare
+gains conferred by weatherization investments. Our empirical set-
+ting allows us to develop a measure of willingness to pay (WTP) for
+weatherization that accounts for both reductions in energy expen-
+ditures, and increased consumption of heating services. The effect
+of energy efﬁciency improvements on other consumption can be
+measured using data on monthly energy expenditures which vary
+one-for-one with the consumption of the numeraire. Put another
+way, a $1 decrease in energy expenditures allows for a $1 increase
+in consumption of all other goods. Measuring willingness to pay
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1605
+
+for the increase in heating services (i.e., the direct rebound effect)
+is more challenging because demand for energy services, such as
+heating, is not readily observable in household energy consump-
+tion or expenditure data.
+To obtain an estimate of the efﬁciency-induced increase in de-
+mand for heating (H1 − H0 in the ﬁgure), we conduct a survey of
+indoor temperatures in weatherized and nonweatherized homes.
+With this estimate of the treatment-induced change in indoor
+temperatures in hand, we can construct bounds for the welfare
+consequences of any observed increase in warmth by imposing
+some structure on the relationship between energy demand and
+heating services.5 The bottom quadrant of Figure I plots a repre-
+sentative building-speciﬁc relationship between heating services
+and the energy required to achieve that temperature, E, hold-
+ing constant outdoor temperatures and building characteristics,
+Z.6 Efﬁciency improvements to the building envelope (e.g., insu-
+lation improvements, window sealing, a furnace upgrade) reduce
+the energy required to deliver any given level of heating services.
+This implies that the slope of the relationship between heating
+services and energy consumption becomes less steep following an
+efﬁciency improvement, depicted as the pivot in the function that
+determines energy consumption from E(H; SQ, Z) to E(H; W, Z)
+in the ﬁgure. Section V.C details our approach to empirically esti-
+mating the relationship between energy consumption and heating
+demand, which in practice is measured as indoor temperature.
+
+We use the empirical relationship between indoor tempera-
+tures and energy consumption to construct bounds on the utility
+
+5. Our measure of the returns to weatherization investments is predicated on
+a measure of increased indoor temperature, but we do not account for any increase
+in comfort conditional on indoor air temperature. Researchers have noted that
+improvements in insulation enhance comfort by reducing drafts and increasing
+humidity (Schwarz and Taylor 1995). If a home is less drafty and more humid, a
+consumer may be able to achieve the same comfort at a lower indoor temperature.
+Consequently, what we measure here is the net effect of efﬁciency improvements
+on heating demand. We return to this point later.
+
+6. We assume a linear relationship between air temperature and energy de-
+mand over the relevant range of temperatures; we provide empirical support for
+this assumption in Section V. Also, for ease of exposition, this ﬁgure depicts the
+limited range of indoor air temperatures over which energy consumption is in-
+creasing in indoor temperatures. This range is bounded from below by the outdoor
+air temperature (if the thermostat is set below the outdoor air temperature, no
+heating services are required). The lines stop where the capacity of the home
+heating system binds. Beyond this point, increased energy consumption ceases to
+generate heating services.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1606
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+gains from any efﬁciency-induced increase in the demand for in-
+door temperature using revealed-preference logic. Since the agent
+chooses to increase heating services from H0 to H1 following the
+efﬁciency improvement, it follows that a lower bound for the asso-
+ciated increased utility is the increase in heating costs incurred af-
+ter weatherization. This value is represented by PE*(E1, W − E0, W),
+where PE is the exogenous price of energy. Note that the agent
+chose less heating than H1 prior to the efﬁciency improvement.
+Thus, the cost of the change in heating services prior to weath-
+erization, measured by PE*(E1, SQ − E0, SQ), provides an upper
+bound on the welfare gain. Preferences revealed prior to the efﬁ-
+ciency improvement suggest that the agent values the increase in
+heating services less than this incremental cost.
+
+With this conceptual framework as a guide, the article esti-
+mates the causal effect of WAP participation on annual energy
+consumption and WTP for changes in heating services.
+
+III. BACKGROUND AND STUDY DESIGN
+
+III.A. WAP
+
+The WAP is the nation’s largest residential energy-efﬁciency
+program. WAP supports improvements in the energy efﬁciency of
+dwellings occupied by low-income families. Since its inception in
+1976, over 7 million low-income households have received weath-
+erization assistance through the program. The American Recovery
+and Reinvestment Act PL111-5 (ARRA) dramatically increased
+the scale and scope of WAP.7 Our analysis seeks to estimate the
+impacts of weatherization assistance over the ARRA-funded time
+period.
+
+WAP funds are distributed to states based on a formula tied
+to a state’s climate, the number of low-income residents, and their
+typical energy bills. The states distribute WAP money to over
+1,000 local subgrantees, which are typically community action
+agencies (CAAs) or similar nonproﬁt groups. These subgrantees
+are then tasked with identifying and serving eligible households.
+The average participating household in our data received an av-
+erage of $4,130 of energy efﬁciency investments and over $1,000
+
+7. Funding increased from $450 million annually in 2009 to almost $5 billion
+for the 2011–2012 program years. Under the ARRA-funded program, all owner-
+occupied households at or below 200% of the poverty line were eligible to apply for
+assistance.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1607
+
+worth of additional house improvements at zero out-of-pocket
+costs.8
+
+Before implementing a weatherization retroﬁt, CAA program
+staff conduct an energy audit of the home. The purpose of the
+audit is to recommend speciﬁc efﬁciency improvements. During
+the visit, program auditors collect detailed information about the
+building structure, heating and cooling systems, appliances, in-
+sulation, ventilation, and so on. This information is combined
+with local climate conditions and retroﬁt measure costs, then fed
+into a computer-based audit tool: the National Energy Audit Tool
+(NEAT). This tool is composed of a set of easy-to-use but advanced
+energy audit computer programs that identify the cost-effective
+energy-efﬁciency retroﬁt measures for a home after taking into ac-
+count local weather conditions, retroﬁt measure costs, fuel costs,
+and speciﬁc construction details of the home. NEAT was designed
+speciﬁcally to help states and local weatherization agencies imple-
+ment WAP, although it is also a widely used tool for private-sector
+weatherization audits (EERE 2010).9
+
+NEAT produces an estimate of the energy savings and costs
+associated with different combinations of efﬁciency measures. The
+present value of projected energy savings are calculated using a
+discount rate of 3% and an engineering estimate of the life span
+of the measures. The 3% discount rate is consistent with Ofﬁce
+of Management and Budget guidance on how to evaluate beneﬁts
+of federal spending but is substantially lower than the cost of
+borrowing for most households, especially low-income ones. The
+WAP program requires that all recommended measures return a
+minimum of $1.00 in incremental savings for every $1.00 spent in
+labor and material costs.
+
+The process of applying for weatherization is highly onerous
+and time intensive, at least partially to prevent fraud. Applicants
+must submit extensive paperwork documenting their eligibility,
+including utility bills, earnings documentation, Social Security
+cards for all residents of the home, and deeds to the home. Local
+
+8. During the course of the retroﬁt, additional costs are incurred to ensure
+the safe and effective installation of the weatherization measures. For example,
+electric wiring updates or asbestos removal may be required to ensure a safe
+working environment. Once these safety measures are accounted for, the average
+cost per household is $5,155.
+9. The NEAT audit
+
+documented
+
+extensively
+
+at http://
+
+is
+weatherization.ornl.gov/assistant.shtml.
+
+tool
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1608
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+agencies often identify potential applicants from the pool of house-
+holds that are receiving other social services, although walk-in
+clients are routinely admitted. Agencies screen potential appli-
+cants for eligibility. Eligible applicants are then prioritized fol-
+lowing guidelines that recommend CAAs assign the household a
+high rank if it has an elderly resident, a person with disabilities,
+or children, or where the occupants typically face a high energy
+burden (energy as a share of income) or have high residential en-
+ergy use (see 10 CFR 440.16(b) (1–5)).10 Given the nonrandom
+nature of the process by which households end up in the pro-
+gram, any comparisons of energy consumption across weatherized
+and unweatherized households risks confounding the effect of the
+program with preexisting differences in determinants of energy
+consumption.
+
+III.B. Research Design
+
+Our analysis focuses on a sample of low-income Michigan
+households. Michigan is one of the largest recipients of WAP pro-
+gram funding on account of its cold winters and large low-income
+population. Furthermore, we were able to secure collaborative
+agreements with a major Michigan utility and ﬁve CAAs working
+in this utility’s service territory. This allowed us access to detailed,
+household-level energy consumption and weatherization program
+data. A close collaboration with two of these agencies allowed us
+to implement a large-scale ﬁeld experiment.
+
+Michigan received over $200 million in ARRA funding for
+weatherization assistance. A series of bureaucratic delays—for
+example, ensuring that contractors were paid prevailing wages—
+delayed spending until early 2011 (Radnofsky 2010). Around
+March 2011, weatherization activities in Michigan increased
+markedly. All stimulus funds had to be spent by March 2012.
+After that point, the pace of weatherization activity dropped pre-
+cipitously. We stopped collecting data in April 2014. A number of
+households that applied for WAP had not yet received services by
+the end of our study period.
+
+The article’s empirical challenge is to obtain causal estimates
+of the effect of participation in the WAP program on energy con-
+sumption and indoor heating demand. We estimate versions of the
+
+10. Given the high ARRA funding levels during our study period, the prioriti-
+
+zation scheme was less binding compared with lower funding periods.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1609
+
+following equation:
+
+(1)
+
+ln(yimt) = β1{W AP}imt + αim + αmt + imt,
+
+where ln(yimt) measures the natural log of energy consump-
+tion (natural gas, electricity, or a combined MMBtu measure) at
+household i in month m and year t. The equation also includes
+household-by-month-of-year ﬁxed effects, αim, to account for per-
+manent differences in a household’s energy consumption across
+months. It is possible to include such a rich set of ﬁxed effects
+because we observe households across multiple years. The model
+also includes month-by-year ﬁxed effects, αmt, to adjust for the
+average effects of time-varying factors (e.g., winter temperature)
+that generate variation in average consumption across all house-
+holds.11
+
+The parameter of interest is β, which measures the mean
+difference in energy consumption subsequent to the completion of
+WAP energy efﬁciency investments, after adjustment for the ﬁxed
+effects. It is a difference-in-differences estimator that compares
+the change in energy consumption after weatherization to before,
+relative to consumption among households that have either not
+yet weatherized through WAP or never did during our sample
+period. We take two approaches to developing unbiased estimates
+of β, described in the next two subsections.
+
+1. Randomized Encouragement Design. The article’s pri-
+mary empirical estimates are derived from an experimental re-
+search design. The basis of the experiment is a randomly assigned
+encouragement intervention that aims to increase the probabil-
+ity of treatment households’ participation in WAP through re-
+cruitment and signiﬁcant application assistance. This randomized
+encouragement design is particularly useful in contexts such as
+this one where program participation cannot be directly denied—
+we cannot prohibit eligible households from participating in this
+federal program.
+
+The recruitment and assistance was conducted by Field-
+Works, a private company that specializes in running neighbor-
+hood canvassing operations and managing outreach campaigns.
+We chose them because they had substantial experience working
+
+11. We also estimate speciﬁcations that include month-by-year-by-county and
+
+month-by-year-by-billing segment ﬁxed effects.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1610
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+TABLE I
+
+RANDOMIZED ENCOURAGEMENT INTERVENTION
+
+Encouraged group (households)
+Initial home visits
+Robo-calls
+Personal calls
+Follow-up appointments
+Average cost/encouraged hh
+
+8,648
+6,694
+23,500
+9,171
+2,720
+$55.00
+
+Notes. The table summarizes efforts to encourage a group of Michigan households to take up weatherization
+assistance. These households were selected randomly from a subpopulation of households who were located
+in the service territory of our partner utility and presumptively eligible based on ex ante available income
+information.
+
+with low-income populations, and their staff had generated mil-
+lions of phone calls and knocked on millions of doors in previous
+engagements.
+
+The experimental sample comprised 34,161 households that
+were both presumptively eligible for WAP and located within the
+counties served by the two CAAs that partnered with us for the
+ﬁeld experiment. Approximately one quarter of the sample house-
+holds were randomly assigned to our encouragement treatment.
+For the remaining households assigned to the control group, we
+simply observe energy consumption and program participation
+decisions.
+
+The encouragement campaign got under way as ARRA funds
+began ﬂowing to the implementing agencies. Encouragement ac-
+tivities ran from March to May 2011. Table I summarizes our
+encouragement and enrollment activities in detail. During the
+encouragement phase, ﬁeld staff made almost 7,000 initial in-
+person house visits.12 The ground operations were complemented
+with 23,500 targeted robo-calls to raise awareness of the weath-
+erization program and our encouragement campaign.
+
+After the encouragement phase, we transitioned to an enroll-
+ment phase, which lasted through February 2012. Our staff made
+over 9,000 personal phone calls to provide assistance with the
+onerous application process and to coordinate in-person meetings.
+Over the course of 2,720 home visits, ﬁeld staff helped individuals
+assemble documentation and complete paperwork. In some cases,
+ﬁeld staff provided transportation to and from the program agency
+ofﬁces.
+
+12. Most (but not all) houses assigned to the treated group were contacted. A
+
+small fraction were deemed inaccessible (e.g., because of a locked gate).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1611
+
+The ﬁnal row of Table I reports that we spent around $475,000
+on the encouragement or a little more than $55 per household in
+the treatment group. It is noteworthy that we did not initially in-
+tend to devote such extensive efforts and resources to the encour-
+age and enrollment phases. However, the early results suggested
+that we were failing to have a substantial impact on applications,
+and concerns about the ultimate precision of our estimated treat-
+ment effects motivated us to raise additional funds to expand the
+share of treated households.13
+
+We use the random assignment to encouragement as an in-
+strumental variable for weatherization status. In a ﬁrst stage, we
+use OLS to estimate:
+
+(2)
+
+1{W AP}imt = θ1{Encouraged}imt + δim + δmt + ηimt,
+
+where the dependent variable is an indicator variable that
+switches from 0 to 1 in the month after a household’s weatheriza-
+tion retroﬁt is complete. The indicator variable, 1{Encouraged}imt
+is set to 0 for all households prior to the encouragement interven-
+tion. After March 2011, this indicator switches to 1 for the 25%
+of the households randomly assigned to the treatment group.
+We substitute 1{(cid:2)W AP}imt from the estimation of equation (2)
+to ﬁt equation (1) and obtain ˆβIV . In this instrumental variables
+(IV) framework, ˆβIV is identiﬁed using the exogenous variation in
+program participation that is generated via the random assign-
+ment of encouragement.
+
+2. Quasi-experimental Design. The quasi-experimental re-
+search design uses data collected from households that applied
+for WAP after March 2011 with one of the ﬁve CAAs that shared
+data with us to estimate a version of equation (1). In this sample of
+households, we compare patterns in energy consumption among
+weatherized households and households that applied for WAP but
+had not been weatherized by mid-2014, when our data ends. Forty
+
+13. On the one hand, our encouragement costs may have been higher than
+necessary. To our knowledge, ours was the ﬁrst encouragement program for WAP,
+and we learned from our initial experiences how to reﬁne our intervention. On the
+other hand, the costs in Table I do not reﬂect the time the research team devoted to
+overseeing the encouragement effort. Online Appendix 1 and Fowlie, Greenstone,
+and Wolfram (2015) provide more details on the encouragement and application
+assistance programs.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1612
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+percent of applicants in our data were weatherized through WAP
+during this period.
+
+A critical issue for the validity of the quasi-experimental es-
+timates is how households in this sample were chosen for weath-
+erization. The road from application to energy efﬁciency invest-
+ments is long and there are many potential off-ramps. Applicant
+households may fail to complete the necessary—and involved—
+paperwork or may be deemed ineligible based on the information
+they provide. Once paperwork is completed successfully, house-
+holds are put on a list, and the waiting times can exceed one year.
+Once at the top of the list, homeowners must schedule an energy
+audit. Households may fail to receive weatherization if they miss
+an audit appointment, or if the auditors discover risks to WAP
+contractors (e.g., asbestos in the home). Because of signiﬁcant de-
+lays in ramping up weatherization activities under ARRA, agen-
+cies were unable to complete the weatherizations they anticipated
+prior to the March 2012 ARRA deadline, which helps explain why
+fewer than half of the applicants in our sample were weatherized
+by mid-2014. Some of the explanations for variation in treatment
+status among applicants are orthogonal to household characteris-
+tics that determine energy consumption patterns, whereas others
+clearly are not.
+
+The primary threat to consistent estimation of β using the
+quasi-experimental approach is the possibility that time-varying
+factors that affect household demand for energy, also inﬂuence
+WAP participation. For instance, households may push forward
+their WAP application more aggressively when they anticipate
+an increase in their demand for energy, as would be the case
+when the number of people in their household increases or they
+lose a job and expect to spend more time at home. Although the
+quasi-experimental approach does not have a direct solution to
+this threat to identiﬁcation, we take steps to balance observable
+characteristics and trends across weatherized and unweather-
+ized households. To evaluate the robustness of our ﬁndings, we
+reestimate equation (1) using alternative sets of controls and re-
+gression weights. Our preferred quasi-experimental speciﬁcation
+reweights control observations to achieve covariate balance across
+weatherized and unweatherized controls, explained in more detail
+below.
+
+Of course, it is possible that the effect of a WAP weatheriza-
+tion varies across households (i.e., βi) based on observables or un-
+observables. Indeed, it is possible that households sort into WAP
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1613
+
+participation based on knowledge of their idiosyncratic returns;
+this has been labeled “essential heterogeneity” (Heckman, Urzua,
+and Vytlacil 2006). In the presence of heterogeneity in how weath-
+erization retroﬁts affect residential energy consumption, the ex-
+pectation of unbiased quasi-experimental and experimental esti-
+mates of βi need not be equivalent. The quasi-experimental ap-
+proach is designed to provide an estimate of the average treatment
+effect on all treated households (ATET). In contrast, with some
+additional assumptions (Angrist, Imbens, and Rubin 1996), the
+randomized encouragement design estimates the so-called local
+average treatment effect (LATE), or the average effect for the sub-
+set of the population who must be encouraged to participate in the
+program (i.e., the compliers). Therefore, signiﬁcant differences in
+the quasi-experimental and experimental estimates could be due
+to bias in the former or differences in the LATE and ATET. Section
+5.2 and Section 6 of the Online Appendix explore the sources of the
+differences in our quasi-experimental and experimental estimates
+of the effect of WAP weatherization.
+
+IV. DATA SOURCES AND SUMMARY STATISTICS
+
+IV.A. Data Sources
+
+The data collected to support this analysis correspond to two
+overlapping groups of households. The ﬁrst group comprises the
+34,161 households in our experimental sample drawn from the
+counties served by our two partner CAAs. The second group of
+households corresponds to our quasi-experimental research de-
+sign. Because this design did not require the same degree of co-
+ordination with our agency partners, we were able to expand the
+scope of this sample by collecting detailed data from three more
+implementing agencies. The quasi-experimental sample includes
+the 7,304 households that applied for weatherization assistance
+at these ﬁve agencies. The quasi-experimental sample is smaller
+overall but has a larger number of applicants and weatherized
+households relative to the experimental sample. The two groups
+overlap as 1,773 applicant households are also part of our experi-
+mental sample.
+
+1. Energy Consumption Data. We obtained monthly natural
+gas and electricity consumption data over the period June 2008
+to May 2014. This period includes at least two years of preretroﬁt
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1614
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+data for all weatherized households in our sample. The utility data
+track monthly kilowatt-hours (kWh) of electricity and thousand
+cubic feet (Mcf) of gas used at the dwelling. Some speciﬁcations
+convert both natural gas and electricity consumption to million
+British thermal units (MMBtu) using the conversion factor em-
+ployed by the NEAT audit tool.
+
+Energy consumption records obtained from the utility are
+merged with households in our experimental sample and the
+applicant data obtained from the ﬁve implementing agencies.
+Data are merged using detailed name and address information.
+Not all households ﬁnd an exact match in consumption records.
+Match rates are 88% and 81% in our experimental and quasi-
+experimental samples, respectively. The higher match rate in our
+experimental sample is to be expected; when selecting this sam-
+ple we focused exclusively on postal codes within the territory of
+our partner utility. Online Appendix 2 provides more detail on
+missing data and attrition. After dropping observations with no
+match, our experimental sample is 28,888.
+
+2. Application Data. We obtained the data about households
+collected through the application process, including information
+used to determine program eligibility (e.g., income, household size,
+number of children) and information that can be used to prioritize
+successful applicants (e.g., elderly residents). Application materi-
+als also collect other demographic characteristics, including race
+and education. These data are used to assess balance across the
+quasi-experimental treatment and control groups.
+
+3. Efﬁciency Audit Data. Detailed information about the
+dwelling is collected during the household-level energy efﬁciency
+audit, which is a critical part of the WAP implementation. An
+output of these audits is the list of energy efﬁciency measures
+for which projected energy savings exceed projected costs. These
+are the measures that comprise the weatherization retroﬁt. We
+acquired the job reports ﬁled after the weatherization retroﬁt is
+completed. These allow us to conﬁrm that the recommended mea-
+sures were installed and to compare realized costs with projec-
+tions.
+
+4. Indoor Temperature Data. Two years after the encourage-
+ment effort was initiated, we randomly selected a subset of weath-
+erized and unweatherized households for a ﬁeld survey. These
+households were selected from the quasi-experimental sample.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1615
+
+The primary purpose of the survey was to measure thermostat set
+points and indoor temperatures to test for a direct rebound effect.
+Michigan ﬁeld staff attempted to contact 6,400 households on
+cold days (projected maximum temperature below 45◦F) in March
+and early April 2013. With the homeowner’s permission, surveyors
+entered the home, closed the door, moved to the center of the room,
+and recorded multiple indoor air temperature measurements us-
+ing two different thermometers. Of our initially targeted sample,
+surveyors spoke with 1,658 homeowners. Of these, 899 allowed us
+to enter their homes and record their thermostat set point, and
+688 allowed us to close the door and collect two or more indoor
+thermometer readings.
+
+5. Demographic Data. Detailed data on occupant and
+dwelling characteristics are not available for the households in
+our study that did not apply for weatherization assistance. To con-
+struct a more complete picture, we map households in the study to
+census-block-level data on variables of interest (such as home age,
+poverty level of residents). We use these data to assess balance
+in observable characteristics across our experimental encouraged
+and control groups.
+
+IV.B. Summary Statistics
+
+Table II summarizes pretreatment information on the house-
+holds in both the experimental and quasi-experimental samples.
+The top panel summarizes monthly energy consumption during
+the two years immediately preceding the treatment period. The
+ﬁrst two columns summarize means for the randomized encour-
+agement and experimental control groups, respectively. The third
+column reports p-values for the differences between the treatment
+and control groups.
+
+There are seasonal patterns in energy consumption that differ
+across natural gas and electricity. Winter natural gas consump-
+tion (which is dominated by space heating) is signiﬁcantly higher
+than summer gas use (composed primarily of hot water heating
+and cooking). Electricity usage is fairly consistent across seasons.
+Because households in the experimental sample were randomly
+assigned to the encouraged and control groups, it is unsurprising
+that differences in energy consumption across these two groups
+are all small and statistically indistinguishable from zero.
+
+The table also provides an opportunity to judge the credi-
+bility of the comparisons that underlie the quasi-experimental
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1616
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+d
+e
+h
+c
+t
+a
+m
+−
+
+)
+4
+(
+
+s
+t
+n
+a
+c
+i
+l
+p
+p
+a
+
+)
+7
+(
+
+7
+8
+
+.
+
+1
+6
+
+.
+
+2
+7
+
+.
+
+5
+4
+
+.
+
+3
+5
+
+.
+
+8
+1
+
+.
+
+9
+4
+
+.
+
+6
+7
+
+.
+
+1
+9
+
+.
+
+7
+7
+
+.
+
+3
+7
+
+.
+
+2
+6
+
+.
+
+)
+5
+(
+
+−
+
+)
+4
+(
+
+)
+6
+(
+
+∗
+∗
+
+∗
+∗
+
+0
+0
+
+.
+
+0
+0
+
+.
+
+5
+1
+
+.
+
+7
+3
+
+.
+
+∗
+∗
+
+∗
+∗
+
+0
+0
+
+0
+0
+
+∗
+∗
+
+3
+1
+
+.
+
+∗
+
+0
+0
+
+3
+0
+
+.
+
+∗
+∗
+
+∗
+∗
+
+∗
+∗
+
+0
+0
+
+.
+
+0
+0
+
+.
+
+0
+0
+
+.
+
+.
+
+.
+
+.
+
+I
+I
+E
+L
+B
+A
+T
+
+S
+D
+L
+O
+H
+E
+S
+U
+O
+H
+F
+O
+S
+P
+U
+O
+R
+G
+N
+E
+E
+W
+T
+E
+B
+
+S
+N
+A
+E
+M
+E
+L
+P
+M
+A
+S
+N
+
+I
+
+S
+E
+C
+N
+E
+R
+E
+F
+F
+I
+D
+
+d
+e
+z
+i
+r
+e
+h
+t
+a
+e
+w
+n
+U
+
+s
+t
+n
+a
+c
+i
+l
+p
+p
+a
+
+l
+l
+
+A
+
+d
+e
+z
+i
+r
+e
+h
+t
+a
+e
+w
+
+)
+2
+(
+
+−
+
+)
+1
+(
+
+)
+5
+(
+
+3
+6
+
+.
+
+1
+1
+
+6
+1
+
+.
+
+2
+
+0
+3
+
+.
+
+2
+
+0
+2
+
+.
+
+2
+
+9
+0
+5
+
+,
+
+7
+1
+
+4
+0
+1
+
+7
+4
+
+.
+
+2
+
+5
+1
+
+.
+
+0
+
+3
+0
+
+.
+
+0
+
+3
+1
+
+.
+
+0
+
+7
+5
+
+.
+
+0
+
+0
+3
+
+.
+
+8
+6
+
+3
+7
+9
+
+,
+
+2
+
+)
+4
+(
+
+8
+8
+
+.
+
+9
+
+0
+8
+
+.
+
+1
+
+4
+2
+
+.
+
+2
+
+3
+2
+
+.
+
+2
+
+7
+1
+6
+
+,
+
+9
+1
+
+5
+1
+1
+
+6
+5
+
+.
+
+2
+
+4
+2
+
+.
+
+0
+
+4
+0
+
+.
+
+0
+
+3
+2
+
+.
+
+0
+
+9
+7
+
+.
+
+0
+
+5
+1
+
+.
+
+9
+5
+
+4
+7
+0
+
+,
+
+2
+
+)
+3
+(
+
+9
+7
+
+.
+
+9
+0
+
+.
+
+7
+2
+
+.
+
+4
+8
+
+.
+
+3
+6
+
+.
+
+9
+3
+
+.
+
+5
+9
+
+.
+
+0
+7
+
+.
+
+9
+8
+
+.
+
+2
+3
+
+.
+
+7
+5
+
+.
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+E
+
+l
+o
+r
+t
+n
+o
+c
+
+)
+2
+(
+
+8
+3
+
+.
+
+0
+1
+
+9
+7
+
+.
+
+2
+
+0
+1
+
+.
+
+2
+
+7
+1
+
+.
+
+2
+
+0
+7
+8
+
+,
+
+2
+4
+
+2
+1
+
+.
+
+7
+2
+
+3
+5
+
+.
+
+2
+
+4
+8
+
+.
+
+3
+3
+
+0
+0
+
+.
+
+5
+2
+
+9
+0
+
+.
+
+1
+8
+
+4
+9
+
+.
+
+2
+5
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+E
+
+d
+e
+g
+a
+r
+u
+o
+c
+n
+e
+
+)
+1
+(
+
+0
+4
+
+.
+
+0
+1
+
+4
+8
+
+.
+
+2
+
+2
+1
+
+.
+
+2
+
+7
+1
+
+.
+
+2
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+y
+g
+r
+e
+n
+e
+
+y
+l
+h
+t
+n
+o
+m
+d
+o
+i
+r
+e
+p
+t
+n
+e
+m
+t
+a
+e
+r
+t
+e
+r
+P
+
+:
+
+A
+
+l
+e
+n
+a
+P
+
+)
+u
+t
+B
+M
+M
+
+(
+
+y
+t
+i
+c
+i
+r
+t
+c
+e
+l
+e
+
+r
+e
+m
+m
+u
+S
+
+)
+u
+t
+B
+M
+M
+
+(
+
+y
+t
+i
+c
+i
+r
+t
+c
+e
+l
+e
+
+r
+e
+t
+n
+i
+W
+
+)
+u
+t
+B
+M
+M
+
+(
+
+s
+a
+g
+
+r
+e
+m
+m
+u
+S
+
+)
+u
+t
+B
+M
+M
+
+(
+
+s
+a
+g
+
+r
+e
+t
+n
+i
+W
+
+0
+3
+5
+
+,
+
+2
+4
+
+1
+8
+
+.
+7
+2
+
+3
+5
+
+.
+
+2
+
+4
+6
+
+.
+3
+3
+
+2
+9
+
+.
+4
+2
+
+9
+4
+
+.
+0
+8
+
+9
+5
+
+.
+2
+5
+
+)
+s
+t
+i
+n
+u
+g
+n
+i
+s
+u
+o
+h
+d
+e
+i
+p
+u
+c
+c
+o
+-
+r
+e
+n
+w
+o
+
+f
+o
+%
+
+(
+
+s
+a
+g
+
+l
+a
+r
+u
+t
+a
+n
+h
+t
+i
+
+w
+
+t
+a
+e
+H
+
+)
+d
+e
+i
+p
+u
+c
+c
+o
+-
+r
+e
+n
+w
+o
+(
+
+e
+g
+a
+
+e
+m
+o
+h
+n
+a
+i
+d
+e
+M
+
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+c
+
+g
+n
+i
+l
+l
+e
+w
+d
+d
+n
+a
+
+s
+c
+i
+h
+p
+a
+r
+g
+o
+m
+e
+D
+
+:
+
+C
+
+l
+e
+n
+a
+P
+
+d
+l
+o
+h
+s
+e
+r
+h
+t
+
+y
+t
+r
+e
+v
+o
+p
+f
+o
+
+t
+n
+e
+c
+r
+e
+p
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+)
+$
+(
+
+e
+m
+o
+c
+n
+i
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+)
+
+%
+
+(
+8
+1
+
+r
+e
+d
+n
+u
+s
+r
+e
+b
+m
+e
+m
+h
+t
+i
+
+w
+s
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+)
+
+%
+
+(
+5
+6
+
+r
+e
+v
+o
+
+s
+r
+e
+b
+m
+e
+m
+h
+t
+i
+
+w
+s
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+)
+d
+e
+i
+p
+u
+c
+c
+o
+-
+r
+e
+n
+w
+o
+(
+
+e
+z
+i
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+n
+a
+e
+M
+
+e
+n
+i
+l
+
+y
+t
+r
+e
+v
+o
+p
+w
+o
+l
+e
+b
+
+e
+l
+p
+o
+e
+p
+f
+o
+
+t
+n
+e
+c
+r
+e
+P
+
+)
+$
+(
+
+e
+m
+o
+c
+n
+i
+d
+l
+o
+h
+e
+s
+u
+o
+h
+n
+a
+e
+M
+
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+c
+
+g
+n
+i
+l
+l
+e
+w
+d
+d
+n
+a
+
+s
+c
+i
+h
+p
+a
+r
+g
+o
+m
+e
+d
+p
+u
+o
+r
+g
+k
+c
+o
+l
+b
+s
+u
+s
+n
+e
+C
+
+:
+
+B
+
+l
+e
+n
+a
+P
+
+9
+3
+3
+
+,
+
+1
+2
+
+9
+4
+5
+
+,
+
+7
+
+)
+n
+o
+i
+t
+r
+o
+p
+o
+r
+p
+(
+
+s
+a
+g
+
+l
+a
+r
+u
+t
+a
+n
+h
+t
+i
+
+w
+
+t
+a
+e
+H
+
+)
+s
+r
+a
+e
+y
+(
+
+e
+m
+o
+h
+f
+o
+
+e
+g
+A
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+)
+n
+o
+i
+t
+r
+o
+p
+o
+r
+p
+(
+n
+e
+r
+d
+l
+i
+h
+C
+
+)
+n
+o
+i
+t
+r
+o
+p
+o
+r
+p
+(
+
+y
+t
+i
+l
+i
+b
+a
+s
+i
+D
+
+)
+n
+o
+i
+t
+r
+o
+p
+o
+r
+p
+(
+
+y
+l
+r
+e
+d
+l
+E
+
+e
+z
+i
+s
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+e
+h
+t
+
+d
+n
+a
+
+r
+o
+f
+
+s
+n
+a
+e
+m
+e
+l
+p
+m
+a
+s
+
+t
+r
+o
+p
+e
+r
+
+)
+2
+(
+
+,
+e
+l
+p
+m
+a
+s
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+-
+i
+s
+a
+u
+q
+
+d
+n
+a
+
+e
+h
+t
+
+)
+1
+(
+
+s
+n
+m
+u
+l
+o
+C
+
+.
+s
+n
+a
+e
+m
+n
+i
+
+s
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+
+f
+o
+
+s
+e
+u
+l
+a
+v
+-
+p
+
+e
+h
+t
+
+t
+r
+o
+p
+e
+r
+
+)
+7
+(
+
+d
+n
+a
+
+,
+)
+6
+(
+
+,
+)
+3
+(
+
+s
+n
+m
+u
+l
+o
+C
+
+.
+s
+e
+u
+l
+a
+v
+
+e
+g
+a
+r
+e
+v
+a
+
+t
+r
+o
+p
+e
+r
+
+)
+5
+(
+
+d
+n
+a
+
+,
+)
+4
+(
+
+,
+)
+2
+(
+
+,
+)
+1
+(
+
+s
+n
+m
+u
+l
+o
+C
+
+.
+s
+e
+t
+o
+N
+
+n
+i
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+
+d
+e
+z
+i
+r
+e
+h
+t
+a
+e
+w
+
+l
+l
+a
+
+r
+o
+f
+
+s
+n
+a
+e
+m
+e
+l
+p
+m
+a
+s
+
+s
+t
+r
+o
+p
+e
+r
+
+)
+4
+(
+
+n
+m
+u
+l
+o
+C
+
+.
+y
+l
+e
+v
+i
+t
+c
+e
+p
+s
+e
+r
+
+,
+s
+p
+u
+o
+r
+g
+
+l
+o
+r
+t
+n
+o
+c
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+
+e
+h
+t
+
+d
+n
+a
+
+d
+e
+g
+a
+r
+u
+o
+c
+n
+e
+
+d
+e
+z
+i
+m
+o
+d
+n
+a
+r
+
+n
+m
+u
+l
+o
+c
+
+,
+y
+l
+l
+a
+n
+i
+F
+
+.
+
+4
+1
+0
+2
+l
+i
+r
+p
+A
+
+f
+o
+
+s
+a
+e
+c
+n
+a
+t
+s
+i
+s
+s
+a
+e
+v
+i
+e
+c
+e
+r
+
+t
+o
+n
+d
+i
+d
+t
+u
+b
+n
+o
+i
+t
+a
+z
+i
+r
+e
+h
+t
+a
+e
+w
+r
+o
+f
+d
+e
+i
+l
+p
+p
+a
+t
+a
+h
+t
+
+e
+l
+p
+m
+a
+s
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+-
+i
+s
+a
+u
+q
+e
+h
+t
+n
+i
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+r
+o
+f
+
+s
+n
+a
+e
+m
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+s
+t
+r
+o
+p
+e
+r
+
+)
+5
+(
+n
+m
+u
+l
+o
+c
+
+.
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+d
+e
+z
+i
+r
+e
+h
+t
+a
+e
+w
+n
+u
+d
+e
+h
+c
+t
+a
+m
+e
+r
+o
+c
+s
+
+y
+t
+i
+s
+n
+e
+p
+o
+r
+p
+
+d
+n
+a
+
+e
+l
+p
+m
+a
+s
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+-
+i
+s
+a
+u
+q
+
+e
+h
+t
+n
+i
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+d
+e
+z
+i
+r
+e
+h
+t
+a
+e
+w
+
+l
+l
+a
+n
+e
+e
+w
+t
+e
+b
+
+s
+n
+a
+e
+m
+n
+i
+
+s
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+
+e
+h
+t
+
+f
+o
+
+s
+e
+u
+l
+a
+v
+-
+p
+
+e
+h
+t
+
+u
+a
+e
+r
+u
+B
+
+s
+u
+s
+n
+e
+C
+
+.
+
+.
+
+S
+U
+
+(
+
+y
+e
+v
+r
+u
+S
+
+y
+t
+i
+n
+u
+m
+m
+o
+C
+
+n
+a
+c
+i
+r
+e
+m
+A
+
+1
+1
+0
+2
+–
+7
+0
+0
+2
+
+e
+h
+t
+
+m
+o
+r
+f
+
+a
+t
+a
+d
+
+l
+e
+v
+e
+l
+
+p
+u
+o
+r
+g
+-
+k
+c
+o
+l
+b
+-
+s
+u
+s
+n
+e
+c
+
+s
+e
+b
+i
+r
+c
+s
+e
+d
+
+B
+
+l
+e
+n
+a
+P
+
+.
+
+a
+t
+a
+d
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+y
+g
+r
+e
+n
+e
+
+e
+z
+i
+r
+a
+m
+m
+u
+s
+
+s
+t
+n
+u
+o
+c
+
+s
+t
+r
+o
+p
+e
+r
+
+)
+7
+(
+
+d
+l
+o
+h
+e
+s
+u
+o
+H
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+e
+h
+t
+n
+i
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+f
+o
+y
+t
+i
+r
+o
+j
+a
+m
+e
+h
+t
+
+r
+o
+f
+e
+l
+b
+a
+l
+i
+a
+v
+a
+t
+o
+n
+e
+r
+a
+a
+t
+a
+d
+c
+i
+h
+p
+a
+r
+g
+o
+m
+e
+d
+l
+e
+v
+e
+l
+-
+d
+l
+o
+h
+e
+s
+u
+o
+h
+e
+s
+u
+a
+c
+e
+b
+s
+i
+
+s
+i
+h
+T
+
+.
+s
+t
+n
+a
+c
+i
+l
+p
+p
+a
+m
+a
+r
+g
+o
+r
+p
+n
+o
+y
+l
+e
+v
+i
+s
+u
+l
+c
+x
+e
+s
+e
+s
+u
+c
+o
+f
+
+C
+
+l
+e
+n
+a
+P
+
+;
+)
+1
+1
+0
+2
+–
+7
+0
+0
+2
+
+∗
+∗
+
+∗
+
+.
+l
+e
+v
+e
+l
+
+%
+1
+
+e
+h
+t
+
+t
+a
+t
+n
+a
+c
+ﬁ
+i
+n
+g
+i
+s
+
+;
+l
+e
+v
+e
+l
+
+%
+5
+
+e
+h
+t
+
+t
+a
+
+t
+n
+a
+c
+ﬁ
+i
+n
+g
+i
+S
+
+.
+
+m
+a
+r
+g
+o
+r
+p
+e
+h
+t
+
+o
+t
+
+y
+l
+p
+p
+a
+
+t
+o
+n
+d
+i
+d
+t
+a
+h
+t
+
+e
+l
+p
+m
+a
+s
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1617
+
+estimates. The fourth column reports on all weatherized house-
+holds in the territory covered by the ﬁve CAAs. The ﬁfth col-
+umn summarizes households in these territories that applied for
+weatherization but had not received weatherization assistance
+as of April 2014. In practice, the variation in the weatherization
+dates means that the identiﬁcation of the quasi-experimental es-
+timator is not just based on comparisons between the samples
+summarized in columns (4) and (5), but also relies on within-
+household comparisons. It is nevertheless informative to compare
+these sets of households. p-values for the mean differences in
+column (6) show that weatherized households have historically
+consumed signiﬁcantly less natural gas than the unweatherized
+applicants during both winter and summer months.
+
+To assess the balance in characteristics other than energy con-
+sumption across the experimental control and encouraged groups,
+we locate households in the experimental sample within census
+blocks and summarize dwelling and household information at the
+census-block level. Panel B summarizes these data. p-values in
+column (3) account for clustering within census blocks. None of
+these differences in group means are statistically distinguishable
+from zero.
+
+Table II, Panel C summarizes the detailed demographic in-
+formation and dwelling characteristics that are collected for most
+clients as part of the application process. Our summary of these
+variables focuses exclusively on program applicants because these
+data are not available for the majority of households in the exper-
+imental sample that did not apply to the program. Column (6)
+documents important differences between the weatherized and
+unweatherized applicant subsamples. Note that differences across
+Panels B and C should be interpreted carefully because variables
+are measured differently across the two data sources. For exam-
+ple, income reported in Panel B summarizes incomes at the census
+block level and includes all income received on a regular basis.
+Income reported for the purpose of determining weatherization
+program eligibility (measured at the household level and summa-
+rized in Panel C) includes cash receipts (e.g., wages, salaries, pen-
+sions) but excludes other potential income sources (capital gains,
+tax refunds, or housing allowances). Weatherized households have
+higher incomes compared with unsuccessful applicants. In addi-
+tion, applicants who ultimately receive weatherization are further
+above the poverty line, which adjusts for household size, than are
+the unsuccessful applicants. Weatherized households also report
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1618
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+having more children, are more likely to report an elderly or dis-
+abled resident, and are more likely to use natural gas as their
+primary heat source.
+
+The signiﬁcant differences between the weatherized and un-
+weatherized applicants motivate us to reweight observations in
+the control group so that observable factors are distributed sim-
+ilarly in applicant groups. Although our preferred speciﬁcations
+include household-by-month-of-sample ﬁxed effects that control
+for all time-invariant differences between households, we are con-
+cerned that observable ﬁxed differences might be correlated with
+time-varying differences. We use an estimated propensity score
+to balance covariates that presumably play a role in determining
+program take-up. Online Appendix 3 provides a detailed discus-
+sion of the participation equation we estimate. Table II, column
+(7) reports p-values for the mean differences between weather-
+ized households and matched controls. Reassuringly, the differ-
+ences in average covariate values across weatherized households
+and propensity-score weighted controls are statistically indistin-
+guishable.
+
+In the Online Appendix, Table A.1 summarizes some of the
+detailed information collected during the household energy efﬁ-
+ciency audits. A typical weatherization retroﬁt involved several
+measures such as furnace replacement (34% of retroﬁts), attic in-
+sulation (85%), wall insulation (44%), and inﬁltration reduction
+(76%). The NEAT model predicts that on average these invest-
+ments will reduce natural gas consumption by 46% and electricity
+consumption by 15%. The average project involved over $5,150 in
+total expenditures. This includes materials, labor, and construc-
+tion costs, but does not include any program overhead. Using a 3%
+discount rate, the projected net present value of energy bill sav-
+ings average $10,611. The average projected savings:investment
+ratio (across measures) exceeds 2:1.
+
+V. RESULTS
+
+V.A. Experimental Estimates of Energy Savings
+
+1. First-Stage: Program Take-Up. It may seem straightfor-
+ward to encourage households to participate in a program that
+provides free efﬁciency retroﬁts worth an average of approxi-
+mately $5,000 that are designed to signiﬁcantly reduce energy
+expenditures. In our experience, that was hardly the case. The
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1619
+
+TABLE III
+
+RANDOMIZED ENCOURAGEMENT: RETURN ON EFFORT
+
+Application
+
+Efﬁciency
+
+Base rate
+
+Encouragement
+
+Households
+
+(1)
+0.02∗∗
+(< 0.01)
+0.13∗∗
+(< 0.01)
+28,888
+
+audit
+
+(2)
+0.01∗∗
+(< 0.01)
+0.05∗∗
+(< 0.01)
+28,888
+
+Weatherization
+
+complete
+
+(3)
+0.01∗∗
+(< 0.01)
+0.05∗∗
+(< 0.01)
+28,888
+
+Notes. The table shows the effect of our encouragement on program applications, efﬁciency audits, and
+weatherization. Indicators of program participation status are regressed on an encouragement indicator and
+a constant. The unit of observation is a household. ∗ Signiﬁcant at the 5% level; ∗∗ signiﬁcant at the 1% level.
+
+impact of reducing barriers to participation (e.g., information
+and process costs) on program uptake is of independent inter-
+est both to policy makers and researchers. This section evalu-
+ates the impact of our intervention on a multipart participation
+process.
+
+Table III summarizes program take-up at three separate
+junctures. In the ﬁrst stage, our goal was to increase the share
+of households ﬁling applications. The coefﬁcient estimate in col-
+umn (1) indicates that the encouragement intervention increased
+the rate of application to the program by 13 percentage points
+from the control group mean of 2%. Column (2) reveals that the
+fraction of households who received an energy audit was 5 per-
+centage points higher in the encouraged group (off a base of
+about 1%). As we discussed already, several factors can explain
+why so many households that submit an application are not au-
+dited, including if the household fails to follow through on re-
+quests for more information or if the submitted information indi-
+cates that the household does not meet the program’s eligibility
+requirements.
+
+Table III, Column (3), documents that the treatment in-
+creased the fraction of households that were successfully weath-
+erized by about 5 percentage points, against a 1% rate in the
+control group.14 The encouragement treatment is a statistically
+
+14. A small fraction of households get audited but not weatherized, primarily
+because the auditors deem the home a possible danger to weatherization contrac-
+tors (e.g., due to the presence of asbestos).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1620
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+signiﬁcant predictor of weatherization, which we will use to in-
+strument for program participation.
+
+The low take-up rates in the encouraged group are quite
+striking. Program participants receive substantive home improve-
+ments, yet incur no out-of-pocket expenses. All households in the
+encouraged group received some information about the program
+via a phone call or door hanger. A majority of households (i.e., those
+who spoke with our canvassers in person or by phone) received fur-
+ther information about our offer of application assistance. Given
+that households had detailed, speciﬁc information about the pro-
+gram, it seems reasonable to surmise that some combination of
+high perceived costs of applying for the program, low expectation
+of an application leading to a weatherization, high unmeasured
+process costs, and low expected beneﬁts of participating in the
+program are impediments to WAP participation. In the end, the
+average cost of encouragement per completed weatherization was
+about $1,050, which is more than 20% of the average costs of mea-
+sures installed. See Fowlie, Greenstone, and Wolfram (2015) for
+further details.
+
+2. IV Estimates of Energy Savings. Figure II provides a
+graphical overview of the experimental estimates. The broken line
+shows the cumulative effect of the randomly assigned encourage-
+ment intervention on the monthly rate of weatherization, relative
+to the control group which received no encouragement. This effect
+increases over time as the treatment households submit applica-
+tions and receive weatherization assistance. The ﬁgure also plots
+month-by-month estimates of intent to treat (ITT) effects on en-
+ergy consumption. Conceptually, monthly estimates of the local
+average effect of weatherization on energy consumption can be
+constructed as a ratio of the monthly ITT estimates and the cor-
+responding effect of encouragement on program participation.
+
+Table IV, Panel A summarizes results that relate measures
+of energy consumption to the WAP participation indicator. In the
+ﬁrst two columns, the dependent variable is the log of total energy
+consumption (MMBtu/month). In the third and fourth columns,
+the dependent variables are the log of natural gas and electric-
+ity consumption, respectively. Standard errors are clustered by
+household in all speciﬁcations.
+
+For comparison, the ﬁrst column reports the coefﬁcient as-
+sociated with the WAP indicator from an OLS regression with
+month of-sample and household-month ﬁxed effects that is ﬁt to
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1621
+
+6
+0
+
+.
+
+4
+0
+
+.
+
+2
+0
+
+.
+
+0
+
+2
+0
+
+.
+-
+
+4
+0
+
+.
+-
+
+6
+0
+
+.
+
+4
+0
+
+.
+
+2
+0
+
+.
+
+0
+
+2
+0
+
+.
+-
+
+4
+0
+
+.
+-
+
+2011m1
+
+2011m7
+
+2012m1
+
+2012m7
+
+2013m1
+
+2013m7
+
+2014m1
+
+2014m7
+
+Month of Sample
+
+FIGURE II
+
+Effect of Encouragement on Participation and Energy Consumption
+
+This ﬁgure provides an overview of the local average treatment effect estimates.
+The broken line tracks the cumulative difference in participation rates across the
+encouraged and control groups. The circular markers plot the monthly estimates
+of the intent-to-treat effects on household energy consumption (in logs).
+
+the experimental sample. This speciﬁcation indicates that WAP
+participation is associated with a 10% decline in energy consump-
+tion.
+
+The IV estimates based on our randomized encouragement
+design are reported in columns (2)–(4). The estimate in column (2)
+indicates that WAP participation causes a reduction in monthly
+energy consumption of approximately 20% among households that
+were encouraged into the WAP program. This is the ﬁrst indica-
+tion that the realized savings from the WAP-induced energy efﬁ-
+ciency investments are substantially smaller than the projections
+from the engineering model. Columns (3) and (4) report local aver-
+age treatment effects for natural gas and electricity, respectively.
+Natural gas accounts for 94% of projected savings (measured in
+MMBtu), so it is not surprising that natural gas consumption is
+more signiﬁcantly affected by weatherization.15
+
+15. The coefﬁcient in column (2) is not a weighted average of the gas and
+electricity coefﬁcients in columns (3) and (4) for two reasons. First, the samples
+differ slightly across the columns, and second the coefﬁcients on the ﬁxed effects
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1622
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+EXPERIMENTAL ESTIMATED IMPACTS OF WEATHERIZATION ON HOUSEHOLD ENERGY
+
+CONSUMPTION
+
+TABLE IV
+
+Total energy
+
+Gas
+
+Electricity
+
+OLS-FE
+
+IV-FE
+
+(1)
+
+(2)
+
+IV-FE
+
+(3)
+
+IV-FE
+
+(4)
+
+WAP
+
+Panel A: Dependent variable is monthly energy consumption (in logs)
+−0.10∗∗ −0.20∗ −0.21∗∗
+(0.08)
+(0.01)
+6.39
+
+(0.08)
+7.52
+
+Imputed counterfactual consumption
+MMBtu/month
+
+−0.10
+(0.10)
+2.13
+
+F-statistic
+Households
+Observations
+
+—
+
+27,990
+
+267.41∗∗ 261.06∗∗ 266.78∗∗
+27,115
+27,229
+
+26,054
+
+1,662,781 1,653,583 1,528,526 1,638,337
+
+Panel B: Present value of (discounted) savings
+
+Time horizon
+
+10 years
+16 years
+20 years
+
+Discount rate
+
+3%
+
+6%
+
+10%
+
+$1,983
+$2,920
+$3,459
+
+$1,711
+$2,349
+$2,666
+
+$1,428
+$1,819
+$1,979
+
+Notes. Dependent variable measures log of monthly household energy consumption. Panel A reports regres-
+sion coefﬁcients. With the exception of the ﬁrst column, all speciﬁcations are estimated using 2SLS. Standard
+errors (in parentheses) are clustered by household. Panel B reports savings projections generated by NEAT
+audit. All regressions include month-of-sample and household-month ﬁxed effects. ∗Signiﬁcant at the 5%
+level; ∗∗signiﬁcant at the 1% level.
+
+Our IV strategy is predicated on an exclusion restriction: we
+assume that our encouragement activities affected energy con-
+sumption only through its effect on participation in the WAP pro-
+gram. To informally test whether the treatment’s encouragement
+activities had a direct effect on energy consumption, we test for
+an effect of our encouragement activities on the households in the
+encouraged group that did not receive weatherization assistance.
+
+and other covariates are not constrained to be equal in columns (3) and (4). It is
+also worth noting that the effect of weatherization on gas consumption is more
+precisely estimated. This is not surprising, because natural gas consumption is
+driven primarily by the end uses targeted by weatherization (space and water
+heating), whereas electricity consumption is derived from many end uses that are
+unaffected by weatherization (e.g., lighting and appliances).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1623
+
+We fail to reject the null of no effect on energy consumption among
+these households.16
+
+Table IV, Panel B computes the present value of the esti-
+mated energy savings under alternative assumptions about in-
+vestment time horizons and discount rates. To express the esti-
+mates of monthly energy savings in dollar terms, we ﬁrst impute
+the average consumption among unweatherized compliers.17 Esti-
+mates of monthly natural gas savings (in percentage terms, based
+on the coefﬁcient in column (3)) are multiplied by the product
+of this imputed average monthly gas consumption among control
+group compliers and the residential retail price of natural gas in
+Michigan in 2013 (EIA 2015).18 Similarly, average 2013 electricity
+savings (in percentage terms, based on the coefﬁcient in column
+(4)) are multiplied by the product of average monthly electric-
+ity consumption among control group compliers and the retail
+
+16. To conduct this test, we drop all households receiving weatherization
+assistance from the experimental sample. Using the remaining households, we
+regress the log of monthly energy consumption on an indicator that equals 0 be-
+fore encouragement activities were initiated and 1 after they began in March
+2011 for all households assigned to the encouraged group. We estimate a pre-
+cise zero effect, which suggests that our encouragement intervention had no ef-
+fect on energy use in these households and supports the validity of the exclu-
+sion restriction. Of course, our exclusion restriction also implies that the encour-
+agement intervention does not directly effect energy consumption among house-
+holds taking up the weatherization treatment, but we cannot test this assumption
+directly.
+
+17. In Table III we estimate the share of always takers and compliers in the
+population to be 1% and 5%, respectively. We directly observe the average energy
+consumption among unweatherized households in the encouraged group (i.e., the
+never takers) during the postassignment period. We also observe the average
+consumption among unweatherized households during the postassignment period
+in the control group. Because this represents a weighted average of consumption
+across never takers and compliers, we can impute the average postassignment
+consumption among unweatherized compliers. This is the imputed counterfactual
+consumption reported in Table IV.
+
+18. The average retail price of natural gas in Michigan in 2013 was
+$10.46/MMBtu (expressed in $2013). This is higher than the average price charged
+by this utility over the entire treatment period ($7.98/MMBtu). Natural gas prices
+were at historic lows over this period, so using the observed average price would
+likely underestimate the real prices that will prevail over the life of these invest-
+ments. Prices in 2013 are somewhat lower than the average real prices over the
+period 2000–2013. The shale gas boom has arguably ushered in a new domes-
+tic price regime, such that a longer average real price will overestimate future
+prices.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1624
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+electricity price ($0.11/kWh).19 Taken together, our estimate of
+average energy savings is approximately $233 a year.
+
+To compute the net present value of energy savings over the
+useful life of the improvements, we invoke some additional as-
+sumptions. First, we rely on the NEAT simulation program’s as-
+sumptions about measure-speciﬁc life spans. These projected life
+spans range from 3 years (for a furnace tune-up) to 20 years (for
+attic insulation). The energy savings-weighted average life span
+for installed measures in our data set is 16 years. In the table,
+we report discounted beneﬁts with assumed life spans of 10, 16,
+and 20 years. We also assume that the effect of weatherization on
+energy consumption—and real energy prices—do not vary over
+the life of the measure. Discounted beneﬁts are calculated at dis-
+count rates of 3%, 6%, and 10% (see columns).
+
+The estimated energy savings are small relative to the pro-
+jected savings and the upfront costs. Our estimates imply energy
+savings of 17 MMBtu a year, whereas the average projected sav-
+ings among compliers is 56 MMBtu (aggregating electricity and
+gas measured in terms of site energy content). Our central es-
+timate of the realized average savings per household is roughly
+$2,349. This is signiﬁcantly lower than the average net present
+value of savings predicted by the ex ante engineering analysis
+which is $9,810 among compliers (and $10,611 averaged across
+all weatherized households in our data).20 The nine estimates of
+the present value of the savings range from approximately $1,428
+(high discount rate and short time horizon) to about $3,500 (low
+discount rate and long time horizon). These estimates are just
+31% to 76% of the average upfront cost of the energy efﬁciency
+measures among compliers.21
+
+19. The NEAT program audits assume an electricity price of $0.11/kWh and
+a natural gas price of $11.46/MMBtu. The higher gas price is presumably based
+on 2006 prices, which averaged around $11.50/MMBtu in this service territory in
+2006.
+
+20. The average present discounted savings among weatherized households
+in the control group was projected to be $10,989. The average projected discounted
+savings among weatherized households in the encouraged group is $9,982. We
+estimate that compliers account for 85% of weatherized households in the encour-
+aged group. We thus impute that the average projected savings among complier
+households is $9,810.
+
+21. To compute these percentages, we use an average cost of $4,585 among
+compliers. To construct this average, we use our estimate that 85% of weather-
+ized households in the encouraged group are compliers. We observe the average
+cost among always takers in the control group to be $5,363. We interpret the
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1625
+
+QUASI-EXPERIMENTAL ESTIMATED IMPACTS OF WEATHERIZATION ON HOUSEHOLD
+
+ENERGY CONSUMPTION
+
+TABLE V
+
+Panel A: Dependent variable is monthly energy consumption (in logs)
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+WAP
+
+−0.08∗∗ −0.09∗∗ −0.08∗∗ −0.09∗∗ −0.10∗∗ −0.10∗∗
+(0.01)
+(0.01)
+
+(0.01)
+
+(0.01)
+
+(0.01)
+
+(0.01)
+
+Month-of-sample FE
+Month-of-sample x county FE
+p-score matched sample
+
+Y
+N
+N
+
+N
+Y
+N
+
+Y
+N
+N
+
+N
+Y
+N
+
+Y
+N
+Y
+
+N
+Y
+Y
+
+Adjusted R-squared
+Households
+Observations
+
+0.81
+0.85
+5,013
+3,404
+282,196 282,196 183,353 183,353 188,287 188,287
+
+0.86
+5,013
+
+0.83
+3,334
+
+0.83
+3,334
+
+0.80
+3,404
+
+Panel B: Present value of (discounted) savings
+
+Time horizon
+
+10 years
+16 years
+20 years
+
+3%
+
+$1,393
+$2,052
+$2,430
+
+Discount rate
+
+6%
+
+$1,202
+$1,651
+$1,873
+
+10%
+$1,004
+$1,278
+$1,391
+
+Notes. Panel A reports estimates of the reduction in monthly energy consumption following weatherization.
+The dependent variable is the log of monthly household energy consumption (electricity and natural gas)
+measured in MMBtu. All columns include household-by-month-of-sample and month-by-region ﬁxed effects.
+Columns (1) and (2) use data from all weatherization applicants while columns (3) and (4) use a sample limited
+to implementing agencies that participated in the experiment as well as applicants that applied after the
+encouragement intervention was initiated. Columns (5) and (6) report estimates comparable to columns (1)
+and (2) reweighted by the propensity score. Average monthly consumption is 8.13 MMBtu for all applicants
+and 9.68 MMBtu for the limited sample. The propensity score weighted average is 9.33 MMBtu per month.
+Standard errors (in parentheses) are clustered at the household level. Panel B reports the net present value of
+energy savings implied by the preferred estimate reported in column (6). Reductions in energy bills associated
+with the estimates in column (6) are assumed to accrue over the life of the measure using a range of discount
+rates and assumed time horizons. ∗Signiﬁcant at the 5% level; ∗∗signiﬁcant at the 1% level.
+
+V.B. Quasi-experimental Estimates of Energy Savings
+
+Table V presents the quasi-experimental estimates based on
+the estimation of equation (1). The dependent variable in all re-
+gressions is the log of monthly energy consumption (i.e., the sum
+of electricity and natural gas, both measured in MMBtu). The
+ﬁrst two columns use data from all weatherization applicants,
+with the second speciﬁcation allowing time period effects to vary
+across counties. Columns (3) and (4) trim the sample to obtain
+estimates that are more directly comparable to the experimental
+
+average cost among weatherized households in the encouraged group, $4,698, to
+be a weighted average across compliers and always takers. Note that the range of
+the percentages could be different if we had household-level estimates of savings
+and treatment costs.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+1626
+
+1
+.
+
+0
+
+)
+
+U
+T
+B
+
+ 
+l
+
+t
+
+a
+o
+T
+(
+g
+o
+L
+n
+o
+
+ 
+
+ 
+t
+c
+e
+
+1
+.
+-
+
+2
+.
+-
+
+f
+f
+
+E
+
+3
+.
+-
+
+4
+.
+-
+
+-12 -11 -10 -9 -8 -7 -6 -5 -4 -3 -2 -1 0
+
+1
+Relative Quarter
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9 10 11
+
+FIGURE III
+
+Event Study Analysis: Matched Quasi-experimental Sample
+
+This ﬁgure reports estimated weatherization effects by quarter before and after
+the weatherization was completed based on the quasi-experimental estimates re-
+ported in column (1) of Table V. The time zero effect captures energy consumption
+in the month of the weatherization. The effects are also allowed to vary by the
+realized weather in the quarter. See text for details.
+
+estimates. Speciﬁcally, this sample is limited to the implementing
+agencies that participated in the experiment and to applicants
+that applied after the encouragement intervention was initiated.
+Columns (5) and (6) report estimates comparable to columns (1)
+and (2) reweighted by the propensity score.22
+
+The ﬁrst row in Table V reports the estimated average treat-
+ment effect. Across the columns, the estimates suggest that WAP
+participation reduces energy consumption by roughly 8–10%.
+
+Figure III provides another perspective on the results in
+Table V. It reports on the estimation of a version of the col-
+umn (1) speciﬁcation, except the weatherization indicator is in-
+teracted with indicator variables for each of the potential quar-
+ters before and after weatherization was completed (the time
+zero effect captures energy consumption in the month of weath-
+erization). We also interact the quarter indicators with heating
+
+22. Because some of the covariates included in the propensity score estimating
+equation (e.g., reported disability and number of children) are not reported by all
+households, this sample is somewhat smaller.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1627
+
+degree days (HDD) and HDD squared, to account for the fact
+that weatherization retroﬁts may lead to higher energy savings
+during colder quarters.23 The ﬁgure then plots the coefﬁcients on
+the quarter dummy variables plus the coefﬁcients on the HDD
+and HDD squared variables multiplied by the average HDD and
+HDD squared for the corresponding month. We also plot 95% conﬁ-
+dence intervals associated with these coefﬁcient sums. The decline
+in energy consumption is apparent and seems roughly constant
+throughout the period of our study.
+
+Table V, Panel B computes the present value of the estimated
+energy savings using essentially the same approach described in
+Section II. To estimate monetary savings, we need to disaggre-
+gate our energy savings estimates by fuel. We estimate equation
+(1) separately for gas and electricity, respectively (see Online Ap-
+pendix 4). Again, the energy savings are small relative to the
+upfront costs. The nine estimates of the present value of the sav-
+ings range from approximately $1,000 (high discount rate and
+short time horizon) to about $2,400 (low discount rate and long
+time horizon). These estimates are between 22% and 53% of the
+average upfront cost of the energy efﬁciency retroﬁts.
+
+The experimentally estimated LATE of weatherization on en-
+ergy consumption is approximately twice as large as the quasi-
+experimental estimate of the average effect among all house-
+holds receiving weatherization assistance. Online Appendix 6 doc-
+uments that there are signiﬁcant observable differences between
+the group of complier households in the experimental sample and
+the weatherized households in the quasi-experimental sample,
+but they only explain about 30% of the difference between the
+experimental and quasi-experimental treatment effect estimates.
+“Essential heterogeneity” (Heckman, Urzua, and Vytlacil
+2006), where households sort into participation based on their
+gains, is a potential explanation, but the data fail to support stan-
+dard sorting stories because the experimentally estimated LATE
+exceeds the estimated ATET from the quasi-experimental sam-
+ple where households choose to participate in WAP without our
+
+23. Heating degree days reﬂect the difference between the outdoor temper-
+ature and a base temperature of 65◦F. A day’s HDD equal 0 for days when the
+hourly temperature exceeds 65◦F for all hours of the day. It is equal to a weighted
+difference between 65◦F and hourly temperatures when the temperature dips be-
+low the base. Weights are determined by the share of hours at each temperature.
+Quarterly HDDs sum daily HDDs over all days in the quarter.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1628
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+encouragement. Measurement error is perhaps a more likely ex-
+planation; speciﬁcally, the results are consistent with the possi-
+bility that the quasi-experimental estimates are attenuated due
+to measurement error and that the experimentally derived IV
+removes this bias. Indeed, the ﬁnding that the OLS estimate in
+column (1) of Table IV is comparable to the quasi-experimental
+estimator is striking and consistent with measurement error play-
+ing an important role here.24 Finally, we are using different (albeit
+overlapping) data sets to implement the experimental and quasi-
+experimental estimation, so the differences in the estimated pa-
+rameters could be due to sampling variation.
+
+V.C. Household Reoptimizing Behavior, Building Thermal
+Properties, and the Welfare Implications of Rebound
+This section implements the utility-maximization framework
+outlined in Section II to bound the average willingness to pay for
+any efﬁciency-induced increase in energy services.
+
+Does Weatherization Lead to Temperature “Take Back”? We
+ﬁrst test for an effect of weatherization on household demand for
+space heating. Table VI summarizes the results from our survey
+of indoor air temperatures and thermostat set points collected
+during the winter of 2013 at a subset of our quasi-experimental
+households. All weatherized households surveyed had received
+efﬁciency improvements at least one year before the survey was
+administered, allowing plenty of time for residents to observe the
+extent to which the weatherization retroﬁt affected winter heating
+costs. A total of 899 households allowed our survey team to enter
+their home to record the thermostat set point, and 688 allowed our
+surveyors to linger long enough to record the actual indoor tem-
+perature. Approximately half of the households for which we have
+thermostat or temperature data had received weatherization as-
+sistance (453/899 and 349/688). The remaining households in the
+control group had applied for—but not received—weatherization
+assistance. Anticipating some measurement error, we used two
+different devices to measure indoor temperatures at each home.
+Table VI reports results from regressing thermometer read-
+ings and thermostat set points on a binary variable indicating
+
+24. Measurement error could exist, for instance, if there are typos in the
+CAAs’ paperwork that cause some household to be incorrectly labeled as program
+participants. It is noteworthy that the results are robust to requiring more and
+less documentation from the CAAs to deﬁne a household as “weatherized.”
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1629
+
+TABLE VI
+
+INDOOR TEMPERATURE SURVEY RESULTS
+
+Thermometer
+
+Thermostat
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Indoor temperature response to weatherization
+
+Base temperature
+
+Weatherized home
+
+Heating degree days
+
+Propensity score weights?
+R-squared
+Observations
+
+72.36∗∗
+(0.95)
+0.57
+(0.41)
+−0.16∗∗
+(0.03)
+
+N
+0.02
+1,359
+
+72.17∗∗
+(1.25)
+0.67
+(0.44)
+−0.15∗∗
+(0.04)
+
+Y
+
+0.02
+1,359
+
+69.26∗∗
+(0.96)
+−0.57
+(0.29)
+0.04
+(0.03)
+
+N
+0.01
+899
+
+68.96∗∗
+(1.37)
+−0.57
+(0.32)
+0.05
+(0.04)
+
+Y
+
+0.01
+899
+
+Notes. The table reports measured indoor temperature differentials across weatherized (WAP) and un-
+weatherized households. Columns (1) and (2) have the indoor thermometer temperature reading as a depen-
+dent variable, while columns (3) and (4) use the survey thermostat readings. Columns (2) and (4) are weighted
+so that the surveyed population better represents the total quasi-experimental sample. Standard errors are
+clustered at the household level. ∗ Signiﬁcant at the 5% level; ∗∗ signiﬁcant at the 1% level.
+
+whether the household had been weatherized.25 Columns (1) and
+(3) report results from our base speciﬁcation. Survey respondents
+comprise a nonrandom subset of our sample as only a fraction
+of the targeted household were home and/or willing to open the
+door to receive our surveyors. Furthermore, only 41% of house-
+holds who opened the door to our surveyors allowed us to come
+in and collect temperature measurements. We observe differences
+between survey respondents and the larger sample along poten-
+tially important dimensions (such as past energy use and demo-
+graphics). We estimate speciﬁcations where survey household ob-
+servations are weighted to improve the match in covariate means
+with the larger quasi-experimental sample.26 These results are
+reported in columns (2) and (4). All speciﬁcations control for the
+
+25. If surveyors recorded temperatures from both devices, the temperature
+speciﬁcations include two measurements per household. Standard errors are clus-
+tered at the household level.
+
+26. For both the thermostat set point and indoor temperature samples, we
+make pairwise comparisons of observable household and dwelling characteristics
+across weatherized and unweatherized surveyed households and the larger quasi-
+experimental sample. The surveyed subsample is observationally similar among
+most (but not all) dimensions. For example, for both dependent variables, survey
+respondents are signiﬁcantly more likely to report having children or elderly family
+members, less likely to be unemployed, and are more likely to use gas as their
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1630
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+outdoor temperature on the day of the survey, measured by heat-
+ing degree days (HDDs).
+
+Columns (1) and (2) show that after controlling for out-
+door temperatures, indoor temperatures may be slightly warmer
+at weatherized households. The point estimate is imprecisely
+estimated; we fail to reject the null of 0. The coefﬁcient as-
+sociated with the HDD variable is statistically signiﬁcantly
+negative in the temperature speciﬁcations, suggesting that in-
+door temperatures measure lower on colder days. Although we
+asked surveyors to wait several minutes before recording tem-
+peratures, this ﬁnding suggests that cold air brought with the
+surveyor could be affecting the measurements. Because the
+standard errors of our estimates do not allow us to reject
+a small increase in indoor temperatures, we estimate an up-
+per bound on possible welfare gains using an estimated in-
+crease in temperature of 0.67◦F based on the point estimate in
+column (2).27
+Columns (3) and (4) suggest that weatherized households set
+their thermostats lower, on average, by approximately 0.6◦F. This
+is inconsistent with a rebound in demand for indoor heat. A de-
+crease in thermostat settings may seem inconsistent with the sug-
+gestive evidence of an increase in indoor air temperatures. One
+possible explanation is that retroﬁts, by reducing cold air inﬁltra-
+tion, allow households to maintain the same (or slightly higher)
+levels of indoor comfort at lower thermostat set points. It is also
+potentially relevant that the study period covers the aftermath
+of the Great Recession when the marginal utility of income was
+elevated.
+
+2. Building Energy Performance. To estimate how a given
+increase in demand for indoor space heating translates to an
+increase in monthly gas consumption, we need to estimate the
+thermal properties of a representative building. We use the so-
+called degree day method to model the energy required to increase
+
+primary source of heat, as compared with the larger quasi-experimental sample.
+Among unweatherized households, surveyed households tend to be larger.
+
+27. The positive coefﬁcient on the weatherization dummy in columns (1) and
+(2) appears sensitive to outliers in our data, which may reﬂect coding errors by
+our survey team. For example, when we trim the sample by excluding the top
+and bottom 5% of the observations, the coefﬁcient on a speciﬁcation equivalent to
+column (2) is 0.01 (std. err. = 0.27). The results on the thermostat set point are
+not sensitive to data trimming.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1631
+
+temperatures in an average home in our data (Thorpe 2013). The
+literature that analyzes energy use in buildings commonly as-
+sumes a linear relationship between energy consumption and the
+difference between outdoor temperatures and a temperature that
+people ﬁnd comfortable indoors (e.g., Friedman 1987; Dyson et al.
+2014). We ﬁnd empirical support for this assumption in our set-
+ting.
+
+In residential buildings, it is standard to summarize the tech-
+nical relationship between energy consumption and heating de-
+mand by regressing energy consumption on HDDs. Speciﬁcally,
+we estimate the following equation:
+
+Cimt = αi + β11{W AP}imt + β2 H DDmt + β3 H DDmt ∗ 1{W AP}imt
+(3)
+
+mt ∗ 1{W AP}imt,
+
+mt + β5 H DD2
+
++ β4 H DD2
+
+where Cimt measures the natural gas consumption at house-
+hold i in month m and year t. We estimate this equation using
+data collected from program applicants during winter months
+(September–March) over the entire sample period. Panel data al-
+low us to include household-level ﬁxed effects in this regression.
+We include both a linear and a quadratic HDD term, allowing
+each coefﬁcient to vary with weatherization status, as well as a
+separate intercept for WAP participants.
+
+All of the estimated coefﬁcients in equation (3) are highly sta-
+tistically signiﬁcant and very precisely estimated. The R-squared
+value is 0.69. The estimated slope of the relationship is less steep
+among weatherized homes. That is, weatherizations effectively
+reduce the marginal cost of indoor space heating during the win-
+ter. Moreover, it is noteworthy that this relationship is approxi-
+mately linear though we estimated quadratic terms. Online Ap-
+pendix Figure A.2 summarizes the estimated relationship, which
+is analogous to the bottom panel of Figure I (ﬂipped into the top
+quadrant).
+
+We can use this estimated relationship between HDD and
+monthly energy consumption to estimate the effect of increased
+demand for indoor temperatures on energy consumption and as-
+sociated expenditures. This approach assumes that a household’s
+choice of the indoor temperature is independent of outdoor tem-
+peratures, thus outdoor temperatures are a valid proxy for the
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1632
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+desired level of heating services.28 The product of the slope of
+the relationship between natural gas consumption and HDD (es-
+timated from equation (3)) and the average natural gas price in
+the postencouragement period provides a measure of the marginal
+cost of gas heating. Among unweatherized households, this prod-
+uct is equal to approximately $0.072 per HDD (or $2.17 per heat-
+ing degree month). The analogous calculation for weatherized
+households leads to an estimated marginal cost of $0.056 per HDD
+(or $1.67 per heating degree month). This implies that weather-
+ization led to a reduction in the marginal cost of approximately
+20%.29
+
+3. Bounding the Average Valuation of Increased Indoor Heat.
+Estimates of the marginal costs of heating among weatherized and
+unweatherized households can be combined with the estimated
+0.67◦F increase in indoor temperatures (see Table VI, column (2))
+to bound the average welfare gain from weatherized households’
+reoptimization.30 The lower bound of households’ valuation of the
+higher temperatures is given by 0.67◦F * $1.67/degree month or
+$1.12 per winter month. At this lower bound, the utility gains from
+increased warmth are exactly offset by the increase in the energy
+expenditures incurred to achieve the temperature increase, im-
+plying a zero gain in welfare.
+To deﬁne the upper bound, we note that by revealed pref-
+erence, unweatherized households chose not to pay 0.67◦F *
+$2.17/degree month or $1.45 per winter month to achieve this
+incremental increase in temperature. It follows that average
+marginal beneﬁts from this temperature increase cannot exceed
+$1.45 per winter month. Since increasing indoor temperatures
+by 0.67◦F costs the average weatherized household $1.12 per
+
+28. Note that this assumption is consistent with the results in Table VI, which
+fail to reject that there is no relationship between HDD and thermostat set point.
+29. These estimates of incremental heating costs are comparable to a “rule
+of thumb” popularized by the American Council for an Energy-Efﬁcient Economy.
+This rule states that a household will pay approximately 3% on their gas bill
+for a 1◦F increase in winter thermostat settings (see, for example, http://www.
+improvement.com/a/5-easy-ways-to-lower-your-gas-bill-during-the-winter). Aver-
+age natural gas bills during winter months are $85.95 and $57.96 at unweath-
+erized and weatherized homes, respectively.
+
+30. Because the relationship between heating services and energy consump-
+tion is approximately linear, the average temperature increase yields the average
+willingness to pay for heating services.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1633
+
+winter month, the average net gain from the weatherization-
+induced increase in warmth does not exceed $0.33 per winter
+month. Assuming six full winter months in Michigan, this im-
+plies an upper bound on the annual welfare gain of roughly $1.98
+from higher indoor temperature.
+
+In sum, this bounding exercise suggests that the welfare gains
+from any efﬁciency-induced rebound in heating demand are very
+small, likely less than 1% of the energy expenditure savings. Put
+another way, the efﬁciency-induced rebound in demand for indoor
+heating appears to be inconsequential in this setting. Our method-
+ology also allows us to calculate the potential welfare gains from
+much larger increases in indoor temperatures. Note that even a
+10◦F increase in indoor temperatures would lead to a welfare gain
+of less than $30 a year.
+
+VI. INTERPRETATION
+
+VI.A. Returns on Residential Energy Efﬁciency Investments
+
+Table VII, Panel A evaluates the internal rate of return
+(IRR) on energy efﬁciency investment from a private perspec-
+tive. More precisely, we report the discount rate at which the
+discounted value of average avoided energy expenditures ex-
+actly equals the average upfront investment. Although these
+investments were free to participating households, it is never-
+theless informative to estimate the private returns if house-
+holds had been responsible for the upfront costs because most
+households that consider the exact same investments do not
+qualify for WAP. That is, in the broader population, the IRR
+is a critical factor in determining take-up of energy efﬁciency
+investments.
+
+Column (1) computes the IRR using the average upfront
+investment costs31 and the average reductions in annual en-
+ergy expenditures projected by the WAP program audit. These
+savings are valued at the average retail residential natural
+gas and electricity prices in 2013 as described already. Over
+a range of time horizons, the estimated IRR is quite high, as
+they should be given the investment rule that required pro-
+jected savings exceed costs. The rate of return associated with
+
+31. The upfront investment costs are calculated as the imputed average
+installation, construction, and materials costs among compliers. The average cost
+per household is $4,585.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1634
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+ESTIMATED RETURNS ON INVESTMENTS IN ENERGY EFFICIENCY
+
+TABLE VII
+
+Time
+horizon
+
+Ex ante (NEAT)
+
+projections
+
+Panel A: Private internal rate of return
+
+10 years
+16 years
+20 years
+
+(1)
+
+7.0%
+11.9%
+13.0%
+
+Panel B: Private internal rate of return, adding the avoided emissions damages
+
+10 years
+16 years
+20 years
+
+Panel C: Social internal rate of return
+
+10 years
+16 years
+20 years
+
+11.4%
+15.5%
+16.4%
+
+−3.9%
+3.1%
+5.0%
+
+Panel D: CO2 abatement cost, 3% discount ($/ton CO2)
+
+10 years
+16 years
+20 years
+
+10 years
+16 years
+20 years
+
+$85
+$38
+$22
+
+$117
+$71
+$56
+
+Panel E: CO2 abatement cost, 7% discount ($/ton CO2)
+
+Empirical
+estimates
+
+(2)
+
+−10.6%
+−2.3%
+0.21%
+
+−7.6%
+0.1%
+2.3%
+
+−17.8%
+−7.8%
+−4.6%
+
+$322
+$201
+$161
+
+$404
+$285
+$248
+
+Notes. All calculations use the average retroﬁt cost of $4,585. This is the imputed average expenditure for
+compliers, constructed using ex post observed costs per weatherized household as reported by the implement-
+ing agencies. Column (1) reﬂects engineering projections of annual energy savings. In Panels B and C, column
+(1) also incorporates the value of estimated emissions reductions (valued using a social cost of carbon value
+of $38 per ton CO2 and values for avoided local pollutants as described in the text). Column (2) replaces the
+engineering estimates of energy savings with our experimental estimates of energy savings. Column (2) also
+incorporates the upper bound on the net welfare gain from increased heating demand using our very small
+and statistically insigniﬁcant point estimate of the upper bound on the efﬁciency-induced increase in welfare
+associated with warmer indoor air temperatures. Panels D and E report the implied abatement cost per ton
+CO2. These values divide the average levelized investment cost net of fuel savings by the estimated average
+quantity of emissions avoided (measured in metric tons).
+
+the savings-weighted average life span (i.e., 16 years) is approx-
+imately 12%. By this measure, efﬁciency investments supported
+under WAP appear to be very attractive investments that greatly
+exceed typical returns available in equity, real estate, and bond
+markets.
+
+The second column of Table VII replaces the projected sav-
+ings with an estimate of the actual energy savings (in monetary
+terms), derived from the randomized encouragement design, plus
+a generous estimate of the welfare gain from higher indoor tem-
+peratures (i.e., the estimated upper bound of the monetized value
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1635
+
+of the net welfare gain).32 The estimate of realized savings is about
+$232, which is only 36% (= $232/$653) of the average projected an-
+nual monetary savings.33 When the upper bound of the monetized
+value of the higher indoor temperatures is added to the energy
+savings, the annual beneﬁts are approximately $234. Using this
+measure of annual beneﬁts, the IRR is −10.6% for the 10-year
+horizon, −2.3% for 16 years, and 0.2% for 20 years. Negative re-
+turns suggests that, at least for residential home retroﬁts, there
+may not be much of an efﬁciency gap to explain. Investments with
+these returns are infrequently taken up in the broader economy.
+Panel B conducts a similar exercise but adds the value of
+avoided emissions to the beneﬁt side of the ledger. Avoided emis-
+sions of CO2 are valued at $38 per ton (Greenstone, Kopits, and
+Wolverton 2013). Nitrogen oxide and sulfur dioxide emissions
+from residential gas consumption are valued at $250 per ton and
+$970 per ton, respectively (Muller and Mendelsohn 2009).34 The
+IRRs for the 10-, 16-, and 20-year horizons are −7.6%, 0.1%, and
+2.3%, respectively.
+
+The societal perspective is especially important for judging
+these investments, because a broad range of policies encourage
+residential energy efﬁciency investments. Panel C reports esti-
+mates of the social IRR that are calculated using estimates of the
+avoided marginal costs, rather than the retail prices, to monetize
+the energy savings. These avoided costs are then added to the
+
+32. As a basis of comparison, the lower bound is 0. However, the decision to
+use the upper versus lower bound estimate has little impact on these calculations
+because the estimated rebound effect is so small.
+
+33. The experimental estimate of average energy savings (measured in
+MMBtu) is 31% ( 17 MMBtu
+56 MMBtu ) of projected energy savings, lower than our estimate of
+the ratio of realized to projected annual monetary savings. This is because electric-
+ity is more expensive than natural gas on a per MMBtu basis, and electricity, for
+which realized savings are closer to projected savings, thus makes up a relatively
+larger share of the monetary savings.
+
+34. We assume that burning natural gas emits 117 lbs CO2 per MMBtu, 0.092
+lbs NOx per MMBtu, and 0.000584 lbs SO2 per MMBtu. We assume a marginal
+operating emissions rate of 1.87 lbs CO2 per kWh in the Midwest power sector
+(Callaway, Fowlie, and McCormick 2015). Sulfur dioxide and nitrogen oxide emis-
+sions from residential natural gas consumption are monetized using the median
+marginal damage estimates in Muller and Mendelsohn (2009). NOx and SO2 emis-
+sions from electricity generation are subject to a (barely) binding cap. To convert
+energy savings measured at the site to emissions avoided at the power plant site,
+we assume a 5% transmission and distribution line loss rate, based on EIA’s esti-
+mated nationwide loss rates of in 2013 (http://www.eia.gov/tools/faqs).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1636
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+monetized value of the avoided emissions (as in Panel B). The
+reason for this adjustment is that retail electricity and natural
+gas prices used in Panels A and B include a ﬁxed cost component;
+energy providers recover a signiﬁcant fraction of the ﬁxed costs
+of supplying energy (e.g., transmission and distribution invest-
+ments) in their volumetric rates (Davis and Muehlegger 2010).
+These ﬁxed costs are not avoided when efﬁciency investments
+reduce residential natural gas and electricity consumption. Most
+electricity and natural gas distribution utilities are subject to cost-
+plus regulation, and in these cases, the ﬁxed costs recovery will be
+shifted to other customers, meaning that households that reduce
+energy consumption receive a transfer from other households by
+reducing their contribution to covering ﬁxed costs. We use the av-
+erage of the 2013 spot prices ($3.73/MMBtu) set at the Henry Hub
+distribution point, a standard reference price for natural gas in
+North America, to reﬂect the true marginal cost of natural gas
+over the lifetime of the measures.35 To value reductions in elec-
+tricity consumption, we use the average wholesale price in the
+Midwest electricity market and assume transmission and distri-
+bution losses of 5%.
+
+These adjustments are reported in Panel C and lead to a
+meaningful decrease in the IRR, relative to the IRRs in Panels A
+and B. For example, the social IRR for the 16-year time horizon is
+−7.8%; it is −17.8% and −4.6% for the 10- and 20-year horizons,
+respectively. Overall, these residential energy efﬁciency invest-
+ments have a negative rate of return across all reasonable time
+horizons.36
+
+An alternative method to summarize the return on WAP en-
+ergy efﬁciency investments is to estimate the cost per ton of CO2
+avoided. This is calculated as the ratio of the net cost of the invest-
+ments (i.e., the annual rental cost of the upfront investment less
+the value of annual energy savings and avoided damages from re-
+gional pollutants) and the tons of CO2 emissions reduced a year.
+Panel D uses a 3% discount rate to calculate the annual rental
+cost of capital, while Panel E uses 7%. Both panels report results
+
+35. This is lower than the average gas recovery charge reported by the utility in
+regulatory proceedings over the postweatherization period ($5.54), but the utility’s
+recovery charge rolls in contract positions.
+
+36. An alternative approach would be to calculate the social internal rate of
+return from the government’s perspective. This would require accounting for the
+social cost of public funds and the administrative costs of the program.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1637
+
+based on assumptions of 10-, 16-, and 20-year life spans for the
+investments and use wholesale energy prices as above.
+
+As in Panels A through C, the conclusions differ depending
+on whether one uses projected or realized energy savings. Using
+projected energy savings values generated by the NEAT program
+audits and the 16-year life span, the cost per ton of CO2 avoided
+is $38 with a 3% discount rate. With these estimates, the energy
+efﬁciency investments would break even, from a social perspec-
+tive, because the abatement cost per ton is approximately equal
+to the U.S. government’s ofﬁcial value of the social cost of carbon
+of $38.
+
+However, the estimates that are based on actual energy sav-
+ings again tell a different story. When the experimental estimates
+of actual natural gas and electricity savings are used in column
+(2), the analogous costs per ton of CO2 avoided are $201 (3% dis-
+count rate) and $285 (7% discount rate). These costs exceed the
+U.S. government’s social cost of carbon by a signiﬁcant margin.
+On the basis of the costs and beneﬁts we account for here, these
+residential energy efﬁciency investments are not a cost-effective
+approach to mitigating climate change.
+
+VI.B. What Explains the Low Rate of Return on These Efﬁciency
+
+Investments?
+
+It is natural to ask why the returns to residential energy efﬁ-
+ciency investments are so low. After all, WAP contractors only im-
+plement measures with projected savings to costs ratios greater
+than one. Section V.C found that the low returns cannot be ex-
+plained by a rebound effect, and this subsection examines other
+potential explanations with the aim of shedding light on whether
+these ﬁndings are externally valid to other settings.
+
+One possibility is that the costs of the investments are in-
+ﬂated in the government-funded WAP program, especially rela-
+tive to costs in a private market, where most households make
+energy efﬁciency investments. Online Appendix Tables A.8 and
+A.9 compare the costs of four common measures in our data with
+costs incurred by homeowners participating in two residential
+audit-based energy efﬁciency programs administered by the Wis-
+consin Energy Conservation Corporation (WECC), analyzed by
+Allcott and Greenstone (2017). The WECC program is a standard
+residential audit-based energy efﬁciency program, so it seems rea-
+sonable to presume that most of its consumers have incomes that
+exceed the WAP threshold. The clear conclusion from these tables
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1638
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+is that even after adjustment for observables, costs were statisti-
+cally lower by an economically meaningful amount under WAP for
+three of the four measures and roughly equivalent for the fourth
+measure. One can speculate on the reasons, but the data fail to
+support the possibility that the costs used to calculate the rate of
+return associated with WAP measures are inﬂated. The analysis
+is described in greater detail in the Online Appendix.
+
+Another potential explanation is that contractor quality is low
+in the WAP program and that this was particularly the case during
+the Great Recession when WAP greatly increased its scale, mak-
+ing the article’s results unrepresentative of returns under more
+normal conditions. We note that ARRA funding faced tremendous
+scrutiny for mismanagement, and during this period WAP agen-
+cies indicated an increased commitment to training, monitoring,
+and quality assurance. Furthermore, it is possible that the quality
+of contractors could either increase or decrease during this period
+because, while WAP was scaling up, the home construction indus-
+try was declining dramatically, potentially increasing the supply
+of skilled contractors.
+
+This is ultimately an empirical question, so the Online Ap-
+pendix investigates the possibility that realized savings vary with
+contractor experience. More precisely, we test for systematic vari-
+ation in realization rates (i.e., the share of projected savings that
+manifest as actual savings). The Online Appendix describes this
+exercise in detail, including some important data limitations, but
+the key ﬁnding is that we fail to ﬁnd any relationship between
+realization rates and our imperfect measure of contractor expe-
+rience in the WAP program (see Online Appendix Figure A.1).
+Based on the available data, it appears that contractor hetero-
+geneity cannot explain the low rates of return to energy efﬁciency
+investments through the WAP program.
+
+Given that the data reject large rebound effects, and we ﬁnd
+no evidence that costs incurred in this government program were
+abnormally high, we believe that the most likely explanation is
+that the NEAT efﬁciency audit tool systematically overstates the
+real returns to these investments by a signiﬁcant margin.37 It is
+
+37. Another possibility is that the winters we analyze were warmer than the
+average winter that was used in the engineering calculations. In fact, the opposite
+is true in this period: we observe colder than average temperatures and higher
+than average degree day measures in our sample that should lead to greater than
+average savings.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1639
+
+noteworthy that we found in our data that the NEAT program pre-
+dicts baseline natural gas consumption that exceeds actual con-
+sumption by more than 25% prior to weatherization, suggesting
+that the auditing tool could be underestimating homes’ efﬁciency
+properties prior to weatherization. This might help explain why
+the beneﬁts of efﬁciency measures are overstated.38 Furthermore,
+recent research (e.g., Davis, Fuchs, and Gertler 2014; Levinson
+2016; Allcott and Greenstone 2017) has also found low realization
+rates for energy efﬁciency measures in other settings. Ultimately,
+we do not have a deﬁnitive explanation for why the engineering
+models overstate the savings, but we note that this is not an in-
+dustry where there is a culture of objective ex post evaluation
+and that contracts are not written with penalties for a failure to
+deliver promised returns. Regardless of the cause, it seems clear
+that signiﬁcant research into improving the functioning of the
+NEAT efﬁciency auditing tool (and similar tools) is warranted as
+it is used by state and local WAP subgrantees, utility companies,
+and home energy audit ﬁrms.39
+
+More broadly, it is possible that the conventional cost-beneﬁt
+approach to these programs misses important nonenergy bene-
+ﬁts and that such beneﬁts help explain the popularity of energy
+efﬁciency programs and investments. The most oft-cited exam-
+ple is that weatherization leads to improvements in health, pre-
+sumably due to decreasing thermal stress. The Department of
+Energy produced an evaluation of the weatherization program,
+and claim that the retroﬁts produce substantial health beneﬁts
+(Oak Ridge National Laboratory 2015). Among other things, the
+analysis claims that the typical WAP retroﬁt leads to an astound-
+ing almost $5,000 of mortality reduction beneﬁts. We investigated
+this claim and found that it is based on replies to the survey
+question, “In the past 12 months, has anyone in the household
+needed medical attention because your home was too cold (hot)?”
+
+38. Several studies and utility reports have documented how software-based
+energy analysis of existing homes tends to overpredict preretroﬁt energy use. For
+example, a recent report found that modeling software consistently overestimated
+energy consumption; mean modeled total annual use was 40% greater than billed
+use (SBW 2012).
+
+39. Although more sophisticated building simulation models exist, they are
+also likely more expensive to use. An appeal of NEAT is that it can be inexpensively
+used by the thousand of implementers who have a wide range of skills and technical
+training. In fact, the DOE cites NEAT’s accessibility to nontechnical users as one
+of its primary beneﬁts (EERE 2010).
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1640
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+A series of assumptions are invoked to map these responses to
+fatality rates. The estimates were also derived from a nonstan-
+dard statistical technique and included no effort to assess statis-
+tical signiﬁcance.40 Finally, the DOE’s own analysis of nonenergy
+beneﬁts fails to account for any health costs associated with the
+documented increases in radon and formaldehyde levels (Pigg
+et al. 2014), both of which are known health risks. Based on the
+available evidence, particularly the small change in indoor tem-
+perature that we document (and which are conﬁrmed by the DOE
+study), we ﬁnd little reason to believe that the nonenergy beneﬁts
+are important and some suggestion that they are negative.
+
+It is possible that the weatherization retroﬁts improve the
+quality of the house in ways beyond energy savings and the nonen-
+ergy beneﬁts discussed in the previous paragraph. These quality
+improvements could be reﬂected in the property markets through
+higher house valuations. A prime example is new windows, which
+are easily visible, can improve a house’s aesthetics, and are fre-
+quently undertaken as part of retroﬁts by non–low-income house-
+holds. However, the program’s requirement that each investment
+pass a cost-beneﬁt test rules out windows in most cases, because
+their energy savings generally fall short of their costs. At the same
+time, this is an immature area and more research is necessary to
+understand how housing markets capitalize energy efﬁciency in-
+vestments.
+
+VII. CONCLUSION
+
+We conducted a large-scale randomized-encouragement de-
+sign experiment on a sample of 30,000 households presumptively
+eligible for participation in WAP in the state of Michigan. Approx-
+imately one quarter of these households were randomly assigned
+to a treatment group that was encouraged to apply for the pro-
+gram and received signiﬁcant application assistance. The control
+households were free to apply for WAP but were not contacted or
+assisted in any way by our team. We also analyze corroborating
+evidence from a quasi-experimental analysis covering over twice
+as many weatherizations as well as a survey of indoor conditions
+at weatherized and unweatherized homes.
+
+40. We provide a more detailed explanation of the unconventional approach
+taken to generate what we believe to be unrealistic estimates of nonenergy
+beneﬁts. This summary can be found at https://energyathaas.wordpress.com/
+2015/10/06/weatherization-assistance-program/.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1641
+
+We document three primary ﬁndings. First, the aggressive
+encouragement efforts were disappointing. This encouragement
+increased take-up rates from less than 1% in the control group
+to about 6% at a cost of over $1,000 per weatherized household.
+Second, we ﬁnd that WAP participation reduced energy consump-
+tion by 10–20% among participating households. However, the
+upfront cost of the energy efﬁciency investments are about twice
+the cost of the realized energy savings. Furthermore, the projected
+savings are more than three times the actual savings. Third, while
+the modest energy savings might be attributed to the rebound ef-
+fect, when demand for energy end uses increases as a result of
+greater efﬁciency, the article fails to ﬁnd evidence of economi-
+cally or statistically signiﬁcant increases in indoor temperature
+at weatherized homes.
+
+Overall, the energy efﬁciency investments we evaluate are
+poor performers on average across a variety of metrics. From
+a household’s perspective, the annual internal rate of return
+that would rationalize these efﬁciency investments is −2.3%. The
+household’s perspective differs from society’s because it fails to
+recognize the beneﬁts of greenhouse gas and local pollutant emis-
+sions reductions and because the retail prices for natural gas and
+electricity exceed their marginal costs of delivery. Accounting for
+these two factors, the annual social internal rate of return that
+would justify these investments is −7.8%, which is even less favor-
+able. Finally, we also calculate the average cost per ton of avoided
+CO2 under a range of assumptions. The most plausible estimates
+exceed $200/ton, which is signiﬁcantly larger than the U.S. gov-
+ernment’s estimate of the monetized beneﬁts of avoided emissions
+(i.e., the social cost of carbon) of roughly $38.
+
+This study demonstrates that the returns to common resi-
+dential energy efﬁciency investments are negative privately and
+socially among low-income households in Michigan. The results
+are striking because Michigan’s cold winters and the likelihood
+that the weatherized homes were not in perfect condition sug-
+gests that it may have been reasonable to expect high returns in
+this setting. Regardless of one’s priors, this article underscores
+that it is critical to develop a body of credible evidence on the true
+(rather than projected) returns to energy efﬁciency investments
+in the residential and other sectors. The ﬁndings also suggest that
+the past several decades may have seen too much investigation
+into the why of the energy efﬁciency gap and not enough into
+whether there really was one.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1642
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+From a policy perspective, WAP does not appear to pass a con-
+ventional cost-beneﬁt test, although its full set of goals may not
+be reﬂected in such tests. On the broader question of optimal cli-
+mate change policy, this article’s ﬁndings indicate that residential
+energy efﬁciency retroﬁts are unlikely to provide the least expen-
+sive carbon reductions. Future research should examine whether
+the real-world returns to energy efﬁciency investments differ so
+starkly from engineering projections in other settings.
+
+UNIVERSITY OF CALIFORNIA, BERKELEY, AND NATIONAL BUREAU OF
+ECONOMIC RESEARCH
+UNIVERSITY OF CHICAGO AND NATIONAL BUREAU OF ECONOMIC RE-
+SEARCH
+HAAS SCHOOL OF BUSINESS, UNIVERSITY OF CALIFORNIA, BERKELEY,
+AND NATIONAL BUREAU OF ECONOMIC RESEARCH
+
+SUPPLEMENTARY MATERIAL
+
+An Online Appendix for this article can be found at The
+Quarterly Journal of Economics online. Data and code replicat-
+ing tables and ﬁgures in this article can be found in Fowlie,
+Greenstone, and Wolfram (2018), in the Harvard Dataverse,
+doi:10.7910/DVN/OJFYSR.
+
+REFERENCES
+
+Allcott, Hunt, and Michael Greenstone, “Is There an Energy Efﬁciency Gap?,”
+
+Journal of Economic Perspectives, 26 (2012), 3–28.
+
+———, “Measuring the Welfare Effects of Residential Energy Efﬁciency Pro-
+
+grams,” Mimeo, 2017.
+
+Angrist, Joshua, Guido Imbens, and Donald Rubin, “Identiﬁcation of Causal Ef-
+fects Using Instrumental Variables,” Journal of the American Statistical As-
+sociation, 91 (1996), 444–455.
+
+Barbose, Galen L., Charles A. Goldman, Ian M. Hoffman, and Megan A. Billingsley,
+“The Future of Utility Customer-Funded Energy Efﬁciency Programs in the
+United States: Projected Spending and Savings to 2025,” Energy Efﬁciency
+Journal, 6 (2013), 475–493.
+
+Callaway, Duncan, Meredith Fowlie, and Gavin McCormick, “Location, Location,
+Location: The Variable Value of Renewable Energy and Demand-Side Efﬁ-
+ciency Resources,” EIH Working Paper no. 264, 2015.
+
+CPUC, “2010 to 2012 Energy Efﬁciency Annual Progress Evaluation Report,” Tech-
+
+nical Report, California Public Utilities Commission, 2015.
+
+Davis, Lucas, Alan Fuchs, and Paul Gertler, “Cash for Coolers: Evaluating a Large-
+Scale Appliance Replacement Program in Mexico,” American Economic Jour-
+nal: Economic Policy, 6 (2014), 207–238.
+
+Davis, Lucas, and Erich Muehlegger, “Do Americans Consume Too Little Natural
+Gas? An Empirical Test of Marginal Cost Pricing,” RAND Journal of Eco-
+nomics, 41 (2010), 791–810.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ENERGY EFFICIENCY INVESTMENTS
+
+1643
+
+Dubin, Jeffrey A., Alen K. Miedema, and Ram V. Chandran, “Price Effects of
+Energy-Efﬁcient Technologies: A Study of Residential Demand for Heating
+and Cooling,” RAND Journal of Economics, 17 (1986), 310–325.
+
+Dyson, Mark, Samuel Borgeson, Tabone Michaelangelo, and Duncan Callaway,
+“Using Smart Meter Data to Estimate Demand Response Potential, With
+Application to Solar Energy Integration,” Energy Policy, 73 (2014), 607–619.
+EERE, “Review of Selected Home Energy Auditing Tools: In Support of the Devel-
+opment of a National Building Performance Assessment and Rating Program,”
+Technical Report, U.S. Department of Energy, 2010.
+
+EIA, “Natural Gas Monthly,” Technical Report, Energy Information Administra-
+
+tion, 2015.
+
+Fowlie, Meredith, Michael Greenstone, and Catherine Wolfram, “Are the Non-
+Monetary Costs of Energy Efﬁciency Investments Large? Understanding Low
+Take-Up of a Free Energy Efﬁciency Program,” American Economic Review
+Papers and Proceedings, 105 (2015), 201–204.
+
+———, “Replication Data for: ‘Do Energy Efﬁciency Investments Deliver? Evidence
+from the Weatherization Assistance Program’,” Harvard Dataverse, (2018),
+doi:10.7910/DVN/OJFYSR.
+
+Friedman, David, “Cold Houses in Warm Climates and Vice Versa: A Paradox of
+
+Rational Heating,” Journal of Political Economy, 95 (1987), 1089–1097.
+
+Gerarden, Todd D., Richard G. Newell, and Robert N. Stavins, “Assessing The
+Energy-Efﬁciency Gap,” Technical Report, Harvard Environmental Economics
+Program, 2015.
+
+Gillingham, Kenneth, Matthew J. Kotchen, David S. Rapson, and Gernot Wagner,
+“Energy Policy: The Rebound Effect Is Overplayed,” Nature, 493 (2013), 475–
+476.
+
+Gillingham, Kenneth, and Karen Palmer, “Bridging the Energy Efﬁciency Gap:
+Policy Insights from Economic Theory and Empirical Evidence,” Review of
+Environmental Economics and Policy, 8 (2014), 18–38.
+
+Greenstone, Michael, Elizabeth Kopits, and Ann Wolverton, “Developing a Social
+Cost of Carbon for US Regulatory Analysis: A Methodology and Interpreta-
+tion,” Review of Environmental Economics and Policy, 7 (2013), 23–46.
+
+Heckman, James J., Sergio Urzua, and Edward Vytlacil, “Understanding In-
+strumental Variables in Models with Essential Heterogeneity,” Review of
+Economics and Statistics, 88 (2006), 389–432.
+
+IEA, “Redrawing the Energy-Climate Map,” Technical Report, International
+
+Energy Agency, 2013.
+
+Jacobsen, Grant D., and Matthew J. Kotchen, “Are Building Codes Effective at
+Saving Energy? Evidence from Residential Billing Data in Florida,” Review of
+Economics and Statistics, 95 (2013), 34–49.
+
+Joskow, Paul L., and Donald B. Marron, “What Does a Negawatt Really Cost?
+Evidence from Utility Conservation Programs,” Energy Journal, 13 (1992),
+41–74.
+
+Kotchen, Matthew J., “Longer-Run Evidence on Whether Building Energy Codes
+Reduce Residential Energy Consumption,” Journal of the Association of Envi-
+ronmental and Resource Economists, 4 (2017), 135–153.
+
+Kushler, Martin, Seth Nowak, and Patti Witte, “A National Survey of State Poli-
+cies and Practices for the Evaluation of Ratepayer-Funded Energy Efﬁciency
+Programs,” Technical Report U122, American Council for an Energy-Efﬁcient
+Economy, 2012.
+
+Levinson, Arik, “How Much Energy Do Building Energy Codes Save? Evi-
+dence from California Houses,” American Economic Review, 106 (2016),
+2867–2894.
+
+Loftus, Peter J., Armond M. Cohen, Jame C. S. Long, and Jesse D. Jenkins, “A
+Critical Review of Global Decarbonization Scenarios: What Do They Tell Us
+about Feasibility?,” Wiley Interdisciplinary Reviews: Climate Change, 6 (2015),
+93–112.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+1644
+
+THE QUARTERLY JOURNAL OF ECONOMICS
+
+McKinsey & Company, “Unlocking Energy Efﬁciency in the U.S. Economy,” Tech-
+
+nical Report, McKinsey Global Energy and Materials, 2009.
+
+Metcalf, Gilbert E., and Kevin A. Hassett, “Measuring the Energy Savings from
+Home Improvement Investments: Evidence from Monthly Billing Data,” Re-
+view of Economics and Statistics, 81 (1999), 516–528.
+
+Muller, Nicholas, and Robert Mendelsohn, “Efﬁcient Pollution Regulation: Getting
+
+the Prices Right,” American Economic Review, 99 (2009), 1714–1739.
+
+Oak Ridge National Laboratory, Weatherization Works—Summary of Findings
+from the Retrospective Evaluation of the U.S. DOE’s Weatherization Assistance
+Program (Washington, DC: Ofﬁce of Energy Efﬁciency and Renewable Energy,
+Department of Energy, 2015).
+
+Pigg, Scott, Dan Cautley, Paul Francisco, Beth Hawkins, and Terry Brennan,
+Weatherization and Indoor Air Quality: Measured Impacts in Single-family
+Homes under the Weatherization Assistance Program (Oak Ridge, TN: Oak
+Ridge National Laboratory, 2014).
+
+Radnofsky, Louise, “A Stimulus Project Gets All Caulked Up,” Wall Street Journal,
+
+September 21, 2010.
+
+SBW, “2010–2012 PGE and SCE Whole House Retroﬁt Program Process Evalua-
+
+tion Study,” Technical Report, 2012.
+
+Schwarz, Peter M., and Thomas N. Taylor, “Cold Hands, Warm Hearth? Climate,
+
+Net Takeback, and Household Comfort,” Energy Journal, 16 (1995), 41–54.
+
+Thorpe, David, Energy Management in Buildings: The Earthscan Expert Guide
+
+U.S. Census Bureau, “American Community Survey (ACS),” ( Three-Year Public
+
+(Abingdon, UK: Routledge, 2013).
+
+Use Sample (PUMS), 2007–2011.
+
+l
+
+D
+o
+w
+n
+o
+a
+d
+e
+d
+
+ 
+f
+r
+o
+m
+h
+
+ 
+
+t
+t
+
+p
+s
+:
+/
+/
+
+l
+
+j
+
+i
+
+/
+
+/
+
+/
+
+/
+
+/
+
+/
+
+a
+c
+a
+d
+e
+m
+c
+.
+o
+u
+p
+.
+c
+o
+m
+q
+e
+a
+r
+t
+i
+c
+e
+1
+3
+3
+3
+1
+5
+9
+7
+4
+8
+2
+8
+3
+4
+2
+b
+y
+ 
+J
+a
+n
+H
+a
+a
+g
+u
+s
+e
+r
+ 
+o
+n
+2
+0
+N
+o
+v
+e
+m
+b
+e
+r
+ 
+2
+0
+2
+4
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+

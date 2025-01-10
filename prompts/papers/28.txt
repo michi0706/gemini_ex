@@ -1,0 +1,7450 @@
+ifo 
+WORKING 
+PAPERS
+ 
+
+241
+2017
+
+September 2017 
+
+ Do Higher Corporate Taxes 
+Reduce Wages? 
+Micro Evidence from Germany 
+
+Clemens Fuest, Andreas Peichl, Sebastian Siegloch 
+
+Impressum: 
+
+ifo Working Papers 
+Publisher and distributor: ifo Institute – Leibniz Institute for Economic Research at the 
+University of Munich 
+Poschingerstr. 5, 81679 Munich, Germany 
+Telephone +49(0)89 9224 0, Telefax +49(0)89 985369, email ifo@ifo.de 
+www.cesifo-group.de 
+
+An electronic version of the paper may be downloaded from the ifo website:  
+www.cesifo-group.de 
+
+ifo Working Paper No. 241
+
+Do Higher Corporate Taxes Reduce Wages?
+
+Micro Evidence from Germany∗
+
+Clemens Fuest
+
+Andreas Peichl
+
+Sebastian Siegloch
+
+First version: July 2011. This version: September 22, 2017
+
+Abstract
+
+This paper estimates the incidence of corporate taxes on wages using a 20-year
+
+panel of German municipalities exploiting 6,800 tax changes for identiﬁcation. Using
+
+event study designs and diﬀerences-in-diﬀerences models, we ﬁnd that workers bear
+
+about half of the total tax burden. Administrative linked employer-employee data
+
+allow us to estimate heterogeneous ﬁrm and worker eﬀects. Our ﬁndings highlight
+
+the importance of labor market institutions and proﬁt-shifting opportunities for the
+
+incidence of corporate taxes on wages. Moreover, we show that low-skilled, young
+
+and female employees bear a larger share of the tax burden. This has important
+
+distributive implications.
+
+JEL Classiﬁcation: H2, H7, J3
+Keywords: business taxation, incidence, administrative data, local taxation
+
+∗Fuest: ifo Institute, University of Munich and CESifo (fuest@ifo.de); Peichl: ifo Institute, Uni-
+versity of Munich, CESifo, IZA and ZEW (peichl@ifo.de); Siegloch: University of Mannheim, IZA,
+ZEW and CESifo (siegloch@uni-mannheim.de). We would like to thank Hilary Hoynes, the editor, and
+four anonymous referees for their helpful comments. We are indebted to J. Angrist, W. Arulampalam,
+A. Auerbach, D. Autor, R. Blundell, D. Card, R. Chetty, M. Devereux, P. Doerrenberg, D. Duncan,
+A. Finkelstein, G. Friebel, J. Hermle, J. Hines, H. Kleven, G. Maﬃni, A. Oswald, M. Overesch, T. Piketty,
+J. Poterba, E. Saez, J. C. Su´arez Serrato, J. Voget, D. Yagan, O. Zidar, as well as numerous conference
+and seminar participants for valuable comments and suggestions on earlier versions (sometimes circulat-
+ing as “Do Employees Bear the Burden of Corporate Taxation? A Micro Level Approach Using Linked
+Employer-Employee Data”). We are also thankful to Stefan Bender, J¨org Heining, Dana M¨uller and the
+whole team of the research data center (FDZ) of the IAB for their continuous support throughout the
+project (FDZ 259). Peichl gratefully acknowledges ﬁnancial support by Deutsche Forschungsgemeinschaft
+(DFG, PE 1675/3-1). The authors declare that they have no relevant or material ﬁnancial interests that
+relate to the research described in this paper which is forthcoming in the American Economic Review.
+
+1
+
+Introduction
+
+The incidence of corporate taxation is a key issue in tax policy debates. The distribution of
+
+the tax burden between labor and capital has important implications for the progressivity
+
+of the tax system. According to surveys, most people think that capital owners bear the
+burden of corporate taxation.1 Business lobbyists, in contrast, argue that the tax reduces
+
+investment so that labor productivity and wages decline, which means that workers bear
+
+the tax burden. Most economists take a middle ground and think that the tax burden
+
+is shared between labor and capital. Yet, even among researchers in the ﬁeld, there is
+substantial disagreement about how much of the burden is shifted to workers.2 The main
+
+reason is that credible empirical evidence on the causal eﬀect of corporate taxes on wages
+
+is scarce. In this paper, we revisit the question of how corporate taxes aﬀect wages.
+
+We exploit the speciﬁc institutional setting of the German local business tax (LBT)
+
+to identify the corporate tax incidence on wages. The German setting is well-suited for
+
+several reasons. First, there is substantial tax variation at the local level. From 1993
+
+to 2012, on average about 10% of all municipalities adjusted their LBT rates annually,
+
+resulting in 17,999 tax changes in 10,001 municipalities between 1993 and 2012. Second,
+
+municipalities can only change the LBT rate. The tax base deﬁnition and rules about
+which types of ﬁrms are liable to the tax are determined at the federal level.3 More-
+
+over, municipal autonomy in setting tax rates allows us to treat municipalities as many
+
+small open economies within the highly integrated German national economy – with high
+
+mobility of capital, labor and goods across municipal borders.
+
+In this setting, general
+
+equilibrium eﬀects on interest rates or consumer prices, which may complicate measuring
+
+the incidence of the tax on workers, are likely to be of minor importance.
+
+Our analysis combines administrative panel data on the universe of German mu-
+
+nicipalities with administrative linked employer-employee micro data from social security
+
+records. In this data, we observe ﬁrms in 3,522 municipalities, leaving us with 6,802 tax
+
+changes for identiﬁcation. We use non-parametric event study designs to show that wages
+
+decrease signiﬁcantly after tax increases. At the same time, they do not react in the
+
+periods prior to a tax reform. In addition, we use the event study set-up to show that
+
+tax reforms are not driven by local business cycles. These ﬂat pre-trends support our
+
+identifying assumption and the causal interpretation of our estimates.
+
+1See, e.g., Sheﬀrin (1994) and various Gallup polls: http://www.gallup.com/poll/1714/taxes.aspx.
+2 For example, public economists surveyed by Fuchs, Krueger and Poterba (1998) respond on average
+that 40% of the corporate tax incidence is on capital, leaving a substantial share of the burden for labor
+(and land owners or consumers). However, one quarter of the surveyed economists believed that the
+capital share is below 20%, while another quarter believed the share to be 65% or higher.
+
+3 Kawano and Slemrod (2016) compare a large number of reforms of nationwide corporate taxes and
+
+show that tax rate changes are usually combined with changes in the tax base as well.
+
+1
+
+We then estimate diﬀerences-in-diﬀerences (DiD) models to quantify the magnitude
+
+of the wage response. Averaging over all ﬁrms liable to the LBT, we ﬁnd that workers
+bear approximately 51% of the total tax burden.4 Our ﬁndings are robust to the inclusion
+
+of a comprehensive set of ﬂexible non-parametric local controls at diﬀerent aggregation
+
+levels, suggesting that potentially relevant omitted variables such as local shocks are not
+
+driving the results. Finally, we estimate various heterogeneous ﬁrm and worker eﬀects
+
+and discuss the results with regard to diﬀerent (labor market) theories.
+
+We contribute to the literature in several ways. We provide new estimates of the cor-
+
+porate tax incidence on wages by exploiting the compelling German institutional setting.
+
+So far, credible empirical evidence on the incidence of corporate taxes has been scarce
+
+because suﬃcient and exogenous variation in corporate tax rates is lacking in previous
+
+studies. While cross-country research designs (such as Hassett and Mathur, 2006; Felix,
+
+2007; Desai, Foley and Hines, 2007; Clausing, 2013; Az´emar and Hubbard, 2015) need to
+
+defend their (implicit or explicit) common trend assumptions, single-country designs can
+
+establish a valid control group more easily. Most existing single-country studies (see, e.g.,
+
+Dwenger, Rattenhuber and Steiner, 2011; Arulampalam, Devereux and Maﬃni, 2012; Liu
+
+and Altshuler, 2013), however, have to rely on variation in the tax burden that is not
+
+solely driven by policy reforms but also by ﬁrms’ choices. For instance, diﬀerences in tax
+
+burdens across industries or across regions due to formula apportionment may depend
+
+directly on sales and investment activities, which may be endogenous to tax rates. The
+
+contribution of our paper is to exploit substantial within-country variation in statutory
+
+municipal tax rates. In a recent contribution, Su´arez Serrato and Zidar (2016) estimate
+
+the incidence of U.S. state-level corporate taxes using a spatial equilibrium framework
+exploiting regional variation in tax rates and apportionment rules.5 The German setting
+
+has the advantage to oﬀer substantially larger variation in terms of both number and size
+
+of tax rate changes.
+
+Furthermore, we go beyond a cleanly identiﬁed average eﬀect of corporate taxes on
+
+wages and analyze the economic factors driving these changes. We estimate heteroge-
+
+neous ﬁrm eﬀects and discuss the results in light of diﬀerent labor market theories and
+
+tax incidence mechanisms. The German labor market, with its variety of wage-setting in-
+
+stitutions, is particularly useful for this exercise. Exploiting the rich administrative linked
+
+employer-employee data, we ﬁnd that labor market institutions matter for the incidence
+
+4 We observe only very few nominal wage decreases in the data but rather smaller wage increases
+
+leading to lower future wage levels in the treated municipalities.
+
+5 Felix and Hines (2009) also use U.S. state tax variation but rely on cross-sectional data. Bauer,
+Kasten and Siemers (2012) also investigate the German LBT but without using linked employer-employee
+data. Moreover, as in an earlier version of this paper (Fuest, Peichl and Siegloch, 2011), they have to
+average tax rates at the county level (consisting of 28 municipalities on average) which leads to biased
+results.
+
+2
+
+of corporate taxes on wages. In particular and in line with Felix and Hines (2009) and
+
+Arulampalam, Devereux and Maﬃni (2012), collective bargaining agreements play a key
+
+role: If wages are set via collective bargaining at the ﬁrm level, wage responses are larger
+
+than in cases where wages are set at the sector level or without collective bargaining.
+
+Overall, our results suggest that the higher the rents to be shared between ﬁrms and
+
+workers, the higher the pass-through on wages. For instance, wages are more sensitive
+
+to tax changes in more proﬁtable ﬁrms. However, we ﬁnd that wage eﬀects are close
+
+to zero for very large ﬁrms, foreign-owned ﬁrms and for ﬁrms that operate in multiple
+
+jurisdictions. This can be explained by better proﬁt-shifting capabilities of these ﬁrms.
+
+In general, the interaction of labor market institutions, avoidance opportunities and tax
+
+rates has received little attention in the literature on the incidence of corporate taxes,
+
+both theoretically and empirically. Our heterogeneous ﬁrm eﬀects show that such inter-
+
+actions aﬀect wage responses. This has implications beyond the German setting. While
+
+labor market institutions diﬀer internationally, most countries exhibit a mixture of union-
+
+ized and non-unionized ﬁrms or sectors, so that the heterogeneous eﬀects we ﬁnd in our
+
+setting are likely to be relevant in many other countries as well. This is also true for the
+
+diﬀerences between ﬁrm types, in particular the ﬁnding that higher taxes do not seem to
+
+reduce wages in ﬁrms with proﬁt-shifting opportunities.
+
+Last, we add to the distributional debate about the burden of corporate taxation. By
+
+estimating the tax incidence for heterogeneous worker groups we show that higher taxes
+
+reduce wages most for the low-skilled, women, and young workers. Both the average
+
+pass-through on wages of 51% and the heterogeneous worker eﬀects are important for tax
+
+policy because they qualify the widespread view that the corporate income tax is highly
+
+progressive. In a back-of-the-envelope calculation based on Piketty and Saez (2007), we
+
+show that the estimated progressivity of the overall tax systems in both Germany and
+
+the U.S. would decrease by 25-40% if we account for our incidence estimates.
+
+Our analysis focuses on the corporate tax incidence on workers and therefore on
+
+the causal wage response to corporate tax changes. We do not investigate the impact
+
+on input factors, production levels, ﬁrm entry or exit. Studying these other margins is
+
+important to understand the overall eﬃciency costs of corporate taxes. Such an analysis
+
+would, however, be complicated by data (linkage) limitations and is beyond the scope of
+
+this paper.
+
+The rest of this paper is structured as follows. In Section 2, we describe the in-
+
+stitutional setting of business taxation in Germany and introduce the datasets used in
+
+the empirical analysis. The empirical model is presented in Section 3. In Section 4, we
+
+present our main estimates of the corporate tax incidence on wages. Section 5 provides ev-
+
+idence on heterogeneous worker and ﬁrm eﬀects which we discuss with respect to diﬀerent
+
+3
+
+theoretical models and mechanisms. Section 6 concludes.
+
+2
+
+Institutional background and data
+
+We estimate the incidence of corporate taxes on wages by exploiting the particular features
+
+of the German business tax system. We describe this system in Subsection 2.1, with a
+
+special emphasis on the local business tax (LBT, Gewerbesteuer ).
+
+In Subsection 2.2,
+
+we document the cross-sectional and time variation of the LBT. In Subsection 2.3, we
+
+introduce the administrative linked employer-employee data set, while Subsection 2.4
+
+contains the deﬁnition of our estimation sample and descriptive statistics.
+
+2.1 Business taxation in Germany
+
+There are three taxes on business proﬁts in Germany: the municipal LBT as well as
+
+the corporate income tax (CIT, K¨orperschaftsteuer ) and the personal income tax (PIT,
+
+Einkommensteuer ) which are both set by the federal government. In the following, we
+
+describe the LBT, while the CIT and PIT are described in Appendix B.1.
+
+The LBT applies to both corporate and non-corporate ﬁrms, but most ﬁrms in
+the agricultural and public sector are not liable.6 The tax base of the LBT is basically
+operating proﬁts. The cost of debt ﬁnancing is deductible, with some limitations7, and the
+
+cost of equity ﬁnancing is not. Taxable proﬁts of ﬁrms with establishments in more than
+
+one municipality are divided between municipalities according to formula apportionment
+
+based on the payroll share. Importantly, the local government can change the tax rate
+
+but neither the tax base nor the liability criteria. Both are set at the federal level.
+
+The tax rate, τLBT , consists of two components: the basic rate (Steuermesszahl ),
+tf ed
+LBT , which is set at the federal level, and a local scaling factor (Hebesatz ), θmun
+LBT , which
+is set at the municipal level. Each year, the municipal council votes on next year’s θmun
+LBT
+– even if it remains unchanged. The total LBT rate is given by τLBT = tf ed
+LBT . From
+1993 to 2007, tf ed
+LBT was 5.0% and decreased to 3.5% in 2008. For example, for the median
+θmun
+LBT of 3.9, τLBT was 19.5% before 2008. In the empirical analysis, we rely on variation
+in τLBT induced by changes in θmun
+
+LBT · θmun
+
+LBT (described next).
+
+6 To be precise, paragraphs 2 and 3 of the LBT law (Gewerbesteuergesetz ) regulate which ﬁrms are
+exempt from the LBT. The main criteria are interactions of legal form and industry. Moreover, certain
+professions such as accountants, lawyers, journalists or physicians are exempt.
+
+7 A special feature of the LBT is that 25% of interest costs are added to the tax base. Another
+
+peculiarity is that until 2007, the LBT itself was deductible as an expense.
+
+4
+
+2.2 Municipal data and tax rate variation
+
+We use administrative statistics provided by the Statistical Oﬃces of the 16 German fed-
+
+eral states (Statistische Landesaemter ) on the ﬁscal situation of all 11,441 municipalities.
+Most importantly, the dataset contains information on θmun
+LBT , but also on population, mu-
+nicipal spending and revenues. In addition, we observe county (Kreis) level GDP as well
+
+as unemployment rates compiled by the German federal employment agency.
+
+We combined and harmonized the annual state-speciﬁc datasets and constructed
+
+a panel on the universe of all municipalities from 1993 to 2012. In the administrative
+
+wage data (see Section 2.3), we can identify municipalities according to their boundaries
+
+as of 2010. Due to mergers, various municipal borders predominantly in East Germany
+
+changed prior to 2010. As we cannot assign the exact LBT rate for aﬀected jurisdictions,
+
+we exclude all municipalities that underwent a municipal merger between 1993 and 2010
+
+from our baseline sample. This concerns 47% of East German and 0.6% of West German
+municipalities.8 Overall, there are 10,001 non-merged municipalities in Germany.
+
+Figure 1 visualizes the substantial cross-sectional and time variation in LBT rates.
+
+The left panel of the ﬁgure shows the cross-sectional variation in τLBT for the year 2003,
+the mid-year of our sample.9 Appendix Table C.1 provides measures of the distribution of
+θmun
+LBT over time. The right panel of Figure 1 illustrates this time variation by showing the
+number of changes in θmun
+LBT per municipality during the period 1993–2012 (Appendix Table
+C.2 shows the corresponding numbers). Overall, 19% of the non-merged municipalities did
+not change θmun
+LBT during the 20-year period. More than half of the jurisdictions changed it
+once or twice, and only 7.5% experienced 4 or more changes. In total, we observe 17,999
+
+tax rate changes in 10,001 non-merged municipalities.
+
+8 East German municipalities were rather small after reuniﬁcation in 1990 and were subsequently
+merged (sometimes several times) to bigger jurisdictions. As a sensitivity check, we impute tax rates for
+merged municipalities by using weighted averages. See Appendix C for a more detailed discussion of the
+jurisdictional changes and Figure C.1 showing the tax rate variation including merged municipalities.
+
+9 The cross-sectional variation reveals some regional clustering: for instance, scaling factors are higher
+in the state of North Rhine Westphalia. This is partly due to particularities of that state’s ﬁscal equal-
+ization scheme. Empirically, we account for such diﬀerences by including “state × year’ ﬁxed eﬀects.
+
+5
+
+Figure 1: Cross-sectional and time variation in local tax rates
+
+Source: Statistical Oﬃces of the Laender. Maps: GeoBasis-DE / BKG 2015. Notes: This ﬁgure shows
+the cross-sectional and time variation in municipal scaling factors of the German LBT. The left graph
+plots the cross-sectional variation in LBT rates (in %) induced by diﬀerent scaling factors for 2003 (the
+mid-year of our sample). The right graph indicates the number of scaling factor changes per municipality
+between 1993 and 2012. White areas are municipalities that underwent a change of boundaries due to
+a merger; which are dropped from the baseline sample (see Appendix Figure C.1 for the same graphs
+including the dropped municipalities). Jurisdictional boundaries are as of December 31, 2010.
+
+2.3 Linked employer-employee data
+
+We combine the municipal data presented in the previous subsection with linked employer-
+
+employee data (LIAB) provided by the Institute of Employment Research (IAB). The
+
+LIAB combines administrative worker data with ﬁrm-level data (Alda, Bender and Gart-
+
+ner, 2005).
+
+The ﬁrm component of the LIAB is the IAB Establishment Panel (K¨olling, 2000),
+
+which is a 1% stratiﬁed random sample of all German establishments. The term estab-
+
+lishment refers to the fact that the observational unit is the individual plant, not the
+
+ﬁrm. The employer data covers establishments with at least one worker subject to social
+
+insurance contributions and contains about 15,000 establishments. We extract the fol-
+
+lowing variables: number of employees, industry, union status (sector- or ﬁrm-level wage
+bargaining or no collective agreement), self-rated proﬁtability10, ﬁrm structure (single vs.
+
+10 The survey question asks for a self-assessment of the proﬁt situation. We construct a three-point
+
+scale (high, medium, low) for proﬁtability with well-balanced support over the three categories.
+
+6
+
+multi-plant ﬁrms), and residence (domestic or foreign) of the owner.
+
+In addition to the establishment-level information, the dataset contains information
+
+on all employees in the sampled establishments. This includes between 1.6 and 2.0 million
+
+workers (corresponding to about 6% of all workers) per year. The employee data is taken
+
+from the administrative employment register of the German Federal Employment Agency
+
+(Bundesagentur f¨ur Arbeit) covering all employees paying social security contributions
+
+(Bender, Haas and Klose, 2000). While civil servants, self-employed individuals and
+
+students are not observed in the social security data, the dataset covers more than 80% of
+
+all employed persons in Germany. The employee information is recorded on June 30th of
+
+each year and includes information on wages, age, gender, occupation, employment type
+
+(full-time or part-time employment) and skill.
+
+Importantly, wages are right-censored at the ceiling for social security contributions
+
+(63,400 euros in 2008 for Western Germany). Up to 13% of the observations are censored
+
+(see Appendix Table C.4 for the distribution of censored workers across ﬁrms). Note
+
+that the censoring does not aﬀect our baseline results at the ﬁrm-level since we use the
+
+median wage in the establishment as our left-hand-side variable. At the individual level,
+
+we opt for a conservative approach and assign censored individuals the cap, leading to an
+
+underestimation of the wage eﬀect.
+
+2.4 Sample deﬁnition and descriptive statistics
+
+We select a ten-year panel of the administrative wage data spanning the years 1999 to
+
+2008 for our analysis. This choice yields a suﬃcient number of years before and after tax
+
+changes, which are necessary to set up the event study design with a window running
+
+from four years prior to ﬁve years after the reform, implying that we need tax data from
+
+1993 (the ﬁrst year available to us) until 2012 (see Section 3 for details on the empirical
+
+model). Furthermore, ending in 2008 avoids potential wage eﬀects of the Great Recession.
+
+As discussed in Section 2.2, we focus on the 10,001 municipalities that did not
+
+change jurisdictional borders between 1993 and 2012.
+
+In the LIAB data, we observe
+
+ﬁrms in 3,522 of those non-merged municipalities. This leaves us with 6,802 tax changes
+
+to identify the eﬀect of corporate taxes on wages. Figure 2 shows the distribution of
+
+these changes. The left panel shows all non-merged municipalities, while the panel on the
+
+right-hand side is based on the non-merged municipalities represented in our estimation
+
+sample. The ﬁgure shows that tax rate variation in both samples is very similar. In both
+
+samples, 93% of the tax changes are increases (see, also, Tables C.2 and C.3, for more
+details on the (similarity of the) tax rate variation).11 The mean increase of τLBT is 0.9
+
+11 Given the international trend towards lower corporate tax rates this seems surprising. Yet, both
+
+7
+
+percentage points (or 5%) and the 75th percentile of the tax increase distribution is equal
+
+to 1.1 percentage points (6%). We are therefore able to exploit many and fairly large tax
+reforms for identiﬁcation.12
+
+Figure 2: Distribution of local business tax changes
+
+Source: Statistical Oﬃces of the Laender. Notes: The histogram shows the distribution of changes
+in the LBT rate induced by changes of the municipal scaling factor from 1993 to 2012 in non-merged
+municipalities. In the left panel, the sample consists of all 17,999 tax rate changes in the 10,001 non-
+merged municipalities, while in the right panel it is constrained to the 6,802 tax changes in those 3,522
+non-merged municipalities represented in the linked employer-employee data (LIAB). In both histograms,
+we omit 0.1% of the observations with absolute changes larger than 5 percentage points for illustrative
+purposes. The average LBT rate in the full (LIAB) sample is 16.0% (18.7%).
+
+Our estimation sample consist of all ﬁrms in non-merged municipalities observed in
+
+the LIAB data and their corresponding workers. We exclude the few ﬁrms that changed
+
+their incorporation status during the observation period from the baseline since such a
+
+change simultaneously aﬀects the LBT tax base, the applicable business tax at the federal
+
+level (see Appendix B.1) and potentially other ﬁrm characteristics such as ﬁrm scale or
+
+collective bargaining agreements. We also focus on ﬁrms with more than three workers to
+
+be able to calculate meaningful and reliable wage measures at the ﬁrm level. We check the
+
+the federal CIT rate and the top PIT rate decreased in Germany over the period 1993–2012 so that the
+overall business tax rate declined as well (see Appendix B.1 for more details). Thus, a rise in the LBT
+rates in a municipality over time has to be seen as leading to a slower decrease in the overall tax burden
+for ﬁrms in these municipalities compared to ﬁrms in jurisdictions with constant local tax rates.
+
+12 For instance, Su´arez Serrato and Zidar (2016) exploit about 100 corporate tax changes of U.S. states
+with an average change (over 10 years) of 1% (and about 20% of changes larger than 2%). Part of their
+variation stems from tax base diﬀerences for example due to diﬀerent apportionment rules. Su´arez Serrato
+and Zidar (2017) document that tax base rules explain more of the U.S. state corporate tax variation
+than tax rates do.
+
+8
+
+avg increase: .9 ppp75 increase: 1.1 pp0.2.4.6.8Density-505Size of tax change (in pp)all municipalities (N=10,001)avg increase: .9 ppp75 increase: 1.1 pp0.2.4.6.8Density-505Size of tax change (in pp)LIAB municipalities (N=3,522)sensitivity of our results with respect to these sample selection choices below. Appendix
+
+Tables C.5 and C.6 present descriptive statistics of our establishment and worker level
+sample in non-merged municipalities.13 Table C.5 shows that the average median ﬁrm
+wage is 2,733 euros per month. The average θmun
+LBT is 3.85, and the average τLBT is 18.7%.
+The average (median) establishment has 265 (53) employees. 64% of the establishments
+
+are liable to the LBT. Our baseline estimates presented below will be based on the sample
+
+of liable ﬁrms, while we use the sample of non-liable ﬁrms for a sensitivity check.
+
+Moreover, the descriptive statistics reveal that 62% of the establishments are single-
+
+plant ﬁrms. More than half of the ﬁrms have sector-level bargaining agreements in place,
+
+while about a third have no collective bargaining agreement. The descriptive statistics
+
+of the individual worker sample (see Table C.6) place greater weight on larger ﬁrms with
+
+more employees. As larger ﬁrms pay higher wages, we see that the median wage in
+
+the individual level sample increases to 3,363 euros per month. In terms of individual
+
+characteristics, the table shows that the average worker in our sample is 41 years old.
+
+The share of males is 72%. 14% of the individuals are high-skilled, while about as many
+are low-skilled.14 81% of the individuals have never earned a wage higher than the social
+
+security contribution ceiling in our sample.
+
+3 Empirical strategy
+
+3.1 Research design and identiﬁcation
+
+We use diﬀerent empirical models to estimate the causal eﬀect of LBT changes on wages.
+
+Our baseline outcome variable is the log median real full-time wage in ﬁrm f , located in
+municipality m, which is part of commuting zone (CZ) c and state s, in year t, wp50
+f (m,c,s),t.15
+We choose the median as the baseline on the ﬁrm level to account for the top-coding of
+
+wages at the ceiling for social security contributions (see the discussion in Section 2.3).
+
+We start our analysis using an event study design, which formally reads:
+
+ln wp50
+
+f,t =
+
+γjDj
+
+m,t + µf + µm + ψs,t + εf,t.
+
+(1)
+
+5(cid:88)
+
+j=−4
+
+The independent variables of interest are a set of dummies Dj
+
+m,t indicating an event
+
+13 In the baseline, we only consider full-time workers. We also looked at the eﬀects on part-time wages
+
+but found no signiﬁcant diﬀerences (see below).
+
+14 We diﬀerentiate between three skill groups: high-skilled workers who have obtained a col-
+lege/university degree; medium-skilled who have completed either vocational training or the highest
+high school diploma (Abitur ); low-skilled who have completed neither of the two.
+
+15 In order to ease notation, we only include the index of the lowest geographical level in the following.
+
+9
+
+happening j periods away. Following Simon (2016), we estimate diﬀerent speciﬁcations,
+
+where events are either (i) any LBT increase, (ii) large tax increases, or (iii) tax decreases.
+
+Large increases are deﬁned as any tax hike greater than or equal to the 75th percentile
+
+of the tax increase distribution. There are two potential advantages of focusing on large
+
+increases. First, wages might not respond to small tax rate changes, e.g. due to adjustment
+
+costs. Second, we limit the number of events per ﬁrm and reduce the likelihood that other
+
+tax events happened within the event window (Simon, 2016). As an additional sensitivity
+
+check, we estimate the model on a restricted sample of tax changes that have no other
+
+changes in the event window. We set a baseline event window, running from 4 years prior
+to a tax change to 5 years after.16 In addition, we include ﬁrm, (µf ), and municipal, (µm),
+ﬁxed eﬀects.17 To account for regional shocks, our baseline speciﬁcation includes “state
+× year” ﬁxed eﬀects (ψs,t). The error term is denoted by εf,t.
+
+The event study speciﬁcation uses dummy variables to capture tax rate changes. In
+
+order to account for diﬀerent magnitudes of tax changes, we follow Su´arez Serrato and
+
+Zidar (2016) and estimate the following distributed lag model:
+
+ln wp50
+
+f,t − ln wp50
+
+f,t−1 =
+
+βj[ln(1 − τm,t−j) − ln(1 − τm,t−1−j)] + ψs,t + εf,t.
+
+(2)
+
+5(cid:88)
+
+j=−4
+
+We regress the annual change in log wages on the change in the log net-of-business-tax
+rate. The estimated coeﬃcients ˆβj measure the eﬀect of leads and lags of a tax rate
+change on the annual real wage growth. Time invariant factors are diﬀerenced out. We
+
+use the estimates of the model to calculate the cumulative eﬀect of a tax change.
+
+In both models (1) and (2), identiﬁcation is achieved within ﬁrms and municipalities
+
+over time, and we thus estimate variants of a DiD model with ﬁxed eﬀects. Identiﬁca-
+
+tion of causal eﬀects in such models requires common trends pre-treatment – that is, no
+
+statistically signiﬁcant wage responses preceding a tax reform. While we use speciﬁca-
+
+tions (1) and (2) mainly to establish ﬂat pre-trends, we use the following generalized DiD
+
+model to estimate the average eﬀect of a change in the LBT rate on wages relative to the
+
+pre-treatment period, which we then use to calculate the tax incidence:
+
+ln wp50
+
+f,t = δ ln(1 − τm,t) + µf + µm + ψs,t + εf,t,
+
+(3)
+
+16 We experimented with diﬀerent leads and lags, but results are robust to the event window deﬁnition.
+As commonly done, we bin up event dummies at the endpoints of the event window (i.e., j = −4 and
+j = 5). Hence, the dummy D5
+m,t accounts for all reforms occurring ﬁve or more years ago (McCrary,
+2007). This is necessary as we have a balanced panel in terms of years (1993-2012), but reform years
+diﬀer across municipalities, which yields an unbalanced panel in event time. Because of this, we do not
+plot the endpoint estimates in the event study graphs.
+
+17 Firm and municipal ﬁxed eﬀects are highly collinear as only very few ﬁrms move between munici-
+
+palities in the data.
+
+10
+
+where δ measures the percent change in wages induced by a one percent increase in the
+
+net-of-tax rate.
+
+Given ﬂat pre-trends, our research design would still be invalid if local shocks system-
+
+atically aﬀected tax rates and wages. We provide three further checks to assess whether
+
+such potential local shocks are likely to bias our estimates. First, we run event study de-
+
+signs as speciﬁed in equation (1) using GDP, unemployment, as well as municipal revenues
+
+and spending as outcome variables. Signiﬁcant pre-treatment trends for these outcomes
+
+would hint at local shocks and cast doubt on our identifying assumption. As will be shown
+
+in Section 4, there are no local shocks to the business cycle prior to a tax change. Second,
+
+we further test the sensitivity of the empirical models with respect to local shocks. While
+our baseline speciﬁcations include “state × year” ﬁxed eﬀects, which non-parametrically
+account for local shocks at the state level, we can control for shocks at diﬀerent levels of
+
+aggregation. We estimate a simpler model using only year ﬁxed eﬀects and a more com-
+plex model with “commuting zone × year” ﬁxed eﬀects (there are 258 CZ in Germany).
+If confounding local labor market shocks were important, estimates should vary across
+diﬀerent speciﬁcations since they should be picked up at least partly by “CZ × year” ﬁxed
+eﬀects. Third, besides these non-parametric speciﬁcations, we directly account for local
+
+time-varying confounders by additionally controlling for (lagged) GDP, unemployment,
+
+population, and municipal spending. As will be shown below, our results are robust to
+
+these tests for omitted confounders.
+
+Heterogeneous eﬀects.
+
+In order to test for heterogeneous eﬀects, we interact the
+
+local tax rates in the DiD models with ﬁrm or worker characteristics. Some of these
+
+characteristics such as wage setting institutions are potentially endogenous to the tax
+
+rate. For this reason, we ﬁx the characteristics to the values of 1997, i.e., two years
+
+prior to our ﬁrst panel observation. Heterogeneous ﬁrm eﬀects are estimated at the ﬁrm
+
+level, and worker eﬀects at the individual level. In terms of controls, the models include
+municipal, ﬁrm, “state × year” ﬁxed eﬀects (cf. model (3)) and additionally “ﬁrm/worker
+type × year” ﬁxed eﬀects. On the worker level, the outcome variable is the log individual
+wage, and we additionaly include worker ﬁxed eﬀects.
+
+Inference.
+
+In our baseline approach, we cluster standard errors at the municipal level,
+
+i.e. the level of our identifying variation. Given the well-known problems of biased stan-
+
+dard errors in diﬀerences-in-diﬀerences models (Bertrand, Duﬂo and Mullainathan, 2004),
+
+we conduct two tests to assess the sensitivity of our estimates: First, we aggregate the
+
+data to the municipal level, ﬁnding similar results. Second, we follow the suggestions by
+
+Angrist and Pischke (2009) to “pass the buck up one level” and cluster standard errors
+
+11
+
+on a higher level of aggregation, which in our case is the county or the commuting zone.
+
+As will be shown below, standard errors of estimates are hardly aﬀected.
+
+3.2 Measuring the tax incidence
+
+The DID estimate from equation (3) measures the elasticity of the wage rate with respect
+to the net-of-business tax rate, ˆδ = dw
+w . We can use this estimate to calculate the
+incidence of corporate taxes on wages as the share of the total business tax burden falling
+
+d(1−τ )
+
+(1−τ )
+
+on workers. We do so by relating the welfare change of workers induced by a marginal
+
+change in the net-of-tax rate to the sum of the welfare changes of workers and ﬁrm owners
+
+(see Su´arez Serrato and Zidar, 2016).
+
+Assume that worker i in municipality c maximizes utility U (C, L) over consumption
+C and leisure L, subject to the budget constraint C = w(1 − t)L, where t is the personal
+income tax rate and L the quantity of labor.18 The indirect utility function can be written
+as V ((1 − t)w) and the change in worker utility induced by a change in the wage rate
+is given by dV = L(1 − t)dw. A representative ﬁrm j faces a corporate tax rate τ and
+maximizes proﬁts, Π = (1− τ )[F (K, L)− wL]− (1− ατ )rK, over capital K and labor L.
+The tax base T is given by T = F (K, L) − wL − αrK, where α is the share of deductible
+capital costs. By the envelope theorem, the change in welfare for ﬁrm owners is given
+by dΠ = −dτ T − dwL(1 − τ ). The share of workers in the overall burden of a marginal
+dV +dΠ. Plugging in our estimate of ˆδ
+change in the corporate tax rate is given by I w = dV
+
+and rearranging, the share of workers in the tax burden can be written as:
+
+I w =
+
+wLˆδ(1 − t)
+
+(1 − τ )T − wLˆδ(t − τ )
+
+.
+
+(4)
+
+Equation (4) measures the incidence of corporate taxation on wages. As in Su´arez Serrato
+
+and Zidar (2016), the wage elasticity with respect to the net of tax rate is a suﬃcient
+statistic to calculate marginal welfare changes of both workers and ﬁrms.19
+
+It would
+
+also be interesting to look at responses in input factors or output. This would allow us to
+
+calculate the excess burden of the corporate income tax. However, given that the necessary
+
+information is either incomplete (output) or not available (capital) in our administrative
+
+wage data (see Section 2.3) and given that linking another dataset to our data is not
+
+possible, addressing these questions is beyond the scope of this paper.
+
+18 We omit indices for readability. For notational simplicity, we assume quasilinear preferences and
+
+normalize the marginal utility of income to unity.
+
+19 This approach relies on simplifying assumptions. In particular, all agents are price takers, that is,
+imperfect competition in input and output markets is not taken into account, and the measure abstracts
+from heterogeneity of ﬁrms and workers.
+
+12
+
+4 Baseline results
+
+We start our analysis of the wage eﬀects of the LBT by plotting the event study estimates
+
+from equation (1) in Panel A of Figure 3 for three diﬀerent speciﬁcations: any increase,
+
+large increases, and any decrease. Given the 0-1-event dummy deﬁnition, we exclude
+
+tax decreases (increases) from the sample used to estimate the eﬀect of tax increases
+(decreases).20 We ﬁnd a negative and signiﬁcant eﬀect of business tax increases on real
+
+wages. We hardly observe any decline in nominal wages in our data but ﬁnd slower wage
+
+growth in aﬀected ﬁrms over time, leading to lower levels in the future. Reassuringly,
+
+wage eﬀects become stronger when focusing on the 25% largest tax increases. Estimates
+
+for tax decreases (which are relatively rare - cf. Figure 2) are noisy and inconclusive. The
+
+point estimates hint at a slight yet insigniﬁcant pre-trend. In the sensitivity checks below,
+
+we show that municipalities with tax decreases are not driving our results.
+
+In order to exploit the diﬀerent sizes of tax changes, we plot the cumulative eﬀects
+
+of the distributed lag model (equation (2)) in Panel B of Figure 3. The higher the net-of-
+
+tax rate increase, the higher the wage growth. Hence, the results of the event study are
+
+conﬁrmed as a tax increase implies a decrease in the net-of-tax rate. Including four leads
+
+of the change in the log net-of-tax rate, we again ﬁnd a ﬂat pre-trend. The model plotted
+
+in Panel B is estimated on the same sample of municipalities to allow for comparisons to
+
+Panel A. Appendix Figure D.3 shows a similar pattern when including all municipalities.
+
+A remaining concern in our setting is that tax rates might respond to local business
+
+cycle shocks, which could also aﬀect wages. We can test directly for violations of the
+
+identifying assumptions by using local economic outcomes as left-hand-side variables in the
+
+event study design. Figure 4 shows the results for GDP and unemployment. Investigating
+
+the pre-treatment periods, we ﬁnd ﬂat pre-trends for our speciﬁcations using (large) tax
+increases.21 We ﬁnd similar patterns when looking at municipal revenues and spending
+
+(see Appendix Figure D.5). For tax decreases, we ﬁnd again pre-trends for GDP but not
+
+unemployment (see Appendix Figure D.4).
+
+20 We also estimated the model on other sample deﬁnitions: (i) no restriction, (ii) zero decreases and
+only one increase in event window, (iii) zero decreases and only one increase in the sample. Appendix
+Figure D.1 shows that those kinds of sample restrictions are not driving our results.
+
+21 This is in line with previous evidence for the German LBT (Foremny and Riedel, 2014) as well as
+for income tax reforms in Europe (Castanheira, Nicod`eme and Profeta, 2012), which suggests that tax
+changes are typically triggered by political factors, not shocks on economic variables.
+
+13
+
+Panel A: Event study model
+
+Panel B: Distributed lag model
+
+Figure 3: Baseline wage eﬀects
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: Panel A plots event study estimates (ˆγj, j ∈
+[−3, 4]) and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1). Dependent
+variable is the log median ﬁrm wage (observed on 30 June for each year). Event variables are dummies
+equal to one for a tax increase, a large tax increase (greater than or equal to the 75th percentile of the tax
+increase distribution), or a tax decrease (see legend). The estimation sample comprises all establishments
+liable to the LBT in non-merged municipalities. In speciﬁcations with tax increase (decrease) dummies,
+we exclude all municipalities that experienced a tax decrease (increase) during the observation period.
+Panel B plots distributed lag model estimates ( ˆβj, j ∈ [−4, 5]) and corresponding 95% conﬁdence bands
+of diﬀerent speciﬁcations of equation (2). Dependent variable is the yearly change in the log median ﬁrm
+wage. Depending on the speciﬁcation, main regressors are lags or leads and leads of the yearly change
+in the net-of-local-business-tax rate (see legend). Note that a tax increase in the event study design
+in Panel A implies a decrease in the net-of-tax rate in Panel B. The estimation sample comprises all
+establishments liable to the LBT in non-merged municipalities that did not experience a tax decrease
+during the observation period. In both panels, the tax change occurred for the treatment group on 1
+January in event year t = 0, as indicated by the vertical red line. All regression models include municipal,
+ﬁrm and “state × year” ﬁxed eﬀects. Standard errors are clustered at the municipal level. Estimates are
+reported in Tables D.10 and D.13.
+
+14
+
+-4-2024Log real wages(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreases-.50.511.52Real wage growth (cumulative effect)-5-4-3-2-1012345Lead/LagLagPanel A: GDP
+
+Panel B: Unemployment
+
+Figure 4: Event study graphs: local business cycle eﬀects
+
+Source: Statistical Oﬃces of the Laender. Notes: The graph plots event study estimates (ˆγj, j ∈ [−3, 4])
+and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1). Dependent variables
+are log county GDP per capita (Panel A) and unemployment rate (Panel B). Event variables are dummies
+equal to one for a tax increase or a large tax increase (greater than or equal to the 75th percentile of the
+tax increase distribution, see legend). The tax change occurred for the treatment group on 1 January in
+event year t = 0, as indicated by the vertical red line. All regression models include municipal and “state
+× year” ﬁxed eﬀects. The estimation sample comprises all non-merged municipalities from the LIAB
+data that did not experience a tax decrease during the observation period. Standard errors are clustered
+at the municipal level. For corresponding event study graphs including tax decrease speciﬁcations, see
+Figure D.4. Estimates are reported in Tables D.15 and D.16, respectively.
+
+15
+
+-1-.50.5Log GDP p.c.(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge Inc-2-10123Log unemployment rate(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncWhile we use the graphical representation of the event study and distributed lag
+
+speciﬁcations mainly to establish ﬂat pre-trends, we use the DiD model given by equation
+
+(3) to estimate the average eﬀect of a change in the LBT on wages. The baseline elasticity
+
+for liable ﬁrms is provided in column (1) of Table 1. A one percent decline in the net-of-
+
+tax rate (reﬂecting an increase in the tax rate) reduces wages by 0.39 percent. Applying
+
+formula (4), we can calculate the share of the tax burden borne by workers as a measure
+
+of tax incidence. We ﬁnd that 51% of the corporate tax burden is passed onto workers.
+
+Table 1: Diﬀerences-in-diﬀerences estimates: baseline wage eﬀects
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Log net-of-LBT rate
+
+Incidence (I w)
+
+State × year FE
+Year FE
+CZ × year FE
+Municipal controls t − 2
+Firm controls t − 2
+Worker shares
+Observations
+
+0.388
+(0.127)
+0.505
+(0.170)
+
+(cid:88)
+
+0.229
+(0.110)
+0.288
+(0.140)
+
+0.386
+(0.127)
+0.502
+(0.170)
+
+0.396
+(0.128)
+0.516
+(0.172)
+
+0.343
+(0.164)
+0.442
+(0.217)
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+
+0.399
+(0.118)
+0.520
+(0.159)
+
+(cid:88)
+
+(cid:88)
+
+44, 654
+
+44, 654
+
+44, 654
+
+44, 654
+
+25, 241
+
+44, 654
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates, ˆδ,
+of regression model (3) at the ﬁrm level. Coeﬃcients measure the wage elasticity with respect to the
+net-of-local-business-tax rate. The incidence eﬀect I w is measured according to formula (4) as the share
+of the total tax burden borne by workers. All regression models include municipal and ﬁrm ﬁxed eﬀects.
+Additional control variables and ﬁxed eﬀects (year, “state × year” or “commuting zone (CZ) × year”)
+vary depending on the speciﬁcation (as indicated at the bottom of the table). The estimation sample
+is restricted to all establishments liable to the LBT in non-merged municipalities. Standard errors are
+clustered at the municipal level. Corresponding standard errors for the incidence measure are obtained
+using the Delta method. Our preferred (baseline) speciﬁcation is shown in column (1).
+
+Sensitivity checks. We run a set of sensitivity checks testing whether our estimates
+
+are driven by modeling choices. We start with further tests of the robustness of our
+
+estimates with respect to unobserved local shocks. The baseline speciﬁcation includes
+“state × year” ﬁxed eﬀects to non-parametrically account for shocks at the state level.
+We estimate various speciﬁcations where we vary the set of control variables, replacing
+“state × year” with more aggregated year ﬁxed eﬀects or more disaggregated “commuting
+zone (CZ) × year” ﬁxed eﬀects. We also estimate speciﬁcations where we add local
+controls (GDP, unemployment, spending, population) and ﬁrm controls (employment) to
+
+16
+
+the model, capturing the local business cycle.22 If local shocks were important, estimates
+
+should vary across diﬀerent speciﬁcations. Yet, the results reported in Table 1 are robust.
+
+In particular, estimates are unchanged when moving from the baseline to the very rich
+
+speciﬁcation with CZ-year ﬁxed eﬀects.
+
+While our baseline results are estimated at the ﬁrm level, we also estimated the DiD
+
+model at the municipal and individual level (cf. Appendix Table D.1). While estimates
+
+are a bit noisier on the municipal level due to smaller numbers of observations, point
+
+estimates are reassuringly similar at all three levels of aggregation.
+
+In our baseline speciﬁcation, the dependent variable is the median wage in the ﬁrm.
+
+We chose this measure to account for the right-censoring of the data, which would bias our
+estimates toward zero.23 Nevertheless, we conduct several additional checks to assess the
+
+implications of this choice. First, we check that results are not driven by the composition
+
+of the workforce and hence by a change in the median worker. Speciﬁcation (6) in Table
+
+1 shows that estimates are hardly aﬀected when controlling for various worker shares
+
+(age, gender, skill, occupation and employment type) at the ﬁrm level. This is conﬁrmed
+
+by a second test where we estimate the DiD model using the diﬀerent worker shares as
+
+dependent variables. Results are shown in Appendix Table D.2 and reveal that the worker
+
+composition does not react to changes in the tax rate. Estimates are insigniﬁcant and/or
+
+very small. Third, and in line with the predicted bias toward zero, speciﬁcation (3) of
+
+Table D.3 shows that the wage eﬀect increases when controlling for the share of never-
+
+censored workers at the ﬁrm level. Similarly, we ﬁnd that wage eﬀects are stronger for
+
+ﬁrms with fewer censored workers. Last, we estimate the DiD model at the worker level
+
+and exclude all individuals who at least once earned a wage above the contribution ceiling
+
+during the observation period. Again, we ﬁnd that estimates increase when excluding
+censored workers (see column (7) of Table D.6 as well as Table D.8).24
+
+We also test the sensitivity with respect to sample restrictions (cf. Appendix Table
+
+D.5). Our DiD baseline sample comprises ﬁrms liable to the LBT in municipalities that
+
+22All control variables are in logs and lagged by two periods to reduce endogeneity issues; results are
+
+similar when using contemporaneous variables.
+
+23 If all workers earned above the contribution ceiling, we would not be able to observe any wage change
+in the data and hence estimate a zero wage eﬀect. However, in our data, the median worker in almost
+all ﬁrms earns a wage below the cap for social security contributions (see Table C.4). We also estimated
+model (3) using diﬀerent wage measures as left-hand side variables (cf. Appendix Table D.4). When using
+the mean wage on the ﬁrm level (instead of the median), we ﬁnd smaller yet still signiﬁcant wage eﬀects.
+Moreover, we ﬁnd that wages for the top 25% of workers across ﬁrms respond less. We discuss potential
+distributional implications in more detail below.
+
+24 Imputing censored wages would be another option used in the literature (Dustmann, Ludsteck and
+Schoenberg, 2009; Card, Heining and Kline, 2013). While this is sensible when analyzing wage inequality,
+it is problematic in our setting since the LBT rate would have to be included in both the selection
+equation and the second stage equation.
+
+17
+
+never merged with other municipalities and never experienced a tax decrease during the
+
+observation period. We ﬁnd smaller but still signiﬁcant eﬀects when adding tax-exempt
+
+ﬁrms to the baseline sample (see also the discussion in Section 5.2). Likewise, estimates
+
+decrease when adding the merged municipalities to the sample. In column (4) of Table
+
+D.5, we restrict the sample to municipalities without a tax decrease during the observation
+
+period to rule out that those decreases are driving the results. DiD estimates increase
+
+slightly, which suggests that potential endogeneity would bias our estimates downward.
+
+In columns (5) and (6), we add ﬁrms that switched their incorporation status and ﬁrms
+
+with less than four workers to the estimation sample (cf. Section 2.4). In both cases, the
+
+wage elasticity increases a bit. In 2008, the basic federal rate of the LBT was reduced
+
+from 5 to 3.5% and deductibility of the tax payment itself was abolished (see Section 2.1).
+
+Results are robust to dropping this year from the sample (column 7).
+
+Finally, we show that standard errors hardly change when clustering at higher ag-
+
+gregation levels than municipalities such as counties or commuting zones (see Appendix
+
+Table D.7). These ﬁndings are in line with the results that we get when estimating the
+
+model on diﬀerent levels of aggregation (Table D.1).
+
+5 Theoretical mechanisms and heterogeneous eﬀects
+
+We have established that workers on average bear half of the corporate tax burden. In
+
+this section, we analyze the economic forces driving this eﬀect. We start with a brief
+
+discussion of diﬀerent theoretical models of corporate tax incidence and the wage eﬀects
+
+they predict (see Appendix A for the full theoretical analysis). In a second step, we exploit
+
+the rich ﬁrm and worker level information in our data to investigate the predictions of
+
+the diﬀerent theories.
+
+5.1 Theoretical predictions
+
+In his seminal paper on corporate tax incidence, Harberger (1962) considers a closed
+
+economy with a corporate and a non-corporate sector.
+
+In his setting, the burden of
+
+corporate taxes is borne entirely by capital. The subsequent literature has emphasized
+
+the importance of international capital mobility.
+taxes reduce domestic investment, and wages decline.25
+
+In open economies, higher corporate
+
+In this paper, we study the eﬀects of a local business tax. In this setting labor is
+
+25 See, e.g., Bradford (1978); Kotlikoﬀ and Summers (1987). In these models, the share of the (source-
+based) corporate tax burden borne by domestic immobile factors increases as the size of the economy
+relative to the rest of the world decreases. See Auerbach (2006), Harberger (2006) and Gravelle (2013)
+for surveys of the literature.
+
+18
+
+arguably more mobile across jurisdictional borders than internationally. In the polar case
+
+of perfect worker mobility, local corporate tax changes should not aﬀect wages because
+they are determined in the national labor market.26 Yet, even at the local level, mobility
+
+is likely to be imperfect, and it may diﬀer across workers.
+
+Even with perfect worker mobility, Tiebout (1956)-type models would predict neg-
+
+ative wage responses to local corporate tax increases because migration decisions may
+
+depend on local public services. If the additional revenue raised is spent on local public
+
+services, workers may accept lower local wages. An implication of the Tiebout model is
+
+that wages would also decline in tax-exempt ﬁrms if the local tax rate increases.
+
+The models discussed so far are based on the assumption of competitive product and
+
+labor markets. If products (or consumers) are costlessly mobile across jurisdictions, ﬁrms
+
+cannot shift the burden onto their customers. This implies that other shifting channels
+
+must be more relevant. Given that we look at a local tax, we expect the pass-through
+
+on consumer prices to be of second order. Nevertheless, the incidence on wages might be
+
+higher for industries that produce more tradable goods.
+
+Relaxing the assumption of perfectly competitive labor markets, we show in Ap-
+
+pendix A that most models with labor market frictions also predict that higher corporate
+
+taxes reduce wages. The mechanisms at work are, however, diﬀerent, and the magnitude
+
+of the eﬀects depends on wage setting institutions. We will brieﬂy discuss the key insights
+
+from these models in the following paragraphs.
+
+In collective bargaining models, workers receive a share of the surplus generated by
+the ﬁrm. If higher corporate taxes reduce this surplus, workers bear part of the burden.27
+
+The level at which employers and unions bargain over wages is important. Local taxes
+
+can be expected to have the strongest impact on wages if bargaining is at the ﬁrm level,
+
+and the ﬁrm operates in one jurisdiction only. If wages are set at the sector level, the
+
+impact of a tax change in one jurisdiction will decrease with the number of jurisdictions
+
+where the sector is present. Similarly, if a ﬁrm operates plants in multiple jurisdictions,
+
+a tax change in one may not matter much – even if wages are set at the ﬁrm level.
+
+Fair wage models (Akerlof and Yellen, 1990; Amiti and Davis, 2010) also imply
+
+that higher corporate taxes reduce wages. In some variants, wages are directly related to
+
+after tax proﬁts. In other eﬃciency wage models, such as shirking models (Solow, 1979;
+
+Shapiro and Stiglitz, 1984), the optimal wage trades oﬀ higher output against the cost of
+
+26 Along the same lines, a standard assumption is that output prices are determined in national markets
+
+for goods and services so that the tax burden cannot be shifted onto consumers.
+
+27 The rent accruing to the workers declines, but how this is translated into changes in employment and
+wages is theoretically ambiguous. If employment is constant or increases, wages decline unambiguously.
+However, it is theoretically possible that employment declines by so much that wages increase although
+the overall rent accruing to workers falls.
+
+19
+
+higher wages.28 If wage setting in tax-exempt ﬁrms considers wages in taxable ﬁrms as
+
+a reference for fairness, the prediction would be that wages in tax-exempt ﬁrms are also
+
+aﬀected by tax changes.
+
+In monopsonistic labor markets where ﬁrms have wage setting power, higher cor-
+
+porate taxes also reduce wages. The magnitude of the eﬀect depends on the degree of
+
+market power. Firms with a lot of market power will pay lower wages. This implies little
+
+room for wages to fall in response to higher corporate taxes and consequently smaller
+
+wage eﬀects in ﬁrms dominating the local labor market.
+
+Another factor that may aﬀect the incidence of corporate taxes is income shifting to
+
+avoid taxes. Large, multi-plant and in particular foreign-owned ﬁrms can avoid taxes by
+
+shifting proﬁts across jurisdictions or even abroad. If this is relevant, we should observe
+
+smaller eﬀects of tax changes for these ﬁrms.
+
+Table 2: Wage eﬀects of a local corporate tax under diﬀerent theoretical models
+
+Model
+
+Main mechanism
+
+Predicted wage eﬀect
+
+Harberger-type model
+w/ open economy
+
+Mobility of production
+factors determines incidence
+
+Larger wage eﬀect for less mobile workers
+
+Tiebout sorting
+
+Tax revenues increase public
+good quality, which leads to
+compensating wage diﬀerential
+
+Wage eﬀects smaller conditional
+on future municipal spending
+Wages in non-liable ﬁrms should decline
+
+Additional pass-through
+opportunities
+
+If alternative pass-through
+opportunities exist, wage channel
+becomes less important
+
+Wage eﬀects higher in sectors
+that produce more tradable goods
+
+Collective bargaining
+
+Tax reduces rent to be split
+between ﬁrms and workers,
+reducing wages c.p. Overall eﬀect
+depends on employment response.
+Sector-level bargaining dilutes rent
+eﬀect of local tax if sector present
+in many jurisdictions
+
+Negative wage eﬀect for plants with CBA
+
+Smaller wage eﬀect for plants with
+sector-level CBA compared to plants
+with ﬁrm-level CBA
+
+Fair/eﬃciency wages
+
+Wage depends on proﬁts
+and/or reference wages
+
+Stronger wage decline in more proﬁtable ﬁrms
+Wages in non-liable ﬁrms should decline
+
+Monopsony power
+
+Firms with market power pay
+lower wages given little room
+for shifting of corporate tax burden
+
+Eﬀects smaller in ﬁrms with higher
+regional labor market power
+
+Income shifting
+
+Firms may shift proﬁts to
+diﬀerent jurisdiction or abroad
+
+Smaller eﬀect for multi-establishment ﬁrms
+Smaller eﬀect for foreign-owned ﬁrms
+
+Empirical
+ﬁndings
+(cid:88)
+
+–
+
+–
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+
+(cid:88)
+–
+
+(cid:88)
+
+(cid:88)
+(cid:88)
+
+28 Here, higher corporate taxes decrease investment and therefore reduce the marginal productivity
+gain from a wage increase. Consequently, wages fall when corporate taxes increase. A similar mechanism
+is at play in directed search models, where higher wages aﬀected productivity through better worker-ﬁrm
+matches (Acemoglu and Shimer, 1999).
+
+20
+
+In Table 2, we summarize the diﬀerent theoretical mechanisms and the predicted
+
+wage eﬀects. We can shed light on the relevance of these theories by testing their main
+
+assumptions and mechanisms using the rich linked employer-employee data. The last
+
+column of Table 2 provides a preview of our empirical ﬁndings.
+
+5.2 Empirical tests
+
+In this subsection, we investigate the empirical relevance of the diﬀerent theories discussed
+
+in the preceding section. As diﬀerent mechanisms may be at play simultaneously, it is
+diﬃcult (if not impossible) to single out speciﬁc channels empirically.29 Nonetheless, the
+
+rich linked employer-employee data allows us to zoom in on central implications of the
+
+diﬀerent theories and test their relevance, assuming that other characteristics are given.
+
+We test the diﬀerent theoretical predictions by interacting the net-of-tax rate from the
+
+DiD model (3) with pre-determined indicators for speciﬁc ﬁrm or worker types.
+
+Firm-level heterogeneity. The ﬁrm-level results are presented in Table 3. We start by
+testing whether tax-exempt ﬁrms also respond to tax rate changes.30 We ﬁnd a negative
+but insigniﬁcant point estimate for tax-exempt ﬁrms.31 This result suggests that Tiebout
+
+sorting mechanisms do not play a major role in the German context. In line with this
+
+assertion, we ﬁnd that estimates do not change when we include current and future
+
+municipal spending as additional control variables (see column (3) of Table D.3). Instead,
+
+the negative point estimate suggests that the higher tax burden on other ﬁrms might give
+
+tax-exempt ﬁrms a competitive advantage, boosting their wages.
+
+Next, we test for diﬀerences by industry. Empirically, we ﬁnd larger and signiﬁcant
+
+eﬀects only for manufacturing and construction sector ﬁrms. One explanation for the
+
+diﬀerence to trade and service sector ﬁrms could be that the latter are able to shift part
+
+of the burden to their customers as their products and services are on average less tradable
+
+than manufacturing goods.
+
+Next, we investigate the interaction of tax rates and diﬀerent wage-setting institu-
+
+29 For instance, a large multi-plant ﬁrm might be more proﬁtable than others. Consequently, it may
+be able to shift income abroad. At the same time, wages may be set via collective bargaining at the ﬁrm
+level. In order to isolate and test a speciﬁc theory, e.g., union bargaining, we would need exogenous (and
+exclusive) variation in the bargaining status of the ﬁrm.
+
+30 In the absence of any spill-overs, we could estimate a triple-diﬀerence model. The resulting treatment
+eﬀect, which would equal the diﬀerence between the two DiD estimates for liable and non-liable ﬁrms,
+would be larger.
+
+31 When considering all ﬁrms, column (2) of Table D.3 shows that the average worker in Germany
+bears 22% of the LBT instead of 51% in liable ﬁrms. This is conﬁrmed when estimating the event study
+design for liable vs. non-liable ﬁrms (see Appendix Figure D.2).
+
+21
+
+tions.32 We start by estimating heterogeneous eﬀects by collective bargaining agreement
+
+(CBA) of the ﬁrm. We group ﬁrms into three categories: ﬁrms with (i) a sector-level
+
+CBA; (ii) a ﬁrm-level CBA; (iii) no CBA. Overall, we ﬁnd larger wage eﬀects for ﬁrms
+
+under collective bargaining. In line with the theoretical predictions, we ﬁnd that the inci-
+
+dence eﬀects for ﬁrm-level bargaining are stronger than for sector-level CBA. We also ﬁnd
+
+wage responses for ﬁrms without CBA but they are smaller and not signiﬁcant. Another
+
+striking empirical pattern is that eﬀects are increasing in ﬁrm proﬁtability. This is in line
+
+with collective bargaining models, but also many other labor market theories, where rents
+
+are split between ﬁrms and workers, for instance fair wage models.
+
+When stratifying the results by ﬁrm size, we ﬁnd that the wage eﬀect is driven by
+
+small and medium sized ﬁrms, which account for more than 95% of all ﬁrms in Germany
+
+(and employ about two-thirds of the workers). Taking a closer look, we also ﬁnd signiﬁcant
+
+wage eﬀects for larger and proﬁtable manufacturing ﬁrms with up to 500 employees. These
+
+ﬁrms (the so-called “Mittelstand”) are often considered to be the backbone of the German
+
+economy, with many ’hidden champions’ (Simon, 2009). Our results suggest that workers
+
+in these companies are more aﬀected by local corporate tax changes than employees of
+
+very large ﬁrms. One reason for this ﬁnding may be local wage setting power of larger
+
+ﬁrms, as suggested by monoposony models. When interacting the LBT rate with a dummy
+
+indicating the size of the ﬁrm relative to the local labor market, we indeed ﬁnd that wages
+
+in relatively small ﬁrms react more strongly.
+
+Other potential explanations for the insigniﬁcant wage eﬀect in large ﬁrms include
+
+more tax avoidance opportunities or a presence in multiple jurisdictions. Table 3 shows
+
+signiﬁcant wage eﬀects only for single-plant ﬁrms, while establishments in multi-plant
+
+ﬁrms show no wage response. For those ﬁrms, tax changes in one jurisdiction might not
+
+be relevant enough to inﬂuence wages. Another explanation is that multi-plant ﬁrms can
+
+shift proﬁts to other jurisdictions (nationally and/or internationally). In line with this
+
+reasoning, we also ﬁnd a zero (to be precise, a negative but insigniﬁcant) wage eﬀect if a
+plant has a foreign owner.33 This supports the theoretical prediction that proﬁt-shifting
+
+opportunities dampen eﬀects of local tax changes on wages.
+
+32 See Appendix B.2 for a brief discussion of labor market institutions in Germany.
+33 Neither the eﬀect for single-plant ﬁrms nor for German-owned ﬁrms is driven by ﬁrm size.
+
+22
+
+Table 3: Diﬀerences-in-diﬀerences estimates: wage eﬀects by ﬁrm type
+
+Stratiﬁed by ...
+
+Liability
+
+Eﬀect of log net-of-LBT rate by ﬁrm type
+
+N
+
+Liable
+
+0.388
+(0.127)
+
+Non-liable
+−0.178
+(0.154)
+
+69, 249
+
+Sector
+
+Manuf.
+
+Const.
+
+Trade
+
+Serv.
+
+44, 654
+
+0.556
+(0.155)
+
+0.452
+(0.248)
+
+0.151
+(0.276)
+
+0.383
+(0.253)
+
+Collect.-Barg. agreem.
+
+Firm
+
+Sector
+
+None
+
+44, 654
+
+Proﬁtability
+
+Firm size (# workers)
+
+0.731
+(0.351)
+
+High
+
+0.565
+(0.214)
+
+Below 10
+1.241
+(0.520)
+
+Size rel. to local labor market Small
+(market power)
+
+0.652
+(0.310)
+
+0.418
+(0.127)
+
+Medium
+0.330
+(0.187)
+
+10 to 99
+0.311
+(0.157)
+
+Medium
+0.481
+(0.206)
+
+0.292
+(0.239)
+
+Low
+
+0.210
+(0.200)
+
+100 to 499 Above 500
+−0.212
+(0.210)
+
+0.064
+(0.159)
+
+Large
+
+0.456
+(0.169)
+
+Firm structure
+
+Ownership
+
+Single-plant Multi-plant
+
+0.426∗∗∗
+(0.160)
+
+0.223
+(0.162)
+
+German
+0.449∗∗∗
+(0.141)
+
+Foreign
+−0.293
+(0.298)
+
+43, 622
+
+44, 654
+
+44, 654
+
+44, 226
+
+44, 654
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ
+of regression model (3) for diﬀerent types of ﬁrms as indicated in the table. The heterogeneous eﬀects
+are estimated by interacting the LBT rate with dummy variables for diﬀerent ﬁrms types. Coeﬃcients
+measure the wage elasticity with respect to the net-of-local-business-tax rate. All speciﬁcations include
+ﬁrm and municipal ﬁxed eﬀects, as well as “state × year” and “ﬁrm type × year” ﬁxed eﬀects. The
+estimation sample comprises all establishments liable to the LBT in non-merged municipalities.
+
+23
+
+Worker heterogeneity. We test for worker heterogeneity by estimating model (3)
+
+at the individual level. Baseline estimates are similar to results at the ﬁrm level and
+robust to including various control sets (cf. Table D.6).34 Heterogeneous worker eﬀects
+
+are summarized in Table 4.
+
+In our ﬁrst test, we look at the eﬀect by skill. While eﬀects are similar for medium-
+
+and low-skilled workers, we ﬁnd no wage eﬀect for high-skilled individuals, even if we
+
+exclude workers aﬀected by censoring (see Appendix Table D.8). A potential reason
+
+for this diﬀerence is that high-skilled workers are usually more mobile than low-skilled
+
+individuals in Germany (Haas, 2000). An alternative explanation would be that the wage
+setting process diﬀers across skill levels.35
+
+Mobility eﬀects are also a potential explanation for our heterogeneous eﬀects by
+
+gender, where we ﬁnd larger wage eﬀects for women. In Germany, women are often the
+
+secondary earner in a couple. This reduces their mobility. We check that gender eﬀects are
+
+not driven by diﬀerences in industry, occupation, or diﬀerent work contracts in terms of
+
+working hours. In general, wage eﬀects do not change when including part-time workers;
+
+see column (8) of Table D.6. When diﬀerentiating by broad occupation group, we ﬁnd a
+
+stronger eﬀect for blue-collar workers, in line with the results by industry shown above.
+
+Similarly, when stratifying by age, the eﬀect is signiﬁcantly higher for younger workers.
+
+Our results for heterogeneous types of workers are particularly important for the
+
+distributional implications of corporate taxation. We conﬁrm other empirical studies
+
+that corporate taxes are not entirely borne by capital, ﬁnding that half of the burden
+
+is shifted onto wage earners.
+
+In addition, more vulnerable worker groups are aﬀected
+
+more strongly by changes in corporate tax rates. Both ﬁndings reduce the progressivity
+
+of business taxes and consequently of the overall tax system.
+
+We assess the implications of our ﬁndings for tax progressivity in a back-of-the-
+
+envelope calculation. Our starting point is the study on the progressivity of the US
+
+tax system by Piketty and Saez (2007). They calculate eﬀective average (personal plus
+
+corporate) income tax rates across the income distribution, and measure the progressivity
+
+of the tax system by comparing the average tax rate of the top 10% or top 1% to the
+
+average tax rate of the bottom 90%. Importantly, they assume that corporate taxes fall
+
+34 Unlike the analysis at the ﬁrm-level, for which we used the median wage as our left-hand-side
+variable, the observed wage at the individual level might be censored as discussed above. We address
+this issue by estimating each interaction model for the full sample of all workers and for a subsample
+excluding individuals who have been above the contribution ceiling at least once. As above, we ﬁnd that
+wage eﬀects increase when restricting the sample to never censored workers (see Appendix Table D.8).
+
+35 More bargaining power of skilled workers is not a suﬃcient explanation for the observation that
+wages of this group do not fall in response to higher taxes. Groups with high bargaining power can be
+expected to capture a high share of the ﬁrm’s proﬁt ex ante, so that they should suﬀer larger losses than
+groups with less bargaining power if corporate taxes increase.
+
+24
+
+Table 4: Diﬀerences-in-diﬀerences estimates: wage eﬀects by worker type
+
+Stratiﬁed by ... Eﬀect of log net-of-LBT rate by worker type
+
+N
+
+Skill
+
+Gender
+
+Low
+0.377
+(0.168)
+
+High
+
+0.013
+(0.120)
+
+Female
+0.530
+(0.129)
+
+Medium
+0.357
+(0.115)
+
+Male
+
+0.325
+(0.119)
+
+9, 295, 488
+
+9, 295, 488
+
+Occupation
+
+Blue-collar White-collar
+
+9, 295, 442
+
+Age
+
+0.363
+(0.132)
+
+Young
+
+0.507
+(0.127)
+
+0.250
+(0.104)
+
+Medium
+0.317
+(0.111)
+
+Old
+0.329
+(0.106)
+
+9, 295, 488
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3) with the log individual wage as dependent variables for diﬀerent worker types as
+indicated in the table. The heterogeneous eﬀects are estimated by interacting the LBT rate with dummy
+variables for diﬀerent ﬁrms types. Coeﬃcients measure the wage elasticity with respect to the net-of-local-
+business-tax rate. All speciﬁcations include worker, ﬁrm and municipal ﬁxed eﬀects, as well as “state ×
+year” and “worker type × year” ﬁxed eﬀects. The estimation sample comprises all establishments liable
+to the LBT in non-merged municipalities. Standard errors are clustered at the municipal level.
+
+entirely on capital income. We take their data and estimates as a benchmark for the US
+
+and use comparable data compiled by Bach, Beznoska and Steiner (2016) for Germany.
+
+We then compute two counterfactuals where 50% (or 100%) of corporate taxes fall on
+wages. Calculations are reported in Appendix Table D.9.36 The ratio between the total
+
+eﬀective average tax rate of the top 1% and the bottom 90% decreases substantially from
+
+2.9 to 2.2 if half of the corporate tax burden is borne by labor, or to 1.9 if the full corporate
+
+tax burden is shifted onto wages. We ﬁnd similar relative changes of progressivity for the
+
+German tax system (decreasing from 6.1 to 4.6 and 3.7). Overall, our calculations imply
+
+that the progressivity of the overall tax system in both countries would decline by between
+
+25 and 40% if we account for our incidence estimates.
+
+6 Conclusions
+
+In this paper, we exploit the compelling institutional setting of the German local business
+
+tax to analyze the incidence of corporate taxes on wages. We combine administrative
+
+information from 1993 to 2012 on the universe of municipalities with administrative linked
+
+employer-employee data to estimate the causal eﬀect of corporate taxation on wages.
+
+36 Further details are explained in the notes to Appendix Table D.9.
+
+25
+
+Averaging over ﬁrms liable to the LBT, workers bear about 51% of the total tax burden.
+
+This ﬁnding is similar to other studies analyzing the corporate tax incidence on wages
+
+(Arulampalam, Devereux and Maﬃni, 2012; Liu and Altshuler, 2013; Su´arez Serrato and
+
+Zidar, 2016).
+
+Our results thus conﬁrm the view that labor bears a substantial share of the cor-
+
+porate tax burden. Importantly, our results are obtained by exploiting variation at the
+
+local level. Corporate taxes levied at the subnational level exist in many countries, and
+
+our results are likely to be relevant in these countries as well. At the same time, it is
+
+important to discuss how our ﬁndings are related to settings with state-level or national
+
+corporate taxes. Two diﬀerences are important. On the one hand, labor is likely to be
+
+more mobile at the local level, which attenuates the incidence on wages. On the other
+
+hand, focusing on tax changes at the municipal level implies that changes of prices other
+
+than wages, in particular output prices and prices of intermediate goods, are probably
+
+much smaller than in the case of national corporate tax changes. This would imply that
+
+wage eﬀects of local tax changes are larger.
+
+Going beyond the average wage eﬀect, our analysis shows that incidence estimates
+
+diﬀer considerably across ﬁrms and individuals. First, we do not ﬁnd eﬀects for ﬁrms that
+
+are not liable to the LBT. Second, our ﬁndings suggest that labor market institutions play
+
+a key role for the incidence of corporate taxes on wages. If there is rent sharing in the
+
+labor market, due to collective bargaining, for instance, wage responses are larger. Third,
+
+wage eﬀects are close to zero for ﬁrms that operate in multiple jurisdictions, large ﬁrms
+
+and foreign-owned ﬁrms. This may be explained by proﬁt-shifting opportunities available
+
+to these ﬁrms. Clearly, the heterogeneous results are correlations and should be seen as a
+
+ﬁrst step toward understanding the underlying mechanisms of the incidence of corporate
+
+taxation on wages. For a more rigorous test of competing theories, additional exogenous
+
+variation in labor market institutions and other ﬁrm characteristics would be necessary.
+
+The heterogeneous worker analysis reveals stronger wage eﬀects for low-skilled work-
+
+ers, women and young workers. High-skilled employees are not aﬀected at all. This chal-
+
+lenges the widespread view that the corporate income tax is highly progressive. In fact,
+
+our estimates imply that the shifting of part of the corporate tax burden onto wages
+
+reduces the overall progressivity of the tax systems both in Germany and the U.S. by 25
+
+to 40% compared to a hypothetical situation where no shifting occurs.
+
+An important limitation of our analysis is that we focus on wage eﬀects and do not
+
+investigate the impact of tax changes on quantities of input factors, on output or on entry
+
+and exit of ﬁrms. These potential responses are important for the eﬃciency costs of taxes.
+
+Another limitation is that we do not consider the impact on land rents. These are issues
+
+for future research.
+
+26
+
+References
+
+Acemoglu, Daron, and Robert Shimer. 1999. “Eﬃcient Unemployment Insurance.”
+
+Journal of Political Economy, 107(5): 893–928.
+
+Akerlof, G.A. 1982. “Labor Contracts as Partial Gift Exchange.” Quarterly Journal of
+
+Economics, 97: 543–569.
+
+Akerlof, George A., and Janet L. Yellen. 1990. “The Fair Wage-Eﬀort Hypothesis
+
+and Unemployment.” The Quarterly Journal of Economics, 105(2): 255–283.
+
+Alda, Holger, Stefan Bender, and Hermann Gartner. 2005. “European Data
+
+Watch: The Linked Employer-Employee Dataset Created from the IAB Establishment
+
+Panel and the Process-Produced data of the IAB (LIAB).” Schmollers Jahrbuch: Jour-
+
+nal of Applied Social Science Studies, 125(2): 327–336.
+
+Amiti, Mary, and Donald R. Davis. 2010. “Trade, Firms, and Wages: Theory and
+
+Evidence.” Review of Economic Studies, 79(1): 1–36.
+
+Angrist, Joshua D., and J¨orn-Steﬀen Pischke. 2009. Mostly Harmless Econometrics.
+
+Princeton, New Jersey:Princeton University Press.
+
+Arulampalam, Wiji, Michael P. Devereux, and Giorgia Maﬃni. 2012. “The
+
+Direct Incidence of Corporate Income Tax on Wages.” European Economc Review,
+
+56(6): 1038–1054.
+
+Auerbach, Alan J. 2006. “Who Bears the Corporate Tax? A Review of What We
+
+Know.” Tax Policy and the Economy, Volume 20, 1–40. The MIT Press.
+
+Az´emar, C´eline, and R. Glenn Hubbard. 2015. “Country characteristics and the
+
+incidence of capital income taxation on wages: An empirical assessment.” Canadian
+
+Journal of Economics, 48(5): 1762–1802.
+
+Bach, Stefan, Martin Beznoska, and Viktor Steiner. 2016. “Who Bears the Tax
+
+Burden in Germany? Tax Structure Slightly Progressive.” DIW Economic Bulletin,
+
+51/52: 601–608.
+
+Ballentine, J. Gregory. 1978. “The Incidence of a Corporation Income Tax in a Growing
+
+Economy.” Journal of Political Economy, 86(5): 863–875.
+
+Barth, Erling, and Josef Zweim¨uller. 1995. “Relative Wages under Decentralized and
+
+Corporatist Bargaining Systems.” Scandinavian Journal of Economics, 97(3): 369–384.
+
+27
+
+Bauer, Thomas K., Tanja Kasten, and Lars Siemers. 2012. “Business Taxation
+
+and Wages: Evidence from Individual Panel Data.” IZA Discussion Paper No. 6717.
+
+Bender, Stefan, Anette Haas, and Christoph Klose. 2000. “The IAB Employment
+
+Subsample 1975-1995.” Schmollers Jahrbuch: Journal of Applied Social Science Studies,
+
+120(4): 649–662.
+
+Bertrand, Marianne, Esther Duﬂo, and Sendhil Mullainathan. 2004. “How Much
+
+Should we Trust Diﬀerence-in-Diﬀerence Estimates?” Quarterly Journal of Economics,
+
+119(1): 249–275.
+
+Boeri, Tito. 2014. “Two-Tier Bargaining.” IZA Discussion Paper No. 8358.
+
+Bradford, David F. 1978. “Factor prices may be constant but factor returns are not.”
+
+Economics Letters, 1(3): 199–203.
+
+Card, David, J¨org Heining, and Patrick Kline. 2013. “Workplace Heterogeneity
+
+and the Rise of West German Wage Inequality.” The Quarterly Journal of Economics,
+
+128(3): 967–1015.
+
+Castanheira, Micael, Ga¨etan Nicod`eme, and Paola Profeta. 2012. “On the po-
+
+litical economics of tax reforms: survey and empirical assessment.” International Tax
+
+and Public Finance, 19(4): 598–624.
+
+Clausing, Kimberly A. 2013. “Who pays the corporate tax in a global economy?”
+
+National Tax Journal, 66(1): 151–184.
+
+Desai, Mihir A., C. Fritz Foley, and James R. Hines. 2007. “Labor and Capital
+
+Shares of the Corporate Tax Burden: International Evidence.” mimeo, presented at the
+
+International Tax Policy Forum and Urban-Brookings Tax Policy Center conference on
+
+Who Pays the Corporate Tax in an Open Economy?, 18 December, 2007.
+
+Diamond, P. A., and J. Mirrlees. 1971a. “Optimal Taxation and Public Production
+
+I: Production Eﬃciency.” American Economic Review, 61(1): 8–27.
+
+Diamond, P. A., and J. Mirrlees. 1971b. “Optimal Taxation and Public Production
+
+II: Tax Rules.” American Economic Review, 61(3): 261–278.
+
+Du Caju, P., E. Gautier, D. Momferatou, and M. Ward-Warmedinger. 2008.
+
+“Institutional Features of Wage Bargaining in 23 European Countries, the US and
+
+Japan.” ECB Working Paper Series No 974.
+
+28
+
+Dustmann, Christian, Bernd Fitzenberger, Uta Sch¨onberg, and Alexandra
+
+Spitz-Oehner. 2014. “From Sick Man of Europe to Economic Superstar: Germany’s
+
+Resurgent Economy.” Journal of Economic Perspectives, 28(1): 167–188.
+
+Dustmann, Christian, Johannes Ludsteck, and Uta Schoenberg. 2009. “Revisit-
+
+ing the German Wage Structure.” Quarterly Journal of Economics, 124(2): 843–881.
+
+Dwenger, Nadja, Pia Rattenhuber, and Viktor Steiner. 2011. “Sharing the Bur-
+
+den: Empirical Evidence of Corporate Tax Incidence.” Preprint of the Max Planck
+
+Institute for Tax Law and Public Finance 2011-14.
+
+Egger, Hartmut, and Udo Kreickemeier. 2012. “Fairness, trade, and inequality.”
+
+Journal of International Economics, 86(2): 184–196.
+
+Ellguth, Peter, Hans-Dieter Gerner, and Jens Stegmaier. 2012. “Wage Bargaining
+
+in Germany – the Role of Works Councils and Opening Clauses.” IAB Discussion Paper
+
+05/2012.
+
+Feldstein, Martin. 1974. “Incidence of a Capital Income Tax in a Growing Economy
+
+with Variable Savings Rates.” The Review of Economic Studies, 41(4): 505–513.
+
+Felix, R. Alison. 2007. “Passing the Burden: Corporate Tax Incidence in Open
+
+Economies.” Federal Reserve Bank of Kansas City Regional Research Working Paper
+
+07-01.
+
+Felix, R. Alison, and James R. Hines. 2009. “Corporate Taxes and Union Wages in
+
+the United States.” NBER Working Paper No. 15263.
+
+Foremny, Dirk, and Nadine Riedel. 2014. “Business Taxes and the Electoral Cycle.”
+
+Journal of Public Economics, 115: 48–61.
+
+Fuchs, Victor R., Ala B. Krueger, and James M. Poterba. 1998. “Economists’
+
+Views about Parameters, Values, and Policies: Survey Results in Labor and Public
+
+Economics.” Journal of Economic Literature, 36(3): 1387–1425.
+
+Fuest, Clemens, Andreas Peichl, and Sebastian Siegloch. 2011. “Do Employ-
+
+ees Bear the Burden of Corporate Taxation? A Micro Level Approach Using Linked
+
+Employer-Employee Data.” Presented at the 67th Annual Congress of the International
+
+Institute of Public Finance in Ann Arbor.
+
+Fuest, Clemens, Andreas Peichl, and Sebastian Siegloch. 2013. “Do Higher Cor-
+
+porate Taxes Reduce Wages? Micro Evidence from Germany.” IZA Discussion Paper
+
+No. 7390.
+
+29
+
+Gravelle, Jennifer C. 2013. “Corporate Tax Incidence: Review of General Equilibirum
+
+Estimates and Analysis.” National Tax Journal, 66(1): 185–214.
+
+Haas, Anette. 2000. “Regionale Mobilit¨at gestiegen.” IAB Kurzbericht, 4.
+
+Harberger, Arnold C. 1962. “The Incidence of the Corporation Income Tax.” Journal
+
+of Political Economy, 70(3): 215–240.
+
+Harberger, Arnold C. 1995. “The ABCs of Corporate Tax Incidence: Insights into the
+
+Open-Economy Case.” In Tax Policy and Economic Growth: Proceedings of a Sym-
+
+posium sponsored by the American Council for Capital Formation. 51–73. Washing-
+
+ton:ACCF Center for Policy Research.
+
+Harberger, Arnold C. 2006. “Corporate Tax Incidence: Reﬂections on What Is Known,
+
+Unknonw and Unknowable.” In Fundamental Tax Reforms: Issues, Choices, and Impli-
+
+cations. , ed. John W. Diamond and George R. Zodrow, 283–308. Cambridge, MA:MIT
+
+Press.
+
+Hassett, Kevin A., and Aparna Mathur. 2006. “Taxes and Wages.” AEI Working
+
+Paper No. 128.
+
+Kawano, Laura, and Joel Slemrod. 2016. “How do corporate tax bases change when
+
+corporate tax rates change? With implications for the tax rate elasticity of corporate
+
+tax revenues.” International Tax and Public Finance, 23(3): 401–433.
+
+K¨olling, Arnd. 2000. “The IAB-Establishment Panel.” Schmollers Jahrbuch: Journal
+
+of Applied Social Science Studies, 120(2): 291–300.
+
+Kotlikoﬀ, Laurence J., and Lawrence H. Summers. 1987. “Tax Incidence.” In
+
+Handbook of Public Economics. Vol. 2, , ed. Alan J. Auerbach and Martin Feldstein,
+
+1043–1092. Amsterdam:Elsevier.
+
+Liu, Li, and Rosanne Altshuler. 2013. “Measuring the Burden of the Corporate
+
+Income Tax under Imperfect Competition.” National Tax Journal, 66(1): 215–237.
+
+McCrary, Justin. 2007. “The Eﬀect of Court-Ordered Hiring Quotas on the Composi-
+
+tion and Quality of Police.” The Amercian Economic Review, 97(1): 318–353.
+
+McDonald, Ian M., and Robert E. Solow. 1981. “Wage Bargaining and Employ-
+
+ment.” The America Economic Review, 71(5): 896–908.
+
+NCSL. 2009. “State, Federal and Local Taxes.” http: // www. ncsl. org/ documents/
+
+fiscal/ statefederalandlocaltaxes. pdf .
+
+30
+
+OECD. 2015. “Tax on corporate proﬁts (indicator).” doi: 10.1787/d30cc412-en.
+
+Oswald, Andrew J. 1993. “Eﬃcient contracts are on the labour demand curve: Theory
+
+and facts.” Labour Economics, 1(1): 85–113.
+
+Piketty, Thomas, and Emmanuel Saez. 2007. “How Progressive is the U.S. Fed-
+
+eral Tax System? A Historical and International Perspective.” Journal of Economic
+
+Perspectives, 21(1): 3–24.
+
+Ratti, Ronald A., and Parthasarathi Shome. 1977. “On a General Equilibrium
+
+Model of the Incidence of the Corporation Tax under Uncertainty.” Journal of Public
+
+Economics, 8(2): 233–238.
+
+Rogerson, Richard, Robert Shimer, and Randall Wright. 2005. “Search-Theoretic
+
+Models of the Labor Market: A Survey.” Journal of Economic Literature, 43(4): 959–
+
+988.
+
+Shapiro, C., and J. Stiglitz. 1984. “Equilibrium Unemployment as a Worker Discipline
+
+Device.” The American Economic Review, 74(3): 433–444.
+
+Sheﬀrin, Steven M. 1994. “Tax Progressivity and Income Inequality.” , ed. Joel Slem-
+
+rod, Chapter Perceptions of Fairness in the Crucible of Tax Policy, 309–334. Cambridge
+
+University Press.
+
+Shoven, John B. 1976. “The Incidence and Eﬃciency Eﬀects of Taxes on Income from
+
+Capital.” Journal of Political Economy, 84(6): 1261–1283.
+
+Simon, David. 2016. “Does Early Life Exposure to Cigarette Smoke Permanently Harm
+
+Childhood Welfare? Evidence from Cigarette Tax.” American Economic Journal: Ap-
+
+plied Economics, 8(4): 128–159.
+
+Simon, Hermann. 2009. Hidden Champions of the Twenty-First Century: The Success
+
+Strategies of Unknown World Market Leaders. Berlin:Springer.
+
+Solow, Robert M. 1979. “Another possible source of wage stickiness.” Journal of
+
+Macroeconomics, 1(1): 79–82.
+
+Su´arez Serrato, Juan Carlos, and Owen M. Zidar. 2017. “The Structure of State
+
+Corporate Taxation and its Impact on State Tax Revenues and Economic Activity.”
+
+National Bureau of Economic Research Working Paper 23653.
+
+Su´arez Serrato, Juan Carlos, and Owen Zidar. 2016. “Who Beneﬁts from State
+
+Corporate Tax Cuts? A Local Labor Markets Approach with Heterogeneous Firms.”
+
+The Amercian Economic Review, 106(9): 2582–2624.
+
+31
+
+Tiebout, C. M. 1956. “A Pure Theory of Local Expenditure.” Journal of Political
+
+Economy, 64: 416–424.
+
+32
+
+Appendices for online publication only
+
+A The theory of corporate tax incidence
+
+The theoretical literature has produced various models of corporate tax incidence. These
+
+models lead to diﬀerent predictions, depending on the assumptions made about factor
+
+and output markets, wage-setting institutions, the structure of the tax system and be-
+
+havioral reactions to tax changes. In the seminal paper by Harberger (1962), the economy
+
+is closed, labor markets are competitive and capital is in ﬁxed supply. At least for plau-
+sible parameter values, the corporate tax burden is almost fully borne by capital.37 The
+
+subsequent literature has emphasized the importance of international capital mobility in
+
+open economies (Diamond and Mirrlees, 1971a,b; Bradford, 1978; Kotlikoﬀ and Summers,
+1987; Harberger, 1995).38 In these models, the share of the (source-based) corporate tax
+
+burden bore by domestic immobile factors increases as the size of the economy relative to
+
+the rest of the world decreases. In the case of a small open economy that faces a perfectly
+
+elastic supply of capital, the burden of the corporate tax is fully borne by factors other
+
+than capital. If proﬁts of a ﬁrm are the result of location speciﬁc rents, the tax will partly
+
+fall on these rents. By contrast, if rents are ﬁrm speciﬁc and ﬁrms are mobile, the tax
+burden will be fully shifted to owners of immobile factors like land or labor.39
+
+However, complete immobility of labor is a strong assumption, in particular when
+
+considering corporate taxes at the sub-national level. Another restrictive assumption
+
+of standard models is that labor markets are competitive. Relatively little attention
+
+has been paid to the role of wage-setting institutions and labor market frictions in the
+
+context of corporate taxation, two exceptions the studies by Felix and Hines (2009) and
+
+Arulampalam, Devereux and Maﬃni (2012).
+
+In this Appendix, we discuss the implications of various wage-setting models for the
+
+impact of corporate tax changes on wages. As will be explained further below, the model
+
+will be varied slightly to incorporate diﬀerent assumptions about wage setting and two
+
+aspects of the tax system relating to formula apportionment and income shifting.
+
+Consider an economy which consists of n jurisdictions. There is a large number of
+
+37 Feldstein (1974) and Ballentine (1978) study tax incidence in models with endogenous savings and
+
+ﬁnd that part of the tax burden is shifted to labor.
+
+38 Other important extensions of the canonical Harberger model focus on the sectoral composition
+(Shoven, 1976), savings behavior (Feldstein, 1974; Bradford, 1978) and the presence of uncertainty in the
+economy (Ratti and Shome, 1977).
+
+39 From a global perspective, a tax increase in one jurisdiction reduces the income of immobile factors
+in that jurisdiction but increases the income of immobile factors and reduces capital income in the rest
+of the world.
+In principle, the burden of corporate taxes may also fall on suppliers or on customers,
+provided input and output prices are not pinned down by international markets.
+
+33
+
+ﬁrms in the economy. To ease notation we normalize the number of ﬁrms per jurisdiction
+
+to unity. Firms use the following factors of production: capital (K) and labor of two
+skill levels. Labor of skill type k, k = h, l, is denoted by Lk.40 We will consider diﬀerent
+
+production technologies. In the base version of the model we consider a concave produc-
+tion function F (K, Lh, Ll), which is assumed to exhibit declining returns to scale. One
+
+interpretation is that there is an implicit fourth factor, which may be interpreted as a
+
+location-speciﬁc rent. While capital and both types of labor are mobile across municipal
+
+borders, ﬁrms are immobile, due to the location-speciﬁc rent.
+
+The after-tax proﬁt of ﬁrm i located in jurisdiction j , j = 1...n, is given by
+
+Pij = piFi(Ki, Lh
+
+i , Ll
+
+k wk
+
+i Lk
+
+i (1 − τj) − (1 − ατj)riKi
+
+(5)
+
+i)(1 − τj) −(cid:80)
+
+where pi is the output price, ri is the non-tax cost of capital and wk
+i
+of skill type k. In some variants of the model, labor markets may not clear. In these
+
+is the wage labor
+
+cases, we assume that unemployed workers of skill type k receive unemployment beneﬁts
+denoted by wk. The tax rate on corporate proﬁts in jurisdiction j is denoted by τj.
+
+The variable α, with 0 ≤ α ≤ 1, is a tax base parameter representing the share
+of the capital cost which can be deducted from the tax base. This parameter is the
+
+same in all jurisdictions. A cash-ﬂow tax would imply α = 1, that is full deductibility
+
+of all costs. Most existing corporate tax systems are more restrictive, however. Costs
+
+of debt ﬁnancing are usually deductible while costs of equity ﬁnancing are not and loss
+
+oﬀset is typically restricted. These properties of the corporate tax base are important for
+
+theoretical predictions about the incidence of the tax, as will be shown below.
+
+In the following we drop the index j for ﬁrm variables to ease notation. Total
+
+diﬀerentiation of the proﬁt equation and using the standard ﬁrst order conditions for
+
+proﬁt-maximization yields
+
+dPi = − dτjTi + dpiFi(Ki, Lh
+
+(6)
+i − αriKi is the proﬁt tax base. Equation (6) shows
+where Ti = piFi(Ki, Lh
+that a tax increase may lead to lower proﬁts for ﬁrm owners, higher output prices charged
+
+i , Ll
+
+k wk
+
+i Lk
+
+k dwk
+
+i Lk
+
+i , Ll
+
+i (1 − τj) − dri(1 − ατj)Ki
+
+i)−(cid:80)
+
+to customers, a decline in wages received by workers, lower income for capital owners or
+
+a combination of these eﬀects. It is also possible that some of these groups lose while
+
+others gain.
+
+The distribution of the tax burden depends on how the model is closed, that is,
+
+40 To keep the notation simple we abstract from other input factors like land, energy or other interme-
+diate goods. Clearly, the prices of these goods could also be aﬀected by corporate tax changes and the
+suppliers might bear part of the corporate tax burden. Corporate tax changes could also be capitalized
+in house prices.
+
+34
+
+i)(1 − τj) −(cid:80)
+
+on the assumed overall structure of the economy, in particular the supply and demand
+
+elasticities in factor markets and the wage-setting institutions. In the following, we discuss
+
+the corporate tax incidence on wages under diﬀerent assumptions about the labor market
+
+regime. As a benchmark, we start with the case of competitive labor markets. We then
+
+turn to models with wage bargaining, fair wage models, models where wages aﬀect worker
+
+productivity and monopsonistic labor markets. In all of the following cases, we assume
+
+that output markets are perfectly competitive and normalize the price p of the output
+
+good to equal 1.
+
+A.1 Competitive labor markets
+
+Assume that input markets are perfectly competitive, so that factor prices will adjust to
+
+equate demand and supply. Factor demand functions are given by the ﬁrm’s ﬁrst order
+
+conditions
+
+and
+
+∂Fi(Ki, Lh
+∂Ki
+
+i , Ll
+i)
+
+=
+
+(1 − ατi)
+(1 − τi)
+
+r
+
+i , Ll
+i)
+
+∂Fi(Ki, Lh
+∂Lk
+i
+
+= wk
+i ,
+
+k = h, l.
+
+(7)
+
+(8)
+
+Equations (7) and (8) implicitly deﬁne the factor demand functions
+
+K D
+
+i (wh
+
+i , wl
+
+i, Ri) and LkD
+
+i
+
+(wh
+
+i , wl
+
+i, Ri) k = h, l
+
+where Ri = r 1−ατi
+1−τi
+to be independent of capital demand in jurisdiction j, wage rates are determined by
+
+is the tax inclusive cost of capital. While the interest rate r is assumed
+
+equating labor demand and labor supply. Labor supply is derived from worker utility
+maximization. Denote the utility of a worker of skill type k by U k
+worker’s consumption and her budget constraint is given by C k
+
+is the
+i where t
+is the personal income tax rate. Standard utility maximization leads to a labor supply
+function which can be expressed as LkS
+i (wk), k = h, l.41. Standard comparative static
+analysis of the labor market equilibrium conditions LkD
+i, Ri) = LkS(wk), k = h, l
+yields expressions for the impact of a tax rate change on the skill-speciﬁc wage. Consider
+
+i (C k
+i , Lk
+i ). C k
+i
+i (1 − t)Lk
+
+i = wk
+
+i , wl
+
+(wh
+
+i
+
+41 For notational convenience we express the labor supply function as a function of the wage rate before
+
+income taxation
+
+35
+
+for example the eﬀect on wages of skill type h:
+1 − α
+
+dwh
+i
+dτi
+
+=
+
+i LlD
+LhD
+i
+ϕ
+i LlD
+− LhD
+i
+ϕ
+
+εlR
+
+(1 − α)(1 − ατi)
+
+εhh
+
+1 − α
+
+εhR
+
+(1 − α)(1 − ατi)
+
+(εll − µl)
+
+(cid:19)
+
+1
+wh
+i
+
+(9)
+
+(cid:19)(cid:18)
+(cid:19)(cid:18)
+
+(cid:19)
+
+1
+wh
+i
+
+(cid:18)
+(cid:18)
+
+where ϕ is a positive parameter (the determinant of the matrix of coeﬃcients). Parameter
+
+εst is the labor demand elasticity of skill group s with respect to wage changes of skill type
+t and is deﬁned as εst = ∂LsD
+i,Ri), s, t = h, l. The labor supply elasticity
+of skill type k is given by µk = ∂LkS
+i
+∂wk
+
+wt
+i
+(wh
+i ,wl
+wk
+(wk), k = h, l.
+
+(wh
+i ,wl
+∂wt
+i
+
+i
+(wk)
+
+i,Ri)
+
+LsD
+
+LkS
+
+i
+
+i
+
+Equation (9) shows that, in general, the impact of a tax change on the wage depends
+
+on demand and supply elasticities in the labor market. However, if the corporate tax is
+
+a cash-ﬂow tax (α = 1), a change in the corporate tax rate will be neutral for factor
+
+demand and, hence, will leave wages unchanged. As a result, the corporate tax is a lump
+
+sum tax and the tax burden falls entirely on proﬁts:
+
+= −[piFi(Ki, L1
+
+i , L2
+
+∂Pi
+∂τi
+
+wk
+
+i Lk
+
+i − αrKi] < 0, ∂wk
+
+i
+∂τi
+
+= 0 k = 1, 2.
+
+i ) − 2(cid:80)
+
+k=1
+
+This may be stated as
+
+Result 1: Competitive labor markets: The impact of a tax change on wages depends
+
+on the demand and supply elasticities in the labor market.
+
+If all costs are perfectly
+
+deductible, the burden of the corporate income tax is fully borne by ﬁrm owners. Then a
+
+tax rate change does not aﬀect the wage rate.
+
+Interestingly, the cash-ﬂow tax result also carries over to various (but not all) stan-
+
+dard models of imperfect labor markets, as we will show below. Most real world corporate
+
+tax systems deviate from the polar case of a proﬁt tax with perfect cost deductibility,
+
+though. Accordingly, models of tax incidence in the literature typically consider settings
+
+where either capital or labor costs are less than fully deductible.
+
+A.2 Wage bargaining
+
+Various labor market theories assume that wages are set via bargaining between ﬁrms
+
+and their employees. Bargaining models imply that ﬁrm owners and employees share a
+
+surplus generated by the ﬁrm. If corporate taxes reduce this surplus, it is straightforward
+
+to expect that employees share part of the loss through lower wages. The magnitude
+
+of these wage eﬀects depends on the level where bargaining takes place. We consider
+
+individual and collective (ﬁrm and sector-level) bargaining.
+
+36
+
+A.2.1 Individual wage bargaining
+
+Assume that the wage is set via bargaining between the ﬁrm and the employee. The
+
+most widely used labor market model where this happens is the job search model, where
+
+ﬁrms and individual employees bargain over a matching rent (see Rogerson, Shimer and
+
+Wright, 2005, for a survey).
+
+Let the output a worker of type k in ﬁrm i be given by Qk
+
+i ). The additional
+i . The variable
+is the capital the ﬁrm invests to equip the worker. The outcome of the bargaining
+
+i (1 − τi) − (1 − ατi)rK k
+
+proﬁt the ﬁrm earns is P IB
+K k
+i
+
+i )(1 − τi) − wk
+
+i = Qk
+
+i (K k
+
+i (K k
+
+process is given by
+
+where
+
+wk∗
+i = arg max
+wk
+i
+
+Ωi
+
+Ωi = βk
+
+i ln(wk
+
+i − wk) + (1 − βk
+
+i ) ln P IB
+
+i
+
+.
+
+The variable βk
+
+i ∈ (0, 1) stands for the relative bargaining power of the employee. The
+
+ﬁrst order conditions of the bargaining problem yield
+
+i = (1 − βk
+wk∗
+
+i )wk + βk
+i
+
+Qk
+
+i (K k
+
+i )(1 − τi) − (1 − ατi)rK k
+
+i
+
+(1 − τi)
+
+.
+
+(10)
+
+The eﬀect of a change in the corporate tax rate on the wage is
+
+∂wk∗
+i
+∂τi
+
+= −βk
+
+i
+
+(1 − α)rK k
+(1 − τi)2 ≤ 0.
+
+i
+
+(11)
+
+A higher corporate tax reduces the wage unless capital costs are fully deductible. Since
+
+the employee’s share of the surplus generated by the ﬁrm is increasing in the employee’s
+
+bargaining power, it is plausible that she also bears a larger loss if her bargaining power
+
+is higher. This may be stated as
+
+Result 2: Individual wage bargaining: If capital costs are less than fully deductible,
+
+an increase in the local corporate tax rate reduces the wage.
+
+This wage change increases with the bargaining power of the employee.
+
+If the
+
+employee receives a large part of the surplus generated by the ﬁrm, she also bears a large
+
+loss if the surplus declines due to taxation.
+
+37
+
+A.2.2 Collective bargaining
+
+Assume that trade union represent workers. We consider two cases: The ﬁrst case is ﬁrm-
+
+level bargaining, where ﬁrm-level unions bargain with individual ﬁrms. The second case
+
+is sector-level bargaining, where sector-level unions bargain with sector-level employer
+
+organizations.
+
+Firm-level bargaining. Denote the wage for a worker of skill type k employed by a
+ﬁrm located in jurisdiction i by wk
+i is the wage premium generated by
+bargaining at the ﬁrm-level. The bargaining model we use for the ﬁrm-level is a standard
+
+i , where sk
+
+i = wk
+
+i +sk
+
+eﬃcient bargaining model (McDonald and Solow, 1981), where unions and ﬁrms bargain
+over the wage premium, sk
+i . Each skill type is represented by one
+trade union and each ﬁrm negotiates with the two unions simultaneously (Barth and
+
+i , and employment Lk
+
+Zweim¨uller, 1995). The objective function of the trade union representing the workers of
+
+skill type k in ﬁrm i is given by
+
+Z k
+
+i = Lk
+
+i (wk
+
+i − wk) = Lk
+i sk
+i .
+
+In case of disagreement, the rent of the union Z k
+
+i and the ﬁrm’s proﬁt P F B
+
+i
+
+are equal
+
+to zero. After wages and employment levels are determined, ﬁrms set Ki to maximize
+proﬁts:
+
+∂F (Ki, Lh
+∂Ki
+
+i , Ll
+i)
+
+= Ri
+
+(12)
+
+where Ri denotes the cost of capital:
+
+Ri = r
+
+(1 − ατi)
+(1 − τi)
+
+.
+
+The outcome of the bargaining process is given by
+
+sk∗
+i , Lk∗
+
+i = arg max
+sk
+i ,Lk
+i
+
+Ωk
+i
+
+where
+
+Ωk
+
+i = βk
+
+i ln Z k
+
+i + (1 − βk
+
+i ) ln P F B
+
+i
+
+.
+
+The variable βk
+
+i ∈ (0, 1) stands for relative bargaining power of the skill type k union in
+
+ﬁrm i. The ﬁrst order conditions of the bargaining problem yield
+
+38
+
+sk∗
+i =
+
+(1 − βj
+(1 − βk
+
+i )βk
+i
+i βj
+i )
+
+i
+
+ΠF B
+i (1 − τi)
+Lk
+
+k, j = h, l,
+
+k (cid:54)= j
+
+(13)
+
+where
+
+i)(1 − τi) −(cid:80)
+
+ΠF B
+
+i = F (Ki, Lh
+
+i , Ll
+
+k wkLk
+
+i (1 − τi) − (1 − ατi)rKi.
+
+For employment we ﬁnd
+
+i , Ll
+i)
+
+∂F (Ki, Lh
+∂Lk
+i
+
+= wk
+
+k = h, l.
+
+(14)
+
+The wage premium sk∗
+ﬁrm. The size of this share is increasing in the relative bargaining power of the skill group
+
+is equal to a share of the surplus per employee generated by the
+
+i
+
+and decreasing in the bargaining power of the other group of employees. Employment
+
+is set so that the marginal productivity of labor is equal to the skill-speciﬁc reservation
+
+wage. Diﬀerentiating (13) yields
+
+dsk∗
+i
+dτi
+
+i + sk∗
+Lk
+
+i
+
+dLk
+i
+dτi
+
+= −β0 ((1 − α)rKi) ≤ 0
+
+(15)
+
+where
+
+β0 =
+
+(1 − βj
+i βj
+
+i )βk
+i
+i )(1 − τi)2
+
+(1 − βk
+
+> 0.
+
+The left-hand side of (15) is equal to the change in the rent accruing to the workers
+
+of skill type k employed by ﬁrm i. This rent unambiguously declines because of the
+
+tax change. Whether the wage rate declines depends on how employment changes in
+
+response to the tax change. Equations (12) and (14) implicitly deﬁne the factor demand
+functions Ki(wk, wj, τi, ..), Lk
+i (wk, wj, τi, ..). Standard comparative static analysis shows
+that the impact of a tax change on demand for labor of type k may be positive or negative,
+
+depending on whether the diﬀerent production factors are complements or substitutes.
+
+The eﬀect on wages is therefore also ambiguous.
+
+This may be summarized as:
+
+Result 3: Firm-level bargaining: If capital costs are less than fully deductible, an
+
+increase in the local corporate tax rate reduces the rent of each skill group. The eﬀect on
+
+the wage rate is ambiguous and depends on potential changes in employment.
+
+This result is similar to that of individual bargaining. Higher taxes reduce the rent
+
+that can be shared between the ﬁrm and its employees. For given levels of employment,
+
+wages unambiguously decline in response to a tax increase. In the literature, this eﬀect
+
+39
+
+has been referred to as the “direct eﬀect” of a corporate tax change on wages in ﬁrms
+
+where wages are set via collective bargaining (Arulampalam, Devereux and Maﬃni, 2012;
+
+Fuest, Peichl and Siegloch, 2013). Taking into account changes in employment may change
+
+the wage eﬀect (“indirect eﬀect”). If the number of employees declines in response to a
+
+tax increase, the rent generated by the company is shared among a smaller number of
+
+employees and the overall wage eﬀect can be positive or negative.
+
+Sector-level bargaining. We now assume that bargaining takes place at the sector-
+
+level. To ease notation we normalize the number of sectors in the unionized part of the
+
+labor market to unity. This implies that there are n ﬁrms in the sector. An employer
+
+organization bargains with sector-level unions over the sector wide wage. We continue
+
+to assume that each skill group is represented by its own trade union. The employer
+
+organization has the objective of maximizing aggregate proﬁts of the ﬁrms in the sector.
+
+Following the seniority model proposed by Oswald (1993), we assume that each union
+
+wishes to maximize the premium over the reservation wage for the skill group it represents,
+which is given by vk = wk−wk. For given wages, ﬁrms set proﬁt-maximizing employment.
+The outcome of the sector-level bargaining process is given by
+
+where
+
+vk∗ = arg max
+
+vk
+
+ΩSk
+
+i
+
+i = γk ln vk + (1 − γk) ln
+ΩSk
+
+m(cid:80)
+
+i=1
+
+P SB
+
+i
+
+.
+
+The variable γk ∈ (0, 1) stands for the relative bargaining power of the sector-level skill
+type k union. Rearranging the ﬁrst order condition of the bargaining problem yields
+
+n(cid:80)
+ΠSB
+i (1 − τi)
+Lk
+
+i=1
+
+i
+
+vk∗ = γ0
+
+n(cid:80)
+
+i=1
+
+k, j = h, l,
+
+k (cid:54)= j
+
+(16)
+
+where
+
+(1 − γj)γk
+(1 − γjγk)
+
+> 0.
+
+γ0 =
+
+The sector wide wage premium is equal to a share of the average surplus per worker
+
+generated by the ﬁrms in the sector. Employment and investment decisions are now given
+
+by
+
+40
+
+i , Ll
+i)
+
+∂F (Ki, Lh
+∂Lk
+i
+
+= wk
+
+k = h, l
+
+(17)
+
+and
+
+∂F (Ki, Lh
+∂Ki
+
+i , Ll
+i)
+
+= Ri.
+
+We now analyze the eﬀect of a corporate tax change in jurisdiction m , m ∈ (1, ..., n), on
+vk∗. Total diﬀerentiation of equation (16) yields
+
+(cid:20)
+
+mdτm − n(cid:80)
+
+Lk
+
+i=1
+
+(cid:21) n(cid:80)
+
+i (1 − τi)
+
+dLk
+
+(cid:20) n(cid:80)
+
+i=1
+
+i=1
+
+ΠSB
+
+i +
+i (1 − τi)
+Lk
+
+n(cid:80)
+(cid:21)2
+
+i=1
+
+n(cid:80)
+
+i=1
+
+dΠF B
+
+i
+
+i (1 − τi)
+Lk
+
+k, j = h, l,
+
+k (cid:54)= j
+
+(18)
+
+dvk∗ = γ0
+
+where
+
+n(cid:80)
+
+i=1
+
+dΠF B
+
+i = −(cid:2)F (Km, Lh
+(cid:18)
+vh∗ n(cid:80)
+
++
+
+m) −(cid:80)
+i (1 − τi) + vl∗ n(cid:80)
+
+k wkLk
+
+m, Ll
+
+dLh
+
+i − αrKi
+
+(cid:3) dτm
+(cid:19)
+i(1 − τi)
+
+.
+
+dLl
+
+i=1
+
+i=1
+
+In general, the impact of a tax change on the wage is ambiguous.
+
+The wage eﬀect converges to zero if the ﬁrm in the jurisdiction where the tax change
+
+occurs is small, relative to the sector as a whole. The conditions for the wage eﬀect to
+i = 0 for all i (cid:54)= m, k = h, l follow from (18) and
+be negligible dvk∗ → 0, which implies dLk
+
+(cid:105)
+
+m
+
+n(cid:80)
+m − ∂Lk
+Lk
+
+∂τm(1−τm)
+i (1 − τi)
+Lk
+
+i=1
+
+→ 0,
+
+F (Km, Lh
+
+m, Ll
+
+k wkLk
+
+m − αrKm
+
+→ 0.
+
+(19)
+
+m) −(cid:80)
+n(cid:80)
+
+i=1
+
+i (1 − τi)
+Lk
+
+are given by(cid:104)
+
+The eﬀect is thus negligible if employment (including the tax induced change in em-
+
+ployment) as well as the tax base in jurisdiction m are small, relative to the number of
+employees in the sector as a whole, weighted with the tax factors (1 − τi).
+
+This may be summarized as
+
+Result 4: Sector-level bargaining: If capital costs are less than fully deductible, an
+
+increase in the tax rate may increase or decrease wages. The wage eﬀect converges to
+
+zero if the activity of the sector in the jurisdiction where the tax change occurs is small,
+
+41
+
+relative to the rest of the sector.
+
+Result 4 suggests that local tax changes will have a smaller or negligible eﬀect on
+
+wages if wage bargaining takes place at the sector level, rather than the ﬁrm level, because
+the sector will usually include many jurisdictions.42
+
+A.3 Fair wage models
+
+In fair wage models (Akerlof, 1982) the wage is usually assumed to be a function of i)
+wages of other employees of the same ﬁrm, ii) an external reference wage43 and iii) proﬁts
+
+of the ﬁrm (Amiti and Davis, 2010; Egger and Kreickemeier, 2012).
+
+Consider a ﬁrm i with two types of workers. Assume that the fair wage for type
+, Pi), where wk
+i
+are wages of the other skill group in the ﬁrm and proﬁts
+
+k workers employed by ﬁrm i is given by the function wkf
+are unemployment beneﬁts, w−k
+P F W
+
+are given by
+
+i , w−k
+
+i = f k
+
+i (wk
+
+i
+
+i
+
+i
+
+P F W
+
+i
+
+= Fi(Ki, Lh
+
+i , Ll
+
+k wk
+
+i Lk
+
+i (1 − τi) − (1 − ατi)rKi.
+
+i)(1 − τi) −(cid:80)
+
+We assume that the fair wage function has the following standard properties:
+
+∂f k
+i
+∂w−k
+
+i
+
+,
+
+> 0,
+
+∂f k
+i
+∂Pi
+
+∂f k
+i
+∂w−k
+L−k(1 − τi) > 0,
+
+i
+
+,
+
+∂f k
+i
+∂wk
+i
+− ∂f k
+i
+∂Pi
+1 − ∂f k
+∂w−k
+
+i
+
+i
+
+∂f−k
+∂wk
+i
+
+i
+
+> 0.
+
+(20)
+
+(21)
+
+(22)
+
+The fair wage is increasing in unemployment beneﬁts wk
+
+i , in the wage of the other
+skill group employed by the ﬁrm and in the ﬁrm’s proﬁts. Equation (21) implies that
+the fair wage for skill group k increases if the wage of the other skill group −k increases.
+This does not follow directly from the ﬁrst derivatives, as an increase in the wage of the
+
+other skill group reduces proﬁts. The eﬀect on proﬁts reduces the fair wage. Equation
+
+(22) implies that an increase in any of the reservation wages raises the fair wages of both
+
+groups.
+
+42 Some labor markets are characterized by two tier bargaining, where sector-level bargaining sets a
+minimum wage and wage premiums on top of the minimum wage are negotiated at the ﬁrm-level (Boeri,
+2014). In such a setting, one would expect local tax changes to have a more signiﬁcant impact on local
+wages than in the case of pure sector-level wage bargaining.
+
+43 We assume that the reference wage, which can be the average wage level paid in other ﬁrms, a
+statutory minimum wage or a transfer to the unemployed, is given. It may of course be the case that the
+reference wage is aﬀected by local tax changes. This would not alter the result that higher taxes lead to
+lower wages and vice versa.
+
+42
+
+In equilibrium, the ﬁrm pays fair wages to both types of employees and sets factor
+
+inputs to maximize after-tax proﬁts. Optimal factor inputs are given by the standard
+
+marginal productivity conditions. Equilibrium wages are given by
+
+wk∗
+i = f k
+
+i (wk
+
+i , w−k∗
+
+i
+
+, P ∗
+
+i ) k = h, l.
+
+(23)
+
+Equation (23) implicitly deﬁnes the equilibrium wage rates wh∗
+
+i as functions
+of, among other things, the corporate tax rate τi. Standard comparative static analysis
+shows that the eﬀect of a change in τi on wages is given by
+
+i and wl∗
+
+(cid:20)
+
+∂wkf∗
+i
+∂τi
+
+= −Ti
+ξ
+
+where
+
+(cid:21)
+
+1 +
+
+∂f−k
+i
+∂Pi
+
+Lk(1 − τi) +
+
+∂f k
+i
+∂w−k
+
+i
+
+− ∂f k
+i
+∂Pi
+
+L−k(1 − τi)
+
+< 0
+
+Ti = Fi(Ki, Lh
+
+i , Ll
+
+k wk
+
+i Lk
+
+i − αrKi
+
+i) −(cid:80)
+
+ξ = 1 − ∂f k
+∂w−k
+
+is the proﬁt tax base and
+∂f−k
+∂wk
+i
+∂f−k
+∂wk
+i
+
+(cid:18)∂f k
+
+i
+∂Pi
+
+i +
+
+(Lk
+
++
+
+i
+
+i
+
+i
+
+i
+
+L−k
+i ) +
+
+∂f−k
+i
+∂Pi
+
+(L−k
+
+i +
+
+∂f k
+i
+∂w−k
+
+i
+
+(cid:19)
+
+Lk
+i )
+
+(1 − τi) > 0.
+
+This may be summarized as
+
+Result 5: Fair wage model : An increase in the local corporate tax rate reduces the
+
+wages of all skill groups.
+
+The intuition behind Result 5 is that if higher corporate taxes reduce after-tax
+
+proﬁts, fairness considerations would suggest that employees will bear part of this burden
+
+and vice versa. This eﬀect is independent of whether or not wage and capital costs are
+
+fully deductible from the tax base. The neutrality property of cash-ﬂow taxes does not
+
+hold here because wage fairness is assumed to depend directly on after-tax proﬁts.
+
+A.4 Models where wages aﬀect labor productivity
+
+Some labor market models emphasize that ﬁrms may want to raise wages because higher
+
+wages lead to higher labor productivity and, hence, higher output. These models include
+
+eﬃciency wage models, where higher wages lead to more eﬀort or lower worker ﬂuctuation,
+
+and models of directed job search, where higher wages lead to better matches between
+
+43
+
+workers and ﬁrms.44
+
+Following Acemoglu and Shimer (1999), we assume that output is uncertain and
+depends on the quality of ﬁrm worker matches.45 There is only one type of labor. If a
+
+ﬁrm oﬀers a higher wage, more workers will apply for the job and the chances of a good
+
+match increase, given the wages oﬀered by other ﬁrms. With probability ρi(wi, q) the
+additional output produced by ﬁlling a vacancy i in a ﬁrm located in jurisdiction j equals
+Qi(Ki) , with probability 1− ρi(wi, q) it is equal to zero. The wages paid by other ﬁrms
+as well as other factors which may be relevant for the likelihood of success are summarized
+by the vector q. The function ρi(wi, q) has the following properties:46
+
+∂ρi
+∂wi
+
+> 0,
+
+∂2
+i ρ
+∂wi
+
+2 < 0,
+
+∂2
+i ρ
+∂wk
+i ∂q
+
+= 0.
+
+Expected proﬁts are now given by
+
+i = ρi(wi, q)Qi(Ki)(1 − τj) − wi(1 − τj) − (1 − ατj)rKi.
+P e
+
+The ﬁrst order conditions for the optimal wage and optimal investment are given by
+
+and
+
+Qi(Ki)(1 − τj) − (1 − τj) = 0
+
+∂ρi
+∂wi
+
+ρi(wi, q)Q(cid:48)
+
+i(Ki)(1 − τj) − (1 − ατj)r = 0.
+
+(24)
+
+(25)
+
+(26)
+
+(27)
+
+Equations (26) and (27) imply that we can write the equilibrium wage rate as a
+
+function w∗
+
+i = w∗
+
+i (τi, φ, α, r). Standard comparative static analysis leads to
+
+∂w∗
+i
+∂τj
+
+=
+
+−r
+
+∆(1 − τj)2
+
+(cid:20) ∂ρi
+
+∂wi
+
+(cid:21)
+i(Ki)(1 − α)
+Q(cid:48)
+
+≤ 0
+
+(28)
+
+44 The key diﬀerence to the fair wage model discussed in the preceding section is that the latter
+emphasizes the direct link between the proﬁts of a ﬁrm and the wage that is perceived to be fair. No
+such direct link exists here. However, fair wage models may also be considered as models where wages
+aﬀect labor productivity because wages deemed as unfair would reduce worker eﬀort or increase costly
+ﬂuctuation.
+
+45 The results would be similar in an eﬃciency wage model following Solow (1979) with continuous
+eﬀort. In shirking models with discrete eﬀort (such as Shapiro and Stiglitz, 1984), we would not expect a
+direct eﬀect on wages (for given employment) but only an indirect eﬀect through changes in unemployment
+rates and hence the shirking constraint.
+
+46 The assumption that all cross derivatives are equal to zero is made to simplify the exposition, it is
+
+not necessary for the results.
+
+44
+
+where
+
+∆ = ρi(wi, q)Q(cid:48)(cid:48)
+
+i (Ki)
+
+∂2ρi
+∂wi
+
+2 Qi(Ki) −
+
+(cid:20) ∂ρi
+
+∂wi
+
+(cid:21)2
+
+Q(cid:48)
+i(Ki)
+
+> 0.
+
+Note that ∆ > 0 follows from the second order conditions for proﬁt maximization. A
+
+higher corporate tax rate thus reduces the wage if there is limited deductibility of capital
+
+costs. This may be summarized as
+
+Result 6: Models where wages aﬀect productivity: If capital costs are less than fully
+
+deductible, an increase in the local corporate tax rate reduces wages.
+
+The optimal wage trades oﬀ higher output against the cost of higher wages. The
+
+increase in output achieved through a wage increase is higher, the higher the capital stock
+
+of the ﬁrm. In the presence of imperfect deductibility of capital costs, investment declines
+
+when the tax rate increases. Therefore the ﬁrm’s marginal productivity gain from a wage
+
+increase falls. As a result, it is optimal for the ﬁrm to adjust its wage policy towards
+
+lower wages and a lower quality of worker ﬁrm matches.
+
+A.5 Monopsonistic labor market
+
+Consider a ﬁrm facing the labor supply function by Ls = Ls(w), Ls(cid:48)(w) > 0. Output is
+produced using a standard, strictly concave production technology F (Ki, Li) with com-
+plementarity between labor and capital: ∂2F (Ki,Ls(wi))
+
+> 0 . Proﬁts are given by
+i (Ki, wi) = F (Ki, Ls(wi))(1 − τj) − wiLs(wi)(1 − τj) − (1 − ατi)rKi
+P M
+
+∂Ki∂Li
+
+The ﬁrst order conditions for proﬁt maximization are
+
+∂F (Ki, Ls(wi))
+
+∂Li
+
+Ls(cid:48)(wi)(1 − τj) − (Ls(cid:48)(wi)wi + Ls(wi))(1 − τj) = 0
+(1 − τj) − (1 − ατj)r = 0
+
+∂F (Ki, Ls(wi))
+
+∂Ki
+
+(29)
+
+(30)
+
+Equations (29) and (30) implicitly deﬁne the proﬁt-maximizing wage rate w∗
+
+i and
+the capital stock set by the monopsonist, as functions of the tax corporate rate. Standard
+
+comparative static analysis leads to
+
+(cid:20)∂2F (Ki, Ls(wi))
+
+∂Ki∂Li
+
+∂w∗
+i
+∂τj
+
+= − 1
+Γ
+
+(cid:21)
+
+Ls(cid:48)(wi)(1 − α)
+
+< 0.
+
+where the second order conditions imply
+
+Γ =
+
+∂2P M
+
+i (Ki, wi)
+∂K 2
+i
+
+∂2P M
+
+i (Ki, wi)
+∂w2
+i
+
+−
+
+(cid:20)∂2P M
+
+i (Ki, wi)
+∂Ki∂wi
+
+(cid:21)2
+
+> 0.
+
+45
+
+This implies
+
+Result 7: Monopsonistic labor market: If capital costs are less than fully deductible, an
+
+increase in the local corporate tax rate reduces wages.
+
+A higher corporate tax rate reduces investment so that the marginal productivity
+
+of labor falls. As a result, ﬁrms employ less labor. In a monopsonistic labor market this
+implies a lower wage.47
+
+A.6 Extensions
+
+In this subsection, we consider two extensions of the model that are both related to
+
+particular aspects of corporate taxation. The ﬁrst extension takes into account that ﬁrms
+
+may operate in more than one jurisdiction. Many countries use formula apportionment
+
+to allocate corporate proﬁts to diﬀerent jurisdictions for taxation purposes. The second
+
+extension is to allow for tax avoidance through diﬀerent types of income shifting.
+
+A.6.1 Firms operating in multiple jurisdictions with formula apportionment
+
+Consider a company with plants in two jurisdictions, 1 and 2. As a ﬁrst step, we assume
+that there is just one type of labor.48 Employment (capital) in jurisdiction j is denoted
+
+by Lj (Kj), j = 1, 2. The wage rate is the same in both plants. After-tax proﬁts of the
+company are
+
+i = F (K1, K2,L1, L2)(1 − τi) − (1 − τi)w[L1 + L2] − (1 − ατi)r[K1 + K2]
+P F A
+
+Assume that the tax apportionment formula is based on payroll as the only appor-
+tionment factor.49 Given that there is a uniform wage rate in the two plants, the proﬁt
+
+tax rate is given by
+
+τi =
+
+τ1L1 + τ2L2
+
+L1 + L2
+
+.
+
+(31)
+
+The eﬀect of a tax rate change in one jurisdiction on the ﬁrm’s eﬀective proﬁt tax
+
+rate τ , given the level of employment, is
+
+∂τi
+∂τj
+
+=
+
+Lj
+
+L1 + L2
+
+,
+
+j = 1, 2
+
+47 This result holds in models of monopsonistic wage setting with constant labor supply elasticities. If
+
+this assumption is relaxed, the result on tax shifting is theoretically ambiguous.
+
+48 The case for two skill types is discussed below.
+49 This is the case for the LBT in Germany. In the US, apportionment for state taxes is based on
+
+payroll, sales, and assets, see Su´arez Serrato and Zidar (2016).
+
+46
+
+where τj is the tax rate of jurisdiction j.
+
+Assume that wages are set via collective bargaining which takes place at the ﬁrm-
+
+level, not at the plant-level, and that wages paid to workers of a given skill group are the
+
+same in the two plants. The objective function of the skill type k union is now given by
+
+Z F A = (L1 + L2)(w − w) = (L1 + L2)sF A.
+
+The outcome of the bargaining process is given by
+
+sF A∗, L∗
+
+1, L∗
+
+2 = arg max
+
+sF A,L1,L2
+
+ΩF A
+
+where
+
+ΩF A = λ ln Z F A
+
+i + (1 − λ) ln P F A
+
+i
+
+.
+
+The variable λ ∈ (0, 1) stands for the relative bargaining power of the union. The
+
+ﬁrst order condition for the wage rate yields
+
+sF A∗ = λ
+
+where
+
+ΠF A
+
+i
+
+[(L1 + L2)(1 − τi)]
+
+i = F (K1, K2,L1, L2)(1 − τi) − (1 − τi)w[L1 + L2] − (1 − ατi)r[K1 + K2].
+ΠF A
+
+For given levels of employment, the change in the wage premium caused by a change
+
+in the tax rate is given by
+
+∂sF A∗
+∂τj
+
+= −λ
+
+(1 − α)r(K1 + K2)Lj
+(L1 + L2)2(1 − τj)2 ≤ 0.
+
+This implies:
+
+Result 8: Formula apportionment and ﬁrm-level bargaining: In ﬁrms with plants in
+
+many jurisdictions and homogeneous labor, where corporate taxation is based on formula
+
+apportionment, wages are set via collective bargaining at the ﬁrm-level, and capital costs
+
+are less than fully deductible, an increase in the corporate tax rate in one jurisdiction
+
+decreases wages in the entire ﬁrm. If employment in the jurisdiction that changes the tax
+
+rate is small, relative to employment in the ﬁrm as a whole, the tax eﬀect is also small.
+
+Consider next the case of two skill types, k = h, l. After-tax proﬁts of the company
+
+are now
+
+47
+
+2)(1 − τi) −(cid:16)(cid:80)
+(cid:80)
+(cid:80)
+(cid:80)
+(cid:80)
+
+τi =
+
+j
+
+k τjwkLk
+j
+k wkLk
+j
+
+.
+
+j
+
+(cid:80)
+(cid:80)
+(cid:80)
+
+j
+
+k wkLk
+j
+
+.
+
+k wkLk
+j
+
+P F Ak
+
+i
+
+= F (K1, K2,Lh
+
+1, Ll
+
+1, Lh
+
+2, Ll
+
+with obvious notation. The proﬁt tax rate is given by
+
+(cid:80)
+
+k wkLk
+j
+
+(cid:17)
+
+(1 − τi) − (1 − ατi)r[K1 + K2]
+
+j
+
+For given employment, the eﬀect of a tax rate change in one jurisdiction on the ﬁrm’s
+
+eﬀective proﬁt tax rate τi is
+
+∂τi
+∂τj
+
+=
+
+(cid:104) Lh
+
+1
+Ll
+1
+
+(cid:105)
+
+− Lh
+
+2
+Ll
+2
+
+The eﬀect of a wage change for workers of skill type h on the eﬀective proﬁt tax rate
+
+is:
+
+where
+
+(cid:20)Lh
+(cid:21)2
+
+1
+Ll
+1
+
+(cid:21)
+
+− Lh
+2
+Ll
+2
+
+Ll
+
+1Ll
+2
+
+1
+σ
+
+[whLh
+
+2 + wlLl
+
+2]2 > 0.
+
+∂τi
+
+∂wh = [τ1 − τ2]
+
+(cid:20)
+
+σ =
+
+1 +
+
+whLh
+whLh
+
+1 + wlLl
+1
+2 + wlLl
+2
+
+Assume, for instance, that municipality 1 has a higher tax rate than municipality
+2. The eﬀect of an increase in the wage of the high skilled wh on the tax burden will
+
+depend on whether this increases the payroll share of the high tax municipality, or that
+
+of the low tax municipality. If the share of high skilled is higher in jurisdiction 1, so that
+
+> 0, the tax rate τi will increase, and vice versa. The eﬀect of a wage change
+
+on the proﬁt tax rate a ﬁrm eﬀectively pays is therefore generally ambiguous.
+
+Once again assuming ﬁrm-level collective bargaining and homogeneous wages for a
+
+skill group across plants, the objective function of the skill type k union is now given by
+
+Z F Ak = (Lk
+
+1 + Lk
+
+2)(wk
+
+1 − wk) = (Lk
+
+1 + Lk
+
+2)sF Ak.
+
+The outcome of the bargaining process is given by
+
+sF Ak∗
+
+, Lk∗
+
+1 , Lk∗
+
+2 = arg max
+1 ,Lk
+2
+
+sk,Lk
+
+ΩF Ak
+
+48
+
+where
+
+ΩF Ak = λk ln Z F Ak
+
+i
+
++ (1 − λk) ln P F At
+
+i
+
+.
+
+As above, the variable λk ∈ (0, 1) stands for relative bargaining power of the skill
+
+type k union. The ﬁrst order condition for the wage rate yields
+
+sF Ak∗
+
+=
+
+λk
+
+(1 − λk)
+
+where
+
+P F At
+2)(1 − τi) − Φk
+w]
+
+[(Lk
+
+1 + Lk
+
+,
+
+k = h, l
+
+(32)
+
+Φk
+
+w =
+
+∂P F A
+
+i
+∂τi
+
+∂τi
+∂wk .
+
+The key diﬀerence between this case and that with homogeneous labor is that a wage
+
+change now aﬀects the eﬀective tax rate. It thus inﬂuences the outcome of union-ﬁrm
+
+bargaining. For instance, if a higher wage increases the eﬀective tax rate, which implies
+
+Φwk < 0, the wage premium achieved by the union will be smaller, other things equal, and
+vice versa. Equation (32) implicitly deﬁnes the two ﬁrm-speciﬁc wage premiums emerging
+from the bargaining process as functions of the type sF Ak∗ = sF Ak∗(τi, τj, T, Lk∗
+j ...).
+Diﬀerentiating (32) shows that the change in the local corporate tax rate on wages is, in
+
+i , Lk∗
+
+general, ambiguous.
+
+A.6.2
+
+Income shifting
+
+Income shifting to avoid taxes may occur in diﬀerent forms. Multinational ﬁrms can use
+
+debt ﬁnancing or transfer pricing to shift proﬁts across national borders. Income shifting
+
+may also occur between diﬀerent tax bases within a country. For instance, ﬁrm owners
+
+may shift income between the corporate and the personal income tax base by changing
+
+wages paid to family members. We discuss the two cases in turn.
+
+International income shifting. Assume that the ﬁrm’s proﬁts are given by
+
+ij = piFi(Ki, Lh
+P S
+
+i , Ll
+
+k wk
+
+i Lk
+
+i (1 − τj) − (1 − αjτj)riKi + θijSi − c(Si). (33)
+
+i)(1 − τj) −(cid:80)
+
+The variable Si is income shifted from the proﬁt tax base to the personal income tax base
+of the ﬁrm owners, which may be positive or negative, θij is the tax beneﬁt per unit of
+income shifted and c(Si) is a convex shifting cost function.50 Proﬁt maximization factor
+
+50 Here we assume that proﬁt shifting is carried out by changing the wages of ﬁrm owners working in
+the ﬁrm or family members of the ﬁrm owner. This implies that si would be reported as wage income.
+Another way of shifting income is to provide capital in the form of debt, rather than equity. Many
+countries have introduced anti-tax-avoidance legislation, which limits income shifting. We therefore take
+
+49
+
+input decisions lead to the usual marginal productivity conditions, and optimal income
+shifting implies c(cid:48)(Si) = θij so that the proﬁt-maximizing amount of shifted income S∗
+i
+can be expressed as a function of the tax beneﬁt S∗
+i > 0. Consider
+ﬁrst the case of a multinational company which is able to shift income abroad. If the ﬁrm
+
+i (θij), with S∗(cid:48)
+
+i = S∗
+
+can do so, for instance, through a foreign subsidiary charging a fully deductible cost to
+
+the domestic parent company, the tax advantage from income shifting is given by θij =
+τj − τf , where τf is the foreign proﬁt tax rate. Assume that wages in the multinational
+ﬁrm are determined by ﬁrm-level bargaining. In this case, the wage premium generated
+
+by union ﬁrm bargaining is given by
+
+zk∗
+i =
+
+(1 − βj
+(1 − βk
+
+i )βk
+i
+i βj
+i )
+
+ΠS
+i
+i (1 − τi)
+Lk
+
+k, j = h, l,
+
+k (cid:54)= j
+
+(34)
+
+where
+
+ΠS
+
+i = F (Ki, Lh
+
+i , Ll
+
+i)(1 − τi) −(cid:80)
+
+k wkLk
+
+i (1 − τi) − (1 − ατi)rKi + (τj − τf )Si − c(Si).
+
+Diﬀerentiating (34) yields
+
+=
+0 [(1 − α)rKi − (Si(1 − τf ) − c(Si))] ≤ 0
+
+i
+
+−βS
+
+i + zk∗
+Lk
+
+dLk
+i
+dτi
+
+dzk∗
+i
+dτi
+
+(35)
+
+where
+
+βS
+0 =
+
+(1 − βj
+i βj
+
+i )βk
+i
+i )(1 − τi)2
+
+(1 − βk
+
+> 0
+
+k, j = h, l,
+
+k (cid:54)= j.
+
+The right-hand side of (35) is increasing in Si (given that Si = S∗
+
+i ), which implies
+that the decline in the rent accruing to labor is smaller, the higher the equilibrium level
+
+of income shifting. This yields
+
+Result 9 International income shifting: If ﬁrms engage in international income
+
+shifting and wages are set by ﬁrm-level bargaining, the decline in the rent accruing to
+
+labor caused by a higher corporate tax decreases as the equilibrium level of income shifting
+
+increases.
+
+National income shifting. We now consider the possibility of domestic income shifting
+
+between the proﬁt tax base and wage income. In this case the tax advantage from income
+shifting is given by θij = φjτj − tpi, where tpi is the marginal tax rate on wage income of
+
+into account costs of income shifting. This can be interpreted as the cost of hiring tax consultants or the
+cost of concealing income shifting. For notational simplicity we assume that shifting costs are not tax
+deductible.
+
+50
+
+the relevant employee. This is relevant in settings where the wages of some employees are
+
+eﬀectively proﬁt distributions, so that wage bargaining plays no role for them. Assume
+
+observed change in the wages paid out by the ﬁrm would equal(cid:80)
+
+that the wages paid in the absence of incentives for income shifting, that is for equal
+taxes on proﬁts and labor income, would be given by the function wkS
+i (τj, ...). Then the
+dwkS
+. While
+i
+dτj
+
+i + dSi
+dτj
+
+Lk
+
+k
+
+’true’ wages are likely to decline in response to higher taxes, albeit by less than they
+
+would in the absence of income-shifting possibilities, we now have the additional eﬀect
+that the income-shifting eﬀect dSi
+dτj
+is important, we would expect observed wages to decline less, or even increase, in response
+
+> 0 increases reported wages. Thus if income shifting
+
+to higher corporate taxes. This may be summarized as
+
+Result 10 National income shifting: If ﬁrms shift income between the proﬁt tax
+
+base and the labor income tax base, a higher corporate tax rate will lead to a smaller
+
+decline in reported wages than in the absence of income shifting. Wages may even increase.
+
+Unfortunately, we cannot test this mechanism directly with our data because we do
+
+not know whether there are employees who are members of the owner family.
+
+51
+
+B Institutional background
+
+B.1 German business taxes
+
+In 2007, proﬁt taxes accounted for about 6.2% of total tax revenue (including social se-
+curity) in Germany (OECD, 2015).51
+
+In terms of tax revenues, the LBT is the most
+
+important proﬁt tax, accounting for about 60–70% of total proﬁt tax revenues from cor-
+
+porate ﬁrms. Overall, the share of proﬁt tax revenues from local taxes is relatively high
+
+in Germany compared with other countries.
+
+In the US, for instance, state and local
+
+corporate taxes together account only for about 20% of total corporate taxes (NCSL,
+
+2009). In addition, the LBT is the most important source of ﬁnancing at the disposal of
+
+municipalities, generating roughly three quarters of municipal tax revenue.
+
+As mentioned in Section 2, there are two other proﬁt taxes in Germany, the corporate
+
+income tax (CIT), which applies to corporations, and the personal income tax (PIT),
+
+which applies to non-corporate ﬁrms. We discuss the most important features of these
+
+two taxes in turn.
+
+Corporate income tax. The rate of the nationwide corporate income tax, τCIT , has
+undergone several changes in recent years. Until 2000, a split rate imputation system
+
+existed in Germany, where retained proﬁts were subject to a tax rate of 45% in 1998 and
+
+40% in 1999 and 2000. Distributed proﬁts were taxed at a rate of 30% from 1998 to 2000.
+
+As of 2001, retained and distributed proﬁts were taxed equally at 25% (26.5% in 2003).
+
+In 2008, τCIT was lowered to 15%. In all years, a so-called solidarity surcharge (to ﬁnance
+the costs of reuniﬁcation), soli, of 5.5% of the corporate tax rate was added.
+
+There are two steps to calculating the total statutory tax rate for corporate ﬁrms.
+
+First, LBT and CT rates are added. Second, the deduction of the LBT payments from
+
+the tax base has to be taken into account. The statutory tax rate for corporate ﬁrms,
+τ corp, from 1998 to 2007, is τ corp = τCIT ·(1+soli)+tf ed
+LBT ·θmun
+the equation is equal to 1, as the LBT can no longer be deducted from the tax base.
+
+. Since 2008, the denominator of
+
+LBT ·θmun
+
+1+tf ed
+
+LBT
+
+LBT
+
+Personal income tax. Non-corporate ﬁrms (Personengesellschaften) are subject to
+
+the progressive personal income tax (on operating proﬁts assigned to the proprietor).
+Non-corporate ﬁrms have an LBT allowance of 24,500 euros and a reduced tf ed
+LBT for small
+for every 12,000 euros exceeding the allowance of
+non-corporate ﬁrms prior to 2008:
+
+51 This is below the OECD average of about 10.6% (US: 10.8%, UK: 9.4%). Part of this relatively low
+share of proﬁt taxes is due to the rather high share of social insurance contributions (SIC) in Germany.
+If SIC are excluded, the share in total taxes is about 11.5%. A high share of unincorporated ﬁrms in
+Germany is a second factor. These ﬁrms pay PIT, in addition to the LBT, and the OECD does not
+classify PIT as proﬁt taxes.
+
+52
+
+24,500 euros, tf ed
+LBT was raised by one percentage point so that the full basic federal rate
+of 5.0% had to be paid only for taxable income exceeding 72,500 euros. The tax rate for
+a non-corporate ﬁrms τ non−corp from 1998 to 2007, is τ non−corp = τP IT ·(1+soli)+tf ed
+LBT ·θmun
+LBT ×1.8
+The denominator of the equation shows that a ﬁxed share of the LBT liabilities can be
+LBT · 1.8 · Y from
+deducted from the personal income tax base. This share amounted to tf ed
+2001 to 2007 and tf ed
+
+LBT · 3.8 · Y from 2008 onwards.
+
+1+tf ed
+
+LBT
+
+.
+
+B.2 German labor market institutions
+
+Traditionally, German labor unions have been very inﬂuential.52 Collective bargaining
+
+agreements (CBAs) at the sector-level are the most important mechanism for wage de-
+
+termination. Nevertheless, there has been a signiﬁcant decline in bargaining coverage. In
+
+West (East) Germany, CBA coverage decreased from 76% (63%) in 1998 to 65% (51%) in
+
+2009. The share of workers covered by sectoral agreements fell from 68% (52%) to 56%
+(38%) (Ellguth, Gerner and Stegmaier, 2012).53 In addition to sector-level CBA, some
+
+ﬁrms have ﬁrm-level agreements, while other ﬁrms are not covered by a CBA and rely on
+
+individual contracts with each employee.
+
+The average duration of a CBA increased from 12 months in 1991 to 22 months in
+
+2011. Usually, negotiations take place in the ﬁrst half of a year. Firms may pay wages
+
+above those negotiated in CBAs. Except for a few industries, there was no legal minimum
+
+wage in Germany during our period of analysis. However, the social security and welfare
+
+system provides an implicit minimum wage and CBAs ensure that wages are above that
+
+level.
+
+52 See Dustmann et al. (2014) for an overview and analysis of the development of German labor market
+
+institutions during our period of investigation.
+
+53 Coverage rates vary by industry: collective bargaining is slightly above average in the manufacturing
+sector, while the highest coverage is in the public sector and the lowest in ICT, agriculture and restaurant
+industries. Overall, union coverage rates in Germany are lower than in other European countries – except
+the UK and some Eastern European countries – but higher than in the US (Du Caju et al., 2008).
+
+53
+
+C Descriptive Statistics
+
+Jurisdictional changes Analogously to Figure 1, Figure C.1 shows the cross-sectional
+
+and time variation in LBT rates for the full sample of municipalities, including municipali-
+
+ties that underwent a jurisdictional change. The right panel clearly shows that the number
+
+of tax changes for these merged municipalities is relatively high. However, the variation in
+
+tax rates is artiﬁcial and related to the way we impute tax rates. As described in Section
+
+2.2, the wage data contains geographical information for the jurisdictional boundaries
+
+as of December 31, 2010.
+
+In order to match the tax data, we have to bring it to the
+
+same boundaries. This generates artiﬁcial variation in tax rates, as we need to calculate
+
+population weighted average tax rates for those merged jurisdictions.
+
+Consequently, we ﬁnd a large number of (small) tax changes for East German mu-
+
+nicipalities. Table C.3 shows that on average 12.4% of the municipalities change their
+
+tax rate per year. Among the merged municipalities, however, the share is 33% (with
+
+a much smaller average change). Given this measurement error in tax rate changes, we
+
+focus on non-merged municipalities in our baseline analysis (and check whether results
+
+for merged and non-merged municipalities diﬀer). Due to this restriction, we are left with
+
+about 10,000 municipalities and 18,000 tax changes for identiﬁcation (instead of 11,441
+
+municipalities with about 27,000 partly artiﬁcial tax changes).
+
+54
+
+Figure C.1: Cross-sectional and time variation in local tax rates
+
+Source: Statistical Oﬃces of the Laender. Maps: GeoBasis-DE / BKG 2015. Notes: This ﬁgure shows the
+cross-sectional and time variation in municipal scaling factors of the German LBT. This ﬁgure includes
+both non-merged and merged municipalities. The left graph depicts the cross-sectional variation in LBT
+rates (in %) induced by diﬀerent scaling factors for 2003 (the mid-year of our sample). The right graph
+indicates the number of scaling factor changes per municipality between 1993 and 2012. Jurisdictional
+boundaries are as of December 31, 2010.
+
+55
+
+Table C.1: Municipal scaling factors, 1993-2012
+
+mean min
+
+p5
+
+p50
+
+p95 max
+
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+Average
+
+3.12
+3.15
+3.17
+3.19
+3.21
+3.22
+3.23
+3.24
+3.26
+3.27
+3.29
+3.31
+3.33
+3.34
+3.34
+3.35
+3.36
+3.38
+3.44
+3.47
+3.28
+
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+2.00
+
+2.50
+2.59
+2.60
+2.70
+2.70
+2.74
+2.75
+2.75
+2.75
+2.80
+2.80
+2.80
+2.85
+2.90
+2.90
+2.90
+2.90
+3.00
+3.00
+3.00
+2.80
+
+3.10
+3.13
+3.20
+3.20
+3.20
+3.20
+3.20
+3.20
+3.27
+3.30
+3.30
+3.30
+3.30
+3.30
+3.30
+3.30
+3.35
+3.40
+3.50
+3.50
+3.30
+
+3.70
+3.72
+3.80
+3.80
+3.80
+3.80
+3.80
+3.80
+3.80
+3.85
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+4.00
+4.03
+3.95
+
+7.37
+5.15
+5.15
+5.15
+5.15
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+9.00
+
+Source: Statistical Oﬃces of the Laender. Notes: The table provides descrip-
+tive statistics on the municipal scaling factors for all non-merged municipalities
+(N=10001) in Germany over time.
+
+56
+
+Table C.2: Municipal scaling factors changes per municipality, 1993-2012
+
+any increase
+
+large increases
+
+changes municipalities
+
+in % municipalities
+
+in %
+
+all municipalities (N=11,441)
+6969
+3583
+784
+95
+9
+1
+
+17.80
+28.10
+27.00
+14.60
+6.30
+6.20
+
+2041
+3218
+3091
+1667
+720
+704
+
+all non-merged municipalities (N=10,001)
+
+1902
+3025
+2862
+1465
+536
+211
+
+19.00
+30.20
+28.60
+14.60
+5.40
+2.10
+
+6358
+3012
+566
+58
+6
+1
+
+60.90
+31.30
+6.90
+0.80
+0.10
+0.00
+
+63.60
+30.10
+5.70
+0.60
+0.10
+0.00
+
+non-merged municipalities in LIAB (N=3,522)
+
+672
+1018
+914
+541
+377
+
+19.08
+28.90
+25.95
+15.36
+10.70
+
+2290
+993
+213
+22
+4
+
+all merged municipalities (N=1,440)
+
+139
+193
+229
+202
+184
+493
+
+9.70
+13.40
+15.90
+14.00
+12.80
+34.20
+
+611
+571
+218
+37
+3
+0
+
+65.02
+28.19
+6.05
+0.62
+0.11
+
+42.40
+39.70
+15.10
+2.60
+0.20
+0.00
+
+0
+1
+2
+3
+4
+5+
+
+0
+1
+2
+3
+4
+5+
+
+0
+1
+2
+3
+4+
+
+0
+1
+2
+3
+4
+5+
+
+Source: Statistical Oﬃces of the Laender. Notes: The table summarizes the number
+of tax increases and large tax increases for all, non-merged and merged municipalities
+from 1993 to 2012. Large increases are deﬁned as the top 25% of the tax increase
+distribution, that is an increase of the business tax rate of 1.1 percentage points or
+more.
+
+57
+
+Table C.3: Time variation in municipal scaling factors, 1993–2012
+
+municip. with a(n) ...
+
+... change
+
+... increase
+
+... decrease
+
+share mean change
+
+share mean increase
+
+share mean decrease
+
+all municip.
+non-merged municip. (all)
+non-merged municip. (LIAB)
+merged municip.
+
+12.2
+9.4
+10.2
+31.9
+
+by year (all non-merged municipalities)
+
+1994
+1995
+1996
+1997
+1998
+1999
+2000
+2001
+2002
+2003
+2004
+2005
+2006
+2007
+2008
+2009
+2010
+2011
+2012
+
+10.9
+15.5
+11.2
+8.5
+8.7
+4.2
+8.7
+12.8
+8.3
+9.6
+8.4
+11.5
+8.3
+4.0
+4.0
+4.2
+8.8
+18.4
+12.8
+
+0.15
+0.19
+0.17
+0.07
+
+0.18
+0.19
+0.16
+0.17
+0.18
+0.13
+0.13
+0.14
+0.17
+0.19
+0.19
+0.17
+0.13
+0.10
+0.18
+0.18
+0.27
+0.28
+0.25
+
+10.3
+8.8
+9.4
+20.6
+
+10.0
+14.9
+10.7
+8.0
+8.2
+3.6
+7.8
+11.7
+7.8
+9.2
+8.1
+11.0
+7.4
+3.2
+3.2
+3.4
+8.4
+18.1
+12.5
+
+0.20
+0.22
+0.21
+0.15
+
+0.23
+0.22
+0.19
+0.21
+0.21
+0.20
+0.17
+0.18
+0.20
+0.21
+0.21
+0.19
+0.18
+0.19
+0.28
+0.27
+0.29
+0.29
+0.27
+
+1.9
+0.6
+0.8
+11.3
+
+0.9
+0.6
+0.5
+0.5
+0.5
+0.6
+0.8
+1.1
+0.4
+0.4
+0.3
+0.5
+0.9
+0.8
+0.8
+0.8
+0.4
+0.3
+0.3
+
+-0.14
+-0.30
+-0.26
+-0.08
+
+-0.45
+-0.40
+-0.37
+-0.41
+-0.32
+-0.31
+-0.23
+-0.23
+-0.35
+-0.28
+-0.30
+-0.27
+-0.28
+-0.26
+-0.26
+-0.20
+-0.22
+-0.21
+-0.30
+
+Source: Statistical Oﬃces of the Laender. Notes: The top part of the table sum-
+marizes the frequency, signs, and sizes of municipal scaling factor changes for all
+municipalities (N=11441), non-merged municipalities (N=10001), and merged mu-
+nicipalities (N=1440). The bottom part of the table shows the frequency, sign and
+size of municipal scaling factor changes for non-merged municipalities over time.
+
+Table C.4: Percentiles of the share of non-wage-censored workers across ﬁrms
+
+p1
+
+p5
+
+p10
+
+p25
+
+p50
+
+p75 p90 p95 p99
+
+obs
+
+manuf.
+service
+total
+
+0.38
+0.32
+0.36
+
+0.68
+0.59
+0.63
+
+0.78
+0.73
+0.75
+
+0.89
+0.88
+0.89
+
+0.96
+0.98
+0.97
+
+1
+1
+1
+
+1
+1
+1
+
+1
+1
+1
+
+1
+1
+1
+
+23, 137
+21, 490
+44, 627
+
+Source: LIAB. Notes: This table shows the distribution of the share of non-wage-censored workers across
+ﬁrms in diﬀerent sectors. Workers are deﬁned as wage-censored if they earned more than the social
+security contributions earnings ceilings at least once in the sample. In this table, manufacturing includes
+construction and services include trade.
+
+58
+
+Table C.5: Descriptive statistics, plant sample, non-merged municipalities, 1999-2008
+
+mean
+
+p50
+
+sd
+
+Wage
+Local scaling factor
+LBT rate (in %)
+Municipal spending (in millions)
+Municipal population
+District unemployment rate
+District GDP (in millions)
+Share: West German municipalities
+Number of employees
+Share: Liable plants
+Share: Sector level bargaining
+Share: Firm level bargaining
+Share: No collective bargaining
+Share: Manufacturing
+Share: Construction
+Share: Trade
+Share: Services
+Share: Public/Utilities
+Share: High proﬁtability
+Share: Medium proﬁtability
+Share: Low proﬁtability
+Share: Single plant ﬁrms
+Share: German owner
+
+2,733
+3.85
+18.65
+2,648
+436,255
+
+0.12
+18,977
+0.80
+265
+0.64
+0.56
+0.08
+0.36
+0.26
+0.08
+0.11
+0.23
+0.32
+0.37
+0.34
+0.29
+0.62
+0.94
+
+2,717
+3.90
+19.00
+110
+
+49,856
+0.10
+6,758
+1.00
+53
+1.00
+1.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+0.00
+1.00
+1.00
+
+877
+0.52
+3.09
+6,155
+904,957
+
+0.05
+28,198
+0.40
+1,136
+0.48
+0.50
+0.28
+0.48
+0.44
+0.26
+0.32
+0.42
+0.45
+0.48
+0.47
+0.46
+0.49
+0.24
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: Total number of plant-
+year observations: 69,249. Number of plants: 21,253. All monetary variables in
+2008 euros.
+
+59
+
+Table C.6: Descriptive statistics, worker sample, non-merged municipalities, 1999-2008
+
+Wage
+Local scaling factor
+LBT rate (in %)
+Municipal spending (in millions)
+Municipal population
+District unemployment rate
+District GDP (in millions)
+Share: West German municipalities
+Number of employees
+Share: Liable ﬁrms
+Age
+Share: Male
+Share: High-skilled
+Share: Medium skilled
+Share: Blue collar
+Share: Never censored individuals
+
+mean
+
+p50
+
+sd
+
+3,491
+4.00
+19.50
+2,605
+470,429
+
+3,363
+4.10
+19.50
+334
+
+120,136
+
+1,092
+0.53
+3.85
+5,667
+833,344
+
+0.11
+22,233
+0.88
+5,802
+0.73
+41
+0.72
+0.14
+0.71
+0.53
+0.81
+
+0.10
+9,211
+1.00
+1,138
+1.00
+42
+1.00
+0.00
+1.00
+1.00
+1.00
+
+0.04
+28,541
+0.32
+10,345
+0.44
+10
+0.45
+0.34
+0.45
+0.50
+0.39
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: Number of person-year
+observations: 12,673,576. Number of individuals: 4,091,932. All monetary variables
+in 2008 euros.
+
+60
+
+D Additional Results
+
+Figure D.1: Event study graphs: wage eﬀects by event window cut
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The graph plots event study estimates
+(ˆγj, j ∈ [−3, 4]) and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1). De-
+pendent variable is the log median ﬁrm wage (observed on 30 June for each year). Event dummies are
+equal to one for tax increases greater than or equal to the 75th percentile of the tax increase distribution.
+The tax change occurred for the treatment group on 1 January in event year t = 0, as indicated by the
+vertical red line. All regression models include municipal, ﬁrm and “state × year” ﬁxed eﬀects. The esti-
+mation sample comprises all establishments liable to the LBT in non-merged municipalities. Depending
+on the speciﬁcation, we additionally restrict the sample to municipalities without a tax decrease during
+the observation period, not more than one increase in the event window, and/or only one tax increase in
+the whole observation period (see legend). Standard errors are clustered at the municipal level. Estimates
+are reported in Table D.11.
+
+61
+
+-6-4-202Log real wages(relative to pre-reform period t=-1)-3-2-101234no restriction0 drops in sample (base)0 drops, 1 hike in window0 drops, 1 hike in sampleFigure D.2: Event study graphs: wage eﬀects by ﬁrm liability
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The graph plots event study estimates
+(ˆγj, j ∈ [−3, 4]) and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1).
+Dependent variable is the log median ﬁrm wage (observed on 30 June for each year). Event dummies are
+equal to one for tax increases greater than or equal to the 75th percentile of the tax increase distribution.
+The tax change occurred for the treatment group on 1 January in event year t = 0, as indicated by the
+vertical red line. All regression models include municipal, ﬁrm and “state × year” ﬁxed eﬀects. The
+estimation sample comprises all establishments in non-merged municipalities that did not experienced a
+tax decrease during the observation period. Depending on the speciﬁcation, we additionally restrict the
+sample to ﬁrms that are liable to or exempt from the LBT (see legend). Standard errors are clustered at
+the municipal level. Estimates are reported in Table D.12.
+
+62
+
+-4-2024Log real wages(relative to pre-reform period t=-1)-3-2-101234All firmsLiableNon LiableFigure D.3: Distributed lag model estimates: wage eﬀects by event window cut
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The graph plots distributed lag model
+estimates ( ˆβj, j ∈ [−4, 5]) and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation
+(2). Dependent variable is the yearly change in the log median ﬁrm wage (observed on 30 June for
+each year). Main regressors are leads and lags of the yearly change in the net-of-local-business-tax
+rate. All regression models include municipal, ﬁrm and “state × year” ﬁxed eﬀects. The estimation
+sample comprises all establishments liable to the LBT in non-merged municipalities. Depending on the
+speciﬁcation, we additionally restrict the sample to municipalities without a tax decrease during the
+observation period, not more than one increase in the event window, and/or only one tax increase in the
+whole observation period (see legend). Standard errors are clustered at the municipal level. Estimates
+are reported in Table D.14.
+
+63
+
+-.50.511.52Real wage growth (cumulative effect)-5-4-3-2-1012345no restriction0 decreases in sample (base)Panel A: GDP
+
+Panel B: Unemployment
+
+Figure D.4: Event study graphs: local business cycle eﬀects including tax decreases
+
+Source: Statistical Oﬃces of the Laender. Notes: The graph plots event study estimates (ˆγj, j ∈ [−3, 4])
+and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1). Dependent variables
+are log county GDP per capita (Panel A) and unemployment rate (Panel B). Event variables are dummies
+equal to one for a tax increase, a large tax increase (greater than or equal to the 75th percentile of the tax
+increase distribution), or a tax decrease (see legend). The tax change occurred for the treatment group on
+1 January in event year t = 0, as indicated by the vertical red line. All regression models include municipal
+and “state × year” ﬁxed eﬀects. In speciﬁcations with tax increase (decrease) dummies, we exclude all
+municipalities that experienced a tax decrease (increase) during the observation period. Standard errors
+are clustered at the municipal level. Estimates are reported in Tables D.15 and D.16, respectively.
+
+64
+
+-4-2024Log GDP p.c.(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreases-202468Log unemployment rate(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreasesPanel A: Revenues
+
+Panel B: Spending
+
+Panel C: Fiscal surplus
+
+Figure D.5: Event study graphs: municipal ﬁscal budget variables
+
+Source: Statistical Oﬃces of the Laender. Notes: The graph plots event study estimates (ˆγj, j ∈ [−3, 4])
+and corresponding 95% conﬁdence bands of diﬀerent speciﬁcations of equation (1). Dependent variables
+are log municipal revenues per capita (Panel A), log municipal spending per capita (Panel B), and
+municipal ﬁscal surplus, i.e. revenues – spending, per capita (Panel C). Event variables are dummies
+equal to one for a tax increase or a large tax increase (greater than or equal to the 75th percentile of the
+tax increase distribution, see legend). The tax change occurred for the treatment group on 1 January
+in event year t = 0, as indicated by the vertical red line. All regression models include municipal and
+“state × year” ﬁxed eﬀects. We exclude all municipalities that experienced a tax decrease during the
+observation period. Standard errors are clustered at the municipal level. Estimates are reported in Tables
+D.17, D.18, and D.19 respectively.
+
+65
+
+-20-1001020Log revenues(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreases-20-1001020Log spending(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreases-6-4-2024Fiscal surplus(relative to pre-reform period t=-1)-3-2-101234IncreasesLarge IncDecreasesTable D.1: Diﬀerences-in-diﬀerences estimates: wage eﬀects at diﬀerent levels of aggre-
+gation
+
+Aggregation level
+
+Log net-of-LBT rate
+
+(1)
+
+worker
+
+0.374
+(0.114)
+
+(2)
+ﬁrm municipality
+
+(3)
+
+0.388
+(0.127)
+
+0.416
+(0.252)
+
+N
+
+9, 295, 488
+
+44, 654
+
+15, 433
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ
+of regression model (3), estimated on diﬀerent levels of aggregation as indicated at the top of the table.
+Dependent variable at the worker levels is the log individual wage, at the municipal level the log mean
+municipal wage. Coeﬃcients measure the wage elasticity with respect to the net-of-local-business-tax
+rate. All speciﬁcations include municipal ﬁxed eﬀects, as well as “state × year” ﬁxed eﬀects. The model
+at the ﬁrm level additionally includes ﬁrm ﬁxed eﬀects, at the individual ﬁrm and worker ﬁxed eﬀects
+are added. The estimation sample comprises ([workers in] establishments in) non-merged municipalities.
+Standard errors are clustered at the municipal level. Standard errors are clustered at the municipal level.
+Speciﬁcation (2) replicates the baseline estimate, presented in column (1) of Table 1.
+
+Table D.2: Diﬀerences-in-diﬀerences estimates: eﬀects on worker composition
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Dependent var.
+
+ln share
+
+ln share
+
+ln share
+
+high-skilled med-skilled
+
+male
+
+−0.161
+(0.224)
+
+0.001
+(0.176)
+
+ln share
+
+ln share
+full-time blue-collar
+−0.139
+(0.170)
+
+0.425
+(0.309)
+
+ln mean
+
+age
+−0.108
+(0.062)
+
+44, 289
+
+43, 446
+
+44, 654
+
+40, 115
+
+44, 654
+
+Log net-of-LBT rate
+
+N
+
+0.054
+(0.648)
+
+22, 978
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3). Instead of the log wage, the dependent variables are log worker shares at the ﬁrm
+level, and the log mean worker age as indicated at the top of the table. Coeﬃcients measure the wage
+elasticity with respect to the net-of-local-business-tax rate. All speciﬁcations include ﬁrm and municipal
+ﬁxed eﬀects, as well as “state × year” ﬁxed eﬀects. The estimation sample comprises all establishments
+liable to the LBT in non-merged municipalities. Standard errors are clustered at the municipal level.
+
+66
+
+Table D.3: Diﬀerences-in-diﬀerences estimates: robustness of wage eﬀects to other con-
+trols
+
+Log net-of-LBT rate
+
+Future muni. spending
+Share never-censored
+
+(1)
+
+(2)
+
+(3)
+
+0.388
+(0.127)
+
+0.436
+(0.138)
+
+0.476
+(0.131)
+
+(cid:88)
+
+(cid:88)
+
+N
+
+44, 654
+
+40, 558
+
+44, 654
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3). Coeﬃcients measure the wage elasticity with respect to the net-of-local-business-tax rate.
+All speciﬁcations include ﬁrm and municipal ﬁxed eﬀects, as well as “state × year” ﬁxed eﬀects. In addition,
+control variables are added as indicated at the bottom of the table: (i) current and future (lead 1 and 2)
+municipal spending, (ii) the share of workers in the ﬁrm that are never wage-censored during the observation
+period. The estimation sample comprises all establishments liable to the LBT in non-merged municipalities.
+Standard errors are clustered at the municipal level. Speciﬁcation replicates the baseline estimate, presented
+in column (1) of Table 1.
+
+Table D.4: Diﬀerences-in-diﬀerences estimates at ﬁrm level: robustness to other depen-
+dent variables
+
+Log net-of-LBT rate
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+0.388
+(0.127)
+
+0.220
+(0.104)
+
+0.317
+(0.136)
+
+0.152
+(0.166)
+
+Dep. var: log ﬁrm wage
+N
+
+P50
+
+44, 654
+
+Mean
+44, 654
+
+P25
+
+P75
+
+44, 654
+
+44, 654
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3). The dependent variable are speciﬁc measures (median, mean, p25, p75) of the ﬁrm wage
+(in logs), as indicated at the top of the table. Coeﬃcients measure the wage elasticity with respect to the net-
+of-local-business-tax rate. All speciﬁcations include ﬁrm and municipal ﬁxed eﬀects, as well as “state × year”
+ﬁxed eﬀects.The estimation sample comprises all establishments liable to the LBT in non-merged municipalities.
+Standard errors are clustered at the municipal level. Speciﬁcation (1) replicates the baseline estimate, presented
+in column (1) of Table 1.
+
+67
+
+Table D.5: Diﬀerences-in-diﬀerences estimates: robustness of wage eﬀects to diﬀerent
+estimation samples
+
+Log net-of-LBT rate
+
+Municipalities
+Firms
+Years
+Add. condition
+
+(1)
+
+0.388
+(0.127)
+
+(2)
+
+(3)
+
+(4)
+
+0.185
+(0.097)
+
+0.188
+(0.102)
+
+0.409
+(0.146)
+
+(5)
+
+0.406
+(0.122)
+
+(6)
+
+0.408
+(0.151)
+
+(7)
+
+0.367
+(0.143)
+
+Non-merged Non-merged
+
+All
+
+Non-merged Non-merged Non-merged Non-merged
+
+Liable
+99-08
+
+All
+
+99-08
+
+Liable
+99-08
+
+Liable
+99-08
+0 drops
+
+Liable
+99-08
+
+Liable
+99-08
+
+Liable
+99-07
+
++ incorp.
+changers
+
++ ﬁrms <
+4 workers
+
+N
+
+44, 654
+
+69, 249
+
+58, 062
+
+36, 828
+
+49, 886
+
+56, 066
+
+39, 975
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3). Coeﬃcients measure the wage elasticity with respect to the net-of-local-business-tax rate.
+All speciﬁcations include ﬁrm and municipal ﬁxed eﬀects, as well as “state × year” ﬁxed eﬀects. The estimation
+sample varies across speciﬁcations as indicated at the bottom of the table. Standard errors are clustered at the
+municipal level. Speciﬁcation (1) replicates the baseline estimate, presented in column (1) of Table 1.
+
+Table D.6: Diﬀerences-in-diﬀerences estimates: wage eﬀects at individual level
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+(7)
+
+(8)
+
+Log net-of-LBT rate
+
+0.374
+(0.114)
+
+0.347
+(0.087)
+
+0.353
+(0.104)
+
+0.414
+(0.116)
+
+0.298
+(0.173)
+
+0.361
+(0.114)
+
+0.468
+(0.144)
+
+0.367
+(0.116)
+
+Workers
+State × year FE
+Year FE
+CZ × year FE
+Municipal controls t − 2
+Firm controls t − 2
+Worker characteristics
+
+ft
+(cid:88)
+
+ft
+
+(cid:88)
+
+ft
+
+(cid:88)
+
+ft
+(cid:88)
+
+(cid:88)
+
+ft
+(cid:88)
+
+(cid:88)
+
+ft
+(cid:88)
+
+non-cens
+
+(cid:88)
+
+ft+pt
+
+(cid:88)
+
+(cid:88)
+
+N (in million)
+
+9.295
+
+9.295
+
+9.295
+
+9.295
+
+6.430
+
+9.295
+
+7.275
+
+10.091
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3) with the log individual wage as dependent variable. Coeﬃcients measure the wage
+elasticity with respect to the net-of-local-business-tax rate. All regression models include municipal,
+ﬁrm and worker ﬁxed eﬀects. Additional control variables and ﬁxed eﬀects (year, “state × year” or
+“commuting zone (CZ) × year”) vary depending on the speciﬁcation (as indicated at the bottom of
+the table). For speciﬁcations (1) to (6), the estimation sample comprises all full-time (ft) workers in
+establishments liable to the LBT in non-merged municipalities. In model (7), the sample is restricted to
+workers whose wages have never been right-censored at the ceiling for social security contributions. In
+speciﬁcation (8), part-time workers are added to the full-time worker sample.
+
+68
+
+Table D.7: Diﬀerences-in-diﬀerences estimates: robustness of wage eﬀects with respect
+to clustering
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+(6)
+
+Log net-of-LBT rate
+
+0.388
+(0.127)
+
+0.388
+(0.091)
+
+0.388
+(0.129)
+
+0.388
+(0.131)
+
+0.388
+(0.119)
+
+0.388
+(0.129)
+
+N
+Clustering at level of muni muni×year
+Clusters
+
+44, 654
+
+44, 654
+
+14,610
+
+2,820
+
+44, 654
+county
+
+394
+
+44, 654
+
+CZ
+253
+
+44, 654
+state
+
+16
+
+44, 654
+
+ﬁrm
+14,221
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3). Coeﬃcients measure wage the elasticity with respect to the net-of-local-business-tax
+rate. All speciﬁcations include ﬁrm and municipal ﬁxed eﬀects, as well as “state × year” ﬁxed eﬀects. The
+estimation sample comprises all establishments liable to the LBT in non-merged municipalities. Standard
+errors are clustered at diﬀerent levels as indicated at the bottom of the table. Our preferred speciﬁcation
+is shown in column (1), where standard errors are clustered at the municipal level.
+
+69
+
+Table D.8: Diﬀerences-in-diﬀerences estimates: wage eﬀects by worker type, robustness
+with respect to censoring
+
+Stratiﬁed by ...
+
+Eﬀect of the log net-of-LBT rate by worker type
+
+N
+
+Skill
+
+All workers
+
+Not wage-censored
+
+Gender
+
+All workers
+
+Not wage-censored
+
+Occupation
+
+All workers
+
+Not wage-censored
+
+Age
+
+All workers
+
+Not wage-censored
+
+High
+0.013
+(0.120)
+0.011
+(0.230)
+
+Female
+0.530
+(0.129)
+0.583
+(0.140)
+
+Medium
+
+0.357
+(0.115)
+0.431
+(0.139)
+
+Male
+0.325
+(0.119)
+0.429
+(0.153)
+
+Blue-collar White-collar
+
+0.363
+(0.132)
+0.424
+(0.161)
+
+Young
+0.507∗∗∗
+(0.127)
+0.526
+(0.151)
+
+0.250
+(0.104)
+0.333
+(0.128)
+
+Medium
+0.317∗∗∗
+(0.111)
+0.370
+(0.136)
+
+Low
+0.377
+(0.168)
+0.428
+(0.192)
+
+Old
+
+0.329∗∗∗
+(0.106)
+0.401
+(0.124)
+
+9, 295, 488
+
+7, 275, 134
+
+9, 295, 488
+
+7, 275, 134
+
+9, 295, 422
+
+7, 275, 090
+
+9, 295, 488
+
+7, 275, 134
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: This table presents the DiD estimates ˆδ of
+regression model (3) with the log individual wage as dependent variables for diﬀerent worker types as
+indicated in the table. The heterogeneous eﬀects are estimated by interacting the LBT rate with dummy
+variables for diﬀerent ﬁrms types. Coeﬃcients measure the wage elasticity with respect to the net-of-
+local-business-tax rate. All speciﬁcations include worker, ﬁrm and municipal ﬁxed eﬀects, as well as
+“state × year” and “ﬁrm type × year” ﬁxed eﬀects. The estimation sample comprises all establishments
+liable to the LBT in non-merged municipalities. Standard errors are clustered at the municipal level.
+
+70
+
+Table D.9: Eﬀect of incidence assumptions on average tax rates across income distribution
+
+Groups
+
+PIT CIT Total Ratio PIT CIT Total Ratio
+
+Population average
+
+11.5
+
+2.3
+
+13.7
+
+12.3
+
+2.0
+
+14.4
+
+US (2004)
+
+Germany (2015)
+
+Panel A: Piketty-Saez Baseline (CIT incidence: 0% wages, 100% capital)
+
+P0-90
+P90-100
+P99-100
+
+5.4
+14.7
+22.7
+
+1.5
+2.3
+4.0
+
+7.0
+16.9
+26.8
+
+5.5
+21.8
+27.4
+
+0.2
+2.7
+7.4
+
+5.7
+24.6
+34.8
+
+1.4
+2.9
+
+Panel B: Counterfactual 1 (CIT incidence: 50% wages, 50% capital)
+
+P0-90
+P90-100
+P99-100
+
+5.4
+14.7
+22.7
+
+2.4
+1.1
+2.0
+
+7.8
+15.8
+24.8
+
+5.5
+21.8
+27.4
+
+1.2
+1.4
+3.7
+
+6.7
+23.2
+31.1
+
+1.0
+2.2
+
+Panel C: Counterfactual 2 (CIT incidence: 100% wages, 0% capital)
+
+P0-90
+P90-100
+P99-100
+
+5.4
+14.7
+22.7
+
+2.5
+0.0
+0.0
+
+7.9
+14.7
+22.7
+
+5.5
+21.8
+27.4
+
+2.0
+0.0
+0.0
+
+7.5
+21.8
+27.4
+
+0.8
+1.9
+
+4.3
+6.1
+
+3.5
+4.6
+
+2.9
+3.7
+
+Source: Own calculations based on Piketty and Saez (2007) for the US-2004 and Bach, Beznoska and
+Steiner (2016) for Germany-2015. Notes: This table shows the average income tax rates for the bottom
+90%, top 10% and top 1% of the market income distribution. The total tax rates are decomposed into
+personal and corporate income tax rates (PIT and CIT). The CIT for Germany includes the LBT. The
+“ratio” column reports the ratio of the top tax rate (top 10% or top 1%) to the tax rate for the bottom
+90% as a measure of progressivity. Panel A reports tax rates under the incidence assumption of Piketty
+and Saez (2007), i.e. the full corporate tax incidence being on capital income. Panels B and C report
+two counterfactuals with 50% (100%) of the incidence on wages. Note that formula (4) calculates the
+share of the tax burden borne by workers in terms of welfare – as discussed in Section 3.2. Given that the
+back-of-the-envelope calculation reported in this table is meant for illustrative purposes only, we assume
+here for simplicity reasons that 50% (100%) of the eﬀective tax burden is shifted onto workers. In both
+counterfactuals, the wage incidence is only aﬀecting wages of workers in the the bottom 90% (in line with
+the heterogeneous eﬀects that we ﬁnd).
+
+71
+
+Table D.10: Event study estimates: baseline wage eﬀects
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+0.559
+(0.352)
+0.423
+(0.305)
+0.069
+(0.228)
+-0.073
+(0.206)
+-0.226
+(0.281)
+-0.622
+(0.309)
+-0.576
+(0.318)
+-0.450
+(0.359)
+-0.899
+(0.349)
+
+-0.435
+(0.816)
+-0.282
+(0.776)
+-0.448
+(0.667)
+-0.736
+(0.580)
+-0.952
+(0.582)
+-2.140
+(0.817)
+-2.640
+(0.957)
+-2.630
+(0.923)
+-3.100
+(1.030)
+
+0.231
+(1.110)
+0.697
+(1.220)
+0.916
+(0.876)
+1.370
+(0.724)
+0.279
+(0.907)
+0.490
+(0.799)
+0.674
+(0.710)
+-0.574
+(1.030)
+0.729
+(0.659)
+
+36,826
+
+36,826
+
+6,001
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel A of Figure 3. Please refer to ﬁgure note for
+further information.
+
+72
+
+Table D.11: Event study estimates: wage eﬀects by event window cut
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+Speciﬁcation no res.
+
+0D in S 0D, 1H in W 0D, 1H in S
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+0.566
+(0.935)
+0.077
+(0.851)
+-0.459
+(0.703)
+-0.700
+(0.583)
+-1.090
+(0.762)
+-1.340
+(0.787)
+-1.940
+(0.879)
+-1.700
+(0.880)
+-2.030
+(0.976)
+
+-0.435
+(0.816)
+-0.282
+(0.776)
+-0.448
+(0.667)
+-0.736
+(0.580)
+-0.952
+(0.582)
+-2.140
+(0.817)
+-2.640
+(0.957)
+-2.630
+(0.923)
+-3.100
+(1.030)
+
+-0.644
+(0.839)
+-0.481
+(0.799)
+-0.590
+(0.709)
+-0.798
+(0.592)
+-1.030
+(0.604)
+-2.200
+(0.832)
+-2.710
+(0.968)
+-2.670
+(0.943)
+-3.280
+(1.070)
+
+44,630
+
+36,826
+
+36,086
+
+-0.807
+(0.851)
+-0.582
+(0.824)
+-0.400
+(0.708)
+-0.786
+(0.634)
+-0.843
+(0.635)
+-2.180
+(0.890)
+-2.790
+(1.020)
+-2.670
+(0.989)
+-3.330
+(1.130)
+
+33,554
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Figure D.1. Please refer to ﬁgure note for further
+information.
+
+73
+
+Table D.12: Event study estimates: wage eﬀects by ﬁrm liability
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation All ﬁrms Liable Non Liable
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+-0.771
+(0.812)
+-0.651
+(0.731)
+-0.505
+(0.600)
+-0.479
+(0.436)
+-0.590
+(0.476)
+-1.470
+(0.627)
+-1.640
+(0.703)
+-1.310
+(0.743)
+-1.460
+(0.790)
+
+-0.435
+(0.816)
+-0.282
+(0.776)
+-0.448
+(0.667)
+-0.736
+(0.580)
+-0.952
+(0.582)
+-2.140
+(0.817)
+-2.640
+(0.957)
+-2.630
+(0.923)
+-3.100
+(1.030)
+
+-1.040
+(1.530)
+-0.985
+(1.290)
+-0.595
+(1.190)
+0.294
+(0.588)
+0.369
+(0.777)
+0.119
+(0.882)
+0.157
+(1.060)
+0.789
+(1.060)
+1.400
+(1.240)
+
+57,032
+
+36,826
+
+20,206
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Figure D.2. Please refer to ﬁgure note for further
+information.
+
+74
+
+Table D.13: Distributed lag model estimates: baseline wage eﬀects
+
+(1)
+
+Speciﬁcation Lead/Lag
+
+(2)
+Lag
+
+F4
+
+F3
+
+F2
+
+F1
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+0.104
+(0.119)
+-0.026
+(0.128)
+-0.023
+(0.109)
+0.064
+(0.117)
+0.236
+(0.115)
+0.109
+(0.152)
+0.333
+(0.158)
+0.019
+(0.152)
+0.097
+(0.151)
+0.188
+(0.126)
+
+0.237
+(0.115)
+0.111
+(0.152)
+0.327
+(0.158)
+0.013
+(0.151)
+0.104
+(0.151)
+0.186
+(0.126)
+
+24,626
+
+24,626
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+estimates of the distributed lag model whose cumulative eﬀects are plotted in Panel
+B of Figure 3. Please refer to ﬁgure note for further information.
+
+75
+
+Table D.14: Distributed lag model estimates: wage eﬀects by event window cut
+
+(1)
+
+(2)
+
+Speciﬁcation no res.
+
+0D in S
+
+F4
+
+F3
+
+F2
+
+F1
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+0.014
+(0.092)
+0.132
+(0.103)
+0.023
+(0.093)
+-0.034
+(0.110)
+0.206
+(0.101)
+0.074
+(0.109)
+0.214
+(0.115)
+0.039
+(0.117)
+0.075
+(0.113)
+0.029
+(0.100)
+
+0.104
+(0.119)
+-0.026
+(0.128)
+-0.023
+(0.109)
+0.064
+(0.117)
+0.236
+(0.115)
+0.109
+(0.152)
+0.333
+(0.158)
+0.019
+(0.152)
+0.097
+(0.151)
+0.188
+(0.126)
+
+29,634
+
+24,626
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+estimates of the distributed lag model whose cumulative eﬀects are plotted in Figure
+D.3. Please refer to ﬁgure note for further information.
+
+76
+
+Table D.15: Event study estimates: GDP
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+-0.146
+(0.164)
+0.019
+(0.137)
+0.119
+(0.099)
+0.033
+(0.093)
+-0.011
+(0.118)
+0.066
+(0.137)
+-0.085
+(0.162)
+0.050
+(0.180)
+0.115
+(0.197)
+
+0.134
+(0.241)
+0.152
+(0.196)
+0.016
+(0.132)
+0.006
+(0.128)
+-0.229
+(0.172)
+-0.231
+(0.202)
+-0.425
+(0.228)
+-0.240
+(0.254)
+-0.450
+(0.278)
+
+2.310
+(1.080)
+2.420
+(0.770)
+0.773
+(0.671)
+-0.597
+(0.977)
+-0.733
+(0.972)
+0.492
+(1.150)
+0.341
+(0.818)
+0.875
+(0.954)
+0.048
+(1.030)
+
+31,023
+
+31,023
+
+6,479
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel A of Figure 4. Please refer to ﬁgure note for
+further information.
+
+77
+
+Table D.16: Event study estimates: unemployment
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+-0.364
+(0.284)
+-0.174
+(0.212)
+0.170
+(0.143)
+-0.067
+(0.125)
+-0.334
+(0.188)
+-0.241
+(0.237)
+0.008
+(0.277)
+0.106
+(0.315)
+-0.003
+(0.337)
+
+-0.863
+(0.767)
+-0.310
+(0.643)
+0.234
+(0.479)
+-0.010
+(0.340)
+0.182
+(0.574)
+0.191
+(0.692)
+0.079
+(0.806)
+0.751
+(0.906)
+1.710
+(0.975)
+
+-0.112
+(1.640)
+0.231
+(1.440)
+0.168
+(0.892)
+1.730
+(1.200)
+1.810
+(1.330)
+3.800
+(1.520)
+4.880
+(1.470)
+3.470
+(1.460)
+2.250
+(2.320)
+
+31,023
+
+31,023
+
+6,479
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel B of Figure 4. Please refer to ﬁgure note for
+further information.
+
+78
+
+Table D.17: Event study estimates: municipal revenues
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+1.150
+(0.663)
+0.949
+(0.627)
+1.460
+(0.509)
+-0.008
+(0.506)
+1.320
+(0.624)
+1.360
+(0.647)
+0.421
+(0.676)
+1.120
+(0.722)
+1.830
+(0.748)
+
+0.659
+(1.910)
+-2.200
+(1.640)
+1.390
+(1.730)
+0.980
+(1.400)
+1.850
+(1.930)
+-0.148
+(1.920)
+-0.629
+(2.070)
+0.102
+(1.920)
+1.660
+(2.040)
+
+-8.820
+(4.470)
+-8.030
+(3.900)
+-5.350
+(3.480)
+0.288
+(3.110)
+-3.540
+(3.820)
+-0.851
+(4.800)
+-4.700
+(5.490)
+4.970
+(5.010)
+-3.090
+(3.900)
+
+30,984
+
+30,984
+
+6,477
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel A of Figure D.5. Please refer to ﬁgure note
+for further information.
+
+79
+
+Table D.18: Event study estimates: municipal spending
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+-0.169
+(0.689)
+-0.313
+(0.623)
+0.682
+(0.501)
+-1.460
+(0.515)
+-0.178
+(0.629)
+0.246
+(0.667)
+-0.692
+(0.709)
+-0.203
+(0.765)
+0.046
+(0.798)
+
+-0.255
+(2.040)
+-2.910
+(1.770)
+0.720
+(1.810)
+-2.630
+(1.580)
+-1.870
+(1.850)
+-1.820
+(2.010)
+-1.180
+(2.240)
+-2.500
+(2.100)
+0.547
+(2.240)
+
+-6.010
+(2.930)
+-7.080
+(3.370)
+-0.251
+(3.310)
+0.421
+(3.100)
+2.320
+(3.610)
+-1.170
+(3.980)
+4.270
+(4.090)
+7.040
+(4.270)
+-2.520
+(3.610)
+
+30,982
+
+30,982
+
+6,476
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel B of Figure D.5. Please refer to ﬁgure note
+for further information.
+
+80
+
+Table D.19: Event study estimates: municipal ﬁscal surplus
+
+(1)
+
+(2)
+
+(3)
+
+Speciﬁcation Increases Large Inc Decreases
+
+F4
+
+F3
+
+F2
+
+L0
+
+L1
+
+L2
+
+L3
+
+L4
+
+L5
+
+N
+
+0.169
+(0.090)
+0.121
+(0.091)
+0.086
+(0.081)
+0.230
+(0.078)
+0.228
+(0.079)
+0.192
+(0.085)
+0.153
+(0.088)
+0.141
+(0.100)
+0.255
+(0.095)
+
+0.110
+(0.263)
+-0.156
+(0.278)
+0.027
+(0.251)
+0.442
+(0.294)
+0.383
+(0.194)
+0.246
+(0.262)
+-0.089
+(0.231)
+0.150
+(0.332)
+-0.081
+(0.252)
+
+-1.330
+(1.310)
+-1.050
+(1.400)
+-2.050
+(1.150)
+0.604
+(1.100)
+-2.780
+(1.880)
+1.030
+(1.890)
+-2.680
+(1.370)
+-0.336
+(1.900)
+-0.080
+(1.200)
+
+30,983
+
+30,983
+
+6,477
+
+Source: LIAB and Statistical Oﬃces of the Laender. Notes: The table shows the
+event study estimates plotted in Panel C of Figure D.5. Please refer to ﬁgure note
+for further information.
+
+81
+
+ 
+
+ 
+
+ifo Working Papers 
+
+ 
+No. 240  Ochsner,  C.,  Dismantled  once,  diverged  forever?  A  quasi-natural  experiment  of  Red 
+
+Army misdeeds in post-WWII Europe, August 2017. 
+
+ 
+No. 239  Drometer, M. and R. Méango, Electoral Cycles, Effects and U.S. Naturalization Policies, 
+
+August 2017. 
+
+ 
+No. 238  Sen, S. and M.-T. von Schickfus, Will Assets be Stranded or Bailed Out? Expectations of 
+
+Investors in the Face of Climate Policy, August 2017. 
+
+ 
+No. 237  Giesing, Y. and A. Music, Household behaviour in times of political change: Evidence 
+
+from Egypt, July 2017. 
+
+ 
+No. 236  Hayo,  B.  and  F.  Neumeier,  Explaining  Central  Bank  Trust  in  an  Inflation  Targeting 
+
+Country: The Case of the Reserve Bank of New Zealand, June 2017. 
+
+ 
+No. 235  Buettner, T. und M. Krause, Föderalismus im Wunderland: Zur Steuerautonomie bei 
+
+der Grunderwerbsteuer, März 2017. 
+
+ 
+No. 234  Blesse,  S.  und  F.  Rösel,  Gebietsreformen:  Hoffnungen,  Risiken  und  Alternativen, 
+
+Januar 2017. 
+
+ 
+No. 233  Hayo,  B.  and  F.  Neumeier,  The  (In)Validity  of  the  Ricardian  Equivalence  Theorem  – 
+
+Findings from a Representative German Population Survey, December 2016. 
+
+ 
+No. 232 
+
+Fritzsche, C. and L. Vandrei, The German Real Estate Transfer Tax: Evidence for Single-
+Family Home Transactions, November 2016. 
+
+ 
+No. 231  Nagl, W. and M. Weber, Stuck in a trap? Long-term unemployment under two-tier 
+
+unemployment compensation schemes, November 2016. 
+
+ 
+No. 230  Neumeier, F., Do Businessmen Make Good Governors?, November 2016. 
+ 
+
+ 
+
+ 
+
+No. 229  Gutmann, J., M. Neuenkirch and F. Neumeier, Precision-Guided or Blunt? The Effects 
+
+of US Economic Sanctions on Human Rights, November 2016. 
+
+ 
+No. 228 
+
+Felbermayr, G., R. Aichele, I. Heiland, A. Melchior and M. Steininger, TTIP – Potential 
+Effects on Norway, (November 2016) revised version December 2016. 
+
+ 
+No. 227  Schueler,  R.,  Educational  inputs  and  economic  development  in  end-of-nineteenth-
+
+century Prussia, October 2016. 
+
+ 
+No. 226  Riem, M., Does political uncertainty influence firm owners‘ business perceptions?, 
+
+October 2016. 
+
+ 
+No. 225  Enzi, B. and B. Siegler, The Impact of the Bologna Reform on Student Outcomes – 
+Evidence  from  Exogenous  Variation  in  Regional  Supply  of  Bachelor  Programs  in 
+Germany, October 2016. 
+
+ 
+No. 224  Roesel,  F.,  Do mergers of large local governments reduce expenditures? –  Evidence 
+
+from Germany using the synthetic control method, October 2016. 
+
+ 
+No. 223  Schueler, R., Centralized Monitoring, Resistance, and Reform Outcomes: Evidence from 
+
+School Inspections in Prussia, October 2016. 
+
+ 
+No. 222  Battisti, M., R. Michaels and C. Park, Labor supply within the firm, October 2016. 
+ 
+No. 221  Riem, M., Corporate investment decisions under political uncertainty, October 2016. 
+ 
+No. 220  Aichele, R., I. Heiland and G. Felbermayr, TTIP and intra-European trade: boon or 
+
+bane?, September 2016. 
+
+ 
+No. 219  Aichele, R., G. Felbermayr and I. Heiland, Going Deep: The Trade and Welfare Effects of 
+
+TTIP Revised, July 2016. 
+
+ 
+No. 218 
+
+Fischer, M., B. Kauder, N. Potrafke and H.W. Ursprung, Support for free-market policies 
+and reforms: Does the field of study influence students’ political attitudes?, July 2016. 
+
+ 
+No. 217  Battisti, M., G. Felbermayr and S. Lehwald, Inequality in Germany: Myths, Facts, and 
+
+Policy Implications, June 2016. 
+
+

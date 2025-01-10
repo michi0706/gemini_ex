@@ -1,0 +1,3183 @@
+American Economic Review 2015, 105(12): 3531–3563 
+http://dx.doi.org/10.1257/aer.20130098
+
+Capital Tax Reform and the Real Economy:  
+The Effects of the 2003 Dividend Tax Cut†
+
+By Danny Yagan*
+
+This  paper  tests  whether  the  2003  dividend  tax  cut—one  of  the 
+largest reforms ever to a US capital tax rate—stimulated corporate 
+investment and increased labor earnings, using a quasi-experimental 
+design  and  US  corporate  tax  returns  from  years  1996–2008.  I 
+estimate that the tax cut caused zero change in corporate investment 
+and employee compensation. Economically, the statistical precision 
+challenges  leading  estimates  of  the  cost-of-capital  elasticity  of 
+investment,  or  undermines  models  in  which  dividend  tax  reforms 
+affect the cost of capital. Either way, it may be difficult to implement 
+an  alternative  dividend  tax  cut  that  has  substantially  larger  near-
+term effects. (JEL C72, C78, C91)
+
+The Jobs and Growth Tax Relief Reconciliation Act of 2003 reduced the top fed-
+eral tax rate on individual dividend income in the United States from 38.6 percent to 
+15 percent. The president projected that the tax cut would provide “near-term sup-
+port to investment” and “capital to build factories, to buy equipment, hire more peo-
+ple.”1 The underlying rationale finds support in economics: traditional models imply 
+that dividend tax cuts substantially reduce firms’ cost of capital (Harberger 1962, 
+1966; Feldstein 1970; Poterba and Summers 1985), and investment appears highly 
+responsive to the cost of capital (Hall and Jorgenson 1967; Cummins, Hassett, and 
+Hubbard 1994; Caballero, Engel, and Haltiwanger 1995). Similar arguments moti-
+vate ongoing proposals to use capital tax reforms to increase near-term output (Ryan 
+2011, 2012; Hubbard et al. 2012).2
+
+* Department of Economics, University of California, Berkeley, 530 Evans Hall #3880, Berkeley, CA 94720, 
+and  National  Bureau  of  Economic  Research (e-mail:  yagan@berkeley.edu).  I  thank  Alan  Auerbach,  Effraim 
+Benmelech, Shai Bernstein, Raj Chetty, David Cutler, Mihir Desai, Jesse Edgerton, C. Fritz Foley, John Friedman, 
+Nathaniel  Hilger,  Patrick  Kline,  N.  Gregory  Mankiw,  Joana  Naritomi,  James  Poterba,  Emmanuel  Saez, Andrei 
+Shleifer, Joel Slemrod, Jeremy Stein, Lawrence Summers, Matthew Weinzierl, anonymous referees, and numerous 
+seminar participants for helpful comments. Amol Pai, Evan Rose, and Michael Stepner provided excellent research 
+assistance. The tax data were accessed through contract TIRNO-09-R-00007 with the Statistics of Income Division 
+at the US Internal Revenue Service. This work does not necessarily reflect the IRS’s interpretation of the data. The 
+author declares that he has no relevant or material financial interests that relate to the research described in this 
+paper. 
+
+† Go  to  http://dx.doi.org/10.1257/aer.20130098  to  visit  the  article  page  for  additional  materials  and  author  
+disclosure statement.
+1 The first quote is from the February 2003 Economic Report of the President (Bush 2003, p. 55); the second 
+quote is from President Bush’s speech on January 7, 2003, introducing the tax cut (http://cnsnews.com/news/article/
+president-bushs-speech-unveiling-his-economic-stimulus-plan (accessed March 22, 2012)). Both refer specifically 
+to the dividend tax cut.
+2 The influential “Ryan Plans” of the US House Committee on the Budget proposed to keep capital income tax 
+rates low or to lower them further in order to “provide an immediate boost to a lagging economy by increasing 
+
+3531
+
+3532
+
+However, there is no direct evidence on the real effects of the 2003 dividend tax 
+cut, for the simple reason that real corporate outcomes are too cyclical to distinguish 
+tax  effects  from  business  cycle  effects. Aggregate  investment  rose  31  percent  in 
+the five years after the tax cut, but that increase could have been driven by secular 
+emergence from the early 2000s recession. Indeed, aggregate investment rose by 
+34 percent in the five years following the early 1990s recession despite no dividend 
+tax cut. As a result, existing work on the real effects of dividend taxes has relied 
+on indirect evidence such as the goodness-of-fit of alternative structural investment 
+equations (Poterba and Summers 1983).
+This paper tests for real effects of the 2003 dividend tax cut by using a set of 
+unaffected corporations to control for the business cycle. Upon incorporating at the 
+state level, US corporations adopt either “C” or “S” status for federal tax purposes. 
+C-corporations and S-corporations face similar tax rates except that C-corporations 
+are subject to dividend taxation while S-corporations are not. S-status typically con-
+fers tax advantages, but restrictions on the number and type of shareholders pre-
+vent corporations with publicly traded stock, with any institutional equity financing, 
+or with any divisions between ownership and control from enjoying S-status. This 
+paper uses S-corporations (not directly affected by the dividend tax cut) as a control 
+group for C-corporations (directly affected) over time.3
+The identifying assumption underlying this research design is not random assign-
+ment of C- versus S-status; it is that C- and S-corporation outcomes would have 
+trended similarly in the absence of the tax cut. Three facts support this “common 
+trends” assumption. First, C- and S-corporations of the same ages operate in the 
+same  narrow  industries  and  at  the  same  scale  throughout  the  United  States  and 
+are  thus  subject  to  similar  cyclical  shocks.  Second,  contemporaneous  stimulative 
+tax  provisions  like  accelerated  depreciation  applied  almost  identically. Third  and 
+perhaps  most  important,  key  outcomes  empirically  trended  similarly  for  C-  and 
+S-corporations in the several years before 2003.
+
+This paper uses rich data from US corporate income tax returns from years 1996 
+to 2008. All publicly traded corporations, and thus the absolute largest corporations, 
+are C-corporations; I therefore focus on a stratified random sample of private C- and 
+S-corporations with assets between one million and one billion dollars (the nine-
+tieth and 99.9th percentiles of the US firm size distribution) and revenue between 
+0.5 million and 1.5 billion dollars. Based on Census Bureau data, firms in this size 
+range  employ  over  half  of  all  US  private  sector  workers.  In  the  tax  data,  C-  and 
+S-corporations  in  this  range  are  densely  populated  within  fine  industry-firm-size 
+bins, and all results flexibly control for time-varying industry-firm-size shocks. This 
+paper’s main sample is an unbalanced panel comprising 333,029 annual observa-
+tions from 73,188 corporations, 58 percent of which are C-corporations; I obtain 
+
+wages, lowering costs, and providing greater returns on investment” (Ryan 2011) and to prevent “raising taxes on 
+investing at a time when new business investment is critical for sustaining the weak economic recovery” (Ryan 
+2012). Hubbard et al. (2012, p. 5) predicted that Governor Mitt Romney’s proposed capital and labor income tax 
+reforms “will increase GDP growth by between 0.5 percent and 1 percent per year over the next decade.” 
+3 To the extent that an increase in C-corporation investment displaced S-corporation investment, this empirical 
+design overstates the magnitude of the aggregate effect. The design tests for the canonical price effect of dividend 
+taxation; indirect effects such as wealth effects among savers that could have increased or decreased worldwide 
+corporate investment are outside the scope of this paper. Switching between corporate types is rare. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153533
+
+qualitatively similar results in balanced panel regressions in which the only firm-
+level variable changing over time is the outcome of interest.
+
+I  find  that  annual  C-corporation  investment  trended  similarly  to  annual 
+S-corporation investment before 2003 and continued to do so after 2003. The differ-
+ence-in-differences point estimate implies an elasticity of investment with respect to 
+one minus the top statutory dividend tax rate of  0.00  with a 95 percent confidence 
+interval of  −0 .08  to  0.08  , equivalent to  −0.03  to  0.03  standard deviations of firm-
+level investment.
+The finding of no significant increase in investment is robust across alternative 
+specifications (with  and  without  controls),  sample  frames (unbalanced  and  bal-
+anced  panels),  investment  measures (gross  investment  and  net  investment),  out-
+lier  top-coding (at  the  ninety-fifth  and  ninety-ninth  percentiles),  and  subsamples 
+(defined by size, age, growth, profitability, cash, and debt). I further find a negative 
+point  estimate  and  a  95  percent  confidence  upper  bound  elasticity  of   0.04  ( 0.02  
+standard  deviations)  for  the  related  and  independently  relevant  outcome  of  total 
+employee compensation. Results remain unchanged when including the 76 percent 
+of publicly traded corporations that fall in this paper’s size range and become nega-
+tive when including all publicly traded corporations.
+To confirm the tax cut’s salience and relevance in spite of the lack of detectable 
+real  effects,  I  test  for  an  effect  on  total  payouts  to  shareholders (dividends  plus 
+share buybacks)—the focus of the existing academic debate over the effects of this 
+tax reform (Chetty and Saez 2005; Brown, Liang, and Weisbenner 2007; Blouin, 
+Raedy, and Shackelford 2011; Edgerton 2013). I find that C-corporation payouts 
+spiked immediately in 2003 by  21 percent  relative to S-corporation payouts, with a  
+t -statistic over  5 . The payouts effect was large and persistent in percentage terms but 
+small in dollar terms and is consistent with a small dollar-for-dollar displacement 
+of  C-corporation  investment,  or  alternatively  with  a  mere  reshuffling  of  financial 
+claims that had no real effects.
+
+These core results do not necessarily apply to corporations that were smaller or 
+larger than the firm size range analyzed here, so I test for real effects of the tax cut 
+within each firm size decile and ask whether the results suggest that out-of-sample 
+effects were likely different. For each real outcome, I find a zero effect within every 
+firm size decile and no upward or downward trend across deciles. Hence, I do not 
+find evidence suggestive of different out-of-sample results.
+
+Finally, a recent model notes that a dividend tax cut can increase the productiv-
+ity of investment even if it does not increase its level, by causing poorly-managed 
+C-corporations to reduce wasteful investment and to increase payouts while causing 
+other C-corporations to increase productive investment via increased equity issuance 
+(Chetty and Saez 2010). When dividing the sample by each of six firm characteristics 
+(size, age, growth, profitability, cash, and debt), I find no relationship between the 
+subgroups that increased payouts the most and those that increased equity issuance 
+the least. Thus I do not find evidence in favor of this  efficiency-enhancing channel.
+This paper complements a large empirical literature that has found substantial 
+real  effects  of  other  fiscal  policies.  Temporary  countercyclical  policies  such  as 
+accelerated investment depreciation (House and Shapiro 2008; Zwick and Mahon 
+2014), individual income tax rebates (Johnson, Parker, and Souleles 2006), and tem-
+porary durable goods subsidies (Mian and Sufi 2012) have increased at least some 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123534
+
+ component of aggregate spending. Many studies have shown that labor income taxes 
+reduce labor supply (see Chetty 2012 for a recent review);  q -theory-based regres-
+sions  suggest  that  corporate  income  taxes  reduce  investment (Cummins,  Hassett, 
+and  Hubbard  1994);  and  the  pooled  effect  on  near-term  output  of  labor  income, 
+capital income, and other tax reforms since World War II was substantial (Romer 
+and Romer 2010). This paper contributes to this literature by documenting that in 
+contrast to numerous other fiscal policies, the 2003 dividend tax cut—one of the 
+largest changes ever to a US capital income tax rate—had no detectable near-term 
+impact on the real outcomes it was projected to improve.
+
+The  null  result  relates  to  theory  and  to  alternative  dividend  tax  reforms. 
+Economically, the null result rejects the joint hypothesis that the tax cut substan-
+tially  reduced  firms’  cost  of  capital  as  in  traditional  models  and  that  investment 
+responded to the cost of capital as much as leading estimates predict. In particu-
+lar, combining the leading “traditional-view” model of dividend taxation (Poterba 
+and  Summers  1985)  with  consensus  estimates  of  the  cost-of-capital  elasticity  of 
+investment (Hassett and Hubbard 2002) would predict a dividend tax elasticity of 
+investment range of  0.21  to  0.41 —at least 2.5 times the 95 percent confidence upper 
+bound of this paper’s empirical estimate.
+The null result accords instead with the leading class of alternative models (the 
+“new  view”  or  “trapped  equity  view”  of  dividend  taxation)  in  which  marginal 
+investments are funded out of retained earnings and riskless debt rather than out of 
+newly issued equity or risky debt (King 1977; Auerbach 1979; Bradford 1981). The 
+key mechanism is that earnings from preexisting operations will inevitably be sub-
+ject to dividend taxes (whether paid out immediately or paid out in the future after 
+being retained for investment), so a dividend tax cut increases the post-tax return on 
+investment by the same magnitude that it increases the opportunity cost of invest-
+ment, inducing no investment change.4
+
+Traditional models of dividend taxation can nevertheless explain the null result 
+as due to particular features of this dividend tax cut and other tax rates, as detailed 
+in Section V. The bottom line from that discussion is that even in that case, it may 
+be difficult for policymakers to implement an alternative dividend tax cut that sub-
+stantially increases near-term investment. For example, the 2003 dividend tax cut 
+carried a default expiration date, and it is possible that a permanent dividend tax 
+cut would have substantially increased investment. However, the United States has 
+never committed to a near-term or long-term path for tax policy so the required lon-
+gevity may be infeasible to guarantee: the 2003 dividend tax cut has outlasted many 
+tax reforms that had no expiration date, and a majority of G7 countries have revised 
+their dividend tax rates up or down substantially since 2003.
+
+The  corporate  finance  literature  on  the  2003  dividend  tax  cut  has  focused  on 
+whether the post-2003 increase in dividend payouts from publicly traded corpora-
+tions (Chetty and Saez 2005) represented an increase in total corporate payouts or 
+was offset by an equal reduction in share buybacks (Brown, Liang, and Weisbenner 
+2007; Blouin, Raedy, and Shackelford 2011; Edgerton 2013). This paper shows that 
+the tax cut indeed increased total corporate payouts—a finding again made possible 
+
+4 In terms of Tobin’s  q ,  q  is less than 1 in the new view by an amount that varies proportionally with 1 minus 
+
+the dividend tax rate. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153535
+
+by  the  S-corporation  control  group  because,  like  investment,  share  buybacks  are 
+very procyclical.
+
+The remainder of this paper is organized as follows. Section I describes the 2003 
+dividend tax cut and the distinction between C- and S-corporations. Section II intro-
+duces the tax data. Section III estimates real effects of the 2003 dividend tax cut. 
+Section IV confirms salience and relevance by analyzing payouts. Section V details 
+economic and policy implications. Section VI concludes.
+
+I.  C- versus S-Corporations and the 2003 Tax Reform
+
+A. C- versus S-Status
+
+After  filing  incorporation  documents  at  the  state  level,  US  corporations  elect 
+either “C” or “S” status for federal tax purposes. C-corporations pay the corporate 
+income tax on annual taxable income, and US shareholders pay dividend taxes on 
+dividends and pay capital gains taxes on qualified share buybacks. S-corporations—
+named after their subchapter of the Internal Revenue Code—have the same legal 
+structure as C-corporations but for tax purposes are flow-through entities that do not 
+pay an entity-level income tax. Instead, taxable business income flows through pro 
+rata to individual shareholders’ tax returns and is taxed as ordinary income in the 
+year it is earned, regardless of whether the income is actually distributed to share-
+holders that year.5 When distributed, S-corporation dividends are untaxed.6
+S-status typically confers tax advantages (detailed in the next subsection), but 
+not all corporations qualify for S-status. The most important restrictions are that the 
+corporation must have no more than 100 shareholders, all shareholders must be US 
+citizens or residents and not business entities, and the corporation must have only 
+one class of stock. Thus all publicly traded corporations, corporations financed with 
+venture capital, corporations partially or wholly owned by private equity or other 
+firms, corporations that widely use stock-based compensation, and corporations that 
+use stock classes to divide ownership from control cannot be S-corporations. Despite 
+these restrictions some very large corporations are publicly-known S-corporations 
+such as Fidelity Investments.7 Corporations can switch status and I account for this 
+in the analysis below, though consecutively switching back and forth is restricted 
+by law and switching is rare empirically because most factors that bar S-status (e.g., 
+institutional shareholders) are persistent.
+Except for the very largest corporations which are all publicly traded and are thus 
+C-corporations, C- and S-corporations of the same ages operate in the same nar-
+row industries and at the same scales across the United States. For example, online 
+Appendix Figure 1A uses data from the full population of US corporate tax returns 
+
+their character and are taxed as dividend income or capital gains at the shareholder level. 
+
+5 Taxable dividend income or capital gains earned by S-corporations (e.g., on passively held securities) retain 
+6 The tax treatment of C- and S-corporations differ in other, smaller ways. For example, C-corporations can 
+deduct charitable deductions up to only 10 percent of taxable income whereas S-corporations face limits at the 
+individual shareholder level. S-corporations are taxed similarly to partnerships; relative to partnerships which were 
+not analyzed for this paper, S-corporations may be a more appropriate control group for C-corporations because, 
+aside from taxes, C- and S-corporations have identical legal rights and responsibilities. 
+7 This information was obtained from a recent press report (http://www.boston.com/business/globe/articles/ 
+2007/11/03/fidelity_changes_its_corporate_structure/ (accessed March 22, 2012)) and not from tax data. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123536
+
+to  plot  the  distribution  of  C-  and  S-corporations  by  1-digit  NAICS  classification 
+for all 397,008 corporations in 2002 that satisfy the size and industry restrictions 
+in this paper, detailed in Section IIB.8 The figure shows that C- and S-corporations 
+are relatively evenly distributed across major industries. Zeroing in on the 23,892 
+corporations in the most-common 3-digit NAICS classification (wholesale durable 
+goods  trade),  online Appendix  Figure  1B  shows  the  even  distribution  of  C-  and 
+S-corporations across narrow 4-digit industries. Online Appendix Figure 1C simi-
+larly shows even distributions of firm size. Online Appendix Figure 1D uses public 
+data  on  two  large  corporations (Home  Depot  and  Menard  Inc.,  respectively,  the 
+country’s largest and third-largest home improvement retailers) to illustrate a spe-
+cific example of publicly known C- and S-corporations operating in the same nar-
+row industry and in the same locale (the Chicago metropolitan area).
+C-  and  S-corporations  differ  along  some  notable  dimensions.  For  example, 
+C-corporations tend to be more asset-intensive and less-profitable than S-corporations 
+after  controlling  for  revenue  and  industry.  Nevertheless,  the  substantial  overlap 
+demonstrated in online Appendix Figure 1—and below in Figure 1 and Table 1 for 
+the main analysis sample—by industry and size suggests that even if the corporation 
+types differ in the level of outcomes, they may share common trends because they 
+share any time-varying industry and firm-size shocks. Common trends is the condi-
+tion required for identification below. Later, I demonstrate empirically that C- and 
+S-corporation outcomes indeed trended similarly before 2003.
+
+B. The 2003 Tax Reform
+
+On May 28, 2003, President George W. Bush signed into law the Jobs and Growth 
+Tax Relief Reconciliation Act of 2003. This tax reform reduced the marginal fed-
+eral dividend income tax rate from 38.6 percent to 15 percent for the recipients of 
+most taxable dividends.9 President Bush proposed the reform on January 7, 2003; 
+it applied retroactively to January 1, 2003; and the dividend tax proposal appears to 
+have been largely unanticipated (Auerbach and Hassett 2007). As the name of the 
+law (“Jobs and Growth”) and the paper’s introductory quotes from President Bush 
+indicate, the tax cut’s supporters argued that it would affect real economic outcomes 
+beginning in the near-term.
+The tax reform changed three other relevant provisions. It reduced the top capital 
+gains tax rate (the rate assessed on income earned from qualified share buybacks) 
+from  20  percent  to  15  percent.  It  expanded  temporary  accelerated  depreciation 
+for equipment and light structures investment through 2004, which applied nearly 
+
+8 These  unedited  population  data  lack  investment  and  other  key  variables  and  so  are  used  only  for  online 
+Appendix Figures 1A–1C. 
+9 The  tax  reform  reduced  the  marginal  tax  rate  on  qualified (i.e.,  from  US  or  tax-treaty-qualifying   foreign 
+corporation  stock  held  for  at  least  60  days)  and  taxable (i.e.,  not  from  S-corporations  or  accrued  to  tax-pre-
+ferred  accounts)  dividends  for  individual  taxpayers  in  the  top  4  ordinary  income  tax  brackets  from  27  per-
+cent,  30  percent,  35  percent,  and  38.6  percent  to  15  percent,  and  for  taxpayers  in  the  bottom  2   ordinary 
+income  tax  brackets  from  10  percent  or  15  percent  to  5  percent.  Most  taxable  dividends  accrue  to  taxpay-
+ers  in  the  top  ordinary  income  tax  bracket  and  approximately  90  percent  accrue  to  taxpayers  in  the  top  4.  
+The tax reform did not change the tax treatment of dividends received by individuals in tax-favored savings accounts 
+or by nonprofit, corporate, or government entities. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153537
+
+Panel A. Industry 
+
+NAICS 1: Agriculture & Forestry
+
+NAICS 2: Construction & Mining
+
+NAICS 3: Manufacturing
+
+NAICS 4: Retail & Wholesale Trade
+
+NAICS 5: Information & Professional services
+
+NAICS 6: Health Care
+
+NAICS 7: Entertainment, Food, & Hotels
+
+NAICS 8: Other services
+
+Panel B. Size (lagged revenue) 
+
+ 
+
+0% 
+
+10% 
+
+20% 
+
+30% 
+
+40% 
+
+40% 
+
+30% 
+
+20% 
+
+10% 
+
+0% 
+
+$500k−$5m 
+
+$5m−$10m 
+
+$10m−$50m 
+C-corporations (195k firm-years)
+S-corporations (138k firm-years)
+
+$50m−$1.5bn 
+
+ 
+
+Figure 1. Industry and Size Distribution of the Main Analysis Sample
+
+Notes:  This  figure  plots  the  industry  and  size  mix  of  the  C-corporations  (whose  dividends  are  taxable)  and 
+S-corporations (whose  dividends  are  not  taxable)  in  this  paper’s  main  analysis  sample.  Each  graph’s  bars  sum 
+to 100 percent within corporation type. Lagged revenue denotes operating revenue averaged over the preceding 
+two lags. This sample is an unbalanced panel of annual corporate income tax returns, comprising all observations 
+from the IRS Statistics of Income stratified random sample in years 1998–2008 in which the filing corporation 
+had between $1 million and $1 billion in lagged assets and $500,000 and $1.5 billion in lagged revenue, was pri-
+vate through the previous year, and is not in the finance or utilities industries. All analyses flexibly control for any 
+time-varying industry or firm-size shocks by non-parametrically reweighting the S-corporation sample within every 
+year to match the distribution of C-corporations across 190 industry-firm-size bins as detailed in Section IIE. C- 
+versus S-status is defined as of the second lag; corporations can switch status if they meet the legal requirements but 
+fewer than 4 percent ever switched in this sample. See Table 1 for summary statistics.
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 12percentile
+
+90th 
+(8)
+
+169,980,800
+74,923,672
+17,449,492
+
+0.25
+0.34
+
+0.46
+
+0.97
+51
+
+3538
+
+Table 1—Unweighted Summary Statistics for the Main Analysis Sample
+S-corporations
+10th 
+(7)
+
+C-corporations
+10th 
+(3)
+
+Median
+(2)
+
+Median
+(6)
+
+90th 
+(4)
+
+Mean
+(5)
+
+Mean
+(1)
+
+percentile
+
+percentile
+
+percentile
+
+Characteristics
+Lagged revenue
+Lagged assets
+Lagged tangible 
+  capital assets
+Lagged profit margin
+Lagged revenue 
+  growth
+Lagged cash/lagged 
+  assets
+Lagged leverage
+Age
+
+Outcomes
+Investment
+Investment/lagged 
+tangible capital
+ 
+ 
+  assets
+Net investment
+Net investment/
+lagged tangible 
+ 
+ 
+  capital assets
+Employee 
+  compensation
+Employee
+  compensation/ 
+lagged revenue
+ 
+ 
+Payouts
+Payouts/lagged 
+ 
+revenue
+Dividends
+Dividends/lagged 
+ 
+revenue
+Equity issued
+Equity issued/lagged 
+ 
+revenue
+Number of firm-year
+  observations
+Number of firms
+
+69,214,032 26,410,150
+45,330,360 16,945,392
+10,803,074
+2,041,562
+−0.03
+0.15
+
+0.04
+0.03
+
+0.18
+
+0.68
+26
+
+0.10
+
+0.66
+22
+
+3,310,941
+1,878,245
+118,378
+−0.09
+−0.21
+0.01
+
+0.21
+6
+
+164,050,464 76,377,272 42,265,004
+105,045,088 35,529,524 19,258,636
+25,007,676
+2,281,994
+
+7,826,240
+
+0.17
+0.45
+
+0.47
+
+1.00
+52
+
+0.08
+0.10
+
+0.17
+
+0.63
+27
+
+0.06
+0.03
+
+0.10
+
+0.66
+23
+
+5,385,821
+3,002,156
+173,325
+−0.01
+−0.18
+0.01
+
+0.16
+7
+
+2,245,204
+
+1.608
+
+249,801
+0.153
+
+1,185
+0.001
+
+4,599,334
+
+1,909,465
+
+0.767
+
+1.112
+
+308,066
+0.166
+
+4,502
+0.005
+
+3,803,072
+
+0.791
+
+440,842
+0.870
+
+−19,591 −1,280,729
+−0.034
+
+−0.286
+
+1,756,233
+
+0.459
+
+349,969
+1.715
+
+−21,495 −988,169
+−0.030
+−0.254
+
+1,572,145
+
+0.454
+
+12,410,943
+
+3,843,863
+
+324,038
+
+28,162,686
+
+11,265,016
+
+5,013,783
+
+452,621
+
+24,175,638
+
+0.291
+
+0.160
+
+0.028
+
+0.492
+
+0.188
+
+0.131
+
+0.027
+
+0.376
+
+659,858
+0.015
+
+531,236
+0.012
+
+2,754,047
+
+0.239
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+443,330
+0.011
+
+3,486,271
+
+0.093
+
+684,450
+0.016
+
+250,080
+0.006
+
+3,410,537
+
+0.092
+
+658,080
+0.016
+
+572,898
+0.013
+
+276,790
+0.023
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+0
+
+0.000
+
+7,762,084
+
+0.169
+
+7,599,040
+
+0.166
+
+389
+0.000
+
+195,033
+
+43,988
+
+137,996
+
+32,113
+
+Notes:  This  table  lists  unweighted  summary  statistics  for  C-corporations (whose  dividends  are  taxable)  and 
+S-corporations (whose dividends are not taxable) in this paper’s main analysis sample: an unbalanced panel of 
+annual corporate income tax returns, comprising all observations from the IRS Statistics of Income stratified ran-
+dom sample in years 1998−2008 in which the filing corporation had between $1 million and $1 billion in lagged 
+assets and $500,000 and $1.5 billion in lagged revenue, was private through the previous year, and is not in the 
+finance or utilities industries. Lagged denotes averaged over the two preceding lags. Revenue equals operating reve-
+nue. Assets equals the book value of assets. Tangible capital assets, also called capital, equals the book value of tan-
+gible capital assets (e.g., excluding cash and patents). Profit margin equals one minus the ratio of operating costs to 
+revenue. Cash equals liquid current assets. Leverage equals the book value of non-equity liabilities divided by assets 
+(this is greater than one when accumulated losses exceed paid-in equity). Age equals the year of the return minus 
+the year of incorporation. Investment equals the cost of all newly purchased tangible capital assets. Net investment 
+equals the annual dollar change in tangible capital assets. Employee compensation equals the sum of all non- officer 
+wages, salaries, benefits, and pension contributions. Dividends equals cash plus property distributions to sharehold-
+ers. Payouts, also called total payouts to shareholders, equals dividends plus share buybacks ( non-negative annual 
+changes in treasury stock). Equity issued equals non-negative annual changes in paid-in capital. C- versus S-status 
+is defined as of the second lag; corporations can switch status if they meet the legal requirements but fewer than 4 
+percent ever switched in this sample. All monetary figures are in 2010 dollars.
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153539
+
+ identically  to  C-  and  S-corporations.10  And  it  accelerated  the  already-legislated 
+phase-in  of  reductions  in  individual  ordinary  income  tax  rates,  such  as  immedi-
+ately reducing the top rate from 38.6 percent to 35 percent rather than waiting for 
+it  to  fall  to  37.6  percent  in  2004  and  35  percent  in  2006.  S-corporation  income 
+(as well as dividend income until 2003) is taxed as ordinary income, but because 
+the  small  reduction  in  ordinary  income  tax  rates  was  merely  an  acceleration  and 
+based on evidence presented in Section IIIE, I make the simplification of consider-
+ing S-corporation income tax rates to have been unaffected. The tax reform did not 
+change the corporate income tax schedule.
+The 2003 dividend tax cut was originally legislated to expire in 2009 but was 
+extended to 2013 and has now been made “permanent” (i.e., with no default expira-
+tion date) in nearly its original form. In late 2005 Congress proposed to extend the 
+tax cut until 2011, and President Bush signed it into law in May 2006.11 In 2010, 
+Congress and President Barack Obama extended it again until 2013. In the first days 
+of 2013, President Obama signed into law a permanent extension of the tax cut for 
+all individuals with taxable income below $400,000 and married couples with tax-
+able income below $450,000, as well as a permanent marginal dividend tax rate of 
+20 percent for taxpayers with taxable income above these thresholds. In Section VB, 
+I discuss the possible implications of the original default expiration dates.
+
+The  OECD  reports  that  when  considering  federal  and  average  state  tax  rates, 
+the 2003 tax reform reduced the top statutory dividend tax rate from 44.7 percent 
+to 20.8 percent. In the empirical analysis below, I report elasticities with respect to 
+one minus this top statutory rate.12 One minus the dividend tax rate is the relevant 
+entity  for  parameterizing  traditional  models  as  I  illustrate  in  Section V. The  vast 
+majority of taxable dividend income accrues to households in the top tax bracket. 
+Shares of private corporations (the focus of this paper) are unlikely to be held by 
+dividend-tax-exempt investors like pension funds or by taxpayers in the lowest div-
+idend tax brackets. And unlike public company share buybacks, private corporation 
+share buybacks are typically taxed as dividends rather than capital gains (and indeed 
+share buybacks are relatively uncommon in my sample).13 Readers can apply their 
+own assumed tax change to the raw estimates as they see fit; for example, one could 
+assume that private C-corporation dividends faced the average taxable dividend tax 
+rates for the total US economy, which Poterba (2004) reports fell from 32.1 percent 
+to 18.5 percent.
+
+10 The exception is that owners of S-corporations with current losses could deduct the depreciation allowances 
+from any current wage or other ordinary income on their 1040s, while C-corporations must carry forward the tax 
+benefit to future years’ profit. Thus the 2003 tax reform could, in principle, have benefited low-profit S-corporations 
+relative to low-profit C-corporations. However, the negative point estimate in Table 3, column 1, row 4 (introduced 
+in Section IIIC) suggests that this was not a relevant confound. 
+11 This law also lowered the bottom dividend tax rate from 5 percent to 0 percent beginning in 2008 and was set 
+to expire in 2011 but never did before being made permanent in 2013. 
+12 See OECD Tax Database Table II4 (http://www.oecd.org/tax/tax-policy/tax-database.htm). Elasticities with 
+respect to the tax rate are 19 percent smaller in absolute value; one minus the tax rate is the element relevant for 
+theory. 
+
+13 IRS rules require a share buyback to materially change ownership in order to qualify as a capital gain. This 
+may be easier to do with dispersed shareholders who trade their stock in public markets than it is for concentrated 
+shareholders who do not. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123540
+
+II.  Data
+
+A. SOI Sample of US Corporate Income Tax Returns
+
+This  paper  uses  a  large  stratified  random  sample  of  US  corporate  income  tax 
+returns  from  years  1996–2008.  Each  year  the  Internal  Revenue  Service  (IRS) 
+Statistics of Income (SOI) division randomly samples corporate income tax returns, 
+edits many variables for accuracy and consistency, and uses them to publish aggre-
+gate  statistics.  The  sampling  percentages  are  a  function  of  assets  and  a  measure 
+of  net  income;  corporations  with  at  least  $50  million  in  assets  are  sampled  with 
+probability one and progressively smaller corporations are sampled at progressively 
+smaller  rates.  Corporations  sampled  in  one  year  are  typically  though  not  always 
+sampled in subsequent years, so the SOI sample constitutes an unbalanced panel.14 
+The fine reweighting I detail in Section IIE accounts for any differential changes 
+over time in the sampling percentages.
+
+The  SOI  sample  has  three  key  advantages  relative  to  the  commonly  used 
+Compustat database on corporations: it contains data on both C-corporations and 
+S-corporations,  it  contains  data  on  many  young  corporations,  and  it  has  a  much 
+larger sample size even of relatively large corporations. As detailed below, this paper 
+focuses  on  corporations  with  between  $1  million  and  $1  billion  in  assets.  Most 
+Compustat corporations fall in this asset range but the SOI sample contains obser-
+vations on many more such firms, including in the range $500 million to $1 billion.
+
+B. Analysis Sample
+
+This paper focuses on corporations in the SOI sample with between $1 million 
+and $1 billion in assets (the 89.7th and 99.9th percentiles of the 2002 US  pooled C- 
+and S-corporation size distribution) and with revenue between $0.5 million and $1.5 
+billion (i.e., within 50 percent of either asset threshold) in 2010 dollars, for three 
+reasons. The  $1  million  lower  bound  restricts  attention  to  corporations  operating 
+at substantial scale and lies comfortably above a reporting threshold that restricts 
+the  balance  sheet  information  available  on  corporations  with  less  than  $250,000 
+in  assets. Almost  all  of  the  very  largest  corporations  are  publicly  traded  and  are 
+therefore C-corporations, so the $1 billion upper bound ensures substantial overlap 
+between C- and S-corporations across size bins. And corporations in this size range 
+are quantitatively important: firms in this size range employ over half of all US pri-
+vate sector workers.15
+
+The  main  analysis  sample  is  an  unbalanced  panel  of  corporations  constructed 
+from  the  SOI  samples. The  unbalanced  panel  includes  a  corporation’s  year   t   tax 
+return  if  the  corporation: (i)  had  assets  in  the  range  $1  million  to  $1  billion  and 
+
+14 The sampling is done using a deterministic function of the last four digits of the corporation’s employer iden-
+
+tification number, so corporations sampled in one year are usually sampled the next as well. 
+
+15 Corporate  income  tax  returns  do  not  include  employment.  In  the  most  recent  Census  Bureau  release 
+with  employment  statistics  by  firm  revenue,  45.2  percent  of  private  sector  employees  were  employed  by  firms 
+with  between  $500,000  and  $100  million  in  revenue  (http://www.census.gov/econ/susb/data/susb2007.html). 
+Employment at firms with revenue between $100 million and $1.5 billion is not reported separately; I estimate 
+that an additional 5.3 percent to 18.5 percent of private sector employees are employed at firms with between $100 
+million and $1.5 billion in revenue. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153541
+
+ revenue in the range $0.5 million to $1.5 billion on average between years  t – 2  and  
+t – 1  (so that lagged values can be used for scaling); (ii) was private at least until year  
+t – 2  (since  all  S-corporations  are  private);  and (iii)—as  restricted  in  earlier  work 
+on the 2003 dividend tax cut (Chetty and Saez 2005)—is not a financial company 
+(whose main productive assets are typically not tangible capital) or a utility com-
+pany (to which unique regulations apply). I further discard any tax returns that con-
+tain missing variable values or in which the filing months of consecutive tax years 
+indicate that the tax return did not cover a full 12 month period.
+
+I use the unbalanced panel for all main results due to its simplicity and inclusive-
+ness.  However,  it  has  the  potential  disadvantage  of  a  changing  composition  over 
+time. I therefore repeat all analyses using a balanced panel constructed similarly 
+to the unbalanced panel except that it includes the same corporations in every year. 
+The  balanced  panel  comprises  annual  observations  on  corporations  that: (i)  filed 
+tax returns in all years 1996–2008; (ii) had assets in the range of $1 million to $1 
+billion and revenue in the range of $0.5 million to $1.5 billion average over years 
+1996–1997; (iii) were private through 1997; and (iv) are outside the financial and 
+utilities industries. As I describe in Section IIIB, the balanced panel allows me to 
+conduct the regression analysis such that the outcome of interest is the only firm-
+level variable changing from year to year. However, the balanced panel carries the 
+obvious drawbacks of omitting corporations that are young in the post-2003 era and 
+of requiring survival through 2008.
+
+C. Variable Definitions
+
+The SOI data contain the variables necessary for this paper’s analysis: assets, rev-
+enue, investment, tangible capital assets, net investment, employee compensation, 
+dividends,  total  payouts  to  shareholders,  equity  issued,  profit  margin,  cash,  debt, 
+NAICS industry classification, and age. All variables are constructed from annual 
+corporate income tax returns filed by the corporation. This section defines variables 
+in economic terms; online Appendix A defines them in terms of line items on tax 
+forms.
+
+C-corporations file the corporate income tax Form 1120 and S-corporations file 
+the similar Form 1120S. Year  t  refers to the corporation’s tax filing that covered July 
+of calendar year  t . Each observation’s C- versus S-status is defined as of its filing 
+in year  t – 2 ; this means, for example, that a spike in C-corporation payouts in 2003 
+refers to corporations that filed a Form 1120 in 2001. Results are insensitive to this 
+choice.
+
+Investment equals the purchase price of all newly installed capital assets logged 
+on  Form  4562,  filed  alongside  the  corporate  income  tax  return  in  order  to  claim 
+depreciation deductions.16 The US tax code permits a corporation to deduct the pur-
+chase price of newly acquired capital assets (i.e., both new and used capital assets 
+as long as they are new to the corporation) from its taxable income. The corporation 
+typically  cannot  deduct  the  entire  amount  immediately  and  instead  must  make  a 
+
+16 Throughout this paper, “capital assets” refers to property depreciable under the US tax code (equipment and 
+structures used in the trade or business). Thus “capital assets” is used here in its traditional economic sense rather 
+than in the tax accounting sense of securities that generate passive income or similar assets. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123542
+
+sequence of depreciation deductions over several years, computed each year using 
+Form  4562. To  a  close  approximation,  investment  eligible  for  depreciation  com-
+prises the same capital goods included in NIPA private fixed non-residential invest-
+ment statistics; see House and Shapiro (2008); Kitchen and Knittel (2011); and IRS 
+Publication 946 for more details.17
+Tangible capital assets (shortened to “capital” in table headings) equals the book 
+value of all tangible (e.g., excluding goodwill) capital assets owned by corporation 
+at  the  end  of  the  tax  year,  net  of  accumulated  book  depreciation.  I  compute  net 
+investment as the annual dollar change in tangible capital assets, which equals new 
+tangible  investment  less  tangible  capital  asset  retirements  and  accumulated  book 
+depreciation. Employee compensation equals the sum of wages and salaries paid to 
+non-officer employees, payments for employee benefit programs (e.g., health insur-
+ance), and contributions to pension or employee-profit-sharing plan contributions.
+Dividends  equals  the  sum  of  cash  and  property  distributions  to  shareholders. 
+Total payouts to shareholders (sometimes shortened to “payouts”) equals dividends 
+plus  share  buybacks—where  share  buybacks  are  defined  as  non-negative  annual 
+dollar changes in treasury stock, the primary method used in Blouin, Raedy, and 
+Shackelford (2011);  Skinner (2008);  and  Edgerton (2013).  Equity  issued  equals 
+non-negative annual changes in total paid-in capital.
+Assets equals total book assets. Revenue equals operating revenue. I use tax fields 
+to define operating profit margin (sometimes shortened to “profit margin”) homoge-
+neously for C-corporations and S-corporations. Operating profit margin equals oper-
+ating revenue less cost of goods sold and all components of total deductions except 
+interest,  depreciation,  domestic  production  activities,  and  officer   compensation 
+deductions.18 Cash equals the sum of all liquid current assets. Debt equals the sum 
+of  all  non-equity  liabilities.  For  each  corporation,  2-digit  NAICS  classification 
+equals the first two digits of the 6-digit NAICS classification code reported on the 
+corporate income tax return observed for each corporation that was filed nearest to 
+2003. There  are  19  valid  2-digit  NAICS  classifications. Age  is  defined  similarly, 
+using the date incorporation field reported on the return filed nearest to 2003.
+
+D. Summary Statistics
+
+Table 1 displays unweighted summary statistics for the main analysis sample (the 
+unbalanced panel) by C- and S-status. All values are annual and all monetary amounts 
+are in 2010 dollars. The sample comprises 195,033 annual observations on 43,988 
+C-corporations  and  137,996  annual  observations  on  32,113  S-corporations.  The 
+average C-corporation observation has lagged revenue of $69 million,  investment 
+of $2.2 million, and employee compensation of $12 million; S-corporation averages 
+
+17 Kitchen and Knittel (2011) demonstrate that SOI Form 4562 aggregates approximate NIPA investment sta-
+tistics. Software, equipment, and structures are included; land and depletable assets (e.g., oil deposits) are not. New 
+purchases of patents and certain other intangible assets can be logged as new investment. If the investment purchase 
+is only partially used by the firm, only a portion is logged as new investment. US-based corporations with foreign 
+operations typically establish wholly-owned foreign entities that are regarded as separate entities; property placed 
+into service in separate entities do not appear on Form 4562. 
+
+18 I exclude interest, depreciation, and domestic production activities deductions because they are not operating 
+costs.  I  exclude  officer  compensation  because  private  corporations  may  have  leeway  in  the  timing  and  form  of 
+compensating owner-managers. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153543
+
+are similar. When weighted by lagged revenue as is done for all subsequent analyses 
+(see  next  subsection),  the  average  lagged  revenue  in  the  sample  is  $281  million, 
+so the average firm in this paper’s analysis operates at considerable scale. Figure 1 
+shows  that  there  is  substantial  overlap  across  C-  and  S-corporations  by  industry 
+and  size;  in  the  next  subsection,  I  explain  how  I  flexibly  account  for  any  differ-
+ences along these dimensions. The size distribution of corporations is right-skewed, 
+reflecting the right-skewness of the population firm size distribution. Fewer than 4 
+percent of firms ever switched between C and S status.19
+
+E. Weighting and Winsorizing
+
+I specify the final weight used for each observation in online Appendix B; the for-
+mula can be understood as the result of two steps. I initially weight each observation 
+according to its revenue, averaged over the previous two lags. Thus each observation 
+contributes to all graphs and regression estimates according to its economic scale, 
+making  the  parameter  estimates  “dollar-weighted”  in  this  sense.  I  then  reweight 
+the S-corporation sample to match the C-corporation sample along 190 size-indus-
+try bins in order to flexibly control for time-varying size- or industry-based shocks 
+using  the  reweighting  method  of  DiNardo,  Fortin,  and  Lemieux (1996)  that  is 
+commonly used in labor economics when datasets are large enough to support it. 
+Specifically,  after  initially  weighting  observations  by  their  lagged  revenue,  I  bin 
+each corporation into one of 190 ( = 19  two-digit industries  ×   10   within-industry 
+size  deciles)  bins  according  to  the  within-industry  size-decile  distribution  of 
+C-corporations  in  2002. Then  within  each  corporation  type  and  year,  I  inflate  or 
+deflate each bin’s weight so that each bin carries the same relative weight as the 
+2002 distribution of C-corporations. This ensures, for example, that  time-varying 
+shocks to large construction firms will not influence the results because large con-
+struction firms will contribute to the results equally for each corporation type and 
+in every year. Empirically, this reweighting turns out to be a careful precaution that 
+makes  almost  no  quantitative  difference (compare  estimates  reported  in  Table 2 
+ column 2 and online Appendix Table 4  column 10, introduced below) because C- 
+and S-corporation industry distributions are very similar (Figure 1, panel A) and 
+effect sizes are constant across firm sizes (Figure 3, introduced below).
+Finally and unless otherwise specified, I winsorize (top-code) scaled outcomes 
+(e.g., investment divided by lagged tangible capital assets) at the ninety-fifth per-
+centile.20 I intentionally winsorize observations differently for the time series pan-
+els of Figure 2 than I do for the regressions. The figures are intended to illustrate 
+how investment and other outcomes change year-by-year and especially around the 
+ passage of the 2003 dividend tax cut. Thus for the figures, I hold the winsorization 
+
+19 The total number of corporations reported in the introduction is slightly smaller than the sum of the total 
+number of C-corporations and the total number of S-corporations reported in Table 1 because of this small number 
+of switching corporations. 
+
+20 By “winsorize,”  I mean that any observations with values above the ninety-fifth percentile are assigned the 
+ninety-fifth percentile value. Winsorizing removes the influence of data coding errors, which are occasionally pres-
+ent even in the edited SOI samples. Even without data errors, winsorizing can be optimal when estimating means in 
+finite samples from skewed distributions as one trades off bias with minimizing mean squared error (Rivest 1994). 
+I  winsorize  controls  at  the  ninety-ninth  percentile  since  they’re  used  as  quartics;  winsorizing  at  the  ninety-fifth 
+percentile yields nearly identical results. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123544
+
+Panel A. Investment
+
+ 
+
+Panel B.  Net investment 
+
+r
+a
+
+l
+l
+
+o
+d
+ 
+r
+e
+p
+
+ 
+t
+
+n
+e
+m
+t
+s
+e
+v
+n
+
+I
+
+l
+
+a
+
+t
+i
+
+p
+a
+c
+ 
+
+d
+e
+g
+g
+a
+
+l
+ 
+f
+
+o
+
+ 
+
+$0.32
+
+$0.28
+
+$0.24
+
+$0.20
+
+98 
+
+$0.100 
+
+ 
+
+$0.075 
+
+$0.050 
+
+$0.025 
+
+$0.000 
+
+ 
+r
+a
+
+l
+l
+
+o
+d
+
+ 
+r
+e
+p
+
+ 
+l
+
+a
+
+t
+i
+
+p
+a
+C
+
+l
+
+a
+
+t
+i
+
+p
+a
+c
+ 
+d
+e
+g
+g
+a
+
+l
+ 
+f
+
+ 
+
+∆
+
+o
+
+99  00  01  02  03  04  05  06  07 
+
+Year  
+
+08 
+ 
+
+C-corporations
+S-corporations
+
+98 
+
+99  00  01  02  03  04  05  06  07 
+
+08 
+
+Year
+
+C-corporations
+S-corporations
+
+Panel C. Employee compensation
+
+Panel D. Total payouts to shareholders
+
+ 
+r
+a
+
+l
+l
+
+$0.18
+
+ 
+
+o
+d
+ 
+r
+e
+p
+ 
+n
+o
+i
+t
+a
+s
+n
+e
+p
+m
+o
+C
+
+e
+u
+n
+e
+v
+e
+r
+ 
+f
+o
+
+$0.17
+
+$0.16
+
+$0.15
+
+$0.14
+
+98 
+
+ 
+
+200%
+[$0.0063]
+150%
+[$0.0047]
+100%
+[$0.0031]
+
+ 
+
+200%  
+[$0.075] 
+150%  
+[$0.056] 
+100%  
+[$0.037] 
+
+ 
+r
+a
+
+l
+l
+
+o
+d
+ 
+r
+e
+p
+ 
+s
+t
+u
+o
+y
+a
+P
+
+e
+u
+n
+e
+v
+e
+r
+ 
+d
+e
+g
+g
+a
+l
+ 
+f
+o
+
+08
+
+ 
+
+98 
+
+99  00  01  02  03  04  05  06  07 
+
+08 
+
+Year
+
+C-corporations (left scale)
+S-corporations (right scale)
+
+99  00  01  02  03  04  05  06  07 
+
+ 
+
+Year
+
+C-corporations
+S-corporations
+
+Figure 2. Effects of the 2003 Dividend Tax Cut
+
+ 
+
+Notes: These figures plot the time series of annual mean outcomes for C-corporations and S-corporations in the 
+main analysis sample net of a rich set of controls. Investment equals the cost of all newly purchased tangible capi-
+tal assets. Net investment equals the annual dollar change in tangible capital assets. Employee compensation equals 
+the sum of all non-officer wages, salaries, benefits, and pension contributions. Total payouts to shareholders equals 
+dividends plus share buybacks (non-negative annual changes in treasury stock). Each panel is constructed by scal-
+ing each observation by either the firm’s tangible capital assets or revenue averaged over the two preceding lags; 
+winsorizing (top-coding) observations at the ninety-fifth percentile; regressing this scaled outcome variable within 
+every year on a C-corporation indicator, two-digit NAICS industry fixed effects, and quartics in age, lagged reve-
+nue, lagged profit margin, and revenue growth; and requiring that the vertical distance between the two lines equals 
+the regression coefficient on the C-corporation indicator and that the weighted average of the lines equals the sam-
+ple  average  in  that  year. The  regressions  are  dollar-weighted (each  observation  is  weighted  by  its  lagged  reve-
+nue) and flexibly control for any time-varying industry or firm-size shocks by non-parametrically reweighting the 
+S-corporation sample within every year to match the distribution of C-corporations across 190 industry-firm-size 
+bins as detailed in Section IIE. Panel D is included as a test for an immediate behavioral response in financial out-
+comes and differs from the other graphs in two ways that account for income-tax-induced differences in baseline 
+payout levels and for slightly differential pre-trends as detailed in Section IVA.
+
+percentiles fixed across years and, in particular, use the pre-2003 distribution of the 
+outcome to compute winsorization levels in all years. However, as will be relevant 
+for the payouts outcome only, the tax cut can shift the outcome distribution (e.g., 
+increasing the ninety-fifth percentile), and estimates of the impact of tax cut would 
+ideally censor an equal share of observations over time. Thus for the regressions, I 
+winsorize pre-2003 observations using the pre-2003 distribution of the outcome and 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153545
+
+7 
+
+8 
+
+9 
+
+10 
+
+7 
+
+8 
+
+9 
+
+10 
+
+Panel A. Investment
+
+0.5 SD
+[$0.125]
+
+0
+
+−0.5 SD
+[−$0.125]
+
+l
+
+a
+t
+i
+p
+a
+c
+ 
+d
+e
+g
+g
+a
+l
+ 
+f
+o
+ 
+$
+ 
+r
+e
+p
+ 
+t
+n
+e
+m
+t
+s
+e
+v
+n
+I
+
+1 
+
+2 
+
+3 
+
+4 
+
+Panel B. Net investment
+
+0.5 SD
+[$0.127]
+
+0
+
+−0.5 SD
+[−$0.127]
+
+l
+
+a
+
+t
+i
+
+p
+a
+c
+ 
+
+d
+e
+g
+g
+a
+
+l
+ 
+f
+
+o
+
+ 
+
+$
+
+ 
+r
+e
+p
+
+ 
+l
+
+a
+
+t
+i
+
+p
+a
+c
+
+ 
+
+
+
+1 
+
+2 
+
+3 
+
+4 
+
+Panel C. Employee compensation
+
+5 
+
+6 
+
+Size decile
+
+5 
+
+6 
+
+Size decile
+
+e
+u
+n
+e
+v
+e
+r
+ 
+
+d
+e
+g
+g
+a
+
+l
+ 
+f
+
+o
+
+ 
+
+$
+
+ 
+r
+e
+p
+n
+o
+
+ 
+
+i
+t
+
+a
+s
+n
+e
+p
+m
+o
+C
+
+0.5 SD
+[$0.07]
+
+0
+
+−0.5 SD
+[−$0.07]
+
+1 
+
+2 
+
+3 
+
+4 
+
+5 
+
+6 
+Size decile
+
+7 
+
+8 
+
+9 
+
+10 
+
+Figure 3. Effects by Size Decile
+
+Notes: This figure plots estimated within-size-decile effects of the 2003 dividend tax cut in the main analysis sam-
+ple. Variables are defined, scaled, and winsorized as detailed in Figure 2. Each y-axis height equals one standard 
+deviation of the outcome. Each panel is computed by binning corporations into deciles according to the unweighted 
+deciles of the pooled C-corporation lagged revenue distribution, and then within each decile estimating a regression 
+of the outcome on a C-corporation indicator, the interaction of a C-corporation indicator and post-2003 indicator, 
+year fixed effects, two-digit NAICS industry fixed effects, and quartics in age, lagged revenue, lagged profit margin, 
+and revenue growth. Each panel plots the coefficients on the interaction term with Bonferroni-corrected 95 percent 
+confidence intervals to adjust for multiple (ten) hypothesis testing; uncorrected confidence intervals are one-third 
+tighter. Standard errors are clustered by firm. The solid line is the best unweighted linear fit through the coefficients. 
+Observations are weighted analogously to Figure 2.
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123546
+
+I winsorize 2003-and-beyond observations using the 2003-and-beyond distribution 
+of the outcome.21
+
+III.  Effect on Investment and Employee Compensation
+
+I first test whether the 2003 dividend tax cut caused C-corporations to increase 
+investment: a key real behavioral response suggested by policymakers and by eco-
+nomic theory. I begin by presenting visual evidence and regression estimates of the 
+effect of the tax cut on investment. I then present extensive robustness checks, tests 
+for effects on employee compensation, heterogeneity analyses, tests for internal and 
+external validity, and a test for an efficiency-enhancing reallocation of investment.
+
+A. Investment
+
+Figure 2, panel A plots the time series of mean investment for C-corporations 
+and S-corporations in the unbalanced panel, net of a rich set of controls as done in 
+Chetty et al. (2011). As is standard in corporate finance, I first scale each corpora-
+tion’s annual investment by its lagged tangible capital assets and top-code observa-
+tions at the ninety-fifth percentile as described in Section IIE. Then within each year, 
+I regress scaled investment on a C-corporation indicator and this paper’s standard 
+set of controls: indicators for two-digit NAICS industry classification and quartics 
+in age, lagged revenue, lagged profit margin, and revenue growth from the second 
+to the first lag.22 I then construct the two series shown in the figure by setting each 
+year’s difference between the two lines equal to that year’s regression coefficient 
+on the C-corporation indicator and setting the weighted average of that year’s data 
+points equal to the year’s sample average. To be concrete, the 2002 C-corporation 
+data point indicates that the average C-corporation in 2002 invested  $0.21  per dollar 
+of its lagged capital assets, net of controls.
+
+The  figure  shows  that  the  time  series  of  C-corporation  investment  tracked  the 
+time  series  of  S-corporation  investment  closely  in  the  several  years  before  2003, 
+suggesting that the two time series would have continued to track each other in the 
+absence of the 2003 dividend tax cut. The two series in fact continued to track each 
+other after 2003, suggesting that the tax cut had little or no effect on C-corporation 
+investment.
+Table 2 formalizes this visual evidence by reporting estimates of the following 
+difference-in-differences (DD)  regression  that  uses  the  same  definitions,  scaling, 
+and controls underlying the figure:
+(1) 
+
+  INVESTMENT  it    =   α 1     CCORP  i,t−2    +   α 2     CCORP  i,t−2    ×   POST  t    
+
+ 
+
++   X i,t−2   β +   YEAR t  γ  ,
+
+21 In each case, I compute percentiles separately for C-corporations and S-corporations to account for level 
+differences  in  the  outcome.  When  I  use  only  the  pre-2003  distribution  to  winsorize,  main  regression  results 
+remain nearly unchanged but the payouts effect size is approximately two-thirds as large and still very statistically 
+significant. 
+
+22 “Lagged” denotes “averaged over the previous two lags.” 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 2015Table 2—Effect of the 2003 Dividend Tax Cut on Investment, Net Investment,  
+
+and Employee Compensation
+
+3547
+
+Dependent variable:
+Dep. var. winsorized at:
+Panel:
+
+95th percentile
+
+Unbalanced
+
+($ per lagged capital)
+(1)
+(2)
+0.0008
+(0.0044)
+
+−0.0002
+(0.0042)
+
+ 
+
+ 
+
+X
+ 
+
+333,029
+73,188
+0.07
+0.2428
+0.2514
+0.00
+
+333,029
+73,188
+0.01
+0.2428
+0.2514
+0.01
+
+[−0.08, 0.09][−0.08, 0.08]
+
+Net investment
+
+Unbalanced
+
+($ per lagged capital)
+(8)
+(7)
+0.0042
+0.0048
+(0.0041)
+(0.0039)
+
+X
+ 
+
+333,029
+73,188
+0.04
+0.0421
+0.2541
+0.23
+
+333,029
+73,188
+0.01
+0.0421
+0.2541
+0.26
+
+ 
+ 
+
+ 
+ 
+
+Investment
+
+ 
+Balanced  
+($ per  
+ 
+96–97 cap.)
+(3)
+
+ 
+
+ 
+
+ 
+
+ 
+
+99th percentile
+
+Unbalanced
+
+($ per lagged capital)
+(4)
+(5)
+
+ 
+
+ 
+
+−0.0063
+(0.0226)
+
+ 
+X
+
+85,624
+7,784
+0.53
+0.2939
+0.3070
+−0.05
+[−0.4, 0.3]
+
+ 
+
+ 
+ 
+
+X
+ 
+
+−0.0118
+(0.0066)
+
+  −0.0104
+(0.0068)
+ 
+ 
+ 
+ 
+333,029
+ 
+73,188
+ 
+0.05
+ 
+0.2828
+ 
+0.4181
+−0.10
+ 
+  [−0.19, 0.02] [−0.2, 0.01]
+ 
+ 
+
+333,029
+73,188
+0.01
+0.2828
+0.4181
+−0.09
+
+ 
+
+ 
+
+95th percentile 
+
+Unbalanced
+
+Balanced  
+($ per  
+ 
+96–97 cap.)
+(9)
+
+ 
+
+−0.0110
+(0.0116)
+
+ 
+X
+
+($ per lagged revenue)
+(11)
+(10)
+−0.0013
+  −0.0013
+(0.0025)
+(0.0020)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+85,624
+7,784
+0.20
+0.0885
+0.2732
+−0.29
+[−0.88, 0.3]   [−0.09, 0.05][−0.07, 0.04]
+
+333,029
+73,188
+0.00
+0.1647
+0.1415
+−0.02
+
+333,029
+73,188
+0.37
+0.1647
+0.1415
+−0.02
+
+X
+ 
+
+ 
+ 
+
+Balanced
+($ per  
+96–97 cap.)
+(6)
+
+ 
+
+−0.1884
+(0.1483)
+
+ 
+X
+
+85,624
+7,784
+0.55
+0.3682
+0.6478
+−1.18
+
+[−3.01, 0.64]
+
+ 
+
+Balanced
+($ per  
+96–97 rev.)
+(12)
+0.0083
+(0.0062)
+
+ 
+X
+
+85,624
+7,784
+0.87
+0.1727
+0.1450
+0.11
+
+Employee compensation
+
+Panel A. Investment
+
+C-Corp × Post-2003
+Lagged controls
+Firm FE’s
+Observations (firm-years)
+Clusters (firms)
+R2
+Pre-2003 C-corp mean
+Pre-2003 C-corp SD
+Implied ε wrt (1 −   τ div   )
+
+Dependent variable:
+Dep. var. winsorized at:
+Panel:
+ 
+
+ 
+
+C-Corp × Post-2003
+ 
+Lagged controls
+Firm FE’s
+Observations (firm-years)
+Clusters (firms)
+R2
+Pre-2003 C-corp mean
+Pre-2003 C-corp SD
+Implied ε wrt (1 −   τ div   )
+
+[−0.18, 0.71][−0.19, 0.66]
+
+[−0.05, 0.27]
+Notes: This table reports difference-in-differences estimates of the effect of the 2003 dividend tax cut on real out-
+comes. All columns display the coefficient on the interaction between a C-corporation indicator and an indicator 
+for the year being 2003 or later, from a regression of the outcome on this interaction, a C-corporation indicator, 
+year fixed effects and possibly additional controls. Lagged controls indicates that the regression includes two-digit 
+NAICS industry fixed effects and quartics in age, lagged revenue, lagged profit margin, and revenue growth. Firm 
+FE’s indicates that the regression includes firm fixed effects. The unbalanced panel is this paper’s main sample; see 
+Table 1 for details. The balanced panel is constructed similarly, except the sample restrictions apply only to years 
+1996–1997 and observations are required in all years 1998–2008. Before the regression, each observation’s out-
+come value is scaled by either the firm’s tangible capital assets or its revenue (see online Appendix Table 2 for alter-
+native scalings) averaged over the two preceding lags in the unbalanced panel and over 1996–1997 in the balanced 
+panel, and then winsorized (top-coded) at the level indicated. The regressions are dollar-weighted (each observation 
+is weighted by its lagged or 1996–1997 revenue) and they flexibly control for any time-varying industry or firm-
+size shocks by non-parametrically reweighting the S-corporation sample within every year to match the distribu-
+tion of C-corporations across 190 industry-firm-size bins as detailed in Section IIE. Elasticity equals the reported 
+coefficient divided by the pre-2003 C-corporation outcome mean, divided by the percent change in one-minus-the-
+top-statutory-dividend-tax-rate (the top rate fell from 44.7 percent to 20.8 percent). Standard errors are clustered by 
+firm. See online Appendix Tables 1–7 for robustness checks.
+
+B. Net investment and employee compensation
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123548
+
+where  INVESTMEN T  it    denotes scaled investment for firm  i  in a year  t  between 1998 
+and 2008 and  CCOR P  i, t−2    denotes an indicator for whether firm  i  was a C-corporation 
+in  t – 2  ,  POS T  t    denotes an indicator for year  t  being 2003 or later,   X i, t−2    denotes a 
+possibly empty vector of lagged firm controls, and  YEA R t    denotes a vector of year 
+fixed effects.23 The coefficient   α 2    represents the mean effect of the tax cut on annual 
+C-corporation investment and is my statistic of interest. Standard errors clustered by 
+firm are reported below each estimate.
+
+Column 2 of Table 2 reports that when controlling for the full set of controls used 
+in the graph, the 2003 dividend tax cut is estimated to have had an insignificantly 
+negative effect on C-corporation investment: a change of  −$0.0002  per dollar of 
+lagged tangible capital assets with a standard error of  $0.0042  , relative to a pre-
+2003 mean of  $0.2428  and standard deviation of  $0.2514 . The 2003 dividend tax 
+cut reduced the top statutory dividend tax rate from 44.7 percent to 20.8 percent 
+(see Section IB), so these estimates imply an elasticity of investment with respect to 
+one minus the top statutory dividend tax rate of  0.00  with a 95 percent confidence 
+interval of  − 0.08  to  0.08 .24 The confidence interval in terms of standard deviations 
+of firm-level investment is  −0.03  to  0.03 . Column 1 reports similar estimates when 
+omitting the firm-level controls.
+
+B. Robustness
+
+I  conduct  several  robustness  checks.  First,  columns  4–5  of  Table  2  replicate 
+ columns 1–2 when top-coding at the ninety-ninth percentile. Second, online Appendix 
+Table 1 replicates Table 2 while allowing for differential pre-2003 trends.25 Third, 
+online Appendix Table 2 replicates Table 2 when scaling investment by lagged rev-
+enue. Online Appendix Table 3 replicates Table 2, restricted to years 1998–2004 in 
+order to omit years in which the controls, scaling variable, and C-corporation indi-
+cator use potentially endogenous post-2003 values. All report more negative point 
+estimates than Table 2 with similar or smaller 95 percent confidence upper bounds. 
+Online Appendix Tables 4 and 5 report results under 14 additional variations to the 
+sample frame, variable definition, or reweighting with continued null or marginally 
+significantly negative results; see online Appendix C for details.
+
+Additionally, I replicate the analysis in the balanced panel of corporations; this 
+sample  comes  at  the  obvious  cost  of  omitting  corporations  that  are  young  in  the 
+post-2003  era  and  requiring  survival  through  2008,  but  it  permits  regressions  in 
+which the only firm-level characteristic changing from year to year is investment. 
+Column 3 of Table 2 reports results from estimating equation (1) in the balanced 
+panel, with three changes relative to column 2: each corporation’s C- versus S-status 
+
+23 See  online  Appendix  CII  and  online  Appendix  Table  5  for  similar  results  when  scaling  investment  by 
+
+(time-invariant) pre-2003 tangible capital rather than (time-varying) lagged tangible capital. 
+one-minus-the-tax-rate:  (   α ̂   2   /  ‾ investment  )/(0.239/0.553)  , where    ‾ 
+24 The elasticity is computed as the percent change in C-corporation investment divided by the percent change in 
+investment    equals mean pre-2003 C-corporation 
+investment and is reported in Table 2. The elasticity bounds are computed similarly, replacing    α ̂   2    in the above for-
+mula with    α ̂   2    plus or minus  1.96  times the standard error. 
+ INVESTMEN T  it   =  α 1  CCOR P  i, t−2   +  α 2  CCOR P  i, t−2   × POS  T  t   
++  α 3   CCOR P  i, t−2   × t +  α 4  CCOR P  i, t   × POS  T  t   × t +  X i, t−2   β + YEA R t  γ .  I  report  the  effect  of  the  tax  cut  on  
+investment averaged across the post-period, equal in this regression to   α 2   + 2005.5 α 4    since 2005.5 is the midpoint 
+of the post-period. 
+
+estimate: 
+
+25 For 
+
+table, 
+
+this 
+
+I 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153549
+
+is defined as of 1996, each corporation’s annual investment value is scaled by its 
+mean tangible capital assets over years 1996–1997, and I replace the lagged firm-
+level controls with firm fixed effects. The resulting estimate has a wider confidence 
+interval but is also essentially zero.
+
+Finally, Figure 2, panel B replicates Figure 2, panel A for the related outcome of 
+net investment, equal to the real annual dollar change in the corporation’s stock of 
+tangible capital assets as reported on the balance sheet. Arithmetically, net invest-
+ment equals investment less tangible capital asset retirements and book deprecia-
+tion. The figure shows no relative change in C-corporation net investment after the 
+2003 tax cut. Columns 7–9 of Table 2 repeat the specifications underlying columns 
+1–3 for the net investment outcome. The unbalanced panel point estimates are pos-
+itive while the balanced panel point estimate is negative, and none is statistically 
+significantly different from zero.26 Online Appendix Tables 1–3 repeat these anal-
+yses using the same alternative specifications described above for investment, with 
+similar results.
+
+C. Employee Compensation
+
+Figure 2, panel C replicates Figure 2, panel A for the outcome of employee com-
+pensation. Each firm’s level of employee compensation is scaled by lagged revenue. 
+The figure shows no relative change in C-corporation employee compensation after 
+2003.27 Columns 10–12 of Table 2 repeat the specifications underlying columns 1–3 
+for the employee compensation outcome. Column 11 lists the results from equation 
+(1) using the set of lagged controls. The point estimate is a change of  −$0.0014  per 
+dollar of lagged revenue with a standard error of  $0.0020  , relative to a pre-2003 
+mean of  $0.1647  and standard deviation of  $0.1415 . This corresponds to an elastic-
+ity of  −0.02  with 95 percent confidence interval of  − 0.07  to  0.04 . The confidence 
+interval in terms of firm-level standard deviations is  − 0.04  to  0.02 . The balanced 
+panel point estimate is positive but is similarly not statistically significantly different 
+from zero. Online Appendix Tables 1–3 repeat these analyses using the same alter-
+native specifications described above for investment and with similar results.
+
+D. Heterogeneity Analysis
+
+Although  the  above  results  indicate  no  statistically  significant  impact  of  the 
+divided tax cut on C-corporation investment, it is possible that this overall result 
+obscures a particular spike in investment at, for example, large C-corporations rel-
+ative to small C-corporations. To investigate this in a compact way, I estimate six 
+triple-difference  regressions,  one  for  each  of  six  prominent  firm-level  traits:  firm 
+size (lagged revenue), age, lagged revenue growth, lagged profitability, lagged cash 
+(liquid assets as a fraction of total assets), and lagged leverage (debt as a fraction of 
+total assets).
+
+26 Elasticity confidence intervals for net investment are larger than those for investment because the base level 
+
+of net investment is close to zero, but standard-deviation confidence intervals are similar. 
+27 Note that the downward trend in scaled employee compensation after 2005 is due in part to rising lagged rev-
+enue (the scaling variable). Trends are less stable when scaling by tangible capital assets; online Appendix Table 2 
+shows that the results are robust to the choice of scaling variable. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123550
+
+In  order  to  avoid  strong  parametric  assumptions  such  as  whether  these  traits 
+should enter the regressions linearly or in logs, I divide corporations along these 
+traits by their ranks. To explain the general procedure, consider the example of firm 
+size. I compute the twentieth and eightieth percentiles of firm size in the pooled 
+C-corporation distribution, drop all corporations in the middle quintiles (between 
+the twentieth and eightieth  percentiles), and define an indicator for each observation 
+equal to one if and only if the corporation’s size lies in the top quintile (above the 
+eightieth percentile). I then estimate the triple-difference analogue of equation (1):
+
+(2) 
+ 
+ 
+ 
+
+  INVESTMENT  it    =   α 1     CCORP i,t−2    +   α 2     CCORP  i,t−2   ×    POST  t    +   α 3     TRAIT  i,t−2    
++   α 4     CCORP  i,t−2    ×   TRAIT  i,t−2    +   α 5     TRAIT  i,t−2      × POST  t   
++   α 6     CCORP  i,t−2    ×   TRAIT  i,t−2    ×   POST  t    
++   X i,t−2   β +   YEAR t  γ  ,
+
+where  TRAI T  i, t−2    is the top-quintile indicator defined above,   X i, t−2    denotes the vector 
+of lagged firm characteristics used in column 2 of Table 2, and all other variables 
+retain the definitions used above. The triple-difference coefficient   α 6    represents the 
+quantity of interest: the effect of the 2003 dividend tax cut on large C-corporations 
+relative to small C-corporations and relative to S-corporations.
+
+Columns 1–3 of Table 3 report the results for investment, net investment, and 
+employee compensation. Each cell reports the point estimate of the  triple-difference 
+coefficient and its standard error from a separate regression in which the trait indi-
+cator is defined using the trait listed in the row heading. For example, the upper 
+left cell indicates that large C-corporations increased investment by a statistically 
+insignificant  $0.0105  per dollar of lagged tangible capital assets more than small 
+C-corporations. All coefficients are small relative to the standard deviation of the 
+outcome (displayed in Table 2 columns 2, 8, and 11, respectively) and are statis-
+tically insignificant even when not accounting for the large number of hypotheses 
+being  tested  simultaneously,  though  with  wider  standard  errors  than  in  the  main 
+analysis.
+
+E. Internal Validity
+
+As mentioned in Section IB, a threat to the internal validity of the empirical design 
+is that temporary or small contemporaneous changes to other tax policies could in 
+principle have increased S-corporation investment relative to C-corporation invest-
+ment after 2003, masking positive effects of the dividend tax cut on C-corporation 
+investment.  Specifically,  the  2003  tax  reform  accelerated  the  already-legislated 
+reduction in the individual ordinary income tax rates from 38.6 percent to 35 per-
+cent (which  benefited  S-corporations  relative  to  C-corporations)  and  it  expanded 
+temporary accelerated depreciation of investment expenditures (which would have 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 2015Table 3—Effect Heterogeneity
+
+3551
+
+ 
+
+ 
+
+Employee 
+comp.
+($ per lagged 
+revenue)
+
+ 
+
+Equity 
+issued
+($ per lagged 
+revenue)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Payouts
+(Percent)
+
+Net investment
+($ per lagged 
+
+(4)
+ 
+−3.6
+(8.9)
+40.0
+(10.4)
+−8.5
+(11.0)
+97.9
+(16.0)
+34.7
+(12.2)
+−59.6
+(17.8)
+
+(3)
+−0.0042
+(0.0054)
+−0.0055
+(0.0060)
+−0.0006
+(0.0082)
+−0.0106
+(0.0109)
+−0.0120
+(0.0115)
+−0.0120
+(0.0101)
+
+capital)
+(2)
+ 
+−0.0017
+(0.0102)
+0.0003
+(0.0144)
+−0.0164
+(0.0165)
+0.0103
+(0.0140)
+−0.0217
+(0.0148)
+0.0144
+(0.0190)
+
+Investment
+($ per lagged 
+capital)
+(1)
+(5)
+C-Corp × Post-2003
+ 
+  × High lagged revenue
+−0.0009
+0.0103
+(0.0127)
+(0.0004)
+ 
+  × High age
+0.0104
+0.0003
+(0.0168)
+(0.0006)
+ 
+  × High lagged rev. growth −0.0069
+−0.0005
+(0.0160)
+(0.0008)
+ 
+−0.0265
+  × High profit margin
+0.0020
+(0.0167)
+(0.0012)
+ 
+  × High cash/assets
+−0.0212
+−0.0006
+(0.0155)
+(0.0011)
+ 
+  × High leverage
+−0.0030
+−0.0002
+(0.0199)
+(0.0012)
+ 
+Notes: This table reports triple-difference estimates of the effect of the 2003 dividend tax cut. Each cell represents a 
+separate regression and reports the coefficient on the triple interaction of a C-corporation indicator, an indicator for 
+the year being 2003 or later, and an indicator for the firm being in the top quintile rather than the bottom quintile (the 
+middle three quintiles are omitted) of the trait specified in the row heading (see Table 1 for definitions). The spec-
+ifications underlying each cell of columns 1–3 are identical to the difference-in-differences specifications underly-
+ing Table 2 columns 2, 8, and 11, respectively, except that each regression fully interacts the top-quintile indicator 
+with the C-corporation and post-2003 indicators. Similar to Table 2, regressions are dollar-weighted (each observa-
+tion is weighted by its lagged revenue) and flexibly control for any time-varying industry and firm-size shocks by 
+non-parametrically reweighting the S-corporation sample within every year and quintile to match the distribution 
+of C-corporations across 190 industry-firm-size bins; the exception is regressions by the lagged-revenue trait which 
+can be reweighted only across 19 industry bins since the top and bottom quintiles do not overlap in size. Column 4 
+makes the same modifications to the difference-in-difference regression underlying Table 4 column 2. Column 5 
+replicates this table’s column 3 for the outcome of equity issued. Standard errors are clustered by firm.
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+benefited  S-corporations  relative  to  C-corporations  if  S-corporations  used  capital 
+with moderately longer asset lives).28
+I  conduct  three  tests  for  quantitatively  important  bias;  see  online Appendix  D 
+for  full  detail.  First  and  most  simply,  I  conduct  placebo  tests  for  an  increase  in 
+S-corporation investment in 2001 and 2002, taking advantage of the fact that the 
+reduction  in  individual  ordinary  income  tax  rates  began  in  2001  and  accelerated 
+depreciation began in 2002.29 Online Appendix Table 6 columns 2–3 in fact show 
+statistically insignificant reductions in S-corporation investment in those years, pro-
+viding the simplest evidence suggesting little or no bias.30 Second, column 4 shows 
+that controlling flexibly for asset life differences across firms has almost no effect on 
+the estimated effect of the dividend tax cut on C-corporation investment, explained 
+by C- and S-corporations having nearly identical asset life mixes in this sample. Third 
+and most completely, I follow Auerbach and Hassett (1992) and Cohen, Hansen, 
+and Hassett (2002) in computing a structural firm-year-specific measure of the cost 
+of capital that encompasses the effects of these contemporaneous  non-dividend-tax 
+
+28 It also reduced the top capital gains tax rate from 20 percent to 15 percent. The Auerbach-Hassett parameter-
+
+29 In standard models, both the 2001 reduction in individual income tax rates and the 2001-legislated future 
+
+ization below addresses this minor potential confound. 
+reductions lowered S-corporations’ cost of capital immediately in 2001 (Auerbach 1989). 
+
+30 This null result can also be seen visually in Figure 2, panel A.
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123552
+
+changes. Columns 5–10 show that controlling for this all-in cost-of-capital measure 
+again has almost no effect on the results, explained by S-corporations’ cost of cap-
+ital falling by similarly modest amounts both before and after 2003. Thus none of 
+these varied tests suggests a violation of internal validity.
+
+F. External Validity
+
+The above results are local to the sample and do not necessarily apply to publicly 
+traded  corporations  and  to  corporations  that  were  smaller  or  larger  than  the  size 
+range  analyzed  here.  I  therefore  conduct  two  additional  analyses  to  test  for  sug-
+gestive evidence of different out-of-sample results. First, recall that publicly traded 
+corporations were excluded from the main sample because all publicly traded cor-
+porations are C-corporations and thus may have no reasonable S-corporation coun-
+terparts.  I  nevertheless  repeat  the  regressions  of  Table  2  on  a  broadened  sample 
+that includes the 76 percent of publicly traded corporation observations matched to 
+tax data that also satisfy this paper’s firm size restrictions. Publicly traded corpora-
+tions are large, so these additional observations loom large in these size-weighted 
+regressions. Online Appendix Table 7 shows that this inclusion leaves the results of 
+Table 2 nearly unchanged.31
+
+In a second test, Figure 3, panels A–C display heterogeneity in the main over-
+all  difference-in-differences  effects  on  investment,  net  investment,  and  employee 
+compensation, respectively, by firm size decile. The graph is constructed by com-
+puting the deciles of the pooled C-corporation distribution of lagged revenue, using 
+them  to  divide  all  corporations  into  size  deciles,  estimating  equation (1)  within 
+each decile using the full set of lagged controls, and plotting the resulting regres-
+sion  coefficients, 95 percent confidence intervals, and the best unweighted linear fit 
+through the coefficients.32 The figures reveal three facts: no within-decile estimate 
+is statistically significantly different from zero, each graph’s cross-decile variance 
+in point estimates is small relative to the standard deviation, and there is no upward 
+or  downward  trend  in  any  graph’s  point  estimates.  Hence  if  one  were  to  extrap-
+olate from these results, one would predict that the 2003 dividend tax cut had no 
+real effects on C-corporations outside of this paper’s size range. However, further 
+research is necessary to support out-of-sample conclusions.
+
+G. Potential Reallocation of Investment
+
+The central question of this paper is whether the 2003 dividend tax cut increased 
+the level of corporate investment and employee compensation. This section has found 
+no detectable increase in these levels. I now briefly investigate the separate ques-
+tion of whether there is evidence to suggest that the dividend tax cut improved the 
+allocative efficiency of investment, even if it did not increase its overall level. This 
+
+31 Online Appendix Table 4, column 5 shows a more negative result when including all public corporations 
+
+regardless of size. 
+32 Each graph’s y-axis is centered at zero and has total height equal to one standard deviation of the outcome 
+used in the regression (reported in columns 2, 8, and 11 of Table 2). Each confidence interval is Bonferroni-adjusted 
+for the fact that each graph tests multiple (ten) hypotheses; each interval would be 30 percent tighter if unadjusted 
+(i.e., the  t -statistic threshold for statistical significance at the 5 percent level is 2.81 rather than 1.96).
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153553
+
+possibility is motivated by a recent theoretical contribution (Chetty and Saez 2010, 
+building on Shleifer and Vishny 1986) that argues that a dividend tax cut can reduce 
+wasteful investment at some C-corporations (as shareholders improve monitoring 
+and force managers to reduce wasteful investment spending) while increasing pro-
+ductive investment at other C-corporations (via the traditional cost-of-capital chan-
+nel described below in Section VA), consistent with Swedish evidence (Alstadsæter, 
+Jacob, and Michaely 2014). Among other predictions, this agency theory predicts 
+that the subgroups of C-corporations that increased total payouts to shareholders 
+the least are also the ones that most increased equity issuance.33 Columns 4–5 of 
+Table 3 repeat the heterogeneity analysis of Section IIID for the outcomes of pay-
+outs and equity issuance. The results are noisy but no negative relationship is appar-
+ent between equity issuance and payouts when comparing coefficients across the 
+columns. Hence, I do not find evidence in support of investment rebalancing across 
+C-corporation subgroups.34
+
+IV.  Confirmation of Salience and Relevance
+
+The previous section documented robust zero effects of the 2003 dividend tax cut 
+on C-corporation investment and employee compensation. Whenever an interven-
+tion is found to have had no significant impact, an important concern for interpre-
+tation is that perhaps the intervention was simply not salient or relevant. A lack of 
+salience is perhaps unlikely given the prominence and size of the 2003 dividend tax 
+cut; more plausible is that unknown tax provisions neutralized the actual applica-
+bility of the tax cut. The dividend tax is assessed on dividend income, so I now test 
+for an immediate impact of the dividend tax cut on dividends and on total payouts to 
+shareholders (dividends plus share buybacks).
+I focus on total payouts in the text and report the very similar dividend results in 
+the online Appendix in order to allow the main results to speak to the unresolved 
+academic debate on the effects of the 2003 dividend tax cut on total payouts. Chetty 
+and Saez (2005) showed that the tax cut increased the dividends of publicly traded 
+corporations.  However,  subsequent  papers  have  questioned  the  relevance  of  this 
+behavior by arguing that planned buybacks may have simply been relabeled as div-
+idends,  leaving  total  payouts  unchanged (Blouin,  Raedy,  and  Shackelford  2011; 
+Brown, Liang, and Weisbenner 2007; Edgerton 2013).
+A. Effect on Payouts
+
+Figure  2,  panel  D  plots  the  time  series  of  mean  payouts  to  shareholders  from 
+C-corporations and S-corporations in the unbalanced panel. Each corporation’s pay-
+outs value is scaled by its lagged revenue in the spirit of Lintner (1956), though 
+results are robust to this choice. The figure is then constructed exactly as in Figure 3, 
+panels A–C except for two differences. Because C-corporations pay taxes on annual 
+
+33 Reduced  wasteful  investment  results  in  increased  payouts;  increased  productive  investment  is  funded  by 
+
+increased equity issuance. 
+
+34 Public corporations have much more dispersed ownership and thus may be more prone to agency problems 
+
+than this paper’s private corporations. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123554
+
+ corporate income at the entity level while S-corporation shareholders are liable for 
+them at the shareholder level, S-corporations often pay higher levels of dividends 
+(approximately ten times larger on average than C-corporations) to help sharehold-
+ers cover these tax liabilities. Thus I account for level differences in pre-2003 scaled 
+payouts by dividing firm  i ’s scaled payouts in year  t  by the mean level of payouts 
+for  i ’s corporate type (C or S) in the pre-2003 period, essentially transforming the 
+comparison into percentage terms.35 Second, I account for slightly differential pre-
+trends by de-trending each series; I show below that the main qualitative result does 
+not  depend  on  de-trending.36  To  be  concrete,  the  2002  C-corporation  data  point 
+means that the average C-corporation in 2002 paid out  0.34  cents per dollar of its 
+lagged revenue, net of controls.
+
+The  figure  shows  that  C-corporation  and  S-corporation  payouts  tracked  each 
+other in the five years before 2003, suggesting that in the absence of a tax change the 
+two series would have continued to track each other after 2003. Then  immediately 
+after the dividend tax cut, C-corporation payouts spiked by  20 percent  relative to 
+S-corporation payouts and relative to the 2002 difference, and remained elevated 
+above S-corporation payouts through the end of the sample.
+
+The first row of Table 4 columns 1–3 formalizes this visual evidence by replicat-
+ing columns 1–3 of Table 2 for the scaled payouts outcome; Table 4 columns 4–6 
+report estimates for analogous regressions that allow for differential pre-2003 trends 
+(see footnote 25). To test for a statistically significant increase immediately in 2003, 
+each column also reports coefficients from a separate regression that is analogous 
+to the main specification (1) except that it replaces the post-period indicators with 
+indicators for each post-period year. That is, I estimate
+
+(3) 
+ 
+
+ PAYOUT S  it   =  α 1  CCOR P  i, t−2   +  X i, t−2  β +  YEAR t  γ 
+
++ CCOR P i, t−2   × YEA R i, t  δ  ,
+
+where  CCOR P i, t−2   × YEA R it    is a vector of six indicators for each year  T ∈ { 2003  ,  
+2004  ,  2005  ,  2006  ,  2007  ,  2008}  , each equal to one if and only if  t =  T  and corpo-
+ration   i   was  a  C-corporation  in  year   t – 2 .37  The  coefficient  vector   δ   contains  the 
+coefficients of interest: the effect of the tax cut on C-corporation payouts from the 
+pre-period  to  each  post-period  year,  net  of  the  change  in  S-corporation  payouts. 
+For brevity, Table 4 reports only the estimates I refer to in the main text; see online 
+Appendix  Tables  8  and  9  for  full  results  for  the  payouts  outcome  and  the  divi-
+dends-only outcome, respectively.
+
+35 C  and  S-corporation  payouts  may  be  expected  a  priori  to  track  each  other  in  percentage  terms  because 
+S-corporation income tax liabilities are approximately a flat percentage of income, and a corporate finance tradition 
+conceives of firms paying out a set fraction of after-tax earnings (Lintner). 
+36 The C-corporation series has a slightly steeper downward trend, consistent with the well-documented twen-
+ty-year decline in dividend payments (Chetty and Saez 2005), combined with the fact that S-corporation dividends 
+include payouts intended to cover tax payments that need not have been in secular decline. 
+37 Columns  4–6  of  Table  4  report  estimates  when  an  additional  term— CCOR P  i, t−2   × t —is  included  in  the 
+
+regression in order to allow for differential pre-trends. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 2015Table 4—Effect of the 2003 Dividend Tax Cut on Total Payouts to Shareholders (Percent)
+
+3555
+
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+Panel:
+
+Balanced
+
+Balanced  
+
+(6)
+53.6
+(15.1)
+45.1
+(11.3)
+48.8
+(10.4)
+59.1
+(16.6)
+ 
+X
+X
+
+(3)
+78.1
+(8.0)
+58.5
+(8.8)
+66.6
+(11.4)
+81.4
+(12.4)
+ 
+X
+ 
+
+Unbalanced
+(4)
+(5)
+45.5
+39.4
+(6.5)
+(7.3)
+30.5
+26.2
+(4.8)
+(4.6)
+48.3
+43.3
+(6.2)
+(6.5)
+46.0
+41.2
+(8.2)
+(7.5)
+X
+ 
+ 
+ 
+X
+X
+
+Unbalanced
+(1)
+(2)
+27.6
+23.4
+(3.3)
+(3.6)
+21.4
+18.1
+(4.3)
+(4.1)
+35.6
+32.1
+(5.0)
+(5.2)
+29.8
+26.8
+(5.8)
+(5.5)
+X
+ 
+ 
+ 
+ 
+ 
+
+ 
+C-Corp × Post-2003
+ 
+C-Corp × Year-2003
+ 
+C-Corp × Year-2004
+ 
+C-Corp × Year-2005
+ 
+Lagged controls
+Firm FE’s
+Pre-trend controls
+Observations (firm-years)
+Clusters (firms)
+Pre-2003 C-corp mean
+  ($ per lagged revenue)
+Notes: This table reports difference-in-differences estimates of the effect of the 2003 dividend tax cut on total pay-
+outs to shareholders (dividends plus buybacks). The first row of columns 1–3 use the same specifications, controls, 
+scaling, weights underlying Table 2 columns 10–12 except that before the winsorizing and in order to account for 
+large level differences in pre-2003 payouts (see Table 1 and the y-axis of Figure 2, panel D), each firm i’s pay-
+outs in year  t  is divided by the mean level of payouts for  i ’s corporate type (C or S) in the pre-2003 period, essen-
+tially transforming the comparison into percentage terms. The second through fourth rows of each column report 
+results from a separate regression in which the C-corp × post-2003 interaction term is replaced with a vector of 
+interactions between the C-corporation indicator and post-2003 year indicators; see online Appendix Table 8 for 
+additional reported coefficients. Columns 4–6 modify the specifications of columns 1–3 in order to allow for dif-
+ferential pre-2003 trends; see Section IVA for the specification and online Appendix Table 1 for analogous specifi-
+cations for real outcomes. Standard errors are clustered by firm. See online Appendix 9 for results on the outcome 
+of dividends only.
+
+333,029
+73,188
+0.0031
+ 
+
+333,029
+73,188
+0.0031
+
+333,029
+73,188
+0.0031
+
+333,029
+73,188
+0.0031
+
+85,624
+7,784
+0.0061
+
+85,624
+7,784
+0.0061
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Across all specifications and samples, I find a large and statistically significant 
+effect on C-corporation payouts. Column 2 reports that in the unbalanced panel with 
+the full set of controls, I estimate that the dividend tax cut caused an immediate  21.5 
+percent  increase in C-corporation payouts in 2003, with a  t -statistic over  5  ,  implying 
+an  elasticity  of  payouts  with  respect  to  one  minus  the  top  statutory  dividend  tax 
+rate of  0.50  (reported in online Appendix Table 8). The remaining columns report 
+similar or larger estimates when considering all years, when de-trending, and in the 
+balanced panel. Online Appendix Table 9 reports similar estimates for the outcome 
+of dividends only. I conclude that the 2003 dividend tax cut was immediately salient 
+and relevant to C-corporations.
+
+B. Compatibility of the Payouts and Investment Results
+
+Standard models of dividend taxation abstract from cash and debt and assume 
+that  every  dollar  of  increased  payouts  substitutes  for  a  dollar  of  investment;  the 
+significant payouts effect may therefore appear at first glance incompatible with the 
+null investment result. However, the payouts effect was large in percentage terms 
+but small in dollar terms relative to all other balance sheet flows and the investment 
+effect’s  standard  error,  so  the  results  are  consistent  with  a  small  dollar-for-dollar 
+reduction  in  investment,  or  with  a  mere  reshuffling  of  corporate  financial  claims 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123556
+
+(e.g., a little less cash or a little more debt) and no reduction in investment.38 The 
+main relevance of the payouts result for this paper is that it validates the empirical 
+design and salience.
+
+V.  Economic Interpretation and Policy Implications
+
+The previous sections documented that the 2003 dividend tax cut was immedi-
+ately salient and relevant but had no detectable impact on investment or employee 
+compensation. This section considers reasons for the null investment result and asks 
+under what circumstances would future dividend tax cuts be expected to have large 
+and positive real effects. I begin by noting that a near-zero dividend tax elasticity 
+of investment implies either a small dividend tax elasticity of firms’ cost of capital, 
+or a small cost-of-capital elasticity of investment, or both. I then detail whether and 
+why either elasticity would likely have been small and the implications for the real 
+effects of future alternative dividend tax reforms. The section ends with a discussion 
+of the payouts response.
+
+A. Economic Interpretation
+
+The prediction that a dividend tax cut can substantially increase investment derives 
+from models that are referred to as representing the “traditional view” (Harberger 
+1962, 1966; Feldstein 1970; Poterba and Summers 1985). Traditional-view models 
+feature  permanent  dividend  tax  cuts  and  firms  that  finance  marginal  investments 
+with newly issued equity.39 A dividend tax cut reduces firms’ cost of capital—the 
+pretax rate of return required on marginal investments—because it reduces the taxes 
+that must be paid when profits are distributed to shareholders; this induces firms to 
+raise new investment funds and increase investment.40
+I now derive a quantitative traditional-view prediction for the elasticity of invest-
+ment with respect to one minus the dividend tax rate (“the dividend tax elasticity 
+of investment”). I do so by multiplying a traditional-view parameterization of the 
+elasticity of the cost of capital with respect to one minus the dividend tax rate (“the 
+dividend tax elasticity of the cost of capital”) by empirical estimates of the elasticity 
+of investment with respect to the cost of capital (“the cost-of-capital elasticity of 
+investment”).
+Desai  and  Goolsbee  (2004)  parameterize  the  workhorse  traditional  model 
+(Poterba and Summers 1985) as follows. A C-corporation faces a cost of capital 
+equal to
+
+ 
+
+r  ___________________________    (1 −  τ inc  ) [(1 −  τ div  )p + (1 −  τ acg  )(1 − p)]     ,
+   
+
+38 The standard error on the investment effect (Table 2, column 2) implies a 95 percent upper bound reduction 
+in investment of  $87,557  per C-corporation, while the payouts response (Table 4, column 2) implies a payouts 
+increase of  $59,922  per C-corporation. 
+39 Similar qualitative predictions obtain when firms finance investment with risky debt, since debt holders often 
+become equity holders after bankruptcy reorganization. Dai et al. (2013) formulate a related argument based on 
+financing constraints with similar predictions. 
+40 In terms of Tobin’s  q ,  q  always equals  1  under the traditional view: the marginal dollar invested within the 
+firm generates the same after-tax return as outside options, and investment must rise after a dividend tax cut in order 
+to maintain  q =  1 . 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153557
+
+where  r  is the economy’s rate of time preference,   τ inc    is the corporate income tax 
+rate,   τ div    is the tax rate applied to dividends and other payouts,41  p  is the share of 
+earnings paid out rather than retained, and   τ acg    is the effective tax rate on accrued 
+capital gains.42 The effective tax rate on accrued capital gains represents a combina-
+tion of future payouts (taxed at   τ div   ), future realized capital gains (taxed at the statu-
+tory capital gains tax rate), and bequests (taxed at the estate tax rate). Based on their 
+reading of the literature, Desai and Goolsbee assume a payouts share of earnings 
+equal to  0.5  and an effective tax rate on accrued capital gains equal to one-quarter 
+of the top statutory rate.43 Combining these parameters with the decrease in the top 
+statutory dividend tax rate from 44.7 percent to 20.8 percent yields an elasticity of 
+the cost of capital with respect to one minus the payout tax rate of  −0.411 . Hassett 
+and Hubbard (2002) summarize the recent empirical literature as reaching a consen-
+sus range for the cost-of-capital elasticity of investment of  −0.5  to  −1.0 .44
+Multiplying these elasticities together, one obtains a predicted range of the divi-
+dend tax elasticity of investment of  0.21  to  0.41 . These predicted elasticities are 2.5 to 
+5 times as large as this paper’s estimated 95 percent confidence upper bound ( 0.08 ). 
+Hence, either the consensus range for the cost-of-capital elasticity of  investment or 
+the parameterized tax elasticity of the cost of capital, or both, failed to materialize.
+There is no obvious reason to believe that corporations would have been unusu-
+ally unresponsive to cost-of-capital changes in the 2003–2008 time period. Fixed 
+costs  to  capital  stock  adjustment  can  temporarily  mute  investment  responses  to 
+ cost-of-capital  changes (Caballero,  Engel,  and  Haltiwanger  1995),  but  the  2003 
+dividend  tax  cut  was  passed  at  the  end  of  a  cyclical  downturn  in  investment,  so 
+corporations are unlikely to have been particularly far from any positive investment 
+thresholds. The short-run supply of capital assets may be inelastic (Goolsbee 1998), 
+but this cannot explain the lack of a relative change (between C- and S-corporations) 
+in investment expenditures (price times quantity, not just quantity).
+There are at least three reasons that the true cost-of-capital elasticity of invest-
+ment may be smaller than the Hassett-Hubbard consensus range. First, a large time 
+series literature dating back to Eisner’s (1969, 1970) responses to Hall and Jorgenson 
+(1967) finds small cost-of-capital elasticities of investment, and the newer estimates 
+that  underlie  the  modern  consensus  range  employ  reasonable  but  difficult-to-ver-
+ify structural assumptions (e.g., Caballero, Engel, and Haltiwanger 1995). Second, 
+these  newer  estimates  may  reflect  intertemporal  substitution  over  short  horizons 
+(c.f.  Caballero  1994  and  Cummins,  Hassett,  and  Hubbard  1994)  or  relaxation  of 
+financing constraints (e.g., Zwick and Mahon 2014) that would apply, for example, 
+
+41 Most private C-corporation payouts are taxed at the dividend tax rate; see footnote 13. 
+42 Poterba and Summers allow  r  to depend negatively on  p  so that the required rate of return is lower for cor-
+porations that pay dividends, e.g., because regular dividends may have signaling value. Dividend-paying private 
+corporations tend to pay dividends frequently but in irregular amounts so I ignore this dependency here. 
+
+43 The top statutory capital gains rate equals approximately the top dividend tax rate of 20.8 percent; it is quan-
+
+titatively irrelevant whether one uses this value or a five-percentage-points-higher pre-2003 rate. 
+44 The investment time horizon that these estimates are based on varies but a two-year-or-shorter horizon is 
+common (e.g., Cummins, Hassett, and Hubbard 1994 and Caballero, Engel, and Haltiwanger 1995). Note that in 
+the very long run after adjustment to a new steady-state capital stock, measured elasticities of investment scaled by 
+lagged tangible capital will be zero, but recall that this paper’s results hold even when scaling investment by pre-
+2003 tangible capital (see online Appendix CII and online Appendix Table 5). 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123558
+
+to temporary accelerated depreciation but likely not to a dividend tax cut.45 Third, 
+there may be publication bias toward statistically significant empirical results (Card 
+and Krueger 1995) and such bias could have led to the publication of erroneously 
+large estimates.
+Because this paper is fundamentally concerned with the effects of the dividend 
+tax cut, I proceed by taking as given the Hassett-Hubbard consensus range for the 
+cost-of-capital elasticity of investment and turning to why the dividend tax elasticity 
+of the cost of capital could have been small and the implications for the real effects 
+of future alternative dividend tax cuts.
+
+B. Policy Implications of a Small Cost-of-Capital Change
+
+Explanations  for  why  the  large  2003  dividend  tax  cut  could  have  caused  a 
+small  reduction  in  the  cost  of  capital  fall  into  either  of  two  lines  of  reasoning: 
+traditional-view models are the wrong models, or traditional-view models are cor-
+rect but the above parameterization is wrong. Each line of reasoning clarifies the 
+circumstances under which future dividend tax cuts would be expected to substan-
+tially increase investment
+
+Wrong Model.—The leading alternative to the traditional view—called the “new 
+view” (also called the “trapped equity view”; King 1977; Auerbach 1979; Bradford 
+1981)—can explain the null result on investment. New-view models feature firms 
+with profits from preexisting operations that are abundant enough to fund all prof-
+itable investment.46 Because those preexisting profits will  inevitably be  subject to 
+dividend taxes (whether paid out immediately, or retained for investment and paid 
+out  in  the  future),  a  permanent  dividend  tax  cut  increases  the  post-tax  return  on 
+investment by the same factor that it increases the opportunity cost of investment.47 
+Thus the new view predicts that a permanent dividend tax cut affects firm value but 
+does not affect the cost of capital and does not affect corporate investment.48
+
+The policy implication of the new view is that dividend tax cuts typically do not 
+reduce firms’ cost of capital and thus are typically not useful tools for increasing 
+investment. The exception would be if a dividend tax cut today signaled that div-
+idend tax rates would fall even further in the future. This is possible, though the 
+
+45 In other words, cost-of-capital formulas could be misspecified in the sense that a unit reduction in the cost 
+of capital due to temporary accelerated depreciation affects investment more than a unit reduction due to other tax 
+changes.
+
+46 Access to riskless debt generates similar results because interest payments are not subject to dividend taxes. 
+47 To see this in a simple riskless two-period setup in which all profits in the second period are paid out as dividends, 
+consider a new-view firm in a small-open economy that begins the first period with abundant past profits. It chooses 
+how much to retain for investment (equal to past profits minus dividend payouts) by equating the return on marginal 
+investment  to  the  opportunity  cost  of  that  investment:    (1 −  τ DIV  )   (1 −  τ INC  )  f ′ (PASTPROFITS − PAYOUTS)  =  
+(1 −  τ DIV  )  r  , where   τ DIV    is the dividend tax rate,   τ INC    is the business income tax rate,  f ′( · )  is a concave gross profit 
+
+function, and  r  is the fixed return available on outside investments. A reduction in the dividend tax rate increases 
+both sides of the equation by the same factor, inducing no change in optimal investment. In terms of Tobin’s  q ,  q  is 
+less than 1 in the new view by an amount that varies proportionally with one minus the dividend tax rate. 
+48 An anticipated dividend tax cut would induce an increase in investment before the tax cut, which Figure 
+2, panel A suggests did not happen. See Poterba and Summers (1985); Ayers, Cloyd, and Robinson (2002); and 
+Auerbach and Hassett (2007) for evidence of effects on firm value. 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153559
+
+policy debate since 2003 has centered on keeping top dividend tax rates constant or 
+increasing them.49
+Of course, even if the new view characterizes most firms, the traditional view 
+may characterize other firms (Auerbach and Hassett 2003; Dhaliwal et al. 2005), 
+especially  start-ups  that  may  be  particularly  reliant  on  external  equity  financing. 
+This paper’s main analysis sample contains many start-ups, but most firms are not 
+young: the median firm age studied here is 22 years, and only 1 of the 100 most 
+valuable publicly traded companies in the United States was founded since 2003.50 
+The implication would be that the effect of dividend tax cuts on the US capital stock 
+may grow large as start-ups (traditional-view firms) gradually replace mature (new-
+view) firms over the very long run, but the near-term effect may be small because 
+mature firms dominate US production.
+
+Wrong  Parameterization.—An  alternative  explanation  of  the  null  investment 
+result is that the traditional view correctly models firms’ investment decisions and 
+that alternative dividend tax cuts can substantially reduce firms’ cost of capital and 
+thereby increase investment, even if the 2003 dividend tax cut in this sample did not. 
+There are at least three distinct versions of this explanation. Considered together, the 
+implication is that it may be difficult for policymakers to implement an alternative 
+dividend tax cut that has substantially larger near-term effects.
+
+First, the returns to new investment can take years to accrue in the form of higher 
+profits that can be paid out to shareholders, and a dividend tax cut reduces the cost 
+of capital for new investment only insofar as those payouts will be taxed at the new 
+low rate. The 2003 dividend tax cut originally carried an expiration date of 2009 
+before being extended to 2013 and then being made permanent at nearly the full rate 
+reduction (see Section IB). It is therefore possible that a dividend tax cut with no 
+initial default expiration date would have substantially reduced the cost of capital, 
+even if the 2003 dividend tax cut did not.51 In this case, modern democracies may 
+be unable to guarantee the permanence necessary for a dividend tax cut to substan-
+tially reduce firms’ cost of capital and thus increase investment. For example, the 
+Tax Reform Act of 1986 reduced the top personal income tax rate to 28 percent in 
+1988 with no default expiration date, but the rate was subsequently raised to 39.6 
+percent in 1993. Looking globally, a majority of the G7 economies (Japan, Italy, the 
+United States, and the United Kingdom) have substantially raised or lowered their 
+top dividend tax rates since 2003.52
+Second  and  despite  stock  price  evidence  that  the  tax  cut  was  unanticipated 
+(Auerbach and Hassett 2007), perhaps C-corporations had been expecting to enjoy 
+low  dividend  taxes  at  some  point  in  the  future  and  thus  had  been  investing  at  a 
+
+49 In fact, the new view implies that reducing the dividend tax rate to a minimum conceivable rate could actually 
+50 Inference on start-ups is also challenging because the counterfactual (e.g., perhaps not founding the company 
+51 That is, with respect to the traditional-view parameterization, perhaps the assumed change in the dividend 
+
+reduce investment because dividend tax rates could then only rise (Korinek and Stiglitz 2009). 
+in the first place) may be difficult to discern. 
+tax rate was too large. 
+52 Japan lowered its top rate from 43.6 percent to 10 percent; Italy raised its top rate from 12.5 percent to 20 
+percent; and the UK raised its top rate from 25 percent to 36 percent (OECD 2012). These figures include average 
+subnational top rates. 
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123560
+
+ permanently higher rate even before the tax cut.53 Under this candidate explanation, 
+a future dividend tax cut would increase investment only if its magnitude exceeded 
+expectations or if it increased expectations of future cuts.
+
+Third and although substantial corporate profits are subject to dividend taxation—
+about $300 billion in 2008 and similar in magnitude to total taxable capital gains—it 
+is  possible  that  most  profits  from  private  C-corporations  escape  dividend  taxation 
+and are instead taxed as capital gains in corporate acquisitions, as bequests subject to 
+the estate tax, or not at all through various capital income exclusions.54 This would 
+imply that a future dividend tax cut could substantially increase near-term invest-
+ment if the dividend tax base were substantially broadened, such as by lowering the 
+dividend tax rate relative to the capital gains tax rate. However, there may be polit-
+ical impediments to doing so: US policymakers have historically kept tax rates on 
+taxable dividend income weakly greater than those on taxable capital gains, perhaps 
+because most Americans hold small portions of their assets in stocks relative to hous-
+ing (Campbell 2006) and may be more receptive to low tax rates on capital gains.55
+
+C. The Payouts Response
+
+This paper shows that the 2003 dividend tax cut increased total corporate pay-
+outs. This increase was small in dollar terms and may have been irrelevant for real 
+ outcomes (see  Section  IVB),  but  the  effect  is  relevant  for  the  study  of  corporate 
+finance  and  I  now  discuss  its  potential  drivers  and  outline  directions  for  future 
+research.
+
+Traditional-view  models  do  not  explain  the  payouts  response.56  A  new-view 
+explanation of the payouts response is that firms viewed the tax cut as temporary 
+and thus engaged in intertemporal tax arbitrage by distributing payouts before tax 
+rates rise (Korinek and Stiglitz 2009). The time series of payouts provide one rea-
+son to doubt this mechanism: Figure 2, panel D and Table 4 suggest that payouts 
+did not decline substantially after 2004 when President Bush won reelection and 
+his party won control of both houses of Congress, which likely reduced expecta-
+tions of a near-term rise in dividend taxes and hence incentives for immediate tax 
+arbitrage (Korinek  and  Stiglitz  2009).57  However,  this  is  not  conclusive  because 
+expectations are not observable, because various concerns may govern the timing 
+of  tax-arbitraging payouts, and because of sampling and specification uncertainty. 
+
+53 That is, with respect to the parameterization, perhaps the assumed tax change was again too large. 
+54 That is, with respect to the parameterization, perhaps the assumed value of  p  was too large. Payouts can 
+escape taxes if they are distributed in the form of bequested corporate equity below the estate tax threshold, if the 
+corporate stock is held in tax-favored investment accounts or by untaxed entities like pension funds (though this is 
+unlikely for most private corporations), or if private C-corporations preparing to distribute earnings manage to meet 
+S-status requirements and switch tax status (though switching is relatively rare). 
+55 All  forms  of  capital  income  accrue  very  disproportionately  to  high-income  Americans,  but  Republican 
+lawmakers  in  2003  explained  that  in  contrast  to  cutting  dividend  taxes,  “millions  of Americans  understand  the 
+power of cutting the tax on capital gains” making low capital gains tax rates “easier to sell” (David Firestone, “As 
+Bush Tax Plan Falters, Conservatives Find a Silver Lining,” New York Times, May 8, 2003, http://www.nytimes.
+com/2003/05/08/us/as-bush-tax-plan-falters-conservatives-find-a-silver-lining.html). 
+56 The exception is the traditional-view model of Poterba and Summers (1985) which allows for a dividend tax 
+cut to immediately increase payouts (and investment) when payouts such as regular dividends carry signaling value. 
+This is unlikely to be relevant for the private corporations studied here. 
+57 The  2004  Democratic  presidential  challenger,  John  Kerry,  pledged  to  repeal  the  tax  cut  for  high-income 
+Americans and at one point was the front runner according to betting markets (Auerbach and Hassett 2007). 
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153561
+
+Chetty and Saez (2010) show that the new view can explain the payouts increase as 
+a permanent dividend tax cut causing dispersed shareholders to incur the monitoring 
+costs necessary to prevent wasteful investment by managers. This too is possible, 
+though such agency problems would be expected to be least severe among private 
+corporations, whose shareholders are typically concentrated.
+Three under-emphasized mechanisms may instead explain the payouts response. 
+First, the dividend tax cut raised the value of C-corporation equity (Auerbach and 
+Hassett 2007), so owners of illiquid private C-corporation stock may have increased 
+payouts in order to rebalance their portfolios or to reoptimize consumption among 
+themselves and their heirs. Second, the dividend tax cut could have induced con-
+trolling owners to use payouts for their own liquidity, against the interests of minority 
+shareholders and similar to tunneling (Johnson et al. 2000). Third, high dividend 
+tax  rates  incent  owner-managers  to  avoid  or  evade  taxes  by  paying  out  earnings 
+as officer compensation or purchasing consumption goods through the corporation 
+(Gordon and Slemrod 2000); the tax cut reduced the benefits of such behavior and 
+may have caused C-corporations to increase formally-labeled payouts. These effects 
+are observationally equivalent in the data available to me, but testing among these 
+various mechanisms is an interesting area for future research.
+
+VI.  Conclusion
+
+The 2003 dividend tax cut was one of the largest changes ever to a US capital 
+income tax rate and was intended to increase corporate investment and labor utiliza-
+tion, beginning in the near term. This paper used a large sample of tax returns from 
+large private corporations—some subject to dividend taxation (C-corporations) and 
+others not (S-corporations)—to test whether these real goals were achieved in a firm 
+size range that employs most US private sector workers. I estimate that the tax cut 
+caused no change in C-corporation investment or employee compensation relative 
+to S-corporations. Evidence of an immediate increase in payouts confirms salience 
+and relevance. External validity remains an open question, but neither broadening 
+the sample to include publicly traded corporations nor heterogeneity by firm size 
+suggests different out-of-sample results.
+
+The findings contrast with evidence of large real effects of numerous other fiscal 
+policies. Economically, the null result implies either that the dividend tax cut had 
+little effect on firms’ cost of capital, or that investment responded to cost-of-capital 
+changes substantially less than recent evidence would have predicted, or both. The 
+tax cut could have failed to reduce the cost of capital either because marginal invest-
+ments are funded out of retained earnings and riskless debt as in “new-view” models 
+of  dividend  taxation (King  1977; Auerbach  1979;  Bradford  1981)  or  because  of 
+particular features of the tax regime. Each potential mechanism suggests that it may 
+be difficult for policymakers to implement an alternative dividend tax cut that has 
+substantially larger near-term effects.
+
+REFERENCES
+
+Alstadsæter, Annette, Martin Jacob, and Roni Michaely. 2014. “Do Dividend Taxes Affect Corporate 
+
+Investment?” http://www.nber.org/chapters/c13476.pdf (accessed September 20, 2015).
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 123562
+
+Auerbach, Alan J. 1979. “Wealth Maximization and the Cost of Capital.” Quarterly Journal of Eco-
+
+Auerbach, Alan J., and Kevin A. Hassett. 2003. “On the Marginal Source of Investment Funds.” Jour-
+
+Caballero, Ricardo J. 1994. “A Reconsideration of Investment Behavior Using Tax Reforms as Natural 
+
+Chetty,  Raj.  2012.  “Bounds  on  Elasticities  with  Optimization  Frictions: A  Synthesis  of  Micro  and 
+
+Auerbach, Alan J., and Kevin Hassett. 1992. “Tax Policy and Business Fixed Investment in the United 
+
+Bradford, David F. 1981. “The Incidence and Allocation Effects of a Tax on Corporate Distributions.” 
+
+Auerbach, Alan J. 1989. “Tax Reform and Adjustment Costs: The Impact of Investment on Market 
+
+nomics 93 (3): 433–46.
+Value.” International Economic Review 30 (4): 939–62.
+States.” Journal of Public Economics 47 (2): 141–70.
+nal of Public Economics 87 (1): 205–32. 
+Auerbach, Alan J., and Kevin A. Hassett. 2007. “The 2003 Dividend Tax Cuts and the Value of the 
+Firm: An Event Study.” In Taxing Corporate Income in the 21st Century, edited by Alan J. Auer-
+bach, James R. Hines Jr., and Joel Slemrod, 93–126. Cambridge, UK: Cambridge University Press.
+Ayers, Benjamin C., C. Bryan Cloyd, and John R. Robinson. 2002. “The Effect of Shareholder-Level 
+Dividend Taxes on Stock Prices: Evidence from the Revenue Reconciliation Act of 1993.” Account-
+ing Review 77 (4): 933–47.
+Blouin, Jennifer L., Jana S. Raedy, and Douglas A. Shackelford. 2011. “Dividends, Share Repurchases, 
+and Tax Clienteles: Evidence from the 2003 Reductions in Shareholder Taxes.” Accounting Review 
+86 (3): 887–914.
+Journal of Public Economics 15 (1): 1–22.
+Brown, Jeffrey R., Nellie Liang, and Scott Weisbenner. 2007. “Executive Financial Incentives and Pay-
+out Policy: Firm Responses to the 2003 Dividend Tax Cut.” Journal of Finance 62 (4): 1935–65.
+Bush, George W. 2003. Economic Report of the President. Washington, DC: US Government Print-
+ing Office.
+Experiments: Comment.” Brookings Papers on Economic Activity 1994 (2): 1–74.
+Caballero, Ricardo J., Eduardo M. R. A. Engel, and John C. Haltiwanger. 1995. “Plant-Level Adjust-
+ment and Aggregate Investment Dynamics.” Brookings Papers on Economic Activity 1995 (2): 1–54.
+Campbell, John Y. 2006. “Household Finance.” Journal of Finance 61 (4): 1553–1604.
+Card, David, and Alan B. Krueger. 1995. “Time-Series Minimum-Wage Studies: A Meta-analysis.” 
+American Economic Review 85 (2): 238–43.
+Macro Evidence on Labor Supply.” Econometrica 80 (3): 969–1018.
+Chetty, Raj, John N. Friedman, Nathaniel Hilger, Emmanuel Saez, Diane Whitmore Schanzenbach, 
+and Danny Yagan. 2011.  “How  Does Your  Kindergarten  Classroom Affect Your  Earnings?  Evi-
+dence from Project STAR.” Quarterly Journal of Economics 126 (4): 1593–1660.
+2003 Dividend Tax Cut.” Quarterly Journal of Economics 120 (3): 791–833.
+Firm.” American Economic Journal: Economic Policy 2 (3): 1–31.
+Cohen, Darrel S., Dorthe-Pernille Hansen, and Kevin A. Hassett. 2002. “The Effects of Temporary Par-
+tial Expensing on Investment Incentives in the United States.” National Tax Journal 55 (3): 457–66.
+Cummins, Jason G., Kevin A. Hassett, and R. Glenn Hubbard. 1994. “A Reconsideration of Invest-
+ment Behavior Using Tax Reforms as Natural Experiments.” Brookings Papers on Economic Activ-
+ity 1994 (2): 1–74.
+Dai, Zhonglan, Douglas A. Shackelford, Harold H. Zhang, and Chongyang Chen. 2013. “Does Finan-
+cial Constraint Affect the Relation between Shareholder Taxes and the Cost of Equity Capital?” 
+Accounting Review 88 (5): 1603–27.
+Papers on Economic Activity 2004 (2): 285–338.
+Cost of Equity Capital.” Journal of Accounting Research 43 (5): 675–708.
+DiNardo,  John,  Nicole  M.  Fortin,  and Thomas  Lemieux.  1996.  “Labor  Market  Institutions  and  the 
+Distribution of Wages, 1973–1992: A Semiparametric Approach.” Econometrica 64 (5): 1001–44.
+Edgerton, Jesse. 2013. “Four Facts about Dividend Payouts and the 2003 Tax Cut.” International Tax 
+and Public Finance 20 (5): 769–84.
+59 (3): 379–88.
+Review 60 (4): 746–52. 
+ies 37 (1): 57–72.
+
+Chetty, Raj, and Emmanuel Saez. 2005. “Dividend Taxes and Corporate Behavior: Evidence from the 
+
+Dhaliwal, Dan, Linda Krull, Oliver Zhen Li, and William Moser. 2005. “Dividend Taxes and Implied 
+
+Chetty, Raj, and Emmanuel Saez. 2010. “Dividend and Corporate Taxation in an Agency Model of the 
+
+Desai, Mihir A., and Austan D. Goolsbee. 2004. “Investment, Overhang, and Tax Policy.” Brookings 
+
+Eisner, Robert. 1970. “Tax Policy and Investment Behavior: Further Comment.” American Economic 
+
+Eisner, Robert. 1969. “Tax Policy and Investment Behavior: Comment.” American Economic Review 
+
+Feldstein, Martin S. 1970. “Corporate Taxation and Dividend Behaviour.” Review of Economic Stud-
+
+THE AMERICAN ECONOMIC REVIEWdECEMbER 20153563
+
+Goolsbee, Austan. 1998. “Investment Tax Incentives, Prices, and the Supply of Capital Goods.” Quar-
+
+Hall, R. E., and D. W. Jorgenson. 1967. “Tax Policy and Investment Behavior.” American Economic 
+
+Harberger, A. C. 1962. “The Incidence of the Corporation Income Tax.” Journal of Political Economy 
+
+terly Journal of Economics 113 (1): 121–48.
+Gordon, Roger H., and Joel B. Slemrod. 2000. “Are ‘Real’ Responses to Taxes Simply Income Shifting 
+Between Corporate and Personal Tax Bases?” In Does Atlas Shrug? The Economic Consequences 
+of Taxing the Rich, edited by Joel Slemrod, 240–79. Cambridge, MA: Harvard University Press.
+Review 57 (3): 391–414.
+70 (3): 215–40.
+Harberger, Arnold C. 1966. “Efficiency Effects of Taxes on Income from Capital.” In Effects of Cor-
+poration Income Tax, edited by Marian Krzyzaniak, 107–17. Detroit: Wayne State University Press.
+Hassett, Kevin A., and R. Glenn Hubbard. 2002. “Tax Policy and Business Investment.” In Handbook 
+of Public Economics, Vol. 3, edited by Alan J. Auerbach and Martin Feldstein, 1293–1343. Amster-
+dam: Elsevier Science B.V.
+ory with Evidence from Bonus Depreciation.” American Economic Review 98 (3): 737–68.
+Hubbard, R. Glenn, N. Gregory Mankiw, John B. Taylor, and Kevin A. Hassett. 2012. “The Romney 
+Program  for  Economic  Recovery,  Growth,  and  Jobs.”  http://www.docstop.com/docs/125714335/
+Romney-Tax-Reform-White-Paper (accessed December 19, 2012).
+the Income Tax Rebates of 2001.” American Economic Review 96 (5): 1589–1610.
+American Economic Review 90 (2): 22–27.
+
+Johnson, David S., Jonathan A. Parker, and Nicholas S. Souleles. 2006. “Household Expenditure and 
+
+Johnson, Simon, Rafael La Porta, Florencio Lopez-de-Silanes, and Andrei Shleifer. 2000. “Tunneling.” 
+
+House, Christopher L., and Matthew D. Shapiro. 2008. “Temporary Investment Tax Incentives: The-
+
+King, Mervyn A. 1977. Public Policy and the Corporation. London: Chapman and Hall.
+Kitchen,  John,  and  Matthew  Knittel.  2011.  “Business  Use  of  Special  Provisions  for  Accelerated 
+
+Lintner, J. 1956. “Distribution of Incomes of Corporations among Dividends, Retained Earnings, and 
+
+Korinek, Anton, and Joseph E. Stiglitz. 2009. “Dividend Taxation and Intertemporal Tax Arbitrage.” 
+
+Depreciation: Section 179 Expensing and Bonus Depreciation, 2002–2009.” Unpublished. 
+Journal of Public Economics 93 (1-2): 142–59.
+Taxes.” American Economic Review 46 (2): 97–113.
+Mian, Atif, and Amir Sufi. 2012. “The Effects of Fiscal Stimulus: Evidence from the 2009 Cash for 
+Clunkers Program.” Quarterly Journal of Economics 127 (3): 1107–42.
+Organisation  for  Economic  Co-operation  and  Development (OECD).  2012.  “OECD  Tax  Database 
+Table II.4: Overall Statutory Tax Rates on Dividend Income.” http://www.oecd.org/tax/tax-policy/
+tax-database.htm (accessed March 22, 2012).
+Poterba, James. 2004. “Taxation and Corporate Payout Policy.” American Economic Review 94 (2): 
+171–75.
+Poterba, James M., and Lawrence H. Summers. 1983. “Dividend Taxes, Corporate Investment, and 
+‘Q’.” Journal of Public Economics 22 (2): 135–67.
+Poterba, James M., and Lawrence H. Summers. 1985. “The Economic Effects of Dividend Taxation.” 
+In Recent Advances in Corporate Finance, edited by Edward Altman and Marti Subrahmanyam, 
+227–84. Homewood, IL: Richard D. Irwin Publishers.
+metrika 81 (2): 373–83.
+Ryan,  Paul.  2011,  2012.  “The  Path  to  Prosperity.”  http://budget.house.gov/uploadedfiles/
+pathtoprosperityfy2012.pdf  and  http://budget.house.gov/uploadedfiles/pathtoprosperity2013.
+pdf (accessed September 20, 2015).
+Political Economy 94 (3): 461–88. 
+chases.” Journal of Financial Economics 87 (3): 582–609.
+Tax Cut: Dataset.” American Economic Review. http://dx.doi.org/10.1257/aer.20130098.
+Zwick, Eric, and James Mahon. 2014. “Do Financial Frictions Amplify Fiscal Policy? Evidence from 
+Business Investments Stimulus.” http://www.ericzwick.com/stimulus/stimulus.pdf (accessed Sep-
+tember 20, 2015).
+
+Shleifer, Andrei, and Robert W. Vishny. 1986. “Large Shareholders and Corporate Control.” Journal of 
+
+Yagan, Danny. 2015. “Capital Tax Reform and the Real Economy: The Effects of the 2003 Dividend 
+
+Rivest, Louis-Paul. 1994. “Statistical Properties of Winsorized Means for Skewed Distributions.” Bio-
+
+Skinner, Douglas J. 2008. “The Evolving Relation between Earnings, Dividends, and Stock Repur-
+
+Yagan: Real effects of the 2003 DiviDenD tax cutvol. 105 no. 12This article has been cited by:1.Alona Bilokha, Joon Ho Kong, Joseph A. Micale. 202⒋ Universal demand laws and stakeholders:Evidence from the auditor's perspective. Advances in Accounting 67, 10076⒍ [Crossref]2.Haiyan Li, Peiyan Yin. 202⒋ Does tax refund policy boost executive compensation?. Economic Analysisand Policy 84, 898-9⒒ [Crossref]⒊Alexander P. Kontoghiorghes. 202⒋ Do personal taxes affect investment decisions and stock returns?.Journal of Financial Economics 162, 10392⒎ [Crossref]⒋Marie‐Noëlle Lefebvre, Etienne Lehmann, Michaël Sicsic. 202⒋ Estimating the Laffer tax rate oncapital income: cross‐base responses matter!. The Scandinavian Journal of Economics 467. . [Crossref]⒌Maurizio Iacopetta, Pietro F. Peretto. 202⒋ Business taxes, management delegation, and growth.European Economic Review 170, 104850. [Crossref]⒍Bastian Castro Nofal, Juan D. Díaz, Pablo Gutiérrez Cubillos, Erwin Hansen. 202⒋ Stock returnsand tax progressivity. Finance Research Letters 69, 10617⒌ [Crossref]⒎Mengjie (Magie) Cheng, Shunyuan Zhang. 202⒋ Reputation Burning: Analyzing the Impact of BrandSponsorship on Social Influencers. Management Science 38. . [Crossref]⒏Xinyan Liu, Yuǌiao Xu, Jian Zou. 202⒋ Migration barrier relaxation and entrepreneurship: Evidencefrom the hukou reform in China. Labour Economics 90, 10260⒌ [Crossref]⒐Qiping Xu, Eric Zwick. 202⒋ Tax Policy and Abnormal Investment Behavior. The Review of FinancialStudies 37:10, 2971-302⒊ [Crossref]⒑Luca Spataro, Tommaso Crescioli. 202⒋ How much capital should be taxed? A review of thequantitative and empirical literature. Journal of Economic Surveys 38:4, 1399-143⒍ [Crossref]⒒Qizhong Yang. Firms’ fixed investment and global value chain position: Evidence from China’s value-added tax reform 81, . [Crossref]⒓Renrui Xiao, Pingguo Xu, Baocong Huang. 202⒋ Tax incentives and firm social insurancecontributions: Evidence from China. China Economic Review 86, 1022⒑ [Crossref]⒔Steven Crawford, Garen Markarian. 202⒋ The effect of the Tax Cuts and Jobs Act of 2017 oncorporate investment. Journal of Corporate Finance 87, 1026⒚ [Crossref]⒕Étienne Lehmann. 202⒋ La taxation du capital : pourquoi ? Comment ?. Revue française d'économieVol. XXXIX:1, 43-80. [Crossref]⒖Nina Roussille. 202⒋ The Role of the Ask Gap in Gender Pay Inequality. The Quarterly Journal ofEconomics 139:3, 1557-16⒑ [Crossref]⒗Sebastian Dyrda, Beǌamin Pugsley. 202⒋ The Rise of Pass-Throughs: an Empirical Investigation.The Economic Journal 35. . [Crossref]⒘Yang Wang, Wei Huang, Sajid Anwar. 202⒋ Value-added tax expansion reform and specialization inChina: evidence from textual analysis. Journal of the Asia Pacific Economy 3, 1-21. [Crossref]⒙Weihua Yu, Jingjing Hu, Chenchen Deng. 202⒋ Overflowing waters, diluted investments: Theenduring impact of historical Yellow River floods on enterprise fixed assets investments. Journal ofAsian Economics 92, 1017⒚ [Crossref]⒚Haiyan Zhang, Fangwen Lu, Dehua Wang. 202⒋ Delayed tax rebates, cash flow, and corporatespending: A quasi-experiment from China. China Economic Review 85, 10213⒋ [Crossref]⒛Turalay Kenc, Emrah Ismail Cevik. 202⒋ Global corporate tax policy space. Economic Systems 48:2,10119⒎ [Crossref]21.Lu He, Lin Xu, Kaifeng Duan, Yulei Rao, Chuanzhen Zheng. 202⒋ Does tax enforcementreduce corporate environmental investment? evidence from a quasi-natural experiment. Frontiers inEnvironmental Science 12. . [Crossref]22.Xiongshi Li, Mao Ye, Miles Zheng. 202⒋ Price ceilings, market structure, and payout policies. Journalof Financial Economics 155, 1038⒙ [Crossref]2⒊XIANGANG XIN, P. ERIC YEUNG, ZILONG ZHANG. 202⒋ Wrong Kind of Transparency?Mutual Funds’ Higher Reporting Frequency, Window Dressing, and Performance. Journal ofAccounting Research 62:2, 737-781. [Crossref]2⒋Aliisa Koivisto. 202⒋ Tax planning and investment responses to dividend taxation. International Taxand Public Finance 151. . [Crossref]2⒌Abdullah AlGhazali, Khamis Hamed Al-Yahyaee, Richard Fairchild, Yilmaz Guney. 202⒋ What dodividend changes reveal? Theory and evidence from a unique environment. Review of QuantitativeFinance and Accounting 62:2, 499-552. [Crossref]2⒍Helen Miller, Thomas Pope, Kate Smith. 202⒋ Intertemporal Income Shifting and the Taxation ofBusiness Owner-Managers. Review of Economics and Statistics 106:1, 184-201. [Crossref]2⒎Max Risch. 202⒋ Does Taxing Business Owners Affect Employees? Evidence From A Change in theTop Marginal Tax Rate. The Quarterly Journal of Economics 139:1, 637-692. [Crossref]2⒏Christine Dobridge, Rebecca Lester, Andrew Whitten. 202⒋ IPOs and Foreign Tax Structures. SSRNElectronic Journal 56. . [Crossref]2⒐Nirupama Rao, Max W.Risch. 202⒋ Who's Afraid of the Minimum Wage? Measuring the Impacts onIndependent Businesses Using Matched U.S. Tax Returns. SSRN Electronic Journal 83. . [Crossref]30.Xuesi Wang, Leonidas G. Barbopoulos, Khaladdin Rzayev. 202⒋ Dividend Forecasting in the Age ofMachine Learning. SSRN Electronic Journal 55. . [Crossref]31.Shafik Hebous, Andualem Mengistu. 202⒋ Eﬃcient Economic Rent Taxation Under a GlobalMinimum Corporate Tax. SSRN Electronic Journal 151. . [Crossref]32.Haikuan Zhang, Xinyi Hong. Investigating the Relationship Among Tax Cut, Decision-Maker'sConfidence and Over-Financialization: Evidence from China 11, . [Crossref]3⒊André Nunes, Gustavo Barbosa Leite, Paulo Suero dos Santos Cavalcanti Moreira, Wilson Faria dosSantos. 202⒊ Reflexões sobre as propostas de reforma do imposto de renda pessoa física (IRPF) noBrasil. Revista de Gestão e Secretariado 14:12, 21183-21200. [Crossref]3⒋Ziyang Yue, Gangqiang Yang, Haisen Wang. 202⒊ How do tax reductions motivate technologicalinnovation?. Humanities and Social Sciences Communications 10:1. . [Crossref]3⒌Ruhollah Eskandari, Morteza Zamanian. 202⒊ Heterogeneous responses to corporate marginal taxrates: Evidence from small and large firms. Journal of Applied Econometrics 38:7, 1018-104⒎ [Crossref]3⒍Zonglai Kou, Yue Tang, Hong Wu, Min Zhou. 202⒊ Ownership, volatility, and equity incentives:Theory and evidence from listed companies in China. Economic Modelling 128, 106470. [Crossref]3⒎Alexis Anagnostopoulos, Orhan Erem Atesagaoglu. 202⒊ Shareholder tax cuts with household andfirm heterogeneity. Finance Research Letters 57, 10417⒊ [Crossref]3⒏Árpád Ábrahám, Piero Gottardi, Joachim Hubmer, Lukas Mayr. 202⒊ Tax wedges, financial frictionsand misallocation. Journal of Public Economics 227, 105000. [Crossref]3⒐Yu Lu, Yaqi Zhao, Yuhan Li, Yuhe Cao. 202⒊ Direct Tax Burden, Financing Constraints, andInnovation-Based Output. Sustainability 15:21, 1527⒌ [Crossref]40.Segundo Camino‐Mogro. 202⒊ Tax incentives, private investment and employment: Evidence froman Ecuadorian reform. Journal of International Development 35:7, 2129-215⒍ [Crossref]41.Jiawei (Brooke) Wang. 202⒊ Natural disasters and firm leasing: A collateral channel. Journal ofCorporate Finance 82, 10242⒏ [Crossref]42.Robert DeYoung, Karen Y. Jang. 202⒊ Testing dividend tax theory: Firm and industry heterogeneity.Journal of Financial Intermediation 56, 101060. [Crossref]4⒊MATTHEW DENES, SABRINA T. HOWELL, FILIPPO MEZZANOTTI, XINXIN WANG,TING XU. 202⒊ Investor Tax Credits and Entrepreneurship: Evidence from U.S. States. The Journalof Finance 78:5, 2621-2671. [Crossref]4⒋Árpád Ábrahám, Pavel Brendler, Eva Cárceles‐Poveda. 202⒊ CAPITAL TAX REFORMS WITHPOLICY UNCERTAINTY. International Economic Review 1. . [Crossref]4⒌Max Risch. 202⒊ Trickle-down revisited. Oxford Review of Economic Policy 39:3, 498-5⒓ [Crossref]4⒍Kaoru Hosono, Masaki Hotei, Daisuke Miyakawa. 202⒊ Causal effects of a tax incentive on SMEcapital investment. Small Business Economics 61:2, 539-55⒎ [Crossref]4⒎Xing Li, Guangjun Shen. 202⒊ Do tax incentives decelerate corporate financialization? Evidence fromthe VAT reform in China. Economic Modelling 125, 10635⒎ [Crossref]4⒏Zhong Ning, Xinzhou Qi. 202⒊ Is economic policy uncertainty an excuse for corporate fraud?.Economic Research-Ekonomska Istraživaǌa 36:2. . [Crossref]4⒐Eduardo Dávila, Beǌamin Hébert. 202⒊ Optimal Corporate Taxation Under Financial Frictions. TheReview of Economic Studies 90:4, 1893-193⒊ [Crossref]50.Laurent Bach, Antoine Bozio, Arthur Guillouzouic, Clément Malgouyres. 202⒊ Dividend Taxes andthe Allocation of Capital: Comment. American Economic Review 113:7, 2048-2052. [Abstract] [ViewPDF article] [PDF with links]51.Dongmin Kong, Mengxu Xiong, Ni Qin. 202⒊ Tax incentives and firm pollution. International Taxand Public Finance 30:3, 784-8⒔ [Crossref]52.Xiufen Liu, Hongsheng Fang, Lexin Zhao, Wenli Xu. 202⒊ Do VAT cuts help stabilize employment?Evidence from China’s VAT rate reform. Economic Analysis and Policy 78, 190-20⒎ [Crossref]5⒊Sebastian Eichfelder, Martin Jacob, Kerstin Schneider. 202⒊ Do tax incentives affect investmentquality?. Journal of Corporate Finance 80, 10240⒊ [Crossref]5⒋Seung Chul Lee, S. Saeyeul Park. 202⒊ Dividend taxes and corporate choice: Evidence from 2015 taxcut in South Korea. Pacific-Basin Finance Journal 79, 10198⒊ [Crossref]5⒌David Sraer, David Thesmar. 202⒊ How to Use Natural Experiments to Estimate Misallocation.American Economic Review 113:4, 906-93⒏ [Abstract] [View PDF article] [PDF with links]5⒍Lisa Hillmann. 202⒊ Dividend taxation and the ownership structure of private firms. Journal ofCorporate Finance 79, 102380. [Crossref]5⒎Jakob B. Madsen, Antonio Minniti, Francesco Venturini. 202⒊ The long‐run investment effect oftaxation in OECD countries. Economica 90:358, 584-6⒒ [Crossref]5⒏Sacchidananda Mukherjee, Shivani Badola. 202⒊ Macroeconomic Implications of Changes inCorporate Tax Rates: A Review. Australian Economic Review 56:1, 20-41. [Crossref]5⒐Katarzyna Bilicka, Sepideh Raei. 202⒊ Output distortions and the choice of legal form of organization.Economic Modelling 119, 10615⒐ [Crossref]60.J.B. Chay, Byung-Uk Chong, Hyun Joong Im. 202⒊ Dividend taxes and investment eﬃciency:Evidence from the 2003 U.S. personal taxation reform. Journal of Accounting and Economics 75:1,1015⒕ [Crossref]61.Hong Ma, Lingsheng Meng. 202⒊ Heterogeneous impacts of the Section 301 tariffs: Evidence fromthe revision of product lists. Canadian Journal of Economics/Revue canadienne d'économique 56:1,164-190. [Crossref]62.Sebastian Bustos, Dina Pomeranz, Juan Carlos Suárez Serrato, José Vila-Belda, Gabriel Zucman. 202⒊The Race between Tax Enforcement and Tax Planning: Evidence from a Natural Experiment in Chile.SSRN Electronic Journal 109. . [Crossref]6⒊James F. Albertus, Brent Glover, Oliver Levine. 202⒊ The Real and Financial Effects of InternalLiquidity: Evidence From the Tax Cuts and Jobs Act. SSRN Electronic Journal 25. . [Crossref]6⒋Chen Guo, Yukun Sun. Digital Tax Administration and Corporate Investment Decision: Evidencefrom China 55, . [Crossref]6⒌Liyuan Liu, Xianshuang Wang, Zhen Zhou. 202⒊ The Consequences of a Small Bank Collapse:Evidence from China. SSRN Electronic Journal 108. . [Crossref]6⒍Abdullah AlGhazali, Khamis Hamed Al-Yahyaee, Richard J. Fairchild, Yilmaz Guney. 202⒊ WhatDo Dividend Changes Reveal? Theory and Evidence From a Unique Environment. SSRN ElectronicJournal 29. . [Crossref]6⒎Gabriel Chodorow-Reich, Matthew Smith, Owen Zidar, Eric Zwick. 202⒊ Tax Policy and Investmentin a Global Economy. SSRN Electronic Journal 59. . [Crossref]6⒏Hongsheng Fang, Xiao Wu, Jim Huangnan Shen, Lexin Zhao. 2022. The impact of technologyidentification policy on firm innovation: Evidence from China. China Economic Review 76, 10186⒍[Crossref]6⒐Xiaohan Liu, Jianmin Liu, Haitao Wu, Yu Hao. 2022. Do tax reductions stimulate firm productivity?A quasi-natural experiment from China. Economic Systems 46:4, 10102⒋ [Crossref]70.Martin Jacob, Robert Vossebürger. 2022. The role of personal income taxes in corporate investmentdecisions. Journal of Corporate Finance 77, 10227⒌ [Crossref]71.J. Anthony Cookson, Erik P. Giǉe, Rawley Z. Heimer. 2022. Shale shocked: Cash windfalls andhousehold debt repayment. Journal of Financial Economics 146:3, 905-931. [Crossref]72.Hongsheng Fang, Yunqing Su, Weĳun Lu. 2022. Tax incentive and firm investment: Evidence fromthe Income Tax Revenue Sharing Reform in China. Accounting & Finance 62:5, 4849-488⒋ [Crossref]7⒊Yueshan Li, Jinzhou Mao, Shoudong Chen, Dongliang Yang. 2022. Tax-reducing incentive andcorporate green performance: What we learn from China. Renewable Energy 199, 791-802. [Crossref]7⒋Binbin Tian, Chao Lin, Wenwen Zhang, Chen Feng. 2022. Tax Incentives, On-the-job Training, andHuman Capital Accumulation: Evidence from China. China Economic Review 75, 101850. [Crossref]7⒌Paul M. Kindsgrab. 2022. Do higher income taxes on top earners trickle down? A local labor marketsapproach. Journal of Public Economics 214, 10468⒐ [Crossref]7⒍Hongbin Li, Lingsheng Meng. 2022. Skill biased tax policy change: Labor market effects of China’sVAT reform. Labour Economics 78, 1022⒔ [Crossref]7⒎Charles Boissel, Adrien Matray. 2022. RETRACTED BY THE AUTHORS: Dividend Taxes andthe Allocation of Capital. American Economic Review 112:9, 2884-29⒛ [Abstract] [View PDF article][PDF with links]7⒏Bradley Benson, Travis Davidson, Hui James, Hongxia Wang. 2022. Board busyness and corporatepayout: are all busy directors the same?. Accounting & Finance 62:3, 3711-375⒐ [Crossref]7⒐Jennifer Luchs-Nuñez, George A. Plesko, Steven Utke. 2022. Market and Firm Reaction to TargetedTax Benefits: Evidence from the Tax Reform Act of 198⒍ The Journal of the American TaxationAssociation 44:2, 115-13⒍ [Crossref]80.Yao Dong, Chen Liang, Zhong Wanyin. 2022. Research on the Impact of Actual Tax Bearing Rateon the Financial Performance of Enterprises. Frontiers in Public Health 10. . [Crossref]81.Terry S. Moon. 2022. Capital Gains Taxes and Real Corporate Investment: Evidence from Korea.American Economic Review 112:8, 2669-2700. [Abstract] [View PDF article] [PDF with links]82.Hongsheng Fang, Yunqing Su, Weĳun Lu. 2022. Tax incentive and corporate financial performance:Evidence from income tax revenue sharing reform in China. Journal of Asian Economics 81, 10150⒌[Crossref]8⒊Jarkko Harju, Aliisa Koivisto, Tuomas Matikka. 2022. The effects of corporate taxes on small firms.Journal of Public Economics 212, 10470⒋ [Crossref]8⒋Atsushi Chino, Joon Ho Kim. 2022. Does dividend policy affect sales growth in product markets?Evidence from the 2003 dividend tax cut. Financial Management 51:2, 539-571. [Crossref]8⒌Natasha Sarin, Lawrence Summers, Owen Zidar, Eric Zwick. 2022. Rethinking How We Score CapitalGains Tax Reform. Tax Policy and the Economy 36, 1-3⒊ [Crossref]8⒍M. Jonathan C. Eklund. 2022. Do multinational firms respond to personal dividend income tax rates?.Empirical Economics 62:4, 1743-1771. [Crossref]8⒎James F. Albertus, Brent Glover, Oliver Levine. 2022. Foreign investment of US multinationals: Theeffect of tax policy and agency conflicts. Journal of Financial Economics 144:1, 298-32⒎ [Crossref]8⒏Wei Cui, Jeffrey Hicks, Jing Xing. 2022. Cash on the table? Imperfect take-up of tax incentives andfirm investment behavior. Journal of Public Economics 208, 104632. [Crossref]8⒐Marko Koethenbuerger, Michael E Stimmelmayr. 2022. The Eﬃciency Costs of Dividend Taxationwith Managerial Firms*. The Economic Journal 132:643, 1123-114⒐ [Crossref]90.Alexander Zimper, Mpoifeng Molefinyane. 2022. When is Knowledge Acquisition Socially Beneficialin the Laffont–Tirole Regulatory Framework?. The B.E. Journal of Theoretical Economics 22:1,233-26⒍ [Crossref]91.Hong Chen, Murray Z Frank. 2022. The Effect of Taxation on Corporate Financing and Investment.The Review of Corporate Finance Studies 11:1, 47-8⒎ [Crossref]92.Russell E. Triplett, Nilufer Ozdemir, Paul M. Mason. 2022. Structural Change in the InvestmentFunction. Journal of Economics and Finance 46:1, 220-23⒍ [Crossref]9⒊Martin Jacob. 2022. Real Effects of Corporate Taxation: A Review. European Accounting Review 31:1,269-29⒍ [Crossref]9⒋Clark Liu, Yancheng Qiu, Tao Shu, Shujing Wang. 2022. Alternative Data, Shareholder Monitoring,and Dividend Policy. SSRN Electronic Journal 22. . [Crossref]9⒌Jiawei Wang. 2022. Natural Disasters and Firm Leasing: Alternative Post-disaster Financing. SSRNElectronic Journal 75. . [Crossref]9⒍Wenkai Sun, Weǌing Wang, Xianghong Wang. 2022. Can Money Flows Be Separated betweenBusiness and Housing? Evidence from China. SSRN Electronic Journal 133. . [Crossref]9⒎Jianqiang Chen, Pei-Fang Hsieh, Po-Hsuan Hsu, Ross Eric Levine. 2022. Environmental Liabilities,Borrowing Costs, and Pollution Prevention Activities: The Nationwide Impact of the Apex Oil Ruling.SSRN Electronic Journal 102. . [Crossref]9⒏Elisa Casi-Eberhard, Evelina Gavrilova, David Murphy, Floris Zoutman. 2022. Welfare Effectof Closing Loopholes in the Dividend-Withholding Tax: The Case of Cum-cum and Cum-exTransactions. SSRN Electronic Journal 105. . [Crossref]9⒐Mengjie (Magie) Cheng, Shunyuan Zhang. 2022. Reputation Burning: Analyzing the Impact of BrandSponsorship on Social Influencers. SSRN Electronic Journal 19. . [Crossref]100.Qizhong Yang. 2022. Firms’ fixed investment and global value chain position: Evidence from China’svalue-added tax reform. SSRN Electronic Journal 81. . [Crossref]101.Andreas Lichter, Max Löﬄer, Ingo E. Isphording, Thu-Van Nguyen, Felix Pöge, Sebastian Siegloch.2022. Profit Taxation, R&D Spending, and Innovation. SSRN Electronic Journal 125. . [Crossref]102.Charles Boissel, Adrien Matray. 2022. Dividend Taxes, Firm Growth, and the Allocation of Capital.SSRN Electronic Journal 151. . [Crossref]10⒊Sebastián Bustos, Dina Pomeranz, Juan Carlos Suárez Serrato, José Vila-Belda, Gabriel Zucman. 2022.The Race between Tax Enforcement and Tax Planning: Evidence from a Natural Experiment in Chile.SSRN Electronic Journal 109. . [Crossref]10⒋Seung Chul Lee, Saeyeul Park. 2022. Dividend Taxes and Corporate Choice: Evidence from 2015 TaxCut in South Korea. SSRN Electronic Journal 74. . [Crossref]10⒌Xinyan Liu, Yuǌiao XU, Jian Zou. 2022. Migration Barrier Relaxation and Entrepreneurship:Evidence from the Hukou Reform in China. SSRN Electronic Journal 72. . [Crossref]10⒍Jixing Li, Matthew C. Ringgenberg. 2022. Does Secondary Market Liquidity Affect the Economy?.SSRN Electronic Journal 2. . [Crossref]10⒎Hang Liu. 2021. Does strengthening large shareholders’ cash flow rights reduce their expropriationmotivation? Evidence from China’s dividend tax reforms. China Journal of Accounting Research 14:4,10020⒍ [Crossref]10⒏ELISABETH KEMPF, MARGARITA TSOUTSOURA. 2021. Partisan Professionals: Evidencefrom Credit Rating Analysts. The Journal of Finance 76:6, 2805-285⒍ [Crossref]10⒐Emanuele Teti, Leonella Gori, Veronica Magnanini. 2021. Shareholders’ greed and corporate valuegrowth. Industrial and Corporate Change 30:4, 868-88⒊ [Crossref]1⒑Dušan Isakov, Christophe Pérignon, Jean-Philippe Weisskopf. 2021. What If Dividends Were Tax-Exempt? Evidence from a Natural Experiment. The Review of Financial Studies 34:12, 5756-579⒌[Crossref]1⒒Yuxiang Yang, Hongyong Zhang. 2021. The value-added tax reform and labor market outcomes:Firm-level evidence from China. China Economic Review 69, 10167⒏ [Crossref]1⒓Abhay Aneja, Nirupama Kulkarni, S. K. Ritadhi. 2021. Consumption Tax Reform and the RealEconomy: Evidence From India's Adoption of a Value‐Added Tax. Journal of Empirical Legal Studies18:3, 569-602. [Crossref]1⒔Marie-Noëlle Lefèbvre, Étienne Lehmann, Michaël Sicsic, Eddy Zanoutène. 2021. Faut-il mettre aubarème les dividendes ?. Revue française d'économie Vol. XXXVI:1, 57-9⒏ [Crossref]1⒕Martin Jacob. 2021. Dividend taxes, employment, and firm productivity. Journal of Corporate Finance69, 102040. [Crossref]1⒖Youssef Benzarti, Jarkko Harju. 2021. Can payroll tax cuts help firms during recessions?. Journal ofPublic Economics 200, 104472. [Crossref]1⒗Joseph Stiglitz. 2021. Lessons from COVID-19 and Trump for Theory and Policy (Paper). Journalof Policy Modeling 43:4, 749-760. [Crossref]1⒘Guobing Shen, Peĳie Wang, Yuanhan Xu. 2021. Trade destruction and deflection effects of US‐Chinatrade frictions on China’s tariff‐targeted products. The World Economy 44:7, 2076-210⒍ [Crossref]1⒙Fei Peng, Langchuan Peng, Zheng Wang. 2021. How do VAT reforms in the service sectors impactTFP in the manufacturing sector: Firm-level evidence from China. Economic Modelling 99, 10548⒊[Crossref]1⒚Zhao Chen, Yuxuan He, Zhikuo Liu, Juan Carlos Suárez Serrato, Daniel Yi Xu. 2021. The Structureof Business Taxation in China. Tax Policy and the Economy 35, 131-17⒎ [Crossref]1⒛Eric Zwick. 2021. The Costs of Corporate Tax Complexity. American Economic Journal: EconomicPolicy 13:2, 467-500. [Abstract] [View PDF article] [PDF with links]121.Petr Janský, Jan Láznička, Miroslav Palanský. 2021. Tax treaties worldwide: Estimating elasticitiesand revenue foregone. Review of International Economics 29:2, 359-401. [Crossref]122.Naomi Feldman, Laura Kawano, Elena Patel, Nirupama Rao, Michael Stevens, Jesse Edgerton. 2021.Investment differences between public and private firms: Evidence from U.S. tax returns. Journal ofPublic Economics 196, 104370. [Crossref]12⒊Natasha Sarin, Lawrence H. Summers, Owen Zidar, Eric Zwick. 2021. Rethinking How We ScoreCapital Gains Tax Reform. SSRN Electronic Journal 42. . [Crossref]12⒋Pavel Brendler, Arpad Abraham. 2021. Capital Tax Reforms With Policy Uncertainty. SSRNElectronic Journal 1. . [Crossref]12⒌David W. Rasmussen. 2021. The Height of Inequality: A Policy Perspective. SSRN Electronic Journal27. . [Crossref]12⒍Thomas Kroen. 2021. Payout Policy Reform and Investor Horizons. SSRN Electronic Journal 121. .[Crossref]12⒎Weichao Wang. 2021. Personal Income Taxes and Small Business Lending. SSRN Electronic Journal4. . [Crossref]12⒏Martin Jacob. 2021. Real Effects of Corporate Taxation: A Review. SSRN Electronic Journal 20. .[Crossref]12⒐Felipe Lobel. 2021. The Incidence of Payroll Taxation. SSRN Electronic Journal 97. . [Crossref]130.Wei Li, Qiping Xu, Qifei Zhu. 2021. CEO Hometown Favoritism in Corporate EnvironmentalPolicies. SSRN Electronic Journal 18. . [Crossref]131.Aymeric Bellon. 2021. Fresh Start or Fresh Water: Collateral, Lender Environmental Liability andThe Pollution-Employment Tradeoff. SSRN Electronic Journal 76. . [Crossref]132.Ali Sanati, Mehdi Beyhaghi. 2021. How Does Removing the Tax Benefits of Debt Affect Firms?Evidence from the 2017 US Tax Reform. SSRN Electronic Journal 105. . [Crossref]13⒊Luigi Iovino, Thorsten Martin, Julien Sauvagnat. 2021. Corporate Taxation and Carbon Emissions.SSRN Electronic Journal 102. . [Crossref]13⒋Robert DeYoung, Karen Y. Jang. 2021. Dividend Taxes and Investment Spending: Are BanksDifferent?. SSRN Electronic Journal 151. . [Crossref]13⒌Fabio B. Gaertner, Brent Glover, Oliver Levine. 2021. A Re-examination of Firm Size and Taxes.SSRN Electronic Journal 105. . [Crossref]13⒍Matthew Smith, Owen Zidar, Eric Zwick. 2021. Top Wealth in America: New Estimates andImplications for Taxing the Rich. SSRN Electronic Journal 1. . [Crossref]13⒎Cameron LaPoint, Shogo Sakabe. 2021. Place-Based Policies and the Geography of CorporateInvestment. SSRN Electronic Journal 117. . [Crossref]13⒏Leming Lin. 2021. Depositing Corporate Payout. SSRN Electronic Journal 70. . [Crossref]13⒐Hoang Ha Nguyen Thi, Alfons J. Weichenrieder. 2021. C and S Corporation Banks: Did Trump'sTax Reform Lead to Differential Effects?. SSRN Electronic Journal 73. . [Crossref]140.Andreas Lichter, Max Löﬄer, Ingo E. Isphording, Thu-Van Nguyen, Felix Pöge, Sebastian Siegloch.2021. Profit Taxation, R&D Spending, and Innovation. SSRN Electronic Journal 125. . [Crossref]141.Hongsheng Fang, Xiao Wu, Jim Huangnan Shen. 2021. The Impact of Technology IdentificationPolicy on Firm Innovation Evidence from China. SSRN Electronic Journal 44. . [Crossref]142.Anh Pham. 20⒛ Effects of temporary corporate income tax cuts: Evidence from Vietnam. Journalof Development Economics 146, 10247⒍ [Crossref]14⒊Sang-Yeob Lee, Woo-Hyung Hong. 20⒛ Does tax really matter for corporate payout policy: Evidencefrom a policy experiment in South Korea. Pacific-Basin Finance Journal 62, 10135⒊ [Crossref]14⒋Peter H. Egger, Katharina Erhardt, Christian Keuschnigg. 20⒛ Heterogeneous tax sensitivity offirm-level investments. Journal of Economic Behavior & Organization 176, 512-53⒏ [Crossref]14⒌Yan Du, Mengkai Yang, Jing Li, Yunong Li. 20⒛ The Stagnant Export Upgrading in NortheastChina: Evidence from Value‐added Tax Reform. China & World Economy 28:4, 101-12⒍ [Crossref]14⒍Chris Muris. 20⒛ Eﬃcient GMM Estimation with Incomplete Data. The Review of Economics andStatistics 102:3, 518-530. [Crossref]14⒎CHRISTOPHER A. HENNESSY, ILYA A. STREBULAEV. 20⒛ Beyond Random Assignment:Credible Inference and Extrapolation in Dynamic Economies. The Journal of Finance 75:2, 825-86⒍[Crossref]14⒏Lenore Palladino. 20⒛ Do corporate insiders use stock buybacks for personal gain?. InternationalReview of Applied Economics 34:2, 152-17⒋ [Crossref]14⒐Daniel G. Garrett, Eric Ohrn, Juan Carlos Suárez Serrato. 20⒛ Tax Policy and Local Labor MarketBehavior. American Economic Review: Insights 2:1, 83-100. [Abstract] [View PDF article] [PDF withlinks]150.Ruud de Mooĳ, Li Liu. 20⒛ At a Cost: The Real Effects of Transfer Pricing Regulations. IMFEconomic Review 68:1, 268-30⒍ [Crossref]151.Li Liu. 20⒛ Where Does Multinational Investment Go with Territorial Taxation? Evidence fromthe United Kingdom. American Economic Journal: Economic Policy 12:1, 325-35⒏ [Abstract] [ViewPDF article] [PDF with links]152.Sebastian Eichfelder, Martin Jacob, Kerstin Schneider. 20⒛ Do Tax Incentives Reduce InvestmentQuality?. SSRN Electronic Journal 2. . [Crossref]15⒊Trent Krupa, Steven Utke. 20⒛ The Cost of Misaligned Tax Incentives: Evidence from Tax-Motivated Special Dividends. SSRN Electronic Journal 1. . [Crossref]15⒋Jens Dick-Nielsen, Kristian Risgaard Miltersen, Ramona Westermann. 20⒛ Personal Taxes andCorporate Cash Holdings. SSRN Electronic Journal 16. . [Crossref]15⒌Martin Jacob. 20⒛ Dividend Taxes, Employment, and Firm Productivity. SSRN Electronic Journal117. . [Crossref]15⒍J.B. (Jong-Bom) Chay, Byung-Uk Chong, Hyun Joong Im. 20⒛ Dividend Taxes and InvestmentEﬃciency: Evidence from the 2003 U.S. Personal Taxation Reform. SSRN Electronic Journal 59. .[Crossref]15⒎Matthew Denes, Sabrina Howell, Filippo Mezzanotti, Xinxin Wang, Ting Xu. 20⒛ Investor TaxCredits and Entrepreneurship: Evidence from U.S. States. SSRN Electronic Journal 2. . [Crossref]15⒏Naomi E. Feldman, Laura Kawano, Elena Patel, Nirupama Rao, Michael Stevens, Jesse Edgerton.20⒛ Investment Differences Between Public and Private Firms: Evidence From U.S. Tax Returns.SSRN Electronic Journal 28. . [Crossref]15⒐J. Anthony Cookson, Erik Giǉe, Rawley Heimer. 20⒛ Shale Shocked: Cash Windfalls andHousehold Debt Repayment. SSRN Electronic Journal 115. . [Crossref]160.Lisa Hillmann. 20⒛ Private Firm and Shareholder Response to Dividend Taxation: Evidence fromthe Taxation of Corporate Minority Shareholders. SSRN Electronic Journal 22. . [Crossref]161.Alexander P. Kontoghiorghes. 20⒛ Do Personal Taxes Affect Investment Decisions and StockReturns?. SSRN Electronic Journal 97. . [Crossref]162.Martin Jacob, Robert Vossebürger. 20⒛ The Role of Personal Income Taxes in Corporate InvestmentDecisions. SSRN Electronic Journal 116. . [Crossref]16⒊Teegawende H. Zeida. 20⒚ On the corporate tax reform: Coordination and trade-offs. Journal ofMacroeconomics 62, 10315⒍ [Crossref]16⒋Michael Devereux, Niels Johannesen, John Vella. 20⒚ Can Taxes Tame the Banks? Evidence fromthe European Bank Levies. The Economic Journal 129:624, 3058-3091. [Crossref]16⒌Matthew Smith, Danny Yagan, Owen Zidar, Eric Zwick. 20⒚ Capitalists in the Twenty-FirstCentury*. The Quarterly Journal of Economics 134:4, 1675-174⒌ [Crossref]16⒍Janis Berzins, Øyvind Bøhren, Bogdan Stacescu. 20⒚ Dividends and taxes: The moderating role ofagency conflicts. Journal of Corporate Finance 58, 583-60⒋ [Crossref]16⒎Joana Naritomi. 20⒚ Consumers as Tax Auditors. American Economic Review 109:9, 3031-3072.[Abstract] [View PDF article] [PDF with links]16⒏Eric Ohrn, Nathan Seegert. 20⒚ The impact of investor-level taxation on mergers and acquisitions.Journal of Public Economics 177, 10403⒏ [Crossref]16⒐Yongzheng Liu, Jie Mao. 20⒚ How Do Tax Incentives Affect Investment and Productivity? Firm-Level Evidence from China. American Economic Journal: Economic Policy 11:3, 261-291. [Abstract][View PDF article] [PDF with links]170.Boqiang Lin, Zhĳie Jia. 20⒚ Tax rate, government revenue and economic performance: A perspectiveof Laffer curve. China Economic Review 56, 10130⒎ [Crossref]171.Patrick Kline, Neviana Petkova, Heidi Williams, Owen Zidar. 20⒚ Who Profits from Patents? Rent-Sharing at Innovative Firms*. The Quarterly Journal of Economics 134:3, 1343-140⒋ [Crossref]172.Martin Jacob, Roni Michaely, Maximilian A Müller. 20⒚ Consumption Taxes and CorporateInvestment. The Review of Financial Studies 32:8, 3144-3182. [Crossref]17⒊Steven Mello. 20⒚ More COPS, less crime. Journal of Public Economics 172, 174-200. [Crossref]17⒋Irem Guceri, Li Liu. 20⒚ Effectiveness of Fiscal Incentives for R&D: Quasi-experimental Evidence.American Economic Journal: Economic Policy 11:1, 266-291. [Abstract] [View PDF article] [PDF withlinks]17⒌Jarrad Harford, Jared Stanfield, Feng Zhang. 20⒚ Do insiders time management buyouts andfreezeouts to buy undervalued targets?. Journal of Financial Economics 131:1, 206-231. [Crossref]17⒍Ruhollah Eskandari, Morteza Zamanian. 20⒚ Marginal Tax Rates and Corporate Investment. SSRNElectronic Journal 54. . [Crossref]17⒎Thibaut Lamadon, Magne Mogstad, Bradley Setzler. 20⒚ Imperfect Competition, CompensatingDifferentials and Rent Sharing in the U.S. Labor Market. SSRN Electronic Journal 67. . [Crossref]17⒏Max Risch. 20⒚ Does Taxing Business Owners Affect Their Employees? Evidence from a Changein the Top Marginal Tax Rate. SSRN Electronic Journal 31. . [Crossref]17⒐Charles Boissel, Adrien Matray. 20⒚ Higher Dividend Taxes, No Problem! Evidence from TaxingEntrepreneurs in France. SSRN Electronic Journal 151. . [Crossref]180.Sabrina Howell, Filippo Mezzanotti. 20⒚ Financing Entrepreneurship through the Tax Code: AngelInvestor Tax Credits. SSRN Electronic Journal 22. . [Crossref]181.Alissa Bruehne, Martin Jacob. 20⒚ Corporate Tax Avoidance and the Real Effects of Taxation: AReview. SSRN Electronic Journal 116. . [Crossref]182.Steven Utke. 20⒚ The Effect of Shareholder-Level Taxes on Organizational Form and StockOwnership: Evidence from Equity Carve-Outs of Master Limited Partnerships. The Accounting Review94:1, 327-351. [Crossref]18⒊David Cashin, Jamie Lenney, Byron Lutz, William Peterman. 20⒙ Fiscal policy and aggregatedemand in the USA before, during, and following the Great Recession. International Tax and PublicFinance 25:6, 1519-155⒏ [Crossref]18⒋Martin Jacob. 20⒙ A note on tax research. Revista Contabilidade & Finanças 29:78, 339-342.[Crossref]18⒌B. Anthony Billings, Cheol Lee, Jaegul Lee. Dividend Tax Policy and Private-sector Research andDevelopment Spending: A Modified Perspective on the Impact of US 2003 Tax Reform Act on R&DSpending 51-72. [Crossref]18⒍Naomi Feldman, Laura Kawano, Elena Patel, Nirupama Rao, Michael Stevens, Jesse Edgerton. 20⒙The Long and Short of It: Do Public and Private Firms Invest Differently?. Finance and EconomicsDiscussion Series 2018.0:6⒏ . [Crossref]18⒎Lei Zhang, Yuyu Chen, Zongyan He. 20⒙ The effect of investment tax incentives: evidence fromChina’s value-added tax reform. International Tax and Public Finance 25:4, 913-94⒌ [Crossref]18⒏Nicolas J. Duquette, Eric C. Ohrn. 20⒙ Corporate charitable foundations, executive entrenchment,and shareholder distributions. Journal of Economic Behavior & Organization 152, 235-25⒊ [Crossref]18⒐Xuanyu Jiang, Che Zhang, Jing Jia, Shangyao Yu. 20⒙ Individual investors’ dividend taxes andcorporate innovation: evidence from China. China Journal of Accounting Studies 6:3, 394-4⒛[Crossref]190.Inga Bethmann, Martin Jacob, Maximilian A. Müller. 20⒙ Tax Loss Carrybacks: InvestmentStimulus versus Misallocation. The Accounting Review 93:4, 101-12⒌ [Crossref]191.Eric Ohrn. 20⒙ The Effect of Corporate Taxation on Investment and Financial Policy: Evidencefrom the DPAD. American Economic Journal: Economic Policy 10:2, 272-301. [Abstract] [View PDFarticle] [PDF with links]192.Erin E. Syron Ferris. 20⒙ Dividend taxes and stock volatility. International Tax and Public Finance25:2, 377-40⒊ [Crossref]19⒊Irem Guceri. 20⒙ Will the real R&D employees please stand up? Effects of tax breaks on firm-leveloutcomes. International Tax and Public Finance 25:1, 1-6⒊ [Crossref]19⒋Jenny Xiǌiao Guan, Oliver Zhen Li, Jiameng Ma. 20⒙ Managerial Ability and the Shareholder TaxSensitivity of Dividends. Journal of Financial and Quantitative Analysis 53:1, 335-36⒋ [Crossref]19⒌Yaniv Reingewertz. 20⒙ Corporate taxes and vertical tax externalities: Evidence from narrative federaltax shocks. Regional Science and Urban Economics 68, 84-9⒎ [Crossref]19⒍Atsushi Chino, Joon Ho Kim. 20⒙ Does Dividend Policy Affect Sales Growth in Product Markets?:Evidence from a Quasi-Natural Experiment. SSRN Electronic Journal 64. . [Crossref]19⒎Jennifer Luchs, George A. Plesko, Steven Utke. 20⒙ Market and Firm Reaction to Targeted TaxBenefits: Evidence From the Tax Reform Act of 198⒍ SSRN Electronic Journal 2. . [Crossref]19⒏Wei Chen, Mingfeng Lin, Bryan Zheng Zhang. 20⒙ Lower Taxes, Smarter Crowd? The Impact ofTax Incentives on Equity Crowdfunding. SSRN Electronic Journal 14. . [Crossref]19⒐Yangming Bao, Martin Richard Goetz. 20⒙ Local Peer Effects and Corporate Investment. SSRNElectronic Journal 73. . [Crossref]200.Naomi E. Feldman, Laura Kawano, Elena Patel, Nirupama Rao, Michael Stevens, Jesse Edgerton.20⒙ The Long and the Short of It: Do Public and Private Firms Invest Differently?. SSRN ElectronicJournal 38. . [Crossref]201.Ufuk Akcigit, John Grigsby, Tom Nicholas, Stefanie Stantcheva. 20⒙ Taxation and Innovation inthe 20th Century. SSRN Electronic Journal 105. . [Crossref]202.Xiongshi Li, Mao Ye, Miles Zheng. 20⒙ Market Structure and Corporate Payout Policy: Evidencefrom a Natural Experiment. SSRN Electronic Journal 138. . [Crossref]20⒊Xavier Giroud, Holger M. Mueller. 20⒙ Firm Leverage and Regional Business Cycles. SSRNElectronic Journal 73. . [Crossref]20⒋Li Liu. 20⒙ Where Does Multinational Investment Go with Territorial Taxation? Evidence fromthe UK. IMF Working Papers 18:7, 1. [Crossref]20⒌Florian Chatagny, Marko Koethenbuerger, Michael Stimmelmayr. 20⒘ Introducing an IP license boxin Switzerland: quantifying the effects. International Tax and Public Finance 24:6, 927-961. [Crossref]20⒍Martin Jacob, Roni Michaely. 20⒘ Taxation and Dividend Policy: The Muting Effect of AgencyIssues and Shareholder Conflicts. The Review of Financial Studies 30:9, 3176-3222. [Crossref]20⒎Leonard E. Burman, Kimberly A. Clausing, Lydia Austin. 20⒘ IS U.S. CORPORATE INCOMEDOUBLE-TAXED?. National Tax Journal 70:3, 675-70⒍ [Crossref]20⒏Larry Fauver, Mingyi Hung, Xi Li, Alvaro G. Taboada. 20⒘ Board reforms and firm value:Worldwide evidence. Journal of Financial Economics 125:1, 120-142. [Crossref]20⒐Eric Zwick, James Mahon. 20⒘ Tax Policy and Heterogeneous Investment Behavior. AmericanEconomic Review 107:1, 217-24⒏ [Abstract] [View PDF article] [PDF with links]2⒑Jarrad Harford, Jared R. Stanfield, Feng Zhang. 20⒘ Are Target Shareholders SystematicallyExploited in Management Buyouts and Freezeouts?. SSRN Electronic Journal 59. . [Crossref]2⒒Yu Ting Forester Wong, Wuyang Zhao. 20⒘ Post-Apocalyptic: The Real Consequences of ActivistShort-Selling. SSRN Electronic Journal 19. . [Crossref]2⒓Jonathan B. Cohn, Sheridan Titman, Garry J. Twite. 20⒘ Capital Structure and Taxes in Europe.SSRN Electronic Journal 151. . [Crossref]2⒔Irem Guceri, Li Liu. 20⒘ Effectiveness of Fiscal Incentives for R&D: Quasi-Experimental Evidence.IMF Working Papers 17:84, 1. [Crossref]2⒕Laura Dobbins, Martin Jacob. 20⒗ Do corporate tax cuts increase investments?. Accounting andBusiness Research 46:7, 731-75⒐ [Crossref]2⒖Juan Carlos Suárez Serrato, Owen Zidar. 20⒗ Who Benefits from State Corporate Tax Cuts? A LocalLabor Markets Approach with Heterogeneous Firms. American Economic Review 106:9, 2582-262⒋[Abstract] [View PDF article] [PDF with links]2⒗Christine L. Dobridge. 20⒗ Fiscal Stimulus and Firms: A Tale of Two Recessions. Finance andEconomics Discussion Series 2016.0:13, 1-6⒌ [Crossref]2⒘Michael Cooper, John McClelland, James Pearce, Richard Prisinzano, Joseph Sullivan, Danny Yagan,Owen Zidar, Eric Zwick. 20⒗ Business in the United States: Who Owns It, and How Much TaxDo They Pay?. Tax Policy and the Economy 30:1, 91-12⒏ [Crossref]2⒙Michael P. Donohoe, Petro Lisowsky, Michael Mayberry. 20⒗ Taxes, Competition, andOrganizational Form. SSRN Electronic Journal 82. . [Crossref]2⒚Steven Mello. 20⒗ Police and Crime: Evidence from Cops 2.0. SSRN Electronic Journal 4. . [Crossref]2⒛Hong Chen, Murray Z. Frank. 20⒗ The Effect of Taxation on Corporate Financing and Investment.SSRN Electronic Journal 3595492. . [Crossref]221.Jason Matthew DeBacker, Bradley Heim, Shanthi Ramnath, Justin M. Ross. 20⒗ The Impact ofState Taxes on Pass-Through Businesses: Evidence from the 2012 Kansas Income Tax Reform. SSRNElectronic Journal 84. . [Crossref]222.Magnus Henrekson, Tino Sanandaji. 20⒖ Owner-Level Taxes and Business Activity. SSRNElectronic Journal 78. . [Crossref]22⒊Urooj Khan, Suresh Nallareddy, Ethan Rouen. 20⒖ The Role of Taxes in the Disparity betweenCorporate Performance and Economic Growth. SSRN Electronic Journal 47. . [Crossref]22⒋James R. Brown, Gustav Martinsson. 20⒕ Payout Taxes, Costly External Finance, and Long-RunInvestment. SSRN Electronic Journal 78. . [Crossref]22⒌Alexander ǈungqvist, Michael Smolyansky. 20⒕ To Cut or Not to Cut? On the Impact of CorporateTaxes on Employment and Income. SSRN Electronic Journal 117. . [Crossref]22⒍Xing Li, Stephen Teng Sun. 20⒔ Managerial Ownership and Firm Performance: Evidence from the2003 Dividend Tax Cut. SSRN Electronic Journal 30. . [Crossref]22⒎Laura Brandstetter, Martin Jacob. 20⒔ Do Corporate Tax Cuts Increase Investments?. SSRNElectronic Journal 37. . [Crossref]

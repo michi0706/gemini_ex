@@ -1,0 +1,13523 @@
+The Economic Journal, 128 (November), 2613–2651. Doi: 10.1111/ecoj.12534 © 2017 Royal Economic Society. Published by John Wiley & Sons, 9600
+Garsington Road, Oxford OX4 2DQ, UK and 350 Main Street, Malden, MA 02148, USA.
+
+CONSUMPTION AND INVESTMENT IN RESOURCE
+
+POOLING FAMILY NETWORKS*
+
+Manuela Angelucci, Giacomo De Giorgi and Imran Rasul
+
+This article examines a novel motive for resource pooling in family networks in rural economies: to
+relax credit constraints and facilitate investment in non-collateraliseable assets for which credit
+market imperfections are most binding. We thus complement established literatures examining risk-
+sharing motives for resource transfers within family networks, as well as motives based on kinship tax
+obligations. We do so exploiting the Progresa programme data, in which family networks can be
+identiﬁed, households are subject to large exogenous resource inﬂows, and detailed responses on
+consumption and an array of investments can be tracked in a household panel over ﬁve years.
+
+Households in low-income rural economies face multiple market imperfections. An
+established literature has studied the causes and consequences of imperfections in
+credit, insurance and ﬁnancial markets (Besley, 1995). A key insight to emerge has
+been the critical role extended families play in allowing households to overcome such
+market imperfections. In both developing and developed economy settings, such
+networks have been documented to engage in informal arrangements,
+involving
+resource ﬂows across network members (Cox and Fafchamps, 2008; Attanasio et al.,
+2015), with such arrangements being enforced through a combination of self-interest,
+altruism and social pressure (Coate and Ravallion, 1993; Platteau, 2000).
+
+A prominent strand of this literature examines how extended families enable
+member households to smooth consumption in response to idiosyncratic income risks
+(Rosenzweig, 1988; Rosenzweig and Stark, 1989; Foster and Rosenzweig, 2001;
+Fafchamps and Lund, 2003; La Ferrara, 2003; Samphantharak and Townsend, 2010;
+Karaivanov and Townsend, 2014). Key to such informal arrangements are that they are
+reciprocal, involve state-contingent resource transfers towards those facing negative
+shocks and they are efﬁciency enhancing.1
+
+A second emerging strand of literature highlights the resource transfers that take
+place in family networks because of informal kinship taxes being levied on members
+(Baland et al., 2011; DiFalco and Bulte, 2011; Jakiela and Ozier, 2016; Squires, 2016).
+In contrast to risk-sharing transfers, such resource ﬂows need not be reciprocal or be
+
+* Corresponding author: Imran Rasul, Department of Economics, University College London, Drayton
+
+House, 30 Gordon Street, London WC1H 0AX, UK. Email: i.rasul@ucl.ac.uk.
+
+Earlier versions of this article were circulated under the title, ‘Resource Pooling Within Family Networks:
+Insurance and Investment’. The article has been screened to ensure no conﬁdential information is revealed and
+has been conducted under an IRB approval of Stanford University. We thank Joe Altonji, Orazio Attanasio, Pat
+Bayer, Raj Chetty, Pierre Andre Chiappori, Xavier Gine, Cynthia Kinnan, Christopher Ksoll, Nicola Pavoni,
+Luigi Pistaferri, Mark Rosenzweig, Matthew Shapiro, Chris Udry and numerous seminar participants for
+suggestions. De Giorgi acknowledges ﬁnancial support from the Spanish Ministry of Economy and
+Competitiveness, through the Severo Ochoa Programme for Centres of Excellence in R&D (SEV-2011-0075)
+and ECO2011-28822, the EU through the Marie Curie CIG grant FP7-631510. All errors remain our own.
+
+1 The seminal works on testing for consumption smoothing are Cochrane (1991), Mace (1991) and
+Townsend (1994). Following this line of work, caste-based networks have also been identiﬁed as forming
+informal risk-sharing agreements (Munshi, 2011; Mazzocco and Saini, 2012; Munshi and Rosenzweig, 2016).
+
+[ 2613 ]
+
+2614
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+channelled towards poorer network members and, most importantly, their existence
+typically entails efﬁciency costs through distortions. Such kinship tax distortions have
+been documented to exist across a range of household decisions including those
+related to consumption (DiFalco and Bulte, 2011), savings (Boltz-Lemmel, 2013),
+labour market participation (Baland et al., 2015) and capital allocations into family
+enterprises (Squires, 2016). Kinship taxes might also cause households to devote
+resources hiding their income from network members and thus avoid social
+obligations altogether (Kinnan, 2014; Jakiela and Ozier, 2016); it has been long
+recognised that the kinds of allocative and productive distortions arising from kinship
+taxes can lead to poverty traps (Nurkse, 1953; Lewis, 1954).
+
+In this article, we study a third motive for resource ﬂows within family networks. We
+take as motivation the long tradition in development economics emphasising that
+households in agrarian economies are engaged in both consumption and investment/
+production decisions (Eswaran and Kotwal, 1986; Singh et al., 1986; Benjamin, 1992).
+The interlinkage in these outcomes for household-ﬁrms has been understudied in the
+twin literatures above, on risk sharing and kinship taxes. We combine insights by
+studying whether extended family networks pool resources to help relax credit
+constraints members face and facilitate higher return investments to be undertaken. If
+so, then in contrast to kinship taxes, this represents a mechanism through which
+extended family members can eventually escape poverty traps.2,3
+
+More precisely, we consider how consumption and investment decisions are
+interlinked for households subject to imperfect credit markets. We do so for two
+types of household: those we describe as being connected because they are embedded
+within a village-based extended family network that pools resources among its
+members, and those that are isolated and have none of their family members in close
+geographic proximity and therefore have to rely on their own resources to a greater
+extent. Relative to isolated households, family networks can relax credit constraints
+member households face in investment choices. The extent to which family networks
+foster household investment depends on the interplay between credit markets, asset
+characteristics and network resources. We contrast less lumpy and collateralisable
+assets, such as small livestock (poultry) for which credit markets are well functioning,
+with lumpier and non-collateraliseable investments such as those into human capital,
+for which borrowing constraints are most severe.
+
+How the increase in resources impacts consumption is closely tied to its impact on
+investment. If the resources are invested, current consumption may decrease (but
+future consumption could increase as the returns to investment are realised. In
+general, the larger the increase in investment, the lower the increase in current
+consumption for both connected and isolated households.
+
+2 Kinnan and Townsend (2012) and Karaivanov and Townsend (2014) are two exceptions in the literature
+that also jointly study consumption and investment decisions, doing so for Thai household-ﬁrms for which
+rich panel data exists on both dimensions. They document the importance of kin groups for consumption
+smoothing and easing credit constraints to facilitate household investment.
+
+3 Other forms of (in-kind) transfer within extended family networks have also been documented and
+studied, including those used to cement social ties (e.g. ceremonial payments), to pool labour, to share
+information on labour market opportunities, to create rotating savings and credit associations and child
+fostering/adoption (Cox and Fafchamps, 2008; Boltz-Lemmel, 2013).
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2615
+
+To take these ideas to data, we exploit the experimental evaluation of the Progresa
+programme, a large-scale anti-poverty policy intervention providing cash transfers to
+eligible (poor) households in rural Mexico. We empirically document the consump-
+tion and investment responses of connected and isolated households
+to the
+conditional cash transfers provided by Progresa, exploiting ﬁve features of the data.
+
+First, we combine information on the paternal and maternal surnames of household
+heads and spouses, with the Spanish naming convention to construct family networks
+in each village. Following the same procedure as our earlier work (Angelucci et al.,
+2010), we map extended family networks in 500 villages (encompassing over 20,000
+households) in rural Mexico. This allows us to distinguish between connected
+households with a family network in the same village and isolated households that have
+none of their family residing in close geographical proximity.4
+
+Second, we exploit the randomised research design used to evaluate Progresa: 320
+villages were randomly assigned to be treated with Progresa, with the remaining villages
+retained as controls. Following a partial population experimental design (Mofﬁtt,
+2001), eligible and ineligible households are identiﬁed in both treatment and control
+villages.
+
+Third, eligible households in treated locations are subject to exogenous and large
+resource inﬂows. The average monthly transfer to eligibles corresponds to 36% of their
+pre-programme monthly food expenditures. More importantly, we document that
+family networks span eligibility status: some members are eligible while others are
+ineligible. Among connected and eligible households, over 80% of their extended
+family are also eligible. Hence extended family networks as a whole experience
+substantial resource inﬂows due to Progresa: on average, these amount to the total
+monthly income of 0.60 households in the family network. Given the average network
+size is 7.5 households, the resource injection provided by Progresa is non-trivial, with the
+potential to foster large consumption and investment responses among network
+members if the family pools transfers. These resource inﬂows can enable some
+members to undertake non-collateralisable investments, such as those into the human
+capital of their children, even though the value of transfers any given household
+receives remains below what is required to self-ﬁnance such investments (Schultz, 2004;
+De Janvry and Sadoulet, 2006).
+
+Fourth, detailed panel data were collected on both food consumption and
+investment choices for over 20,000 households every six months before and after
+intervention, something that remains rare among household panels (Karaivanov and
+Townsend, 2014). On investment, the data span a rich array of assets varying in their
+collateralisability: from holdings of small livestock (such as poultry) for which credit
+constraints are unlikely to bind, through to entirely non-collateralisable forms of asset
+such as human capital.
+
+Finally, we are able to study the longer term impacts of resource inﬂows by
+exploiting a ﬁnal wave of data from ﬁve years after households ﬁrst experience receipt
+
+4 Names and familial linkages have been exploited in studies of intergenerational mobility (Clark et al.,
+2014; G€uell et al., 2015). In the context of Progresa, Attanasio and Lechene (2014) use a similar algorithm to
+measure the relative size of husband and wife’s extended family in the same village, proxying intrahousehold
+distributional factors when estimating a conditional demand system.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2616
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+of transfers. This sheds light on whether the capacity of family networks to relax credit
+constraints causes sustained increases in investment and, as the returns to such
+investments are realised, then feedbacks into higher longer term consumption relative
+to isolated households.
+
+Under standard assumptions, the experimental research design identiﬁes:
+
+(i) the average treatment effect (ATE) of resource inﬂows from a comparison of
+
+eligibles in treatment and control villages; and
+
+(ii) the indirect treatment effect (ITE) of resource inﬂows from a comparison of
+ineligibles in treatment and control villages (Angelucci and De Giorgi, 2009).
+
+We identify ATEs and ITEs for isolated and connected households. Finally, to exploit
+the full richness of our data, we estimate impacts of exogenous resource inﬂows at the
+level of the family network as a whole: this provides a network average treatment effect
+(NATE) that summarises how family networks respond to resource inﬂows, irrespective
+of which household in the network experiences the resource transfer. We provide
+NATE estimates on mean consumption and investment, on consumption and
+investment inequality within networks, and provide novel estimates of how consump-
+tion and investment impacts vary with features of the family network architecture.
+
+On consumption we document:
+
+(i) eligible connected households signiﬁcantly increase their food expenditures
+by 32.7 pesos relative to connected households in control villages (this ATE
+corresponds to a near 23% increase in food consumption over its baseline
+level);
+
+(ii) ineligible connected households also signiﬁcantly increase their consumption
+by 22.6 pesos (this ITE corresponds to a 16% over baseline levels) relative to
+ineligible and connected households in control villages, thus providing direct
+evidence of resource pooling in extended family networks;
+
+(iii) among eligibles, the implied marginal propensity to consume (MPC) out of
+their own resource transfer is 0.691; among ineligibles the implied MPC to
+consume out of the transfer received per network member is 0.639. This
+implies that for every dollar that accrues to the family network as a whole, food
+consumption increases by around 65¢ for both households in the network
+eligible for Progresa transfers and ineligible members of the same network. The
+implied marginal propensity of families to invest/save out of every dollar is
+thus around 0.35; and
+
+(iv) the NATE estimates indicate consumption inequality within family networks
+does not change as poorer eligibles experience positive resource increases,
+consistent with household Pareto weights not changing over the study period.
+
+In contrast, we ﬁnd that eligible but isolated households have no statistically
+signiﬁcant change in their consumption relative to counterfactual isolated households
+in control villages. Although this impact is imprecisely estimated, it is signiﬁcantly
+different from the change in consumption of eligible connected households. Hence
+there is a need to also consider households’ investment outcomes in order to move
+towards a more complete understanding of how isolated households utilise the
+resource transfer Progresa represents.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2617
+
+On investment, we ﬁnd no signiﬁcant increase in collateralisable assets such as small
+animals (poultry) among isolated or connected households. This is as expected if there
+is a well-functioning credit market for such assets.
+
+We ﬁnd eligible isolated households use a signiﬁcant fraction of their resource
+inﬂow to invest in cattle, as has been documented for rural Indian households by
+Rosenzweig and Wolpin (1993). Cattle are of intermediate collateralisability and are
+likely to generate earnings from produce sales that co-vary less with their other income
+streams (Townsend, 1994; Bandiera et al., 2017).
+
+In contrast, eligible and connected households
+
+signiﬁcantly increase non-
+collateralisable investments into human capital as measured by secondary school
+enrolment rates. In short, less collateralisable forms of investments are signiﬁcantly
+responsive to household resources, in line with Karaivanov and Townsend (2014). We
+ﬁnd:
+
+(i) eligible connected households signiﬁcantly increase their schooling invest-
+ment by 7.5pp relative to counterfactual connected households in control
+villages (a 12% increase over the baseline level); and
+
+(ii) eligible but isolated households have no such response, and the difference
+between these impacts is highly signiﬁcant, despite isolated and connected
+households receiving similar resource inﬂows and having the same baseline
+levels of secondary school enrolment.
+
+Given Progresa transfers are insufﬁcient to cover the opportunity cost of secondary
+schooling, such non-collateralisable investments can only be undertaken by connected
+households because they are engaged in resource pooling arrangements with family
+members. These results closely match the ﬁndings of Kinnan and Townsend (2012)
+who report kin networks in Thailand facilitate large investment expenditures through
+the relaxation of borrowing constraints. Considering the family network as the unit of
+analysis, our NATE estimates then show that for the average connected household,
+secondary school enrolment increases by 6.0pp relative to counterfactual family
+networks in control villages.
+
+Network architecture matters: larger and more closely linked family networks have
+larger consumption responses and these same networks are also those with marginally
+smaller investment responses. These twin results suggest such network features
+underlie precisely how resources are allocated in informal sharing arrangements
+(Ambrus et al., 2014; Chandrasekhar et al., 2014).
+
+Finally, we examine the longer term impacts of family networks on consumption and
+human capital investment using the ﬁnal wave of panel data from ﬁve years after the
+initial resource transfers. We ﬁnd:
+
+(i) households embedded within family networks have monthly food expendi-
+tures that are 19.8 pesos higher than for isolated households, corresponding
+to a 14% increase over baseline levels; and
+
+(ii) the longer term gap in secondary school enrolment rates is sustained at 6.4 pp,
+
+corresponding to just under 10% of the baseline levels.
+
+This suggests the interplay between large resource inﬂows and resource pooling by
+family networks might well place them on sustained paths out of poverty and allow
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2618
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+them to escape the kinds of poverty trap that have long concerned development
+economists.
+
+The key contribution of the article is to highlight an understudied channel for
+resource ﬂows within extended family networks: to foster investments into non-
+collateraliseable assets. This complements established literatures examining the role
+that family networks play in allowing households to smooth consumption in the face of
+idiosyncratic resource shocks, and the role that kinship taxes levied within such
+networks have on the allocative and productive efﬁciency of household decisions. Our
+article also builds on earlier work studying Progresa. The ﬁrst generation of Progresa
+evaluations focused on the average treatment effects on schooling decisions for eligible
+households (Schultz, 2004; Todd and Wolpin, 2006; Attanasio et al., 2012). A second
+wave of papers has examined the impacts of Progresa on other outcomes including
+investment and entrepreneurship (Gertler et al., 2012; Bianchi and Bobba, 2013). In
+most of this work, ineligible households have predominantly been exploited to check
+for spillover or general equilibrium effects of the programme operating through
+prices, labour and credit markets (Angelucci and De Giorgi, 2009; Bobonis and Finan,
+2009; Lalive and Cattaneo, 2009).
+
+A third generation of study has exploited information on surnames to pin down
+social ties between households and then used this to explore heterogenous treatment
+responses to Progresa. Our earlier work, Angelucci et al. (2010) did so focusing only on
+schooling outcomes and providing suggestive evidence of resource transfers within
+family networks facilitating such investments. In this article, we consider a richer set of
+consumption and investment outcomes. In particular, our ITE impacts on consump-
+tion get to the heart of whether there is resource pooling within family networks or
+not. We then provide new estimates of consumption and investment responses at the
+network level, how inequality of consumption and investment in networks is impacted
+(over an array of asset investments varying in their collateralisability) and of how both
+responses vary as a function of network architecture. The ﬁnal innovation over the
+existing literature is to identify longer term impacts of being embedded within family
+networks on this set of consumption and investment outcomes. This is key to
+understanding the role that family networks can play in enabling members to escape
+poverty traps.5
+
+The article is organised as follows. Section 1 describes a conceptual framework.
+Section 2 presents our context, data and empirical methods. Sections 3 and 4 cover the
+results on consumption and investment respectively. Section 5 examines longer term
+outcomes. Section 6 concludes by discussing further implications of our ﬁndings.
+
+1. Conceptual Framework
+
+We now describe how households’ consumption and investment responses to Progresa
+differ depending on whether the household is isolated, in that none of their extended
+
+5 Angelucci and De Giorgi (2009) documented the existence of spillover effects of consumption from
+eligible to ineligible households and identiﬁed the likely channel through which this occurred, informal gifts
+and transfers. However, that paper used no data on family networks and did not study any speciﬁc institution
+through which these transfers occur.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2619
+
+family reside in the same village, or whether they are connected, and so embedded
+within an extended family network in the same village.
+
+1.1. Isolated Households
+
+We recognise that isolated households may have extended family elsewhere and share
+resources with them.6 However, in the context of responses to Progresa, it is important
+to note the evaluation data covers a period when the programme was still being rolled
+out in villages across rural Mexico. Hence isolated households are unlikely to have
+family members in other villages where Progresa had been rolled out. Even if isolated
+households have eligible family in other Progresa villages in the study period, networks
+that are more geographically dispersed likely face higher monitoring and enforcement
+costs to sustain any resource pooling arrangement (Fafchamps and Gubert, 2007;
+Conley and Udry, 2010).7
+
+For expositional ease, we describe the consumption and investment responses of
+isolated households to Progresa assuming there are no resource ﬂows with their
+extended family (that reside in other villages). We denote the per period resources,
+consumption and investment of isolated household h(i) as Rh(i), Ch(i) and Ih(i),
+respectively, (where i is used to denote that the household is isolated). We denote the
+savings of the isolated household as Sh(i). Using the superscript E for eligibles, the
+following budget accounting identity holds for eligible isolated households:
+
+DR E
+
+hðiÞ ¼ DC E
+
+hðiÞ þ DI E
+
+hðiÞ þ DS E
+hðiÞ:
+
+(1)
+
+All terms in (1) are deﬁned at the household level. DR E
+
+hðiÞ corresponds to the
+resource injection due to Progresa that eligible isolated households experience, and is
+detailed in Section 2: this increase is of course partly conditional on changes in school
+enrolment by households. For some households, they may need to reduce consump-
+tion to use any transfer to send their children to secondary school. An increase in
+resources can increase investment by relaxing credit constraints. This is especially so
+for lumpy, non-collateralisable assets (such as large livestock and education), which are
+harder to borrow against, than more liquid forms of investment (such as small
+livestock), for which credit markets likely exist. Consumption may increase, decrease,
+or remain unchanged depending on the effect on investment.
+
+The core analysis in Sections 3 and 4 documents the consumption and investment
+hðiÞ,
+
+responses to Progresa of eligible isolated households: DC E
+
+hðiÞ and DI E
+
+hðiÞ=DR E
+
+hðiÞ=DR E
+
+6 For example, many Mexican households receive migrant remittances from overseas. However, this is far
+less the case in the Progresa sample of rural households: for example, Angelucci (2015) documents that in
+1998, fewer than 1% (4%) of households in control villages report having a member migrated to the US
+(elsewhere in Mexico).
+
+7 On the importance of private information for resource transfers in the context of risk sharing:
+
+(i) Ligon (1998) develops an empirical test showing that private information plays an important role
+
+in shaping the allocations in village economies in Indian data; and
+
+(ii) Kinnan (2014) develops a test to distinguish between hidden income, limited commitment and
+
+moral hazard as motives for incomplete informal insurance.
+
+Using household panel data from rural Thailand, limited commitment and moral hazard are rejected, while
+there is empirical support for the predictions of hidden income.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2620
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+where the former corresponds to the marginal propensity to consume out of Progresa
+transfers. Finally, we note that our analysis does not focus on the third term, the
+changes in savings that eligible isolated households experience. Such crowding in/out
+of resources might well occur (Albarran and Attanasio, 2003; Cox and Fafchamps,
+2008), although such impacts are notoriously hard to measure accurately in most low-
+income settings including in this one (Angelucci and De Giorgi, 2009). Our aim is not
+to establish the identity in (1) but to highlight that resource inﬂows can be channelled
+towards consumption and investment purposes, the balance between the two might
+differ between isolated and connected households, as might the forms of investment
+undertaken by both types of household.8
+
+1.2. Connected Households
+
+
+
+X
+
+X
+
+Connected households are embedded within family networks in the same village and
+these networks are assumed to pool resources across members. The underlying motives
+for such redistribution can relate to consumption smoothing, kinship taxes, or to
+foster investment and the objective of networks is to maximise the sum of utilities of
+their members. The relevant unit of analysis is the family network as a whole, denoted
+n(c). In family networks the following budget accounting identity holds:
+
+DRnðcÞ ¼
+
+DR E
+
+nðcÞ ¼
+
+n2nðcÞ DCnðcÞ þ DInðcÞ þ DSnðcÞ
+
+n2nðcÞE
+
+(2)
+where the total resource injection to the family network, DRn(c), sums Progresa transfers
+across eligible members of the family, denoted n 2 nðcÞE , while on the right-hand side,
+we sum over all network members (both eligibles and ineligibles). The total resource
+inﬂow to family networks is detailed in Section 2: this increase is of course partly
+conditional on changes in school enrolment by all eligible households in the network. As
+with isolated households, absent resource pooling in the family network, some connected
+households may also need to reduce consumption to use any transfer to send their
+children to secondary school. Thinking through the right-hand side highlights three key
+empirical implications of resource pooling arrangements in family networks.
+
+
+
+;
+
+First, because of resource pooling, there can be consumption responses to Progresa by
+nðcÞ=DRnðcÞ [ 0 where we use the
+ineligible households in the extended family, i.e. DC NE
+superscript NE to denote an ineligible member of the family network of an eligible
+household, n(c). Without a fully speciﬁed micro-founded model of network behaviour, we
+have an ambiguous prediction on the relative change in consumption of eligible and
+ineligible connected households, i.e. DC E
+nðcÞ=DRnðcÞ. These two consump-
+tion responses correspond to the ATE and ITE of Progresa, estimated in Section 3.
+Comparing budget accounting identities (1) and (2) also makes clear there is no prediction
+of the relative consumption responses of eligible isolated and connected households.
+
+nðcÞ=DRnðcÞ T DC NE
+
+The novel motive for resource pooling in family networks is that it enables member
+households to undertake certain investments they could not otherwise self-ﬁnance in
+the face of imperfect credit markets. Investments into assets that are lumpy and
+
+8 For ineligible isolated households, the LHS of (1) is obviously zero, so that consumption and investment
+responses can only occur if Progresa causes general equilibrium effects in goods or asset markets. This is
+testable and something we address below.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2621
+
+non-collateralisable are especially likely to be aided by resource pooling within
+extended family networks because there is no credit market to invest in such assets
+(non-collateralisability) and individual households cannot accumulate enough
+savings alone to make such investments (lumpiness). The ﬁrst implication of (2) is
+thus to examine the investment responses to Progresa over a variety of assets that vary
+in their collateralisability: the ATE and ITE impacts of Progresa on investment are
+presented in Section 4. Together, these shed light on whether resource pooling
+enables richer or poorer households within the network to undertake additional
+investments.
+
+DCnðcÞ=DRnðcÞ,
+
+Finally, to exploit the full richness of our data, we estimate impacts of Progresa at
+DInðcÞ=DRnðcÞ. This
+the level of the family network as a whole:
+provides a network average treatment effect (NATE) that summarises how family
+networks affect consumption and investment responses to resource inﬂows among
+their members, irrespective of which household in the network experiences the
+resource transfer. We provide NATE estimates on mean consumption and invest-
+ment, on consumption and investment inequality within networks, and provide
+novel estimates of how both impacts vary with features of the family network
+architecture.9
+
+n
+
+n
+
+P
+
+P
+
+2. Context, Data and Methods
+
+2.1. Context
+
+Progresa is a large-scale government intervention providing cash transfers to poor
+households conditional on children’s attendance at school and mother’s attendance
+at health facilities. An experimental research design was implemented to evaluate
+Progresa: the evaluation involved collecting panel data on 20,000 households every six
+months in 503 villages between March 1998 and November 1999. The evaluation took
+place while the programme was being scaled-up across villages in rural Mexico.
+Villages were selected into the evaluation sample if they were sufﬁciently poor. Credit
+markets are highly imperfect in this setting, providing scope for extended family
+networks to play an important role in household’s consumption and investment
+decisions.
+
+To detail the kinds of credit market imperfection prevalent in rural Mexico, we note
+that in the third wave of data (November 1998) households were asked about the
+sources and uses of loans/transfers: only 2.8% households report having outstanding
+loans, and less than 1% report having access to formal credit. Among those using
+formal
+loans, 66% of households report using them to ﬁnance investment into
+livestock, agriculture or businesses. In contrast, among those using informal credit,
+
+9 In family networks with only one eligible member, the change in resources (at the network level) is the
+same as for isolated households. Hence there should be no difference in their investment choices. However,
+we cannot study this subsample of networks separately because as the descriptives below make clear, the large
+majority of networks have at least two eligibles in them. Hence when we restrict the analysis to connected
+households that are the only eligible household in their network, given the small sample sizes involved, it is
+not surprising that the impacts on consumption and investment are not precisely estimated (and so the
+ﬁnding that such connected households also have no signiﬁcant increase in their investment is not a very
+powerful test of the intuition above).
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2622
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+76% of households report, using such loans to ﬁnance consumption and other
+emergencies.10
+
+To understand whether Progresa transfers could be used to ﬁnance investments into
+non-collateralisable assets, we note that while the average monthly transfer to
+eligibles is non-negligible, corresponding to 35% of pre-programme monthly food
+consumption expenditures, this magnitude remains far below what is required for
+households to self-ﬁnance non-collateralisable investments into human capital: for
+example, Schultz (2004) ﬁnds that the value of transfers corresponds to between one
+half to two thirds of the full time child wage in the survey villages; De Janvry and
+Sadoulet (2006) argue that transfers correspond to around 40% of what children of
+the same age would earn. In either case, the transfers do not fully compensate for
+foregone earnings of secondary school aged children employed full time in the
+labour market.11
+
+In the pre-programme period households were asked the main reason why children
+did not attend school: for those with children aged between 6 and 18, 39% cited a lack
+of ﬁnancial resources, and a further 11% cited needing the child to work or help at
+home. Hence if multiple households in the same family network were to be in receipt
+of Progresa transfers and these households pooled resources, it would be possible for
+them to channel resources towards some network members and enable such
+investments into non-collateralisable assets to occur.
+
+Of the sampled villages, 320 were randomly assigned to receive Progresa from
+May 1998, and 183 were assigned as controls. Two pre-programme survey waves
+were conducted (October 1997, March 1998). The other waves occur post-
+intervention (November 1998, May 1999, November 1999). To study the longer
+term impacts on consumption and investment outcomes of connected versus
+isolated households, we exploit a ﬁnal wave of data from November 2003. Finally,
+we match our panel data to administrative records detailing the potential and
+actual transfers provided to each household. Table A1 in the Appendix describes
+the key variables and survey waves used.12
+
+In 1997, households were classiﬁed as either being eligible (poor) or ineligible (not
+poor) for Progresa transfers according to a household poverty index, designed to give
+relatively greater weight to correlates of permanent rather than current income.
+Around three quarters of households are classiﬁed as eligible: as shown later, this
+
+10 In other low-income settings, such informal arrangements have been documented to include the use of
+state-contingent informal loans (Udry, 1994), or gifts and other quasi-credit arrangements (Platteau, 1997).
+11 Relatedly, Todd and Wolpin (2006) note that to the extent that children engage in work in family
+enterprises/farms, the opportunity cost of their labour is not even the market wage but their marginal
+product in family enterprises/farms: that is even harder to measure. Finally, Attanasio et al. (2012) also
+present evidence suggesting the opportunity cost of schooling is not fully offset by the value of transfers:
+more precisely they document using a structural model, that a revenue neutral change in the programme
+that would increase the grant for secondary school children while eliminating for the primary school children
+would have a substantially larger effect on enrolment of the latter, while having minor effects on the former.
+12 Control villages began receiving Progresa transfers in December 1999. In 1997, eligibles in control
+villages were informed they would receive the programme from the end of 1999 conditional on them still
+being eligible and the programme continuing. We do not ﬁnd any evidence households in treated villages are
+more likely to attrit between October 1997 and November 2003, nor is there evidence of differential attrition
+of connected households in treated villages relative to control villages.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseR E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2623
+2018]
+implies the typical family network will have many eligible members.13 The transfers
+correspond to exogenous increases resources to eligible households, with uncertainty
+as to whether transfers would be available beyond 1999.
+
+In family networks, we observe eligibles and ineligibles. This allows us to measure
+whether the consumption responses of households in a network are the same irrespective
+of which network member received the transfers (DC E
+nðcÞ=DRnðcÞ); and for
+non-collateralisable investments, to examine whether poorer (eligible) or richer
+members of the network are able to undertake such investments when their network
+experiences resource inﬂows (DI E
+nðcÞ=DRnðcÞ). There is variation in the
+monetary value of transfers households (and therefore networks) are eligible for
+depending on a non-linear relationship with the demographic composition of children
+pre-programme: transfers conditional on school enrolment are larger for higher school
+grades, and for girls within any given grade.14
+
+nðcÞ=DRnðcÞ; DC NE
+
+nðcÞ=DRnðcÞ; DI NE
+
+2.2. Constructing Family Networks
+
+To identify the extended family links between households in the same village, we use
+the same procedure described in Angelucci et al. (2010), exploiting information on:
+
+(i) surnames provided in the third wave of data; and
+(ii) the naming convention in Mexico.
+
+As the Progresa evaluation data represent a near census of households in each village,
+we construct complete extended family network structures for all 20,000 households in
+over 500 villages.15
+
+Mexicans use two surnames: the ﬁrst is inherited from the father’s paternal lineage
+and the second from the mother’s paternal lineage. For example, former Mexican
+president Vicente Fox Quesada would be identiﬁed by his given name (Vicente), his
+father’s paternal name (Fox) and his mother’s paternal name (Quesada). Respondents
+were asked to provide the:
+
+(i) given name;
+(ii) paternal surname; and
+(iii) maternal surname, for each household member.
+
+13 Households were informed that their eligibility status would not change at least until November 1999,
+irrespective of any variation in household income. A group of households, known as densiﬁcados, had their
+eligibility status reclassiﬁed from non-eligible to eligible in October 1998. A non-random subset of them
+began receiving Progresa transfers in treatment villages prior to November 1999. As no precise algorithm
+exists to determine which densiﬁcados received transfers in treatment villages, no counterfactual set of
+households exists for them in control villages. Hence we do not consider such households in our analysis of
+consumption and investment outcomes.
+
+14 By November 1999 the bimonthly transfer ranged from 160 pesos for third grade, to 530 (610) pesos for
+boys (girls) in ninth grade. The total amount received bimonthly by a household cannot however exceed
+1,500 pesos.
+
+15 A concern arises from the surnames data being measured in the ﬁrst wave post-programme, in that
+households may endogenously respond to the programme by changing household structures. In particular,
+by artiﬁcially forming new households in order to increase the number of eligibles in the family. This concern
+is ameliorated by the fact that the register of eligibles was drawn up at baseline, and only households
+recorded to be eligible at that point were later entitled to receive transfers.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2624
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Hence couple headed households have four associated surnames: the paternal and
+maternal surnames of the head, and the paternal and maternal surnames of his wife.16
+Figure 1 illustrates the algorithm used to link households. To deﬁne each link, we use
+information on two of the four surnames. Consider household A at the root of the family
+tree. The head of the household has paternal and maternal surnames F1 and f 1 respectively.
+His wife has paternal and maternal surnames F 2 and f 2 respectively.17 The children of the
+couple in household A will adopt the paternal surnames of their father (F1) and mother
+(F 2). Hence we identify a parent-son family link between households A and B if:
+
+(i) the paternal surname of the head in household B is the same as the paternal
+
+surname of the head in household A (F1); and
+
+A
+A
+
+Parents
+(F1, f1)
+(F2, f2)
+
+BB
+
+Son
+
+(F1, F2)
+Spouse
+(F3, f3)
+
+CC
+
+Son
+
+(F1, F2)
+Spouse
+(F4, f4)
+
+Daughter
+(F1, F2)
+Husband
+(F5, f5)
+
+Daughter
+(F1, F2)
+Husband
+(F6, f6)
+
+Son
+
+(F1, F3)
+Spouse
+(F7, f7)
+
+Daughter
+(F1, F3)
+Husband
+(F8, f8)
+
+Son
+
+(F1, F4)
+Spouse
+(F9, f9)
+
+Son
+
+(F5, F1)
+Spouse
+
+(F10, f10)
+
+Daughter
+(F5, F1)
+Husband
+(F11, f11)
+
+Daughter
+(F6, F1)
+Husband
+(F12, f12)
+
+Fig. 1. Family Tree
+
+Notes. We use the convention that the head’s surnames are written in standard font, and those of
+his wife are written in italics. Paternal surnames are indicated in upper case (F1, F2) and maternal
+surnames are indicated in lower case (f1, f2). First names are not shown as they are not relevant to
+the construction of extended family ties. Each household in the family tree is assumed to be couple
+headed purely to ease the exposition. Colour ﬁgure can be viewed at wileyonlinelibrary.com.
+
+16 The wording of the question in Spanish is, ‘Dıgame por favor el nombre completo con todo y apellidos de todas
+las personas que viven en este hogar, empezando por (jefe del hogar) – (i) nombre; (ii) apellido paterno; (iii) apellido
+materno’. We cleaned the surnames data as follows:
+
+(i) we removed non-alphabetical characters, replaced ‘Sin Apellido’ (no surname) with missing values,
+
+and corrected some obvious typographical errors based on intra-household surname checks;
+
+(ii) we imputed a small number of missing female surnames from wave 2; and
+(iii) we veriﬁed surnames using the same information from wave 5, and veriﬁed the relationship to the
+
+household head using wave 1 data.
+
+No information on surnames is available in the ﬁrst wave of data. The head of household is originally deﬁned
+to be the main income earner. In a very small number of cases, the head of a couple headed household is
+reported to be a woman. To keep clear the exposition, we redeﬁne the head to be male in such cases.
+
+17 Paternal (maternal) surnames are indicated in upper (lower) case. First names are not shown as they are
+irrelevant to the matching algorithm. In Anglo Saxon countries, F1 corresponds to the family name and F2
+corresponds to the spouse’s maiden name.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2625
+
+(ii) the maternal surname of the head in household B is the same as the paternal
+
+surname of the spouse in household A (F2).
+
+Parent-daughter family-links can be similarly identiﬁed. Moreover, family links
+between siblings can also be identiﬁed. For example, the heads of households B and C
+are identiﬁed to be brothers if they share the same paternal and maternal surnames.
+We impose the following restrictions when deﬁning family links:
+
+(i) inter-generational
+
+links exist when the relevant individuals have at least
+15 years age difference, and no more than 60 years age difference between
+mother and child; and
+
+(ii) intra-generational links exist when the individuals have at most 30 years age
+
+difference.
+
+We thus identify households with at least one ﬁrst-degree relative in the village, as
+well as the entire network of ﬁrst-degree relatives. Hence all the households in Figure 1
+would belong to the same ﬁrst-degree extended family network, even though some are
+ﬁrst cousins, or linked across two generations. Figure 1 shows all households to be
+couple headed to ease the exposition. To deal with the 15% of households that are
+single headed we use additional information on the gender of the head to identify
+family links. Although such single headed households are then used to construct the
+extended family networks, we focus our analysis of consumption and investment
+outcomes on the 85% of households that are couple-headed.18
+
+There are of course limits to our algorithm. For example, two households headed by
+cousins will not be recorded as belonging to the same extended family unless both sets
+of parents are present. Angelucci et al. (2010) provides more descriptive evidence on
+surnames in this setting, and provides external validity to the created links using data
+from the Mexican Family Life Survey (MxFLS). More precisely, we show how the
+number of ﬁrst-degree relatives rural households have alive in any location, as
+recorded in the MxFLS, compares, on average, to the number of relatives our
+algorithm suggests reside in the same village for rural households.19
+
+18 There are additional limits involving single headed households. Consider links from household i to a
+single headed household j. As Figure 1 shows, the fact that household j is single headed does not affect the
+construction of links from the head and spouse of household i either to their children or to their siblings.
+However, links from the head (spouse) of household i to the household of his (her) parents can only be
+identiﬁed if both his (her) parents are alive and resident together because this particular link is identiﬁed
+using information from household j on the paternal surnames of both the head and spouse. However this is
+unlikely to be a major issue: we note that female widows aged above 40 are 37% more likely to live as a
+dependent within a household, rather than head their own household, relative to a similar married woman.
+These single parents are recorded in the household roster.
+
+19 There are several potential forms of measurement error in surnames that we can check for, as described
+in Angelucci et al. (2010). The ﬁrst arises from the convention that women change their paternal surname to
+their husband’s paternal surname at the time of marriage (although the wording of the survey question
+speciﬁcally asks respondents to name the paternal and maternal surname of each household member). In
+5.8% of households is the spouse’s maternal surname recorded to be the same as her husband’s paternal
+surname. Second, if the male head is the respondent, he may not recall his wife’s maternal surname and
+simply replace it with her paternal surname (as his children only inherit his wife’s paternal surname). This
+occurs in only 4.9% of households. A ﬁnal circumspect case is households in which the paternal and maternal
+surnames of both the head and spouse are all reported to be the same. This occurs for 1.6% of households
+and drops to 0.5% if we exclude households with the most common surname. There are no differences in the
+incidence of these potential errors between treatment and control villages.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2626
+
+2.3. Networks
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Panel (a) of Table 1 shows that 80% of households are connected, so have at least one
+other extended family member heading their own household in the village. Thus 20%
+of households are isolated in that none of their extended family members reside in the
+same village. There are on average 7.5 members in each family network, highlighting
+the potential importance of informal resource pooling arrangements within families.
+Our analysis among connected households is based on 1,379 (817) unique family
+networks in treatment (control) villages covering 10,559 (6,471) households.
+
+2.4. Consumption and Investment at Baseline
+
+Panel (b) of Table 1 presents data on food consumption, measured in adult
+equivalents. Food consumption is based on seven day recalls over 36 food items
+(Table A1 provides further details). Monthly food expenditures are 144 pesos. Given a
+daily poverty line of $1.25, 70% of households lie below this threshold if we aggregate
+per capita food and non-food expenditures. Figure 2(a) shows the distribution of daily
+per capita expenditures across couple headed households pre-programme. This
+reiterates the absolute poverty these households experience and the fact they lack
+resources to ﬁnance many forms of investment.
+
+Panel (c) focuses on household investments, split between livestock and schooling.
+The collateralisability of such assets varies between these extremes depending partly on
+the transactions costs lenders face in reselling assets used as collateral in the case of
+borrower default. To recognise this continuity in asset collateralisability, among
+livestock we consider the division between investments in small animals (chickens,
+rabbits, pigs and goats) and larger animals (donkeys, horses, cows and oxen). Over
+80% of households own some form of small livestock, typically poultry. The thick
+market for such assets makes small livestock highly collateralisable. In contrast, only
+around 40% of households own larger animals such as cattle and there are high
+transactions costs from their resale. Hence larger animals can be classiﬁed as being of
+intermediate collateralisability. The value of owned livestock is almost identical across
+isolated and connected households pre-programme, as are the separate values of
+owned small and large livestock.20
+
+On entirely non-collateralisable human capital investments, primary enrolment rates
+are above 90% for households at baseline, so that most choose to send their children to
+school even absent Progresa. In contrast, secondary school enrolment rates are lower, at
+around 65%. Hence this is the relevant margin of schooling investment choice. As the
+value of transfers is insufﬁcient to offset credit constraints related to this investment,
+for poorer (eligible) connected households, the ability to pool resources within the
+family network is key for such investments to be undertaken.
+
+20 Fafchamps and Pender (1997) estimate a structural model of irreversible investment decisions and ﬁnd
+that poor farmers fail to undertake proﬁtable investments that they could in principle self-ﬁnance, because
+the non-divisibility of these investments makes it infeasible to self-ﬁnance. Rosenzweig and Wolpin (1993)
+also emphasise the irreversibility of investment as leading to the choice of investments into bullocks rather
+than irrigation equipment. We can think of this as being another important difference between small and
+large livestock.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2627
+
+=
+
+d
+e
+t
+a
+l
+o
+s
+I
+
+)
+5
+(
+
+]
+l
+
+o
+r
+t
+n
+o
+c
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+[
+
+]
+l
+o
+r
+t
+n
+o
+c
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+[
+
+=
+
+d
+e
+t
+c
+e
+n
+n
+o
+C
+)
+4
+(
+
+]
+0
+0
+5
+
+.
+
+0
+[
+
+]
+8
+7
+5
+
+.
+
+0
+[
+
+]
+2
+5
+6
+
+.
+
+0
+[
+
+]
+7
+6
+3
+
+.
+
+0
+[
+
+]
+4
+9
+8
+
+.
+
+0
+[
+
+]
+2
+8
+4
+
+.
+
+0
+[
+
+]
+2
+0
+0
+
+.
+
+0
+[
+
+]
+0
+5
+8
+
+.
+
+0
+[
+
+a
+/
+n
+
+]
+1
+0
+4
+
+.
+
+0
+[
+
+]
+7
+5
+7
+
+.
+
+0
+[
+
+]
+8
+5
+5
+
+.
+
+0
+[
+
+]
+0
+8
+6
+
+.
+
+0
+[
+
+]
+0
+7
+6
+
+.
+
+0
+[
+
+]
+8
+7
+9
+
+.
+
+0
+[
+
+]
+6
+5
+6
+0
+[
+
+.
+
+]
+6
+6
+4
+
+.
+
+0
+[
+
+]
+8
+8
+8
+0
+[
+
+.
+
+]
+2
+2
+4
+
+.
+
+0
+[
+
+1
+
+e
+l
+
+b
+a
+T
+
+e
+n
+
+i
+l
+e
+s
+a
+B
+
+t
+a
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+H
+d
+e
+t
+a
+l
+o
+s
+I
+
+d
+n
+a
+
+d
+e
+t
+c
+e
+n
+n
+o
+C
+
+y
+t
+i
+l
+a
+u
+q
+e
+
+]
+2
+
+.
+l
+o
+c
+
+f
+o
+
+=
+
+1
+
+.
+l
+o
+c
+[
+
+t
+s
+e
+T
+
+)
+3
+(
+
+d
+e
+t
+a
+l
+o
+s
+I
+
+)
+2
+(
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+
+d
+e
+t
+c
+e
+n
+n
+o
+C
+)
+1
+(
+
+s
+d
+l
+o
+h
+e
+s
+u
+o
+h
+
+]
+1
+5
+4
+
+.
+
+0
+[
+
+]
+8
+2
+7
+
+.
+
+0
+[
+
+]
+6
+6
+7
+
+.
+
+0
+[
+
+]
+6
+1
+6
+
+.
+
+0
+[
+
+]
+0
+7
+7
+
+.
+
+0
+[
+
+]
+9
+0
+0
+0
+[
+
+.
+
+]
+2
+8
+2
+0
+[
+
+.
+
+]
+8
+1
+2
+
+.
+
+0
+[
+
+]
+5
+6
+8
+
+.
+
+0
+[
+
+a
+/
+n
+
+%
+1
+2
+
+7
+4
+1
+
+)
+6
+2
+1
+(
+
+4
+6
+8
+
+.
+
+0
+
+)
+3
+4
+3
+
+.
+
+0
+(
+
+)
+2
+8
+9
+
+,
+
+2
+1
+(
+
+7
+2
+6
+
+,
+
+5
+
+7
+7
+0
+
+,
+
+1
+
+)
+2
+5
+6
+
+,
+
+3
+(
+
+9
+2
+7
+4
+
+,
+
+)
+2
+6
+2
+
+,
+
+2
+1
+(
+
+8
+0
+9
+0
+
+.
+
+)
+8
+6
+2
+
+.
+
+0
+(
+
+1
+6
+6
+
+.
+
+0
+
+)
+6
+0
+4
+
+.
+
+0
+(
+
+9
+0
+7
+0
+
+.
+
+)
+4
+5
+4
+0
+(
+
+.
+
+2
+
+.
+
+3
+5
+
+)
+7
+
+.
+
+8
+2
+(
+
+a
+/
+n
+
+7
+6
+8
+
+.
+
+0
+
+)
+0
+4
+3
+
+.
+
+0
+(
+
+5
+0
+5
+
+,
+
+5
+
+)
+7
+8
+6
+
+,
+
+2
+1
+(
+
+3
+4
+0
+
+,
+
+1
+
+)
+2
+9
+0
+
+,
+
+3
+(
+
+1
+2
+6
+4
+
+,
+
+)
+9
+9
+0
+
+,
+
+2
+1
+(
+
+2
+3
+9
+0
+
+.
+
+)
+2
+3
+2
+
+.
+
+0
+(
+
+8
+4
+6
+
+.
+
+0
+
+)
+5
+0
+4
+
+.
+
+0
+(
+
+5
+2
+7
+0
+
+.
+
+)
+6
+4
+4
+
+.
+
+0
+(
+
+4
+
+.
+
+3
+5
+
+)
+3
+
+.
+
+8
+2
+(
+
+7
+
+.
+
+8
+3
+
+)
+7
+
+.
+
+6
+1
+(
+
+%
+9
+7
+
+4
+4
+1
+
+)
+0
+2
+1
+(
+
+d
+e
+l
+t
+i
+t
+n
+e
+
+s
+i
+
+y
+l
+i
+
+m
+a
+f
+
+d
+e
+d
+n
+e
+t
+x
+e
+
+n
+a
+
+n
+
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+)
+s
+o
+s
+e
+p
+
+E
+A
+
+,
+
+8
+9
+9
+1
+
+r
+e
+b
+m
+e
+v
+o
+N
+(
+
+o
+t
+
+d
+e
+l
+t
+i
+t
+n
+e
+
+e
+r
+a
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+e
+l
+
+b
+i
+g
+i
+l
+e
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+
+y
+l
+h
+t
+n
+o
+M
+
+e
+g
+a
+r
+e
+v
+a
+
+n
+a
+
+t
+a
+h
+t
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+
+y
+l
+h
+t
+n
+o
+M
+
+)
+s
+o
+s
+e
+p
+
+E
+A
+
+,
+
+8
+9
+9
+1
+
+r
+e
+b
+m
+e
+v
+o
+N
+(
+
+o
+t
+
+e
+t
+a
+r
+
+t
+n
+e
+m
+o
+r
+n
+e
+
+l
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+d
+n
+o
+c
+e
+S
+
+e
+t
+a
+r
+
+t
+n
+e
+m
+o
+r
+n
+e
+
+l
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+m
+
+i
+r
+P
+
+]
+s
+o
+s
+e
+p
+[
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+a
+t
+o
+T
+
+]
+s
+o
+s
+e
+p
+[
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+S
+
+]
+s
+o
+s
+e
+p
+[
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+L
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+]
+1
+
+=
+
+d
+n
+a
+
+y
+t
+i
+l
+i
+
+b
+
+i
+g
+i
+l
+
+E
+
+:
+)
+d
+(
+
+l
+e
+n
+a
+P
+
+s
+e
+y
+[
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+r
+o
+f
+
+e
+l
+
+b
+
+i
+g
+i
+l
+
+E
+
+]
+s
+o
+s
+e
+p
+
+,
+
+E
+A
+[
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+d
+o
+o
+f
+
+y
+l
+h
+t
+n
+o
+M
+
+s
+k
+r
+o
+w
+t
+e
+n
+
+y
+l
+i
+
+m
+a
+f
+
+d
+e
+d
+n
+e
+t
+x
+e
+
+:
+)
+a
+(
+
+l
+e
+n
+a
+P
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+f
+o
+
+e
+g
+a
+t
+n
+e
+c
+r
+e
+P
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+:
+)
+b
+(
+
+l
+e
+n
+a
+P
+
+]
+1
+
+=
+
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+:
+)
+c
+(
+
+l
+e
+n
+a
+P
+
+s
+e
+y
+[
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+n
+w
+O
+
+© 2017 Royal Economic Society.
+
+s
+e
+d
+u
+l
+c
+n
+
+i
+
+s
+i
+h
+t
+
+,
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+n
+O
+
+.
+s
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+g
+n
+
+i
+l
+
+o
+o
+h
+c
+s
+
+d
+n
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+n
+e
+e
+w
+t
+e
+b
+
+t
+i
+l
+
+p
+s
+
+e
+r
+a
+
+e
+s
+e
+h
+T
+
+.
+s
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+n
+o
+
+a
+t
+a
+d
+
+s
+t
+n
+e
+s
+e
+r
+p
+
+)
+c
+(
+
+l
+e
+n
+a
+P
+
+.
+s
+o
+s
+e
+p
+
+n
+
+i
+
+s
+
+m
+r
+e
+t
+
+t
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+t
+l
+u
+d
+a
+
+n
+
+i
+
+e
+r
+a
+
+s
+c
+i
+t
+s
+i
+t
+a
+t
+s
+
+e
+h
+T
+
+l
+
+.
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+o
+d
+a
+c
+ﬁ
+i
+s
+n
+e
+d
+
+i
+
+g
+n
+d
+u
+l
+c
+x
+e
+
+,
+s
+e
+v
+a
+w
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+d
+r
+i
+h
+t
+
+d
+n
+a
+
+t
+s
+r
+ﬁ
+
+e
+h
+t
+
+r
+e
+v
+o
+
+d
+e
+k
+c
+a
+r
+t
+
+e
+b
+
+n
+a
+c
+
+t
+a
+h
+t
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+d
+e
+d
+a
+e
+h
+
+e
+l
+p
+u
+o
+c
+
+f
+o
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+n
+o
+
+d
+e
+s
+a
+b
+
+e
+r
+a
+
+s
+c
+i
+t
+s
+i
+t
+a
+t
+s
+
+l
+l
+
+A
+
+.
+s
+e
+t
+o
+N
+
+t
+a
+h
+t
+
+e
+s
+o
+h
+t
+
+e
+r
+a
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+d
+e
+t
+c
+e
+n
+n
+o
+C
+
+.
+s
+e
+s
+e
+h
+t
+n
+e
+r
+a
+p
+n
+
+i
+
+n
+o
+
+i
+t
+a
+i
+v
+e
+d
+
+d
+r
+a
+d
+n
+a
+t
+s
+
+s
+t
+i
+
+d
+n
+a
+
+,
+c
+i
+t
+s
+i
+t
+a
+t
+s
+h
+c
+a
+e
+
+f
+o
+n
+a
+e
+m
+e
+h
+t
+
+t
+r
+o
+p
+e
+r
+
+e
+W
+
+.
+e
+e
+r
+h
+t
+
+o
+t
+
+e
+n
+o
+
+s
+e
+v
+a
+w
+m
+o
+r
+f
+
+a
+t
+a
+d
+
+n
+o
+
+i
+t
+n
+e
+v
+r
+e
+t
+n
+
+i
+-
+e
+r
+p
+n
+o
+
+d
+e
+s
+a
+b
+
+d
+e
+t
+a
+l
+u
+c
+l
+a
+c
+
+l
+
+,
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+f
+o
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+d
+o
+o
+f
+
+e
+h
+t
+
+n
+o
+
+a
+t
+a
+d
+
+s
+t
+n
+e
+s
+e
+r
+p
+
+)
+b
+(
+
+l
+e
+n
+a
+P
+
+.
+e
+g
+a
+l
+l
+i
+v
+
+e
+m
+a
+s
+
+e
+h
+t
+
+n
+
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+e
+t
+a
+r
+a
+p
+e
+s
+
+n
+w
+o
+
+r
+i
+e
+h
+t
+
+i
+
+g
+n
+d
+a
+e
+h
+
+d
+n
+a
+
+g
+n
+i
+v
+i
+l
+
+r
+e
+b
+m
+e
+m
+
+y
+l
+i
+
+m
+a
+f
+
+e
+n
+o
+
+t
+s
+a
+e
+l
+
+t
+a
+
+e
+v
+a
+h
+
+–
+
+–
+
+6
+
+s
+i
+h
+T
+
+e
+g
+r
+a
+l
+
+.
+
+n
+e
+x
+o
+
+d
+n
+a
+
+e
+v
+i
+s
+n
+e
+p
+x
+e
+
+s
+w
+o
+c
+
+t
+s
+a
+e
+l
+
+,
+s
+e
+s
+r
+o
+h
+
+,
+s
+y
+e
+k
+n
+o
+d
+
+s
+e
+d
+u
+l
+c
+n
+
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+L
+
+.
+s
+t
+a
+o
+g
+
+d
+n
+a
+
+s
+g
+i
+p
+
+,
+s
+t
+i
+b
+b
+a
+r
+
+,
+s
+n
+e
+k
+c
+i
+h
+c
+
+s
+e
+d
+u
+l
+c
+n
+
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+S
+
+.
+
+n
+e
+x
+o
+
+d
+n
+a
+
+s
+w
+o
+c
+
+,
+s
+e
+s
+r
+o
+h
+
+,
+s
+y
+e
+k
+n
+o
+d
+
+,
+s
+t
+a
+o
+g
+
+,
+s
+g
+i
+p
+
+,
+s
+t
+i
+b
+b
+a
+r
+
+e
+h
+t
+
+d
+n
+a
+
+)
+s
+o
+s
+e
+p
+
+0
+6
+3
+(
+
+s
+t
+a
+o
+g
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+
+s
+
+e
+v
+i
+s
+n
+e
+p
+x
+e
+
+t
+s
+o
+m
+e
+h
+t
+
+:
+l
+a
+m
+n
+a
+
+i
+
+r
+e
+p
+
+s
+t
+s
+o
+c
+
+t
+i
+n
+u
+
+r
+e
+p
+
+h
+t
+i
+w
+
+y
+l
+e
+s
+o
+
+l
+c
+
+s
+e
+h
+c
+t
+a
+m
+d
+n
+a
+
+e
+z
+i
+s
+
+l
+a
+c
+i
+s
+y
+h
+p
+
+n
+o
+
+d
+e
+s
+a
+b
+
+s
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+f
+o
+
+n
+o
+
+i
+s
+i
+v
+i
+d
+
+s
+t
+n
+e
+s
+e
+r
+p
+
+)
+d
+(
+
+l
+e
+n
+a
+P
+
+.
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+n
+
+i
+
+t
+n
+e
+d
+i
+s
+e
+r
+d
+n
+a
+
+)
+6
+1
+
+1
+1
+(
+
+0
+1
+
+d
+e
+g
+a
+
+e
+s
+o
+h
+t
+
+e
+b
+
+o
+t
+
+d
+e
+n
+ﬁ
+e
+d
+e
+r
+a
+n
+e
+r
+d
+
+l
+i
+
+h
+c
+
+d
+e
+g
+a
+
+l
+
+o
+o
+h
+c
+s
+
+)
+y
+r
+a
+d
+n
+o
+c
+e
+s
+(
+
+y
+r
+a
+m
+
+i
+r
+p
+
+,
+
+g
+n
+
+i
+l
+
+o
+o
+h
+c
+s
+n
+O
+
+.
+)
+s
+o
+s
+e
+p
+
+0
+8
+8
+(
+
+s
+y
+e
+k
+n
+o
+d
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+h
+t
+
+o
+t
+
+e
+c
+n
+a
+i
+l
+
+p
+m
+o
+c
+
+l
+l
+
+u
+f
+
+h
+t
+i
+w
+
+e
+v
+i
+e
+c
+e
+r
+
+y
+l
+l
+a
+i
+t
+n
+e
+t
+o
+p
+
+l
+
+d
+u
+o
+c
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+r
+e
+f
+s
+n
+a
+r
+t
+
+t
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+t
+l
+u
+d
+a
+
+y
+l
+h
+t
+n
+o
+m
+
+e
+h
+t
+
+e
+r
+a
+
+r
+e
+t
+t
+a
+l
+
+e
+h
+T
+
+.
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+
+d
+n
+a
+
+y
+t
+i
+l
+i
+
+b
+
+i
+g
+i
+l
+e
+
+o
+t
+
+d
+e
+t
+a
+l
+e
+r
+
+s
+c
+i
+t
+s
+i
+r
+e
+t
+c
+a
+r
+a
+h
+c
+
+s
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+
+r
+e
+h
+t
+e
+h
+w
+r
+o
+f
+
+y
+
+m
+m
+u
+d
+a
+
+t
+s
+n
+i
+a
+g
+a
+d
+e
+s
+s
+e
+r
+g
+e
+r
+
+t
+s
+e
+r
+e
+t
+n
+
+i
+
+f
+o
+e
+m
+o
+c
+t
+u
+o
+e
+h
+t
+
+f
+o
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+S
+L
+O
+n
+a
+n
+o
+d
+e
+s
+a
+b
+s
+i
+
+y
+t
+i
+l
+a
+u
+q
+e
+
+f
+o
+t
+s
+e
+t
+
+e
+h
+t
+n
+o
+e
+u
+l
+a
+v
+-
+p
+e
+h
+t
+
+,
+)
+3
+(
+n
+m
+u
+o
+c
+n
+I
+
+l
+
+.
+s
+o
+s
+e
+p
+n
+
+i
+
+,
+e
+m
+m
+a
+r
+g
+o
+r
+p
+
+e
+h
+t
+
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+
+r
+e
+h
+t
+e
+h
+w
+
+r
+o
+f
+
+y
+
+m
+m
+u
+d
+
+a
+
+t
+s
+n
+i
+a
+g
+a
+
+d
+e
+s
+s
+e
+r
+g
+e
+r
+
+t
+s
+e
+r
+e
+t
+n
+
+i
+
+f
+o
+
+e
+m
+o
+c
+t
+u
+o
+
+e
+h
+t
+
+f
+o
+
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+
+S
+L
+O
+n
+a
+
+n
+o
+
+d
+e
+s
+a
+b
+
+s
+i
+
+y
+t
+i
+l
+a
+u
+q
+e
+
+f
+o
+
+t
+s
+e
+t
+
+e
+h
+t
+
+n
+o
+
+e
+u
+l
+a
+v
+-
+p
+
+e
+h
+t
+
+,
+)
+4
+(
+
+n
+m
+u
+o
+c
+
+l
+
+n
+I
+
+.
+t
+o
+n
+
+r
+o
+
+e
+h
+t
+n
+o
+e
+u
+l
+a
+v
+-
+p
+e
+h
+t
+
+s
+t
+r
+o
+p
+e
+r
+
+)
+5
+(
+n
+m
+u
+o
+C
+
+l
+
+.
+s
+e
+g
+a
+l
+l
+i
+v
+
+l
+
+o
+r
+t
+n
+o
+c
+d
+n
+a
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+n
+
+i
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+d
+e
+t
+c
+e
+n
+n
+o
+c
+
+i
+
+f
+o
+e
+l
+p
+m
+a
+s
+e
+h
+t
+n
+h
+t
+i
+w
+y
+l
+n
+o
+e
+n
+o
+d
+s
+i
+
+s
+i
+h
+T
+
+.
+t
+o
+n
+r
+o
+e
+g
+a
+l
+l
+i
+v
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+
+a
+
+s
+i
+
+n
+
+i
+
+t
+n
+e
+d
+i
+s
+e
+r
+
+s
+i
+
+d
+e
+t
+c
+e
+n
+n
+o
+c
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+r
+o
+
+8
+1
+
+s
+r
+e
+b
+m
+e
+m
+
+r
+o
+f
+
+e
+n
+o
+
+s
+i
+
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+d
+n
+a
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+r
+o
+f
+d
+e
+s
+u
+
+e
+l
+a
+c
+s
+
+e
+c
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+t
+l
+u
+d
+a
+
+e
+h
+T
+
+.
+s
+e
+g
+a
+l
+l
+i
+v
+
+l
+
+o
+r
+t
+n
+o
+c
+d
+n
+a
+
+t
+n
+e
+m
+t
+a
+e
+r
+t
+n
+
+i
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+d
+e
+t
+a
+l
+
+o
+s
+i
+
+f
+o
+
+e
+l
+p
+m
+a
+s
+
+e
+h
+t
+
+g
+n
+o
+m
+a
+
+t
+s
+e
+t
+
+e
+m
+a
+s
+
+d
+e
+r
+u
+s
+a
+e
+m
+
+,
+s
+n
+e
+k
+c
+i
+h
+c
+
+g
+n
+i
+c
+a
+l
+p
+e
+r
+
+,
+l
+e
+v
+e
+l
+
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+
+t
+a
+
+)
+8
+9
+9
+1
+
+h
+c
+r
+a
+M
+
+(
+
+2
+
+e
+v
+a
+w
+m
+o
+r
+f
+n
+e
+k
+a
+t
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+r
+o
+f
+
+s
+e
+c
+i
+r
+P
+
+.
+s
+e
+c
+i
+r
+p
+
+)
+8
+9
+9
+1
+h
+c
+r
+a
+M
+
+(
+
+2
+
+.
+s
+
+m
+e
+t
+i
+
+d
+o
+o
+f
+-
+n
+o
+n
+
+r
+o
+f
+
+s
+e
+u
+l
+a
+v
+
+y
+r
+a
+t
+e
+n
+o
+m
+e
+t
+a
+ﬂ
+e
+d
+
+o
+t
+
+s
+e
+i
+r
+e
+s
+
+I
+P
+C
+
+o
+c
+i
+x
+e
+M
+
+f
+o
+
+k
+n
+a
+B
+
+y
+l
+h
+t
+n
+o
+m
+e
+h
+t
+
+e
+s
+u
+
+e
+W
+
+.
+s
+o
+s
+e
+p
+
+0
+1
+
+e
+v
+a
+w
+e
+s
+=
+u
+
+e
+w
+
+1
+$
+S
+U
+
+,
+
+8
+9
+9
+1
+
+h
+c
+r
+a
+M
+n
+I
+
+.
+s
+e
+g
+a
+r
+e
+v
+a
+
+y
+t
+i
+l
+a
+p
+i
+c
+i
+n
+u
+m
+h
+t
+i
+w
+
+s
+e
+u
+l
+a
+v
+
+g
+n
+i
+s
+s
+i
+
+m
+
+,
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+d
+o
+o
+f
+
+r
+o
+F
+
+.
+e
+s
+i
+w
+r
+e
+h
+t
+o
+
+3
+7
+
+.
+
+0
+
+d
+n
+a
+
+,
+r
+e
+d
+o
+
+l
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2628
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Legend
+
+Ineligible + Potential Family Transfer
+Eligible + Own Potential Transfer
+All Households
+
+0
+
+1.25
+
+2.5
+
+4.0
+
+Daily Per Capita Consumption Expenditure in March 1998,
+
+Measured in 2013 US Dollars
+
+Legend
+Eligible
+Eligible + ATE
+Ineligible
+Ineligible + ITE
+
+(a)
+
+.
+
+8
+0
+
+6
+0
+
+.
+
+.
+
+4
+0
+
+2
+
+.
+0
+
+0
+
+(b)
+
+0
+.
+1
+
+8
+.
+0
+
+6
+.
+0
+
+4
+.
+0
+
+2
+.
+0
+
+0
+
+0
+
+1.25
+
+2.5
+
+4.0
+
+Daily Per Capita Consumption Expenditure in March 1998,
+
+Measured in 2013 US Dollars
+
+Fig. 2. (a) Distribution of Daily Per Capita Consumption Expenditure All Households; (b) ATE and ITE
+
+Impacts on the Distribution of Daily Per Capita Consumption Expenditures Connected Households
+
+Notes. Figures 2(a) and (b) show the distribution of per capita household consumption (food and
+non-food combined) in 1998, as measured at 2013 US dollars. Values are trimmed at $4. The
+vertical line therefore corresponds to the global poverty line of $1.25/day. In Figure 2(a), all
+couple headed households (eligible and ineligible) are included. The additional distributions
+then include the per capita resources potentially available to eligible households from Progresa,
+and those potentially available to ineligible households through resource transfers originating
+from eligible members of their extended family network. In Figure 2(b), all couple headed
+connected households (eligible and ineligible) are used. The Figure shows the distributional
+impact on eligible households of the ATE of their own positive resource shock, and the
+distributional
+impact on ineligible impacts of the ITE of their family members receiving
+resources, and redistributing them within the family network. Colour ﬁgure can be viewed at
+wileyonlinelibrary.com.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2629
+
+Column (3) in Table 1 shows tests of equality between connected and isolated
+households for each characteristic. At baseline, the two types of household are not
+signiﬁcantly different on most dimensions, suggesting they have similar preferences
+over consumption and investment. It is plausible that the Progresa programme is the
+ﬁrst time the majority of households in these communities simultaneously experience
+a large increase in resources and thus allow resource pooling families to overcome
+borrowing constraints and spark non-collateralisable investments. To see if this can be
+studied using the experimental research design of Progresa, columns (4) and (5) show
+that within connected and isolated households, the samples are mostly balanced on
+outcomes across treatment and control villages. Hence we can exploit the randomi-
+sation to identify the causal impact of resource inﬂows on connected and isolated
+households. The exception is for primary enrolment rates between connected and
+isolated households, albeit the absolute difference is small (93% versus 91%). To
+account for any pre-treatment differences in household preferences for schooling, we
+thus control for the household’s primary school enrolment rate at baseline when
+estimating investment responses related to human capital outcomes (secondary
+schooling and child labour).
+
+2.5. Transfers
+
+We now describe data from administrative records on Progresa transfers that we match
+to the main household panel. The ﬁrst row in panel (d) shows that just over 70% of
+households are eligible. On the availability of transfers from extended family members,
+among connected and eligible households, over 80% of their extended family are also
+eligible. For ineligible (hence less poor) households, just over 50% of their extended
+family are eligible: that this share is lower for ineligibles is unsurprising given there is
+less variation in permanent income within than across extended families.
+
+the average potential
+
+transfer available per adult equivalent
+
+The remaining rows in panel (d) show the value of these potential transfers to
+connected households, measured in survey wave 3 (November 1998). Potential
+transfers are those that would accrue to eligible households if they perfectly complied
+with the programme’s conditionalities. If we assume such transfers are not shared with
+others,
+in eligible
+households is 53 pesos per month. The next row considers the other case where
+potential transfers are spread evenly across all family network households: in this
+scenario, the average potential transfer available per adult equivalent in connected
+households is 39 pesos per month. Column (3) conﬁrms there are no signiﬁcant
+differences between connected and isolated households in terms of their eligibility
+status or the value of transfers they can potentially receive. Nor do we ﬁnd any
+signiﬁcant difference in the value of potential transfers available to connected and
+isolated households.21
+
+To benchmark the magnitude of these transfers, we ﬁrst note that potential transfers
+represent around 36% of food consumption expenditures for eligible isolated and
+
+21 We use the equivalence scale estimated by Di Maro (2004) from the same data. This sets a scale of one
+for members 18 or older and 0.73 otherwise. We use the monthly Bank of Mexico CPI series to deﬂate
+monetary values.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2630
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+connected households. If we consider family networks in which transfers are spread
+evenly across eligibles and ineligibles, the potential transfers available per household
+correspond to 27% of the value of household food consumption (in adult equivalent
+terms). If the potential transfers from Progresa were entirely used for consumption,
+15% of eligible households could be moved above the poverty line, as shown by the
+second distribution in Figure 2(a); taking into account potential per capita resource
+transfers from eligible network members, then 14% of connected but ineligible
+households could be moved above the poverty line, as shown by the third distribution
+in Figure 2(a) (noting that ineligibles have higher levels of consumption to begin
+with).
+
+As Progresa transfers are conditional on children’s regular school attendance and
+given high baseline enrolment rates, most eligibles would receive transfers even
+absent any change in enrolment behaviour. Such de facto unconditional cash transfers
+of course provide an income effect that enables households (connected or isolated)
+to raise consumption and investment without any change in actual schooling
+behaviour.
+
+On the actual value of monthly transfers received, we ﬁnd that:
+
+(i) transfers accruing to connected and isolated households are as follows: for
+example, in survey wave 3 (November 1998), they correspond to 119 (112)
+pesos for connected (isolated) households; and
+
+(ii) between November 1998 and November 1999 (survey waves 3 to 5), the value
+of actual transfers received corresponds to around 11–18% of the value of
+household food consumption.
+
+We can also benchmark these actual transfers against household and network levels of
+monthly income. For example, household monthly income among eligible connected
+(isolated) households is 1232 (1286) pesos. Hence, for connected eligibles, actual
+Progresa transfers correspond to the total monthly income of 10% of eligible
+households in the family network. Given networks on average contain 7.5 households
+of which many are eligible, this again shows the resource injection provided by Progresa
+to be non-trivial. In short there is scope for networks to experience resource inﬂows
+large enough so as to help some of their members to overcome binding credit
+constraints on non-collateralisable investments.22
+
+2.6. Empirical Method
+
+Consider outcome yhvt for household h in village v in survey wave t. Food consumption
+outcomes are measured in pesos per adult equivalent. The investment outcomes
+considered are livestock ownership (small, large animals) and secondary schooling,
+representing investments of high, intermediate and low levels of collateralisability
+respectively. We deﬁne three indicators:
+
+22 Household income is deﬁned as labour income (summed over all household members), plus income
+from informal activities, pension receipts, interest and payments from rentals, plus any other source of
+income. All ﬁgures cited are measured in November 1998 (survey wave 3).
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2631
+
+= E if household h is eligible and Dh
+= 1 if Progresa is in place in village v in survey wave t and zero otherwise;
+
+= I if ineligible;
+
+(i) Dh
+(ii) Pvt
+and
+
+(iii) Nh is a time-invariant characteristic indicating whether household h is
+
+connected (Nh
+
+= 1) or isolated (Nh
+
+= 0).23
+
+Focusing ﬁrst on the response of eligible couple-headed households (Dh
+
+= E) to the
+resource inﬂow Progresa provides, we estimate the following OLS difference-in-
+difference speciﬁcation, where we superscript the coefﬁcients of interest with the
+eligibility status of households:
+
+yhvt ¼ b
+
+0
+
+þ b
+
+1Nh þ bE
+
+2 Pvt þ bE
+
+3
+
+ðPvt  NhÞ þ b0
+
+Xhv0þvhvt :
+
+(3)
+
+Xhv0 includes baseline characteristics of the head, household and village, and standard
+errors are clustered by village (the level at with Progresa operates) to capture common
+shocks across households. We consider changes in consumption and investment over
+the same period, utilising surveys from March 1998, May 1999 and November 1999.
+Our working sample of eligibles for consumption outcomes covers over 10,000
+households in these survey waves.24
+
+As take-up is near universal, estimating (3) among eligibles, bE
+
+2 measures the average
+treatment effect (ATE) for isolated households, bE
+3 is the ATE for connected
+2
+households. These are identiﬁed solely by exploiting the randomisation across villages,
+assuming no spillovers across villages. Hence for each type of household in treated
+villages, the counterfactual is the same type of household in control villages. The
+evidence in Table 1 shows the eligibility, consumption and investment characteristics
+of connected and isolated households to be well balanced at baseline across treatment
+and control villages.
+
+þ bE
+
+These ATE estimates for isolated and connected households measure the causal
+impact of resource shocks on consumption and investment. The difference between
+the two ATE estimates (bE
+3 ) is informative of the causal impact of being connected
+relative to being isolated when resources increase, under the additional assumption
+= 1) is uncorrelated with unobservables driving yhvt. While
+that being connected (Nh
+Table 1 previously suggested there are few differences on observables between both
+household types, this difference is less central to our analysis. We focus predominantly
+on the main ATE estimates that exploit only the randomisation and identify how
+households with a given family structure respond to resource inﬂows. Finally, we note
+
+23 Although in the very long run, we expect family networks to adjust through marriage, mortality and
+migration, our analysis treats networks as ﬁxed. A nascent empirical literature studies whether ﬁnancial
+market innovations lead to changes in social network structures (Banerjee et al., 2014; Binzel et al., 2014).
+24 Xhv0 includes the following controls (measured at baseline): age of the household head, household size
+by age brackets (0–7, 8–14, 15–19, more than 19), the standardised household wealth index, village
+marginalisation index and region dummies. To account for one imbalance at baseline, we additionally
+control for the household’s primary school enrolment rate at baseline when we consider investment
+outcomes. We do not utilise data from the third survey wave (November 1998) as in many treated villages, the
+programme had only just started operating in some treated locations and was not fully operational in other
+treated villages. Including this data wave thus leads to slightly less precision in some estimates and this cannot
+be properly dealt with absent administrative records detailing the exact time at which transfers began to be
+implemented in each treated village. For comparability, we use the same waves of data for our baseline
+consumption and investment results. However, as Table A1 details, consumption speciﬁcations could also be
+run using the ﬁrst wave of data (October 1997) and the results are qualitatively unchanged if we do so.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2632
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+that for consumption outcomes, we can derive the implied marginal propensity to
+consume out of the household’s own resource inﬂow by dividing the ATE estimate (as
+consumption outcomes in (3) are in levels), by the actual transfer received by the
+eligible household, where both are measured in peso adult equivalents:
+
+Implied Own MPC ¼
+
+ATE
+
+Household’s Own Transfer
+
+:
+
+(4)
+
+= I). The corresponding coefﬁcients of interest are as follows: bI
+
+To understand whether the consumption and investment outcomes of connected
+but ineligible households are impacted when others in their extended family network
+receive resource inﬂows, our second set of results estimate (3) among ineligibles
+(Dh
+2, that measures
+þ bI
+the indirect treatment effect (ITE) for isolated households, and bI
+3, the ITE for
+2
+connected households (Angelucci and De Giorgi, 2009). These consumption estimates
+get to the heart of whether there is resource pooling within family networks, and are
+based on a working sample of over 4,000 ineligible households across the same three
+survey waves as for the ATE impacts described above.
+
+Two further points are of note. First, these ITE estimates are identiﬁed exploiting
+only the randomisation across villages. For ineligible isolated households that do not
+pool resources with others in the village, consumption should be unaffected by the
+¼ 0). However, given 75% of households
+resource inﬂows experienced by others (bI
+2
+are eligible for transfers, these represent a large resource inﬂow to the village economy
+as a whole. As such, the programme might have general equilibrium effects operating
+6¼ 0 and we can examine
+through wages or aggregate demand channels. If so then bI
+2
+this directly. Second, for the consumption outcomes of ineligibles, we can derive the
+implied marginal propensity to consume out of the family network’s entire resource
+inﬂow by dividing the ITE estimate by the actual transfer received per network
+member, where both are measured in adult equivalents:
+
+Implied Family MPC ¼
+
+Family Network’s per Household Transfer
+
+ITE
+
+:
+
+(5)
+
+The ﬁnal stage of empirical analysis for consumption and investment outcomes
+exploits the full richness of our data and estimates impacts of resource increases at the
+level of the family network as a whole: hence the unit of analysis is network n in village v
+in wave t. Recall that there are around three family networks per village and we focus
+on those networks with at least one eligible household within them. We then estimate
+an OLS difference-in-difference speciﬁcation analogous to (3) but aggregated to the
+level of each network:
+
+ynvt ¼ d0 þ dN
+
+1 Pvt þ d0
+
+Xnv0þnvt ;
+
+(6)
+
+where the network level controls Xnv0 are those used in the core analysis but averaged
+at the network level. These estimates are based on a working sample of over 1,600
+bdN
+family networks across the same three survey waves described above. We refer to the
+estimated parameter of interest,
+1 , as the network average treatment effect (NATE).
+Of course, when ynvt
+is the network average of the earlier household outcomes
+considered, ynvt ¼ 1=nh
+h2hðnÞ yhvt, then the NATE is a weighted average of the ATE
+and ITE estimates for connected households. However, estimating (5) allows us to
+
+P
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2633
+
+investigate beyond mean impacts and also consider how resource increases to the
+network impact consumption inequality within networks.
+
+3. Consumption
+
+3.1. Direct Effects on Eligibles
+
+We ﬁrst present our ﬁndings on consumption following the three-step sequencing
+described above. Column (1) of Table 2 considers the sample of eligible households
+= E) and presents ATE estimates from (3), measuring how eligibles are impacted by
+(Dh
+their own increase in resources. This shows that for food consumption expenditures:
+
+(i) eligible isolated households have an increase of 12.9 pesos in their consump-
+tion relative to counterfactual eligible and isolated households in control
+villages: while this difference is not statistically signiﬁcant, it is not precisely
+estimated either, so that we cannot rule our relatively large consumption
+responses of eligible isolated households to Progresa;
+
+(ii) connected households signiﬁcantly increase their consumption by 32.7 pesos
+
+relative to connected households in control villages; and
+
+(iii) the difference in these ATE estimates between connected and isolated
+[ 0), despite both types of
+households is signiﬁcant at the 1% level (
+household having similar levels of food consumption at baseline and receiving
+similar valued potential transfers (as shown in Table 1).
+
+3
+
+bb E
+
+The foot of column (1) reports the implied MPC to consume out of own transfers is
+0.691 for connected households and only 0.276 for isolated households. Among
+connected households, the implied short-run MPC out of transfers is of comparable
+magnitude to other studies (Bhalla, 1979; Musgrove, 1979; Paxson, 1992; Gertler et al.,
+2012). The implied MPC suggests around 30% of received transfers are channelled to
+alternative uses among connected households. We later examine the extent to which
+resource pooling within families allows connected households to undertake non-
+collateralisable investments. For isolated households, given the weaker consumption
+response to transfers, it is vital to consider investment outcomes to obtain a more
+complete picture of how such households choose to utilise the resource inﬂow Progresa
+represents.25
+
+3.2. Indirect Effects on Ineligibles
+
+Column (2) in Table 2 considers the sample of ineligible households (Dh
+presents ITE estimates from (3). This shows that for food consumption:
+
+= I ) and
+
+25 Bhalla (1979) reports an MPC of 0.61 for rural India; Musgrove (1979) reports MPC 2 [0.78–0.88) for
+individuals residing in urban areas in various countries in Latin America. Exploiting rainfall shocks, Paxson
+(1992) documents MPC 2 [0.56–0.84] for rice farmers in Thailand. Finally, Gertler et al. (2012) report an
+MPC of 0.74 in the Progresa evaluation data when all eligibles are considered together: our results highlight
+the considerable heterogeneity in MPCs by household type that underlie this, and that this difference is best
+understood by considering both consumption and investment outcomes. Albarran and Attanasio (2003)
+present evidence that private resource transfers are crowded-out by the receipt of Progresa transfers and so our
+implied MPC is likely an underestimate.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2634
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Treatment Effects on Monthly Food Consumption Expenditures
+
+Table 2
+
+(1) Direct treatment
+
+(2) Indirect treatment
+
+ATE [isolated]
+
+ATE [connected]
+
+ITE [isolated]
+
+ITE [connected]
+
+effect
+
+12.9
+(9.27)
+32.7***
+(5.64)
+
+Implied MPC out of own transfer [isolated]
+Implied MPC out of own transfer [connected]
+Implied MPC out of family transfer [connected]
+Number of households
+Number of observations
+
+0.276
+0.691
+
+10,426
+29,457
+
+effect
+
+1.87
+(18.7)
+22.6**
+(11.4)
+
+0.639
+
+4,014
+11,084
+
+Notes. *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. The unit of observation is a household in survey
+wave t, and the sample in column 1 (2) covers all eligible (ineligible) couple headed households in 503
+villages. The number of households refers to the number observed in the ﬁrst wave of data used, wave 2
+(March 1998). The dependent variable is the adult equivalent monthly food expenditures (in pesos). The
+sample covers consumption data from waves 2 (March 1998), 4 (May 1999) and 5 (November 1999). OLS
+regression estimates are presented, where standard errors are clustered by village. Connected households are
+those that have at least one family member living and heading their own separate household in the same
+village. In all speciﬁcations we include the following controls (as measured at baseline): age of the household
+head, household size by age brackets (0–7, 8–14, 15–19, more than 19), the standardised household wealth
+index, village marginalisation index and region dummies. As the sample includes only eligible households
+and take-up is close to 100%, the reported coefﬁcients correspond to average treatment effects (ATE). In the
+lower half of the Table, we report the implied marginal propensities to consume (MPC) out of actual Progresa
+transfers received by the household itself. Like the consumption measures, these actual transfers are also
+measured in adult equivalent monthly pesos. The adult equivalence scale used for potential transfers and
+consumption is one for members 18 or older, and 0.73 otherwise. For food consumption expenditures, we
+use wave 2 (March 1998) prices. In March 1998, US$1  = 10 pesos. We use the monthly Bank of Mexico CPI
+series to deﬂate monetary values for non-food items.
+
+(i) ineligible isolated households have no signiﬁcant change in their consumption
+
+relativetocounterfactualisolatedhouseholdsincontrolvillages(DC E
+
+hðiÞ=DR E
+
+hðiÞ ¼ 0);
+
+(ii) ineligible connected households signiﬁcantly increase their consumption by
+22.6 pesos (or by 15% of their baseline level) relative to counterfactual
+nðcÞ=DRnðcÞ [ 0);
+connected and ineligible households in control villages (DC E
+bb I
+(iii) the zero consumption response among ineligible isolated households
+¼ 0) is consistent with an absence of general equilibrium effects of the
+(
+programme, in line with existing evidence.26
+
+2
+
+Comparing the ITE and ATE estimates for connected households, we cannot reject
+the null that these are the same size, although the ATE point estimate is 44% higher
+than the ITE. Comparing the implied MPCs in columns (1) and (2), we again see a
+
+26 Angelucci and De Giorgi (2009) provide evidence that local food prices do not change signiﬁcantly over
+time between treatment and control villages, suggesting that any ITEs are not being driven by general
+equilibrium effects of Progresa. In the context of the PAL cash transfer programme in Mexico, Cunha et al.
+(2014) report no evidence of general equilibrium effects in villages except for the most remote villages, likely
+because such locations are least integrated with markets.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2635
+
+striking similarity between how on the margin, eligible and ineligible households
+convert additional resources into consumption: the MPC derived from the ATE is
+0.691; the MPC derived from the ITE is similar at 0.639. In short, this implies that for
+every dollar that accrues to the family network as a whole, this leads to a 65¢ increase
+in food consumption and this effect is similar for eligible and ineligible households
+in the network. This is clean evidence in favour of resource pooling within the
+extended family network, that has not previously been documented in the context of
+Progresa.
+
+Figure 2(b) graphs how the distribution of food consumption expenditures are
+shifted for both eligibles and ineligibles, and that a substantial share of both sets of
+households are brought above the global poverty line by the interplay of
+the
+programme and resource pooling by extended families.
+
+3.3. Network Effects
+
+We now focus on the family network as the relevant unit and estimate (5) for networks
+with at least one eligible household in them. The parameter of interest, dN
+is
+1 ,
+identiﬁed, exploiting the experimental research design. Table 3 presents the results.
+Column (1) shows that average food consumption in family networks in treatment
+villages is 15.6 pesos higher than in such networks in control villages, a signiﬁcant
+difference at the 5% level. Column (2) shows the effect of resource increases on
+network consumption inequality, as measured by the standard deviation in cross-
+sectional log consumption in the network, ynvt ¼ sdðlog yhvtÞ
+h2hðnÞ. This shows family
+networks in treated villages have the same levels of inequality as counterfactual
+networks in control villages. Given the assumed underlying objective of family networks
+is to maximise the sum of utilities across their members, the result suggests this does
+not entail changes in consumption inequality within the network. This result has two
+important implications: ﬁrst, it shows that in the short run, family networks partially
+undo transfer programmes aimed at assisting the poor. Indeed, if all households were
+in a family network, transfer-based poverty programmes would have little impact on
+short-run inequality. Second, the result suggests the Pareto weight of connected
+households is unchanged over the study period.
+
+Finally, we explore how the architecture of family networks impacts consumption
+responses. To do so, we estimate (5) allowing for an interaction between the Progresa
+dummy (Pvt) and network characteristics (Nn). We ﬁrst consider network size, as it has
+been argued that in some cases, larger networks can better smooth consumption
+(Munshi and Rosenzweig, 2016). We split family networks into those above/below the
+median size and summarise our ﬁndings in the ﬁrst panel of Figure 3(a). This shows
+the earlier effects are largely driven by larger family networks (despite the average
+transfer per adult equivalent being the same in small and large networks): in treated
+villages, the response in mean food expenditures is 26.9 pesos, that is signiﬁcantly
+greater than the response among smaller than median sized networks in the same
+village.
+
+The remaining panels of Figure 3(a) explore how other dimensions of network
+architecture interplay with consumption responses of family networks that experience
+resource inﬂows and show:
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2636
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Table 3
+
+Treatment Effects on Network Level Consumption
+
+NATE [connected]
+
+Implied MPC out of family transfer
+Number of extended family networks
+Number of observations
+
+(1)Mean consumption
+
+15.6**
+(7.639)
+
+0.411
+
+1,663
+4,556
+
+(2) SD of Log consumption
+
+ 0.011
+(0.021)
+
+1,521
+3,999
+
+Notes. *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. The unit of observation is an extended family
+network in survey wave t, and the sample covers all networks with at least one eligible household in 503
+villages. The number of extended family networks refers to the number observed in the ﬁrst wave of data
+used, wave 2 (March 1998). The dependent variable in column 1 (2) is the mean (standard deviation of the
+log of) adult equivalent monthly food expenditures (in pesos) across households in the extended family
+network. The sample covers consumption data from waves 2 (March 1998), 4 (May 1999) and 5 (November
+1999). OLS regression estimates are presented, where standard errors are clustered by village. In all
+speciﬁcations we include the following controls averaged at the network level (as measured at baseline):
+age of the household head, household size by age brackets (0–7, 8–14, 15–19, more than 19), the
+standardised household wealth index, village marginalisation index and region dummies. In the lower half
+of the Table, we report the implied marginal propensities to consume (MPC) out of actual Progresa
+transfers per household in the extended family network. Like the consumption measures, actual transfers
+are also measured in adult equivalent monthly pesos. The adult equivalence scale used for potential
+transfers and consumption is one for members 18 or older, and 0.73 otherwise. In March 1998, US$1 = 10
+pesos. For food we use wave 2 (March 1998) prices. We use the monthly Bank of Mexico CPI series to
+deﬂate monetary values for non-food items.
+
+(i) networks
+
+that are above median diameter (and so likely span more
+
+generations) have signiﬁcant consumption responses; and
+
+(ii) more highly linked networks (as measured by their closeness centrality)
+have signiﬁcant consumption responses. In short, for a given transfer,
+larger and more linked networks appear able to achieve higher levels of
+consumption.
+
+This opens up interesting avenues for future research, as in Ambrus et al. (2014) and
+Chandrasekhar et al. (2014), for better understanding the link between network
+architectures and household consumption.
+
+4. Investment
+
+4.1. Direct Effects on Eligibles
+
+To characterise household responses to resource inﬂows fully, we now analyse
+investment outcomes. We ﬁrst present ATE estimates from (3) using eligibles,
+considering three types of investment: those into small livestock (e.g. poultry) that can
+be thought of as highly collateralisable, those into childrens’ human capital in the
+form of secondary schooling, that are considered to be of low collateralisability, with
+investment into larger livestock (e.g. cattle) somewhere between these extremes. As
+Table 1 showed, given that rates of livestock ownership are over 80%, there is not much
+scope for the extensive margin for such investments to change. Hence, we consider the
+impacts of resource increases on the peso value of owned livestock. We do so for over
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+(a)
+
+40
+
+35
+
+30
+
+25
+
+20
+
+15
+
+10
+
+5
+
+0
+
+(b)
+
+0.7
+
+0.6
+
+0.5
+
+0.4
+
+0.3
+
+0.2
+
+0.1
+
+0
+
+–0.1
+
+–0.2
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2637
+
+30.7***
+
+26.9**
+
+Below Median Above Median
+
+Difference
+
+35.2***
+
+32.6***
+
+25.4***
+
+20.4*
+
+3.77
+
+2.64
+
+4.97
+
+Network Size
+
+Network Diameter
+
+Closeness Centrality
+
+Below Median Above Median Difference
+
+0.67**
+
+0.53**
+
+0.073**
+
+0.045**
+
+0.094***
+
+0.035***
+
+–0.028
+
+–0.059
+
+–0.14
+
+Network Size
+
+Network Diameter
+
+Closeness Centrality
+
+Fig. 3. (a) NATE Estimates on Food Consumption Expenditures; (b) NATE Estimates on Secondary School
+
+Enrolment Rate
+
+Notes. The Figures show heterogeneous NATE estimates across networks with above/below the
+median of a given characteristic: Figure 3(a) shows these effects for food consumption
+expenditures, and Figure 3(b) shows them for secondary school enrolment rates. The three
+network characteristics considered are: (i) the network size (namely, the total number of
+households in the family network); (ii) the diameter of the network (namely, the maximum
+distance from one household to another in the network); (iii) the closeness of the network as
+measured by group closeness centrality index. For each characteristics we show the NATE
+impacts above and below the median of each statistic (as calculated over all family networks with
+at least one eligible household in them), as well as the difference between the two NATE
+estimates. On each bar, *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. Colour ﬁgure can
+be viewed at wileyonlinelibrary.com.
+
+9,000 (7,000) eligibles when examining small (large) livestock investments. We
+measure secondary school investment as the share of 11–16-year-old children in the
+household that are attending school, deﬁned for 5,800 eligibles that have children
+aged 11–16.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2638
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Column (1) of Table 4 shows that for small livestock:
+
+(i) neither eligible isolated nor connected households have any signiﬁcant
+change in the value of owned livestock relative to counterfactual households
+in control villages; and
+
+(ii) the difference in these ATE estimates between connected and isolated
+
+households is not signiﬁcant (
+
+bbE
+
+3
+
+¼ 0; p = 0.55).
+
+Hence as expected, resource inﬂows to households have no impact on such
+collateralisable investments because credit market imperfections are not so severe
+that such forms of investment cannot be ﬁnanced.
+
+Column (2) repeats the analysis for investment into large animals:
+
+(i) eligible isolated households signiﬁcantly increase their holdings of such
+villages
+
+to counterfactual households
+
+in control
+
+animals
+relative
+(p = 0.067); and
+
+(ii) eligible and connected households do not undertake such investments.
+
+To gauge whether the magnitude of the impact on isolated households by November
+1999 is plausible, we note that the 887 peso increase in the value of cattle-owned
+
+Table 4
+
+Direct Treatment Effects on Investment Sample:
+
+Households eligible for Progresa transfers
+
+Livestock ownership
+
+(value)
+
+(1) Small
+animals
+
+(2) Large
+animals
+
+ATE [isolated]
+
+ATE [connected]
+
+23.3
+(76.9)
+77.0
+(60.0)
+
+Number of households
+Number of observations
+
+9,989
+28,264
+
+887*
+(487)
+110
+(330)
+
+7,206
+20,363
+
+Human capital
+
+(3) Secondary school
+
+(4) Child
+
+enrolment
+ 0.013
+(0.026)
+0.075***
+(0.015)
+
+4,659
+14,782
+
+labour
+ 0.043
+(0.026)
+ 0.036**
+(0.015)
+
+4,650
+14,652
+
+Notes. *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. The unit of observation is a household in survey
+wave t, and the sample covers all eligible couple headed households in 503 villages. The number of
+households refers to the number observed in the ﬁrst wave of data used, wave 2 (March 1998). In column (1),
+‘small’ livestock includes chickens, rabbits, pigs and goats. In column (2), ‘large’ livestock includes donkeys,
+horses, cows and oxen. This division of livestock is based on physical size. Prices for livestock are taken from
+wave 2 (March 1998) at the village level, replacing missing values with municipality averages. The dependent
+variable in column (3) is the share of children aged 11–16 that are resident and enrolled in secondary
+schooling. The dependent variable in column (4) is the share of children aged 11 to 16 that households
+report as having worked in the week prior to the survey. The sample covers investment/child labour data
+from waves 2 (March 1998), 4 (May 1999) and 5 (November 1999). OLS regression estimates are presented,
+where standard errors are clustered by village. Connected households are those that have at least one family
+member living and heading their own separate household in the same village. In all speciﬁcations we include
+the following controls (as measured at baseline): age of the household head, bins for household size by age
+brackets (0–7, 8–14, 15–19, more than 19), the standardised household wealth index, the village
+marginalisation index and region dummies. In columns (3) and (4), we also control for the household’s
+primary school enrolment rate at baseline. As the sample includes only eligible households and take-up is
+close to 100%, the reported coefﬁcients correspond to average treatment effects (ATE).
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2639
+
+corresponds to around 4.6 months worth of transfers the median isolated household
+would have received up until then. By considering investment outcomes, we are able to
+explain the otherwise puzzling weak consumption response of eligible isolated
+households to resource inﬂows documented in Table 2. More precisely,
+these
+investment responses to Progresa by isolated households are consistent with the lack
+of a statistically signiﬁcant consumption responses documented in Table 2: isolated
+eligible households use their transfers to buy large livestock, since, presumably, it is
+difﬁcult for them to ﬁnance such investments through loans (recall that less than 3%
+of all households report having outstanding loans at baseline).
+
+Moreover, such investments likely generate earnings streams from the sales of
+livestock produce that are less correlated with other income streams.27 Of course, if
+negative resource changes have symmetric effects on isolated households, then these
+ﬁndings link to Rosenzweig and Wolpin (1993), who ﬁrst identiﬁed that larger draft
+animals are sold off by households in economic distress, and validates the theoretical
+concern raised by Chetty and Looney (2006) that the ability of households to smooth
+consumption does not imply there are zero welfare costs of income risk.28,29
+
+Column (3) repeats the analysis for investment into secondary schooling. We ﬁnd a
+starkly different pattern of responses from those into livestock, that indeed more
+closely resembles the ATE impacts for food consumption:
+
+(i) isolated households that experience a resource inﬂow have no signiﬁcant
+change in their secondary school enrolments relative to isolated households in
+control villages;
+
+(ii) connected households signiﬁcantly increase their schooling investment by
+7.5pp relative to counterfactual connected households in control villages
+(corresponding to a 12% increase over the baseline level); and
+
+(iii) the difference in these impacts is signiﬁcant at the 1% level despite both
+isolated and connected households receiving resource inﬂows of similar
+amounts and having the same levels of secondary school enrolment at baseline
+(Table 1).
+
+Given the value of Progresa transfers is insufﬁcient to cover the full opportunity cost of
+secondary schooling, such non-collateralisable investments can only be undertaken by
+
+27 In support of this, we note that 50% of heads of isolated households report being a daily wage labourer
+as their main occupation pre-programme. Such workers face the highest income earnings volatility relative to
+other occupations in agrarian economies, with earnings generated from livestock produce considered to be
+among the least volatile (Townsend, 1994; Bandiera et al., 2017). Hence there would be a desire among these
+households to diversify income streams towards those arising from livestock.
+
+28 The important issue raised by Chetty and Looney (2006) is that if households are highly risk averse then
+consumption smoothing might be achieved through behaviours that reduce household’s long run welfare,
+such as taking children out of school or selling productive assets. Hence, focusing exclusively on how
+consumption responds to idiosyncratic income shocks is insufﬁcient to fully characterise the welfare costs of
+income risk. Rosenzweig and Wolpin (1993) long provided evidence of precisely this type of interlinkage for
+rural Indian households: they show when farm proﬁt realisations are low, such households are forced to sell
+off bullocks to smooth consumption.
+
+29 To check for suggestive evidence that isolated households indeed have higher consumption variability
+that connected households and so might be more vulnerable to shocks, we regress the longitudinal standard
+deviation of log (consumption) of a household, constructed over all waves of data, on a dummy for whether
+the households is connected and isolated households. Doing so we ﬁnd the coefﬁcient on being connected is
+ 0.013 with a standard error of 0.004.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2640
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+connected households rather than isolated households because they are engaged in
+resource pooling arrangements with extended family members. This build on the
+evidence presented in Angelucci et al. (2010) that ﬁrst highlighted a potential for
+resource transfers within family networks to ﬁnance schooling investments. These
+ﬁndings also neatly complement
+those of Rosenzweig and Wolpin (1993) and
+Fafchamps and Pender (1997) that both document in the context of India, how rural
+households are observed investing into cattle but not in higher return but non-
+collateralisable and lumpy investments in irrigation.
+
+To probe further whether the impacts on human capital
+
+investments reﬂect
+relaxed credit constraints, column (4) considers household responses in terms of
+child labour: the share of children aged 11–16 that households report as having
+worked in the week prior to the survey. This result matches with the earlier ﬁnding
+for schooling:
+
+(i) there is no reduction in child labour among eligible isolated households in
+
+response to resource inﬂows; and
+
+(ii) eligible connected households signiﬁcantly reduce the incidence of child
+
+labour by 3.6pp relative to counterfactual households in control villages.
+
+Taking the schooling and child labour results together suggests when connected
+households have more resources, they prefer to reallocate their children away from
+work (and thus choose to give up some income) and towards investing in their
+childrens’ human capital.30
+
+4.2. Indirect Effects on Ineligibles
+
+= I) and estimates ITEs from (3). These
+Table 5 considers the sample of ineligibles (Dh
+estimates measure the indirect effect of Progresa on ineligibles’ investment and are
+again identiﬁed exploiting only the random assignment of villages to treatment and
+control. Columns (1) and (2) show that for collateralisable investments into livestock:
+
+(i) neither ineligible isolated nor ineligible connected households have any
+signiﬁcant change in the value of owned livestock relative to counterfactual
+households in control villages; and
+
+(ii) this is the case for both small and large animal types of livestock.
+
+This lack of spillover effect to ineligibles suggest the large injection of resources that
+Progresa provides at the village level does not alter the marginal net beneﬁt of making
+such livestock investments and so these are independent of household, network or
+aggregate resources.
+
+Repeating the analysis among ineligibles for schooling investment in columns (3)
+
+and (4):
+
+30 Of course, investments into livestock and human capital differ on other dimensions beyond those
+related to credit constraints. For example, if schooling is considered a more risky investment and isolated
+households are more risk averse than connected households, this might also be consistent with the
+documented pattern of responses. However, it would be inconsistent with the evidence in Table 1 that at
+baseline, isolated and connected households have similar levels of investment across all three types of activity.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2641
+
+Table 5
+
+Indirect Treatment Effects on Investment
+
+Livestock ownership (value)
+
+Human capital
+
+ITE [Isolated]
+
+ITE [Connected]
+
+(1) Small
+animals
+
+3.63
+(391)
+ 72.5
+(222)
+
+(2) Large animals
+
+ 443
+(1,257)
+ 43.3
+(902)
+
+Number of households
+Number of observations
+
+3,772
+10,482
+
+2,575
+7,105
+
+(3) Secondary school
+
+enrolment
+ 0.047
+(0.054)
+ 0.015
+(0.032)
+
+863
+2,637
+
+(4) Child labour
+
+0.044
+(0.048)
+ 0.009
+(0.024)
+
+863
+2,616
+
+Notes. *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. The unit of observation is a household in survey
+wave t, and the sample covers all ineligible couple headed households in 503 villages. The number of
+households refers to the number observed in the ﬁrst wave of data used, wave 2 (March 1998). In column (1),
+‘small’ livestock includes chickens, rabbits, pigs and goats. In column (2), ‘large’ livestock includes donkeys,
+horses, cows and oxen. This division of livestock is based on physical size. Prices for livestock are taken from
+wave 2 (March 1998) at the village level, replacing missing values with municipality averages. The dependent
+variable in column (3) is the share of children aged 11–16 that are resident and enrolled in secondary
+schooling. The dependent variable in column (4) is the share of children aged 11–16 that households report
+as having worked in the week prior to the survey. The sample covers investment/child labour data from waves
+2 (March 1998), 4 (May 1999) and 5 (November 1999). OLS regression estimates are presented, where
+standard errors are clustered by village. Connected households are those that have at least one family
+member living and heading their own separate household in the same village. In all speciﬁcations we include
+the following controls (as measured at baseline): age of the household head, bins for household size by age
+brackets (0–7, 8–14, 15–19, more than 19),
+the village
+marginalisation index, and region dummies. In columns (3) and (4) we also control for the household’s
+primary school enrolment rate at baseline. As the sample includes only ineligible households, the reported
+coefﬁcients correspond to indirect treatment effects (ITE).
+
+the standardised household wealth index,
+
+(i) we continue to ﬁnd no evidence of general equilibrium effects through the
+
+null response of isolated households;
+
+(ii) we also ﬁnd muted investment responses among connected ineligibles.
+
+Hence, if family networks share resources, they do so in a way that allows poorer
+network members, and hence eligible for Progresa, to increase non-collateralisable
+investments into human capital. Resource transfers that ﬂow from eligibles to
+ineligibles within the network are largely spent on food consumption, as shown in
+Table 2. It is rational for schooling investments of poorer networks members to
+increase, rather than among less poor (ineligible) members: if the former do so, they
+increase the value of conditional cash transfers received, while this is not the case if
+ineligibles increase their schooling investment.31
+
+31 Positive spillover effects on school enrolment of ineligibles have been documented in some other
+studies (Bobonis and Finan, 2009; Lalive and Cattaneo, 2009), although others have found no such spillovers
+(Schultz, 2004; Behrman et al., 2005). These differences might stem from alternative methodologies: Bobonis
+and Finan (2009) and Lalive and Cattaneo (2009) match children over waves and consider changes in
+individual enrolment status. Lalive and Cattaneo (2009) document programme effects between October
+1997 and November 1998, and consider enrolment for both primary school aged children and those
+transiting to secondary school. Bobonis and Finan (2009) document the spillovers to be larger among the
+poorest ineligibles. Our results indicate that on average, extended families do not strongly inﬂuence such
+spillovers in secondary enrolment.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2642
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Finally, column (4) investigates the incidence of child labour among ineligibles: we
+ﬁnd no signiﬁcant difference in child labour between treatment and control villages of
+either isolated or connected households. This ﬁnding suggests the programme does
+not have spillover effects through labor markets. The close to zero impact among
+¼  0:009) suggests their children do not
+connected and ineligible households (
+substitute for the reduction in child labour among eligible households in their family
+network documented earlier.
+
+bbI
+
+3
+
+Considering together the ATE and ITE estimates on schooling are informative of
+changes in inequality in human capital
+investments within family networks in
+response to resource inﬂows. At baseline, eligible and ineligible connected
+households have similar levels of secondary school enrolment, 64%. Hence the
+resource increase that eligibles experience allows them to overtake the investments
+made into human capital by less poor ineligibles in their family network. This is in
+contrast to the earlier result for consumption inequality within family networks, that
+was unchanged in response to signiﬁcant resource injections into networks due to
+Progresa.
+
+4.3. Network Effects
+
+To complete the investment analysis, we estimate (5) focusing on the family network as
+the relevant unit. Table 6 presents the results for networks with at least one eligible
+household in them. On collateralisable investments, column (1) reafﬁrms there is no
+signiﬁcant increase in the value of small animal investments as a result of the network
+experiencing a positive injection of resources. Column (2) shows a similar pattern of
+null responses at the network level on the value of larger forms of livestock (recall the
+earlier positive ATE results on large animals in Table 4 were driven by isolated
+households who are not included in these NATE estimates).
+
+Column (3) focuses on schooling investments and here we see relative to
+counterfactual networks in control villages: for the average network member, secondary
+school enrolment rates increase by 6.0pp. In short, resource pooling arrangements
+among family networks can overcome credit constraints into non-collateralisable
+investments only if the network as a whole experiences a sufﬁciently large resource
+increase. Column (4) considers the impact of resource inﬂows to child labour in family
+networks as a whole and shows the reduction in the incidence of child labor of 6.1pp is
+close to equal and opposite the magnitude of the increase in schooling (6.0pp).
+
+Finally, Figure 3(b) exploits information on network architectures to see how the
+investment responses vary with the architecture of the family network. We see an
+intriguing pattern of responses to be considered in conjunction with the network
+responses for consumption shown in Figure 3(a):
+
+(i) there are signiﬁcant impacts on school enrolment for networks above and
+below the three statistics considered: the size of the network, its diameter, and
+its group closeness centrality; and
+
+(ii) however in each case, within treatment villages,
+
+the response of
+
+those
+
+networks above the median is smaller than those below the median.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2643
+
+Table 6
+
+Treatment Effects on Network Level Investment
+
+Livestock ownership
+
+(value)
+
+Human capital
+
+(1) Small
+animals
+
+(2) Large
+animals
+
+(3) Secondary school
+
+enrolment
+
+NATE [connected]
+
+Number of extended family networks
+Number of observations
+
+226
+(163)
+1,598
+4,382
+
+528
+(476)
+1,072
+2,965
+
+0.060***
+(0.019)
+
+1,442
+3,683
+
+(4) Child
+
+labour
+ 0.061***
+(0.019)
+
+1,431
+3,669
+
+Notes. *** denotes signiﬁcance at 1%, ** at 5%, and * at 10%. The unit of observation is an extended family
+network in survey wave t, and the sample covers all networks with at least one eligible household in 503
+villages. The number of extended family networks refers to the number observed in the ﬁrst wave of data
+used, wave 2 (March 1998). In column (1), ‘small’ livestock includes chickens, rabbits, pigs and goats. In
+column (2), ‘large’ livestock includes donkeys, horses, cows and oxen. This division of livestock is based on
+physical size. The dependent variable in column (3) is the share of children aged 11–16 that are resident and
+enrolled in secondary schooling. The dependent variable in column 4 is the share of children aged 11–16
+that households report as having worked in the week prior to the survey. All outcomes are averaged at the
+family network level. The sample covers investment/child labour data from waves 2 (March 1998), 4 (May
+1999) and 5 (November 1999). OLS regression estimates are presented, where standard errors are clustered
+by village. Connected households are those that have at least one family member living and heading their
+own separate household in the same village. In all speciﬁcations, we include the following controls averaged
+at the network level (as measured at baseline): age of the household head, household size by age brackets (0–
+7, 8–14, 15–19, more than 19), the standardised household wealth index, village marginalisation index, and
+region dummies. In columns (3) and (4), we also control for the household’s primary school enrolment rate
+at baseline.
+
+Viewed alongside Figure 3(a), this illustrates the interlinkage between consump-
+tion and investment choices for family networks subject to resource inﬂows.
+Larger and more dense networks that appear to have the greatest consumption
+response among their members are also those with marginally smaller investment
+responses.
+
+5. Consumption and Investment in the Longer Term
+
+We have documented how resource pooling in family networks allows for the relaxation
+of credit constraints for non-collateralisable investments such as those into the human
+capital. As the returns to such investments are realised, this has long-term impacts on
+consumption for connected households relative to isolated households. To assess these
+longer term gains, we exploit the ﬁnal wave of household panel data collected in
+November 2003, ﬁve years after the ﬁrst Progresa transfers were made in treated villages.
+From late 1999 onwards, the experimental evaluation ended and the programme was
+rolled out over all control villages. Hence when using this longer window of analysis into
+the post-evaluation period, it is useful to deﬁne a dummy Π
+= 1 if village v was originally
+randomly assigned to receive Progresa in 1998, and Π
+= 0 otherwise. We then estimate the
+v
+following speciﬁcation for household h in village v:
+
+v
+
+Dyhv ¼ j0 þ j1Nh þ j2Pv þ j3ðPv  NhÞ þ j0
+
+Xhv0þehv;
+
+(7)
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons LicenseT H E E C O N O M I C J O U R N A L
+
+2644
+[ N O V E M B E R
+where Dyhv is the change in consumption/investment outcome from March 1998 and
+November 2003, Nh is a dummy for whether household h is connected or not, and Xhv0
+includes the same set of characteristics as before. We continue to cluster standard
+errors by village. The coefﬁcient of interest, j3, measures the difference-in-difference
+in outcomes between connected and isolated households (irrespective of their original
+eligibility status), from having been treated for the full ﬁve years relative to the short
+run effects documented earlier. Table 7 presents the results from tracking 14,000
+households over this ﬁve year period.
+
+On consumption, column (1) shows that households embedded within family
+networks have monthly food expenditures that are 19.8 pesos higher than for isolated
+households: recall that at baseline, there were no signiﬁcant differences in food
+expenditures between connected and isolated households. This impact corresponds to
+a 14% increase in adult equivalent food expenditures over baseline levels. It is plausible
+that this reﬂects the returns to human capital investments being realised within the
+ﬁve-year window given secondary schooling lasts three years in this setting, and the
+perceived and actual returns to secondary schooling are substantial (Attanasio and
+Kaufmann, 2014). As Progresa transfers have the largest marginal impact in shifting
+children into secondary schooling then there could well be large productivity impacts
+because of the programme, that feed into this magnitude of higher household
+resources in the longer term.
+
+The remaining columns examine if investment outcomes differ in the longer term
+between connected and isolated households. Columns (2)–(6) show no differential
+impact on livestock investments between isolated and connected households, for
+neither small nor large animals. This suggests:
+
+(i) the credit market for small livestock is well functioning; and
+(ii) any gains to isolated households in being able to invest more into larger
+animals seem to be short lived: perhaps because such assets are liquidated
+when they later face a negative resource shock, as documented for rural
+Indian households by Rosenzweig and Wolpin (1993).
+
+Column (6) examines non-collateralisable schooling investments: we see a signiﬁ-
+cant differential
+impact between connected and isolated households: as Table 1
+showed, at baseline these households had secondary school enrolment rates of 65%
+and 66% respectively. These longer term results show that this gap grows by 6.4pp,
+corresponding to just under 10% of the baseline levels, ﬁve years after households
+and their network members begin experiencing exogenously timed resource inﬂows.
+Two points are of note. First, the result suggests that connected households do not
+reverse decisions to invest in their childrens’ human capital over this ﬁve year time
+frame. Second, within-village inequality in investments in the human capital of
+secondary school-aged children increases because of resource pooling within family
+networks.
+
+We note that these longer term differentials also vary with the intensity with which
+households experience positive resource shocks from Progresa. Consider the simple
+division of households between those above and below the median number of children
+aged 0–14 in the household at baseline: those households eligible with more children
+should receive greater valued transfers all else equal. In line with this we ﬁnd the
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2645
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+d
+n
+o
+c
+e
+S
+
+)
+6
+(
+
+e
+g
+r
+a
+l
+
+f
+o
+
+e
+u
+l
+a
+V
+
+)
+5
+(
+
+f
+o
+
+i
+
+p
+h
+s
+r
+e
+n
+w
+O
+)
+4
+(
+
+l
+l
+a
+m
+
+s
+
+f
+o
+
+e
+u
+l
+a
+V
+
+)
+3
+(
+
+f
+o
+
+i
+
+p
+h
+s
+r
+e
+n
+w
+O
+)
+2
+(
+
+d
+o
+o
+f
+
+y
+l
+h
+t
+n
+o
+M
+
+)
+1
+(
+
+7
+
+e
+l
+
+b
+a
+T
+
+m
+
+r
+e
+T
+
+r
+e
+g
+n
+o
+L
+
+e
+h
+t
+
+n
+
+i
+
+t
+
+n
+e
+m
+
+t
+s
+e
+v
+n
+I
+
+d
+n
+a
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+C
+
+© 2017 Royal Economic Society.
+
+*
+*
+4
+6
+0
+.
+0
+
+)
+1
+3
+0
+.
+0
+(
+
+t
+n
+e
+m
+o
+r
+n
+e
+
+l
+
+9
+1
+7
+,
+7
+
+9
+3
+6
+,
+5
+1
+
+8
+.
+3
+1
+ 
+
+d
+e
+n
+w
+o
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+)
+9
+9
+5
+(
+
+1
+8
+7
+,
+9
+
+4
+2
+8
+,
+9
+1
+
+1
+3
+0
+
+.
+
+0
+
+)
+4
+2
+0
+0
+(
+
+.
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+l
+
+0
+4
+4
+4
+1
+
+,
+
+0
+1
+4
+6
+2
+
+,
+
+.
+
+3
+7
+2
+ 
+
+d
+e
+n
+w
+o
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+3
+0
+0
+
+.
+
+0
+ 
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+
+)
+1
+1
+1
+(
+
+1
+6
+7
+
+,
+
+3
+1
+
+1
+1
+6
+
+,
+
+5
+2
+
+)
+7
+2
+0
+0
+(
+
+.
+
+7
+3
+4
+4
+1
+
+,
+
+2
+0
+4
+6
+2
+
+,
+
+s
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+*
+*
+8
+9
+1
+
+.
+
+)
+1
+3
+8
+(
+
+.
+
+]
+d
+e
+t
+a
+l
+o
+s
+i
+
+l
+a
+i
+t
+n
+e
+r
+e
+ 
+f
+f
+i
+d
+d
+e
+m
+t
+c
+r
+e
+e
+n
+t
+n
+o
+c
+[
+
+r
+e
+g
+n
+o
+L
+
+0
+4
+4
+4
+1
+
+,
+
+2
+7
+4
+6
+2
+
+,
+
+s
+n
+o
+i
+t
+a
+v
+r
+e
+s
+b
+o
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+f
+o
+
+f
+o
+
+r
+e
+b
+m
+u
+N
+
+r
+e
+b
+m
+u
+N
+
+d
+n
+a
+
+,
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+m
+a
+s
+
+i
+
+e
+h
+t
+n
+h
+t
+i
+w
+e
+l
+
+b
+a
+i
+r
+a
+v
+
+e
+m
+o
+c
+t
+u
+o
+
+e
+h
+t
+n
+
+i
+
+e
+c
+n
+e
+r
+e
+f
+f
+i
+d
+g
+n
+o
+
+l
+
+a
+
+s
+i
+
+n
+o
+
+i
+t
+a
+v
+r
+e
+s
+b
+o
+
+f
+o
+t
+i
+n
+u
+e
+h
+T
+
+.
+
+%
+0
+1
+
+t
+a
+
+*
+d
+n
+a
+
+,
+
+%
+5
+
+t
+a
+
+*
+*
+
+,
+
+%
+1
+
+t
+a
+
+e
+c
+n
+a
+c
+ﬁ
+n
+g
+i
+s
+
+i
+
+s
+e
+t
+o
+n
+e
+d
+*
+*
+*
+
+.
+s
+e
+t
+o
+N
+
+.
+)
+s
+o
+s
+e
+p
+n
+i
+(
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+d
+o
+o
+f
+
+y
+l
+h
+t
+n
+o
+m
+
+t
+n
+e
+l
+a
+v
+i
+u
+q
+e
+t
+l
+u
+d
+a
+e
+h
+t
+
+s
+i
+
+)
+1
+(
+n
+m
+u
+o
+c
+n
+
+l
+
+i
+e
+l
+b
+a
+i
+r
+a
+v
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+e
+h
+T
+
+.
+s
+e
+g
+a
+l
+l
+i
+v
+3
+0
+5
+n
+
+i
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+d
+e
+d
+a
+e
+h
+e
+l
+p
+u
+o
+c
+
+l
+l
+a
+
+s
+r
+e
+v
+o
+c
+e
+l
+p
+m
+a
+s
+e
+h
+t
+
+.
+e
+z
+i
+s
+
+l
+a
+c
+i
+s
+y
+h
+p
+n
+o
+d
+e
+s
+a
+b
+s
+i
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+f
+o
+n
+o
+i
+s
+i
+v
+i
+d
+s
+i
+h
+T
+
+.
+
+n
+e
+x
+o
+d
+n
+a
+
+s
+w
+o
+c
+
+,
+s
+e
+s
+r
+o
+h
+
+,
+s
+y
+e
+k
+n
+o
+d
+s
+e
+d
+u
+l
+c
+n
+
+i
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+L
+
+.
+s
+t
+a
+o
+g
+d
+n
+a
+
+s
+g
+i
+p
+
+,
+s
+t
+i
+b
+b
+a
+r
+
+,
+s
+n
+e
+k
+c
+i
+h
+c
+
+s
+e
+d
+u
+l
+c
+n
+
+i
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+S
+
+–
+
+l
+l
+a
+m
+
+s
+
+f
+o
+
+e
+u
+l
+a
+v
+
+e
+h
+t
+
+s
+i
+
+)
+5
+(
+
+3
+
+n
+m
+u
+o
+c
+
+l
+
+n
+
+i
+
+e
+l
+b
+a
+i
+r
+a
+v
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+
+e
+h
+T
+
+.
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+)
+e
+g
+r
+a
+l
+(
+
+l
+l
+a
+m
+
+s
+
+f
+o
+
+i
+
+p
+h
+s
+r
+e
+n
+w
+o
+
+e
+h
+t
+
+r
+o
+f
+
+y
+
+m
+m
+u
+d
+
+a
+
+s
+i
+
+)
+4
+(
+
+2
+
+n
+m
+u
+o
+c
+
+l
+
+n
+
+i
+
+e
+l
+b
+a
+i
+r
+a
+v
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+
+e
+h
+T
+
+e
+h
+T
+
+.
+g
+n
+
+i
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+d
+n
+o
+c
+e
+s
+
+n
+
+i
+
+d
+e
+l
+l
+
+o
+r
+n
+e
+
+d
+n
+a
+
+t
+n
+e
+d
+i
+s
+e
+r
+
+e
+r
+a
+
+t
+a
+h
+t
+
+6
+1
+
+1
+1
+
+d
+e
+g
+a
+
+n
+e
+r
+d
+
+l
+i
+
+h
+c
+
+f
+o
+
+e
+r
+a
+h
+s
+
+e
+h
+t
+
+s
+i
+
+)
+6
+(
+
+n
+m
+u
+o
+c
+
+l
+
+n
+
+i
+
+e
+l
+b
+a
+i
+r
+a
+v
+
+t
+n
+e
+d
+n
+e
+p
+e
+d
+
+e
+h
+T
+
+.
+
+d
+e
+n
+w
+o
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+)
+e
+g
+r
+a
+l
+(
+
+,
+9
+1
+
+–
+
+5
+1
+
+,
+4
+1
+
+–
+
+8
+
+,
+7
+
+–
+
+s
+r
+o
+r
+r
+e
+d
+r
+a
+d
+n
+a
+t
+s
+e
+r
+e
+h
+w
+
+,
+
+d
+e
+t
+n
+e
+s
+e
+r
+p
+e
+r
+a
+s
+e
+t
+a
+m
+
+i
+t
+s
+e
+n
+o
+i
+s
+s
+e
+r
+g
+e
+r
+S
+L
+O
+
+.
+)
+3
+0
+0
+2
+r
+e
+b
+m
+e
+v
+o
+N
+(
+8
+d
+n
+a
+)
+8
+9
+9
+1
+h
+c
+r
+a
+M
+
+(
+2
+s
+e
+v
+a
+w
+m
+o
+r
+f
+a
+t
+a
+d
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+d
+n
+a
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+s
+r
+e
+v
+o
+c
+e
+l
+p
+m
+a
+s
+
+.
+e
+g
+a
+l
+l
+i
+v
+
+e
+m
+a
+s
+
+e
+h
+t
+n
+
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+t
+a
+r
+a
+p
+e
+s
+n
+w
+o
+r
+i
+e
+h
+t
+
+i
+
+g
+n
+d
+a
+e
+h
+d
+n
+a
+
+g
+n
+i
+v
+i
+l
+
+r
+e
+b
+m
+e
+m
+
+y
+l
+i
+
+m
+a
+f
+
+e
+n
+o
+t
+s
+a
+e
+l
+
+t
+a
+
+e
+v
+a
+h
+t
+a
+h
+t
+
+e
+s
+o
+h
+t
+
+e
+r
+a
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+d
+e
+t
+c
+e
+n
+n
+o
+C
+
+.
+e
+g
+a
+l
+l
+i
+v
+
+y
+b
+d
+e
+r
+e
+t
+s
+u
+l
+c
+
+e
+r
+a
+
+l
+a
+n
+i
+g
+i
+r
+o
+n
+a
+
+o
+t
+d
+e
+n
+g
+i
+s
+s
+a
+
+s
+a
+w
+t
+i
+
+r
+e
+h
+t
+e
+h
+w
+
+,
+t
+o
+n
+r
+o
+d
+e
+t
+c
+e
+n
+n
+o
+c
+
+s
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+
+r
+e
+h
+t
+e
+h
+w
+
+:
+)
+e
+n
+
+i
+l
+e
+s
+a
+b
+t
+a
+d
+e
+r
+u
+s
+a
+e
+m
+
+s
+a
+(
+
+s
+l
+
+o
+r
+t
+n
+o
+c
+
+i
+
+g
+n
+w
+o
+
+l
+l
+
+o
+f
+
+e
+h
+t
+
+e
+d
+u
+l
+c
+n
+
+i
+
+e
+w
+s
+n
+o
+i
+t
+a
+c
+ﬁ
+i
+c
+e
+p
+s
+
+l
+l
+a
+n
+I
+
+0
+(
+
+e
+z
+i
+s
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+r
+o
+f
+
+s
+n
+b
+
+i
+
+,
+
+l
+
+d
+a
+e
+h
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+
+f
+o
+
+e
+g
+a
+
+e
+h
+t
+
+e
+d
+u
+l
+c
+n
+
+i
+
+s
+l
+o
+r
+t
+n
+o
+c
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+;
+
+o
+w
+t
+
+e
+h
+t
+n
+e
+e
+w
+t
+e
+b
+n
+o
+i
+t
+c
+a
+r
+e
+t
+n
+
+i
+
+e
+h
+t
+
+d
+n
+a
+
+,
+t
+o
+n
+r
+o
+
+e
+g
+a
+l
+l
+i
+v
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+l
+
+,
+r
+e
+d
+o
+r
+o
+8
+1
+
+s
+r
+e
+b
+m
+e
+m
+
+r
+o
+f
+
+e
+n
+o
+s
+i
+
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+r
+o
+f
+d
+e
+s
+u
+e
+l
+a
+c
+s
+
+e
+c
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+t
+l
+u
+d
+a
+
+e
+h
+T
+
+.
+s
+e
+i
+m
+m
+u
+d
+n
+o
+
+i
+g
+e
+r
+d
+n
+a
+
+,
+
+x
+e
+d
+n
+
+i
+
+l
+
+h
+t
+l
+a
+e
+w
+d
+o
+h
+e
+s
+u
+o
+h
+d
+e
+s
+i
+d
+r
+a
+d
+n
+a
+t
+s
+
+e
+h
+t
+
+,
+)
+9
+1
+n
+a
+h
+t
+
+e
+r
+o
+m
+
+e
+h
+t
+
+e
+s
+u
+
+e
+W
+
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+
+t
+a
+
+.
+s
+o
+s
+e
+p
+
+)
+8
+9
+9
+1
+h
+c
+=
+r
+a
+
+M
+(
+
+0
+1
+
+1
+$
+S
+U
+
+2
+
+e
+v
+a
+w
+m
+o
+r
+f
+n
+e
+k
+a
+t
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+r
+o
+f
+
+s
+e
+c
+i
+r
+P
+
+.
+s
+e
+c
+i
+r
+p
+)
+8
+9
+9
+1
+h
+c
+r
+a
+M
+
+(
+
+2
+
+e
+v
+a
+w
+e
+s
+u
+e
+w
+
+,
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+d
+o
+o
+f
+
+r
+o
+F
+
+.
+e
+s
+i
+w
+r
+e
+h
+t
+o
+
+3
+7
+.
+0
+d
+n
+a
+
+,
+8
+9
+9
+1
+
+h
+c
+r
+a
+M
+n
+I
+
+.
+)
+3
+0
+0
+2
+
+n
+
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+u
+l
+a
+v
+
+o
+t
+
+d
+e
+s
+u
+
+e
+r
+a
+
+s
+e
+c
+i
+r
+p
+
+e
+m
+a
+s
+
+e
+s
+e
+h
+t
+(
+
+s
+e
+g
+a
+r
+e
+v
+a
+
+y
+t
+i
+l
+a
+p
+i
+c
+i
+n
+u
+m
+h
+t
+i
+w
+
+s
+e
+u
+l
+a
+v
+
+g
+n
+i
+s
+s
+i
+
+m
+g
+n
+i
+c
+a
+l
+p
+e
+r
+
+,
+l
+e
+v
+e
+l
+
+.
+s
+
+m
+e
+t
+i
+
+d
+o
+o
+f
+-
+n
+o
+n
+
+r
+o
+f
+
+s
+e
+u
+l
+a
+v
+
+y
+r
+a
+t
+e
+n
+o
+m
+e
+t
+a
+ﬂ
+e
+d
+
+o
+t
+
+s
+e
+i
+r
+e
+s
+
+I
+P
+C
+o
+c
+i
+x
+e
+M
+
+f
+o
+
+k
+n
+a
+B
+
+y
+l
+h
+t
+n
+o
+m
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2646
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+differential impact on food expenditures and secondary school investment of resource
+shocks between connected and isolated households with above the median number of
+children at baseline to be larger: the longer term impact on food consumption is 34
+pesos (corresponding to a 24% increase over baseline levels) and the impact on
+schooling is 9.9pp (around 15% of the baseline level). As in Gertler et al. (2012), we
+ﬁnd that connected households do not converge back to pre-programme poverty levels
+over this horizon. This suggests the interplay between resource inﬂows and resource
+pooling to foster investment within family networks might enable them to escape the
+kinds of poverty trap that have long concerned development economists (Lewis, 1954).
+This is counter to the predictions of the literature highlighting kinship taxes as a key
+motive for within family resource transfers: such taxes lead to productive and allocative
+distortions, and thus can be a root cause of poverty traps.
+
+6. Conclusion
+
+This article studies a novel motive for resource pooling in family networks in village
+economies: to relax credit constraints and facilitate investment, especially those in non-
+collateraliseable assets for which credit market imperfections are most binding. While
+there is an established literature examining risk-sharing motives for resource transfers
+within family networks, as well as motives based on obligations related to kinship taxes,
+our innovation is to examine the consequences of resource sharing on investment
+outcomes. We do so by exploiting the Progresa experimental evaluation data, in which
+extended family networks can be identiﬁed, households are subject to exogenous and
+large resource inﬂows, and detailed responses on consumption and an array of
+investments can be tracked in a panel of households over the long term. Our key
+ﬁndings show consumption and investment responses of households to resource
+inﬂows depend fundamentally on whether or not they are embedded in extended
+family networks. This has implications for consumption outcomes across all network
+members, the nature of assets invested into, and the longer term trajectory out of
+poverty for the network as a whole.
+
+Our contribution is empirical. However, our ﬁndings highlight that there remains
+enormous scope for developing models of decision making within networks, that
+would properly micro-found the conceptual framework discussed. Key modelling
+aspects might be to:
+
+(i) jointly study consumption and investment decision;
+(ii) embed multiple motives for resource pooling into models (rather than
+studying risk insurance, kinship tax, and investment motives separately); and
+
+(iii) consider how network architecture determines outcomes.
+
+The role of policy when households engage in informal resource sharing
+arrangements has been much discussed. As Attanasio and Rios-Rull (2003) make
+precise in the context of risk-sharing motives for resource sharing, policies that
+partially counteract ﬁnancial market imperfections can reduce welfare because if
+households only enter self-enforcing contracts, the amount of risk sharing that can be
+sustained in equilibrium depends on the harshness of the punishment and, therefore,
+the value of autarky. If policies increase the value of autarky relative to the value of
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2647
+
+being in the informal contract, risk sharing decreases, weakening the social fabric of
+village economies.
+
+In our empirical context, if households view the increase in resources Progresa
+provides as being permanent, they have less reason to sustain resource pooling
+agreements with their extended family, all else equal, instead opting for autarky or to
+reformulate such arrangements among a smaller coalition of network members
+(Genicot and Ray, 2003). This does not happen: resource pooling is sustained among
+family networks when their poorest members experience resource inﬂows and these
+gains in consumption and investment within the network persist over the long term
+(and even allow the poorest members of networks to overtake the richer members in
+terms of investments into their childrens’ human capital). This suggests that within
+family networks, the degree of altruism for others is high, or mechanisms to punish or
+ostracise households that renege on their obligations are effective (Ambrus et al.,
+2014).
+
+We close by highlighting two broader implications of our study. The ﬁrst is the link
+between our results and the public ﬁnance literature on targeting: eligible and
+connected households share the transfers Progresa provides with less poor ineligibles.
+This leakage is substantial, with the marginal propensity to consume out of Progresa
+transfers being almost equal between eligible and ineligible households in the same
+family network. Combined with our results on consumption inequality in networks, we
+show that family networks partially undo transfer programmes aimed at assisting the
+if all households were in a family network, transfer-based poverty
+poor. Indeed,
+programmes would have little impact on inequality,
+if Pareto weights remained
+unchanged. This leakage towards ineligibles might be viewed negatively if it partially
+undoes the redistributive objectives of the policy maker, or could be viewed positively if
+households exploit private information to reach resource allocations maximising social
+welfare. Understanding which of these scenarios is more accurate needs to be
+addressed in future work.32
+
+Second, our longer term ﬁndings emphasise a virtuous cycle can be kick-started
+when a family network as a whole receives a sufﬁciently large injection of resources: we
+document how this allows poorer members of
+in non-
+collateralisable assets, that then has feedback effects on longer term consumption as
+the returns to such investments are realised. This bridges to long-standing ‘big push’
+theories of development, and an emerging set of evaluations highlighting that large-
+scale asset transfer programmes can place households on trajectories out of poverty in
+the long term (Bandiera et al., 2017; Banerjee et al., 2016). This all underlines the
+importance for future impact evaluations to trace and use of resource injections (be
+they in the form of assets, conditional cash transfers, or in some other metric), among
+family networks in village economies.
+
+the network to invest
+
+32 Alatas et al. (2016) show that using private information of social networks in village economies leads to a
+different set of households being identiﬁed by communities as being the most needy, compared to other
+common targeting methods.
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2648
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+s
+e
+v
+a
+w
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+n
+o
+N
+
+-
+
+s
+e
+v
+a
+w
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+E
+
+1
+A
+
+e
+l
+
+b
+a
+T
+
+a
+t
+a
+D
+
+n
+o
+i
+t
+a
+u
+l
+a
+v
+E
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+f
+o
+
+e
+v
+a
+W
+
+y
+b
+
+y
+t
+i
+l
+i
+b
+a
+l
+i
+a
+v
+A
+
+a
+t
+a
+D
+
+d
+n
+a
+
+s
+n
+o
+i
+t
+i
+
+n
+ﬁ
+e
+D
+
+e
+l
+b
+a
+i
+r
+a
+V
+
+y
+e
+K
+
+.
+
+A
+
+x
+i
+d
+n
+e
+p
+p
+A
+
+8
+
+e
+v
+a
+W
+
+r
+e
+b
+m
+e
+v
+o
+N
+
+3
+0
+0
+2
+
+7
+
+e
+v
+a
+W
+
+r
+e
+b
+m
+e
+v
+o
+N
+
+0
+0
+0
+2
+
+6
+
+y
+a
+M
+
+0
+0
+0
+2
+
+e
+v
+a
+W
+
+5
+
+e
+v
+a
+W
+
+r
+e
+b
+m
+e
+v
+o
+N
+
+9
+9
+9
+1
+
+4
+
+y
+a
+M
+
+9
+9
+9
+1
+
+e
+v
+a
+W
+
+3
+
+e
+v
+a
+W
+
+r
+e
+b
+m
+e
+v
+o
+N
+
+8
+9
+9
+1
+
+2
+
+e
+v
+a
+W
+
+h
+c
+r
+a
+M
+
+8
+9
+9
+1
+
+1
+
+e
+v
+a
+W
+
+r
+e
+b
+o
+t
+c
+O
+
+7
+9
+9
+1
+
+n
+o
+i
+t
+p
+i
+r
+c
+s
+e
+D
+
+e
+l
+
+b
+a
+i
+r
+a
+V
+
+o
+N
+
+X
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+X
+
+o
+N
+
+X
+
+X
+
+o
+N
+
+X
+
+X
+
+X
+
+X
+
+X
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+X
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+X
+
+X
+
+X
+
+X
+
+X
+
+o
+N
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+s
+e
+Y
+
+o
+N
+
+o
+N
+
+X
+
+X
+
+X
+
+n
+e
+x
+o
+
+,
+s
+y
+e
+k
+n
+o
+d
+
+,
+s
+e
+s
+r
+o
+h
+
+,
+s
+t
+i
+
+b
+b
+a
+r
+
+,
+y
+r
+t
+l
+u
+o
+p
+
+f
+o
+
+)
+e
+u
+l
+a
+v
+
+d
+n
+a
+(
+
+i
+
+p
+h
+s
+r
+e
+n
+w
+O
+
+,
+s
+g
+i
+p
+
+,
+s
+t
+a
+o
+g
+
+s
+w
+o
+c
+
+d
+n
+a
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+e
+h
+t
+
+n
+
+i
+
+s
+d
+o
+
+l
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+m
+
+i
+r
+p
+
+n
+
+i
+
+r
+a
+e
+y
+
+d
+e
+l
+l
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+e
+h
+t
+
+n
+
+i
+
+s
+d
+o
+
+l
+
+r
+a
+e
+y
+
+6
+1
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+d
+n
+o
+c
+e
+s
+
+n
+
+i
+
+d
+e
+l
+l
+
+o
+r
+n
+e
+
+o
+r
+n
+e
+
+1
+1
+
+–
+
+6
+
+–
+
+1
+1
+
+f
+o
+
+e
+r
+a
+
+f
+o
+
+e
+r
+a
+
+e
+r
+a
+h
+S
+
+t
+a
+h
+t
+
+e
+r
+a
+h
+S
+
+t
+a
+h
+t
+
+n
+o
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+l
+l
+a
+c
+e
+r
+
+s
+y
+a
+d
+
+s
+
+m
+e
+t
+i
+
+n
+e
+v
+e
+s
+
+6
+3
+
+f
+o
+
+m
+o
+r
+F
+
+s
+d
+r
+o
+c
+e
+r
+
+i
+
+e
+v
+i
+t
+a
+r
+t
+s
+i
+n
+m
+d
+a
+m
+o
+r
+F
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+:
+)
+a
+(
+
+r
+e
+f
+s
+n
+a
+r
+t
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+l
+a
+u
+t
+c
+A
+
+l
+e
+n
+a
+P
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+d
+o
+o
+f
+
+y
+l
+h
+t
+n
+o
+M
+
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+:
+)
+b
+(
+
+l
+e
+n
+a
+P
+
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+:
+)
+c
+(
+
+l
+e
+n
+a
+P
+
+k
+c
+o
+t
+s
+e
+v
+i
+L
+
+e
+t
+a
+r
+
+t
+n
+e
+m
+o
+r
+n
+e
+
+l
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+d
+n
+o
+c
+e
+S
+
+l
+
+o
+o
+h
+c
+s
+
+y
+r
+a
+m
+
+i
+r
+P
+
+e
+t
+a
+r
+
+t
+n
+e
+m
+o
+r
+n
+e
+
+l
+
+© 2017 Royal Economic Society.
+
+–
+
+,
+e
+v
+a
+w
+a
+t
+a
+d
+h
+c
+a
+e
+
+o
+t
+
+r
+e
+f
+e
+r
+
+l
+
+s
+n
+m
+u
+o
+C
+e
+h
+T
+
+.
+s
+i
+s
+y
+l
+a
+n
+a
+
+e
+h
+t
+
+r
+o
+f
+
+d
+e
+s
+u
+
+t
+o
+n
+
+t
+u
+b
+
+e
+l
+b
+a
+l
+i
+a
+v
+a
+
+a
+t
+a
+d
+
+=
+X
+
+;
+s
+i
+s
+y
+l
+a
+n
+a
+
+e
+h
+t
+
+r
+o
+f
+
+d
+e
+s
+u
+
+d
+n
+a
+
+e
+l
+
+b
+a
+l
+i
+a
+v
+a
+
+a
+t
+a
+d
+
+=
+
+s
+e
+Y
+
+;
+e
+l
+b
+a
+l
+i
+a
+v
+a
+n
+u
+
+a
+t
+a
+d
+
+=
+
+o
+N
+
+.
+s
+e
+t
+o
+N
+
+l
+
+o
+r
+t
+n
+o
+c
+
+r
+o
+t
+n
+e
+m
+t
+a
+e
+r
+t
+o
+t
+d
+e
+n
+g
+i
+s
+s
+a
+e
+r
+e
+w
+s
+e
+g
+a
+l
+l
+i
+v
+h
+c
+i
+h
+w
+n
+
+i
+
+n
+o
+
+i
+t
+a
+u
+l
+a
+v
+e
+e
+h
+t
+
+f
+o
+t
+r
+a
+p
+
+l
+a
+t
+n
+e
+m
+
+i
+r
+e
+p
+x
+e
+e
+h
+t
+
+r
+e
+v
+o
+c
+9
+9
+9
+1
+r
+e
+b
+m
+e
+v
+o
+N
+o
+t
+7
+9
+9
+1
+r
+e
+b
+o
+t
+c
+O
+m
+o
+r
+f
+
+s
+e
+v
+a
+w
+e
+v
+ﬁ
+t
+s
+r
+ﬁ
+e
+h
+t
+e
+r
+e
+h
+w
+
+f
+o
+
+t
+n
+e
+m
+n
+g
+i
+s
+s
+a
+m
+o
+d
+n
+a
+r
+
+e
+h
+t
+
+s
+t
+i
+
+l
+
+o
+p
+x
+e
+
+t
+a
+h
+t
+
+s
+i
+s
+y
+l
+a
+n
+a
+
+e
+h
+t
+
+f
+o
+
+y
+n
+a
+
+n
+
+i
+
+d
+e
+s
+u
+
+t
+o
+n
+
+e
+r
+a
+
+s
+e
+v
+a
+w
+a
+t
+a
+d
+
+e
+s
+e
+h
+t
+
+o
+s
+
+d
+n
+a
+(
+
+d
+e
+t
+a
+e
+r
+t
+
+o
+s
+l
+a
+
+e
+r
+a
+
+s
+e
+g
+a
+l
+l
+i
+v
+
+l
+
+o
+r
+t
+n
+o
+c
+
+,
+s
+d
+r
+a
+w
+n
+o
+
+6
+
+e
+v
+a
+W
+m
+o
+r
+F
+
+.
+s
+u
+t
+a
+t
+s
+
+m
+o
+r
+f
+
+s
+n
+o
+
+i
+t
+a
+v
+r
+e
+s
+b
+o
+
+e
+d
+u
+l
+c
+x
+e
+
+e
+w
+o
+s
+d
+n
+a
+
+,
+
+3
+
+e
+v
+a
+W
+
+,
+f
+o
+
+e
+m
+
+i
+t
+
+e
+h
+t
+d
+n
+u
+o
+r
+a
+d
+n
+a
+
+,
+
+o
+t
+
+r
+o
+
+i
+r
+p
+t
+s
+u
+
+j
+
+s
+t
+r
+a
+t
+s
+
+e
+m
+m
+a
+r
+g
+o
+r
+p
+a
+s
+e
+r
+g
+o
+r
+P
+
+e
+h
+t
+
+,
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+n
+o
+
+i
+
+g
+n
+d
+n
+e
+p
+e
+D
+
+.
+)
+t
+n
+e
+m
+t
+a
+e
+r
+t
+
+o
+t
+
+s
+e
+g
+a
+l
+l
+i
+v
+
+e
+r
+a
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+y
+b
+
+d
+e
+v
+i
+e
+c
+e
+r
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+n
+o
+
+a
+t
+a
+d
+
+l
+a
+u
+t
+c
+A
+
+.
+a
+t
+a
+d
+
+s
+r
+e
+f
+s
+n
+a
+r
+t
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+o
+t
+
+n
+o
+i
+t
+a
+l
+e
+r
+
+n
+
+i
+
+y
+t
+i
+l
+i
+
+b
+a
+l
+i
+a
+v
+a
+
+a
+t
+a
+d
+
+n
+o
+
+s
+t
+r
+o
+p
+e
+r
+
+)
+a
+(
+
+l
+e
+n
+a
+P
+
+.
+s
+i
+s
+y
+l
+a
+n
+a
+
+n
+i
+a
+m
+
+r
+u
+o
+m
+o
+r
+f
+
+3
+
+e
+v
+a
+W
+
+n
+o
+
+i
+t
+i
+s
+o
+p
+m
+o
+c
+
+r
+e
+d
+n
+e
+g
+d
+n
+a
+
+e
+g
+a
+
+e
+h
+t
+n
+o
+d
+e
+s
+a
+b
+d
+e
+t
+c
+u
+r
+t
+s
+n
+o
+c
+
+s
+i
+
+o
+t
+d
+e
+l
+t
+i
+t
+n
+e
+
+l
+
+e
+b
+d
+u
+o
+c
+d
+o
+h
+e
+s
+u
+o
+h
+a
+
+l
+
+t
+a
+h
+t
+
+r
+e
+f
+s
+n
+a
+r
+t
+
+l
+a
+i
+t
+n
+e
+t
+o
+p
+e
+h
+t
+n
+o
+a
+t
+a
+D
+
+.
+s
+d
+r
+o
+c
+e
+r
+
+i
+
+e
+v
+i
+t
+a
+r
+t
+s
+i
+n
+m
+d
+a
+m
+o
+r
+f
+d
+e
+n
+i
+a
+t
+b
+o
+
+s
+i
+e
+r
+u
+s
+a
+e
+m
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+d
+o
+o
+f
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+
+l
+
+,
+
+5
+
+1
+s
+e
+v
+a
+W
+n
+I
+
+.
+
+n
+o
+
+l
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+d
+o
+h
+e
+s
+u
+o
+h
+o
+t
+n
+o
+i
+t
+a
+l
+e
+r
+n
+
+i
+
+y
+t
+i
+l
+i
+
+b
+a
+l
+i
+a
+v
+a
+
+a
+t
+a
+d
+n
+o
+s
+t
+r
+o
+p
+e
+r
+
+)
+b
+(
+
+l
+e
+n
+a
+P
+
+.
+
+3
+e
+v
+a
+W
+n
+
+i
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+e
+h
+t
+
+f
+o
+
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+
+f
+I
+
+.
+t
+s
+o
+c
+
+s
+t
+i
+
+d
+n
+a
+d
+e
+s
+a
+h
+c
+r
+u
+p
+y
+t
+i
+t
+n
+a
+u
+q
+e
+h
+t
+
+s
+a
+
+l
+l
+e
+w
+s
+a
+
+,
+
+w
+e
+i
+v
+r
+e
+t
+n
+
+i
+
+o
+t
+
+r
+o
+i
+r
+p
+k
+e
+e
+w
+e
+h
+t
+d
+e
+m
+u
+s
+n
+o
+c
+
+y
+t
+i
+t
+n
+a
+u
+q
+e
+h
+t
+
+t
+r
+o
+p
+e
+r
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+
+:
+s
+
+m
+e
+t
+i
+
+d
+o
+o
+f
+
+6
+3
+m
+o
+r
+f
+d
+e
+t
+c
+u
+r
+t
+s
+n
+o
+c
+
+e
+t
+u
+p
+m
+o
+c
+o
+t
+d
+e
+s
+u
+e
+b
+n
+a
+c
+
+l
+
+s
+d
+o
+h
+e
+s
+u
+o
+h
+0
+3
+
+t
+s
+a
+e
+l
+
+t
+a
+
+f
+i
+(
+
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+n
+
+i
+
+d
+e
+t
+r
+o
+p
+e
+r
+
+e
+c
+i
+r
+p
+n
+a
+i
+d
+e
+m
+e
+h
+t
+
+e
+t
+u
+p
+m
+
+i
+
+e
+w
+
+,
+
+d
+e
+d
+r
+o
+c
+e
+r
+
+s
+i
+
+d
+e
+s
+a
+h
+c
+r
+u
+p
+t
+n
+u
+o
+m
+a
+
+e
+h
+t
+
+t
+u
+b
+
+,
+
+g
+n
+i
+s
+s
+i
+
+m
+
+s
+i
+
+m
+e
+t
+i
+
+n
+a
+n
+o
+
+d
+o
+o
+f
+h
+c
+a
+e
+r
+o
+f
+
+l
+
+s
+e
+c
+i
+r
+p
+c
+ﬁ
+i
+c
+e
+p
+s
+-
+d
+o
+h
+e
+s
+u
+o
+h
+e
+v
+a
+h
+e
+w
+e
+c
+n
+O
+
+.
+l
+e
+v
+e
+l
+
+e
+t
+a
+t
+s
+
+r
+o
+y
+t
+i
+l
+a
+p
+i
+c
+i
+n
+u
+m
+e
+h
+t
+
+t
+a
+
+e
+c
+i
+r
+p
+n
+a
+i
+d
+e
+m
+e
+h
+t
+
+e
+t
+u
+p
+m
+
+i
+
+t
+u
+b
+d
+o
+h
+t
+e
+m
+e
+m
+a
+s
+
+e
+h
+t
+
+e
+s
+u
+e
+w
+
+,
+e
+s
+i
+w
+r
+e
+h
+t
+O
+
+.
+)
+e
+c
+i
+r
+p
+e
+h
+t
+
+f
+i
+
+d
+e
+m
+u
+s
+n
+o
+c
+
+f
+o
+e
+u
+l
+a
+v
+
+e
+h
+t
+
+s
+e
+t
+a
+m
+
+i
+t
+s
+e
+r
+e
+d
+n
+u
+t
+a
+h
+t
+
+s
+a
+
+s
+e
+r
+u
+t
+i
+d
+n
+e
+p
+x
+e
+d
+o
+o
+f
+d
+e
+t
+r
+o
+p
+e
+r
+g
+n
+i
+r
+e
+d
+i
+s
+n
+o
+c
+n
+a
+h
+t
+
+r
+e
+h
+t
+a
+r
+
+s
+i
+h
+t
+o
+d
+e
+w
+(
+d
+e
+m
+u
+s
+n
+o
+c
+
+y
+t
+i
+t
+n
+a
+u
+q
+h
+c
+a
+e
+
+y
+b
+m
+e
+h
+t
+
+y
+l
+p
+i
+t
+l
+u
+m
+e
+w
+
+m
+o
+r
+f
+
+s
+e
+c
+i
+r
+p
+
+e
+s
+u
+
+e
+w
+
+,
+e
+r
+u
+s
+a
+e
+m
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+d
+o
+o
+f
+
+e
+h
+t
+
+o
+t
+n
+
+i
+
+s
+e
+s
+n
+o
+p
+s
+e
+r
+
+e
+c
+i
+r
+p
+
+s
+u
+o
+n
+e
+g
+o
+d
+n
+e
+
+g
+n
+i
+t
+a
+r
+o
+p
+r
+o
+c
+n
+
+i
+
+i
+
+d
+o
+v
+a
+
+o
+T
+
+.
+)
+n
+o
+i
+t
+c
+u
+d
+o
+r
+p
+
+e
+m
+o
+h
+f
+o
+
+t
+u
+o
+d
+e
+m
+u
+s
+n
+o
+c
+
+e
+r
+a
+
+s
+
+m
+e
+t
+i
+
+,
+
+m
+e
+t
+i
+
+e
+m
+o
+s
+
+n
+o
+
+e
+w
+
+r
+o
+
+d
+e
+s
+a
+b
+
+s
+i
+
+e
+r
+u
+s
+a
+e
+m
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+
+d
+o
+o
+f
+
+e
+h
+t
+
+,
+s
+d
+r
+a
+w
+n
+o
+
+6
+
+s
+e
+v
+a
+W
+n
+I
+
+i
+
+.
+)
+g
+n
+n
+n
+u
+r
+
+s
+i
+
+e
+m
+m
+a
+r
+g
+o
+r
+p
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+n
+e
+h
+w
+(
+
+s
+e
+v
+a
+w
+r
+e
+t
+a
+l
+
+n
+
+i
+
+s
+e
+c
+i
+r
+p
+
+e
+t
+u
+p
+m
+
+i
+
+o
+t
+
+)
+8
+9
+9
+1
+
+r
+e
+b
+m
+e
+v
+o
+N
+(
+
+3
+
+e
+v
+a
+w
+
+,
+
+n
+o
+
+i
+t
+p
+m
+u
+s
+n
+o
+c
+d
+o
+o
+f
+
+r
+o
+f
+
+s
+t
+n
+e
+l
+a
+v
+i
+u
+q
+e
+t
+l
+u
+d
+a
+e
+t
+u
+p
+m
+o
+c
+o
+T
+
+.
+)
+e
+s
+e
+e
+h
+c
+
+.
+
+k
+l
+i
+
+m
+
+;
+
+g
+g
+e
+;
+f
+e
+e
+b
+
+,
+
+n
+e
+k
+c
+i
+h
+c
+
+.
+
+5
+
+;
+e
+c
+i
+r
+
+;
+
+n
+a
+e
+b
+
+;
+
+n
+r
+o
+c
+
+;
+s
+e
+l
+b
+a
+t
+e
+g
+e
+v
+d
+n
+a
+
+s
+t
+i
+u
+r
+f
+(
+
+s
+e
+i
+r
+o
+g
+e
+t
+a
+c
+d
+o
+o
+f
+e
+t
+a
+g
+e
+r
+g
+g
+a
+n
+e
+v
+e
+s
+
+8
+1
+
+s
+r
+e
+b
+m
+e
+m
+
+r
+o
+f
+
+e
+n
+o
+
+s
+i
+
+n
+o
+
+e
+l
+a
+c
+s
+
+e
+c
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+t
+l
+u
+d
+a
+
+e
+h
+t
+
+,
+s
+i
+h
+t
+
+o
+t
+
+i
+
+g
+n
+d
+r
+o
+c
+c
+A
+
+.
+a
+t
+a
+d
+
+a
+s
+e
+r
+g
+o
+r
+P
+
+e
+m
+a
+s
+
+e
+h
+t
+
+g
+n
+i
+s
+u
+
+)
+4
+0
+0
+2
+(
+
+o
+r
+a
+M
+
+i
+
+D
+y
+b
+
+d
+e
+t
+a
+m
+
+i
+t
+s
+e
+
+e
+l
+a
+c
+s
+
+e
+c
+n
+e
+l
+a
+v
+i
+u
+q
+e
+
+e
+h
+t
+
+e
+s
+u
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+o
+t
+
+n
+o
+i
+t
+a
+l
+e
+r
+
+n
+
+i
+
+y
+t
+i
+l
+i
+
+b
+a
+l
+i
+a
+v
+a
+
+a
+t
+a
+d
+
+n
+o
+
+s
+t
+r
+o
+p
+e
+r
+C
+
+l
+e
+n
+a
+P
+
+.
+s
+e
+u
+l
+a
+v
+
+y
+r
+a
+t
+e
+n
+o
+m
+e
+t
+a
+ﬂ
+e
+d
+
+o
+t
+
+s
+e
+i
+r
+e
+s
+
+I
+P
+C
+o
+c
+i
+x
+e
+M
+
+f
+o
+
+k
+n
+a
+B
+y
+l
+h
+t
+n
+o
+m
+e
+h
+t
+
+e
+s
+u
+
+e
+W
+
+.
+e
+s
+i
+w
+r
+e
+h
+t
+o
+
+3
+7
+.
+0
+
+d
+n
+a
+
+,
+r
+e
+d
+o
+
+l
+
+n
+o
+d
+e
+s
+a
+b
+s
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+f
+o
+n
+o
+i
+s
+i
+v
+i
+d
+s
+i
+h
+T
+
+.
+
+n
+e
+x
+o
+d
+n
+a
+
+s
+w
+o
+c
+
+,
+s
+e
+s
+r
+o
+h
+
+,
+s
+y
+e
+k
+n
+o
+d
+s
+e
+d
+u
+l
+c
+n
+
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+L
+
+.
+s
+t
+a
+o
+g
+d
+n
+a
+
+s
+g
+i
+p
+
+,
+s
+t
+i
+b
+b
+a
+r
+
+,
+s
+n
+e
+k
+c
+i
+h
+c
+
+s
+e
+d
+u
+l
+c
+n
+
+i
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+S
+
+.
+t
+n
+e
+m
+
+t
+s
+e
+v
+n
+
+i
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+e
+g
+r
+a
+l
+
+e
+v
+i
+s
+n
+e
+p
+x
+e
+
+t
+s
+a
+e
+l
+
+e
+h
+t
+d
+n
+a
+
+)
+s
+o
+s
+e
+p
+0
+6
+3
+(
+
+s
+t
+a
+o
+g
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+l
+l
+a
+m
+
+s
+
+e
+v
+i
+s
+n
+e
+p
+x
+e
+
+t
+s
+o
+m
+e
+h
+t
+
+:
+l
+a
+m
+n
+a
+
+i
+
+r
+e
+p
+s
+t
+s
+o
+c
+
+t
+i
+n
+u
+r
+e
+p
+h
+t
+i
+w
+y
+l
+e
+s
+o
+
+l
+c
+
+s
+e
+h
+c
+t
+a
+m
+d
+n
+a
+
+e
+z
+i
+s
+
+l
+a
+c
+i
+s
+y
+h
+p
+
+,
+g
+n
+
+i
+l
+
+o
+o
+h
+c
+s
+n
+O
+
+.
+s
+e
+g
+a
+r
+e
+v
+a
+
+y
+t
+i
+l
+a
+p
+i
+c
+i
+n
+u
+m
+h
+t
+i
+w
+s
+e
+u
+l
+a
+v
+
+g
+n
+i
+s
+s
+i
+
+m
+g
+n
+i
+c
+a
+l
+p
+e
+r
+
+,
+l
+e
+v
+e
+l
+
+e
+g
+a
+l
+l
+i
+v
+
+e
+h
+t
+
+t
+a
+
+)
+8
+9
+9
+1
+h
+c
+r
+a
+M
+
+(
+
+2
+
+e
+v
+a
+w
+m
+o
+r
+f
+n
+e
+k
+a
+t
+
+e
+r
+a
+
+k
+c
+o
+t
+s
+e
+v
+i
+l
+
+r
+o
+f
+
+s
+e
+c
+i
+r
+P
+
+.
+)
+s
+o
+s
+e
+p
+0
+8
+8
+(
+
+s
+y
+e
+k
+n
+o
+d
+
+.
+
+l
+
+d
+o
+h
+e
+s
+u
+o
+h
+
+e
+h
+t
+
+n
+
+i
+
+t
+n
+e
+d
+i
+s
+e
+r
+
+d
+n
+a
+
+)
+6
+1
+
+1
+1
+(
+
+–
+
+0
+1
+
+–
+
+6
+
+d
+e
+g
+a
+
+e
+s
+o
+h
+t
+
+e
+b
+
+o
+t
+
+d
+e
+n
+ﬁ
+e
+d
+
+e
+r
+a
+
+n
+e
+r
+d
+
+l
+i
+
+h
+c
+
+d
+e
+g
+a
+
+l
+
+o
+o
+h
+c
+s
+
+)
+y
+r
+a
+d
+n
+o
+c
+e
+s
+(
+
+y
+r
+a
+m
+
+i
+r
+p
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2649
+
+Michigan University
+GSEM-University of Geneva, ICREA/MOVE, BGSE, and UAB
+UCL
+
+Accepted: 7 March 2017
+
+Additional Supporting Information may be found in the online version of this article:
+
+Data S1.
+
+References
+Alatas, V., Banerjee, A., Chandrasekhar, A., Hanna, R. and Olken, B.(2016). ‘Network structure and the
+aggregation of information: theory and evidence from Indonesia’, American Economic Review, vol. 106(7),
+pp. 1663–704.
+
+Albarran, P. and Attanasio, O.P. (2003). ‘Limited commitment and crowding out of private transfers:
+
+evidence from a randomized experiment’, ECONOMIC JOURNAL, vol. 113(486), pp. C77–85.
+
+Ambrus, A., Mobius, M. and Szeidl, A. (2014). ‘Consumption risk-sharing in social networks’, American
+
+Economic Review vol. 104(1), pp. 149–82.
+
+Angelucci, M. (2015) ‘Migration and ﬁnancial constraints: evidence from Mexico’, Review of Economics and
+
+Statistics, vol. 97(1), pp. 224–8.
+
+Angelucci, M. and De Giorgi, G. (2009). ‘Indirect effects of an aid program: how do liquidity injections affect
+
+ineligibles’ consumption?’, American Economic Review vol. 99(1), pp. 486–508.
+
+Angelucci, M. and De Giorgi, G., Rangel, M. A. and Rasul, I. (2010). ‘Family networks and school enrollment:
+
+evidence from a randomized social experiment’, Journal of Public Economics vol. 94(3–4), pp. 197–221.
+
+Attanasio, O.P. and Kaufmann, K.M. (2014). ‘Education choices and returns to schooling: mothers’ and
+youths’ subjective expectations and their role by gender’, Journal of Development Economics, vol. 109(C),
+pp. 203–16.
+
+Attanasio, O.P. and Lechene, V. (2014). ‘Efﬁcient responses to targeted cash transfers’, Journal of Political
+
+Economy, vol. 122(1), pp. 178–222.
+
+Attanasio, O.P. and Rios-Rull, J-V. (2003).
+
+in (M.
+Dewatripont, L. Hansen and S. Turnovsky, eds.), Advances in Economics and Econometrics: Theory and
+Applications, Eighth World Congress Econometric Society Monographs, pp. 209–242, Cambridge:
+Cambridge University Press.
+
+‘Consumption smoothing and extended families’,
+
+Attanasio, O.P., Meghir, C. and Santiago, A. (2012). ‘Education choices in Mexico: using a structural model
+and a randomized experiment to evaluate PROGRESA’, Review of Economic Studies, vol. 79(1), pp. 37–66.
+Attanasio, O.P., Meghir, C. and Mommaerts, C. (2015) ‘Insurance in extended family networks’, NBER
+
+WP21059.
+
+Baland, J.-M., Guirkinger, C. and Mali, C. (2011). ‘Pretending to be: poor borrowing to escape forced
+
+solidarity in Cameroon’, Economic Development and Cultural Change, vol. 60(1), pp. 1–16.
+
+Baland, J.-M., Bonjean, I., Guirkinger, C. and Ziparo, R. (2015). ‘The economic consequences of mutual help
+
+in extended families’, mimeo, Namur.
+
+Bandiera, O. Burgess, R., Das, N., Gulesci, S., Rasul, I. and Sulaiman, M. (2017). ‘Labor markets and poverty
+
+in village economies’, Quarterly Journal of Economics, vol. 132(2), pp. 811–70.
+
+Banerjee, A.V., Chandrasekhar, A., Duﬂo, E. and Jackson, M. (2014) ‘Exposure to formal loans: changes in
+
+social networks’, mimeo, MIT.
+
+Banerjee, A.V., Duﬂo, E., Chattopadhyay, R. and Shapiro, J. (2016). ‘The long term impacts of a graduation
+
+program: evidence from West Bengal’, mimeo, MIT.
+
+Behrman, J.R., Sengupta, P. and Todd, P. (2005). ‘Progressing through PROGRESA: an impact assessment of
+a school subsidy experiment in rural Mexico’, Economic Development and Cultural Change, vol. 54(1),
+pp. 237–76.
+
+Benjamin, D. (1992). ‘Household composition, labor markets, and labor demand: testing for separation in
+
+agricultural household models’, Econometrica, vol. 60(2), pp. 287–322.
+
+Besley, T.J. (1995). ‘Savings, credit and insurance’, in (H. Chenery and T.N. Srinivasan, eds.), Handbook of
+
+Development Economics, vol. 3(Part A), pp. 2123–2207, Amsterdam: Elsevier.
+
+Bhalla, S.S. (1979). ‘Measurement errors and the permanent income hypothesis: evidence from rural India’,
+
+American Economic Review, vol. 69(3), pp. 295–307.
+
+Bianchi, M. and Bobba, M. (2013). ‘Liquidity, risk, and occupational choices’, Review of Economic Studies,
+
+vol. 80(2), pp. 491–511.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2650
+
+T H E E C O N O M I C J O U R N A L
+
+[ N O V E M B E R
+
+Binzel, C., Field, E. and Pande, R. (2014). ‘Does the arrival of a formal ﬁnancial institution alter informal
+
+sharing arrangements? Evidence from India’, mimeo, Harvard University.
+
+Bobonis, G.J. and Finan, F. (2009). ‘Neighborhood peer effects in secondary school enrollment decisions’,
+
+Review of Economics and Statistics, vol. 91(4), pp. 695–716.
+
+Boltz-Lemmel, M. (2013). ‘How can I say no? Savings and forced solidarity in the extended family: evidence
+
+from Senegal’, mimeo, PSE.
+
+Chandrasekhar, A.G., Kinnan, C. and Larreguy, H. (2014). ‘Social networks as contract enforcement:
+
+evidence from a lab experiment in the ﬁeld’, mimeo, Stanford University.
+
+Chetty, R. and Looney, A. (2006). ‘Consumption smoothing and the welfare consequences of social
+
+insurance in developing economies’, Journal of Public Economics, vol. 90(12), pp. 2351–6.
+
+Clark, G., Cummins, N., Diaz Vidal, D. and Hao, Y. (2014). The Son Also Rises: Surnames and the History of Social
+
+Mobility, Princeton, NJ: Princeton University Press.
+
+Coate, S. and Ravallion, M. (1993). ‘Reciprocity without commitment: characterization and performance of
+
+informal insurance arrangements’, Journal of Development Economics, vol. 40(1), pp. 1–24.
+
+Cochrane, J.H. (1991). ‘A simple test of consumption insurance’, Journal of Political Economy, vol. 99(5),
+
+pp. 957–76.
+
+Conley, T.G. and Udry, C.R. (2010). ‘Learning about a new technology: pineapple in Ghana’, American
+
+Economic Review, vol. 100(1), pp. 35–69.
+
+Cox, D. and Fafchamps, M. (2008). ‘Extended family and kinship networks: economic insights and
+evolutionary directions’, in (T.P. Schultz and J.A. Strauss, eds.), Handbook of Development Economics, vol. 4,
+pp. 3711–3784, Amsterdam: Elsevier.
+
+Cunha, J., De Giorgi, G., and Jayachandran, S. (2014). ‘The price effects of cash versus in-kind transfers’,
+
+mimeo, Northwestern University.
+
+De Janvry, E. and Sadoulet, E. (2006). ‘Making conditional transfer programs more efﬁcient: designing for
+
+maximum effect of the conditionality’, World Bank Economic Review, vol. 20(1), pp. 1–29.
+
+Di Maro, V. (2004). ‘Evaluation of the impact of PROGRESA on nutrition: theory, econometric methods and
+
+an approach to deriving individual welfare ﬁndings from household data’, mimeo, UCL.
+
+DiFalco, S. and Bulte, E. (2011). ‘A dark side of social capital?’, Journal of Development Studies, vol. 47(8),
+
+pp. 1128–51.
+
+Eswaran, M. and Kotwal, A. (1986). ‘Access to capital and agrarian production organisation’, ECONOMIC
+
+JOURNAL vol. 96(382), pp. 482–98.
+
+Fafchamps, M. and Gubert, F. (2007). ‘The formation of risk sharing networks’, American Economic Review
+
+Papers and Proceedings, vol. 97(2), pp. 75–9.
+
+Fafchamps, M. and Lund, S. (2003). ‘Risk-sharing networks in rural Philippines’, Journal of Development
+
+Economics, vol. 71(2), pp. 261–87.
+
+Fafchamps, M. and Pender, J. (1997). ‘Precautionary saving, credit constraints, and irreversible investment:
+theory and evidence from semi-arid India’, Journal of Business and Economic Statistics, vol. 15(2), pp. 180–
+94.
+
+Foster, A.D. and Rosenzweig, M.R. (2001). ‘Imperfect commitment, altruism, and the family: evidence from
+transfer behavior in low-income rural areas’, Review of Economics and Statistics, vol. 83(3), pp. 389–407.
+Genicot, G. and Ray, D. (2003). ‘Group formation in risk-sharing arrangements’, Review of Economic Studies,
+
+vol. 70(1), pp. 87–113.
+
+Gertler, P.J. Martinez, S.W. and Rubio-Codina, M. (2012). ‘Investing cash transfers to raise long-term living
+
+standards’, American Economic Journal: Applied Economics, vol. 4(1), pp. 164–92.
+
+G€uell, M. Rodriguez Mora, J.V. and Telmer, C. (2015). ‘The informational content of surnames, the
+evolution of intergenerational mobility and assortative mating’, Review of Economic Studies, vol. 82(2),
+pp. 693–735.
+
+Jakiela, P. and Ozier, O. (2016). ‘Does Africa need a rotten kid theorem? Experimental evidence from village
+
+economies’, Review of Economic Studies, vol. 83(1), pp. 231–68.
+
+Karaivanov, A. and Townsend, R.M. (2014). ‘Dynamic ﬁnancial constraints: distinguishing mechanism design
+
+from exogenously incomplete regimes’, Econometrica, vol. 82(3), pp. 887–959.
+
+Kinnan, C. (2014). ‘Distinguishing barriers to insurance in Thai villages’, mimeo, Northwestern.
+Kinnan, C. and Townsend, R. (2012). ‘Kinship and ﬁnancial networks, formal ﬁnancial access, and risk
+
+reduction’, American Economic Review Papers and Proceedings, vol. 102(3), pp. 289–93.
+
+La Ferrara, E. (2003). ‘Kin groups and reciprocity: a model of credit transactions in Ghana’, American
+
+Economic Review, vol. 93(5), pp. 1730–51.
+
+Lalive, R. and Cattaneo, M.A. (2009). ‘Social interactions in schooling decisions’, Review of Economics and
+
+Statistics, vol. 91(3), pp. 457–77.
+
+Lewis, W.A. (1954). ‘Economic development with unlimited supplies of labour’, Manchester School, vol. 22(2),
+
+pp. 139–91.
+
+Ligon, E. (1998).
+
+‘Risk-sharing and information in village economies’, Review of Economic Studies,
+
+vol. 65(4), pp. 847–64.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License2018]
+
+R E S O U R C E P O O L I N G F A M I L Y N E T W O R K S
+
+2651
+
+Mace, B.J. (1991). ‘Full insurance in the presence of aggregate uncertainty’, Journal of Political Economy, vol. 99
+
+(5), pp. 928–56.
+
+Mazzocco, M. and Saini, S. (2012). ‘Testing efﬁcient risk sharing with heterogeneous risk preferences: semi-
+parametric tests with an application to village economies’, American Economic Review, vol. 102(1), pp. 428–
+68.
+
+Mofﬁtt, R.A. (2001). ‘Policy interventions, low-level equilibria and social interactions’, in (S.N. Durlauf and
+
+H. Peyton Young, eds.), Social Dynamics, pp. 45–82, Cambridge, MA: MIT Press.
+
+Munshi, K. (2011). ‘Strength in numbers: networks as a solution to occupational traps’, Review of Economic
+
+Studies, vol. 78(3), pp. 1069–101.
+
+Munshi, K. and Rosenzweig, M.R. (2016). ‘Networks and misallocation: insurance, migration, and the rural-
+
+urban wage gap’, American Economic Review, vol. 106(1), pp. 46–98.
+
+Musgrove, P. (1979). ‘Permanent household income and consumption in urban South America’, American
+
+Economic Review, vol. 69(3), pp. 355–68.
+
+Nurkse, R. (1953). Problems of Capital Formation in Underdeveloped Countries, Oxford: Oxford University Press.
+Paxson, C.H. (1992). ‘Using weather variability to estimate the response of savings to transitory income in
+
+Thailand’, American Economic Review, vol. 82(1), pp. 15–33.
+
+Platteau, J-P. (1997). ‘Mutual insurance as an elusive concept in traditional rural communities’, Journal of
+
+Development Studies, vol. 33(6), pp. 764–96.
+
+Platteau, J-P. (2000). ‘Allocating and enforcing property rights in land: informal versus formal mechanisms in
+
+Sub-Saharan Africa’, Nordic Journal of Political Economy, vol. 26(1), pp. 55–81.
+
+Rosenzweig, M.R. (1988). ‘Risk, implicit contracts and the family in rural areas of low-income countries’,
+
+ECONOMIC JOURNAL, vol. 98(393), pp. 1148–70.
+
+Rosenzweig, M.R. and Stark, O. (1989). ‘Consumption smoothing, migration, and marriage: evidence from
+
+rural India’, Journal of Political Economy, vol. 97(4), pp. 905–26.
+
+Rosenzweig, M.R. and Wolpin, K.I. (1993). ‘Credit market constraints, consumption smoothing, and the
+accumulation of durable production assets in low-income countries: investment in bullocks in India’,
+Journal of Political Economy, vol. 101(2), pp. 223–44.
+
+Samphantharak, K. and Townsend, R. (2010). Households as Corporate Firms: An Analysis of Household Finance
+Using Integrated Household Surveys and Corporate Financial Accounting, Econometric Society Monographs,
+Cambridge: Cambridge University Press.
+
+Schultz, P. (2004). ‘School subsidies for the poor: evaluating the Mexican Progresa poverty program’, Journal
+
+of Development Economics, vol. 74(1), pp. 199–250.
+
+Singh, I. Squire, L. and Strauss, J. (1986). Agricultural Household Models: Extensions, Applications, and Policy,
+
+Baltimore, MD: Johns Hopkins Press (for World Bank).
+
+Squires, M. (2016). ‘Kinship taxation as a constraint to microenterprise growth: experimental evidence from
+
+Kenya’, mimeo, LSE.
+
+Todd, P. and Wolpin, K.I. (2006). ‘Assessing the impact of a school subsidy program in Mexico: using a social
+experiment to validate a dynamic behavioral model of child schooling and fertility’, American Economic
+Review, vol. 96(5), pp. 1384–417.
+
+Townsend, R. (1994). ‘Risk and insurance in village India’, Econometrica, vol. 62(3), pp. 539–91.
+Udry, C. (1994). ‘Risk and insurance in a rural credit market: an empirical investigation in Northern Nigeria’,
+
+Review of Economic Studies, vol. 61(3), pp. 495–526.
+
+© 2017 Royal Economic Society.
+
+ 14680297, 2018, 615, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/ecoj.12534 by KIZ der Universitat Ulm, Wiley Online Library on [20/11/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

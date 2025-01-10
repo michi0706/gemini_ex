@@ -1,0 +1,2609 @@
+Journal of Public Economics 168 (2018) 21–34
+
+Contents lists available at ScienceDirect
+
+Journal of Public Economics
+
+j o u r n a l h o m e p a g e : w w w . e l s e v i e r . c o m / l o c a t e / j p u b e
+
+Behavioral responses to inheritance tax: Evidence from notches
+in France夽
+Jonathan Goupille-Lebret a, b,*, Jose Infante c
+aUniv Lyon, ENS de Lyon, GATE UMR 5824, Lyon F-69342, France
+bINSEAD, France
+cAXA, France
+
+A R T I C L E
+
+I N F O
+
+A B S T R A C T
+
+For the ﬁrst time, we exploit quasi-experimental variation to investigate the impact of inheritance taxa-
+tion on wealth accumulation. Using bunching and difference-in-differences methods, we directly estimate
+several behavioral responses during lifetime, rather than relying solely on observations at death. Our empir-
+ical ﬁndings shed new light upon wealth accumulation and bequest motives. Taken together, the small
+responses to inheritance tax estimated cannot be supported by the desire to retain control over wealth.
+
+© 2018 Elsevier B.V. All rights reserved.
+
+Article history:
+Received 10 February 2017
+Received in revised form 31 August 2018
+Accepted 27 September 2018
+Available online 22 October 2018
+
+JEL classiﬁcation:
+H21
+H31
+D91
+
+Keywords:
+Taxation
+Behavioral responses
+Bunching
+Bequest
+
+1. Introduction
+
+With growing inequalities in recent decades, demand for fair and
+effective taxation has never been so high. Estate tax has a special
+place in this framework. Wealth tends to be strongly concentrated
+and can be transmitted from generation to generation. Progres-
+sive taxation, therefore, may serve as an appropriate counter-force
+against the perpetuation of inequality. However, estate tax gener-
+ates behavioral responses from taxpayers, responses which may be
+harmful to the macroeconomic success of an economy and may also
+reduce the eﬃciency of taxation to curb wealth inequality.
+
+夽 We are very grateful to Thomas Piketty and Emmanuel Saez for their continuous
+support and guidance. We also thank the Editor, Wojciech Kopczuk, the anony-
+mous referees, Alan Auerbach, Antoine Bozio, Raj Chetty, Andrew Clark, Alejandro
+Esteller-Moré, Bertrand Garbinti, Etienne Lehmann, André Masson, and participants
+at numerous seminars for valuable comments and suggestions. We are grateful to
+AXA, and in particular to Mohamed Baccouche, for giving us access to the otherwise
+restricted data for the purposes of this research.
+
+* Corresponding author.
+
+E-mail addresses: jonathan.goupille@ens.fr (J. Goupille-Lebret),
+
+josearturo.infanteacevedo@axa.fr (J. Infante).
+
+https://doi.org/10.1016/j.jpubeco.2018.09.016
+0047-2727/© 2018 Elsevier B.V. All rights reserved.
+
+An important literature has been built on the impact of transfer
+taxation on economic behaviors.1 Empirical research on the partic-
+ular impact of estate taxation on wealth accumulation, however, is
+very scarce (Kopczuk and Slemrod, 2001; Holtz-Eakin and Marples,
+2001; Joulfaian, 2006). This is due to the lack of good microdata
+and the big identiﬁcation issue relative to this topic. Bequest and
+wealth accumulation result from multiple factors occurring during
+lifetime. Properly isolating the causal impact of estate taxation from
+
+1 The literature has focused on the responsiveness of inter vivos gifts to changes
+in the gift tax rates (Joulfaian, 2004; Ohlsson, 2011); on the responsiveness of
+gifts to estate taxation (Arrondel and Laferrere, 2001; Page, 2003; Bernheim et
+al., 2004); on the use of estate tax planning techniques through inter vivos gifts
+(McGarry, 2000, 2001; Joulfaian, 2005; Nordblom and Ohlsson, 2006; Joulfaian, 2014);
+and on the link between capital gains, gifts, and bequest taxes (Poterba, 2001;
+Auten and Joulfaian, 2001). Receiving an inheritance can also impact the recipients
+through labor supply and retirement decisions (Holtz-Eakin et al., 1993; Joulfaian and
+Wilhelm, 1994; Brown et al., 2010; Elinder et al., 2012; Garbinti and Georges-Kot,
+2016), entrepreneurship, and survival of existing small businesses (Holtz-Eakin et
+al., 1994a,b; Brunetti, 2006; Tsoutsoura, 2015). It can also affect the level of wealth
+inequality and savings behaviors of recipients (Elinder et al., 2016; Boserup et al.,
+2016). See (Kopczuk, 2013, 2017) for a complete literature review of taxation of
+intergenerational transfers and wealth.
+
+22
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+other factors playing on wealth accumulation is, therefore, a crucial
+challenge for the literature. A second issue is relative to the differ-
+ent natures of behavioral responses (Slemrod, 1998; Chetty, 2009a).
+Although recent progress has been made2, more work is still needed
+to better analyze the different components of behavioral responses,
+such as shifting among tax bases, timing, and real responses in an
+inter-temporal framework (Saez et al., 2012).
+
+This article breaks new ground on these questions using quasi-
+experimental variation created by the French preferential tax
+scheme for inheritance through the savings vehicle Assurance-vie.
+We are able to make three contributions to the literature. First, we
+directly estimate behavioral responses to inheritance tax during life-
+time, rather than relying solely on observations at death. Second,
+we estimate different types of behavioral responses using bunching
+and difference-in-differences methods. Finally, our empirical ﬁnd-
+ings shed new light upon wealth accumulation and bequest motives.
+We show that our results cannot be supported by the desire to retain
+control over wealth.
+
+Assurance-vie is the most important ﬁnancial asset owned by
+French households in 2010 and represents one quarter of total trans-
+mission at death. Despite its name, Assurance-vie no longer has
+insurance features; instead, it is used as a vehicle for wealth accumu-
+lation and transmission. It is a ﬂexible “wrapper” or savings account
+that holds ﬁnancial assets (equities, bonds. . . ) for tax purposes. In the
+U.S., the closest equivalent of Assurance-vie accounts would be an
+unlimited Roth IRA with preferential inheritance taxation.3
+
+In 1992, France introduced a reform of the preferential tax
+scheme for inheritance that was not retroactive. This reform gen-
+erates large discontinuities depending on the opening date of
+Assurance-vie accounts and the age at which contributions to the
+accounts were made. For accounts opened after November 1991,
+contributions made before age 70 beneﬁt from a preferential tax rate
+of 20% after a speciﬁc tax exemption of 152,500 euros when trans-
+mitted at death. In contrast, contributions made after age 70 are now
+included in the inheritance tax base, with a much higher top tax rate.
+As the reform was not retroactive, Assurance-vie accounts opened
+before November 1991 have not been affected by the reform. When-
+ever the contributions were made during lifetime, they are taxed at
+the rate of 20% after the speciﬁc tax exemption of 152,500 euros
+when transmitted at death. Hence, the reform provides a powerful
+way of identifying the causal effect of inheritance taxation on wealth
+accumulation directly during lifetime.
+
+The increase in taxation after age 70 is likely to induce three
+different behavioral responses. First, the reform has generated a
+notch in the lifetime contributions of Assurance-vie, creating very
+strong incentives to retime contributions just before age 70 (inter-
+temporal shifting responses). We estimate these timing responses
+using a bunching approach. Second, people can substitute contribu-
+tions made after age 70 for other assets (shifting among asset port-
+folio). Finally, they can reduce wealth accumulation in order to con-
+sume more (real responses). We estimate these last two responses
+using a difference-in-differences approach, based on the evolution of
+contributions/account balances over age for Assurance-vie accounts
+opened just before or after November 1991.
+
+For this analysis, we have obtained ﬁrst-time access to a unique
+longitudinal data set of French Assurance-vie accounts from AXA
+over the 2003–2013 period. The study of the savings vehicle
+Assurance-vie offers four important methodological and conceptual
+advantages. First, our data set is the only source describing accu-
+mulation of wealth for bequest purpose in a longitudinal way. This
+
+setting allows us to estimate medium- and long-term responses to
+inheritance tax based on changes occurring within individuals. Sec-
+ond, our data set contains many very wealthy individuals, which
+allows us to investigate whether behavioral responses increase with
+wealth. Third, in France, Assurance-vie represents the major com-
+ponent of ﬁnancial assets transmitted at death, which in theory are
+the most sensitive to taxation. Our analysis provides a way of test-
+ing to what extent this theory is supported by empirical evidence.
+Finally, Assurance-vie occupies an original place between bequests
+and gifts. It beneﬁts from preferential taxation but, contrary to gifts,
+also provides a way to retain control over assets up to death. The
+study of Assurance-vie accounts can help theory to better understand
+the motivation behind wealth accumulation and bequest decisions.
+Our analysis of the French preferential tax scheme yields two
+main empirical results. First, we use a bunching approach to esti-
+mate inter-temporal shifting elasticity in the medium term. We ﬁnd
+compelling evidence of timing responses at age 70 increasing with
+the level of wealth. Indeed, we show large and sharp excess bunch-
+ing located exactly at the notch combined with slight but wide hole
+(missing mass) above it. The tax change leads to an increase of 32%
+in contributions made just before age 70 for the wealthy and 13% for
+the rest of the population. In contrast, missing mass above the notch
+leads to much more modest responses in the medium term, with
+elasticities around 0.1 for both groups. As a result, we ﬁnd that strong
+bunching can reﬂect modest inter-temporal shifting responses in the
+medium term.
+
+Second, we use a difference-in-differences setting to estimate
+shifting among asset portfolio and real responses. Our results are
+precisely estimated and robust to various speciﬁcation forms. We
+obtain compelling evidence of a negative but small effect of inher-
+itance tax on Assurance-vie contributions at the individual level.
+It corresponds to an elasticity of 0.23 between 70 and 75 years
+(long term4) up to 0.36 after 75 years old (medium term4). We then
+investigate the cumulative impact of inheritance tax using account
+balances instead of contributions as dependent variable. We ﬁnd a
+modest but signiﬁcant elasticity of 0.29 after 75 years old. Our anal-
+ysis has two important limitations. First, our data set does not allow
+to observe assets held outside Assurance-vie accounts. Consequently,
+we are not able to disentangle asset shifting from real responses,
+and our estimated elasticities should be seen as an upper bound of
+the true elasticity of taxable estate/wealth. Second, our estimates are
+based on a tax change that occurs at age 70. We are thus capturing
+a local average treatment effect that may not fully capture poten-
+tial labor supply responses or life-cycle savings decisions occurring
+earlier in time.
+
+Our empirical ﬁndings shed new light on motivations behind
+wealth accumulation and bequest motives. The underutilization of
+gifts as a planning tool, as well as the strong responses from indi-
+viduals at the onset of terminal illness, have been seen by the
+literature as a desire of individuals to retain control over wealth up
+to death (Kopczuk, 2007). In our case, however, small responses to
+taxation cannot be explained by this motive. Indeed, Assurance-vie
+accounts provide a way to retain control over assets up to death. We
+also show that the small magnitude of these responses cannot be
+explained by an absence of tax salience and are not consistent with
+forward-looking individuals’ decisions.
+
+More generally, our paper relates to the literatures on optimal
+inheritance taxation (Farhi and Werning, 2010; Piketty and Saez,
+2013), suﬃcient statistic approach (Chetty, 2009b), and modelling
+of wealth distribution (De Nardi and Fella, 2017) by providing new
+insights on bequest motives and elasticities to estate tax. It is also
+
+2 Kopczuk and Slemrod (2003) and Kopczuk (2007) documented extreme types
+of tax avoidance relative to the timing of death. Recently, Seim (2017) was able to
+estimate tax avoidance and evasion to the Swedish wealth tax.
+
+3 See Section 2.2 for a more complete description of Assurance-vie in France.
+
+4 Because life expectancy is approximately equal to 80 years, the medium term cor-
+responds to 5 years before death, and the long term corresponds to 5–10 years before
+death.
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+23
+
+related to the large literature on 401(k) and IRA that study how
+public policies affect wealth accumulation through savings accounts
+(Chetty et al., 2014; Gelber, 2011; Engelhardt and Kumar, 2007;
+Bernheim, 2002, among others).
+
+The article is organized as follows. Section 2 describes the French
+institutional background and the data we use. Section 3 presents the
+empirical analysis. Section 4 concludes.
+
+2. Institutional background and data
+
+The complexity of the French inheritance tax system has always
+been a nightmare for an audience not familiar with its intricacies.
+We will not dwell here on these complexities, but a short presenta-
+tion is in order, as it will help make sense of the empirical strategy
+used in this paper. This section will offer a general overview of the
+inheritance tax system in France. It will then present a deﬁnition of
+Assurance-vie in France and explain how it is taxed. Finally, it will
+describe the data used.
+
+2.1. Transfer taxation in France
+
+The French transfer taxation differs strongly from the system in
+the U.S. for at least three reasons. The partition of the estate among
+heirs is set in part by law. France has developed a progressive inher-
+itance tax system, in which tax rates and tax exemptions depend
+on the wealth received by each successor and the kin relationship
+with the deceased. Assurance-vie accounts and gifts beneﬁt from
+preferential tax schemes.
+
+French inheritance laws have not changed signiﬁcantly since
+the implementation of the civil Code by Napoleon in 1804. In
+order to protect children from being disenfranchised, only part
+of the estate called the disposable portion (“quotité disponible”)
+is freely disposable. The remaining part, called the reserved por-
+tion (“réserve héréditaire”),
+is automatically earmarked for the
+deceased’s children.5 The amount of la réserve and the amount freely
+disposable depend on the number of the deceased’s children. For n
+children, the reserved portion is set to n/n + 1 of the estate and the
+disposable portion to 1/n + 1.
+
+Unlike the U.S., the French transfer taxation takes the form of a
+progressive inheritance tax based on the net assets received by each
+successor. The tax schedule and tax exemptions vary according to
+the relationship of the inheritor to the deceased. Since 2007, sur-
+viving spouses are fully exempted. Table 1 reports the inheritance
+tax schedule for children in 2010. Marginal tax rates range from 5%
+to 40% after an exemption of 156,974 euros per children.6 Table 2
+reports the inheritance tax schedule for collateral heirs (from a par-
+allel line of the deceased’s family) in 2010. The tax schedule is almost
+ﬂat, with high tax rates ranging from 35% to 60% 7 and low tax
+exemptions.8
+
+From 1942 to 1992, inter vivos gifts were fully integrated to the
+inheritance tax in order to achieve a complete neutrality between
+gift and bequest.9 The same graduated tax schedules applied to
+both bequests and gifts; most importantly, all inter vivos gifts were
+“recalled” when the donor died and were added to the bequest left at
+
+Table 1
+Inheritance tax schedule for children in 2010.
+
+Inheritance tax brackets
+(in excess of tax exemptions)
+
+0 €
+7593 €
+11,930 €
+15,697 €
+544,173 €
+889,514 €
+Above 1,779,029 €
+
+7593 €
+11,930 €
+15,697 €
+544,173 €
+889,514 €
+1,779,029 €
+
+Tax exemption per children: 156,974 €
+
+Marginal tax rate
+
+5%
+10%
+15%
+20%
+30%
+35%
+40%
+
+Table 2
+Inheritance tax schedule in collateral line in 2010.
+
+Types of heirs
+
+Inheritance brackets
+(in excess of exemptions)
+
+Marginal tax rate
+
+Tax exemption
+
+Siblings
+
+Nephews or
+nieces
+First
+cousins
+Others
+
+Below 24,069 €
+Above 24,069 €
+Above 0 €
+
+Above 0 €
+
+Above 0 €
+
+35%
+45%
+55%
+
+55%
+
+60%
+
+15,697 €
+
+7849 €
+
+1570 €
+
+1570 €
+
+death. As a result, each heir ended up paying taxes on the basis of the
+total estate that he or she received from the decedent.10 In 1992, the
+French government introduced the “10 year rule”: gifts made more
+than 10 years before the time of death are no longer recalled in the
+estate. This rule implies that the tax exemption is no longer a life-
+time exemption, but it can be renewed every 10 years. Since 2012,
+the “10 year rule” has become a “15 year rule.”
+
+2.2. What is Assurance-vie in France?
+
+Assurance-vie is now the most widespread ﬁnancial asset in
+France. Over a third of the French population has an Assurance-
+vie account, and it represents 38% of the ﬁnancial assets owned
+by households and 23% of total transmission at death.11 It is used
+to ﬁnance supplemental retirement beneﬁts, long-term ﬁnancial
+projects, or transmission at death.
+
+As 401(k) and IRA, Assurance-vie accounts are a ﬂexible savings
+vehicle. They can hold almost any publicly quoted ﬁnancial instru-
+ments as well as property and loans.12 The value of the Assurance-vie
+account corresponds to the market value of the ﬁnancial products
+held into the account. But Assurance-vie is not a retirement account,
+and contributions are transferred from individual bank accounts
+instead of being deducted from the employee’s paycheck. Assurance-
+vie is also much more ﬂexible. Contributions are unlimited and can
+be made at any age. They can be discretionary or automatic. The
+latter implies that individuals have to choose the frequency (on a
+monthly/quarterly/half-yearly or yearly basis) and the level of auto-
+matic contributions.13 Assurance-vie accounts are also never locked.
+Individuals can request a cash withdrawal, convert the capital into
+
+5 The surviving spouse is only considered as protected heir in the absence of chil-
+dren. In this case, the reserved portion accruing to the surviving spouse is equal to 25%
+of the estate.
+
+6 The top marginal tax rate has been ﬁxed to 45% since 2011, while the tax
+
+exemption decreased from 156,974 euros to 100,000 euros in 2012.
+
+7 For brothers and sisters, the marginal tax rate is equal to 35% below 24,069 euros
+and 45% above it. For nephews and nieces, the inheritance is taxed at a ﬂat rate of 55 %.
+8 The tax exemption is equal to 15,697 euros for brothers and sisters, and 7849
+
+euros for nephews and nieces.
+
+9 In reality, there has never been a step-up in value of what was given before death.
+Only the nominal amount given is recalled into the inheritance tax base at the time of
+death.
+
+10 The tax paid at the time of the gift is deducted from the tax liability computed at
+the time of death on the sum of gift and bequest. I.e., if t(.) is the relevant tax schedule,
+v is the gift, and b is the bequest, then one pays tax t(v) at the time of the gift, and
+t(b + v)− t(v) at the time of death, so that the total tax payment is t(b + v).
+11 In 2013, Assurance-vie represents 15% of total private wealth and 38% of ﬁnancial
+assets, according to French National Accounts from INSEE (France’s National Institute
+of Statistics). The aggregate ﬂow of Assurance-vie transmitted at death comes from
+the Fédération Française des Sociétés d’Assurances (French association of insurance
+companies). The bequest ﬂow comes from Enquêtes Mutation à Titre Gratuit (sample
+of estate tax returns collected by the French Ministry for the Economy and Finance).
+12 In practice, individuals invest mainly in managed funds and euro funds.
+13 These parameters can be changed at any time.
+
+24
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+Table 3
+Wealth and Assurance-vie accounts in 2010 in France.
+Source: 2010 French Household Wealth survey.
+
+Wealth group
+
+Average wealth
+
+Average account
+balance
+
+Average balance
+among holders
+
+Proportion of accounts
+holders
+
+Distribution of
+accounts
+
+Wealth share
+
+P0–50
+P50–75
+P75–90
+P90–100
+incl. P90–99
+incl. P99–100
+All
+
+59,163 €
+246,279 €
+441,434 €
+1,451,116 €
+953,363 €
+5,930,891 €
+302,693 €
+
+3629 €
+14,702 €
+35,120 €
+224,623 €
+133,238 €
+1,047,092 €
+33,255 €
+
+17,154 €
+32,907 €
+62,908 €
+294,093 €
+187,422 €
+1,254,132 €
+89,011 €
+
+21%
+45%
+56%
+72%
+71%
+83%
+37%
+
+5%
+11%
+16%
+68%
+36%
+32%
+100%
+
+10%
+20%
+22%
+48%
+28%
+20%
+100%
+
+Note: The table reports summary statistics on wealth and Assurance-vie accounts among individuals aged 60–80 years old in France in 2010.
+
+a lifetime annuity, or just close down the account at any time with-
+out any age restrictions.14 At death, the account is transmitted to the
+beneﬁciaries.
+
+Table 3 reports summary statistics on wealth and Assurance-vie
+accounts among individuals aged 60–80 years old in France in 2010.
+Four facts are worth noting. First, the proportion of Assurance-vie
+account holders increases with the level of wealth. While only 21%
+of the poorest half of the elderly population owns an account, this
+number increases to 72% for the top 10% and 83% for the top 1%.
+Second, Assurance-vie assets are strongly concentrated among the
+wealthiest individuals. The top 25%, top 10% and top 1% wealthiest
+elderly owns 83%, 68% and 32% of total Assurance-vie assets, respec-
+tively. Third, Assurance-vie assets represent 15%–30 % of total wealth
+of the account holders. This number is equal to 20% for account hold-
+ers from the top 10% wealth group. Finally, Assurance-vie assets are
+more concentrated than total wealth.
+
+Assurance-vie occupies a singular place in the French tax land-
+scape. Until 1992, Assurance-vie accounts transmitted at death were
+fully exempt from inheritance tax. The purpose of this preferential
+tax scheme was to foster the development of domestic long-term
+savings and thus safeguard the ﬁnancing of the economy from for-
+eign investments. The increasing cost and the perverse effects of this
+scheme led the government to come back progressively on the pref-
+erential tax treatment of Assurance-vie transmitted at death in 1992
+and 1998.
+
+The 1992 reform has narrowed the scope of the preferential tax
+scheme to contributions made before age 70. The fraction of contribu-
+tions made before age 70 remained exempt from inheritance taxation.
+In contrast, those made after age 70 were recalled into the inheri-
+tance tax base after an estate-level exemption of 30,000 euros.15 As
+the 1992 reform was not retroactive, Assurance-vie accounts opened
+before 11/20/199116 remained fully tax exempt. The 1998 reform
+has limited the ﬁscal advantage of the preferential tax scheme for
+Assurance-vie. Instead of being fully tax exempt, all contributions
+not recalled into the inheritance tax base are now taxed at a ﬂat
+rate of 20% after a supplemental tax exemption of 152,500 euros
+by inheritor. Four facts are worth noting. First, when Assurance-vie
+accounts are transmitted at death, the ﬁnancial institutions auto-
+matically send the share of contributions made after and before age
+70 to the ﬁscal administration. Second, it is the total of all contribu-
+tions made during lifetime (and not the balance of the Assurance-vie
+account at death) that are either subjected to the preferential tax
+
+scheme or recalled into the inheritance tax base.17 Capitalized inter-
+ests, dividends, and capital gains are therefore exempt from taxation.
+Third, inheritors can beneﬁt simultaneously from three different tax
+exemptions: the speciﬁc exemption of 152,500 euros per inheritor
+applied to contributions made before age 70, the estate-level exemp-
+tion of 30,000 euros applied to contributions made after age 70, and
+ﬁnally, the inheritance tax exemption applied to contributions made
+after age 70 and other assets transmitted at death.18 Finally, the sur-
+viving spouse is fully tax exempt from both the inheritance tax and
+the preferential tax scheme since 2007.
+
+Despite the upward trend in the tax burden, contributions
+recalled into the inheritance tax base are still subject to a preferen-
+tial taxation for at least three reasons. First, an Assurance-vie account
+is not considered as part of the estate and can therefore constitute a
+way to get around the rigid “reserved portion” rule. Second, capital-
+ized interests, dividends, and capital gains from contributions made
+after age 70 are exempt from inheritance taxation. Finally, even con-
+tributions recalled in the inheritance tax base are less taxed than
+other assets due to the additional estate-level exemption of 30,000
+euros.
+
+Table 4 summarizes the taxation of Assurance-vie at death since
+1998, depending on the opening date of Assurance-vie accounts and
+age at which contributions are made. The reforms of the preferen-
+tial tax scheme have introduced a much higher top statutory tax
+rate on contributions made after age 70 for accounts opened after
+November 20, 1991. As we discuss in more detail in Section 3, this
+quasi-experimental variation is used to estimate different behav-
+ioral responses to inheritance tax in an inter-temporal framework.
+First, we exploit the notch created around age 70 to estimate tim-
+ing responses using a bunching approach. Second, we exploit the fact
+that the increase in taxation applies only to Assurance-vie accounts
+opened after November 20, 1991 to estimate shifting among asset
+portfolio and real responses in a difference-in-differences setting.
+
+As shown in Table 5, Assurance-vie accounts beneﬁt also to a pref-
+erential income tax. The taxation of capital income from Assurance-vie
+depends on the opening date of the account and the length of time that
+the account has been in force. We argue that the variations induced by
+this scheme should not affect our estimation of behavioral responses
+to inheritance taxation. Indeed, the estimation of timing responses
+relies on a bunching approach induced by the formation of a notch at
+age 70. As income taxation of Assurance-vie does not vary discontin-
+uously at age 70, the estimation should not be biased. The estimation
+
+14 Distributions are allocated between principal and earnings on a prorata basis.
+15 This estate-level exemption is split among heirs proportionally to the share of
+post-70 contributions inherited.
+16 In order to avoid massive timing responses, the 1992 reform was applied to
+accounts opened after 11/20/1992, i.e. the date the reform was oﬃcially announced
+and discussed at Parliament.
+
+17 However, when the end-of-life balance is lower than the total of all contributions,
+the inheritance tax is computed on the end-of-life balance. In this case, the tax
+administration compute the share of end-of-life balance that will be subject to the
+preferential tax scheme or recalled into the inheritance tax base on a prorata basis
+using the share of contributions made before or after age 70.
+18 The inheritance tax exemption varies depending on the kin relationship between
+the inheritor and the decedent.
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+25
+
+Table 4
+Taxation of Assurance-vie at death since 1998.
+
+Contributions made
+
+Before aged 70
+
+After aged 70
+
+Opening date of the account
+Before 11/20/1991
+After 11/20/1991
+
+Flat tax rate of 20 %
+Flat tax rate of 20 %
+
+Recalled into the
+inheritance tax base
+
+Note: At death, the fraction of contributions taxed at the ﬂat tax rate of 20 % beneﬁts
+from a supplemental tax exemption of 152,500 euros. The fraction of contributions
+recalled into the inheritance tax base faces top marginal tax rates going up to 40 % for
+direct descendants and 60 % for collateral heirs.
+
+using a difference-in-differences approach is based on the compar-
+ison of Assurance-vie accounts opened just before or after 1992. As
+contributions to accounts are observed between 2003 and 2013, i.e.
+more than 8 years after the opening date of the accounts, both groups
+face the same ﬂat tax rate of 7.5 %.
+
+2.3. Data
+
+The empirical analysis is based on a French longitudinal data
+set from the ﬁnancial company AXA over the 2003–2013 period.
+It includes detailed information about Assurance-vie accounts and
+socio-demographic variables of all French clients at AXA at a monthly
+frequency. More importantly, our data set contains the daily date at
+which contributions were made. The main limitation of our data set
+is that it has been constructed only for accounting purposes. Conse-
+quently, the data set neither include assets held outside Assurance-vie
+accounts nor the relationship between the account holder and the
+beneﬁciaries.
+
+This data set regroups two categories of individuals. The ﬁrst
+group corresponds to individuals opening a standard preferential tax
+savings vehicle (referred to as “standard individuals”). The second
+group corresponds to individuals that entrust AXA with the man-
+agement of their wealth (referred to as “wealthy individuals”). A
+minimum capital subscription of hundreds of thousands of euros
+is required to beneﬁt from personalized management of wealth.19
+Therefore, Assurance-vie accounts from the second group are sig-
+niﬁcantly more important than those from the ﬁrst one. Note that
+the distinction between “wealthy” and “standard” individuals does
+not vary over time and only depends on whether the accounts are
+managed by a portfolio manager.
+
+We focus our analysis on individuals aged between 60 and
+80 years who have not terminated their accounts during lifetime. As
+described previously, individuals can open an Assurance-vie account
+for three main reasons: constitute a cash reserve to buy a real
+estate property, ﬁnance supplemental retirement beneﬁts, or leave
+a bequest. As we want to investigate the impact of inheritance tax
+on wealth accumulation, only contributions made for bequest pur-
+poses are relevant in our framework. Consequently, we restrict our
+sample to individuals aged between 60 and 80 years. Indeed, these
+individuals are already retired20 and are therefore less likely to make
+contributions for retirement purposes. They have also had time to
+accumulate a cash reserve to buy their property. Contributions made
+by individuals over age 60 should therefore be mainly driven by
+a bequest motive. In addition, we exclude from our analysis indi-
+viduals who have terminated their Assurance-vie accounts during
+
+19 The minimum capital required depends on the ﬁnancial products contained by the
+account. Relatives to wealthy clients, such as spouses and children, can also open an
+account with a portfolio manager without having the minimum capital required.
+20 In France, most individuals retired at the legal retirement age of 60 (62 since
+2010).
+
+lifetime. Their contributions will not be transmitted at death and are
+therefore not relevant in our analysis.
+
+The resulting sample is an unbalanced panel of individuals aged
+between 60 and 80 years. Three factors can explain attrition. First,
+individuals can die. Second, individuals can be observed eleven years
+at most because our data set covers only the period 2003–2013.21
+Finally, individuals can open an account after age 60. In this case,
+they are not recorded in our data set from age 60 to the age at which
+the account is opened. We correct for the latter by considering that,
+before opening their account, individuals have an account balance of
+0 euro and do not make any contributions to it. Although the panel
+is unbalanced, the only reasons for attrition are age restrictions and
+death. Therefore, attrition should not bias our results. Indeed, age
+restrictions and probability to die are the same among treated and
+control groups in the difference-in-differences approach. The bunch-
+ing analysis should also not be impacted by attrition as the reasons
+for attrition do not vary discontinuously at age 70.
+
+We now present two methodological choices that we have done
+regarding multiple accounts and joint accounts. First, individuals can
+open multiple accounts either at AXA or at different institutions. At
+AXA, the average number of accounts per individual is 1.3. Usually,
+individuals with multiple accounts opened one account per beneﬁ-
+ciary at the same time. While we are not able to observe accounts
+opened outside AXA, we argue that the proportion of individuals
+opening accounts both at AXA and at different institutions should
+be small. Indeed, each institution offers a very rich variety of invest-
+ments that can be held in Assurance-vie accounts. Reducing ﬁnancial
+risks by opening multiple accounts in several institutions is therefore
+irrelevant in this framework because ﬁnancial risks can be reduced
+by holding different ﬁnancial products inside a unique Assurance-vie
+account. In addition, there are no ﬁscal incentives to open several
+accounts for a same heir.22 As individuals (rather than accounts)
+are the appropriate unit of analysis, we have done the following
+adjustments. For the bunching approach, we have grouped together
+all accounts opened after 11/20/1991 by a same individual. For the
+difference-in-differences approach, we have grouped together all
+accounts opened up to two years before 11/20/1991 (respectively
+after 11/20/1991) by a same individual. Second, husband and wife
+can open different types of joint accounts (ﬁrst-to-die or second-to-
+die accounts) depending on their matrimonial regime. We exclude
+these accounts from our analysis because we are not able to observe
+whether each joint account is a ﬁrst-to-die or a second-to-die account
+and which of the co-owners is likely to die ﬁrst. As joint accounts are
+very uncommon (2% of all accounts in the data set), their exclusion
+should not have any impact on our results.
+
+Table 6 investigates whether our sample (AXA data set) is repre-
+sentative of French Assurance-vie account holders. The methodology
+is the following. Using the 2010 French household wealth survey, we
+rank account holders aged 60–80 years old by Assurance-vie account
+balance and regroup them into six groups (P0–25, P25–50, P50–75,
+P75–90, P90–99 and P99–100). We report the threshold, the average
+account balance and the average wealth of each group in columns 2,
+3 and 4 ofTable 6. For the year 2010, we compute the proportion of
+AXA account holders aged 60–80 years old belonging to each group
+(column 6) and the average account balance of each group (column
+7). If the AXA data set is fully representative of French Assurance-vie
+
+21 A person age 80 in 2013 will be included in the sample from age 69 (1/1/2003) to
+age 80 (12/31/2013). A person age 65 in 2013 will be included in the sample from age
+60 (in 2008) to age 65 (in 2013).
+22 The Assurance-vie tax exemption of 152,500 euros (applied to contributions made
+before age 70) is an heir’s exemption, which does not vary with the number of accounts
+inherited. The estate-level exemption of 30,000 euros (applied to contributions made
+after age 70) is split among heirs proportionally to the share of post-70 contributions
+they inherited. This estate-level exemption is therefore identical whether an heir
+inherit the same amount from one or several accounts.
+
+26
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+Table 5
+Income taxation of Assurance-vie (in percent).
+
+Accounts opened during
+
+<2 years
+
+2 to 4 years
+
+4 to 6 years
+
+6 to 8 years
+
+Accounts opened
+Before 1/1/1983
+Before 1/1/1990
+After 1/1/1990
+
+Fully tax-exempt
+45
+35
+
+25
+35
+
+15
+15
+
+7.5
+15
+
+≥8 years
+
+7.5
+7.5
+
+Note: Only capital income withdrawn from the account are taxed. Capital income withdrawn are taxed at ﬂat tax rates (in percent), instead of the progressive income tax schedule,
+depending on the opening date of the account and the length of time that the account has been in force. Before 1/1/1998, the tax rate of 7.5 % was equal to 0. Since 1/1/1998,
+capital income from Assurance-vie taxed at 7.5 % beneﬁts to a tax exemption of 4600 euros for a single person and 9200 euros for married couples.
+
+Table 6
+Assessing how representative the AXA data set is.
+
+(1)
+
+(2)
+
+(3)
+
+(4)
+
+(5)
+
+Assurance-vie Account group
+
+Thresholds
+
+2010 Wealth survey
+
+(6)
+
+AXA sample (All)
+
+Average balance
+
+Average wealth
+
+Corresponding wealth group
+
+Proportion of individuals
+
+Average balance
+
+P0–25
+P25–50
+P50–75
+P75–90
+P90–99
+P99–100
+
+0 €
+7966 €
+24,401 €
+71,890 €
+173,911 €
+809,932 €
+
+3374 €
+14,455 €
+43,519 €
+114,663 €
+328,608 €
+2,673,169 €
+
+196,166 €
+402,769 €
+403,990 €
+618,172 €
+1,161,729 €
+5,888,605 €
+
+P50–75
+P75–90
+P75–90
+P90–95
+P95–99
+P99–100
+
+Sources: Computations from the authors using the 2010 French Household Wealth survey and AXA data set.
+Population: Account holders aged 60–80 years old.
+
+34.0%
+23.2%
+23.2%
+12.5%
+6.4%
+0.7%
+
+2997 €
+15,065 €
+42,949 €
+110,463 €
+319,272 €
+2,392,726 €
+
+account holders, the proportion of AXA account holders belonging
+to each group will be equal to the size of the group, i.e. 25% of AXA
+account holders will belong to the ﬁrst quartile of French account
+holders (P0–25) and 1% to the last centile (P99–100). The compari-
+son of columns 1 and 7 indicates that our sample is representative of
+French Assurance-vie account holders with some discrepancy at the
+extremes of the distribution. 34% of AXA account holders belong to
+the bottom 25% poorest French account holders, 7% to the top 10%
+and 0.7% to the top 1%.23
+
+Column 5 reports the correspondence between the groups of
+account holders ranked by level of account balance and wealth groups.
+It shows that French Assurance-vie account holders are wealthier
+than the overall elderly French population. The bottom 25% poorest
+account holders (ranked by level of account balance) have an average
+wealth of 196,166 euros. The average wealth of P0–25 Assurance-vie
+group correspond to P50–75 wealth group for French elderly popula-
+tion. Account holders from P25–50 and P50–75 Assurance-vie account
+groups belong to the P75–90 wealth group. Account holders from
+P75–90, P90–99 and P99–100 belong to P90–95, P95–99 and P99–100
+wealth groups, respectively.
+
+Table 7 presents summary statistics. Panel A corresponds to the
+sample used for the bunching approach. It includes individuals aged
+between 60 and 80 years with accounts opened after 11/20/1991.
+Panel A shows the following. First, individuals make an average
+contribution of 7100 euros every 17 months. Second, the value of
+the accounts and the contributions made by the wealthy individuals
+are strongly higher than those from the standard individuals. Third,
+
+23 In Online Appendix Table 13, we conduct the same exercise on the two distinct
+sub-samples of “wealthy” and “standard” individuals. We show that “wealthy”
+individuals from AXA sample are relatively wealthier than total French Assurance-
+vie account holders: 15% of AXA “wealthy” account holders belong to the bottom 25%
+poorest French account holders, 19% to the top 10% and 3.2% to the top 1%. “Standard”
+individuals from AXA sample are relatively poorer than the French account holders:
+37% of AXA “standard” account holders belong to the bottom 25% poorest French
+account holders, 5% to the top 10% and 0.3% to the top 1%.
+
+the distribution of Assurance-vie accounts is extremely skewed. The
+top 1% hold close to 30% of total Assurance-vie assets. Fourth, the
+data set includes 7.6 million observations, corresponding to 340,000
+individuals observed during 22 quarters (5 to 6 years).
+
+Panel B presents the particular sub-sample used for the difference-
+in-differences approach. It includes individuals aged between 60 and
+80 years with accounts opened up to two years before or after the
+1992 reform of the preferential tax scheme. As compared to Panel
+A, individuals from Panel B have opened their account for a longer
+period of time. Consequently, the duration of the account is twice as
+big as in the Panel A. The value of the account is also more important,
+whereas the contributions made are signiﬁcantly less important and
+less frequent. This is due to the fact that individuals from Panel B have
+already reallocated a part of their wealth into Assurance-vie accounts.
+Thecontributionsmayresultmainlyfromnewaccumulationofwealth
+rather than substitution effect among portfolio assets.
+
+3. Empirical approach
+
+In the following section, we estimate the impact of inheritance
+taxation on wealth accumulation. Our strategy takes advantage of
+the fact that Assurance-vie accounts transmitted at death are taxed
+differently, whether contributions were made before or after age
+70. As shown in Fig. 1, the increase in taxation at age 70 is likely to
+generate timing, shifting among asset portfolio, and real responses.
+Individuals can avoid the increase in taxation by retiming con-
+tributions just before age 70. This behavior should generate excess
+bunching located exactly at the notch combined with hole after age
+70. For accounts opened after 1991, we can therefore estimate timing
+responses in the medium run using a bunching approach (Fig. 2 A).
+
+The increase in taxation can also generate a reduction of
+Assurance-vie accumulation. This reduction could reﬂect either shift-
+ing among asset portfolio or wealth disaccumulation (real and shifting
+responses). We exploit the fact that the tax change implemented in
+1992 is not retroactive in order to estimate these responses. Accounts
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+27
+
+Table 7
+Descriptive statistics on Assurance-vie, France 2003–2013.
+
+Panel A: Assurance-vie accounts opened after 11/20/1991
+
+Age
+
+Value of the accounts (in thousands of 2013 euros)
+Mean
+p50
+p99
+p99–100
+
+Quarterly contributions (in thousands of 2013 euros)
+Average contribution
+Average positive contribution
+frequency of contributions (in months)
+Number of observations
+Number of individuals
+Duration of the account (in years)
+
+All
+
+68.5
+(5.88)
+
+60.0
+14.6
+609.5
+1707.2
+
+1.3
+7.1
+17
+7,628,138
+343,869
+12.4
+
+Panel B: Assurance-vie accounts opened between 11/20/1989 and 11/20/1993
+
+Wealthy
+
+69.5
+(6.06)
+
+195.3
+56.4
+2067.1
+6369.7
+
+3.5
+52.2
+45
+878,104
+41,032
+13.5
+
+Standard
+
+68.4
+(5.85)
+
+42.4
+11.7
+425.3
+837.2
+
+1.0
+5.1
+16
+6,750,034
+302,837
+12.3
+
+All
+
+Accounts opened
+
+Before 11/20/1991
+
+After 11/20/1991
+
+Age
+
+Value of the accounts (in thousand of 2013 euros)
+Mean
+p50
+p99
+p99–100
+
+Quarterly contributions (in thousands of 2013 euros)
+Average contribution
+Average positive contribution
+frequency of contributions (in months)
+Number of observations
+Number of individuals
+Duration of the account (in years)
+
+70.2
+(6.25)
+
+90.6
+26.6
+842.6
+2969.8
+
+0.4
+5.0
+36
+652,071
+25,995
+21.6
+
+70.2
+(6.25)
+
+73.7
+23.2
+735.2
+1986.3
+
+0.4
+4.6
+35
+336,751
+13,272
+22.8
+
+70.2
+(6.26)
+
+108.7
+30.5
+977.7
+3993.6
+
+0.4
+5.5
+37
+315,320
+12,723
+20.5
+
+Note: This table presents a number of summary statistics coming from AXA longitudinal data set over the 2003–2013 period. Panel A corresponds to
+the sample used for the bunching approach. It includes individuals aged between 60 and 80 years with accounts opened after the implementation of the
+preferential tax scheme reform. “Standard” refers to individuals opening a standard account. “Wealthy” refers to wealthy individuals that entrust AXA
+with the management of their wealth. Panel B shows the sample used for the difference-in-differences approach. It includes individuals aged between 60
+and 80 years with accounts opened up to two years before or after the reform of the preferential tax scheme.
+
+opened just after November 20, 1991 are indeed subject to the taxation
+change after age 70, while those opened just before the implementa-
+tion of the reform encounters no change in taxation during lifetime.
+
+Wetakeadvantageofthisdifference-in-differencessettingtoestimate
+medium- and long-term responses to taxation (Fig. 2B).
+
+To facilitate comparisons of our estimates with those from the
+literature, we translate our estimates into elasticities using the dif-
+ference between the top marginal inheritance tax rate for children
+(40%) and the ﬂat tax rate of the preferential tax scheme (20%).
+More speciﬁcally, we divide our estimates by the difference in log
+net-of-tax rates, i.e. log(1 − 0.4) − log(1 − 0.2). This metric is not
+fully accurate.24 Indeed, marginal tax rates depend on the total
+wealth received by each successor and the kin relationship with the
+deceased, which are not available in our data set. However, we argue
+that using changes in top marginal tax rates for children could be the
+closest approximation of the true metric. First, Assurance-vie assets
+are mainly transmitted to children (65%) and in a lower proportion
+to relatives in collateral lines (26%), which face ﬂat tax rates close to
+
+Fig. 1. Behavioral responses induced by the preferential tax scheme.
+
+24 Note that for individuals who would face a lower tax rate, the responses would
+be attributed to a smaller tax change and a larger elasticity. Our approximation can
+therefore generate a lower bound on the elasticity.
+
+28
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+3.1. Timing responses due to the notch
+
+3.1.1. Empirical methodology and identiﬁcation
+
+Estimation of timing responses takes advantage of the formation
+of a notch induced by the permanent change in taxation starting from
+age 70. More precisely, strong and permanent increase in taxation
+at age 70 introduces an incentive to retime contributions before the
+tax change takes place. As a result, the empirical function of con-
+tributions should exhibit excess bunching at age 70 and a hole just
+above the cutoff. We can then derive reduced-form estimates of tim-
+ing responses by comparing the empirical function to an estimate of
+the smooth counterfactual that would be expected in the absence of
+notch. The identiﬁcation assumption underlying causal inference is
+that the empirical function would have been smooth if there were no
+jump in the tax rate. In order to assess the validity of the identifying
+assumption, online Appendix Fig. 5 depicts the empirical contribu-
+tions by age for accounts opened before 11/20/1991. As the 1992
+law is not retroactive, this group encounters no taxation change at
+age 70. Consistency with our identifying assumption, the empirical
+function exhibits no bunching at age 70.
+
+We now address one potential concern with our approach. As
+shown in Fig. 1, the tax change at age 70 is likely to induce other behav-
+ioral responses, such as shifting among asset portfolio and wealth
+disaccumulation. These responses may affect the observed contri-
+butions above the cutoff. Therefore, the estimated counterfactual is
+not stripped of all behavioral responses. As emphasized by Kleven
+and Waseem (2013), the estimation approach is still valid as long
+as the counterfactual is stripped of timing responses. In addition,
+we will be able to estimate these other behavioral responses using
+difference-in-differences approach in the next section.
+
+Following recent developments in bunching literature (Saez, 2010;
+Chetty et al., 2011; Kleven and Waseem, 2013), we ﬁrst estimate a
+counterfactual function of contributions in the absence of notch. To
+do so, we ﬁt a ﬂexible polynomial to the empirical function, excluding
+data in a range around the notch.27 The estimation model takes the
+following form:
+
+ca = E [log(yia + 1) | age = a] =
+
+J(cid:2)
+
+j=0
+
+• (agea)j +
+
+bj
+
+au(cid:2)
+
+k=al
+
+ck
+
+• 1agea=k + ea
+
+(1)
+
+where the dependent variable is the average log of (individual-level con-
+tribution+1) made by individuals of age a, (agea)j are ﬂexible polynomial
+ﬁts for age, [al, au] is the excluded range around the notch point, and ea
+is the residual resulting from potential misspeciﬁcation of the model.
+
+The counterfactual function is then:28
+
+ˆca =
+
+ˆ
+bj
+
+J(cid:2)
+
+j=0
+
+• (agea)j
+
+(2)
+
+27 The lower bound of the excluded region is set at the point where excess bunching
+starts. The upper bound of the excluded range is estimated using the “point of
+convergence” method as described by Kleven and Waseem (2013). Starting from an
+upper bound just above the age cutoff, we estimate the empirical and the counterfactual
+functions of contributions and compute the resulting missing mass and bunching
+mass. For a low value of the upper bound, the bunching mass is much larger than
+the missing mass. We iteratively increase the upper bound until the missing mass
+converges to the bunching mass.
+28 We can deﬁne a bunching parameter b, which is the excess mass in the excluded
+range below the notch ¯a in proportion to the counterfactual contribution at the notch
+such as:
+
+b =
+
+¯a(cid:2)
+
+a=al
+
+(ca − ˆca)/ˆc¯a
+
+A)
+
+B)
+
+Fig. 2. Estimation of behavioral responses to inheritance tax.
+
+the top marginal tax rate for children (see Tables 1 and 2).25 Second,
+Table 6 shows that AXA account holders are representative of the
+wealthiest quartile of the elderly population. With an average wealth
+of 5.8 million euros, the top 1% wealthiest account holder faces top
+marginal inheritance tax rates with certainty. Using top marginal tax
+rates could also be a good approximation for the remaining account
+holders. Most of these individuals would face at least a marginal tax
+rate of 20% in absence of the preferential tax scheme.26 With the
+preferential tax scheme, they can beneﬁt from a supplemental tax
+exemption of 152,500 euros and therefore face a marginal tax rate
+of 0%. The change in net-of-tax rates would therefore be equal to
+log(1 − 0.2), which is close to log(1 − 0.4) − log(1 − 0.2).
+
+This section will be organized in three parts. The ﬁrst part
+presents the estimation of timing responses using bunching estima-
+tion techniques. The second part is dedicated to the estimation of real
+and shifting responses using difference-in-differences approach. The
+third part summarizes and discusses the results.
+
+25 Using the 2010 micro-sample of inheritance tax returns, we ﬁnd that 65% of
+contributions made after age 70 are transmitted to children, 26% to heirs in collateral
+line and 9% to surviving spouse. This micro-sample, called “DMTG ﬁle”, is produced
+by the French ministry of ﬁnance. The wealthiest decedents are heavily oversampled,
+so that DMTG ﬁle can be representative of the very top of the distribution. The 2010
+DMTG ﬁle includes only the fraction of contributions made after age 70 rather than
+total balances of Assurance-vie accounts.
+26 The 20% inheritance tax bracket ranges from 15,697 euros to 544,173 euros.
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+29
+
+Finally, we can obtain reduced-form estimates of
+
+timing
+
+responses by ﬁtting the following regression model:
+
+ca = E [log(yia + 1) | age = a] =
+
+J(cid:2)
+
+j=0
+
+• (agea)j
+
+bj
+
++c1
+
+• 1al≤agea≤¯a + c2
+
+• 1¯a<agea≤au + ea
+
+(3)
+
+where the dependent variable is the average log of (individual-level con-
+tribution + 1) made by individuals of age a,1al≤agea≤¯a and 1¯a<agea≤au are
+respectively dummies for age a being in the excluding range below or
+above the notch.
+
+The coeﬃcient we are interested in is c2 (medium-term timing
+responses). It corresponds to the difference of average contributions
+(in log) between the empirical and the counterfactual functions in
+the excluded range above the notch. Note that we add one euro to
+each individual-level contribution in order to include zero contribu-
+tions in the analysis, because dropping them could bias the results
+downward. The jump in taxation around age 70 is likely to increase
+the proportion of zero contributions just after age 70 and decrease it
+just before age 70. Dropping zero contributions would therefore arti-
+ﬁcially increase the average log of contributions just after age 70 and
+would under-estimate the magnitude of the timing responses.29
+
+Our methodology differs slightly from traditional bunching esti-
+mation techniques for at least two reasons. First, our approach is
+based on an inter-temporal setting. The taxation occurs only at death
+but depends on the age at which contributions were made. Therefore,
+the relevant dependent variable is the amount of contributions made
+instead of the number of individuals or accounts by age.30 Second, the
+difference between the empirical and the counterfactual functions
+above the notch (c2) corresponds to the magnitude of medium-term
+timing responses, i.e. what proportion of contributions have been
+retimed after age 70. Finally, the size of the hole determines the length
+of the horizon over which there is retiming. Usually, the estimation of
+medium-term responses is diﬃcult to convincingly identify because
+tax change and time effects are not dissociable. The originality of our
+estimation comes from the fact that the tax change is associated with
+age. By pooling together different cohorts of individuals over a long
+period of time, we can then properly isolate medium-term timing
+responses from time-varying or age-varying factors.
+
+3.1.2. Results
+
+Fig. 3 reports empirical and counterfactual contributions (in log)
+by quarterly age around the notch. Speciﬁcally, Fig. 3 is split into
+two panels. Panel A makes reference to wealthy individuals with
+accounts under the supervision of portfolio manager (“wealthy indi-
+viduals”). Panel B corresponds to individuals with standard accounts
+(“standard individuals”).31 Each panel shows the estimate of b, i.e.
+excess mass divided by the average contributions at the notch, with
+its standard error shown in parentheses.
+
+Our main ﬁndings are the following. First, we observe bunching
+concentrated just during the last quarter before 70 years old in both
+panels. The size of the bunching differs signiﬁcantly depending on
+the level of wealth. Panel A depicts important bunching correspond-
+ing to 0.83 times the height of the counterfactual contribution at age
+
+29 As a sensitivity analysis, we have also added two euros (instead of one euro) to
+each contribution and the results are unchanged (see online Appendix Table 14).
+30 The increase in taxation at age 70 should only affect the amount of contributions
+made. As Assurance-vie transmission and taxation will occur only at death, individuals
+having opened an account before age 70 will keep this account until death. Therefore,
+the distribution of the number of accounts by age remains smoothed and exhibits
+no discontinuity at age 70 (online Appendix Fig. 6).
+31 Online Appendix Fig. 7 reports the evolution of account balances and different
+types of contributions (discretionary, automatic, and account-opening contributions)
+by quarterly age.
+
+Empirical contributions by age
+
+Contrefactual contributions by age
+
+b = 0.827 (0.066)
+
+60
+
+65
+
+68
+
+70
+
+72
+
+75
+
+80
+
+Quarterly age
+
+A) FOR WEALTHY INDIVIDUALS
+
+Empirical contributions by age
+
+Counterfactual contributions by age
+
+b = 0.157 (0.008)
+
+)
+g
+o
+l
+ 
+n
+i
+(
+ 
+s
+n
+o
+i
+t
+u
+b
+i
+r
+t
+n
+o
+C
+
+)
+g
+o
+
+l
+ 
+
+n
+i
+(
+ 
+s
+n
+o
+
+i
+t
+
+u
+b
+i
+r
+t
+
+n
+o
+C
+
+1
+
+8
+
+.
+
+6
+
+.
+
+4
+
+.
+
+2
+
+.
+
+.
+
+4
+1
+
+2
+.
+1
+
+1
+
+8
+.
+
+6
+.
+
+60
+
+65
+
+68
+
+70
+
+72
+
+75
+
+80
+
+Quarterly age
+
+B) FOR STANDARD INDIVIDUALS
+
+Fig. 3. Contributions by age around the notch, France 2003–2013. Notes: Fig. 3A and
+B reports empirical and counterfactual contributions (in log) by quarterly age. More
+precisely, it displays the average log of (individual-level contributions + 1) by quar-
+terly age. The sample corresponds to French Assurance-vie accounts opened after
+11/20/1991 over the 2003–2013 period. Fig. 3A corresponds to wealthy individuals
+with accounts under the supervision of portfolio manager. Fig. 3B corresponds to indi-
+viduals with standard accounts. At the notch (denoted by the vertical line), taxation
+changes radically. Contributions made before age 70 are taxed at a ﬂat rate of 20 %
+after an exemption of 152,500 euros. Contributions made after 70 are recalled into
+the inheritance tax base with top marginal tax rate going up to 40 %. The counterfac-
+tual contributions are estimated as in Eqs. (1) and (2), using a polynomial of order 4.
+The vertical dashed lines denote the upper and lower bounds of the excluded region
+around the notch. The lower bound of the excluded region is set at the point where
+excess bunching starts while the upper bound is chosen, such as bunching mass equals
+missing mass. b is the estimate of the excess mass divided by the average contribu-
+tions at the notch, with its standard error shown in parentheses. All standard errors are
+obtained by block-bootstrap procedure at the individual level with 600 replications.
+
+70 for the wealthy. Panel B shows moderate bunching correspond-
+ing to 0.16 times the height of the counterfactual contributions for
+the standard individuals. Second, both notches are associated with
+a slight but wide hole above the cutoff. Finally, the horizon of tim-
+ing responses is 3 years for wealthy individuals and 1.5 years for
+standard individuals.
+
+Table 8 A presents reduced-form estimates of timing responses
+and inter-temporal shifting elasticity with respect to the net-of-
+tax rate.32 The elasticities corresponding to medium-term timing
+
+32 Note that our bunching approach allows to identify reduced-form rather than
+structural responses. Our estimated responses are therefore a combination of the
+structural behavioral responses and other factors such as preference for bequest and
+consumption and liquidity constraints.
+
+30
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+Table 8
+Absolute value of timing responses and reduced-form elasticity estimates.
+
+Timing responses Reduced-form
+
+Panel A: All individuals
+Standard individuals
+
+Wealthy individuals
+
+0.02∗∗∗
+(0.004)
+0.03∗∗∗
+(0.008)∗∗
+
+elasticity
+
+0.08∗∗∗
+(0.012)
+0.10∗∗∗
+(0.028)*
+
+Horizon of timing
+responses
+
+1.5 years
+
+3 years
+
+Panel B: Individuals with accounts between 100,000 € and 700,000 €
+Standard individuals
+
+2 years
+
+Wealthy individuals
+
+2 years
+
+0.06∗∗∗
+(0.012)
+0.06∗∗∗
+(0.016)
+
+0.21∗∗∗
+(0.042)
+0.21∗∗∗
+(0.054)
+
+Bootstrap standard errors in parentheses.
+Note: The table shows the absolute values of timing responses and reduced-form
+estimates of the inter-temporal shifting elasticity implied by bunching at the notch.
+Timing responses are directly obtained from the estimation of Eq. (3). Medium-term
+timing responses correspond to c2. Standard errors are obtained by block-bootstrap
+procedure at the individual level with 600 replications. The reduced-form elasticities
+are computed by dividing timing responses by log(1 − 0.4) − log(1 − 0.2), and the
+standard errors associated are derived by the delta method.
+∗ p < 0.1.
+∗∗ p < 0.05.
+∗∗∗ p < 0.01.
+
+responses are equal for both groups to 0.10. As described in online
+Appendix Tables 15 and 16, our results are robust to the choice of
+functional form for the counterfactual function. They are also robust
+to the choice of the upper part of the excluded zone.
+
+The contrast between important bunching and modest resulting
+timing responses can be explained easily. The increase in taxation has
+only reduced by 2%–3% the contributions that would have been made
+after age 70. However, the overall reduction of contributions observed
+during several years after age 70 has been entirely shifted just before
+age 70. Consequently, we observe important bunching mass just
+before age 70, although it only reﬂects modest inter-temporal shifting
+responses in the medium run.
+
+Timing horizon constitutes a crucial parameter in the particular
+framework of inter-temporal shifting responses. It reﬂects the max-
+imum length of the horizon over which individuals are able to shift
+contributions. Timing horizon is twice as large for the wealthy as it
+is for standard individuals.
+
+Wealthy individuals differ from standard individuals for two rea-
+sons. First, they are richer. Second, they have someone actively
+managing their wealth. Differences of timing responses or timing
+horizon among groups could therefore be explained either by asym-
+metric information (salience of tax) or wealth differences (liquidity
+constraints). In order to isolate the proper effect of wealth differ-
+ences on timing responses, Table 8 B presents results for wealthy and
+standard individuals with similar account balance (between 100,000
+euros and 700,000 euros) during the initial period. If differences
+in timing horizon and timing responses between groups are due
+to asymmetric information, then these differences should remain
+when comparing timing horizon and timing responses of standard
+and wealthy individuals with similar account balances. In contrast,
+Table 8 B shows similar timing responses and horizon of tax planning
+between groups with similar account balances. The differences in
+timing horizon in Table 8 A can therefore not be attributed to differ-
+ential tax salience among groups. If liquidity constraints are likely to
+play on the magnitude of timing horizon and timing responses, then
+timing horizon and timing responses should be higher for individu-
+als without liquidity constraints. The comparison of timing responses
+between Panels A and B shows that timing responses are higher for
+standard and wealthy individuals with accounts between 100,000
+euros and 700,000 euros. These individuals belong to the top 20%
+
+wealthiest AXA account holder group and should not face any liquid-
+ity constraints.33 Therefore, liquidity constraints is likely to affect the
+magnitude of timing responses. However, both timing responses and
+timing horizon remain limited among individuals without liquidity
+constraints. These individuals have only reduced by 6% the contri-
+butions that would have been made after age 70, corresponding to
+medium-term timing responses equal for both groups to 0.21.
+
+In summary, our bunching analysis shows that individuals fail
+to minimize tax liabilities through retiming responses. Both groups
+retime only 2%–3% of the contributions made just after age 70, lead-
+ing to medium-term timing responses around 0.10. In addition, the
+length of the horizon over which individuals are able to shift contri-
+butions is limited. It is equal to 3 years for wealthy individuals and
+1.5 years for standard individuals. Liquidity constraints can explain
+part of the small timing responses and timing horizon. However,
+timing responses and horizon of tax planning are still limited for
+individuals who are not subject to liquidity constraints. Such ﬁndings
+do not seem consistent with forward-looking individuals’ decisions
+and could be better explained by the presence of myopia.
+
+3.2. Real and shifting responses: difference-in-differences approach
+
+3.2.1. Empirical methodology and identiﬁcation
+
+Apart from timing responses, the preferential tax scheme for
+Assurance-vie can also generate real and shifting responses. In order
+to investigate these effects, we exploit the fact that the tax change
+implemented in 1992 is not retroactive. Therefore, accounts opened
+before 11/20/1991 are not subject to taxation change after age 70.
+They can then constitute a proper counterfactual to those opened
+after the implementation of the reform in a difference-in-differences
+approach. Unfortunately, we only observe contributions made from
+2003 to 2013, i.e. at least 12 years after accounts had been opened.
+To avoid comparability issues, we restrain our sample to accounts
+opened up to two years before or after the implementation of the
+reform.
+
+Fig. 4 compares the normalized log contributions and log account
+balances by quarterly age coming from accounts opened just two
+years before or after the 1992 reform. Both series display similar
+trend leading up to age 70 and then begin to diverge.34 Contribu-
+tions from the control group remain almost constant after 70 years
+old, whereas those from the treated group decrease continuously.
+While account balances increase at the same rate before age 70, the
+increase is less pronounced for the treated group after age 70.35
+
+We now address three potential concerns with our approach.
+First, our sample includes only accounts (a) not terminated before
+2003, and (b) not terminated during lifetime between 2003 and
+2013. If the reform of 1992 is likely to play on (a) or (b), then our esti-
+mation will suffer from selection bias. More speciﬁcally, the reform
+may have increased the probability to terminate the accounts opened
+after 11/20/1991 during lifetime, while they would have been trans-
+mitted at death in absence of the reform. We argue that it should not
+be the case, because these accounts still beneﬁt from a supplemen-
+tal tax exemption of 30,000 euros and a complete exemption of the
+
+33 With an account balance between 100,000 euros and 700,000 euros, these indi-
+viduals belong to the top 10–1 % wealth group for elderly French population.
+34 Note that there is no bunching around age 70 for the treated group. Indeed, bunch-
+ing around age 70 occurs mainly during the ﬁrst few years after the date of account
+opening. In contrast, Fig. 4 depicts contributions made between 2003 and 2013, i.e.
+10 to 20 years after the assurance-vie accounts were opened. Online Appendix Fig. 11
+shows contributions made between 2003–2013 by quarterly age, depending on the
+opening date of the accounts.
+35 As robustness checks, online Appendix Fig. 12.A and B depict the evolution of
+contributions in falsiﬁcation experiments, in which control and treatment groups are
+either both affected or both unaffected by the taxation change at age 70. In these falsi-
+ﬁcation experiments, both series display parallel trends during lifetime and show no
+divergence at age 70.
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+31
+
+Control: Accounts opened btwn 11/1989 and 11/1991
+
+Treatment: Accounts opened btwn 11/1991 and 11/1993
+
+DD elasticities:
+
+Average: 0.25 (0.072)
+
+Long−term: 0.23 (0.072)
+
+Medium−term: 0.36 (0.088)
+
+5
+
+.
+
+0
+
+.
+
+5
+−
+
+60
+
+65
+
+70
+
+75
+
+80
+
+Quarterly age
+
+A) AVERAGEC ONTRIBUTIONS (INLOG) BY QUARTERLY AGE
+
+1
+
+5
+
+.
+
+0
+
+.
+
+5
+−
+
+DD elasticities:
+
+Average: 0.13 (0.055)
+
+Long−term: 0.10 (0.054)
+
+Medium−term: 0.30 (0.073)
+
+Control: Accounts opened
+
+btwn 11/1989 and 11/1991
+
+Treatment: Accounts opened
+
+btwn 11/1991 and 11/1993
+
+s
+n
+o
+i
+t
+u
+b
+i
+r
+t
+n
+o
+c
+ 
+f
+o
+ 
+g
+o
+l
+ 
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+N
+
+s
+e
+c
+n
+a
+a
+b
+
+l
+
+ 
+t
+
+n
+u
+o
+c
+c
+a
+
+ 
+f
+
+o
+
+ 
+
+g
+o
+
+l
+ 
+
+d
+e
+z
+
+i
+l
+
+a
+m
+r
+o
+N
+
+60
+
+65
+
+70
+
+75
+
+80
+
+Quarterly age
+
+B) AVERAGE ACCOUNT BALANCES (INLOG) BY QUARTERLY AGE
+
+Fig. 4.
+Impact of inheritance tax on wealth accumulation: Difference-in-differences
+evidence. Notes: The ﬁgure shows the normalized average log of (contributions + 1)
+and the normalized average log of (account balances + 1) by quarterly age in the
+control and treatment group. The normalization consists in subtracting to each aver-
+age log of contributions/account balances of a given quarterly age, the average log
+of contributions/account balances between 60 and 70 years old. Contributions from
+accounts opened after 11/20/1991 (treatment group) encounter a sharp increase
+in taxation after age 70, while contributions coming from accounts opened before
+11/20/1991 (control group) are not affected by the tax reform. The corresponding
+elasticity estimates are reported (see Table 9).
+
+capitalized interests. The reform should only play on the supplemen-
+tal contributions made after age 70 and above the tax exemption.
+Therefore, the reform should not affect the probability to terminate
+the account.
+
+Second, individuals could anticipate the reform by opening an
+account just before its implementation. In this case, the assignment
+in the treated or control group would no longer be considered as
+exogenous, and the estimation would be biased. This latter point,
+however, should not be a concern in our analysis. The 1992 reform
+was applied to Assurance-vie accounts opened after 11/20/1991, i.e.
+40 days before the law was voted, in order to avoid this kind of
+behavior.
+
+Formally, we can test the presence of selection bias using the fol-
+lowing intuition. If the treatment selection based on the 1992 reform
+is not exogenous, we should expect the number of accounts opened
+after the reform to be much less important than those opened before
+
+the reform. In contrast, online Appendix Fig. 8 exhibits no difference
+in the number of accounts coming from both groups.36
+
+Finally, a difference-in-differences design is usually imple-
+mentable when a sharp and unexpected change affects one out of
+two groups that would evolve similarly in absence of the change.
+That is not the case in our framework. The policy change was imple-
+mented in 1992, implying that individuals from the treatment group
+are aware of the tax scheme they face before and after age 70 through-
+out the studied period (2003–2013). In a classical life-cycle model
+with bequest motives, forward-looking individuals should therefore
+plan ahead and adjust both their contributions made before and after
+age 70, invalidating the use of a difference-in-differences approach.
+However, Fig. 4 shows that they don’t. The evolutions of contribu-
+tions and account balances before age 70 are similar between groups.
+These ﬁndings are therefore not consistent with forward-looking
+individuals’ decisions and could be better explained by the presence
+of myopia in a peculiar model with people aware and responsive to
+current tax rates but not to future expected tax rates. In this partic-
+ular context, a difference-in-differences design makes sense. Indeed,
+myopic individuals unable to respond to future expected tax changes
+should behave exactly as individuals unaware of future tax changes.
+Formally, we can quantify the impact of the inheritance tax
+change on Assurance-vie accumulation using regression speciﬁca-
+tions of the form:
+log(yiagt + 1) = d • log(1 − tga) + bg + ca + mt + eia
+
+(4)
+
+log(yiagt + 1) = d • log(1 − tga) + ai + ca + mt + eia
+
+(5)
+
+where the dependent variable is either contributions or account
+balances (in log)37 of individual i of age a from group g at time t. ai,
+bg, ca and mt are respectively individual, group, age, and year ﬁxed
+effects. The treatment group is deﬁned as individuals with accounts
+opened up to two years after 11/20/1991, and the control group is
+deﬁned as individuals with accounts opened up to two years before
+11/20/1991. tga is the top marginal tax rate faced by individuals from
+group g at age a. Consistent with the reform of the preferential tax
+scheme, it is equal to 40% for individuals from the treated group
+aged more than 70 years old and 20% otherwise. d represents the
+difference-in-differences elasticity estimate. In Eq. (5), group ﬁxed
+effects are substituted by individual ﬁxed effects to fully exploit the
+longitudinal dimension of our data set.
+
+3.2.2. Results
+3.2.2.1. Regression estimates. Table 9 summarizes the graphical evi-
+dence described above by presenting elasticity estimates. All esti-
+mates are derived from Eqs. (4) and (5) using as dependent variable
+either contributions (Panel A) or account balances (Panel B).
+
+Column 2 reports the elasticity estimates from Eq. (4), while
+column 1 omits year ﬁxed effects. The estimated elasticities are
+essentially the same in both speciﬁcations: around 0.32 for contribu-
+tions and 0.38 for account balances. Time is indeed irrelevant in our
+
+36 In addition, online Appendix Fig. 9 shows that the density distributions are simi-
+lar between groups. Online Appendix Fig. 10 depicts survival rates by age of account
+owner in 2003 and treatment status over the 2003–2013 period. It shows that attrition
+is slightly more pronounced in the treated group but the differences remain limited.
+37 Note that we add one euro to each individual-level contribution/account balance
+in order to include zeros in the analysis. Indeed, dropping them could bias downward
+the results. The jump in taxation after age 70 decreases the incentives of individu-
+als from the treated group to make contributions after age 70, while it is not the case
+for the control group. Dropping zero contributions could artiﬁcially increase the aver-
+age level of contributions made by the treated group after age 70 and could strongly
+reduce the estimated elasticity. As a sensitivity analysis, we have also added two
+euros (instead of one euro) to each contribution/account balance and the results are
+unchanged (see online Appendix Table 17).
+
+32
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+Table 9
+Impact of inheritance tax on wealth accumulation: Difference-in-differences elasticity estimates.
+
+(1)
+
+(2)
+
+Panel A: Dependent variable log of (individual-level contributions+1)
+Treatment
+
+0.319∗∗∗
+(0.103)
+
+0.311∗∗∗
+(0.103)
+
+Before treatment
+
+Treatment
+(long-term)
+Treatment
+(medium-term)
+
+Panel B: Dependent variable log of (individual-level account balance+1)
+Treatment
+
+0.379∗∗
+(0.152)
+
+0.383∗∗
+(0.152)
+
+Before treatment
+
+Treatment
+(long-term)
+Treatment
+(medium-term)
+Age FEs
+Year FEs
+Individual FEs
+Sample size
+Number of individuals
+
+x
+x
+
+x
+
+652,071
+25,995
+
+(3)
+
+0.364∗∗∗
+(0.133)
+0.068
+(0.067)
+
+0.469∗∗∗
+(0.179)
+0.109
+(0.079)
+
+x
+x
+
+(4)
+
+0.252∗∗∗
+(0.072)
+
+0.130∗∗
+(0.055)
+
+x
+x
+x
+
+(5)
+
+0.232∗∗∗
+(0.072)
+0.360∗∗∗
+(0.088)
+
+0.100*
+(0.054)
+0.294∗∗∗
+(0.073)
+x
+x
+x
+
+(6)
+
+0.252∗∗∗
+(0.068)
+
+0.130∗∗
+(0.054)
+
+x
+x
+x
+
+The standard errors in parentheses are clustered at the individual level.
+Note: The table displays elasticity estimates of the impact of the 1992 inheritance tax reform on Assurance-vie accumulation. The estimates are based on Eqs. (4) and (5). The
+control group corresponds to accounts opened just before the tax reform (between 11/20/1989 and 11/20/1991). The treated group corresponds to accounts opened just after the
+tax reform (between 11/20/1991 and 11/20/1993). For contributions made by the treatment group after 70 years old, top marginal tax rate goes from 20 % to 40 %, while it remains
+constant at 20 % for the control group. Speciﬁcation 3 controls for differential preexisting age trends speciﬁc to control and treatment groups. It includes a “placebo” treatment
+variable for the ﬁve-year period before the increase in taxation at age 70. In column 4, individual ﬁxed effects are substituted to group ﬁxed effects. Speciﬁcation 5 investigates
+equal dynamic effects. The elasticity is broken down into medium- and long-term elasticities. Medium term refers to 0 to 5 years before age 80 (death), and long term equals 5 to
+10 years before age 80. Column 6 reports the same elasticity as in column 4, but a block-bootstrap method at the individual level with 200 replications is used to derived standard
+errors.
+∗ p < 0.1.
+∗∗ p < 0.05.
+∗∗∗ p < 0.01.
+
+framework, because the tax change depends only on age and opening
+date of the account.38
+
+Our estimates should only be biased if both groups follow differ-
+ent age trends before the tax change. Speciﬁcation 3 investigates a
+potential difference in preexisting trends between the treatment and
+control groups. In this speciﬁcation, we introduced a “placebo” treat-
+ment variable for the ﬁve-year period before the increase in taxation
+at age 70. The placebo elasticities are small (0.068 for contributions
+and 0.109 for account balances) and not statistically signiﬁcant. The
+real treatment elasticities are almost unchanged, and the change is
+not statistically signiﬁcant.
+
+Speciﬁcation 4 tests the robustness of the elasticities to the intro-
+duction of individual ﬁxed effects (Eq. (5)), while Speciﬁcation 5
+investigates dynamic effects of the tax change by splitting the post-
+treatment period into a long-term horizon (70–75 years old) and a
+medium-term horizon (75–80 years old).39 These speciﬁcations are
+the most reliable and constitute our baseline speciﬁcations from
+now on. For contributions (Panel A), the average elasticity decreases
+slightly to 0.25 and remains statistically signiﬁcant at the 1% level. The
+medium-term elasticity (0.36) is statistically more important than
+the long-term elasticity (0.23).40 For account balances (Panel B), the
+elasticity between 70 and 75 years old is small (0.10) and barely sig-
+niﬁcant. In contrast, the elasticity after age 75 is around 0.29 and
+statistically signiﬁcant at the 1% level. This difference can be explained
+
+38 Adding interacted age-year or group-year ﬁxed effects also has no impact on
+elasticity estimates.
+39 As life expectancy is approximately equal to80 years,the mediumtermcorresponds
+to 5 years before death, and the long term corresponds to 5–10 years before death.
+40 Medium- and long-term elasticities are statistically signiﬁcant from each other
+at the 5% level.
+
+easily. The elasticity of account balances reﬂects the cumulative effect
+of the reduction in contributions and associated earnings on the stock
+of Assurance-vie accounts. As the tax change occurs at age 70, the total
+reduction of contributions just after age 70 represents only a small
+proportion of account balances. As people get older, the total reduc-
+tion of contributions and associated earnings constitutes a growing
+proportion of the stock of account. Moreover, this effect is ampliﬁed
+by the fact that the reduction of contributions increases with age. Con-
+sequently, the elasticity of account balances increases continuously
+when people get older and is equal to 0.29 after age 75.
+
+Following the inﬂuential paper of Bertrand et al. (2004), column 6
+tests the potential bias of the standard errors. The elasticity reported
+in column 6 is identical to that reported in column 4, but a block-
+bootstrap method at the individual level is used to derive standard
+errors. The bootstrap standard errors are similar to the clustered stan-
+dard errors. As noted by Bertrand et al. (2004), clustering performs
+well when the number of clusters is large.
+
+Taken together, these results show that elasticities are small (0.25–
+0.35) and precisely estimated. The small magnitude of elasticities can
+be explained by the fact that despite a huge increase in taxation at age
+70, the tax change has only induced a reduction of contributions of 7 %.
+The elasticities reﬂect the aggregate effect of two different types of
+responses: (i) a substitution of Assurance-vie for other assets (shift-
+ing among asset portfolio), and (ii) a substitution of Assurance-vie
+for consumption (wealth disaccumulation). Our estimated elastici-
+ties should be seen as an upper bound of the true elasticity of taxable
+estate. If 100% of the estimated elasticity was due to real responses,
+our estimated elasticity would be similar to the elasticity of taxable
+estate. However, a part of the estimated elasticity is due to shift-
+ing responses. As shifting responses do not affect the overall level
+of wealth, this part of the elasticity should not matter. Ideally, one
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+33
+
+Table 10
+Robustness checks: Difference-in-differences elasticity estimates.
+
+Baseline
+
+(1)
+0.252∗∗∗
+(0.072)
+652,071
+25,995
+
+Varying control group
+
+Control#2
+
+(2)
+0.389∗∗∗
+(0.074)
+546,805
+22,658
+
+Placebo
+
+(3)
+
+0.090*
+(0.066)
+1,084,542
+43,194
+
+Varying year window
+±1 year
+
+(4)
+0.227∗∗
+(0.107)
+276,349
+10,971
+
+±4 years
+
+(5)
+0.238∗∗∗
+(0.046)
+1,652,778
+66,401
+
+Treatment
+
+Sample size
+Number of individuals
+
+The standard errors in parentheses are clustered at the individual level.
+Note: The table presents various robustness checks. Column 1 reproduces the baseline elasticity (column 4 from Table 9). For the baseline speciﬁcation, the difference-in-
+differences estimation is based on accounts opened up to two years before or after 11/20/1991, i.e. the implementation date of the reform.
+Columns 2 and 3 show the results with alternative control group. In column 2, the control group corresponds to accounts opened 2 to 4 years before the tax reform (instead of 0
+to 2 years). In column 3, both groups encounter the tax change at age 70. The “treated control group” corresponds to accounts opened 2 to 4 years after the tax reform.
+Columns 4 and 5 show the results with varying year window. In the baseline speciﬁcation, the sample was restricted to accounts opened up to 2 years before or after 11/20/1991
+(±2 year window). Columns 4 and 5 report the results for ±1 and ±4 year window.
+∗ p < 0.1.
+∗∗ p < 0.05.
+∗∗∗ p < 0.01.
+
+should compare the evolution of wealth composition in both groups
+in order to disentangle the shifting and real components of the elas-
+ticity. Unfortunately, our data set includes only the share of wealth
+dedicated to Assurance-vie.
+
+3.2.2.2. Robustness checks. Table 10 considers various robustness
+checks. Column 1 reproduces our baseline estimate (column 4 from
+Table 9).
+
+In speciﬁcations 2 and 3, we consider alternative control groups.
+In speciﬁcation 2, we select accounts opened between 11/20/1987
+and 11/20/1989 as control group, i.e. 2 to 4 years before the imple-
+mentation of the tax reform (instead of 0 to 2 years in the baseline
+speciﬁcation). The elasticity increases moderately from 0.25 to 0.39.
+As the alternative control group is a poorer substitute to the baseline
+control group, it is less likely to reﬂect the evolution of the treat-
+ment group in absence of the tax change. However, elasticity from
+column 2 is very close to that obtained in the baseline speciﬁcation.
+In speciﬁcation 3, we conduct “falsiﬁcation experiments” in which
+the control group is also affected by the tax change at age 70, i.e.
+accounts opened 2 to 4 years after the implementation of the tax
+reform (instead of 0 to 2 years before in the baseline speciﬁcation). In
+this new setting, both groups encounter exactly the same change in
+taxation at 70 years old. Consistent with this framework, the placebo
+elasticity is small (0.09) and insigniﬁcant.
+
+In speciﬁcations 4 and 5, we carry out a sensitivity analysis with
+respect to the window width used to select the sample. Speciﬁcation
+4 reports the elasticity estimate for a “±1 year” window (accounts
+opened one year before or after the implementation of the 1992
+reform). Speciﬁcation 5 is based on a “±4 year” window. Broadly
+speaking, the results are robust to the window width used. All elas-
+ticities are very similar. Elasticity from speciﬁcation 5, however, is
+less signiﬁcant due to the smaller size of the sample.
+
+3.3. Discussion
+
+The analysis of behavioral responses to inheritance tax yields ﬁve
+main results. First, all elasticities are moderate, although they are
+precisely estimated and robust to various robustness checks. Second,
+timing responses around aged 70 are small (around 0.1), and the
+horizon over which people are able to shift contributions is limited
+(1.5 to 3 years). Third, the small magnitude of timing responses cannot
+be explained by tax salience. Fourth, real and shifting responses are
+more important than timing responses but remain limited around
+0.25–0.35. Finally, real and shifting responses increase signiﬁcantly
+when individuals get closer to death.
+
+Our empirical ﬁndings shed new light on motivations behind
+wealth accumulation and bequest motives. Poterba (2001) and
+Joulfaian and McGarry (2004) (among others) have shown that gifts
+appear to be signiﬁcantly underutilized as a tax planning tool, while
+Kopczuk (2007) documented tax-motivated actions at the onset of a
+terminal illness. Kopczuk (2007) argues that these ﬁndings could be
+explained by two possible factors: a) “people do care about bequests
+but they attach value to holding on to their wealth” or b) “procras-
+tination in planning for behavioral reasons such as the diﬃculty of
+acknowledging own mortality until it no longer can be denied”. Our
+analysis provides a way of testing to what extent these two alternative
+explanations are supported by our empirical evidence.
+
+While our results are fully consistent with those highlighted by
+previous literature, they cannot be explained by the desire to retain
+control over wealth up to death (a). As for gifts, we ﬁnd that individu-
+als fail to fully use Assurance-vie as a planning tool. Indeed, we show
+that timing responses and the horizon of tax planning are limited.
+We also document an increasing elasticity over age, which is consis-
+tent with the fact that people care more about the disposition of their
+estate when closer to death. However, these ﬁndings could not be
+explained by a desire of individuals to hold on to their wealth while
+alive. Assurance-vie is a very ﬂexible ﬁnancial asset that allows indi-
+viduals to make unlimited contributions/withdrawals at any time
+and therefore to retain total control over assets while alive.41
+
+Our ﬁndings could be consistent with procrastination in planning
+(b) induced bybehavioral reasonssuch as“denial of death”and myopia
+for several reasons. First, both timing responses and the horizon over
+which people are able to shift contributions are limited. These ﬁnd-
+ings are due neither to salience of tax nor to liquidity constraints42.
+In contrast, they are consistent with the presence of procrastination
+in planning. Second, while individuals are aware of taxation changes
+at age 70 and therefore could plan ahead, Fig. 4 shows that they don’t.
+These ﬁndings are therefore not consistent with forward-looking
+individuals’ decisions and could be better explained by the presence
+of myopia. Third, real and shifting responses increase signiﬁcantly
+when individuals get older and therefore closer to death. This is fully
+consistent with the fact that tax planning tools and more generally
+
+41 Preference for lifetime wealth retention, ‘rotten kid theorem,’ or uncertainty about
+death are all irrelevant in our framework, because Assurance-vie remains part of
+individuals’ wealth and can be cashed out at any time without cost.
+42 Both timing responses and horizon of tax planning remain limited when restricting
+our sample to individuals with accounts between 100,000 euros and 700,000 euros
+(Panel B of Table 8).
+
+34
+
+J. Goupille-Lebret, J. Infante / Journal of Public Economics 168 (2018) 21–34
+
+bequest remind people of death, which is associated to a painful event.
+They will therefore avoid dealing with death and inheritance until
+an advanced age. When individuals get closer to death, they progres-
+sively accept the idea of contemplating death and are more prompt
+to transmit their wealth and react to inheritance tax. Let us under-
+line that our ﬁndings do not provide direct evidence pointing to the
+existence of psychological factors and that this question remains a
+promising avenue for future research.
+
+4. Conclusion
+
+Our article has analyzed the effect of inheritance taxation on
+different components of behavioral responses in an inter-temporal
+framework. This study has beneﬁted from ﬁrst-time access to a
+unique longitudinal data set from the ﬁnancial company AXA. Our
+empirical strategy exploits quasi-experimental variation created by
+the French preferential tax scheme for wealth transmission through
+Assurance-vie account. This scheme offers an opportunity to credibly
+disentangle timing responses from other responses such as shifting
+among tax base and wealth disaccumulation directly during lifetime,
+rather than relying solely on observations at death.
+
+Our empirical ﬁndings shed new light on motivations behind
+wealth accumulation and bequest motives. Although our ﬁndings are
+consistent with those from the literature, our interpretation differs.
+Indeed, we show that our results cannot be supported by the desire
+to retain control over wealth. We also show that our results cannot
+be explained by an absence of tax salience and are not consistent
+with forward-looking individuals’ decisions. Although our ﬁndings
+may be consistent with the existence of psychological biases such as
+myopia and denial of death, this question remains open and is left for
+future research.
+
+Appendix A. Supplementary data
+
+Supplementary data to this article can be found online at https://
+
+doi.org/10.1016/j.jpubeco.2018.09.016.
+
+References
+
+Arrondel, L., Laferrere, A., 2001. Taxation and wealth transmission in France. J. Public
+
+Econ. 79 (1), 3–33.
+
+Auten, G., Joulfaian, D., 2001. Bequest taxes and capital gains realizations. J. Public
+
+Econ. 81 (2), 213–229.
+
+Bernheim, B.D., 2002. Taxation and saving.
+
+In: Auerbach, A.J., Feldstein, M. (Eds.),
+
+Handbook of Public Economics. vol. 3. Elsevier, pp. 1173–1249.
+
+Bernheim, B.D., Lemke, R.J., Scholz, J.K., 2004. Do estate and gift taxes affect the timing
+
+of private transfers? J. Public Econ. 88 (12), 2617–2634.
+
+Bertrand, M., Duﬂo, E., Mullainathan, S., 2004. How much should we trust differ-
+
+ences-in-differences estimates? Q. J. Econ. 119 (1), 249–275.
+
+Boserup, S.H., Kopczuk, W., Kreiner, C.T., 2016. The role of bequests in shaping wealth
+inequality: evidence from Danish wealth records. Am. Econ. Rev. Pap. Proc. 106
+(5), 656–661.
+
+Brown, J.R., Coile, C.C., Weisbenner, S.J., 2010. The effect of inheritance receipt on
+
+retirement. Rev. Econ. Stat. 92 (2), 425–434.
+
+Brunetti, M.J., 2006. The estate tax and the demise of the family business. J. Public
+
+Econ. 90 (10–11), 1975–1993.
+
+Chetty, R., 2009a. Is the taxable income elasticity suﬃcient to calculate deadweight
+loss? The implications of evasion and avoidance. Am. Econ. J. Econ. Pol. 1 (2),
+31–52.
+
+Chetty, R., 2009b. Suﬃcient statistics for welfare analysis: a bridge between structural
+
+and reduced-form methods. Annu. Rev. Econ. 1 (1), 451–488.
+
+Chetty, R., Friedman, J.N., Leth-Petersen, S., Nielsen, T.H., Olsen, T., 2014. Active vs.
+passive decisions and crowd-out in retirement savings accounts: evidence from
+Denmark. Q. J. Econ. 129 (3), 1141–1219.
+
+Chetty, R., Friedman, J.N., Olsen, T., Pistaferri, L., 2011. Adjustment costs, ﬁrm
+responses, and micro vs. macro labor supply elasticities: evidence from Danish
+tax records. Q. J. Econ. 126 (2), 749–804.
+
+Elinder, M., Erixson, O., Ohlsson, H., 2012. The impact of inheritances on heirs’ labor
+
+and capital income. B.E. J. Econ. Anal. Policy 12 (1), 1–37.
+
+Elinder, M., Erixson, O., Waldenström, D., 2016. Inheritance and wealth inequality:
+
+evidence from population registers. CEPR Discussion Papers 11191.
+
+Engelhardt, G.V., Kumar, A., 2007. Employer matching and 401(k) saving: evidence
+
+from the health and retirement study. J. Public Econ. 91 (10), 1920–1943.
+
+Farhi, E., Werning, I., 2010. Progressive estate taxation. Q. J. Econ. 125 (2), 635–673.
+Garbinti, B., Georges-Kot, S., 2016. Time to Smell the Roses? Risk Aversion, the Timing
+
+of Inheritance Receipt, and Retirement. INSEE Working Paper G2016/01.
+
+Gelber, A.M., 2011. How do 401(k)s affect saving? Evidence from changes in 401(k)
+
+eligibility. Am. Econ. J. Econ. Pol. 3 (4), 103–122.
+
+Holtz-Eakin, D., Joulfaian, D., Rosen, H.S., 1993. The Carnegie conjecture: some
+
+empirical evidence. Q. J. Econ. 108 (2), 413–435.
+
+Holtz-Eakin, D., Joulfaian, D., Rosen, H.S., 1994a. Entrepreneurial decisions and
+
+liquidity constraints. RAND J. Econ. 25 (2), 334–347.
+
+Holtz-Eakin, D., Joulfaian, D., Rosen, H.S., 1994b. Sticking it out: entrepreneurial
+
+survival and liquidity constraints. J. Polit. Econ. 102 (1), 53–75.
+
+Holtz-Eakin, D., Marples, D., 2001. Distortion Costs of Taxing Wealth Accumulation:
+Income Versus Estate Taxes. National Bureau of Economic Research Working
+Paper 8261.
+
+Joulfaian, D., 2004. Gift taxes and lifetime transfers: time series evidence. J. Public
+
+Econ. 88 (9–10), 1917–1929.
+
+Joulfaian, D., 2005. Choosing between gifts and bequests: how taxes affect the timing
+
+of wealth transfers. J. Public Econ. 89 (11–12), 2069–2091.
+
+Joulfaian, D., 2006. The behavioral response of wealth accumulation to estate taxation:
+
+time series evidence. Natl. Tax J. 59 (2), 253–268.
+
+Joulfaian, D., 2014. Intergenerational Transfers Under an Uncertain Estate Tax. Mimeo
+Joulfaian, D., McGarry, K., 2004. Estate and gift tax incentives and inter vivos giving.
+
+Natl. Tax J. 57 (2), 429–444.
+
+Joulfaian, D., Wilhelm, M.O., 1994. Inheritance and labor supply. J. Hum. Resour. 29 (4),
+
+1205–1234.
+
+Kleven, H.J., Waseem, M., 2013. Using notches to uncover optimization frictions and
+structural elasticities: theory and evidence from Pakistan. Q. J. Econ. 128 (2),
+669–723.
+
+Kopczuk, W., 2007. Bequest and tax planning: evidence from estate tax returns. Q. J.
+
+Econ. 122 (4), 1801–1854.
+
+Kopczuk, W., 2013. Taxation of intergenerational transfers and wealth. In: Auerbach,
+A.J., Chetty, R., Feldstein, M., Saez, E. (Eds.), Handbook of Public Economics. vol. 5.
+Elsevier, pp. 329–390.
+
+Kopczuk, W., 2017. U.S. capital gains and estate taxation: status report and directions
+In: Auerbach, A., Smetters, K. (Eds.), The Economics of Tax Policy.
+
+for reform.
+Oxford University Press, pp. 265–291.
+
+Kopczuk, W., Slemrod, J., 2001. The impact of the estate tax on wealth accumula-
+Jr, Slemrod, J. (Eds.),
+
+tion and avoidance behavior.
+Rethinking Estate and Gift Taxation. Brookings Institution Press, pp. 299–343.
+
+In: Gale, W.G., Hines, J.R.,
+
+Kopczuk, W., Slemrod, J., 2003. Dying to save taxes: evidence from estate-tax returns
+
+on the death elasticity. Rev. Econ. Stat. 85 (2), 256–265.
+
+McGarry, K., 2000. Inter vivos transfers or bequests? Estate taxes and the timing of
+
+parental giving. Tax Policy Econ. 14, 93–121.
+
+McGarry, K., 2001. The cost of equality: unequal bequests and tax avoidance. J. Public
+
+Econ. 79 (1), 179–204.
+
+De Nardi, M., Fella, G., 2017. Saving and wealth inequality. Rev. Econ. Dyn. 26,
+
+280–300.
+
+Nordblom, K., Ohlsson, H., 2006. Tax avoidance and intra-family transfers. J. Public
+
+Econ. 90 (8–9), 1669–1680.
+
+Ohlsson, H., 2011. The legacy of the Swedish gift and inheritance tax, 1884–2004. Eur.
+
+Rev. Econ. Hist. 15 (03), 539–569.
+
+Page, B.R., 2003. Bequest taxes, inter vivos gifts, and the bequest motive. J. Public Econ.
+
+87 (5), 1219–1229.
+
+Piketty, T., Saez, E., 2013. A theory of optimal inheritance taxation. Econometrica 81
+
+(5), 1851–1886.
+
+Poterba, J., 2001. Estate and gift taxes and incentives for inter vivos giving in the US. J.
+
+Public Econ. 79 (1), 237–264.
+
+Saez, E., 2010. Do taxpayers bunch at kink points? Am. Econ. J. Econ. Pol. 2 (3),
+
+180–212.
+
+Saez, E., Slemrod, J., Giertz, S.H., 2012. The elasticity of taxable income with respect to
+
+marginal tax rates: a critical review. J. Econ. Lit. 50 (1), 3–50.
+
+Seim, D., 2017. Behavioral responses to wealth taxes: evidence from Sweden. Am.
+
+Econ. J. Econ. Pol. 9 (4), 395–421.
+
+Slemrod, J., 1998. Methodological issues in measuring and interpreting taxable income
+
+elasticities. Natl. Tax J. 51 (4), 773–788.
+
+Tsoutsoura, M., 2015. The effect of succession taxes on family ﬁrm investment:
+
+evidence from a natural experiment. J. Financ. 70 (2), 649–688.
+
+
